@@ -1,323 +1,721 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import WebsitLogo from "../assets/Logo.png";
+import { NavLink } from "react-router-dom";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-const Navbar2 = () => {
+const Navbar3 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isServiceDropdownOpen, setisServiceDropdownOpen] = useState(false);
+  const [isEcommMenuOpen, setIsEcommMenu] = useState(false);
+  const [isDesignMenuOpen, setIsDesignMenu] = useState(false);
+  const [isDevMenuOpen, setIsDevMenu] = useState(false);
+  const [isBpmMenuOpen, setIsBpmMenu] = useState(false);
+  const [isMEcommMenuOpen, setMIsEcommMenu] = useState(false);
+  const [isMDesignMenuOpen, setMIsDesignMenu] = useState(false);
+  const [isMDevMenuOpen, setMIsDevMenu] = useState(false);
+  const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1280) {
+        setIsEcommMenu(false);
+        setIsDesignMenu(false);
+        setIsDevMenu(false);
+        setIsBpmMenu(false);
+      }
+    };
 
+    // Attach event listener
+    window.addEventListener("resize", handleResize);
+
+    // Run once to check on initial load
+    handleResize();
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <>
-      <nav className="bg-white border-gray-200 dark:border-gray-600 ">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-          <a
-            href="https://flowbite.com"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
+      <nav className="bg-white border-gray-200 dark:border-gray-600">
+        <div
+          className="flex flex-wrap justify-between items-center px-[20px] 3xl:mx-auto
+        3xl:max-w-screen-xl"
+        >
+          {/* Logo */}
+          <NavLink className="flex items-center space-x-3">
+            <img src={WebsitLogo} className="h-8" alt="Ecommerce Logo" />
+          </NavLink>
+
+          {/* Desktop Menu (Visible on xl screens) */}
+          <div
+            id="mega-menu-full-cta"
+            className="hidden xl:flex items-center w-auto"
           >
-            <img src={WebsitLogo} className="h-8" alt="Flowbite Logo" />
-          </a>
+            <ul
+              id="desk-menu"
+              className="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse"
+            >
+              <li className="nav-heads">
+                <NavLink
+                  onClick={() => {
+                    setIsEcommMenu(!isEcommMenuOpen);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
+                  href="#"
+                  className=" 
+                   "
+                >
+                  Ecommerce
+                </NavLink>
+              </li>
+              <li className="nav-heads">
+                <NavLink
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(!isDesignMenuOpen);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
+                  href="#"
+                  className=" "
+                >
+                  Design
+                </NavLink>
+              </li>
+              <li className="nav-heads">
+                <NavLink
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(!isDevMenuOpen);
+                    setIsBpmMenu(false);
+                  }}
+                  href="#"
+                  className=" "
+                >
+                  Development
+                </NavLink>
+              </li>
+              <li className="nav-heads">
+                <NavLink
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(!isBpmMenuOpen);
+                  }}
+                  href="#"
+                  className=" "
+                >
+                  BPM
+                </NavLink>
+              </li>
+              <li className="nav-heads">
+                <NavLink href="#" className=" ">
+                  About Us
+                </NavLink>
+              </li>
+              <li className="nav-heads">
+                <NavLink href="#" className=" ">
+                  Contact Us
+                </NavLink>
+              </li>
+            </ul>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="mega-menu-full-cta"
-            aria-expanded={isMenuOpen}
+            className="block xl:hidden p-4 text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none"
           >
             <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
+            {isMenuOpen ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="20px"
+                height="20px"
+                viewBox="0 0 48 48"
+              >
+                <path
+                  fill="#F44336"
+                  d="M21.5 4.5H26.501V43.5H21.5z"
+                  transform="rotate(45.001 24 24)"
+                ></path>
+                <path
+                  fill="#F44336"
+                  d="M21.5 4.5H26.5V43.501H21.5z"
+                  transform="rotate(135.008 24 24)"
+                ></path>
+              </svg>
+            ) : (
+              <svg
+                className="w-5 h-5"
+                aria-hidden="true"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            )}
           </button>
-
-          {/* Menu Items */}
+        </div>
+        {/* Mobile Menu (Toggled) */}
+        <div
+          id="mobile-menu-nav"
+          className={`xl:hidden ${
+            isMenuOpen ? "block" : "hidden"
+          } p-4 bg-white px-10 flex flex-col justify-between min-h-screen`}
+        >
+          <ul style={{ overflowY: "scroll" }} className="space-y-4">
+            <li className="nav-heads-mobile">
+              <NavLink
+                href="#"
+                className="flex justify-between items-center text-gray-900 hover:text-blue-700"
+                onClick={() => {
+                  setMIsEcommMenu(!isMEcommMenuOpen);
+                  setMIsDesignMenu(false);
+                  setMIsDevMenu(false);
+                  setMIsBpmMenu(false);
+                }}
+              >
+                Ecommerce
+                {isMEcommMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </NavLink>
+            </li>
+            {isMEcommMenuOpen && (
+              <li>
+                <div className="bg-white p-4">
+                  <ul>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        Ecommerce Consultation (Performance)
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        Ecommerce Enablement (Operations)
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        Ecommerce Website Development (TechDev)
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            )}
+            <li className="nav-heads-mobile">
+              <NavLink
+                href="#"
+                onClick={() => {
+                  setMIsEcommMenu(false);
+                  setMIsDesignMenu(!isMDesignMenuOpen);
+                  setMIsDevMenu(false);
+                  setMIsBpmMenu(false);
+                }}
+                className="flex justify-between items-center text-gray-900 hover:text-blue-700"
+              >
+                Design
+                {isMDesignMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </NavLink>
+            </li>
+            {isMDesignMenuOpen && (
+              <li>
+                <div className="bg-white p-4">
+                  <ul>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        YouTube Content Marketing
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        LinkedIn Content Marketing
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        Identity, Branding & Communication
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        Custom Website Development
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            )}
+            <li className="nav-heads-mobile">
+              <NavLink
+                href="#"
+                onClick={() => {
+                  setMIsEcommMenu(false);
+                  setMIsDesignMenu(false);
+                  setMIsDevMenu(!isMDevMenuOpen);
+                  setMIsBpmMenu(false);
+                }}
+                className="flex justify-between items-center text-gray-900 hover:text-blue-700"
+              >
+                Development
+                {isMDevMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </NavLink>
+            </li>
+            {isMDevMenuOpen && (
+              <li>
+                <div className="bg-white p-4">
+                  <ul>
+                    <li className="mb-4">CMS</li>
+                    <div className="pl-4">
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          WordPress
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Drupal
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Joomla
+                        </NavLink>
+                      </li>
+                    </div>
+                    <li className="mb-4">CMS</li>
+                    <div className="pl-4">
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Salesforce
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          HubSpot
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Odoo
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Zoho
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          ERP
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          ERPNext
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Microsoft Dynamics
+                        </NavLink>
+                      </li>
+                      <li className="mb-6 ">
+                        <NavLink
+                          href="#"
+                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        >
+                          Oracle NetSuite
+                        </NavLink>
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+            )}
+            <li className="nav-heads-mobile">
+              <NavLink
+                href="#"
+                onClick={() => {
+                  setMIsEcommMenu(false);
+                  setMIsDesignMenu(false);
+                  setMIsDevMenu(false);
+                  setMIsBpmMenu(!isMBpmMenuOpen);
+                }}
+                className="text-gray-900 flex justify-between items-center hover:text-blue-700"
+              >
+                BPM
+                {isMBpmMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+              </NavLink>
+            </li>
+            {isMBpmMenuOpen && (
+              <li>
+                <div className="bg-white p-4">
+                  <ul>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        CONTENT MIGRATION
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        TRANSLATION
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        TRANSCRIPTION
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        href="#"
+                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                      >
+                        TRANSLITERATION
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            )}
+            <li className="nav-heads-mobile">
+              <NavLink href="#" className="text-gray-900 hover:text-blue-700">
+                About Us
+              </NavLink>
+            </li>
+          </ul>
           <div
-            id="mega-menu-full-cta"
-            className={`${
-              isMenuOpen ? "block" : "hidden"
-            } items-center justify-between w-full md:flex md:w-auto md:order-1`}
+            style={{
+              textAlign: "center",
+              marginTop: "auto",
+              paddingBottom: "10px",
+            }}
           >
-            <ul className="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <button
-                  onClick={() =>
-                    setisServiceDropdownOpen(!isServiceDropdownOpen)
-                  }
-                  className="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0  md:dark:hover:text-blue-500"
-                >
-                  Services
-                  <svg
-                    className="w-2.5 h-2.5 ms-3"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500"
-                >
-                  About US
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500"
-                >
-                  Contact US
-                </a>
+            <ul className="flex justify-center items-center">
+              <li className="nav-heads-mobile">
+                <NavLink href="#" className="text-gray-900 hover:text-blue-700">
+                  Contact Us
+                </NavLink>
               </li>
             </ul>
           </div>
         </div>
-
-        {/* Dropdown Menu */}
-        {isServiceDropdownOpen && (
-          <div id="mega-menu-full-cta-dropdown" className="mt-1">
-            <div className="max-w-screen-xl px-4 py-5 mx-auto text-sm text-gray-500 dark:text-gray-400">
-              <div className="flex justify-between space-x-8">
-                <ul className="space-y-2">
-                  <li className="text-[#414141] font-bold">DIGITAL IDENTITY</li>
-                  <li>
-                    <a
+        {isEcommMenuOpen && (
+          <div>
+            <div
+              className="bg-white px-10 3xl:mx-auto
+        3xl:max-w-screen-xl py-4"
+            >
+              <ul>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    Ecommerce Consultation (Performance)
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    Ecommerce Enablement (Operations)
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    Ecommerce Website Development (TechDev)
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-700 text-amber-50 p-2">
+              <p className="text-center">Have NavLink Query</p>
+            </div>
+          </div>
+        )}
+        {isDesignMenuOpen && (
+          <div>
+            <div
+              className="bg-white px-10 3xl:mx-auto
+        3xl:max-w-screen-xl py-4"
+            >
+              <ul>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    YouTube Content Marketing
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    LinkedIn Content Marketing
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    Identity, Branding & Communication
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    Custom Website Development
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-700 text-amber-50 p-2">
+              <p className="text-center">Have NavLink Query</p>
+            </div>
+          </div>
+        )}
+        {/* py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5 */}
+        {isDevMenuOpen && (
+          <div>
+            <div
+              className="bg-white px-10 3xl:mx-auto
+        3xl:max-w-screen-xl py-4"
+            >
+              <div className="md:flex justify-left gap-8">
+                <ul>
+                  <li>CMS</li>
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      YouTube Content Marketing
-                    </a>
+                      WordPress
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      LinkedIn Content Marketing
-                    </a>
+                      Drupal
+                    </NavLink>
+                  </li>
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
+                      href="#"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                    >
+                      Joomla
+                    </NavLink>
                   </li>
                 </ul>
-                <ul className="space-y-2">
-                  <li className="text-[#414141] font-bold">ECOMMERCE</li>
-                  <li>
-                    <a
+                <ul>
+                  <li>CRM</li>
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      Ecommerce Consultation (Performance)
-                    </a>
+                      Salesforce
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      Ecommerce Enablement (Operations)
-                    </a>
+                      HubSpot
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      Ecommerce Website Development (TechDev)
-                    </a>
+                      Odoo
+                    </NavLink>
                   </li>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="text-[#414141] font-bold">DESIGN</li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      Identity, Branding & Communication
-                    </a>
+                      Zoho
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      Custom Website Development
-                    </a>
+                      ERP
+                    </NavLink>
                   </li>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="text-[#414141] font-bold">DEVELOPMENT</li>
-                  <div className="pl-3">
-                    <li className="font-bold space-y-2 mb-1">- CMS</li>
-                    <div className="pl-3">
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          WordPress
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Drupal
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Joomla
-                        </a>
-                      </li>
-                    </div>
-                  </div>
-                  <div className="pl-3">
-                    <li className="font-bold space-y-2 mb-1">- CRM </li>
-                    <div className="pl-3">
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Salesforce
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          HubSpot
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Odoo
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Zoho
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          ERP
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          ERPNext
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Microsoft Dynamics
-                        </a>
-                      </li>
-                      <li className="mb-1">
-                        <a
-                          className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                          href="#"
-                        >
-                          Oracle NetSuite
-                        </a>
-                      </li>
-                    </div>
-                  </div>
-                </ul>
-                <ul className="space-y-2">
-                  <li className="text-[#414141] font-bold">BPM</li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      CONTENT MIGRATION
-                    </a>
+                      ERPNext
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      TRANSLATION
-                    </a>
+                      Microsoft Dynamics
+                    </NavLink>
                   </li>
-                  <li>
-                    <a
+                  <li className="lg:mt-2 mt-1.5 ">
+                    <NavLink
                       href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
+                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                     >
-                      TRANSCRIPTION
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                    >
-                      TRANSLITERATION
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="hover:underline hover:text-blue-600 dark:hover:text-blue-500"
-                    >
-                      DATA LABELING & ANNOTATION
-                    </a>
+                      Oracle NetSuite
+                    </NavLink>
                   </li>
                 </ul>
               </div>
+            </div>
+            <div className="bg-gray-700 text-amber-50 p-2">
+              <p className="text-center">Have NavLink Query</p>
+            </div>
+          </div>
+        )}
+        {isBpmMenuOpen && (
+          <div>
+            <div
+              className="bg-white px-10 3xl:mx-auto 
+        3xl:max-w-screen-xl py-4"
+            >
+              <ul>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    CONTENT MIGRATION
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    TRANSLATION
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    TRANSCRIPTION
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    TRANSLITERATION
+                  </NavLink>
+                </li>
+                <li className="lg:mt-2 mt-1.5 ">
+                  <NavLink
+                    href="#"
+                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                  >
+                    DATA LABELING & ANNOTATION
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-700 text-amber-50 p-2">
+              <p className="text-center">Have NavLink Query</p>
             </div>
           </div>
         )}
@@ -326,4 +724,4 @@ const Navbar2 = () => {
   );
 };
 
-export default Navbar2;
+export default Navbar3;
