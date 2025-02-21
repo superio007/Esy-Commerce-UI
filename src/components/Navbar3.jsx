@@ -15,6 +15,7 @@ const Navbar3 = () => {
   const [isMDevMenuOpen, setMIsDevMenu] = useState(false);
   const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
   const menuRef = useRef(null); // Reference to the menu container
+  const [isFromJwtAvailble, setisFromJwtAvailble] = useState(localStorage.getItem("user-token") || "");
 
   useEffect(() => {
     const handleResize = () => {
@@ -55,7 +56,7 @@ const Navbar3 = () => {
         className="bg-white border-gray-200 dark:border-gray-600"
       >
         <div
-          className="flex flex-wrap justify-between items-center px-[20px] 3xl:mx-auto
+          className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto
         3xl:max-w-screen-xl"
         >
           {/* Logo */}
@@ -486,7 +487,7 @@ const Navbar3 = () => {
           id="mobile-menu-nav"
           className={`xl:hidden ${
             isMenuOpen ? "block" : "hidden"
-          } p-4 bg-white px-10 flex flex-col justify-between min-h-screen`}
+          } p-4 bg-white xl:px-10 flex flex-col justify-between min-h-screen`}
         >
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
             <li className="nav-heads-mobile">
@@ -764,7 +765,16 @@ const Navbar3 = () => {
               </li>
             )}
             <li className="nav-heads-mobile">
-              <NavLink href="#" className="text-gray-900 hover:text-blue-700">
+              <NavLink
+                onClick={() => {
+                  setMIsEcommMenu(false);
+                  setMIsDesignMenu(false);
+                  setMIsDevMenu(false);
+                  setMIsBpmMenu(false);
+                }}
+                href="#"
+                className="text-gray-900 hover:text-blue-700"
+              >
                 About Us
               </NavLink>
             </li>
@@ -776,14 +786,26 @@ const Navbar3 = () => {
               paddingBottom: "10px",
             }}
           >
-            <Sticky />
-            <ul className="flex justify-center items-center">
-              <li className="nav-heads-mobile">
-                <NavLink href="#" className="text-gray-900 hover:text-blue-700">
-                  Contact Us
-                </NavLink>
-              </li>
-            </ul>
+            {isFromJwtAvailble ? (
+              <ul className="flex justify-center items-center bg-[#007fff] text-white">
+                <li className="nav-heads-mobile">
+                  <NavLink
+                    href="#"
+                    onClick={() => {
+                      setMIsEcommMenu(false);
+                      setMIsDesignMenu(false);
+                      setMIsDevMenu(false);
+                      setMIsBpmMenu(false);
+                    }}
+                    className=""
+                  >
+                    Contact Us
+                  </NavLink>
+                </li>
+              </ul>
+            ) : (
+              <Sticky />
+            )}
           </div>
         </div>
 

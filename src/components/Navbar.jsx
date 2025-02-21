@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import WebsitLogo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import Sticky from "./StickyFrom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,6 +15,9 @@ const Navbar = () => {
   const [isMDevMenuOpen, setMIsDevMenu] = useState(false);
   const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
   const menuRef = useRef(null); // Reference to the menu container
+  const [isFromJwtAvailble, setisFromJwtAvailble] = useState(
+    localStorage.getItem("user-token") || ""
+  );
 
   useEffect(() => {
     const handleResize = () => {
@@ -54,12 +58,17 @@ const Navbar = () => {
         className="bg-white border-gray-200 dark:border-gray-600"
       >
         <div
-          className="flex flex-wrap justify-between items-center px-[20px] 3xl:mx-auto
+          className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto
         3xl:max-w-screen-xl"
         >
           {/* Logo */}
           <NavLink className="flex items-center space-x-3">
-            <img id="website-logo" src={WebsitLogo} className="h-8" alt="Ecommerce Logo" />
+            <img
+              id="website-logo"
+              src={WebsitLogo}
+              className="h-8"
+              alt="Ecommerce Logo"
+            />
           </NavLink>
 
           {/* Desktop Menu (Visible on xl screens) */}
@@ -122,7 +131,7 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -189,7 +198,7 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -318,7 +327,7 @@ const Navbar = () => {
                         </ul>
                       </div>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -393,7 +402,7 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -480,7 +489,7 @@ const Navbar = () => {
           id="mobile-menu-nav"
           className={`xl:hidden ${
             isMenuOpen ? "block" : "hidden"
-          } p-4 bg-white px-10 flex flex-col justify-between min-h-screen`}
+          } p-4 bg-white xl:px-10 flex flex-col justify-between min-h-screen`}
         >
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
             <li className="nav-heads-mobile">
@@ -758,7 +767,16 @@ const Navbar = () => {
               </li>
             )}
             <li className="nav-heads-mobile">
-              <NavLink href="#" className="text-gray-900 hover:text-blue-700">
+              <NavLink
+                onClick={() => {
+                  setMIsEcommMenu(false);
+                  setMIsDesignMenu(false);
+                  setMIsDevMenu(false);
+                  setMIsBpmMenu(false);
+                }}
+                href="#"
+                className="text-gray-900 hover:text-blue-700"
+              >
                 About Us
               </NavLink>
             </li>
@@ -770,13 +788,26 @@ const Navbar = () => {
               paddingBottom: "10px",
             }}
           >
-            <ul className="flex justify-center items-center">
-              <li className="nav-heads-mobile">
-                <NavLink href="#" className="text-gray-900 hover:text-blue-700">
-                  Contact Us
-                </NavLink>
-              </li>
-            </ul>
+            {isFromJwtAvailble ? (
+              <ul className="flex justify-center items-center bg-[#007fff] text-white">
+                <li className="nav-heads-mobile">
+                  <NavLink
+                    href="#"
+                    onClick={() => {
+                      setMIsEcommMenu(false);
+                      setMIsDesignMenu(false);
+                      setMIsDevMenu(false);
+                      setMIsBpmMenu(false);
+                    }}
+                    className=""
+                  >
+                    Contact Us
+                  </NavLink>
+                </li>
+              </ul>
+            ) : (
+              <Sticky />
+            )}
           </div>
         </div>
 

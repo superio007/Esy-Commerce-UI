@@ -31,14 +31,16 @@ const StickyFrom = () => {
   };
 
   return !isUserToken ? (
-    <div className="from-div bg-white p-4 mx-auto">
+    <div className="from-div bg-white mx-auto">
       <div
-        className="3xl:mx-auto
+        className="3xl:mx-auto xl:px-10
         3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center  w-full gap-4"
       >
         {/* Left Section - Contact Us (4 Columns) */}
         <div className="xl:col-span-4 w-full text-center xl:text-left">
-          <h2 className="text-2xl font-semibold text-gray-700">Contact Us</h2>
+          <h2 className="text-2xl font-semibold text-gray-700">
+            Book Your Free Consultation
+          </h2>
         </div>
 
         {/* Right Section - Inputs and Button (8 Columns) */}
@@ -48,12 +50,6 @@ const StickyFrom = () => {
         >
           {/* Phone Number Input */}
           <div className="relative flex-grow w-full">
-            <label
-              htmlFor="PhoneNumber"
-              className="leading-7 text-sm text-gray-600 block text-left"
-            >
-              Phone Number
-            </label>
             <input
               type="text"
               placeholder="Enter Phone Number"
@@ -78,12 +74,6 @@ const StickyFrom = () => {
 
           {/* Email Input */}
           <div className="relative flex-grow w-full">
-            <label
-              htmlFor="email"
-              className="leading-7 text-sm text-gray-600 block text-left"
-            >
-              Email
-            </label>
             <input
               placeholder="Enter Email"
               type="email"

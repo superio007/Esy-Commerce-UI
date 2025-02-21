@@ -2,6 +2,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 1.5rem 0;
 }
 nav .from-div{
     position: relative;
@@ -11,6 +12,7 @@ nav .from-div{
 @media screen and (max-width: 1280px) {
     .from-div{
         display: none;
+        padding: 0;
     }
     nav .from-div{
         display: block;
