@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import WebsitLogo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-const Navbar3 = () => {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isEcommMenuOpen, setIsEcommMenu] = useState(false);
   const [isDesignMenuOpen, setIsDesignMenu] = useState(false);
@@ -13,6 +13,8 @@ const Navbar3 = () => {
   const [isMDesignMenuOpen, setMIsDesignMenu] = useState(false);
   const [isMDevMenuOpen, setMIsDevMenu] = useState(false);
   const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
+  const menuRef = useRef(null); // Reference to the menu container
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1280) {
@@ -23,25 +25,41 @@ const Navbar3 = () => {
       }
     };
 
-    // Attach event listener
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsEcommMenu(false);
+        setIsDesignMenu(false);
+        setIsDevMenu(false);
+        setIsBpmMenu(false);
+      }
+    };
+
+    // Attach event listeners
     window.addEventListener("resize", handleResize);
+    document.addEventListener("mousedown", handleClickOutside);
 
     // Run once to check on initial load
     handleResize();
 
-    // Cleanup event listener on component unmount
-    return () => window.removeEventListener("resize", handleResize);
+    // Cleanup event listeners on unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
   return (
     <>
-      <nav className="bg-white border-gray-200 dark:border-gray-600">
+      <nav
+        ref={menuRef}
+        className="bg-white border-gray-200 dark:border-gray-600"
+      >
         <div
           className="flex flex-wrap justify-between items-center px-[20px] 3xl:mx-auto
         3xl:max-w-screen-xl"
         >
           {/* Logo */}
           <NavLink className="flex items-center space-x-3">
-            <img src={WebsitLogo} className="h-8" alt="Ecommerce Logo" />
+            <img id="website-logo" src={WebsitLogo} className="h-8" alt="Ecommerce Logo" />
           </NavLink>
 
           {/* Desktop Menu (Visible on xl screens) */}
@@ -67,6 +85,48 @@ const Navbar3 = () => {
                 >
                   Ecommerce
                 </NavLink>
+                {isEcommMenuOpen && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      width: "max-content",
+                      top: "3.28rem",
+                      left: "-25px",
+                    }}
+                  >
+                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
+                      <ul>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            Ecommerce Consultation (Performance)
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            Ecommerce Enablement (Operations)
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            Ecommerce Website Development (TechDev)
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-700 text-amber-50 p-2">
+                      <p className="text-center">Have a Query?</p>
+                    </div>
+                  </div>
+                )}
               </li>
               <li className="nav-heads">
                 <NavLink
@@ -81,6 +141,59 @@ const Navbar3 = () => {
                 >
                   Design
                 </NavLink>
+                {isDesignMenuOpen && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      width: "max-content",
+                      top: "3.28rem",
+                      left: "-25px",
+                    }}
+                  >
+                    <div
+                      className="bg-white px-10 3xl:mx-auto
+        3xl:max-w-screen-xl py-4"
+                    >
+                      <ul>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            YouTube Content Marketing
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            LinkedIn Content Marketing
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            Identity, Branding & Communication
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            Custom Website Development
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-700 text-amber-50 p-2">
+                      <p className="text-center">Have a Query?</p>
+                    </div>
+                  </div>
+                )}
               </li>
               <li className="nav-heads">
                 <NavLink
@@ -95,6 +208,121 @@ const Navbar3 = () => {
                 >
                   Development
                 </NavLink>
+                {isDevMenuOpen && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      width: "max-content",
+                      top: "3.28rem",
+                      left: "-25px",
+                    }}
+                  >
+                    <div
+                      className="bg-white px-10 3xl:mx-auto
+        3xl:max-w-screen-xl py-4"
+                    >
+                      <div className="md:flex justify-left gap-8">
+                        <ul>
+                          <li>CMS</li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              WordPress
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Drupal
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Joomla
+                            </NavLink>
+                          </li>
+                        </ul>
+                        <ul>
+                          <li>CRM</li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Salesforce
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              HubSpot
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Odoo
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Zoho
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              ERP
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              ERPNext
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Microsoft Dynamics
+                            </NavLink>
+                          </li>
+                          <li className="lg:mt-2 mt-1.5 ">
+                            <NavLink
+                              href="#"
+                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            >
+                              Oracle NetSuite
+                            </NavLink>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="bg-gray-700 text-amber-50 p-2">
+                      <p className="text-center">Have a Query?</p>
+                    </div>
+                  </div>
+                )}
               </li>
               <li className="nav-heads">
                 <NavLink
@@ -109,14 +337,93 @@ const Navbar3 = () => {
                 >
                   BPM
                 </NavLink>
+                {isBpmMenuOpen && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      width: "max-content",
+                      top: "3.28rem",
+                      left: "-25px",
+                    }}
+                  >
+                    <div
+                      className="bg-white px-10 3xl:mx-auto 
+        3xl:max-w-screen-xl py-4"
+                    >
+                      <ul>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            CONTENT MIGRATION
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            TRANSLATION
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            TRANSCRIPTION
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            TRANSLITERATION
+                          </NavLink>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <NavLink
+                            href="#"
+                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          >
+                            DATA LABELING & ANNOTATION
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="bg-gray-700 text-amber-50 p-2">
+                      <p className="text-center">Have a Query?</p>
+                    </div>
+                  </div>
+                )}
               </li>
               <li className="nav-heads">
-                <NavLink href="#" className=" ">
+                <NavLink
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
+                  href="#"
+                  className=" "
+                >
                   About Us
                 </NavLink>
               </li>
               <li className="nav-heads">
-                <NavLink href="#" className=" ">
+                <NavLink
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
+                  href="#"
+                  className=" "
+                >
                   Contact Us
                 </NavLink>
               </li>
@@ -472,256 +779,11 @@ const Navbar3 = () => {
             </ul>
           </div>
         </div>
-        {isEcommMenuOpen && (
-          <div>
-            <div
-              className="bg-white px-10 3xl:mx-auto
-        3xl:max-w-screen-xl py-4"
-            >
-              <ul>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    Ecommerce Consultation (Performance)
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    Ecommerce Enablement (Operations)
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    Ecommerce Website Development (TechDev)
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 text-amber-50 p-2">
-              <p className="text-center">Have NavLink Query</p>
-            </div>
-          </div>
-        )}
-        {isDesignMenuOpen && (
-          <div>
-            <div
-              className="bg-white px-10 3xl:mx-auto
-        3xl:max-w-screen-xl py-4"
-            >
-              <ul>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    YouTube Content Marketing
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    LinkedIn Content Marketing
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    Identity, Branding & Communication
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    Custom Website Development
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 text-amber-50 p-2">
-              <p className="text-center">Have NavLink Query</p>
-            </div>
-          </div>
-        )}
+
         {/* py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5 */}
-        {isDevMenuOpen && (
-          <div>
-            <div
-              className="bg-white px-10 3xl:mx-auto
-        3xl:max-w-screen-xl py-4"
-            >
-              <div className="md:flex justify-left gap-8">
-                <ul>
-                  <li>CMS</li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      WordPress
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Drupal
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Joomla
-                    </NavLink>
-                  </li>
-                </ul>
-                <ul>
-                  <li>CRM</li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Salesforce
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      HubSpot
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Odoo
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Zoho
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      ERP
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      ERPNext
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Microsoft Dynamics
-                    </NavLink>
-                  </li>
-                  <li className="lg:mt-2 mt-1.5 ">
-                    <NavLink
-                      href="#"
-                      className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                    >
-                      Oracle NetSuite
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="bg-gray-700 text-amber-50 p-2">
-              <p className="text-center">Have NavLink Query</p>
-            </div>
-          </div>
-        )}
-        {isBpmMenuOpen && (
-          <div>
-            <div
-              className="bg-white px-10 3xl:mx-auto 
-        3xl:max-w-screen-xl py-4"
-            >
-              <ul>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    CONTENT MIGRATION
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    TRANSLATION
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    TRANSCRIPTION
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    TRANSLITERATION
-                  </NavLink>
-                </li>
-                <li className="lg:mt-2 mt-1.5 ">
-                  <NavLink
-                    href="#"
-                    className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                  >
-                    DATA LABELING & ANNOTATION
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-            <div className="bg-gray-700 text-amber-50 p-2">
-              <p className="text-center">Have NavLink Query</p>
-            </div>
-          </div>
-        )}
       </nav>
     </>
   );
 };
 
-export default Navbar3;
+export default Navbar;

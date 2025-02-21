@@ -1,0 +1,18 @@
+.from-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav .from-div{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    .from-div{
+        display: none;
+    }
+    nav .from-div{
+        display: block;
+    }
+}

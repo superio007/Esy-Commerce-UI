@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import WebsitLogo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import Sticky from "./StickyFrom";
 
 const Navbar3 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +60,12 @@ const Navbar3 = () => {
         >
           {/* Logo */}
           <NavLink className="flex items-center space-x-3">
-            <img src={WebsitLogo} className="h-8" alt="Ecommerce Logo" />
+            <img
+              id="website-logo"
+              src={WebsitLogo}
+              className="h-8"
+              alt="Ecommerce Logo"
+            />
           </NavLink>
 
           {/* Desktop Menu (Visible on xl screens) */}
@@ -122,7 +128,7 @@ const Navbar3 = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -189,7 +195,7 @@ const Navbar3 = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -318,7 +324,7 @@ const Navbar3 = () => {
                         </ul>
                       </div>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -393,7 +399,7 @@ const Navbar3 = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-gray-700 text-amber-50 p-2">
+                    <div className="bg-[#007fff] text-amber-50 p-2">
                       <p className="text-center">Have a Query?</p>
                     </div>
                   </div>
@@ -770,6 +776,7 @@ const Navbar3 = () => {
               paddingBottom: "10px",
             }}
           >
+            <Sticky />
             <ul className="flex justify-center items-center">
               <li className="nav-heads-mobile">
                 <NavLink href="#" className="text-gray-900 hover:text-blue-700">

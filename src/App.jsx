@@ -1,16 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Navbar3 from "./components/Navbar3";
-
-const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Navbar3 />} />
-        <Route path="/navbar" element={<Navbar />} />
-      </Routes>
-    </Router>
+import HomePage from "./pages/HomePage";
+import NotFound from "./pages/notFound";
+import MainLayout from "./layouts/MainLayout";
+import Try from "./components/try"
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<MainLayout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="/try" element={<Try/>} />
+      </Route>
+    )
   );
-};
+
+  return <RouterProvider router={router} />;
+}
 
 export default App;
