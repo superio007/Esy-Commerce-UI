@@ -1,8 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import WebsitLogo from "../assets/Logo.png";
+import WebsitLogoSmall from "../assets/Logo3.png";
 import { NavLink } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Sticky from "./StickyFrom";
+import { motion } from "framer-motion";
+import "../css/Navbar.css"
+import { small } from "framer-motion/client";
 
 const Navbar3 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +57,7 @@ const Navbar3 = () => {
     <>
       <nav
         ref={menuRef}
-        className="bg-white border-gray-200 dark:border-gray-600"
+        className="bg-white py-2 border-gray-200 dark:border-gray-600"
       >
         <div
           className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto
@@ -441,45 +445,41 @@ const Navbar3 = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             type="button"
-            className="block xl:hidden p-4 text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none"
+            className="xl:hidden relative w-10 h-10 flex items-end justify-start  rounded-md focus:outline-none"
           >
             <span className="sr-only">Open main menu</span>
-            {isMenuOpen ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="20px"
-                height="20px"
-                viewBox="0 0 48 48"
-              >
-                <path
-                  fill="#F44336"
-                  d="M21.5 4.5H26.501V43.5H21.5z"
-                  transform="rotate(45.001 24 24)"
-                ></path>
-                <path
-                  fill="#F44336"
-                  d="M21.5 4.5H26.5V43.501H21.5z"
-                  transform="rotate(135.008 24 24)"
-                ></path>
-              </svg>
-            ) : (
-              <svg
-                className="w-5 h-5"
-                aria-hidden="true"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
-            )}
+            <motion.div
+              animate={isMenuOpen ? "open" : "closed"}
+              className="relative w-6 h-6 flex flex-col justify-between"
+            >
+              {/* Top Line */}
+              <motion.span
+                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                variants={{
+                  closed: { rotate: 0, y: -6 },
+                  open: { rotate: 45, y: 0 },
+                }}
+                transition={{ duration: 0.3 }}
+              />
+              {/* Middle Line */}
+              <motion.span
+                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                variants={{
+                  closed: { opacity: 1 },
+                  open: { opacity: 0 },
+                }}
+                transition={{ duration: 0.3 }}
+              />
+              {/* Bottom Line */}
+              <motion.span
+                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                variants={{
+                  closed: { rotate: 0, y: 6 },
+                  open: { rotate: -45, y: 0 },
+                }}
+                transition={{ duration: 0.3 }}
+              />
+            </motion.div>
           </button>
         </div>
         {/* Mobile Menu (Toggled) */}

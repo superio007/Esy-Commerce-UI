@@ -1,130 +1,50 @@
-import React, { useEffect, useState } from "react";
-import {
-  GoogleReCaptchaProvider,
-  useGoogleReCaptcha,
-} from "react-google-recaptcha-v3";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
-const RecaptchaComponent = () => {
-  const { executeRecaptcha } = useGoogleReCaptcha();
-  const [token, setToken] = useState("");
-  const [formData, setFormData] = useState({ name: "", email: "" });
-  const [isHuman, setIsHuman] = useState(false);
-
-  // Function to verify reCAPTCHA
-  const handleVerify = async () => {
-    if (!executeRecaptcha) {
-      console.log("reCAPTCHA not yet available");
-      return;
-    }
-
-    try {
-      const recaptchaToken = await executeRecaptcha("submit");
-      console.log("reCAPTCHA Token:", recaptchaToken);
-      setToken(recaptchaToken);
-      setIsHuman(true); // Mark the user as verified
-    } catch (error) {
-      console.error("reCAPTCHA Error:", error);
-      setIsHuman(false);
-    }
-  };
-
-  // Auto-run reCAPTCHA on component mount
-  useEffect(() => {
-    handleVerify();
-  }, []);
-
-  // Handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Ensure reCAPTCHA is verified before form submission
-    if (!isHuman || !token) {
-      console.log("Re-running reCAPTCHA...");
-      await handleVerify(); // Try verifying again
-      return;
-    }
-
-    // Simulate form submission
-    console.log("Form Data Submitted:", formData);
-    alert("Form submitted successfully!");
-  };
-
-  // Handle input changes
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+const AnimatedMenuButton = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
-      <h2>Google reCAPTCHA v3 Test</h2>
-
-      {/* Form with Name & Email */}
-      <form
-        onSubmit={handleSubmit}
-        style={{ maxWidth: "400px", margin: "auto" }}
+    <button
+      onClick={() => setIsMenuOpen(!isMenuOpen)}
+      type="button"
+      className="relative w-10 h-10 flex items-center justify-center p-2 rounded-md focus:outline-none"
+    >
+      <span className="sr-only">Open main menu</span>
+      <motion.div
+        animate={isMenuOpen ? "open" : "closed"}
+        className="relative w-6 h-6 flex flex-col justify-between"
       >
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-          style={{
-            display: "block",
-            width: "100%",
-            padding: "10px",
-            marginBottom: "10px",
+        {/* Top Line */}
+        <motion.span
+          className="absolute w-6 h-0.5 bg-gray-500 rounded"
+          variants={{
+            closed: { rotate: 0, y: -6 },
+            open: { rotate: 45, y: 0 },
           }}
+          transition={{ duration: 0.3 }}
         />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-          style={{
-            display: "block",
-            width: "100%",
-            padding: "10px",
-            marginBottom: "10px",
+        {/* Middle Line */}
+        <motion.span
+          className="absolute w-6 h-0.5 bg-gray-500 rounded"
+          variants={{
+            closed: { opacity: 1 },
+            open: { opacity: 0 },
           }}
+          transition={{ duration: 0.3 }}
         />
-        <button
-          type="submit"
-          style={{ padding: "10px", fontSize: "16px", cursor: "pointer" }}
-        >
-          Submit Form
-        </button>
-      </form>
-
-      {/* Display reCAPTCHA token */}
-      {token && (
-        <div>
-          <h3>Generated Token:</h3>
-          <p
-            style={{
-              wordBreak: "break-all",
-              background: "#f4f4f4",
-              padding: "10px",
-              borderRadius: "5px",
-            }}
-          >
-            {token}
-          </p>
-        </div>
-      )}
-    </div>
+        {/* Bottom Line */}
+        <motion.span
+          className="absolute w-6 h-0.5 bg-gray-500 rounded"
+          variants={{
+            closed: { rotate: 0, y: 6 },
+            open: { rotate: -45, y: 0 },
+          }}
+          transition={{ duration: 0.3 }}
+        />
+      </motion.div>
+    </button>
   );
 };
 
-const RecaptchaTest = () => {
-  return (
-    <GoogleReCaptchaProvider reCaptchaKey="6LfnGt4qAAAAAHrf-1sXWF60NATVetcMTfSYKdSv">
-      <RecaptchaComponent />
-    </GoogleReCaptchaProvider>
-  );
-};
-
-export default RecaptchaTest;
+export default AnimatedMenuButton;

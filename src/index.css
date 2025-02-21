@@ -8,58 +8,9 @@
 *{
   font-family: DM Sans,sans-serif;
 }
-.nav-heads {
-    position: relative;
-    text-decoration: none;
-    padding: 14px; /* Ensures space for the border */
-}
-.nav-heads a{
-  color: #1b3139;
-}
-
-.nav-heads::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Adjusts position without affecting layout */
-    width: 0;
-    height: 2px;
-    background-color:#007fff; /* Adjust the color as needed */
-    transition: width 0.3s ease-in-out;
-}
-.nav-heads:hover::after {
-    width: 100%;
-}
-
-.Menu-item-text{
-  font-size: 16px;
-  color: #1b3139 !important;
-}
 body {
   background-color: antiquewhite;
 }
 li {
   list-style-type: none;
-}
-#mobile-menu-nav{
-  height: 100vh;
-}
-.nav-heads-mobile{
- padding: 12px;
-}
-.nav-heads-mobile a{
-  font-size: 20px;
-}
-/* For smasung fold  */
-@media screen and (max-width: 301px) {
-  nav #website-logo{
-    width: 150px;
-  }
-}
-@media screen and (min-width: 767px) and (max-width: 1280px) {
-  #mobile-menu-nav{
-    position: absolute;
-    right: 0;
-    width: 400px;
-  }
 }
