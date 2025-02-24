@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Sticky from "../components/StickyFrom";
 import React, { useEffect, useState } from "react";
+import Breadcrumbs from "../components/Breadcrumbs";
 import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha,
@@ -44,6 +45,7 @@ const MainLayout = () => {
     <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_SITE_KEY}>
       <RecaptchaToken /> {/* Placed at top level */}
       <Navbar />
+      <Breadcrumbs />
       <Outlet />
       <Sticky />
     </GoogleReCaptchaProvider>

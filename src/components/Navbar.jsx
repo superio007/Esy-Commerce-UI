@@ -97,7 +97,7 @@ const Navbar = () => {
 
       <nav
         ref={menuRef}
-        className="bg-white py-2 border-gray-200 dark:border-gray-600"
+        className="bg-white p-2 border-gray-200 dark:border-gray-600"
       >
         <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
