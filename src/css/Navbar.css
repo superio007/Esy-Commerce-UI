@@ -34,6 +34,15 @@
 .nav-heads-mobile a{
   font-size: 20px;
 }
+#loading-screen{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+}
+#loading-screen img{
+  
+}
 /* For smasung fold  */
 @media screen and (max-width: 331px) {
   nav #website-logo{

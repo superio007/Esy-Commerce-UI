@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Navbar3 from "../components/Navbar3";
+import Navbar from "../components/Navbar";
 import Sticky from "../components/StickyFrom";
 import React, { useEffect, useState } from "react";
 import {
@@ -43,7 +43,7 @@ const MainLayout = () => {
   return (
     <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_SITE_KEY}>
       <RecaptchaToken /> {/* Placed at top level */}
-      <Navbar3 />
+      <Navbar />
       <Outlet />
       <Sticky />
     </GoogleReCaptchaProvider>

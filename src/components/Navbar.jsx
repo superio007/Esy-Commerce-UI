@@ -3,8 +3,12 @@ import WebsitLogo from "../assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Sticky from "./StickyFrom";
+import { motion } from "framer-motion";
+import "../css/Navbar.css";
+import loadingLogo from "../assets/loadingLogo.png";
 
 const Navbar = () => {
+  // Menu toggle states for desktop and mobile
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isEcommMenuOpen, setIsEcommMenu] = useState(false);
   const [isDesignMenuOpen, setIsDesignMenu] = useState(false);
@@ -14,7 +18,8 @@ const Navbar = () => {
   const [isMDesignMenuOpen, setMIsDesignMenu] = useState(false);
   const [isMDevMenuOpen, setMIsDevMenu] = useState(false);
   const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
-  const menuRef = useRef(null); // Reference to the menu container
+
+  const menuRef = useRef(null);
   const [isFromJwtAvailble, setisFromJwtAvailble] = useState(
     localStorage.getItem("user-token") || ""
   );
@@ -38,31 +43,68 @@ const Navbar = () => {
       }
     };
 
-    // Attach event listeners
     window.addEventListener("resize", handleResize);
     document.addEventListener("mousedown", handleClickOutside);
-
-    // Run once to check on initial load
     handleResize();
-
-    // Cleanup event listeners on unmount
     return () => {
       window.removeEventListener("resize", handleResize);
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  // Loading screen states and initial effect
+  const [showLoading, setShowLoading] = useState(true);
+  const [slideUp, setSlideUp] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSlideUp(true);
+      setTimeout(() => {
+        setShowLoading(false);
+      }, 500); // match this with your transition duration
+    }, 2000); // initial display duration
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Function to re-trigger the loading screen when needed (e.g., on logo click)
+  const handleLoadingScreen = () => {
+    setShowLoading(true);
+    setSlideUp(false);
+    setTimeout(() => {
+      setSlideUp(true);
+      setTimeout(() => {
+        setShowLoading(false);
+      }, 500);
+    }, 5000);
+  };
+
   return (
     <>
+      {showLoading && (
+        <div
+          id="loading-screen"
+          className={`bg-black flex justify-center items-center h-screen transition-transform duration-500 ${
+            slideUp ? "-translate-y-full" : "translate-y-0"
+          }`}
+        >
+          <img
+            className="w-[150px] animate-spin"
+            src={loadingLogo}
+            alt="Loading"
+          />
+        </div>
+      )}
+
       <nav
         ref={menuRef}
-        className="bg-white border-gray-200 dark:border-gray-600"
+        className="bg-white py-2 border-gray-200 dark:border-gray-600"
       >
-        <div
-          className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto
-        3xl:max-w-screen-xl"
-        >
+        <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
-          <NavLink className="flex items-center space-x-3">
+          <NavLink
+            className="flex items-center space-x-3"
+            onClick={handleLoadingScreen}
+          >
             <img
               id="website-logo"
               src={WebsitLogo}
@@ -89,8 +131,6 @@ const Navbar = () => {
                     setIsBpmMenu(false);
                   }}
                   href="#"
-                  className=" 
-                   "
                 >
                   Ecommerce
                 </NavLink>
@@ -108,7 +148,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             Ecommerce Consultation (Performance)
                           </NavLink>
@@ -116,7 +156,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             Ecommerce Enablement (Operations)
                           </NavLink>
@@ -124,7 +164,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             Ecommerce Website Development (TechDev)
                           </NavLink>
@@ -146,7 +186,6 @@ const Navbar = () => {
                     setIsBpmMenu(false);
                   }}
                   href="#"
-                  className=" "
                 >
                   Design
                 </NavLink>
@@ -159,15 +198,12 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div
-                      className="bg-white px-10 3xl:mx-auto
-        3xl:max-w-screen-xl py-4"
-                    >
+                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             YouTube Content Marketing
                           </NavLink>
@@ -175,7 +211,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             LinkedIn Content Marketing
                           </NavLink>
@@ -183,7 +219,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             Identity, Branding & Communication
                           </NavLink>
@@ -191,7 +227,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             Custom Website Development
                           </NavLink>
@@ -213,7 +249,6 @@ const Navbar = () => {
                     setIsBpmMenu(false);
                   }}
                   href="#"
-                  className=" "
                 >
                   Development
                 </NavLink>
@@ -226,17 +261,14 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div
-                      className="bg-white px-10 3xl:mx-auto
-        3xl:max-w-screen-xl py-4"
-                    >
+                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <div className="md:flex justify-left gap-8">
                         <ul>
                           <li>CMS</li>
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               WordPress
                             </NavLink>
@@ -244,7 +276,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Drupal
                             </NavLink>
@@ -252,7 +284,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Joomla
                             </NavLink>
@@ -263,7 +295,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Salesforce
                             </NavLink>
@@ -271,7 +303,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               HubSpot
                             </NavLink>
@@ -279,7 +311,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Odoo
                             </NavLink>
@@ -287,7 +319,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Zoho
                             </NavLink>
@@ -295,7 +327,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               ERP
                             </NavLink>
@@ -303,7 +335,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               ERPNext
                             </NavLink>
@@ -311,7 +343,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Microsoft Dynamics
                             </NavLink>
@@ -319,7 +351,7 @@ const Navbar = () => {
                           <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               href="#"
-                              className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                             >
                               Oracle NetSuite
                             </NavLink>
@@ -342,7 +374,6 @@ const Navbar = () => {
                     setIsBpmMenu(!isBpmMenuOpen);
                   }}
                   href="#"
-                  className=" "
                 >
                   BPM
                 </NavLink>
@@ -355,15 +386,12 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div
-                      className="bg-white px-10 3xl:mx-auto 
-        3xl:max-w-screen-xl py-4"
-                    >
+                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             CONTENT MIGRATION
                           </NavLink>
@@ -371,7 +399,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             TRANSLATION
                           </NavLink>
@@ -379,7 +407,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             TRANSCRIPTION
                           </NavLink>
@@ -387,7 +415,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             TRANSLITERATION
                           </NavLink>
@@ -395,7 +423,7 @@ const Navbar = () => {
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             href="#"
-                            className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                           >
                             DATA LABELING & ANNOTATION
                           </NavLink>
@@ -417,7 +445,6 @@ const Navbar = () => {
                     setIsBpmMenu(false);
                   }}
                   href="#"
-                  className=" "
                 >
                   About Us
                 </NavLink>
@@ -431,7 +458,6 @@ const Navbar = () => {
                     setIsBpmMenu(false);
                   }}
                   href="#"
-                  className=" "
                 >
                   Contact Us
                 </NavLink>
@@ -443,47 +469,44 @@ const Navbar = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             type="button"
-            className="block xl:hidden p-4 text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none"
+            className="xl:hidden relative w-10 h-10 flex items-end justify-start rounded-md focus:outline-none"
           >
             <span className="sr-only">Open main menu</span>
-            {isMenuOpen ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="20px"
-                height="20px"
-                viewBox="0 0 48 48"
-              >
-                <path
-                  fill="#F44336"
-                  d="M21.5 4.5H26.501V43.5H21.5z"
-                  transform="rotate(45.001 24 24)"
-                ></path>
-                <path
-                  fill="#F44336"
-                  d="M21.5 4.5H26.5V43.501H21.5z"
-                  transform="rotate(135.008 24 24)"
-                ></path>
-              </svg>
-            ) : (
-              <svg
-                className="w-5 h-5"
-                aria-hidden="true"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
-            )}
+            <motion.div
+              animate={isMenuOpen ? "open" : "closed"}
+              className="relative w-6 h-6 flex flex-col justify-between"
+            >
+              {/* Top Line */}
+              <motion.span
+                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                variants={{
+                  closed: { rotate: 0, y: -6 },
+                  open: { rotate: 45, y: 0 },
+                }}
+                transition={{ duration: 0.3 }}
+              />
+              {/* Middle Line */}
+              <motion.span
+                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                variants={{
+                  closed: { opacity: 1 },
+                  open: { opacity: 0 },
+                }}
+                transition={{ duration: 0.3 }}
+              />
+              {/* Bottom Line */}
+              <motion.span
+                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                variants={{
+                  closed: { rotate: 0, y: 6 },
+                  open: { rotate: -45, y: 0 },
+                }}
+                transition={{ duration: 0.3 }}
+              />
+            </motion.div>
           </button>
         </div>
+
         {/* Mobile Menu (Toggled) */}
         <div
           id="mobile-menu-nav"
@@ -514,7 +537,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         Ecommerce Consultation (Performance)
                       </NavLink>
@@ -522,7 +545,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         Ecommerce Enablement (Operations)
                       </NavLink>
@@ -530,7 +553,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         Ecommerce Website Development (TechDev)
                       </NavLink>
@@ -561,7 +584,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         YouTube Content Marketing
                       </NavLink>
@@ -569,7 +592,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         LinkedIn Content Marketing
                       </NavLink>
@@ -577,7 +600,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         Identity, Branding & Communication
                       </NavLink>
@@ -585,7 +608,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         Custom Website Development
                       </NavLink>
@@ -618,7 +641,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           WordPress
                         </NavLink>
@@ -626,7 +649,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Drupal
                         </NavLink>
@@ -634,18 +657,18 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Joomla
                         </NavLink>
                       </li>
                     </div>
-                    <li className="mb-4">CMS</li>
+                    <li className="mb-4">CRM</li>
                     <div className="pl-4">
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Salesforce
                         </NavLink>
@@ -653,7 +676,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           HubSpot
                         </NavLink>
@@ -661,7 +684,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Odoo
                         </NavLink>
@@ -669,7 +692,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Zoho
                         </NavLink>
@@ -677,7 +700,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           ERP
                         </NavLink>
@@ -685,7 +708,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           ERPNext
                         </NavLink>
@@ -693,7 +716,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Microsoft Dynamics
                         </NavLink>
@@ -701,7 +724,7 @@ const Navbar = () => {
                       <li className="mb-6 ">
                         <NavLink
                           href="#"
-                          className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                         >
                           Oracle NetSuite
                         </NavLink>
@@ -733,7 +756,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         CONTENT MIGRATION
                       </NavLink>
@@ -741,7 +764,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         TRANSLATION
                       </NavLink>
@@ -749,7 +772,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         TRANSCRIPTION
                       </NavLink>
@@ -757,7 +780,7 @@ const Navbar = () => {
                     <li className="mb-6 ">
                       <NavLink
                         href="#"
-                        className="Menu-item-text text-gray-900 lg: rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
+                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
                       >
                         TRANSLITERATION
                       </NavLink>
@@ -799,7 +822,6 @@ const Navbar = () => {
                       setMIsDevMenu(false);
                       setMIsBpmMenu(false);
                     }}
-                    className=""
                   >
                     Contact Us
                   </NavLink>
@@ -810,8 +832,6 @@ const Navbar = () => {
             )}
           </div>
         </div>
-
-        {/* py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5 */}
       </nav>
     </>
   );
