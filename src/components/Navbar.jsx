@@ -53,34 +53,34 @@ const Navbar = () => {
   }, []);
 
   // Loading screen states and initial effect
-  const [showLoading, setShowLoading] = useState(true);
-  const [slideUp, setSlideUp] = useState(false);
+  // const [showLoading, setShowLoading] = useState(true);
+  // const [slideUp, setSlideUp] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setSlideUp(true);
-      setTimeout(() => {
-        setShowLoading(false);
-      }, 500); // match this with your transition duration
-    }, 2000); // initial display duration
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setSlideUp(true);
+  //     setTimeout(() => {
+  //       setShowLoading(false);
+  //     }, 500); // match this with your transition duration
+  //   }, 2000); // initial display duration
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  // Function to re-trigger the loading screen when needed (e.g., on logo click)
-  const handleLoadingScreen = () => {
-    setShowLoading(true);
-    setSlideUp(false);
-    setTimeout(() => {
-      setSlideUp(true);
-      setTimeout(() => {
-        setShowLoading(false);
-      }, 500);
-    }, 5000);
-  };
+  // // Function to re-trigger the loading screen when needed (e.g., on logo click)
+  // const handleLoadingScreen = () => {
+  //   setShowLoading(true);
+  //   setSlideUp(false);
+  //   setTimeout(() => {
+  //     setSlideUp(true);
+  //     setTimeout(() => {
+  //       setShowLoading(false);
+  //     }, 500);
+  //   }, 5000);
+  // };
 
   return (
     <>
-      {showLoading && (
+      {/* {showLoading && (
         <div
           id="loading-screen"
           className={`bg-black flex justify-center items-center h-screen transition-transform duration-500 ${
@@ -93,7 +93,7 @@ const Navbar = () => {
             alt="Loading"
           />
         </div>
-      )}
+      )} */}
 
       <nav
         ref={menuRef}
@@ -103,7 +103,7 @@ const Navbar = () => {
           {/* Logo */}
           <NavLink
             className="flex items-center space-x-3"
-            onClick={handleLoadingScreen}
+            // onClick={handleLoadingScreen}
           >
             <img
               id="website-logo"
