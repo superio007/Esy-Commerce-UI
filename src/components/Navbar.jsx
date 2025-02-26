@@ -5,7 +5,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Sticky from "./StickyFrom";
 import { motion } from "framer-motion";
 import "../css/Navbar.css";
-import loadingLogo from "../assets/loadingLogo.png";
+// import loadingLogo from "../assets/loadingLogo.png";
 
 const Navbar = () => {
   // Menu toggle states for desktop and mobile

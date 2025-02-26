@@ -1,0 +1,30 @@
+.nav-heads {
+    position: relative;
+    text-decoration: none;
+    padding: 14px; /* Ensures space for the border */
+    cursor: pointer;
+}
+.nav-heads a{
+  color: #1b3139;
+}
+
+.nav-heads::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjusts position without affecting layout */
+    width: 0;
+    height: 2px;
+    background-color:#007fff; /* Adjust the color as needed */
+    transition: width 0.3s ease-in-out;
+}
+.nav-heads:hover::after {
+    width: 100%;
+}
+.Menu-item-text{
+    &:hover{
+        color: #2e96ff !important;
+        border-bottom: 1px solid #007fff;
+        border-radius: 0;
+    }
+}
