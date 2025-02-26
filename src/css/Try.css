@@ -1,0 +1,35 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.left-section,
+.right-section {
+  width: 45%;
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 0;
+  visibility: hidden; /* Prevents flickering before animation starts */
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.left-section {
+  transform: translateX(-100%);
+}
+
+.right-section {
+  transform: translateX(100%);
+}
+
+/* Apply the animation when the component becomes visible */
+.slide-in-left,
+.slide-in-right {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible; /* Ensure element stays visible */
+}

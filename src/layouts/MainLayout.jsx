@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Sticky from "../components/StickyFrom";
 import React, { useEffect, useState } from "react";
+import Footer from "../components/Footer";
 import Breadcrumbs from "../components/Breadcrumbs";
 import {
   GoogleReCaptchaProvider,
@@ -48,6 +49,7 @@ const MainLayout = () => {
       <Breadcrumbs />
       <Outlet />
       <Sticky />
+      <Footer/>
     </GoogleReCaptchaProvider>
   );
 };

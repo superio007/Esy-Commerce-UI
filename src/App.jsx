@@ -1,7 +1,7 @@
 import HomePage from "./pages/HomePage";
 import NotFound from "./pages/notFound";
 import MainLayout from "./layouts/MainLayout";
-import Try from "./components/try"
+// import Try from "./components/try"
 import Land from "./pages/Land";
 import {
   Route,
@@ -15,7 +15,8 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/Land" element={<Land/>} />
+        <Route path="/Land" element={<Land />} />
+        {/* <Route path="/try" element={<Try />} /> */}
       </Route>
     )
   );
