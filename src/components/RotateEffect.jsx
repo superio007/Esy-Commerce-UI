@@ -12,19 +12,29 @@ const RotateEffect = () => {
   });
 
   return (
-    <div ref={parallax.ref} className="spinner">
-      <img src={loadingLogo} alt="loadingLogo.png" className="w-[90px]" />
-      <div className="diamond">
-        <img src={Wordpress} alt="" />
-      </div>
-      <div className="clown">
-        <img src={drupal} alt="" />
-      </div>
-      <div className="money">
-        <img src={joomla} alt="" />
-      </div>
-      <div className="hand">
-        <img src={magento} alt="" />
+    <div className="spinner border-effect">
+      <img
+        src={loadingLogo}
+        id="centerLogo"
+        alt="loadingLogo"
+        className="h-[80px]"
+      />
+      <div ref={parallax.ref}>
+        {/* Center logo (will not rotate) */}
+
+        {/* Rotating elements */}
+        <div className="diamond">
+          <img className="img" src={Wordpress} alt="WordPress Logo" />
+        </div>
+        <div className="clown">
+          <img className="img" src={drupal} alt="Drupal Logo" />
+        </div>
+        <div className="money">
+          <img className="img" src={joomla} alt="Joomla Logo" />
+        </div>
+        <div className="hand">
+          <img className="img" src={magento} alt="Magento Logo" />
+        </div>
       </div>
     </div>
   );

@@ -5,16 +5,6 @@
   justify-content: center;
   height: 400px; /* Adjust as needed */
 }
-/* Circular border */
-.spinner::before {
-  content: "";
-  position: absolute;
-  width: 360px; /* Adjust to fit your layout */
-  height: 360px;
-  border: 2px solid rgba(255, 100, 100, 0.5); /* Adjust color and opacity */
-  border-radius: 50%;
-  z-index: -1; /* Keeps it behind icons */
-}
 
 .spinner {
   position: relative;
@@ -24,48 +14,37 @@
   align-items: center;
   justify-content: center;
   transform-origin: center;
+  border: 3px solid #FFD700; /* Added border */
+  border-radius: 50%;
 }
 
+/* Center logo (fixed position, no rotation) */
 .center-logo {
-  width: 100px;
-  /* position: absolute; */
+  width: 90px;
+  position: absolute;
 }
 
 /* Outer rotating icons */
 .spinner div {
   position: absolute;
-  width: 80px;
-  height: 80px;
-}
-
-.diamond { transform: translate(188px, 0) rotate(0deg); }
-.clown { transform: translate(-170px, 0) rotate(0deg); }
-.money { transform: translate(0, 188px) rotate(0deg); }
-.hand { transform: translate(0, -170px) rotate(0deg); }
-
-/* Inner rotating spinner */
-.inner-spinner {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform-origin: center;
-}
-
-.inner-icon {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-}
-
-.inner-icon.top { transform: translate(0px, 0); }
-.inner-icon.bottom { transform: translate(-40px, 0); }
-
-/* Keep inner icons upright */
-.inner-icon img, .spinner img {
-  transform: rotate(-380deg);
   width: 60px;
+  height: 60px;
+}
+
+/* Positioning outer icons */
+.diamond { transform: translate(150px, 0) rotate(0deg); }
+.clown { transform: translate(-145px, 0) rotate(0deg); }
+.money { transform: translate(0, 150px) rotate(0deg); }
+.hand { transform: translate(0, -145px) rotate(0deg); }
+
+/* Keeping inner icons upright */
+.inner-icon img {
+  width: 50px;
   height: auto;
+}
+
+.spinner .img {
+  width: 50px;
+  height: auto;
+  transform: rotate(0deg); /* Removed rotation effect */
 }
