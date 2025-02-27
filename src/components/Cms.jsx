@@ -1,5 +1,5 @@
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import Circle from "../assets/circle.lottie";
+import RotateEffect from "./RotateEffect";
+import { ParallaxProvider } from "react-scroll-parallax";
 const contentArray = [
   {
     title: "Customer-first always",
@@ -51,15 +51,10 @@ const CMS = () => {
           </div>
 
           {/* Right Content (Lottie Animation) */}
-          <div
-            className={`flex justify-center md:justify-end `}
-          >
-            <DotLottieReact
-              style={{ width: "500px", height: "500px" }}
-              src={Circle}
-              loop
-              autoplay
-            />
+          <div className="flex justify-center">
+            <ParallaxProvider>
+              <RotateEffect />
+            </ParallaxProvider>
           </div>
         </div>
       </section>

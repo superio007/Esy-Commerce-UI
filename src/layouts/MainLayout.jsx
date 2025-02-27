@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Sticky from "../components/StickyFrom";
 import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
+import Footer2 from "../components/Footer2";
+import { ParallaxProvider } from "react-scroll-parallax";
 import Breadcrumbs from "../components/Breadcrumbs";
 import {
   GoogleReCaptchaProvider,
@@ -47,9 +49,11 @@ const MainLayout = () => {
       <RecaptchaToken /> {/* Placed at top level */}
       <Navbar />
       <Breadcrumbs />
-      <Outlet />
+      <ParallaxProvider>
+        <Outlet />
+      </ParallaxProvider>
       <Sticky />
-      <Footer/>
+      <Footer />
     </GoogleReCaptchaProvider>
   );
 };

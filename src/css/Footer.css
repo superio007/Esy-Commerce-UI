@@ -1,14 +1,14 @@
-.nav-heads {
+#Footer .nav-heads {
     position: relative;
     text-decoration: none;
-    padding: 14px; /* Ensures space for the border */
+    padding: 0 !important;
     cursor: pointer;
 }
-.nav-heads a{
+#Footer .nav-heads a{
   color: #1b3139;
 }
 
-.nav-heads::after {
+#Footer .nav-heads::after {
     content: "";
     position: absolute;
     left: 0;
@@ -18,10 +18,10 @@
     background-color:#007fff; /* Adjust the color as needed */
     transition: width 0.3s ease-in-out;
 }
-.nav-heads:hover::after {
+#Footer .nav-heads:hover::after {
     width: 100%;
 }
-.Menu-item-text{
+#Footer .Menu-item-text{
     &:hover{
         color: #2e96ff !important;
         border-bottom: 1px solid #007fff;

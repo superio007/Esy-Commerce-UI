@@ -8,34 +8,3 @@
     transform: translateY(0);
   }
 }
-@keyframes leftSlide {
-  from {
-    transform: translateX(-1000px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-@keyframes rightSlide {
-  from {
-    transform: translateX(1000px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-#LeftSide {
-  animation: leftSlide 3s ease-in;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-#RightSide {
-  animation: rightSlide 3s ease-in;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-#bulletPoint{
-  animation: fadeInUp 3s ease-in;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
