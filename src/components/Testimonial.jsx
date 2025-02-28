@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from "react";
+import { useState, useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -7,67 +7,52 @@ import "swiper/css/navigation";
 import "../css/Testimonial.css";
 
 const Testimonial = () => {
+  const sectionRef = useRef(null);
+  const [scrollPosition, setScrollPosition] = useState(100); // Initial offset
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        if (rect.top < windowHeight * 0.8 && rect.bottom > 0) {
+          setIsVisible(true);
+          setScrollPosition(Math.max(0, rect.top * 0.8)); // Adjust based on section position
+        } else {
+          setIsVisible(false);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const testimonials = [
     {
       name: "HOLDEN CAULFIELD",
       role: "Senior Product Designer",
       image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+      text: "Edison bulb retro cloud bread echo park...",
     },
     {
       name: "ALPER KAMU",
       role: "UI Developer",
       image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+      text: "Edison bulb retro cloud bread echo park...",
     },
     {
       name: "HENRY LETHAM",
       role: "CTO",
       image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-    },
-    {
-      name: "HOLDEN CAULFIELD",
-      role: "Senior Product Designer",
-      image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-    },
-    {
-      name: "ALPER KAMU",
-      role: "UI Developer",
-      image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
-    },
-    {
-      name: "HENRY LETHAM",
-      role: "CTO",
-      image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+      text: "Edison bulb retro cloud bread echo park...",
     },
   ];
-  const sectionRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        }
-      },
-      { threshold: 0.2 } // Animation starts when 20% of the section is visible
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
   return (
     <section
       id="testimonials"
@@ -79,38 +64,39 @@ const Testimonial = () => {
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
-          //   loop={true}
-          //   autoplay={{ delay: 3000 }}
           // navigation
           pagination={{ clickable: true }}
           breakpoints={{
-            769: { slidesPerView: 2 }, // Below 769px → 1 slide
-            1280: { slidesPerView: 2 }, // Below 1280px but above 769px → 2 slides
-            1281: { slidesPerView: 3 }, // 1280px and above → 3 slides
+            769: { slidesPerView: 2 },
+            1280: { slidesPerView: 2 },
+            1281: { slidesPerView: 3 },
           }}
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
               <div className="h-full text-center p-4">
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center relative">
                   <div style={{ width: "max-content", position: "relative" }}>
                     <img
                       alt="testimonial"
+                      style={{ width: "125px", height: "auto" }}
                       className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                       src={testimonial.image}
                     />
+                    {/* Quote Icon */}
                     <svg
                       style={{
                         position: "absolute",
                         right: "0px",
                         bottom: "8px",
                         width: "2rem",
-                        transform: isVisible
-                          ? "translate(0%, -50%)"
-                          : "translate(300%, -50%)", // Starts far right, moves to image
-                        transition: "transform 1s ease-in-out",
+                        opacity: isVisible ? 1 : 0,
+                        transform: `translate(${
+                          isVisible ? scrollPosition : 100
+                        }%, -50%)`, // Moves dynamically
+                        transition: "transform 0.3s ease-out",
                       }}
-                      className={`quote-icon ${isVisible ? "animate" : ""}`}
+                      className={`quote-icon`}
                       xmlns="http://www.w3.org/2000/svg"
                       fill="#9ca3af"
                       viewBox="0 0 975.036 975.036"

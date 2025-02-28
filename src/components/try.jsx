@@ -33,52 +33,44 @@ const MappingLayout = () => {
       <section className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="outer-div grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1  gap-6 py-24 relative">
           <div className="left-div">
-            <h2 className="xl:text-6xl text-4xl pt-12 font-bold leading-tight text-center relative z-10">
-              Discover the Power of <br /> Custom Development
-            </h2>
-            <p className="leading-tight text-center relative z-10">
-              Want a high-performing, user-friendly website? With our web
-              development team, create a website that loads faster and looks
-              unique.
-            </p>
+            <div className=" lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                Before they sold out
+                <br className="hidden lg:inline-block" />
+                readymade gluten
+              </h1>
+              <p className="mb-8 leading-relaxed">
+                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
+                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
+                park mlkshk tote bag selvage hot chicken authentic tumeric
+                truffaut hexagon try-hard chambray.
+              </p>
+            </div>
           </div>
           <div className="right-div relative">
             <div className="grid grid-cols-4 grid-rows-2 gap-4 relative z-10">
-              <div
-                className="  w-[max-content]"
-                id="top-one"
-              >
-                <img src={Wordpress} className="h-[80px]" alt="" />
+              <div className="  w-[max-content]">
+                <img id="top-one" src={Wordpress} className="h-[80px]" alt="" />
               </div>
-              <div
-                className="  w-[max-content]"
-                id="top-two"
-              >
-                <img src={drupal} className="h-[80px]" alt="" />
+              <div className="  w-[max-content]">
+                <img id="top-two" src={drupal} className="h-[80px]" alt="" />
               </div>
-              <div
-                className="  w-[max-content]"
-                id="top-three"
-              >
-                <img src={joomla} className="h-[80px]" alt="" />
+              <div className="  w-[max-content]">
+                <img id="top-three" src={joomla} className="h-[80px]" alt="" />
               </div>
-              <div
-                className="  w-[max-content]"
-                id="top-four"
-              >
-                <img src={loadingLogo} className="h-[80px]" alt="" />
+              <div className="  w-[max-content]">
+                <img
+                  id="top-four"
+                  src={loadingLogo}
+                  className="h-[80px]"
+                  alt=""
+                />
               </div>
-              <div
-                className="col-start-2   w-[max-content]"
-                id="top-five"
-              >
-                <img src={magento} className="h-[80px]" alt="" />
+              <div className="col-start-2   w-[max-content]">
+                <img id="top-five" src={magento} className="h-[80px]" alt="" />
               </div>
-              <div
-                className="col-start-3   w-[max-content]"
-                id="top-six"
-              >
-                <img src={Wordpress} className="h-[80px]" alt="" />
+              <div className="col-start-3   w-[max-content]">
+                <img id="top-six" src={Wordpress} className="h-[80px]" alt="" />
               </div>
             </div>
           </div>
@@ -86,53 +78,60 @@ const MappingLayout = () => {
         <div className="outer-div grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 gap-6 py-24 relative">
           <div className="left-div relative">
             <div className="grid grid-cols-4 grid-rows-2 gap-4 relative z-10">
-              <div
-                className="col-start-2   w-[max-content]"
-                id="bottom-one"
-              >
-                <img src={Wordpress} className="h-[80px]" alt="" />
+              <div className="col-start-2   w-[max-content]">
+                <img
+                  id="bottom-one"
+                  src={Wordpress}
+                  className="h-[80px]"
+                  alt=""
+                />
               </div>
-              <div
-                className="col-start-1 row-start-2   w-[max-content]"
-                id="bottom-two"
-              >
-                <img src={drupal} className="h-[80px]" alt="" />
+              <div className="col-start-1 row-start-2   w-[max-content]">
+                <img id="bottom-two" src={drupal} className="h-[80px]" alt="" />
               </div>
-              <div
-                className="col-start-3 row-start-1   w-[max-content]"
-                id="bottom-three"
-              >
-                <img src={loadingLogo} className="h-[80px]" alt="" />
+              <div className="col-start-3 row-start-1   w-[max-content]">
+                <img
+                  id="bottom-three"
+                  src={loadingLogo}
+                  className="h-[80px]"
+                  alt=""
+                />
               </div>
-              <div
-                className="col-start-4 row-start-2   w-[max-content]"
-                id="bottom-four"
-              >
-                <img src={Wordpress} className="h-[80px]" alt="" />
+              <div className="col-start-4 row-start-2   w-[max-content]">
+                <img
+                  id="bottom-four"
+                  src={Wordpress}
+                  className="h-[80px]"
+                  alt=""
+                />
               </div>
-              <div
-                className="col-start-2 row-start-2   w-[max-content]"
-                id="bottom-five"
-              >
-                <img src={magento} className="h-[80px]" alt="" />
+              <div className="col-start-2 row-start-2   w-[max-content]">
+                <img
+                  id="bottom-five"
+                  src={magento}
+                  className="h-[80px]"
+                  alt=""
+                />
               </div>
-              <div
-                className="col-start-3 row-start-2   w-[max-content]"
-                id="bottom-six"
-              >
-                <img src={joomla} className="h-[80px]" alt="" />
+              <div className="col-start-3 row-start-2   w-[max-content]">
+                <img id="bottom-six" src={joomla} className="h-[80px]" alt="" />
               </div>
             </div>
           </div>
           <div className="right-div relative z-10">
-            <h2 className="xl:text-6xl text-4xl pt-12 font-bold leading-tight text-center relative z-10">
-              Discover the Power of <br /> Custom Development
-            </h2>
-            <p className="leading-tight text-center relative z-10">
-              Want a high-performing, user-friendly website? With our web
-              development team, create a website that loads faster and looks
-              unique.
-            </p>
+            <div className=" lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                Before they sold out
+                <br className="hidden lg:inline-block" />
+                readymade gluten
+              </h1>
+              <p className="mb-8 leading-relaxed">
+                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
+                air plant cold-pressed tacos poke beard tote bag. Heirloom echo
+                park mlkshk tote bag selvage hot chicken authentic tumeric
+                truffaut hexagon try-hard chambray.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -154,7 +153,7 @@ const MappingLayout = () => {
                 color={color}
                 strokeWidth={2}
                 className="animated-arrow"
-                headSize={4}
+                headSize={6}
                 animateDrawing={1}
                 dashness={{ strokeLen: 10, nonStrokeLen: 5 }}
                 curveness={
