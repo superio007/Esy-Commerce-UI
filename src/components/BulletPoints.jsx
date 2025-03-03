@@ -32,7 +32,7 @@ const BulletPoints = () => {
   return (
     <div id="BuletSection" className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
       <section className="text-gray-600 body-font">
-        <div className="flex px-5 pt-18 md:flex-row flex-col items-center">
+        <div className="flex px-5 pb-18 pt-18 md:flex-row flex-col items-center">
           <div id="LeftSide">
             <img
               className="object-cover object-center rounded"
@@ -57,14 +57,14 @@ const BulletPoints = () => {
             <div className="flex flex-wrap w-full">
               {bulletPoints.map((point, index) => (
                 <div key={index} className={`p-2 sm:w-1/2 w-full `}>
-                  <div className="bg-gray-100 rounded flex p-4 h-full items-center">
+                  <div className="bg-white rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="3"
-                      className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4"
+                      className="text-[#007fff] w-6 h-6 flex-shrink-0 mr-4"
                       viewBox="0 0 24 24"
                     >
                       <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>

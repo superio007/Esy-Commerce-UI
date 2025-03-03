@@ -12,9 +12,7 @@ const LandPage = () => {
       {/* Hero Section */}
       <HeroSection />
       {/* Brand Slider */}
-      <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
-        <CustomerSlider />
-      </div>
+      <CustomerSlider />
       {/* Bullet Points */}
       <BulletPoints />
       {/* CMS Section */}
@@ -24,9 +22,7 @@ const LandPage = () => {
       {/* Testimonial */}
       <Testimonial />
       {/* Awards & Certification */}
-      <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-        <Certification />
-      </div>
+      <Certification />
     </>
   );
 };

@@ -32,39 +32,41 @@ const CMS = () => {
 
   return (
     <>
-      <section
-        id="CMSSection"
-        className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl py-16 "
-      >
-        <div className="md:text-left text-center grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
-          {/* Left Content */}
-          <div className={`space-y-6 `}>
-            <h2 className="Land-CMS-Heading sm:text-4xl capitalize text-3xl font-semibold">
-              Services We Offer
-            </h2>
+      <div className="bg-white">
+        <section
+          id="CMSSection"
+          className=" xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl py-16 "
+        >
+          <div className="md:text-left text-center grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
+            {/* Left Content */}
+            <div className={`space-y-6 `}>
+              <h2 className="Land-CMS-Heading sm:text-4xl capitalize text-3xl font-semibold">
+                Services We Offer
+              </h2>
 
-            <div className="">
-              {contentArray.map((item, index) => (
-                <div className="pb-4" key={index}>
-                  <h3 className="Land-CMS-Subheading text-[21px] font-semibold">
-                    {item.title}
-                  </h3>
-                  <p className="Land-CMS-Para text-gray-600">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
+              <div className="">
+                {contentArray.map((item, index) => (
+                  <div className="pb-4" key={index}>
+                    <h3 className="Land-CMS-Subheading text-[21px] font-semibold">
+                      {item.title}
+                    </h3>
+                    <p className="Land-CMS-Para text-gray-600">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Content (Lottie Animation) */}
+            <div className="flex justify-center">
+              <ParallaxProvider>
+                <RotateEffect />
+              </ParallaxProvider>
             </div>
           </div>
-
-          {/* Right Content (Lottie Animation) */}
-          <div className="flex justify-center">
-            <ParallaxProvider>
-              <RotateEffect />
-            </ParallaxProvider>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </>
   );
 };

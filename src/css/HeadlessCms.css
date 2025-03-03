@@ -28,11 +28,11 @@
     transform: translateX(0);
   }
 }
-#HeadingSection {
+/* #HeadingSection {
   animation: fadeInUp 3s ease-in;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
-}
+} */
 /* Landing Page Hero Section Css */
 @media screen and (max-width: 331px) {
   .Land-HeadingSection-Heading {
