@@ -102,6 +102,7 @@ const Navbar = () => {
         <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
           <NavLink
+            to="/"
             className="flex items-center space-x-3"
             // onClick={handleLoadingScreen}
           >
@@ -123,17 +124,16 @@ const Navbar = () => {
               className="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse"
             >
               <li className="nav-heads">
-                <NavLink
+                <a
                   onClick={() => {
                     setIsEcommMenu(!isEcommMenuOpen);
                     setIsDesignMenu(false);
                     setIsDevMenu(false);
                     setIsBpmMenu(false);
                   }}
-                  href="#"
                 >
                   Ecommerce
-                </NavLink>
+                </a>
                 {isEcommMenuOpen && (
                   <div
                     style={{
@@ -146,26 +146,17 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             Ecommerce Consultation (Performance)
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             Ecommerce Enablement (Operations)
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             Ecommerce Website Development (TechDev)
                           </NavLink>
                         </li>
@@ -178,17 +169,16 @@ const Navbar = () => {
                 )}
               </li>
               <li className="nav-heads">
-                <NavLink
+                <a
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(!isDesignMenuOpen);
                     setIsDevMenu(false);
                     setIsBpmMenu(false);
                   }}
-                  href="#"
                 >
                   Design
-                </NavLink>
+                </a>
                 {isDesignMenuOpen && (
                   <div
                     style={{
@@ -201,34 +191,22 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             YouTube Content Marketing
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             LinkedIn Content Marketing
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             Identity, Branding & Communication
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             Custom Website Development
                           </NavLink>
                         </li>
@@ -241,17 +219,16 @@ const Navbar = () => {
                 )}
               </li>
               <li className="nav-heads">
-                <NavLink
+                <a
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
                     setIsDevMenu(!isDevMenuOpen);
                     setIsBpmMenu(false);
                   }}
-                  href="#"
                 >
                   Development
-                </NavLink>
+                </a>
                 {isDevMenuOpen && (
                   <div
                     style={{
@@ -266,26 +243,17 @@ const Navbar = () => {
                         <ul>
                           <li>CMS</li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               WordPress
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Drupal
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Joomla
                             </NavLink>
                           </li>
@@ -293,66 +261,42 @@ const Navbar = () => {
                         <ul>
                           <li>CRM</li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Salesforce
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               HubSpot
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Odoo
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Zoho
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               ERP
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               ERPNext
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Microsoft Dynamics
                             </NavLink>
                           </li>
                           <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              href="#"
-                              className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                            >
+                            <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                               Oracle NetSuite
                             </NavLink>
                           </li>
@@ -366,17 +310,16 @@ const Navbar = () => {
                 )}
               </li>
               <li className="nav-heads">
-                <NavLink
+                <a
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
                     setIsDevMenu(false);
                     setIsBpmMenu(!isBpmMenuOpen);
                   }}
-                  href="#"
                 >
                   BPM
-                </NavLink>
+                </a>
                 {isBpmMenuOpen && (
                   <div
                     style={{
@@ -389,42 +332,27 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             CONTENT MIGRATION
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             TRANSLATION
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             TRANSCRIPTION
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             TRANSLITERATION
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
-                            href="#"
-                            className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                          >
+                          <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                             DATA LABELING & ANNOTATION
                           </NavLink>
                         </li>
@@ -437,30 +365,28 @@ const Navbar = () => {
                 )}
               </li>
               <li className="nav-heads">
-                <NavLink
+                <a
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
                     setIsDevMenu(false);
                     setIsBpmMenu(false);
                   }}
-                  href="#"
                 >
                   About Us
-                </NavLink>
+                </a>
               </li>
               <li className="nav-heads">
-                <NavLink
+                <a
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
                     setIsDevMenu(false);
                     setIsBpmMenu(false);
                   }}
-                  href="#"
                 >
                   Contact Us
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>
@@ -517,7 +443,6 @@ const Navbar = () => {
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
             <li className="nav-heads-mobile">
               <NavLink
-                href="#"
                 className="flex justify-between items-center text-gray-900 hover:text-blue-700"
                 onClick={() => {
                   setMIsEcommMenu(!isMEcommMenuOpen);
@@ -535,26 +460,17 @@ const Navbar = () => {
                 <div className="bg-white p-4">
                   <ul>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         Ecommerce Consultation (Performance)
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         Ecommerce Enablement (Operations)
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         Ecommerce Website Development (TechDev)
                       </NavLink>
                     </li>
@@ -564,7 +480,6 @@ const Navbar = () => {
             )}
             <li className="nav-heads-mobile">
               <NavLink
-                href="#"
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(!isMDesignMenuOpen);
@@ -582,34 +497,22 @@ const Navbar = () => {
                 <div className="bg-white p-4">
                   <ul>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         YouTube Content Marketing
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         LinkedIn Content Marketing
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         Identity, Branding & Communication
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         Custom Website Development
                       </NavLink>
                     </li>
@@ -619,7 +522,6 @@ const Navbar = () => {
             )}
             <li className="nav-heads-mobile">
               <NavLink
-                href="#"
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(false);
@@ -639,26 +541,17 @@ const Navbar = () => {
                     <li className="mb-4">CMS</li>
                     <div className="pl-4">
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           WordPress
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Drupal
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Joomla
                         </NavLink>
                       </li>
@@ -666,66 +559,42 @@ const Navbar = () => {
                     <li className="mb-4">CRM</li>
                     <div className="pl-4">
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Salesforce
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           HubSpot
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Odoo
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Zoho
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           ERP
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           ERPNext
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Microsoft Dynamics
                         </NavLink>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
-                          href="#"
-                          className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                        >
+                        <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                           Oracle NetSuite
                         </NavLink>
                       </li>
@@ -736,7 +605,6 @@ const Navbar = () => {
             )}
             <li className="nav-heads-mobile">
               <NavLink
-                href="#"
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(false);
@@ -754,34 +622,22 @@ const Navbar = () => {
                 <div className="bg-white p-4">
                   <ul>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         CONTENT MIGRATION
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         TRANSLATION
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         TRANSCRIPTION
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
-                        href="#"
-                        className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5"
-                      >
+                      <NavLink className="Menu-item-text text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5">
                         TRANSLITERATION
                       </NavLink>
                     </li>
@@ -797,7 +653,6 @@ const Navbar = () => {
                   setMIsDevMenu(false);
                   setMIsBpmMenu(false);
                 }}
-                href="#"
                 className="text-gray-900 hover:text-blue-700"
               >
                 About Us
@@ -815,7 +670,6 @@ const Navbar = () => {
               <ul className="flex justify-center items-center bg-[#007fff] text-white">
                 <li className="nav-heads-mobile">
                   <NavLink
-                    href="#"
                     onClick={() => {
                       setMIsEcommMenu(false);
                       setMIsDesignMenu(false);
