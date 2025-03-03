@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import "../css/BuletPoints.css";
 
 const BulletPoints = () => {
@@ -32,26 +32,22 @@ const BulletPoints = () => {
   return (
     <div id="BuletSection" className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
       <section className="text-gray-600 body-font">
-        <div className="flex px-5 pt-24 md:flex-row flex-col items-center">
-          <div
-            id="LeftSide"
-          >
+        <div className="flex px-5 pt-18 md:flex-row flex-col items-center">
+          <div id="LeftSide">
             <img
               className="object-cover object-center rounded"
               alt="hero"
               src="https://dummyimage.com/720x600"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <div
-              id="right-text"
-            >
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+          <div className="mt-4 xl:mt-0 sm:mt-6 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <div id="right-text" className="mb-2">
+              <h2 className="title-font Land-Bullets-Heading sm:text-4xl capitalize text-3xl mb-4 font-medium text-gray-900">
                 Before they sold out
                 <br className="hidden lg:inline-block" />
                 readymade gluten
-              </h1>
-              <p className="leading-relaxed">
+              </h2>
+              <p className="leading-relaxed Land-Bullets-Subheading">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -60,10 +56,7 @@ const BulletPoints = () => {
             </div>
             <div className="flex flex-wrap w-full">
               {bulletPoints.map((point, index) => (
-                <div
-                  key={index}
-                  className={`p-2 sm:w-1/2 w-full `}
-                >
+                <div key={index} className={`p-2 sm:w-1/2 w-full `}>
                   <div className="bg-gray-100 rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"

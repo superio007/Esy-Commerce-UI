@@ -12,3 +12,14 @@
 .fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
 }
+
+@media screen and (max-width: 331px) {
+  .Land-Bullets-Heading{
+    font-size: 1.8rem !important;
+    line-height: 2.5rem !important;
+  }
+  .Land-Bullets-subheading{
+    font-size: 0.75rem !important;
+  }
+  
+}

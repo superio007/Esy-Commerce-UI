@@ -59,7 +59,7 @@ const Testimonial = () => {
       className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl"
       ref={sectionRef}
     >
-      <div className="md:px-5 pt-24 pb-12">
+      <div className="md:px-5 md:pt-24 pb-12">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
@@ -108,7 +108,7 @@ const Testimonial = () => {
 
                 <p className="leading-relaxed">{testimonial.text}</p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-[18px]">
                   {testimonial.name}
                 </h2>
                 <p className="text-gray-500">{testimonial.role}</p>

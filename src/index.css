@@ -5,13 +5,14 @@
 @theme {
   --breakpoint-3xl: 1600px;
 }
-*{
-  font-family: DM Sans,sans-serif;
+* {
+  font-family: "Inter", sans-serif;
 }
 body {
   /* height: 100vh; */
   background-color: antiquewhite;
-} 
+}
 li {
   list-style-type: none;
 }
+

@@ -82,11 +82,13 @@ const Headless = () => {
         className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl"
       >
         <h2
-          className={`xl:text-6xl text-4xl pt-12 font-bold leading-tight text-center`}
+          className={`Land-HeadingSection-Heading xl:text-6xl text-4xl pt-12 font-bold leading-tight text-center`}
         >
           Discover the Power of <br /> Custom Development
         </h2>
-        <p className={`leading-tight text-center `}>
+        <p
+          className={`leading-tight text-center Land-HeadingSection-Subheading`}
+        >
           Want a high-performing, user-friendly website? With our web
           development team, create a website that loads faster and looks unique.
         </p>
@@ -95,15 +97,15 @@ const Headless = () => {
         style={{ position: "relative" }}
         className="xl:px-10 md:px-5  3xl:mx-auto 3xl:max-w-screen-xl"
       >
-        <div className="outer-div grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1  gap-6 pt-24 pb-12 relative">
+        <div className="outer-div grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 items-center gap-6 pt-24 pb-12 relative">
           <div className="left-div">
             <div className="flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
-              <h1 className="title-font md:text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <h3 className="title-font md:text-left Land-HeadlessCMS-Heading text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 Before they sold out
                 <br className="hidden lg:inline-block" />
                 readymade gluten
-              </h1>
-              <p className="mb-8 md:text-center leading-relaxed">
+              </h3>
+              <p className="Land-HeadlessCMS-Subheading mb-8 md:text-left text-center leading-relaxed">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -159,12 +161,17 @@ const Headless = () => {
         </div>
         <div
           ref={EndInView}
-          className="outer-div grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 gap-6 pt-12 pb-24 relative"
+          className="outer-div grid grid-rows-1 lg:grid-cols-2 items-center md:grid-cols-1 gap-6 pt-12 relative"
         >
           <div className="left-div relative ">
             <div className="grid grid-cols-4 grid-rows-4 gap-4 ">
               <div>
-                <img id="bottom-one" src={Svelte} className="BrandLogo" alt="" />
+                <img
+                  id="bottom-one"
+                  src={Svelte}
+                  className="BrandLogo"
+                  alt=""
+                />
               </div>
               <div className="row-start-2">
                 <img
@@ -214,12 +221,12 @@ const Headless = () => {
 
           <div className="right-div relative z-10">
             <div className="flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <h3 className="Land-HeadlessCMS-Heading title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 Before they sold out
                 <br className="hidden lg:inline-block" />
                 readymade gluten
-              </h1>
-              <p className="mb-8 md:text-center leading-relaxed">
+              </h3>
+              <p className="Land-HeadlessCMS-Subheading mb-8 md:text-left text-center leading-relaxed">
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric

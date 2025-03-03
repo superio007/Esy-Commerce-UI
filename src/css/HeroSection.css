@@ -1,0 +1,10 @@
+/* Landing Page Hero Section Css */
+@media screen and (max-width: 331px) {
+  .Land-Hero-heading {
+    font-size: 1.8rem !important;
+    line-height: 2.5rem !important;
+  }
+  .Land-Hero-subheading{
+    font-size: 0.75rem !important;
+  }
+}

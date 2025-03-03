@@ -33,3 +33,22 @@
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+/* Landing Page Hero Section Css */
+@media screen and (max-width: 331px) {
+  .Land-HeadingSection-Heading {
+    font-size: 1.8rem !important;
+    line-height: 2.5rem !important;
+  }
+  .Land-HeadingSection-Subheading{
+    font-size: 0.75rem !important;
+    line-height: 1.2rem !important;
+  }
+  .Land-HeadlessCMS-Heading {
+    font-size: 1rem !important;
+    line-height: 1.25rem !important;
+  }
+  .Land-HeadlessCMS-Subheading{
+    font-size: 0.75rem !important;
+    line-height: 1.2rem !important;
+  }
+}

@@ -14,14 +14,8 @@
   align-items: center;
   justify-content: center;
   transform-origin: center;
-  border: 3px solid #FFD700; /* Added border */
+  border: 3px solid #ffd700; /* Added border */
   border-radius: 50%;
-}
-
-/* Center logo (fixed position, no rotation) */
-.center-logo {
-  width: 90px;
-  position: absolute;
 }
 
 /* Outer rotating icons */
@@ -32,10 +26,18 @@
 }
 
 /* Positioning outer icons */
-.diamond { transform: translate(150px, 0) rotate(0deg); }
-.clown { transform: translate(-145px, 0) rotate(0deg); }
-.money { transform: translate(0, 150px) rotate(0deg); }
-.hand { transform: translate(0, -145px) rotate(0deg); }
+.Wordpress {
+  transform: translate(150px, 0) rotate(0deg);
+}
+.Drupal {
+  transform: translate(-145px, 0) rotate(0deg);
+}
+.Joomla {
+  transform: translate(0, 150px) rotate(0deg);
+}
+.Magento {
+  transform: translate(0, -145px) rotate(0deg);
+}
 
 /* Keeping inner icons upright */
 .inner-icon img {
@@ -47,4 +49,27 @@
   width: 50px;
   height: auto;
   transform: rotate(0deg); /* Removed rotation effect */
+}
+/* For Samsung Fold */
+@media screen and (max-width: 331px) {
+  .spinner {
+    height: 200px !important;
+  }
+  .Wordpress {
+    transform: translate(100px, 0) rotate(0deg);
+  }
+  .Drupal {
+    transform: translate(-100px, 0) rotate(0deg);
+  }
+  .Joomla {
+    transform: translate(0, 100px) rotate(0deg);
+  }
+  .Magento {
+    transform: translate(0, -100px) rotate(0deg);
+  }
+  /* Center logo (fixed position, no rotation) */
+  #centerLogo {
+    height: 60px;
+    position: absolute;
+  }
 }
