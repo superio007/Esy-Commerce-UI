@@ -1,5 +1,6 @@
 .from-div{
-    position: absolute;
+    position: sticky;
+    z-index: 9999;
     bottom: 0;
     width: 100%;
     padding: 1.5rem 0;

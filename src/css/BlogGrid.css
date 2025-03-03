@@ -12,6 +12,7 @@
 
 .blog-grid {
   animation: float 3s ease-in-out infinite;
+  flex-shrink: 0; /* Prevents shrinking when screen is small */
 }
 
 /* Add slight delays to create a natural floating effect */
@@ -29,4 +30,10 @@
 
 .blog-grid:nth-child(5) {
   animation-delay: 0.8s;
+}
+@media screen and (max-width: 331px) {
+  .Land-Blog-Heading{
+    font-size: 1.8rem !important;
+    line-height: 2.5rem !important;
+  }
 }

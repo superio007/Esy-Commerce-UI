@@ -55,7 +55,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#fafafa]">
       <section
         id="testimonials"
         className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl"

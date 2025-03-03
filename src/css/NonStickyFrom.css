@@ -1,0 +1,12 @@
+.Non-from-div{
+    position: relative;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+@media screen and (max-width: 769px) {
+    .Non-from-div{
+        padding: 1.5rem ;
+    }
+}

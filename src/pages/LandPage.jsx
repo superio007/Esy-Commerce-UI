@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import BulletPoints from "../components/BulletPoints";
 import CustomerSlider from "../components/CustomerSlider";
 import Certification from "../components/CertificationSlider";
+import BlogGrid from "../components/BlogGrid";
 import Testimonial from "../components/Testimonial";
 import Headless from "../components/HeadlessCms";
 import CMS from "../components/Cms";
@@ -19,6 +20,8 @@ const LandPage = () => {
       <CMS />
       {/* Headless Cms section */}
       <Headless />
+      {/* Blog Grid */}
+      <BlogGrid />
       {/* Testimonial */}
       <Testimonial />
       {/* Awards & Certification */}

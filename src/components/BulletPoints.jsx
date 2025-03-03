@@ -1,4 +1,4 @@
-// import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import "../css/BuletPoints.css";
 
 const BulletPoints = () => {
@@ -11,23 +11,31 @@ const BulletPoints = () => {
     "The Catcher In The Rye",
   ];
 
-  // const [isVisible, setIsVisible] = useState(false);
+  const [visibleIndexes, setVisibleIndexes] = useState([]);
+  const bulletRefs = useRef([]);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const section = document.getElementById("BuletSection");
-  //     if (section) {
-  //       const rect = section.getBoundingClientRect();
-  //       if (rect.top <= window.innerHeight * 0.75 && rect.bottom >= 0) {
-  //         setIsVisible(true);
-  //       }
-  //     }
-  //   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const newVisibleIndexes = [];
+      bulletRefs.current.forEach((bullet, index) => {
+        if (bullet) {
+          const rect = bullet.getBoundingClientRect();
+          const isVisible =
+            rect.top <= window.innerHeight * 0.85 && rect.bottom >= 0;
 
-  //   window.addEventListener("scroll", handleScroll);
-  //   handleScroll();
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
+          if (isVisible) {
+            newVisibleIndexes.push(index);
+          }
+        }
+      });
+
+      setVisibleIndexes(newVisibleIndexes); // Reset on exit
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Trigger once on mount
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div id="BuletSection" className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
@@ -56,7 +64,13 @@ const BulletPoints = () => {
             </div>
             <div className="flex flex-wrap w-full">
               {bulletPoints.map((point, index) => (
-                <div key={index} className={`p-2 sm:w-1/2 w-full `}>
+                <div
+                  key={index}
+                  ref={(el) => (bulletRefs.current[index] = el)}
+                  className={`p-2 sm:w-1/2 w-full transition-opacity duration-700 transform ${
+                    visibleIndexes.includes(index) ? "fade-in-up" : "opacity-0"
+                  }`}
+                >
                   <div className="bg-white rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"

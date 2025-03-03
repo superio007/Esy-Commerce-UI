@@ -3,13 +3,13 @@ import Navbar from "../components/Navbar";
 import Sticky from "../components/StickyFrom";
 import React, { useEffect, useState } from "react";
 import Footer from "../components/Footer";
-import Footer2 from "../components/Footer2";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Breadcrumbs from "../components/Breadcrumbs";
 import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha,
 } from "react-google-recaptcha-v3";
+
 
 const RecaptchaToken = () => {
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -43,6 +43,7 @@ const RecaptchaToken = () => {
   return null; // No UI rendering
 };
 
+
 const MainLayout = () => {
   return (
     <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_SITE_KEY}>
@@ -52,7 +53,7 @@ const MainLayout = () => {
       <ParallaxProvider>
         <Outlet />
       </ParallaxProvider>
-      <Sticky />
+      <Sticky/>
       <Footer />
     </GoogleReCaptchaProvider>
   );

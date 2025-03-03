@@ -3,31 +3,46 @@ import "../css/BlogGrid.css"; // Ensure CSS file is included
 
 const BlogGrid = () => {
   return (
-    <div id="overFlow" className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
-      <div className="grid grid-cols-11 grid-rows-8 gap-5 py-24">
-        <div className="blog-grid col-span-7 row-span-5 bg-white rounded-2xl h-[350px]">1</div>
-        <div className="blog-grid col-span-4 row-span-3 col-start-8 bg-white rounded-2xl">
-          7
-        </div>
-        <div
-          className="blog-grid col-span-4 row-span-2 col-start-8 row-start-4
-          bg-white
-          rounded-2xl"
+    <section className="bg-white xl:py-12">
+      <section
+        id="HeadingSection"
+        className="xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl"
+      >
+        <h2
+          className={`Land-Blog-Heading xl:text-6xl text-4xl font-bold leading-tight text-center`}
         >
-          8
-        </div>
-        <div className="blog-grid col-span-8 row-span-3 row-start-6 bg-white rounded-2xl">
-          9
-        </div>
+          Our Blogs
+        </h2>
+      </section>
+      <div
+        style={{ scrollbarWidth: "none" }}
+        className="xl:px-12  p-6 3xl:mx-auto 3xl:max-w-screen-xl overflow-x-auto"
+      >
         <div
-          className="blog-grid col-span-3 row-span-3 col-start-9 row-start-6
-          bg-white
-          rounded-2xl"
+          id="overFlow"
+          className="grid grid-cols-5 grid-rows-6 gap-8 min-w-[800px] flex-shrink-0"
         >
-          10
+          <div className="blog-grid row-span-4 bg-[#d22823] rounded-2xl text-white h-[350px]">
+            1
+          </div>
+          <div className="blog-grid col-span-3 row-span-4 bg-[#d22823] rounded-2xl text-white">
+            2
+          </div>
+          <div className="blog-grid row-span-4 col-start-5 row-start-3 bg-[#d22823] rounded-2xl text-white">
+            3
+          </div>
+          <div className="blog-grid row-span-2 col-start-5 row-start-1 bg-[#d22823] rounded-2xl text-white">
+            4
+          </div>
+          <div className="blog-grid col-span-2 row-span-2 col-start-3 row-start-5 bg-[#d22823] rounded-2xl text-white">
+            5
+          </div>
+          <div className="blog-grid col-span-2 row-span-2 col-start-1 row-start-5 bg-[#d22823] rounded-2xl text-white">
+            6
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,10 @@ const HeroSection = () => {
   return (
     <div className="bg-[#ffffff]">
       <section className="body-font xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
-        <div className="flex md:px-5 pt-24 pb-12 md:flex-row flex-col items-center">
+        <div
+          id="HeroSection"
+          className="flex md:px-5 pt-24 pb-12 md:flex-row flex-col items-center"
+        >
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font text-4xl Land-Hero-heading xl:text-6xl capitalize mb-4 font-medium text-gray-900">
               Before they sold out
