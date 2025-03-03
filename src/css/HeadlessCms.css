@@ -1,3 +1,7 @@
+.BrandLogo{
+  width: 65%;
+  object-fit: contain;
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -24,16 +28,6 @@
     transform: translateX(0);
   }
 }
-/* .left-div {
-  animation: leftSlide 3s ease-in;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-.right-div {
-  animation: rightSlide 3s ease-in;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-} */
 #HeadingSection {
   animation: fadeInUp 3s ease-in;
   animation-timeline: view();
