@@ -13,7 +13,7 @@ const Footer = () => {
               src={WebsitLogo}
               alt="Website Logo"
             />
-            <p className="p-1 mb-6 leading-normal text-[16px] text-[#00000099]">
+            <p className="p-1 mb-6 leading-normal text-[16px] ">
               Your one stop service <br /> provider for all HITL data <br />{" "}
               labeling and content <br /> management services <br /> required
               for successful AI & <br /> Machine Learning projects.
@@ -26,54 +26,60 @@ const Footer = () => {
             />
           </div>
           <div className="col-span-1">
-            <p className="mb-3 leading-normal text-[18px] font-bold">Our Services</p>
+            <h2 className="mb-3 leading-normal text-[18px] font-bold">
+              Our Services
+            </h2>
             <ul style={{ width: "max-content" }}>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Ecommerce
+                <p>Ecommerce</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Design
+                <p>Design</p>
               </li>
 
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Development
+                <p>Development</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                BPM
+                <p>BPM</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                About Us
+                <p>About Us</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Contact Us
+                <p>Contact Us</p>
               </li>
             </ul>
           </div>
           <div className="col-span-1">
-            <p className="mb-3 leading-normal text-[18px] font-bold">Legal Compliance</p>
+            <h2 className="mb-3 leading-normal text-[18px] font-bold">
+              Legal Compliance
+            </h2>
             <ul style={{ width: "max-content" }}>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Privacy Policy
+                <p>Privacy Policy</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Ethics Policy
+                <p>Ethics Policy</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Data Security Policy
+                <p>Data Security Policy</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Code of Conduct
+                <p>Code of Conduct</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                Information Security
+                <p>Information Security</p>
               </li>
               <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
-                FAQ
+                <p>FAQ</p>
               </li>
             </ul>
           </div>
           <div className="xl:col-span-2 md:col-span-1">
-            <p className="mb-1 leading-normal text-[18px] font-bold">Contact Us</p>
+            <h2 className="mb-1 leading-normal text-[18px] font-bold">
+              Contact Us
+            </h2>
             <div className="pb-1">
               <p className="flex  flex-wrap gap-2 text-1xl leading-normal font-medium mb-2">
                 <img
@@ -83,7 +89,7 @@ const Footer = () => {
                 />
                 EsyCommerce Digital Services LLC
               </p>
-              <p className="font-normal text-[16px] text-[#00000099]">
+              <p className="font-normal text-[16px] ">
                 447 Broadway, 2nd Floor, Suite 896,
                 <br /> New York, New York 10013, USA <br /> Phone: +1 (279)
                 732-6842
@@ -98,7 +104,7 @@ const Footer = () => {
                 />
                 Offshore Global Capability Center (GCC)
               </p>
-              <p className="font-normal text-[16px] text-[#00000099]">
+              <p className="font-normal text-[16px] ">
                 811, Opal Business Park, Wagle Estate <br /> Thane, Mumbai 400
                 606, India <br /> Phone: +91 865-223-3399
               </p>

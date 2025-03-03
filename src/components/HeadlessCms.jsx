@@ -102,7 +102,7 @@ const Headless = () => {
           <div className="outer-div p-2 grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 items-center gap-6 pt-12 pb-12 relative">
             <div className="left-div">
               <div className="flex flex-col md:items-start md:text-left md:mb-0 items-center">
-                <h3 className="title-font md:text-left Land-HeadlessCMS-Heading text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                <h3 className="title-font md:text-left Land-HeadlessCMS-Heading text-center sm:text-4xl text-3xl mb-4 font-medium ">
                   Before they sold out
                   <br className="hidden lg:inline-block" />
                   readymade gluten
@@ -243,7 +243,7 @@ const Headless = () => {
 
             <div className="right-div relative z-10">
               <div className="flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-                <h3 className="Land-HeadlessCMS-Heading title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                <h3 className="Land-HeadlessCMS-Heading title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium ">
                   Before they sold out
                   <br className="hidden lg:inline-block" />
                   readymade gluten

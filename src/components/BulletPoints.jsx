@@ -39,7 +39,7 @@ const BulletPoints = () => {
 
   return (
     <div id="BuletSection" className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
-      <section className="text-gray-600 body-font">
+      <section className=" body-font">
         <div className="flex px-5 pb-18 pt-18 md:flex-row flex-col items-center">
           <div id="LeftSide">
             <img
@@ -50,7 +50,7 @@ const BulletPoints = () => {
           </div>
           <div className="mt-4 xl:mt-0 sm:mt-6 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <div id="right-text" className="mb-2">
-              <h2 className="title-font Land-Bullets-Heading sm:text-4xl capitalize text-3xl mb-4 font-medium text-gray-900">
+              <h2 className="title-font Land-Bullets-Heading sm:text-4xl capitalize text-3xl mb-4 font-medium ">
                 Before they sold out
                 <br className="hidden lg:inline-block" />
                 readymade gluten

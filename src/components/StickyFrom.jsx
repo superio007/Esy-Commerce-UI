@@ -141,7 +141,7 @@ const StickyFrom = () => {
       >
         {/* Left Section - Contact Us (4 Columns) */}
         <div className="xl:col-span-4 w-full text-center xl:text-left">
-          <h2 className="text-2xl font-semibold text-gray-700">
+          <h2 className="text-2xl font-semibold ">
             Book Your Free Consultation
           </h2>
         </div>
@@ -166,7 +166,7 @@ const StickyFrom = () => {
               })}
               className={`w-full bg-gray-100 bg-opacity-50 rounded border ${
                 errors.PhoneNumber ? "border-red-500" : "border-gray-300"
-              } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none  py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
             {errors.PhoneNumber && (
               <p className="text-red-500 text-sm mt-1">
@@ -190,7 +190,7 @@ const StickyFrom = () => {
               })}
               className={`w-full bg-gray-100 bg-opacity-50 rounded border ${
                 errors.email ? "border-red-500" : "border-gray-300"
-              } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
+              } focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none  py-2 px-3 leading-8 transition-colors duration-200 ease-in-out`}
             />
             {errors.email && (
               <p className="text-red-500 text-sm mt-1">

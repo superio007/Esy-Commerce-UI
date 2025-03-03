@@ -163,7 +163,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                     <div className="bg-[#007fff] text-amber-50 p-2">
-                      <p className="text-center">Have a Query?</p>
+                      <span className="block text-[#00234b] text-center">Have a Query?</span>
                     </div>
                   </div>
                 )}
@@ -213,7 +213,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                     <div className="bg-[#007fff] text-amber-50 p-2">
-                      <p className="text-center">Have a Query?</p>
+                      <span className="block text-[#00234b] text-center">Have a Query?</span>
                     </div>
                   </div>
                 )}
@@ -304,7 +304,7 @@ const Navbar = () => {
                       </div>
                     </div>
                     <div className="bg-[#007fff] text-amber-50 p-2">
-                      <p className="text-center">Have a Query?</p>
+                      <span className="block text-[#00234b] text-center">Have a Query?</span>
                     </div>
                   </div>
                 )}
@@ -359,7 +359,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                     <div className="bg-[#007fff] text-amber-50 p-2">
-                      <p className="text-center">Have a Query?</p>
+                      <span className="block text-[#00234b] text-center">Have a Query?</span>
                     </div>
                   </div>
                 )}
