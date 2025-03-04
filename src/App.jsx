@@ -3,6 +3,7 @@ import NotFound from "./pages/notFound";
 import MainLayout from "./layouts/MainLayout";
 import Try from "./components/try"
 import LandPage from "./pages/LandPage";
+import CaseStudy from "./pages/CaseStudyPage.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -17,6 +18,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/Land" element={<LandPage />} />
         <Route path="/try" element={<Try />} />
+        <Route path="/case" element={<CaseStudy />} />
       </Route>
     )
   );

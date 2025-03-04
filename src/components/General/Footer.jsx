@@ -1,6 +1,6 @@
-import WebsitLogo from "../assets/Logo.png";
-import "../css/Footer.css";
-import FooterBrands from "../assets/footerBrands.png";
+import WebsitLogo from "./assets/Logo.png";
+import "./css/Footer.css";
+import FooterBrands from "./assets/footerBrands.png";
 const Footer = () => {
   return (
     <>

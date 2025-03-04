@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import "../css/NonStickyFrom.css";
-import "../css/StickyFrom.css";
-import { encryptData, decryptData } from "../utils/cryptoUtils";
+import "./css/NonStickyFrom.css";
+import "./css/StickyFrom.css";
+import { encryptData, decryptData } from "../../utils/cryptoUtils";
 const StickyFrom = () => {
   const [isUserToken, setIsUserToken] = useState(
     !!localStorage.getItem("user-token")
@@ -236,7 +236,6 @@ const StickyFrom = () => {
       </div>
     </div>
   );
-
 };
 
 export default StickyFrom;

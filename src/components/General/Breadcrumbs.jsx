@@ -8,11 +8,11 @@ const Breadcrumbs = () => {
   if (location.pathname === "/") return null;
 
   return (
-    <section className="bg-[#fff]">
+    <section className="bg-[#007fff]">
       <nav className=" p-2 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
         <ol className="list-reset flex text-gray-500">
           <li>
-            <Link to="/" className="text-[#007fff] hover:text-blue-600">
+            <Link to="/" className="text-[#fff] hover:text-blue-600">
               Home
             </Link>
           </li>
@@ -24,11 +24,11 @@ const Breadcrumbs = () => {
               <li key={to}>
                 <span className="mx-2">/</span>
                 {last ? (
-                  <span className="text-gray-700 capitalize">{value}</span>
+                  <span className="text-white capitalize">{value}</span>
                 ) : (
                   <Link
                     to={to}
-                    className="text-[#007fff] hover:text-blue-600 capitalize"
+                    className="text-[#fff] hover:text-blue-600 capitalize"
                   >
                     {value}
                   </Link>

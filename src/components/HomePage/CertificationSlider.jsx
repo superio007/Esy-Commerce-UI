@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/CertificationSlider.css";
+import "./css/CertificationSlider.css";
 const brands = [
   {
     src: "./src/assets/Aniversary.png",

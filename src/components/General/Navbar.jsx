@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
-import WebsitLogo from "../assets/Logo.png";
+import WebsitLogo from "./assets/Logo.png";
+import logoWhite from "./assets/logoWhite.png";
 import { NavLink } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Sticky from "./StickyFrom";
 import { motion } from "framer-motion";
-import "../css/Navbar.css";
+import "./css/Navbar.css";
 // import loadingLogo from "../assets/loadingLogo.png";
 
 const Navbar = () => {
@@ -97,7 +98,7 @@ const Navbar = () => {
 
       <nav
         ref={menuRef}
-        className="bg-white p-2 border-gray-200 dark:border-gray-600"
+        className="bg-[#007fff] p-2 border-gray-200 dark:border-gray-600"
       >
         <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
@@ -108,7 +109,7 @@ const Navbar = () => {
           >
             <img
               id="website-logo"
-              src={WebsitLogo}
+              src={logoWhite}
               className="h-8"
               alt="Ecommerce Logo"
             />
@@ -162,8 +163,10 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#007fff] text-amber-50 p-2">
-                      <span className="block text-[#00234b] text-center">Have a Query?</span>
+                    <div className="bg-[#1b8dff]  p-2">
+                      <span className="block text-white text-center">
+                        Have a Query?
+                      </span>
                     </div>
                   </div>
                 )}
@@ -212,8 +215,10 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#007fff] text-amber-50 p-2">
-                      <span className="block text-[#00234b] text-center">Have a Query?</span>
+                    <div className="bg-[#1b8dff]  p-2">
+                      <span className="block text-white text-center">
+                        Have a Query?
+                      </span>
                     </div>
                   </div>
                 )}
@@ -303,8 +308,10 @@ const Navbar = () => {
                         </ul>
                       </div>
                     </div>
-                    <div className="bg-[#007fff] text-amber-50 p-2">
-                      <span className="block text-[#00234b] text-center">Have a Query?</span>
+                    <div className="bg-[#1b8dff]  p-2">
+                      <span className="block text-white text-center">
+                        Have a Query?
+                      </span>
                     </div>
                   </div>
                 )}
@@ -358,8 +365,10 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#007fff] text-amber-50 p-2">
-                      <span className="block text-[#00234b] text-center">Have a Query?</span>
+                    <div className="bg-[#1b8dff] p-2">
+                      <span className="block text-white text-center">
+                        Have a Query?
+                      </span>
                     </div>
                   </div>
                 )}
@@ -667,7 +676,7 @@ const Navbar = () => {
             }}
           >
             {isFromJwtAvailble ? (
-              <ul className="flex justify-center items-center bg-[#007fff] text-white">
+              <ul className="flex justify-center items-center bg-[#1b8dff] text-white">
                 <li className="nav-heads-mobile">
                   <NavLink
                     onClick={() => {

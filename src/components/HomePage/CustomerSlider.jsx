@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/CustomerSlider.css"; // Import CSS
+import "./css/CustomerSlider.css"; // Import CSS
 
 const brands = [
   { src: "./src/assets/Archana_Rao.png", alt: "" },

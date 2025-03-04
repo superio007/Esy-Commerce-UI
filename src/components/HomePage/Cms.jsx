@@ -1,6 +1,6 @@
 import RotateEffect from "./RotateEffect";
 import { ParallaxProvider } from "react-scroll-parallax";
-import "../css/CMS.css";
+import "./css/CMS.css";
 const contentArray = [
   {
     title: "Customer-first always",
@@ -29,7 +29,6 @@ const contentArray = [
   },
 ];
 const CMS = () => {
-
   return (
     <>
       <div className="bg-white">

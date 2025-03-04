@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import "../css/BuletPoints.css";
+import "./css/BuletPoints.css";
 
 const BulletPoints = () => {
   const bulletPoints = [

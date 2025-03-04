@@ -2,22 +2,22 @@ import React, { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import Xarrow from "react-xarrows";
 import gsap from "gsap";
-import "../css/HeadlessCms.css";
-import LoadingLogo from "../assets/loadingLogo.png";
-import Solid from "../assets/Solid.png";
-import Contentful from "../assets/contentful.png";
-import Sanity from "../assets/Sanity.png";
-import Contentstack from "../assets/contentstack.png";
-import Svelte from "../assets/Svelte.png";
-import Express from "../assets/Express.png";
-import Ember from "../assets/ember.svg";
-import ReactLogo from "../assets/react.svg";
-import VueLogo from "../assets/vue.png";
-import NextLogo from "../assets/next.png";
-import NuxtLogo from "../assets/nuxt.png";
-import StrapiLogo from "../assets/Strapi.jpg";
-import NodeLogo from "../assets/node.png";
-import AngularLogo from "../assets/angular.png";
+import "./css/HeadlessCms.css";
+import LoadingLogo from "./assets/LoadingLogo.png";
+import Solid from "./assets/Solid.png";
+import Contentful from "./assets/contentful.png";
+import Sanity from "./assets/Sanity.png";
+import Contentstack from "./assets/contentstack.png";
+import Svelte from "./assets/Svelte.png";
+import Express from "./assets/Express.png";
+import Ember from "./assets/ember.svg";
+import ReactLogo from "./assets/react.svg";
+import VueLogo from "./assets/vue.png";
+import NextLogo from "./assets/next.png";
+import NuxtLogo from "./assets/nuxt.png";
+import StrapiLogo from "./assets/Strapi.jpg";
+import NodeLogo from "./assets/node.png";
+import AngularLogo from "./assets/angular.png";
 
 const Headless = () => {
   const [isTopVisible, setIsTopVisible] = useState(false);
@@ -36,8 +36,8 @@ const Headless = () => {
     const { bottom } = checkEnd.boundingClientRect;
     // ✅ Proper check for bottom visibility
     setIsBottomVisible(bottom <= window.innerHeight && bottom >= 0);
-  }, [checkEnd])
-  
+  }, [checkEnd]);
+
   useEffect(() => {
     if (!entry) return; // Ensure entry is available
 
@@ -52,7 +52,6 @@ const Headless = () => {
     // ✅ Check if bottom is visible
     setIsBottomVisible(bottom <= window.innerHeight && bottom >= 0);
   }, [entry]);
-
 
   const arrowRef = useRef(null);
 
@@ -71,7 +70,6 @@ const Headless = () => {
       );
     }
   }, [isTopVisible, isBottomVisible, isFullVisible]);
-
 
   return (
     <>

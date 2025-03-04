@@ -1,3 +1,10 @@
+#HeroSection h1{
+  color: white !important;
+}
+#HeroSection p{
+  color: white !important;
+}
+
 /* Landing Page Hero Section Css */
 @media screen and (max-width: 331px) {
   .Land-Hero-heading {
