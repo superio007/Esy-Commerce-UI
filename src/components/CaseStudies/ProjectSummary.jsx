@@ -2,12 +2,12 @@ const ProjectSummary = () => {
   return (
     <section className="bg-white">
       <section className="p-6 xl:px-16 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl">
-        <div className="flex flex-col md:flex-row gap-12 items-center">
+        <div className="flex flex-col gap-12 items-center w-[60%]">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900">
+            <h2 className="text-3xl font-bold ">
               Project Summary:
             </h2>
-            <p className="text-gray-700 mt-4 leading-relaxed max-w-3xl">
+            <p className=" mt-4 leading-relaxed max-w-3xl">
               Kadeya, a company focused on eliminating single-use plastics
               through smart beverage vending machines, partnered with us to
               develop a comprehensive dashboard. This dashboard consolidates and
@@ -21,7 +21,7 @@ const ProjectSummary = () => {
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Core Technologies */}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold ">
                   Core Technologies
                 </h3>
                 <div className="flex flex-wrap mt-3 gap-3">
@@ -44,7 +44,7 @@ const ProjectSummary = () => {
 
               {/* Engagement Model */}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold ">
                   Engagement model
                 </h3>
                 <div className="mt-3">

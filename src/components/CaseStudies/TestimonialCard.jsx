@@ -31,7 +31,7 @@ const TestimonialCard = () => {
   };
 
   return (
-    <div className="relative h-full bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
+    <div className="relative h-full bg-white p-6 rounded-lg shadow-lg max-w-md">
       {/* Star Ratings */}
       <div className="flex mb-3">
         {Array(5)

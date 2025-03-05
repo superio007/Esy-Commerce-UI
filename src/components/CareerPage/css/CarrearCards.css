@@ -1,0 +1,13 @@
+.careerCard{
+    width: auto;
+    height: 500px;
+}
+.swiper-wrapper {
+  align-items: stretch;
+}
+
+@media screen and (max-width: 331px){
+    .careerCard{
+        width: 245px;
+    }
+}

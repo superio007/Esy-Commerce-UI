@@ -5,17 +5,21 @@ import SolutionSection from "../components/CaseStudies/SolutionSection";
 import KeyDeliverables from "../components/CaseStudies/KeyDeliverables";
 import ResultsFeedback from "../components/CaseStudies/ResultsFeedback";
 import CaseStudyPageCTA from "../components/CaseStudies/CaseStudyPageCTA";
+import Enquery from "../components/CaseStudies/Enquery";
+// import AllinOne from "../components/CaseStudies/AllinOne";
+// import "../css/CaseStudyPage.css";
 function CaseStudyPage() {
   return (
-    <div>
-      <HeaderSection/>
+    <>
+      <HeaderSection />
       <ProjectSummary />
-      {/* <ChallengeSection />
+      <ChallengeSection />
       <SolutionSection />
       <KeyDeliverables />
       <ResultsFeedback />
-      <CaseStudyPageCTA /> */}
-    </div>
+      <CaseStudyPageCTA />
+      {/* <Enquery /> */}
+    </>
   );
 }
 

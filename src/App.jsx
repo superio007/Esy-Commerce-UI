@@ -4,6 +4,8 @@ import MainLayout from "./layouts/MainLayout";
 import Try from "./components/try"
 import LandPage from "./pages/LandPage";
 import CaseStudy from "./pages/CaseStudyPage.jsx";
+import CareerPage from "./pages/CareerPage.jsx";
+import SinglePosting from "./pages/SinglePosting.jsx"
 import {
   Route,
   createBrowserRouter,
@@ -19,6 +21,8 @@ function App() {
         <Route path="/Land" element={<LandPage />} />
         <Route path="/try" element={<Try />} />
         <Route path="/case" element={<CaseStudy />} />
+        <Route path="/jobs" element={<CareerPage />} />
+        <Route path="/jobs/:title" element={<SinglePosting />} />
       </Route>
     )
   );

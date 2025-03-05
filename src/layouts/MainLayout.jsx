@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/General/Navbar";
 import Sticky from "../components/General/StickyFrom";
+import Enquery from "../components/CaseStudies/Enquery"
 import React, { useEffect, useState } from "react";
 import Footer from "../components/General/Footer";
 import { ParallaxProvider } from "react-scroll-parallax";
@@ -53,7 +54,8 @@ const MainLayout = () => {
       <ParallaxProvider>
         <Outlet />
       </ParallaxProvider>
-      <Sticky/>
+      {/* <Enquery /> */}
+      <Sticky />
       <Footer />
     </GoogleReCaptchaProvider>
   );
