@@ -111,11 +111,11 @@ const careerPage = () => {
     <>
       <div className="hidden md:block xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl overflow-hidden">
         {/* Volunteer Cards */}
-        <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 xl:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 xl:grid-cols-4 gap-8">
           {volunteerData.map((volunteer, index) => (
             <div
               key={index}
-              className="careerCard px-6 py-6 bg-white rounded-xl flex flex-col gap-y-4 border border-gray-200"
+              className="careerCard px-10 py-10 bg-white rounded-xl flex flex-col gap-y-4 border border-gray-200"
             >
               {/* Type and Urgency */}
               <div className="flex gap-4 items-center">
@@ -181,7 +181,7 @@ const careerPage = () => {
       <div className="block md:hidden py-10">
         <Swiper
           modules={[Navigation, Pagination]}
-          spaceBetween={40} // Increased gap between slides
+          spaceBetween={10} // Increased gap between slides
           slidesPerView={1}
           breakpoints={{
             300: { slidesPerView: 1 },
@@ -194,7 +194,7 @@ const careerPage = () => {
         >
           {volunteerData.map((volunteer, index) => (
             <SwiperSlide key={index}>
-              <div className="careerCard px-6 py-6  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200">
+              <div className="careerCard px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200">
                 {/* Type and Urgency */}
                 <div className="flex gap-4 items-center">
                   <span className="bg-[#aec8d5] py-2 px-3 text-[12px] text-[#00234b] rounded-3xl">

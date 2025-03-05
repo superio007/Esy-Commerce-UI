@@ -135,7 +135,7 @@ const CarrearCards = () => {
       >
         {volunteerData.map((volunteer, index) => (
           <SwiperSlide key={index}>
-            <div className="careerCard px-6 py-6  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200">
+            <div className="careerCard px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200">
               {/* Type and Urgency */}
               <div className="flex gap-4 items-center">
                 <span className="bg-[#aec8d5] py-2 px-3 text-[12px] text-[#00234b] rounded-3xl">
