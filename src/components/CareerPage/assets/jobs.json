@@ -1,0 +1,213 @@
+[
+    {
+        "id":1,
+        "job_title": "Senior C# .NET Developer",
+        "experience_required": "5+ Years",
+        "location": "Thane, MH",
+        "mode": "WFO/Hybrid",
+        "contract_duration": "6 months",
+        "job_description": "EsyCommerce is seeking a highly experienced Senior C# .NET Developer for a 6-month contract position. The ideal candidate will possess strong technical leadership skills and a proven track record of delivering high-quality software solutions. You will be responsible for designing, developing, and maintaining complex applications, as well as providing technical guidance and mentorship to a team of developers.",
+        "roles_responsibilities": [
+            "Write complex software programs from design specifications.",
+            "Plan, execute, and document unit tests.",
+            "Report status and issues effectively.",
+            "Document detailed designs.",
+            "Be accountable for unit test leakage.",
+            "Contribute to and may decide upon system architecture and design decisions.",
+            "Develop overall technical strategies for external client projects based on technical requirements.",
+            "Communicate with external clients regularly regarding progress, challenges, timelines, and end results.",
+            "Create technical estimations.",
+            "Present technical strategies to clients and gather technical requirements as needed.",
+            "Create and update design and functional documents.",
+            "Identify and troubleshoot issues effectively.",
+            "Perform a mix of maintenance and new development as required.",
+            "Implement project applications according to specifications.",
+            "Research technical issues and provide recommendations to enhance client websites.",
+            "Work both independently and as part of a team to create reliable and high-performing e-commerce & mobile sites.",
+            "Unit test code to ensure quality.",
+            "Juggle multiple projects and shifting priorities effectively.",
+            "Perform code review sessions with other developers and suggest improvements or alternate approaches.",
+            "Assist project managers and directors with creating task-level project plans.",
+            "Work closely with project managers and account managers to ensure client expectations are met and project schedules and budgets are adhered to.",
+            "Guide, improve the performance of, and align a team of at least 5 developers for project success, while remaining hands-on with own tasks."
+        ],
+        "required_skills": [
+            "Bachelor’s degree in computer science or a related field.",
+            "8+ years of hands-on experience in software design and development, database design and development, and system integration.",
+            "Solid experience troubleshooting HTML, CSS, and JavaScript/jQuery issues.",
+            "Very good communication skills, with experience communicating directly with clients.",
+            "Ability to quickly learn and support other technologies based on core skills.",
+            "Experience handling a team of at least 5 members.",
+            "Strong organizational and communication skills.",
+            "Flexibility, energy, and ability to work well with others in a cross-functional environment.",
+            "Ability to learn and upskill in new technologies.",
+            "Ability to deliver in a high-pressure and high-demand environment."
+        ],
+        "preferred_skills": [
+            "Onsite experience (preferably US).",
+            "Knowledge of Shell scripting, .NET 2.0, and BizTalk."
+        ],
+        "company_overview": {
+            "name": "EsyCommerce Digital Services LLP",
+            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
+            "specializations": [
+            "Application Development",
+            "Content Management",
+            "Digital Transformation",
+            "E-commerce Enablement",
+            "Data Analytics"
+            ],
+            "mission": "Committed to providing end-to-end solutions with the highest quality standards in service delivery.",
+            "additional_info": "EsyCommerce values talent in all its forms and is particularly adept at nurturing and developing the skills of introverted developers."
+        },
+        "contact_details": {
+            "email": "hr@esycommerce.com",
+            "website": "https://www.esycommerce.com",
+            "youtube": "https://youtube.com/@esycommerce",
+            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
+            "phone": "8652233399"
+        },
+        "apply_link": "https://esycommerce.com/apply"
+    },
+    {
+        "id":2,
+        "job_title": "Front End Developer",
+        "experience_required": "3+ Years",
+        "location": "Thane, MH",
+        "mode": "WFO/Hybrid",
+        "contract_duration": "6 months",
+        "job_description": "EsyCommerce is seeking a skilled Front-End Developer for a 6-month contract position. The ideal candidate will have strong UI/UX skills and experience in building dynamic and responsive web applications using modern front-end technologies. You will collaborate with designers and back-end developers to create seamless user experiences.",
+        "roles_responsibilities": [
+            "Develop high-quality front-end code using HTML, CSS, JavaScript, and modern frameworks like React or Vue.js.",
+            "Ensure a responsive and user-friendly design for all devices.",
+            "Work closely with UX/UI designers to implement engaging and interactive web applications.",
+            "Optimize applications for speed and scalability.",
+            "Debug and troubleshoot front-end issues.",
+            "Collaborate with back-end developers to integrate APIs and services.",
+            "Write clean, maintainable, and well-documented code.",
+            "Participate in code reviews and suggest best practices.",
+            "Keep up-to-date with the latest front-end technologies and trends."
+        ],
+        "required_skills": [
+            "Bachelor’s degree in Computer Science, Web Development, or a related field.",
+            "3+ years of experience in front-end development.",
+            "Proficiency in HTML, CSS, JavaScript, and frameworks like React, Vue.js, or Angular.",
+            "Experience with responsive design and cross-browser compatibility.",
+            "Strong understanding of UI/UX principles.",
+            "Good knowledge of REST APIs and JSON.",
+            "Excellent debugging and problem-solving skills.",
+            "Strong communication and teamwork abilities."
+        ],
+        "preferred_skills": [
+            "Experience with CSS pre-processors like SASS or LESS.",
+            "Familiarity with front-end build tools such as Webpack or Gulp.",
+            "Knowledge of GraphQL and headless CMS."
+        ],
+        "company_overview": {
+            "name": "EsyCommerce Digital Services LLP",
+            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
+            "specializations": ["Application Development", "Digital Transformation", "E-commerce Enablement"],
+            "mission": "Committed to delivering high-quality front-end experiences."
+        },
+        "contact_details": {
+            "email": "hr@esycommerce.com",
+            "website": "https://www.esycommerce.com",
+            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
+            "phone": "8652233399"
+        },
+        "apply_link": "https://esycommerce.com/apply"
+    },
+    {
+        "id":3,
+        "job_title": "Back End Developer",
+        "experience_required": "4+ Years",
+        "location": "Thane, MH",
+        "mode": "WFO/Hybrid",
+        "contract_duration": "6 months",
+        "job_description": "EsyCommerce is hiring a skilled Back-End Developer for a 6-month contract role. The ideal candidate will be responsible for developing and maintaining robust server-side applications, integrating APIs, and ensuring efficient database management. You will work closely with the front-end team to deliver seamless applications.",
+        "roles_responsibilities": [
+            "Develop server-side logic and maintain databases to ensure optimal performance.",
+            "Design, implement, and document APIs and microservices.",
+            "Optimize application performance, security, and scalability.",
+            "Collaborate with front-end developers to integrate user-facing elements.",
+            "Troubleshoot and debug server-side issues.",
+            "Write unit and integration tests to ensure application reliability.",
+            "Maintain and improve existing codebases.",
+            "Stay updated on new technologies and industry trends."
+        ],
+        "required_skills": [
+            "Bachelor’s degree in Computer Science or a related field.",
+            "4+ years of experience in back-end development.",
+            "Proficiency in C#, .NET Core, Node.js, or Python.",
+            "Experience with database management using SQL Server, MySQL, or PostgreSQL.",
+            "Knowledge of RESTful APIs, GraphQL, and authentication protocols.",
+            "Familiarity with cloud platforms like AWS or Azure.",
+            "Experience with version control tools like Git.",
+            "Strong problem-solving and debugging skills."
+        ],
+        "preferred_skills": [
+            "Knowledge of containerization using Docker or Kubernetes.",
+            "Experience with message queues like RabbitMQ or Kafka.",
+            "Understanding of CI/CD pipelines."
+        ],
+        "company_overview": {
+            "name": "EsyCommerce Digital Services LLP",
+            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
+            "specializations": ["Backend Development", "System Integration", "Cloud Computing"],
+            "mission": "Providing reliable and scalable back-end solutions."
+        },
+        "contact_details": {
+            "email": "hr@esycommerce.com",
+            "website": "https://www.esycommerce.com",
+            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
+            "phone": "8652233399"
+        },
+        "apply_link": "https://esycommerce.com/apply"
+    },
+    {
+        "id":4,
+        "job_title": "Full Stack Developer",
+        "experience_required": "5+ Years",
+        "location": "Thane, MH",
+        "mode": "WFO/Hybrid",
+        "contract_duration": "6 months",
+        "job_description": "EsyCommerce is looking for an experienced Full-Stack Developer to join our team for a 6-month contract. The ideal candidate should have expertise in both front-end and back-end development and be able to work on complex projects with a focus on high-performance applications.",
+        "roles_responsibilities": [
+            "Develop and maintain both front-end and back-end components.",
+            "Design user interfaces using modern front-end frameworks like React or Vue.js.",
+            "Build and optimize RESTful APIs and database structures.",
+            "Ensure performance, security, and responsiveness of applications.",
+            "Write clean, maintainable, and well-documented code.",
+            "Work collaboratively with UX designers, back-end developers, and product managers.",
+            "Optimize applications for speed and scalability.",
+            "Participate in code reviews and implement best practices."
+        ],
+        "required_skills": [
+            "Bachelor’s degree in Computer Science or a related field.",
+            "5+ years of experience in full-stack development.",
+            "Proficiency in JavaScript frameworks (React, Vue.js, or Angular) and back-end technologies (Node.js, .NET Core, Python).",
+            "Experience with relational and NoSQL databases (SQL Server, MongoDB, Firebase).",
+            "Familiarity with cloud services (AWS, Azure, or Google Cloud).",
+            "Good knowledge of version control systems (Git, GitHub).",
+            "Ability to work in a fast-paced environment and manage multiple projects."
+        ],
+        "preferred_skills": [
+            "Experience with DevOps and CI/CD pipelines.",
+            "Familiarity with WebSockets and real-time data processing.",
+            "Knowledge of mobile development (React Native, Flutter)."
+        ],
+        "company_overview": {
+            "name": "EsyCommerce Digital Services LLP",
+            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
+            "specializations": ["Full-Stack Development", "Software Architecture", "Digital Transformation"],
+            "mission": "Creating seamless digital experiences through full-stack solutions."
+        },
+        "contact_details": {
+            "email": "hr@esycommerce.com",
+            "website": "https://www.esycommerce.com",
+            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
+            "phone": "8652233399"
+        },
+        "apply_link": "https://esycommerce.com/apply"
+    }
+]

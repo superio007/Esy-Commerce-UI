@@ -204,7 +204,7 @@ const CarrearCards = () => {
                 </span>
               </div>
 
-              {/* Date and Time */}
+              {/* Work Experiance */}
               <div className="text-[14px] text-gray-600">
                 <span className="flex gap-2 items-center">
                   <svg

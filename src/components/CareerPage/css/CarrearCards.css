@@ -1,12 +1,69 @@
 .careerCard{
-    width: auto;
+    width: 300px;
     height: 500px;
 }
 .swiper-wrapper {
   align-items: stretch;
 }
 
+.highlight-underline{
+    position: relative;
+    z-index: 1;
+}
+
+.highlight-underline-head{
+    position: relative;
+    z-index: 1;
+}
+
+.underline-bar-head{
+    z-index: -1;
+    height: 13px;
+    position: absolute;
+    top: 0;
+}
+
+#Career-Head{
+    h1,p{
+        color: white !important;
+    }
+}
+#Career-Image canvas{
+    width: 700px !important;
+}
+
+.underline-bar{
+    z-index: -1;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.benifitIcon{
+    color: #007fff;
+}
+
+.benifitsCard{
+    &:hover{
+        color: #fff !important;
+        background-color: #007fff;
+        h3,p{
+            color: #fff !important;
+        }
+        .benifitIcon{
+            color: #fff !important;
+        }
+    }
+}
+@media screen and (max-width: 1280px) {
+    #Career-Image canvas{
+    width: 100% !important;
+}
+}
 @media screen and (max-width: 331px){
+    #Career-Head h1{
+        font-size: 45px !important;
+    }
     .careerCard{
         width: 245px;
     }
