@@ -15,12 +15,12 @@ const SinglePosting = () => {
   console.log(SingleJob);
   return (
     <>
-      <div className="singleHeading bg-[#007fff] text-white p-20">
+      <div className="singleHeading bg-[#007fff] text-white h-50 md:h-80 flex justify-center items-center p-4">
         <h1 className="text-center text-wrap md:text-6xl">{title}</h1>
       </div>
-      <div className="xl:px-16 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="xl:px-28 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl">
         {SingleJob.map((job, index) => (
-          <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <div className="flex gap-8 flex-wrap p-2">
                 <div className="flex items-center gap-2">
