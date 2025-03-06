@@ -6,6 +6,7 @@ import LandPage from "./pages/LandPage";
 import CaseStudy from "./pages/CaseStudyPage.jsx";
 import CareerPage from "./pages/CareerPage.jsx";
 import SinglePosting from "./pages/SinglePosting.jsx"
+import ApplyNowPage from "./pages/ApplyNowPage.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -23,6 +24,7 @@ function App() {
         <Route path="/case" element={<CaseStudy />} />
         <Route path="/jobs" element={<CareerPage />} />
         <Route path="/jobs/:title" element={<SinglePosting />} />
+        <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
       </Route>
     )
   );

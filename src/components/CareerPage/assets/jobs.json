@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "job_title": "Senior C# .NET Developer",
+        "job_title": "Senior C SHARP .NET Developer",
         "experience_required": "5+ Years",
         "location": "Thane, MH",
         "mode": "WFO/Hybrid",
@@ -49,25 +49,15 @@
         ],
         "company_overview": {
             "name": "EsyCommerce Digital Services LLP",
-            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
-            "specializations": [
-            "Application Development",
-            "Content Management",
-            "Digital Transformation",
-            "E-commerce Enablement",
-            "Data Analytics"
-            ],
-            "mission": "Committed to providing end-to-end solutions with the highest quality standards in service delivery.",
-            "additional_info": "EsyCommerce values talent in all its forms and is particularly adept at nurturing and developing the skills of introverted developers."
+            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
         },
         "contact_details": {
             "email": "hr@esycommerce.com",
-            "website": "https://www.esycommerce.com",
-            "youtube": "https://youtube.com/@esycommerce",
+            "website": "www.esycommerce.com",
+            "youtube": "youtube.com/@esycommerce",
             "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
             "phone": "8652233399"
-        },
-        "apply_link": "https://esycommerce.com/apply"
+        }
     },
     {
         "id":2,
@@ -105,17 +95,15 @@
         ],
         "company_overview": {
             "name": "EsyCommerce Digital Services LLP",
-            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
-            "specializations": ["Application Development", "Digital Transformation", "E-commerce Enablement"],
-            "mission": "Committed to delivering high-quality front-end experiences."
+            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
         },
         "contact_details": {
             "email": "hr@esycommerce.com",
-            "website": "https://www.esycommerce.com",
+            "youtube": "youtube.com/@esycommerce",
+            "website": "www.esycommerce.com",
             "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
             "phone": "8652233399"
-        },
-        "apply_link": "https://esycommerce.com/apply"
+        }
     },
     {
         "id":3,
@@ -152,17 +140,15 @@
         ],
         "company_overview": {
             "name": "EsyCommerce Digital Services LLP",
-            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
-            "specializations": ["Backend Development", "System Integration", "Cloud Computing"],
-            "mission": "Providing reliable and scalable back-end solutions."
+            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
         },
         "contact_details": {
             "email": "hr@esycommerce.com",
-            "website": "https://www.esycommerce.com",
+            "website": "www.esycommerce.com",
+            "youtube": "youtube.com/@esycommerce",
             "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
             "phone": "8652233399"
-        },
-        "apply_link": "https://esycommerce.com/apply"
+        }
     },
     {
         "id":4,
@@ -198,16 +184,14 @@
         ],
         "company_overview": {
             "name": "EsyCommerce Digital Services LLP",
-            "certifications": ["CMMI Level 3", "ISO/IEC 27001:2013"],
-            "specializations": ["Full-Stack Development", "Software Architecture", "Digital Transformation"],
-            "mission": "Creating seamless digital experiences through full-stack solutions."
+            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
         },
         "contact_details": {
             "email": "hr@esycommerce.com",
-            "website": "https://www.esycommerce.com",
+            "website": "www.esycommerce.com",
+            "youtube": "youtube.com/@esycommerce",
             "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
             "phone": "8652233399"
-        },
-        "apply_link": "https://esycommerce.com/apply"
+        }
     }
 ]

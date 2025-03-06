@@ -316,7 +316,7 @@ const careerPage = () => {
               {/* Button */}
               <div className="w-full mt-auto">
                 <NavLink
-                  to={`/jobs/${volunteer.job_title.split(" ").join("_")}`}
+                  to={`/jobs/${volunteer.job_title.split(" ").join("-")}`}
                   className="block w-full"
                 >
                   <button className="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
@@ -498,7 +498,7 @@ const careerPage = () => {
                 {/* Button */}
                 <div className="w-full mt-auto">
                   <NavLink
-                    to={`/jobs/${volunteer.job_title.split(" ").join("_")}`}
+                    to={`/jobs/${volunteer.job_title.split(" ").join("-")}`}
                     className="block w-full"
                   >
                     <button className="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
