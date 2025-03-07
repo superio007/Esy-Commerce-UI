@@ -25,6 +25,7 @@ function App() {
         <Route path="/jobs" element={<CareerPage />} />
         <Route path="/jobs/:title" element={<SinglePosting />} />
         <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
+        <Route path="/jobs/apply" element={<ApplyNowPage />} />
       </Route>
     )
   );
