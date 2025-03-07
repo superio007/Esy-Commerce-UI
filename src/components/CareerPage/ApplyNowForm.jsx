@@ -22,6 +22,12 @@ const ApplyNowForm = () => {
   const ExpectedCtcValue = watch("ExpectedCtc", "");
   const CurrentCtcValue = watch("CurrentCtc", "");
   const CurrentCityValue = watch("CurrentCity", "");
+  const watchedPosition = watch("Postion", "");
+  const watchedFind = watch("Find", "");
+  const watchedReason = watch("Reason", "");
+  const watchedSystem = watch("Sytsem", "");
+  const watchedInternet = watch("Internet", "");
+  const watchedJoin = watch("Join", "");
   const ExperienceValue = watch("Experience", "");
   const MessageValue = watch("Message", "");
 
@@ -171,12 +177,20 @@ const ApplyNowForm = () => {
               <input
                 type="text"
                 id="Phone"
-                {...register("Phone", { required: "Phone is required" })}
+                {...register("Phone", {
+                  required: "Phone is required",
+                  maxLength: {
+                    value: 10,
+                    message: "Phone number should be 10 digits",
+                  },
+                })}
                 className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 ${
                   errors.Phone
                     ? "border-red-600"
                     : PhoneValue.length <= 0
                     ? "border-gray-500"
+                    : PhoneValue.length < 10
+                    ? "border-yellow-500"
                     : "border-green-600"
                 } appearance-none focus:outline-none focus:ring-0 peer`}
                 placeholder=""
@@ -188,6 +202,8 @@ const ApplyNowForm = () => {
                     ? "text-red-600"
                     : PhoneValue.length <= 0
                     ? "text-gray-500"
+                    : PhoneValue.length < 10
+                    ? "text-yellow-500"
                     : "text-green-600"
                 } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
               >
@@ -211,11 +227,17 @@ const ApplyNowForm = () => {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${errors.Postion ? "border-red-600" : "border-gray-500"} 
+                    ${
+                      errors.Postion
+                        ? "border-red-600"
+                        : watchedPosition
+                        ? "border-green-600"
+                        : "border-gray-500"
+                    } 
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    Choose
                   </option>
                   <option value="Front_End_Developer">
                     Front End Developer
@@ -224,13 +246,17 @@ const ApplyNowForm = () => {
                   <option value="Full_Stack_Developer">
                     Full Stack Developer
                   </option>
-                  <option value="Data_Engeenier">Data Engeenier</option>
+                  <option value="Data_Engineer">Data Engineer</option>
                   <option value="Other">Other</option>
                 </select>
                 <label
                   htmlFor="Postion"
                   className={`absolute text-sm ${
-                    errors.Postion ? "text-red-600" : "text-gray-500"
+                    errors.Postion
+                      ? "text-red-600"
+                      : watchedPosition
+                      ? "text-green-600"
+                      : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
                   Select Your Position
@@ -455,7 +481,13 @@ const ApplyNowForm = () => {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${errors.Find ? "border-red-600" : "border-gray-500"} 
+                    ${
+                      errors.Find
+                        ? "border-red-600"
+                        : watchedFind
+                        ? "border-green-600"
+                        : "border-gray-500"
+                    } 
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
@@ -470,7 +502,11 @@ const ApplyNowForm = () => {
                 <label
                   htmlFor="Find"
                   className={`absolute text-sm ${
-                    errors.Find ? "text-red-600" : "text-gray-500"
+                    errors.Find
+                      ? "text-red-600"
+                      : watchedFind
+                      ? "text-green-600"
+                      : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
                   Select Where You Find This Job
@@ -491,7 +527,13 @@ const ApplyNowForm = () => {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${errors.Reason ? "border-red-600" : "border-gray-500"} 
+                    ${
+                      errors.Reason
+                        ? "border-red-600"
+                        : watchedReason
+                        ? "border-green-600"
+                        : "border-gray-500"
+                    } 
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
@@ -511,7 +553,11 @@ const ApplyNowForm = () => {
                 <label
                   htmlFor="Reason"
                   className={`absolute text-sm ${
-                    errors.Reason ? "text-red-600" : "text-gray-500"
+                    errors.Reason
+                      ? "text-red-600"
+                      : watchedReason
+                      ? "text-green-600"
+                      : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
                   Select Reason For Leaving
@@ -535,7 +581,13 @@ const ApplyNowForm = () => {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${errors.Sytsem ? "border-red-600" : "border-gray-500"} 
+                    ${
+                      errors.Sytsem
+                        ? "border-red-600"
+                        : watchedSystem
+                        ? "border-green-600"
+                        : "border-gray-500"
+                    } 
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
@@ -547,7 +599,11 @@ const ApplyNowForm = () => {
                 <label
                   htmlFor="Sytsem"
                   className={`absolute text-sm ${
-                    errors.Sytsem ? "text-red-600" : "text-gray-500"
+                    errors.Sytsem
+                      ? "text-red-600"
+                      : watchedSystem
+                      ? "text-green-600"
+                      : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
                   Do You Own A Computer System For (WFH/Hybrid)
@@ -568,7 +624,13 @@ const ApplyNowForm = () => {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${errors.Internet ? "border-red-600" : "border-gray-500"} 
+                    ${
+                      errors.Internet
+                        ? "border-red-600"
+                        : watchedInternet
+                        ? "border-green-600"
+                        : "border-gray-500"
+                    } 
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
@@ -580,7 +642,11 @@ const ApplyNowForm = () => {
                 <label
                   htmlFor="Internet"
                   className={`absolute text-sm ${
-                    errors.Internet ? "text-red-600" : "text-gray-500"
+                    errors.Internet
+                      ? "text-red-600"
+                      : watchedInternet
+                      ? "text-green-600"
+                      : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
                   Do You Have Internet?
@@ -604,7 +670,13 @@ const ApplyNowForm = () => {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${errors.Join ? "border-red-600" : "border-gray-500"} 
+                    ${
+                      errors.Join
+                        ? "border-red-600"
+                        : watchedJoin
+                        ? "border-green-600"
+                        : "border-gray-500"
+                    } 
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
@@ -618,7 +690,11 @@ const ApplyNowForm = () => {
                 <label
                   htmlFor="Join"
                   className={`absolute text-sm ${
-                    errors.Join ? "text-red-600" : "text-gray-500"
+                    errors.Join
+                      ? "text-red-600"
+                      : watchedJoin
+                      ? "text-green-600"
+                      : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
                   How Soon Can You Join?
