@@ -6,6 +6,7 @@ import LandPage from "./pages/LandPage";
 import CaseStudy from "./pages/CaseStudyPage.jsx";
 import CareerPage from "./pages/CareerPage.jsx";
 import SinglePosting from "./pages/SinglePosting.jsx"
+import DirectApply from "./pages/DirectApply.jsx";
 import ApplyNowPage from "./pages/ApplyNowPage.jsx";
 import {
   Route,
@@ -25,7 +26,7 @@ function App() {
         <Route path="/jobs" element={<CareerPage />} />
         <Route path="/jobs/:title" element={<SinglePosting />} />
         <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
-        <Route path="/jobs/apply" element={<ApplyNowPage />} />
+        <Route path="/apply" element={<DirectApply />} />
       </Route>
     )
   );

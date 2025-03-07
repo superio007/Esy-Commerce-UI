@@ -3,13 +3,15 @@ import Jobs from "../components/CareerPage/assets/jobs.json";
 import ApplyNowForm from "../components/CareerPage/ApplyNowForm";
 const ApplyNowPage = () => {
   let jobTitle = useParams();
-  let title = jobTitle.title.split("-").join(" ");
-  const SingleJob = [];
-  Jobs.forEach((job) => {
-    if (job.job_title === title) {
-      SingleJob.push(job);
-    }
-  });
+  let title = "";
+    title = jobTitle.title.split("-").join(" ");
+    const SingleJob = [];
+    Jobs.forEach((job) => {
+      if (job.job_title === title) {
+        SingleJob.push(job);
+      }
+    });
+  
 //   console.log(SingleJob);
   return (
     <>
