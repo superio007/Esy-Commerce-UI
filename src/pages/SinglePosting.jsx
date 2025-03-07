@@ -4,7 +4,7 @@ import "../components/CareerPage/css/SinglePosting.css";
 import { FiDownload } from "react-icons/fi";
 import AnimatedBtn from "../components/General/AnimatedBtn";
 import openPdfInNewTab from "../components/CareerPage/GeneratePdf";
-import ReactPDF from "@react-pdf/renderer";
+// import ReactPDF from "@react-pdf/renderer";
 import "../css/SinglePosting.css"
 const SinglePosting = () => {
   let jobTitle = useParams();
@@ -15,7 +15,7 @@ const SinglePosting = () => {
       SingleJob.push(job);
     }
   });
-  console.log(SingleJob);
+  // console.log(SingleJob);
   return (
     <>
       <div className="singleHeading bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center ">
