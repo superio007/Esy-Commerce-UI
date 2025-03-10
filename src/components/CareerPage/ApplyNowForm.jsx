@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import "./css/ApplyNowForm.css";
 import { CiLinkedin } from "react-icons/ci";
 import { BsLightningChargeFill } from "react-icons/bs";
-import DatePicker from "../General/DatePicker";
 
 const ApplyNowForm = () => {
   const {
