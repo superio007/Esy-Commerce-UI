@@ -1,4 +1,4 @@
-import { useForm } from "react-hook-form";
+import { set, useForm } from "react-hook-form";
 import "flowbite";
 import { useState, useEffect } from "react";
 import "./css/ApplyNowForm.css";
@@ -42,8 +42,10 @@ const ApplyNowForm = () => {
   const [fileUrl, setFileUrl] = useState(""); // Store uploaded file URL
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [showDateInput, setShowDateInput] = useState(false);
-  const [showQuestionInput, setShowQuestionInput] = useState(false);
+
+  const [showDateInput, setShowDateInput] = useState(true);
+  const [showQuestionInput, setShowQuestionInput] = useState(true);
+
   const [showOtherPositionInput, setShowOtherPositionInput] = useState(false);
   const [showOtherJobTypeInput, setShowOtherJobTypeInput] = useState(false);
   const [showOtherFindInput, setShowOtherFindInput] = useState(false);
@@ -76,20 +78,22 @@ const ApplyNowForm = () => {
       setShowOtherJobTypeInput(false);
     }
   }, [watchedJobType]);
+
+  useEffect(() => {
+    setShowDateInput(false);
+    setShowQuestionInput(false);
+  }, []);
   useEffect(() => {
     if (watchedNotice === "Yes") {
-      setShowDateInput(true);
-      setShowQuestionInput(false);
-      setValue("Join", ""); // ✅ Proper way to reset the field
-      setValue("Date", "");
-    } else {
-      setShowDateInput(false);
-      setShowQuestionInput(true);
-      setValue("Join", "");
-      setValue("Date", "");
+      setShowDateInput(false); // Enable Date Picker
+      setShowQuestionInput(true); // Disable Join
+    } else if (watchedNotice === "No") {
+      setShowDateInput(true); // Disable Date Picker
+      setShowQuestionInput(false); // Enable Join
     }
-  }, [watchedNotice]); // Ensure `setValue` is included in dependencies
-  // Only run when watchedNotice changes
+    setValue("Join", "");
+    setValue("Date", "");
+  }, [watchedNotice, setValue]);
 
   const onFileChange = (event) => {
     const file = event.target.files[0];
@@ -1250,13 +1254,19 @@ const ApplyNowForm = () => {
               )}
             </div>
             {/* Other Find */}
-            <div className={`${showOtherFindInput ? "block" : "hidden"} py-4 w-full`}>
+            <div
+              className={`${
+                showOtherFindInput ? "block" : "hidden"
+              } py-4 w-full`}
+            >
               <div className="relative">
                 <input
                   type="text"
                   id="OtherFind"
                   {...register("OtherFind", {
-                    required: showOtherFindInput? false :"Other Find is required",
+                    required: showOtherFindInput
+                      ? false
+                      : "Other Find is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 ${
                     errors.OtherFind
@@ -1516,9 +1526,9 @@ const ApplyNowForm = () => {
                   type="date"
                   id="Date"
                   {...register("Date", {
-                    required: showDateInput ? false : "Date is required", // ✅ Only required if not disabled
+                    required: showDateInput ? false : "Date is required",
                   })}
-                  disabled={showDateInput}
+                  disabled={!showDateInput} // ✅ Fix: Initially disabled
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                   ${
                     errors.Date
@@ -1527,8 +1537,9 @@ const ApplyNowForm = () => {
                       ? "border-green-600"
                       : "border-gray-500"
                   } 
-                  appearance-none focus:outline-none focus:ring-0 peer`}
+                    appearance-none focus:outline-none focus:ring-0 peer`}
                 />
+
                 <label
                   htmlFor="Date"
                   className={`absolute text-sm ${
@@ -1539,7 +1550,7 @@ const ApplyNowForm = () => {
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                 >
-                  Pick Date
+                  Joining Date
                 </label>
               </div>
               {errors.Date && (
@@ -1557,18 +1568,18 @@ const ApplyNowForm = () => {
                   {...register("Join", {
                     required: showQuestionInput
                       ? false
-                      : "This field is required", // ✅ Only required if not disabled
+                      : "This field is required",
                   })}
-                  disabled={showQuestionInput}
+                  disabled={!showQuestionInput} // ✅ Fix: Initially disabled
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
-                    ${
-                      errors.Join
-                        ? "border-red-600"
-                        : watchedJoin
-                        ? "border-green-600"
-                        : "border-gray-500"
-                    } 
-                    appearance-none focus:outline-none focus:ring-0 peer`}
+                        ${
+                          errors.Join
+                            ? "border-red-600"
+                            : watchedJoin
+                            ? "border-green-600"
+                            : "border-gray-500"
+                        } 
+                        appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
                     Chosse

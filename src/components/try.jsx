@@ -4,9 +4,9 @@ import LinkedInLogin from "./General/LinkedInLogin";
 const Try = () => {
   return (
     <>
-      {/* <CaseStudies /> */}
+      <CaseStudies />
       {/* <CarrearCards /> */}
-      <LinkedInLogin />
+      {/* <LinkedInLogin /> */}
     </>
   );
 };
