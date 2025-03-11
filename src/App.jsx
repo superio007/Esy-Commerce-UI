@@ -1,13 +1,14 @@
 import HomePage from "./pages/HomePage";
 import NotFound from "./pages/notFound";
 import MainLayout from "./layouts/MainLayout";
-import Try from "./components/try"
+import Try from "./components/try";
 import LandPage from "./pages/LandPage";
 import CaseStudy from "./pages/CaseStudyPage.jsx";
 import CareerPage from "./pages/CareerPage.jsx";
-import SinglePosting from "./pages/SinglePosting.jsx"
+import SinglePosting from "./pages/SinglePosting.jsx";
 import DirectApply from "./pages/DirectApply.jsx";
 import ApplyNowPage from "./pages/ApplyNowPage.jsx";
+import About from "./pages/AboutUsPage.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -27,6 +28,7 @@ function App() {
         <Route path="/jobs/:title" element={<SinglePosting />} />
         <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
         <Route path="/apply" element={<DirectApply />} />
+        <Route path="/about" element={<About />} />
       </Route>
     )
   );
