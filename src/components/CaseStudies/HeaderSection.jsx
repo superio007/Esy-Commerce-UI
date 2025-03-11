@@ -6,8 +6,8 @@ const HeaderSection = () => {
   return (
     <div className="bg-[#007fff] CaseStudyHeader">
       <div className="p-6 xl:px-16 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl">
-        <div className="grid grid-cols gap-8 items-center w-[60%]">
-          <div>
+        <div className="flex md:flex-row flex-col gap-8 justify-between items-center">
+          <div className="md:w-[60%]">
             <h1 className="text-3xl font-bold leading-snug">
               We Built a Dashboard to Turn Complex Data into Actionable Insights
               for Kadeya’s Operations
