@@ -5,6 +5,8 @@ import CertificateSlider from "../components/HomePage/CertificationSlider";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ClientWorkSection from "../components/AboutPage/ClientWork";
 import ClientParallax from "../components/AboutPage/ClientParallax";
+// import Timeline from "../components/AboutPage/Timeline";
+import TeamSection from "../components/AboutPage/TeamMembers";
 const About = () => {
   return (
     <>
@@ -14,6 +16,8 @@ const About = () => {
         <ClientParallax />
       </ParallaxProvider>
       <CoreValues />
+      {/* <Timeline /> */}
+      <TeamSection />
       <CertificateSlider BackColor={"#fafafa"} />
       <AboutCta />
     </>
