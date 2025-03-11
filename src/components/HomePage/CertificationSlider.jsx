@@ -38,10 +38,10 @@ const brands = [
     text: "DATA ANALYTICS COMPETENCY",
   },
 ];
-const Certification = () => {
+const Certification = ({ BackColor }) => {
   return (
     <>
-      <div className="bg-[#fff] ">
+      <div className="" style={{ backgroundColor: BackColor }}>
         <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
           <div
             className="Certification-slider-container"

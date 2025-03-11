@@ -25,7 +25,7 @@ const HomePage = () => {
       {/* Testimonial */}
       <Testimonial />
       {/* Awards & Certification */}
-      <Certification />
+      <Certification BackColor={"#fff"}/>
     </>
   );
 };
