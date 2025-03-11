@@ -18,7 +18,7 @@ const HeaderSection = () => {
             </p>
             <div className="py-4 flex justify-center md:justify-start  items-center gap-6">
               <NavLink>
-                <span className="bg-white text-[#007fff] py-2 px-10 rounded-lg">
+                <span className="bg-white text-[#007fff] py-3 px-10 rounded-lg">
                   Call Me
                 </span>
               </NavLink>

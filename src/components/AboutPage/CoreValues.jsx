@@ -39,28 +39,30 @@ export default function CoreValues() {
   ];
 
   return (
-    <section className="p-6 xl:px-10 py-16 3xl:mx-auto 3xl:max-w-screen-xl text-center">
-      <h2 className="text-4xl font-bold text-gray-800">Our Core Values</h2>
-      <p className="mt-2 text-gray-600">
-        Our values shape the culture of our organization and define the
-        character of our company.
-      </p>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
-        {values.map((value, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center"
-          >
-            <div className="text-4xl mb-3">{value.icon}</div>
-            <h3 className="text-xl font-semibold text-gray-800">
-              {value.title}
-            </h3>
-            <p className="text-gray-600 mt-2 text-center">
-              {value.description}
-            </p>
-          </div>
-        ))}
-      </div>
+    <section className="bg-white">
+      <section className="p-6 xl:px-10 py-16 3xl:mx-auto 3xl:max-w-screen-xl text-center">
+        <h2 className="text-4xl font-bold text-gray-800">Our Core Values</h2>
+        <p className="mt-2 text-gray-600">
+          Our values shape the culture of our organization and define the
+          character of our company.
+        </p>
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+          {values.map((value, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center"
+            >
+              <div className="text-4xl mb-3">{value.icon}</div>
+              <h3 className="text-xl font-semibold text-gray-800">
+                {value.title}
+              </h3>
+              <p className="text-gray-600 mt-2 text-center">
+                {value.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
     </section>
   );
 }
