@@ -1,9 +1,10 @@
 import ApplyNowForm from "../components/CareerPage/ApplyNowForm";
 let title = "Work With Us";
+import styles from "../components/CareerPage/css/SinglePosting.module.css";
 const DirectApply = () => {
   return (
     <>
-      <div className="singleHeading bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center ">
+      <div className={`${styles.singleHeading} bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center `}>
         <h1 className="text-center text-[32px] text-wrap sm:text-4xl md:text-6xl">
           {title}
         </h1>

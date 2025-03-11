@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import "./css/BuletPoints.css";
+import styles from "./css/BuletPoints.module.css";
 
 const BulletPoints = () => {
   const bulletPoints = [
@@ -38,7 +38,9 @@ const BulletPoints = () => {
   }, []);
 
   return (
-    <div id="BuletSection" className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
+    <div
+      className={`${styles.BuletSection} xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}
+    >
       <section className=" body-font">
         <div className="flex px-5 pb-18 pt-18 md:flex-row flex-col items-center">
           <div id="LeftSide">
@@ -50,12 +52,14 @@ const BulletPoints = () => {
           </div>
           <div className="mt-4 xl:mt-0 sm:mt-6 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <div id="right-text" className="mb-2">
-              <h2 className="title-font Land-Bullets-Heading sm:text-4xl capitalize text-3xl mb-4 font-medium ">
+              <h2
+                className={`title-font ${styles.LandBulletsHeading} sm:text-4xl capitalize text-3xl mb-4 font-medium`}
+              >
                 Before they sold out
                 <br className="hidden lg:inline-block" />
                 readymade gluten
               </h2>
-              <p className="leading-relaxed Land-Bullets-Subheading">
+              <p className={`leading-relaxed ${styles.LandBulletsSubheading}`}>
                 Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -68,7 +72,9 @@ const BulletPoints = () => {
                   key={index}
                   ref={(el) => (bulletRefs.current[index] = el)}
                   className={`p-2 sm:w-1/2 w-full transition-opacity duration-700 transform ${
-                    visibleIndexes.includes(index) ? "fade-in-up" : "opacity-0"
+                    visibleIndexes.includes(index)
+                      ? `${styles.fadeInUp}`
+                      : "opacity-0"
                   }`}
                 >
                   <div className="bg-white rounded flex p-4 h-full items-center">

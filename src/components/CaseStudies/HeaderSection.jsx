@@ -1,10 +1,10 @@
 import TestimonialCard from "./TestimonialCard";
 import { FaArrowRight } from "react-icons/fa";
-import "./css/HeaderSection.css";
+import styles from "./css/HeaderSection.module.css";
 
 const HeaderSection = () => {
   return (
-    <div className="bg-[#007fff] CaseStudyHeader">
+    <div className={`bg-[#007fff] ${styles.CaseStudyHeader}`}>
       <div className="p-6 xl:px-16 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="flex md:flex-row flex-col gap-8 justify-between items-center">
           <div className="md:w-[60%]">

@@ -8,17 +8,19 @@
     transform: translateY(0);
   }
 }
-
-.fade-in-up {
+.BuletSection p{
+  color: #617796 !important;
+}
+.fadeInUp {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
 @media screen and (max-width: 331px) {
-  .Land-Bullets-Heading{
+  .LandBulletsHeading{
     font-size: 1.8rem !important;
     line-height: 2.5rem !important;
   }
-  .Land-Bullets-subheading{
+  .LandBulletsSubheading{
     font-size: 0.75rem !important;
   }
   

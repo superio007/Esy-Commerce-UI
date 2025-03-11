@@ -2,7 +2,7 @@ const Masonary = () => {
   return (
     <>
       <div className="p-6 xl:px-16 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-              <div className="overflow-x-auto overflow-y-hidden h-[650px] md:h-auto
+              <div className="overflow-x-auto overflow-y-hidden  md:h-auto
         ">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 min-w-[800px]">
             <div className="grid gap-4">

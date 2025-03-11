@@ -1,4 +1,4 @@
-import "../css/Homepage.css";
+import styles from "../css/Homepage.module.css";
 import HeroSection from "../components/HomePage/HeroSection";
 import BulletPoints from "../components/HomePage/BulletPoints";
 import CustomerSlider from "../components/HomePage/CustomerSlider";

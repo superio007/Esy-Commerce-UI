@@ -4,7 +4,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "./css/Testimonial.css";
+import styles from "./css/Testimonial.module.css";
 import { div } from "framer-motion/client";
 
 const Testimonial = () => {
@@ -57,8 +57,7 @@ const Testimonial = () => {
   return (
     <div className="bg-[#fafafa]">
       <section
-        id="testimonials"
-        className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl"
+        className={`${styles.testimonials} xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}
         ref={sectionRef}
       >
         <div className="md:px-5 md:pt-12 py-12">

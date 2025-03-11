@@ -1,10 +1,10 @@
 import WebsitLogo from "./assets/Logo.png";
-import "./css/Footer.css";
+import styles from "./css/Footer.module.css";
 import FooterBrands from "./assets/footerBrands.png";
 const Footer = () => {
   return (
     <>
-      <div id="Footer" className="bg-white  w-full">
+      <div className={`${styles.Footer} bg-white  w-full`}>
         <div className="py-14 p-6 xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl xl:grid xl:grid-rows-1 xl:grid-cols-5 md:grid md:grid-rows-2 md:grid-cols-2  gap-6 ">
           <div className="col-span-1">
             <img
@@ -30,23 +30,23 @@ const Footer = () => {
               Our Services
             </h2>
             <ul style={{ width: "max-content" }}>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Ecommerce</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Design</p>
               </li>
 
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Development</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>BPM</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>About Us</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Contact Us</p>
               </li>
             </ul>
@@ -56,22 +56,22 @@ const Footer = () => {
               Legal Compliance
             </h2>
             <ul style={{ width: "max-content" }}>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Privacy Policy</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Ethics Policy</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Data Security Policy</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Code of Conduct</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>Information Security</p>
               </li>
-              <li className="nav-heads mb-3 leading-normal flex gap-6 items-center justify-between">
+              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
                 <p>FAQ</p>
               </li>
             </ul>

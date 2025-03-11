@@ -1,14 +1,14 @@
-#Footer .nav-heads {
+.Footer .navHeads {
     position: relative;
     text-decoration: none;
     padding: 0 !important;
     cursor: pointer;
 }
-#Footer .nav-heads a{
+.Footer .navHeads a{
   color: #1b3139;
 }
 
-#Footer .nav-heads::after {
+.Footer .navHeads::after {
     content: "";
     position: absolute;
     left: 0;
@@ -18,13 +18,13 @@
     background-color:#007fff; /* Adjust the color as needed */
     transition: width 0.3s ease-in-out;
 }
-#Footer .nav-heads:hover::after {
+.Footer .navHeads:hover::after {
     width: 100%;
 }
-#Footer .Menu-item-text{
+/* .Footer .Menu-item-text{
     &:hover{
         color: #2e96ff !important;
         border-bottom: 1px solid #007fff;
         border-radius: 0;
     }
-}
+} */

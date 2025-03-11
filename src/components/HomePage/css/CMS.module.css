@@ -1,13 +1,13 @@
 /* Landing Page Hero Section Css */
 @media screen and (max-width: 331px) {
-  .Land-CMS-Heading {
+  .LandCMSHeading {
     font-size: 1.8rem !important;
     line-height: 2.5rem !important;
   }
-  .Land-CMS-Subheading {
+  .LandCMSSubheading {
     font-size: 1.125rem !important;
   }
-  .Land-CMS-Para {
+  .LandCMSPara {
     font-size: 0.75rem !important;
   }
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import Xarrow from "react-xarrows";
 import gsap from "gsap";
-import "./css/HeadlessCms.css";
+import styles from "./css/HeadlessCms.module.css";
 import LoadingLogo from "./assets/LoadingLogo.png";
 import Solid from "./assets/Solid.png";
 import Contentful from "./assets/contentful.png";
@@ -81,12 +81,12 @@ const Headless = () => {
           className="bg-[#FAFAFA] xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl"
         >
           <h2
-            className={`Land-HeadingSection-Heading xl:text-6xl text-4xl font-bold leading-tight text-center`}
+            className={`${styles.LandHeadingSectionHeading} xl:text-6xl text-4xl font-bold leading-tight text-center`}
           >
             Discover the Power of <br /> Custom Development
           </h2>
           <p
-            className={`leading-tight text-center Land-HeadingSection-Subheading`}
+            className={`leading-tight text-center ${styles.LandHeadingSectionSubheading}`}
           >
             Want a high-performing, user-friendly website? With our web
             development team, create a website that loads faster and looks
@@ -100,12 +100,12 @@ const Headless = () => {
           <div className="outer-div p-2 grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 items-center gap-6 pt-12 pb-12 relative">
             <div className="left-div">
               <div className="flex flex-col md:items-start md:text-left md:mb-0 items-center">
-                <h3 className="title-font md:text-left Land-HeadlessCMS-Heading text-center sm:text-4xl text-3xl mb-4 font-medium ">
+                <h3 className={`title-font md:text-left ${styles.LandHeadlessCMSHeading} text-center sm:text-4xl text-3xl mb-4 font-medium `}>
                   Before they sold out
                   <br className="hidden lg:inline-block" />
                   readymade gluten
                 </h3>
-                <p className="Land-HeadlessCMS-Subheading mb-8 md:text-left text-center leading-relaxed">
+                <p className={`${styles.LandHeadlessCMSSubheading} mb-8 md:text-left text-center leading-relaxed`}>
                   Copper mug try-hard pitchfork pour-over freegan heirloom
                   neutra air plant cold-pressed tacos poke beard tote bag.
                   Heirloom echo park mlkshk tote bag selvage hot chicken
@@ -119,7 +119,7 @@ const Headless = () => {
                   <img
                     id="top-one"
                     src={NodeLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -127,7 +127,7 @@ const Headless = () => {
                   <img
                     id="top-two"
                     src={StrapiLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -135,7 +135,7 @@ const Headless = () => {
                   <img
                     id="top-three"
                     src={NextLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -143,7 +143,7 @@ const Headless = () => {
                   <img
                     id="top-four"
                     src={Express}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -151,7 +151,7 @@ const Headless = () => {
                   <img
                     id="top-five"
                     src={Sanity}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -159,7 +159,7 @@ const Headless = () => {
                   <img
                     id="top-six"
                     src={Contentful}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -167,7 +167,7 @@ const Headless = () => {
                   <img
                     id="top-seven"
                     src={Contentstack}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -184,7 +184,7 @@ const Headless = () => {
                   <img
                     id="bottom-one"
                     src={Svelte}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -192,7 +192,7 @@ const Headless = () => {
                   <img
                     id="bottom-two"
                     src={ReactLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -200,7 +200,7 @@ const Headless = () => {
                   <img
                     id="bottom-three"
                     src={AngularLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -208,7 +208,7 @@ const Headless = () => {
                   <img
                     id="bottom-four"
                     src={VueLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -216,7 +216,7 @@ const Headless = () => {
                   <img
                     id="bottom-five"
                     src={NuxtLogo}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -224,7 +224,7 @@ const Headless = () => {
                   <img
                     id="bottom-six"
                     src={Ember}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -232,7 +232,7 @@ const Headless = () => {
                   <img
                     id="bottom-seven"
                     src={Solid}
-                    className="BrandLogo"
+                    className={styles.BrandLogo}
                     alt=""
                   />
                 </div>
@@ -241,12 +241,12 @@ const Headless = () => {
 
             <div className="right-div relative z-10">
               <div className="flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-                <h3 className="Land-HeadlessCMS-Heading title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium ">
+                <h3 className={`${styles.LandHeadlessCMSHeading} title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium`}>
                   Before they sold out
                   <br className="hidden lg:inline-block" />
                   readymade gluten
                 </h3>
-                <p className="Land-HeadlessCMS-Subheading mb-8 md:text-left text-center leading-relaxed">
+                <p className={`${styles.LandHeadlessCMSSubheading} mb-8 md:text-left text-center leading-relaxed`}>
                   Copper mug try-hard pitchfork pour-over freegan heirloom
                   neutra air plant cold-pressed tacos poke beard tote bag.
                   Heirloom echo park mlkshk tote bag selvage hot chicken

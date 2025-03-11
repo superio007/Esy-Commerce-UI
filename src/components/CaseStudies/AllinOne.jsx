@@ -1,4 +1,4 @@
-import "./css/AllinOne.css";
+import styles from "./css/AllinOne.module.css";
 import TestimonialCard from "./TestimonialCard";
 import { FaArrowRight } from "react-icons/fa";
 import Enquery from "./Enquery";

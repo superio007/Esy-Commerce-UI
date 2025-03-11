@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import "../components/CareerPage/css/CarrearCards.css";
+import styles from "../components/CareerPage/css/CarrearCards.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -18,27 +18,27 @@ import {
 
 const benefits = [
   {
-    icon: <FaLaptop className="benifitIcon text-6xl " />,
+    icon: <FaLaptop className={`${styles.benifitIcon} text-6xl`} />,
     title: "100% Remote",
   },
   {
-    icon: <FaBriefcase className="benifitIcon text-6xl" />,
+    icon: <FaBriefcase className={`${styles.benifitIcon} text-6xl`} />,
     title: "Unlimited PTO",
   },
   {
-    icon: <FaClock className="benifitIcon text-6xl" />,
+    icon: <FaClock className={`${styles.benifitIcon} text-6xl`} />,
     title: "Flexible Hours",
   },
   {
-    icon: <FaHeartbeat className="benifitIcon text-6xl" />,
+    icon: <FaHeartbeat className={`${styles.benifitIcon} text-6xl`} />,
     title: "Medical Insurance",
   },
   {
-    icon: <FaChartLine className="benifitIcon text-6xl" />,
+    icon: <FaChartLine className={`${styles.benifitIcon} text-6xl`} />,
     title: "Career Growth",
   },
   {
-    icon: <FaUsers className="benifitIcon text-6xl" />,
+    icon: <FaUsers className={`${styles.benifitIcon} text-6xl`} />,
     title: "Great Culture",
   },
 ];
@@ -48,17 +48,17 @@ const careerPage = () => {
     <>
       <div className="bg-[#007fff]">
         <section
-          id="Career-Head"
-          className="xl:px-16 p-3 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl"
+          id=""
+          className={`${styles.CareerHead} xl:px-16 p-3 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl`}
         >
           <div className="flex md:flex-row flex-col items-center">
             <div className="md:w-fit flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="text-[60px] font-bold">
                 Looking for a{" "}
-                <span className="highlight-underline-head">
+                <span className={styles.highlightUnderlineHead}>
                   new career?
                   <span
-                    className="underline-bar-head"
+                    className={styles.underlineBarHead}
                     style={{
                       background:
                         "linear-gradient(90deg, #00eeff 0%, transparent 100%)",
@@ -83,7 +83,7 @@ const careerPage = () => {
                 </a>
               </div>
             </div>
-            <div id="Career-Image" className="">
+            <div id="" className={styles.CareerImage}>
               <DotLottieReact
                 src="./src/components/CareerPage/assets/vRMSsmzJes (2).lottie"
                 loop
@@ -121,7 +121,7 @@ const careerPage = () => {
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="benifitsCard flex items-center justify-evenly py-11 px-7 bg-white shadow-md rounded-lg gap-10 border-gray-200"
+                className={`${styles.benifitsCard} flex items-center justify-evenly py-11 px-7 bg-white shadow-md rounded-lg gap-10 border-gray-200`}
               >
                 {benefit.icon}
                 <div>
@@ -143,10 +143,10 @@ const careerPage = () => {
         <div className="text-center p-8">
           <h2 className="text-5xl font-bold mb-3">
             Our open{" "}
-            <span className="highlight-underline">
+            <span className={styles.highlightUnderline}>
               positions
               <span
-                className="underline-bar inset-x-0"
+                className={`${styles.underlineBar} inset-x-0`}
                 style={{
                   background:
                     "linear-gradient(90deg, #75e8f0 0%, transparent 100%)",
@@ -163,7 +163,7 @@ const careerPage = () => {
           {Jobs.map((volunteer, index) => (
             <div
               key={index}
-              className="careerCard p-5 bg-white rounded-xl flex flex-col gap-y-4 border border-gray-200"
+              className={`${styles.careerCard} p-5 bg-white rounded-xl flex flex-col gap-y-4 border border-gray-200`}
             >
               {/* Type and Urgency */}
               <div className="flex gap-4 items-center">
@@ -344,7 +344,7 @@ const careerPage = () => {
         >
           {Jobs.map((volunteer, index) => (
             <SwiperSlide key={index}>
-              <div className="careerCard px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200">
+              <div className={`${styles.careerCard} px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200`}>
                 {/* Type and Urgency */}
                 <div className="flex gap-4 items-center">
                   <span className="bg-[#aec8d5] py-2 px-3 text-[12px] text-[#00234b] rounded-3xl">

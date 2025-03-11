@@ -1,7 +1,7 @@
 import { set, useForm } from "react-hook-form";
 import "flowbite";
 import { useState, useEffect } from "react";
-import "./css/ApplyNowForm.css";
+import styles from "./css/ApplyNowForm.module.css";
 import { CiLinkedin } from "react-icons/ci";
 import { BsLightningChargeFill } from "react-icons/bs";
 
@@ -1529,7 +1529,9 @@ const ApplyNowForm = () => {
                     required: showDateInput ? false : "Date is required",
                   })}
                   disabled={!showDateInput} // ✅ Fix: Initially disabled
-                  className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
+                  className={`${
+                    styles.disabledInput
+                  } block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                   ${
                     errors.Date
                       ? "border-red-600"
@@ -1571,7 +1573,9 @@ const ApplyNowForm = () => {
                       : "This field is required",
                   })}
                   disabled={!showQuestionInput} // ✅ Fix: Initially disabled
-                  className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
+                  className={`${
+                    styles.disabledInput
+                  } block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                         ${
                           errors.Join
                             ? "border-red-600"

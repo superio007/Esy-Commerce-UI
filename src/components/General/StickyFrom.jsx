@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import "./css/NonStickyFrom.css";
-import "./css/StickyFrom.css";
+// import styles from "./css/NonStickyFrom.module.css";
+import styles from "./css/StickyFrom.module.css";
 import { encryptData, decryptData } from "../../utils/cryptoUtils";
 const StickyFrom = () => {
   const [isUserToken, setIsUserToken] = useState(
@@ -32,7 +32,7 @@ const StickyFrom = () => {
   };
 
   return !isUserToken ? (
-    <div className="from-div bg-white mx-auto">
+    <div className={`${styles.fromDiv} bg-white mx-auto`}>
       <div
         className="3xl:mx-auto xl:px-10
         3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center  w-full gap-4"
@@ -134,7 +134,7 @@ const StickyFrom = () => {
       </div>
     </div>
   ) : (
-    <div className="Non-from-div bg-white mx-auto">
+    <div className={`${styles.NonFromDiv} bg-white mx-auto`}>
       <div
         className="3xl:mx-auto xl:px-10
         3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center  w-full gap-4"

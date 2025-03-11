@@ -1,13 +1,13 @@
-.nav-heads {
+.navHeads {
     position: relative;
     text-decoration: none;
     padding: 14px; /* Ensures space for the border */
 }
-.nav-heads a{
+.navHeads a{
   color: white;
 }
 
-.nav-heads::after {
+.navHeads::after {
     content: "";
     position: absolute;
     left: 0;
@@ -17,40 +17,31 @@
     background-color:white; /* Adjust the color as needed */
     transition: width 0.3s ease-in-out;
 }
-.nav-heads:hover::after {
+.navHeads:hover::after {
     width: 100%;
 }
 
-.Menu-item-text{
+.MenuItemText{
   font-size: 16px;
   color: #1b3139 !important;
 }
-#mobile-menu-nav{
+.mobileMenuNav{
   height: 100vh;
 }
-.nav-heads-mobile{
+.navHeadsMobile{
  padding: 12px;
 }
-.nav-heads-mobile a{
+.navHeadsMobile a{
   font-size: 20px;
-}
-#loading-screen{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: 9999;
-}
-#loading-screen img{
-  
 }
 /* For smasung fold  */
 @media screen and (max-width: 331px) {
-  nav #website-logo{
+  nav .WebsiteLogo{
     width: 170px;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1280px) {
-  #mobile-menu-nav{
+  .mobileMenuNav{
     position: absolute;
     right: 0;
     width: 400px;

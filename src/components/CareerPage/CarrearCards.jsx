@@ -5,7 +5,7 @@ import { HiArrowSmRight, HiArrowSmLeft } from "react-icons/hi";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./css/CarrearCards.css";
+import styles from "./css/CarrearCards.module.css";
 
 const volunteerData = [
   {
@@ -135,7 +135,7 @@ const CarrearCards = () => {
       >
         {volunteerData.map((volunteer, index) => (
           <SwiperSlide key={index}>
-            <div className="careerCard px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200">
+            <div className={`${styles.careerCard} px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200`}>
               {/* Type and Urgency */}
               <div className="flex gap-4 items-center">
                 <span className="bg-[#aec8d5] py-2 px-3 text-[12px] text-[#00234b] rounded-3xl">

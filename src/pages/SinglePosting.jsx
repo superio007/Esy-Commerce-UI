@@ -1,11 +1,10 @@
 import { useParams, NavLink } from "react-router-dom";
 import Jobs from "../components/CareerPage/assets/jobs.json";
-import "../components/CareerPage/css/SinglePosting.css";
+import styles from "../components/CareerPage/css/SinglePosting.module.css";
 import { FiDownload } from "react-icons/fi";
 import AnimatedBtn from "../components/General/AnimatedBtn";
 import openPdfInNewTab from "../components/CareerPage/GeneratePdf";
 // import ReactPDF from "@react-pdf/renderer";
-import "../css/SinglePosting.css"
 const SinglePosting = () => {
   let jobTitle = useParams();
   let title = jobTitle.title.split("-").join(" ");
@@ -18,7 +17,9 @@ const SinglePosting = () => {
   // console.log(SingleJob);
   return (
     <>
-      <div className="singleHeading bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center ">
+      <div
+        className={`${styles.singleHeading} bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center `}
+      >
         <h1 className="text-center text-[32px] text-wrap sm:text-4xl md:text-6xl">
           {title}
         </h1>
@@ -60,7 +61,7 @@ const SinglePosting = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <h2 className="headH2">{job.location}</h2>
+              <h2 className={`${styles.headH2}`}>{job.location}</h2>
             </div>
             <div className="flex items-center gap-1">
               {/* experience */}
@@ -88,7 +89,7 @@ const SinglePosting = () => {
                   </g>
                 </g>
               </svg>
-              <h2 className="headH2">{job.experience_required}</h2>
+              <h2 className={`${styles.headH2}`}>{job.experience_required}</h2>
             </div>
             <div className="flex items-center gap-1">
               {/* Mode */}
@@ -116,7 +117,7 @@ const SinglePosting = () => {
                   </g>
                 </g>
               </svg>
-              <h2 className="headH2">{job.mode}</h2>
+              <h2 className={`${styles.headH2}`}>{job.mode}</h2>
             </div>
             <div className="flex items-center gap-1">
               {/* type */}
@@ -144,7 +145,7 @@ const SinglePosting = () => {
                   </g>
                 </g>
               </svg>
-              <h2 className="headH2">{job.contract_duration}</h2>
+              <h2 className={`${styles.headH2}`}>{job.contract_duration}</h2>
             </div>
           </div>
         ))}
@@ -155,7 +156,12 @@ const SinglePosting = () => {
             <div>
               <div>
                 {job.technologies.map((tech, index) => (
-                  <span className="bg-[#57a1e2] rounded-3xl gap-2.5 text-white text-wrap py-2 px-4" key={index}>{tech}</span>
+                  <span
+                    className="bg-[#57a1e2] rounded-3xl gap-2.5 text-white text-wrap py-2 px-4"
+                    key={index}
+                  >
+                    {tech}
+                  </span>
                 ))}
               </div>
               <div className="py-4 md:px-0 px-2">

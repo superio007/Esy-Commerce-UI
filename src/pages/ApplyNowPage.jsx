@@ -1,6 +1,7 @@
 import { useParams, NavLink } from "react-router-dom";
 import Jobs from "../components/CareerPage/assets/jobs.json";
 import ApplyNowForm from "../components/CareerPage/ApplyNowForm";
+import styles from "../components/CareerPage/css/SinglePosting.module.css";
 const ApplyNowPage = () => {
   let jobTitle = useParams();
   let title = "";
@@ -15,7 +16,7 @@ const ApplyNowPage = () => {
 //   console.log(SingleJob);
   return (
     <>
-      <div className="singleHeading bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center ">
+      <div className={`${styles.singleHeading} bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center`}>
         <h1 className="text-center text-[32px] text-wrap sm:text-4xl md:text-6xl">
           {title}
         </h1>
@@ -57,7 +58,7 @@ const ApplyNowPage = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <h2 className="headH2">{job.location}</h2>
+              <h2 className={`${styles.headH2}`}>{job.location}</h2>
             </div>
             <div className="flex items-center gap-1">
               {/* experience */}
@@ -85,7 +86,7 @@ const ApplyNowPage = () => {
                   </g>
                 </g>
               </svg>
-              <h2 className="headH2">{job.experience_required}</h2>
+              <h2 className={`${styles.headH2}`}>{job.experience_required}</h2>
             </div>
             <div className="flex items-center gap-1">
               {/* Mode */}
@@ -113,7 +114,7 @@ const ApplyNowPage = () => {
                   </g>
                 </g>
               </svg>
-              <h2 className="headH2">{job.mode}</h2>
+              <h2 className={`${styles.headH2}`}>{job.mode}</h2>
             </div>
             <div className="flex items-center gap-1">
               {/* type */}
@@ -141,7 +142,7 @@ const ApplyNowPage = () => {
                   </g>
                 </g>
               </svg>
-              <h2 className="headH2">{job.contract_duration}</h2>
+              <h2 className={`${styles.headH2}`}>{job.contract_duration}</h2>
             </div>
           </div>
         ))}
