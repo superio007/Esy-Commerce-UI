@@ -1,12 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import logoWhite from "./assets/logoWhite.png";
-import { NavLink ,Link } from "react-router-dom";
+import { NavLink, Link, useLocation } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Sticky from "./StickyFrom";
 import { motion } from "framer-motion";
 import styles from "./css/Navbar.module.css";
 
 const Navbar = () => {
+  const location = useLocation();
+  // Adjust the path to match your contact page route
+  const isContactPage = location.pathname === "/contact";
+  console.log(isContactPage);
   // Menu toggle states for desktop and mobile
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isEcommMenuOpen, setIsEcommMenu] = useState(false);
@@ -96,13 +100,17 @@ const Navbar = () => {
 
       <nav
         ref={menuRef}
-        className="bg-[#007fff] p-2 border-gray-200 dark:border-gray-600"
+        // #007fff94
+        // #007fffc7
+        className={`${
+          isContactPage ? `bg-[#007fffc7]` : `bg-[#007fff]`
+        } p-2 border-gray-200 dark:border-gray-600 relative z-9`}
       >
         <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
           <NavLink
             to="/"
-            className="flex items-center space-x-3"
+            className="flex items-center space-x-3 relative"
             // onClick={handleLoadingScreen}
           >
             <img
@@ -417,31 +425,29 @@ const Navbar = () => {
                 )}
               </li>
               <li className={styles.navHeads}>
-                <Link to={"/about"}>
-                  <a
-                    onClick={() => {
-                      setIsEcommMenu(false);
-                      setIsDesignMenu(false);
-                      setIsDevMenu(false);
-                      setIsBpmMenu(false);
-                    }}
-                  >
-                    About Us
-                  </a>
+                <Link
+                  to={"/about"}
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
+                >
+                  About Us
                 </Link>
               </li>
               <li className={styles.navHeads}>
-                <Link to={"/contact"}>
-                  <a
-                    onClick={() => {
-                      setIsEcommMenu(false);
-                      setIsDesignMenu(false);
-                      setIsDevMenu(false);
-                      setIsBpmMenu(false);
-                    }}
-                  >
-                    Contact Us
-                  </a>
+                <Link
+                  to={"/contact"}
+                  onClick={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
+                >
+                  Contact Us
                 </Link>
               </li>
             </ul>

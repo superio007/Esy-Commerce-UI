@@ -10,6 +10,7 @@ import DirectApply from "./pages/DirectApply.jsx";
 import ApplyNowPage from "./pages/ApplyNowPage.jsx";
 import About from "./pages/AboutUsPage.jsx";
 import Partner from "./pages/PartnerPage.jsx";
+import ContactPage from "./pages/ContactPage.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -30,6 +31,7 @@ function App() {
         <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
         <Route path="/apply" element={<DirectApply />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/partner" element={<Partner/>} />
       </Route>
     )

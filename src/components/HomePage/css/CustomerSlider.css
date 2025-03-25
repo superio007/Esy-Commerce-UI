@@ -78,9 +78,9 @@
   }
 }
 
-.slider-track:hover {
+/* .slider-track:hover {
   animation-play-state: paused;
-}
+} */
 
 @media (max-width: 768px) {
   .brand-heading {

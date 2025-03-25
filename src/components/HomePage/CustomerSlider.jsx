@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/CustomerSlider.css"; // Import CSS
-
+import { useLocation } from "react-router-dom";
 const brands = [
   { src: "./src/assets/Archana_Rao.png", alt: "" },
   { src: "./src/assets/C2P.png", alt: "" },
@@ -16,8 +16,11 @@ const brands = [
 ];
 
 const landingBrandslider = () => {
+  const location = useLocation();
+  // Adjust the path to match your contact page route
+  const isContactPage = location.pathname === "/contact";
   return (
-    <div className="bg-white">
+    <div className={isContactPage ? 'bg-[#fafafa]' : 'bg-[fff]'}>
       <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
         <div
           className=" brand-slider-container"
