@@ -164,10 +164,10 @@ const SinglePosting = () => {
                   </span>
                 ))}
               </div> */}
-              <div className="flex w-[350px] flex-row flex-wrap gap-4">
+              <div className="flex  flex-row flex-wrap gap-4">
                 {job.technologies.map((tech, index) => (
                   <div
-                    className="bg-[#57a1e2] rounded-3xl gap-2.5 text-white text-wrap py-2 px-4"
+                    className="bg-[#c7c7c7] rounded-xl gap-2.5 text-[12px] text-white text-wrap py-0.5 px-2"
                     key={index}
                   >
                     {tech}

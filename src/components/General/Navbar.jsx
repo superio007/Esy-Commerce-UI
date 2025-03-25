@@ -19,7 +19,7 @@ const Navbar = () => {
   const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
 
   const menuRef = useRef(null);
-  const [isFromJwtAvailble, setisFromJwtAvailble] = useState(
+  const [isFromJwtAvailble, setisFromJwtAvailble] = useState( 
     localStorage.getItem("user-token") || ""
   );
 
