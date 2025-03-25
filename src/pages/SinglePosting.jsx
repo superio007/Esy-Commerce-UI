@@ -154,7 +154,7 @@ const SinglePosting = () => {
         {SingleJob.map((job, index) => (
           <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div>
-              <div>
+              {/* <div>
                 {job.technologies.map((tech, index) => (
                   <span
                     className="bg-[#57a1e2] rounded-3xl gap-2.5 text-white text-wrap py-2 px-4"
@@ -162,6 +162,16 @@ const SinglePosting = () => {
                   >
                     {tech}
                   </span>
+                ))}
+              </div> */}
+              <div className="flex w-[350px] flex-row flex-wrap gap-4">
+                {job.technologies.map((tech, index) => (
+                  <div
+                    className="bg-[#57a1e2] rounded-3xl gap-2.5 text-white text-wrap py-2 px-4"
+                    key={index}
+                  >
+                    {tech}
+                  </div>
                 ))}
               </div>
               <div className="py-4 md:px-0 px-2">

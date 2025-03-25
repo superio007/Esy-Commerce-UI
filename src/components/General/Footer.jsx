@@ -1,10 +1,42 @@
 import WebsitLogo from "./assets/Logo.png";
 import styles from "./css/Footer.module.css";
+import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
 import FooterBrands from "./assets/footerBrands.png";
 const Footer = () => {
   return (
     <>
       <div className={`${styles.Footer} bg-white  w-full`}>
+        <div className="border-b-1 border-[#e7e7e7] py-9 xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl">
+          <div className="flex md:flex-row flex-col md:justify-between md:items-center p-6 md:p-2">
+            <div className="flex flex-col md:flex-row md:gap-6 gap-3">
+              <Link to={"/about"}>
+                <p>About</p>
+              </Link>
+              <Link to={"/services"}>
+                <p>Services</p>
+              </Link>
+              <Link to={"/blogs"}>
+                <p>Blog</p>
+              </Link>
+              <Link to={"/why-us"}>
+                <p>Why Us</p>
+              </Link>
+              <Link to={"/contact"}>
+                <p>Contact</p>
+              </Link>
+            </div>
+            <div className="mt-8 md:mt-0">
+              <Link
+                to={
+                  "https://www.linkedin.com/company/esycommerce?originalSubdomain=in"
+                }
+              >
+                <FaLinkedin className="text-[#00234b] hover:text-[#007fff] text-md" />
+              </Link>
+            </div>
+          </div>
+        </div>
         <div className="py-14 p-6 xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl xl:grid xl:grid-rows-1 xl:grid-cols-5 md:grid md:grid-rows-2 md:grid-cols-2  gap-6 ">
           <div className="col-span-1">
             <img
@@ -30,23 +62,35 @@ const Footer = () => {
               Our Services
             </h2>
             <ul style={{ width: "max-content" }}>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Ecommerce</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Design</p>
               </li>
 
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Development</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>BPM</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>About Us</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Contact Us</p>
               </li>
             </ul>
@@ -56,22 +100,34 @@ const Footer = () => {
               Legal Compliance
             </h2>
             <ul style={{ width: "max-content" }}>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Privacy Policy</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Ethics Policy</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Data Security Policy</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Code of Conduct</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>Information Security</p>
               </li>
-              <li className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}>
+              <li
+                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+              >
                 <p>FAQ</p>
               </li>
             </ul>
@@ -122,5 +178,5 @@ const Footer = () => {
       </div>
     </>
   );
-}
+};
 export default Footer;

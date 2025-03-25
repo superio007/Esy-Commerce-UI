@@ -159,7 +159,7 @@ const careerPage = () => {
           </p>
         </div>
         {/* Volunteer Cards */}
-        <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 xl:grid-cols-4 gap-y-6">
+        <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-3 gap-y-6">
           {Jobs.map((volunteer, index) => (
             <div
               key={index}

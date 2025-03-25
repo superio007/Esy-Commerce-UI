@@ -272,6 +272,7 @@ const Headless = () => {
                   start={start}
                   end={end}
                   color={color}
+                  showHead={false}
                   strokeWidth={2}
                   className="animated-arrow"
                   headSize={6}
@@ -307,6 +308,7 @@ const Headless = () => {
                   start={start}
                   end={end}
                   color={color}
+                  showHead={false}
                   strokeWidth={2}
                   className="animated-arrow"
                   headSize={6}
@@ -335,6 +337,7 @@ const Headless = () => {
                   key={index}
                   start={start}
                   end={end}
+                  showHead={false}
                   color={color}
                   strokeWidth={2}
                   className="animated-arrow"

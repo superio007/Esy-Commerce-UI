@@ -22,7 +22,7 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/Land" element={<LandPage />} />
+        <Route path="/land" element={<LandPage />} />
         <Route path="/try" element={<Try />} />
         <Route path="/case" element={<CaseStudy />} />
         <Route path="/jobs" element={<CareerPage />} />
