@@ -4,9 +4,9 @@ const Locations = () => {
     <>
       <div className="xl:p-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
         <h2 className="text-2xl font-medium p-8 text-center">Our Offices</h2>
-        <div className="flex md:flex-row flex-col justify-evenly">
-          <div className="w-max">
-            <div className="bg-white rounded-md px-12 py-6">
+        <div className="flex md:flex-row p-4 gap-4 flex-col justify-evenly">
+          <div className="md:w-max w-auto">
+            <div className="bg-white rounded-md md:px-12 p-8 md:py-6">
               <p className="flex flex-wrap gap-2 text-1xl leading-normal font-medium mb-2">
                 <img
                   className="w-[25px]"
@@ -22,8 +22,8 @@ const Locations = () => {
               </p>
             </div>
           </div>
-          <div className="w-max">
-            <div className="bg-white rounded-md px-12 py-6">
+          <div className="md:w-max w-auto">
+            <div className="bg-white rounded-md md:px-12 p-8 md:py-6">
               <p className="flex flex-wrap gap-2 text-1xl leading-normal font-medium mb-2">
                 <img
                   className="w-[25px]"
