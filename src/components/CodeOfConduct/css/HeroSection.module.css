@@ -1,0 +1,59 @@
+.careerCard {
+    width: 300px;
+    height: 500px;
+}
+
+:global(swiper-wrapper) {
+    align-items: stretch;
+}
+
+.highlightUnderline {
+    position: relative;
+    z-index: 1;
+}
+
+.highlightUnderlineHead {
+    position: relative;
+    z-index: 1;
+}
+
+.underlineBarHead {
+    z-index: -1;
+    height: 13px;
+    position: absolute;
+    top: 0;
+}
+
+.CareerHead {
+
+    h1,
+    p {
+        color: white !important;
+    }
+}
+
+.CareerImage :global(canvas) {
+    width: 700px !important;
+}
+
+.underlineBar {
+    z-index: -1;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+}
+@media screen and (max-width: 1280px) {
+    .CareerImage :global(canvas) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 331px) {
+    .CareerHead :global(h1) {
+        font-size: 45px !important;
+    }
+
+    .careerCard {
+        width: 245px;
+    }
+}

@@ -3,26 +3,30 @@ import styles from "./css/Footer.module.css";
 import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import FooterBrands from "./assets/footerBrands.png";
+import { useEffect , useState } from "react";
 const Footer = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className={`${styles.Footer} bg-white  w-full`}>
         <div className="border-b-1 border-[#e7e7e7] py-9 xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl">
           <div className="flex md:flex-row flex-col md:justify-between md:items-center p-6 md:p-2">
             <div className="flex flex-col md:flex-row md:gap-6 gap-3">
-              <Link to={"/about"}>
+              <Link to={"/about"} onClick={handleClick}>
                 <p>About</p>
               </Link>
-              <Link to={"/services"}>
+              <Link to={"/services"} onClick={handleClick}>
                 <p>Services</p>
               </Link>
-              <Link to={"/blogs"}>
+              <Link to={"/blogs"} onClick={handleClick}>
                 <p>Blog</p>
               </Link>
-              <Link to={"/why-us"}>
+              <Link to={"/why-us"} onClick={handleClick}>
                 <p>Why Us</p>
               </Link>
-              <Link to={"/contact"}>
+              <Link to={"/contact"} onClick={handleClick}>
                 <p>Contact</p>
               </Link>
             </div>
@@ -62,37 +66,48 @@ const Footer = () => {
               Our Services
             </h2>
             <ul style={{ width: "max-content" }}>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Ecommerce</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Design</p>
-              </li>
-
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Development</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>BPM</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>About Us</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Contact Us</p>
-              </li>
+              <Link to={"/ecommerce"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Ecommerce</p>
+                </li>
+              </Link>
+              <Link to={"/design"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Design</p>
+                </li>
+              </Link>
+              <Link to={"/development"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Development</p>
+                </li>
+              </Link>
+              <Link to={"/bpm"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>BPM</p>
+                </li>
+              </Link>
+              <Link to={"/about"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>About Us</p>
+                </li>
+              </Link>
+              <Link to={"/contact"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Contact Us</p>
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="col-span-1">
@@ -100,36 +115,48 @@ const Footer = () => {
               Legal Compliance
             </h2>
             <ul style={{ width: "max-content" }}>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Privacy Policy</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Ethics Policy</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Data Security Policy</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Code of Conduct</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>Information Security</p>
-              </li>
-              <li
-                className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
-              >
-                <p>FAQ</p>
-              </li>
+              <Link to={"/privacy-policy"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Privacy Policy</p>
+                </li>
+              </Link>
+              <Link to={"/ethics-policy"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Ethics Policy</p>
+                </li>
+              </Link>
+              <Link to={"/data-security-policy"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Data Security Policy</p>
+                </li>
+              </Link>
+              <Link to={"/code-of-conduct"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Code of Conduct</p>
+                </li>
+              </Link>
+              <Link to={"/information-security"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>Information Security</p>
+                </li>
+              </Link>
+              <Link to={"/faq"} onClick={handleClick}>
+                <li
+                  className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
+                >
+                  <p>FAQ</p>
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="xl:col-span-2 md:col-span-1">
