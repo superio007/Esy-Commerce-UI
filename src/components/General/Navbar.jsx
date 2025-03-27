@@ -10,7 +10,6 @@ const Navbar = () => {
   const location = useLocation();
   // Adjust the path to match your contact page route
   const isContactPage = location.pathname === "/contact";
-  console.log(isContactPage);
   // Menu toggle states for desktop and mobile
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isEcommMenuOpen, setIsEcommMenu] = useState(false);

@@ -12,12 +12,14 @@ import About from "./pages/AboutUsPage.jsx";
 import Partner from "./pages/PartnerPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import DataSecurityPolicyPage from "./pages/DataSecurityPolicyPage.jsx";
-import EthicsPolicyPage from "./pages/EthicsPolicyPage.jsx"
-import CodeofConductPage from "./pages/CodeofConductPage.jsx"
+import EthicsPolicyPage from "./pages/EthicsPolicyPage.jsx";
+import CodeofConductPage from "./pages/CodeofConductPage.jsx";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.jsx";
 import InformationSecurityPage from "./pages/InformationSecurityPage.jsx";
 import SiteMap from "./pages/SiteMap.jsx";
 import FAQ from "./pages/FaqPage.jsx";
+import Blogs from "./pages/BlogPage.jsx";
+import SingleBlogs from "./pages/SingleBlogs.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -53,6 +55,8 @@ function App() {
         />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/sitemap" element={<SiteMap />} />
+        <Route path="/blogs" element={ <Blogs/>} />
+        <Route path="/blogs/:title" element={<SingleBlogs />}/>
       </Route>
     )
   );
