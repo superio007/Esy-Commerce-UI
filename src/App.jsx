@@ -16,6 +16,7 @@ import EthicsPolicyPage from "./pages/EthicsPolicyPage.jsx"
 import CodeofConductPage from "./pages/CodeofConductPage.jsx"
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.jsx";
 import InformationSecurityPage from "./pages/InformationSecurityPage.jsx";
+import SiteMap from "./pages/SiteMap.jsx";
 import FAQ from "./pages/FaqPage.jsx";
 import {
   Route,
@@ -31,7 +32,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/land" element={<LandPage />} />
         <Route path="/try" element={<Try />} />
-        <Route path="/case" element={<CaseStudy />} />
+        <Route path="/case-studies" element={<CaseStudy />} />
         <Route path="/jobs" element={<CareerPage />} />
         <Route path="/jobs/:title" element={<SinglePosting />} />
         <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
@@ -40,11 +41,18 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/partner" element={<Partner />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-        <Route path="/ethics-policy" element={ <EthicsPolicyPage/>} />
-        <Route path="/data-security-policy" element={ <DataSecurityPolicyPage/>} />
-        <Route path="/code-of-conduct" element={ <CodeofConductPage/>} />
-        <Route path="/information-security" element={ <InformationSecurityPage/>} />
-        <Route path="/faq" element={ <FAQ/>} />
+        <Route path="/ethics-policy" element={<EthicsPolicyPage />} />
+        <Route
+          path="/data-security-policy"
+          element={<DataSecurityPolicyPage />}
+        />
+        <Route path="/code-of-conduct" element={<CodeofConductPage />} />
+        <Route
+          path="/information-security"
+          element={<InformationSecurityPage />}
+        />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/sitemap" element={<SiteMap />} />
       </Route>
     )
   );

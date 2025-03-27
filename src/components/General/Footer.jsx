@@ -23,8 +23,8 @@ const Footer = () => {
               <Link to={"/blogs"} onClick={handleClick}>
                 <p>Blog</p>
               </Link>
-              <Link to={"/why-us"} onClick={handleClick}>
-                <p>Why Us</p>
+              <Link to={"/faq"} onClick={handleClick}>
+                <p>FAQ</p>
               </Link>
               <Link to={"/contact"} onClick={handleClick}>
                 <p>Contact</p>
@@ -150,11 +150,11 @@ const Footer = () => {
                   <p>Information Security</p>
                 </li>
               </Link>
-              <Link to={"/faq"} onClick={handleClick}>
+              <Link to={"/sitemap"} onClick={handleClick}>
                 <li
                   className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                 >
-                  <p>FAQ</p>
+                  <p>Site Map</p>
                 </li>
               </Link>
             </ul>

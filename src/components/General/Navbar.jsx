@@ -383,35 +383,35 @@ const Navbar = () => {
                           <NavLink
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            CONTENT MIGRATION
+                            Content Migration
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            TRANSLATION
+                            Translation
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            TRANSCRIPTION
+                            Transcription
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            TRANSLITERATION
+                            Transliteration
                           </NavLink>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <NavLink
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            DATA LABELING & ANNOTATION
+                            Data Labeling & Annotation
                           </NavLink>
                         </li>
                       </ul>
@@ -722,28 +722,35 @@ const Navbar = () => {
                       <NavLink
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
-                        CONTENT MIGRATION
+                        Content Migration
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
                       <NavLink
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
-                        TRANSLATION
+                        Translation
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
                       <NavLink
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
-                        TRANSCRIPTION
+                        Transcription
                       </NavLink>
                     </li>
                     <li className="mb-6 ">
                       <NavLink
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
-                        TRANSLITERATION
+                        Transliteration
+                      </NavLink>
+                    </li>
+                    <li className="mb-6 ">
+                      <NavLink
+                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                      >
+                        Data Labeling & Annotation
                       </NavLink>
                     </li>
                   </ul>
