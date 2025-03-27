@@ -1,43 +1,67 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
-const BlogsData = [
-  {
-    id: 1,
-    title: "How Innostax helped Bancstac to optimize Software Development...",
-    description:
-      "Innostax helped Bancstac to optimize Software Development through AWS, Elastic Search, and MySQL.",
-    image: "./src/assets/case1.webp",
-    tags: ["AWS", "Elastic Search", "Java", "Jenkins", "MySQL"],
-  },
-  {
-    id: 2,
-    title: "How Innostax Streamlined Technique’s Project Management...",
-    description:
-      "Innostax Streamlined Technique's Project Management and Significantly Enhanced Overall Efficiency through Automation",
-    image: "./src/assets/case2.webp",
-    tags: ["Azure", "Microsoft Power Automate"],
-  },
-  {
-    id: 3,
-    title: "How Innostax Powered a 15% Increase in Travelstart’s Ticket Sales",
-    description:
-      "Innostax enabled Travelstart to increase ticket sales by 15% through .NET and Angular enhancements.",
-    image: "./src/assets/case1.webp",
-    tags: [".NET", "Angular", "Java"],
-  },
-];
+import ReactMarkdown from "react-markdown";
+let BlogsData = [];
 let blogData = [];
+import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
+import BlogsPageData from "../Data/BlogsData.json";
+import styles from "../css/Blogs.module.css";
+const fetchBlogsContent = async () => {
+  const { data } = await axios.get(
+    "http://localhost:1337/api/blogs?populate=*"
+  );
+  return data.data;
+};
 const SingleBlogs = () => {
-    let title = useParams().title.split("-").join(" ");
-    BlogsData.map((blog) =>{
-        if (blog.title === title) {
-            blogData = blog;
-        }
-    })
-    return (
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["Blogspage-content"],
+    queryFn: fetchBlogsContent,
+  });
+
+  // Use API data if available; fallback to static data on error
+  const apiResponse = error ? BlogsPageData.data || [] : data || [];
+
+  const BlogsData = apiResponse.map((item, index) => ({
+    id: index + 1,
+    title: item.Title,
+    Blogstructure: item.Blogstructure,
+    description: item.Shortdescription,
+    image: item.CoverImage?.url || "./default-image.webp",
+    imageAlt: item.CoverImage?.alternativeText || "Blog Image",
+    tags: item.blog_tags || [],
+    category: item.blog_categories || [],
+  }));
+  let title = useParams().title.split("-").join(" ");
+  BlogsData.map((blog) => {
+    if (blog.title === title) {
+      blogData = blog;
+    }
+  });
+  if (isLoading) return <p>Loading...</p>;
+  return (
+    <>
+      {apiResponse ? (
         <>
+          <div className="bg-[#007fff]">
+            <section
+              className={`${styles.Blogs} xl:px-16 p-3 py-[80px] 3xl:mx-auto 3xl:max-w-screen-xl`}
+            >
+              <h1 className="text-[45px] font-bold text-center text-white capitalize">
+                {blogData.title}
+              </h1>
+            </section>
+          </div>
+          <div className="bg-white">
+            <div className={`${styles.markDown}xl:px-16 p-3 py-[80px] 3xl:mx-auto 3xl:max-w-screen-x`} style={{maxWidth:"70%"}}>
+              <ReactMarkdown >{blogData.Blogstructure}</ReactMarkdown>
+            </div>
+          </div>
         </>
-    );
+      ) : (
+        <div>No data Available</div>
+      )}
+    </>
+  );
 };
 export default SingleBlogs;

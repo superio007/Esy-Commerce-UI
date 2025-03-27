@@ -1,7 +1,14 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 const BlogCards = ({ study }) => {
+  console.log(study);
   const [hover, setHover] = useState(false);
+  function truncateText(text, limit = 30) {
+    if (text.length > limit) {
+      return text.substring(0, limit) + "...";
+    }
+    return text;
+  }
   return (
     <>
       <div
@@ -12,8 +19,8 @@ const BlogCards = ({ study }) => {
         {/* Image */}
         <img
           src={study.image}
-          alt={study.title}
-          className={`w-full h-56 object-cover transition-opacity ${
+          alt={study.imageAlt}
+          className={`w-full h-56 transition-opacity ${
             hover ? "opacity-30" : "opacity-100"
           }`}
         />
@@ -25,18 +32,21 @@ const BlogCards = ({ study }) => {
           }`}
         >
           <h3 className="text-lg font-bold">{study.title}</h3>
-          <div className="flex flex-row gap-2 w-full">
-            {study.tags.map((tag, index) => (
-              <span
-                key={index}
-                className="text-[10px] bg-gray-200 px-2 py-1 rounded-full"
-              >
-                {tag}
-              </span>
-            ))}
+          <div className="relative w-full">
+            <div className="flex flex-wrap gap-2 mt-2">
+              {study.tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="text-[10px] bg-gray-200 p-2 rounded-md min-w-fit px-4 snap-start"
+                >
+                  {tag.Tags}
+                </span>
+              ))}
+            </div>
           </div>
+
           <p className="text-lg font-semibold text-gray-700">
-            {study.description}
+            {truncateText(study.description, 100)}
           </p>
           <button className="bg-[#007fff] rounded-full text-white p-2 w-full">
             <Link to={`/blogs/${study.title.split(" ").join("-")}`}>
@@ -54,7 +64,7 @@ const BlogCards = ({ study }) => {
                 key={index}
                 className="text-[10px] bg-gray-200 px-2 py-1 rounded-full"
               >
-                {tag}
+                {tag.Tags}
               </span>
             ))}
           </div>
