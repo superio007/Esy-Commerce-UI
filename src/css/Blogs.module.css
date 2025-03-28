@@ -4,3 +4,7 @@
 .markDown :global(p){
     padding: 15px 0;
 }
+.BlogsContent :global(li){
+    list-style: disc !important;
+    color:#617796 !important;
+}

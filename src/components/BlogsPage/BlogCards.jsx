@@ -39,7 +39,7 @@ const BlogCards = ({ study }) => {
                   key={index}
                   className="text-[10px] bg-gray-200 p-2 rounded-md min-w-fit px-4 snap-start"
                 >
-                  {tag.Tags}
+                  {tag.tagsName}
                 </span>
               ))}
             </div>
@@ -62,9 +62,9 @@ const BlogCards = ({ study }) => {
             {study.tags.map((tag, index) => (
               <span
                 key={index}
-                className="text-[10px] bg-gray-200 px-2 py-1 rounded-full"
+                className="text-[10px] bg-gray-200 p-2 rounded-md min-w-fit px-4 snap-start"
               >
-                {tag.Tags}
+                {tag.tagsName}
               </span>
             ))}
           </div>

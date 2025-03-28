@@ -24,13 +24,14 @@ const Blogs = () => {
   const ApiData = apiResponse.map((item, index) => ({
     id: index + 1,
     title: item.Title,
-    description: item.Shortdescription,
-    image: item.CoverImage?.url || "./default-image.webp",
+    description: item.description,
+    image:
+      `http://localhost:1337${item.CoverImage?.url}` || "./default-image.webp",
     imageAlt: item.CoverImage?.alternativeText || "Blog Image",
-    tags: item.blog_tags || [],
-    category: item.blog_categories || [],
+    tags: item.tags || [],
+    category: item.categories || [],
   }));
-
+  console.log(ApiData);
   if (isLoading) return <p>Loading...</p>;
 
   return (
