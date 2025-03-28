@@ -20,6 +20,18 @@ import SiteMap from "./pages/SiteMap.jsx";
 import FAQ from "./pages/FaqPage.jsx";
 import Blogs from "./pages/BlogPage.jsx";
 import SingleBlogs from "./pages/SingleBlogs.jsx";
+import Services from "./pages/Services.jsx";
+import Ecommerce from "./pages/Ecommerce.jsx";
+import Design from "./pages/Design.jsx";
+import Development from "./pages/Development.jsx";
+import BPM from "./pages/BPM.jsx";
+import EcommerceConsultation from "./pages/EcommerceConsultation.jsx";
+import EcommerceEnablement from "./pages/EcommerceEnablement.jsx";
+import EcommerceWebsiteDevelopment from "./pages/EcommerceWebsiteDevelopment.jsx";
+import YoutubeContentMarketing from "./pages/YoutubeContentMarketing.jsx";
+import LinkedinContentMarketing from "./pages/LinkedinContentMarketing.jsx";
+import IdentityBrandingCommunication from "./pages/IdentityBrandingCommunication.jsx";
+import CustomWebsiteDevlopment from "./pages/CustomWebsiteDevlopment.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -55,8 +67,29 @@ function App() {
         />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/sitemap" element={<SiteMap />} />
-        <Route path="/blogs" element={ <Blogs/>} />
-        <Route path="/blogs/:title" element={<SingleBlogs />}/>
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:title" element={<SingleBlogs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/ecommerce" element={<Ecommerce />} />
+        <Route path="/design" element={<Design />} />
+        <Route path="/development" element={<Development />} />
+        <Route path="/bpm" element={<BPM />} />
+        <Route
+          path="/ecommerce-consultation"
+          element={<EcommerceConsultation />}
+        />
+        <Route path="/ecommerce-enablement" element={<EcommerceEnablement />} />
+        <Route
+          path="/ecommerce-website-development"
+          element={<EcommerceWebsiteDevelopment />}
+        />
+        <Route path="/youtube-content-marketing" element={<YoutubeContentMarketing />} />
+        <Route path="/custom-website-development" element={<CustomWebsiteDevlopment />} />
+        <Route
+          path="/identity-branding-communication"
+          element={<IdentityBrandingCommunication />}
+        />
+        <Route path="/linkedin-content-marketing" element={<LinkedinContentMarketing />} />
       </Route>
     )
   );
