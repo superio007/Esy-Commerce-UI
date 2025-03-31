@@ -1,4 +1,4 @@
-import styles from "../css/CustomWebsiteDevlopment.module.css";
+import styles from "../../css/CustomWebsiteDevlopment.module.css";
 const CustomWebsiteDevlopment = () => {
   return (
     <>

@@ -25,13 +25,13 @@ import Ecommerce from "./pages/Ecommerce.jsx";
 import Design from "./pages/Design.jsx";
 import Development from "./pages/Development.jsx";
 import BPM from "./pages/BPM.jsx";
-import EcommerceConsultation from "./pages/EcommerceConsultation.jsx";
-import EcommerceEnablement from "./pages/EcommerceEnablement.jsx";
-import EcommerceWebsiteDevelopment from "./pages/EcommerceWebsiteDevelopment.jsx";
-import YoutubeContentMarketing from "./pages/YoutubeContentMarketing.jsx";
-import LinkedinContentMarketing from "./pages/LinkedinContentMarketing.jsx";
-import IdentityBrandingCommunication from "./pages/IdentityBrandingCommunication.jsx";
-import CustomWebsiteDevlopment from "./pages/CustomWebsiteDevlopment.jsx";
+import EcommerceConsultation from "./pages/Services/EcommerceConsultation.jsx";
+import EcommerceEnablement from "./pages/Services/EcommerceEnablement.jsx";
+import EcommerceWebsiteDevelopment from "./pages/Services/EcommerceWebsiteDevelopment.jsx";
+import YoutubeContentMarketing from "./pages/Services/YoutubeContentMarketing.jsx";
+import LinkedinContentMarketing from "./pages/Services/LinkedinContentMarketing.jsx";
+import IdentityBrandingCommunication from "./pages/Services/IdentityBrandingCommunication.jsx";
+import CustomWebsiteDevlopment from "./pages/Services/CustomWebsiteDevlopment.jsx";
 import {
   Route,
   createBrowserRouter,

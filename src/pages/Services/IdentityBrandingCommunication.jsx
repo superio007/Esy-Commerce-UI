@@ -1,4 +1,4 @@
-import styles from "../css/IdentityBrandingCommunication.module.css";
+import styles from "../../css/IdentityBrandingCommunication.module.css";
 const IdentityBrandingCommunication = () => {
   return (
     <>

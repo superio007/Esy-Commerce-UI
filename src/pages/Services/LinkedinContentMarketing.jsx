@@ -1,4 +1,4 @@
-import styles from "../css/LinkedinContentMarketing.module.css";
+import styles from "../../css/LinkedinContentMarketing.module.css";
 const LinkedinContentMarketing = () => {
     return (
       <>

@@ -1,4 +1,4 @@
-import styles from "../css/YoutubeContentMarketing.module.css";
+import styles from "../../css/YoutubeContentMarketing.module.css";
 const YoutubeContentMarketing = () => {
   return (
     <>

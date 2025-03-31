@@ -1,4 +1,4 @@
-import styles from "../css/EcommerceWebsiteDevelopment.module.css";
+import styles from "../../css/EcommerceWebsiteDevelopment.module.css";
 const EcommerceWebsiteDevelopment = () => {
   return (
     <>
