@@ -30,9 +30,9 @@ const Blogs = () => {
     tags: item.blog_tags || [],
     category: item.blog_categories || [],
   }));
-
   if (isLoading) return <p>Loading...</p>;
-
+  console.log(ApiData);
+  
   return (
     <>
       {ApiData.length > 0 ? (

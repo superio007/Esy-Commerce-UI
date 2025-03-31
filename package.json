@@ -36,6 +36,8 @@
     "react-select": "^5.10.1",
     "react-slot-counter": "^3.2.0",
     "react-xarrows": "^2.0.2",
+    "rehype-raw": "^7.0.0",
+    "remark-gfm": "^4.0.1",
     "swiper": "^11.2.4"
   },
   "devDependencies": {
