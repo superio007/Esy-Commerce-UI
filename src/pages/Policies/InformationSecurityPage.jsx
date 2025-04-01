@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "../components/InformationSecurityPage/HeroSection";
-import styles from "../css/InformationSecurity.module.css";
+import HeroSection from "../../components/InformationSecurityPage/HeroSection";
+import styles from "../../css/InformationSecurity.module.css";
 
 const InformationSecurityPage = () => {
   return (

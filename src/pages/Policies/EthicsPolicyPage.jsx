@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../css/Ethics.module.css";
-import HeroSection from "../components/EthicsPage/HeroSection";
+import styles from "../../css/Ethics.module.css";
+import HeroSection from "../../components/EthicsPage/HeroSection";
 
 const EthicsPolicyPage = () => {
   return (

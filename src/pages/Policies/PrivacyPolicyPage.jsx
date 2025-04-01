@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "../components/PrivacyPolicy/HeroSection";
-import styles from "../css/PrivacyPolicyPage.module.css"
+import HeroSection from "../../components/PrivacyPolicy/HeroSection";
+import styles from "../../css/PrivacyPolicyPage.module.css";
 
 const PrivacyPolicyPage = () => {
   return (

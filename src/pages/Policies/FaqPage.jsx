@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "../components/FaqPage/HeroSection";
-import Faq from "../components/FaqPage/Faq";
+import HeroSection from "../../components/FaqPage/HeroSection";
+import Faq from "../../components/FaqPage/Faq";
 const FaqPage = () => {
   return (
     <>

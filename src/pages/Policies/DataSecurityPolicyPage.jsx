@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../css/DataPolicy.module.css";
-import HeroSection from "../components/DataSecurity/HeroSection";
+import styles from "../../css/DataPolicy.module.css";
+import HeroSection from "../../components/DataSecurity/HeroSection";
 
 const DataSecurityPolicyPage = () => {
   return (

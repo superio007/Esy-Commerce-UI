@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "../components/CodeOfConduct/HeroSection";
-import styles from "../css/CodeOfConduct.module.css";
+import HeroSection from "../../components/CodeOfConduct/HeroSection";
+import styles from "../../css/CodeOfConduct.module.css";
 
 const CodeofConductPage = () => {
   return (
@@ -722,7 +722,8 @@ const CodeofConductPage = () => {
             <span className="font-bold">
               Please find below the reasons which can lead to Termination of
               Employment. This list in Non-Exhaustive
-            </span> <br />
+            </span>{" "}
+            <br />
             1. Gross misconduct or behavior which may result in disrepute to the
             employer;
             <ul className="list-disc list-inside mt-2">
@@ -794,8 +795,7 @@ const CodeofConductPage = () => {
               </li>
               <li>Habitual neglect of work.</li>
               <li>Habitual indiscipline.</li>
-            </ul>
-            {" "}
+            </ul>{" "}
             3. Any other reasons depending on the position occupied by the
             employee
             <ul className="list-disc list-inside mt-2">
