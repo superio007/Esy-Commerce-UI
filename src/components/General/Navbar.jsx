@@ -22,7 +22,7 @@ const Navbar = () => {
   const [isMBpmMenuOpen, setMIsBpmMenu] = useState(false);
 
   const menuRef = useRef(null);
-  const [isFromJwtAvailble, setisFromJwtAvailble] = useState( 
+  const [isFromJwtAvailble, setisFromJwtAvailble] = useState(
     localStorage.getItem("user-token") || ""
   );
 
@@ -151,25 +151,46 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/Ecommerce-Consultation"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Consultation (Performance)
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/Ecommerce-Enablement"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Enablement (Operations)
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/Ecommerce-Website-Development"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Website Development (TechDev)
-                          </NavLink>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -204,32 +225,60 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/youtube-content-marketing"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             YouTube Content Marketing
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/linkedin-content-marketing"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             LinkedIn Content Marketing
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/identity-branding-communication"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Identity, Branding & Communication
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            to={"/custom-website-development"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Custom Website Development
-                          </NavLink>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -264,8 +313,43 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <div className="md:flex justify-left gap-8">
                         <ul>
-                          <li>CMS</li>
-                          <li className="lg:mt-2 mt-1.5 ">
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            className={`${styles.MenuItemText}`}
+                            to={"/cms"}
+                          >
+                            <li>CMS</li>
+                          </Link>
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/crm"}
+                            className={`${styles.MenuItemText}`}
+                          >
+                            <li>CRM</li>
+                          </Link>
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/custom-development"}
+                            className={`${styles.MenuItemText}`}
+                          >
+                            <li>Custom Development</li>
+                          </Link>
+                          {/* <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                             >
@@ -285,11 +369,11 @@ const Navbar = () => {
                             >
                               Joomla
                             </NavLink>
-                          </li>
+                          </li> */}
                         </ul>
-                        <ul>
-                          <li>CRM</li>
-                          <li className="lg:mt-2 mt-1.5 ">
+                        {/* <ul>
+                          {/* <li>CRM</li> */}
+                        {/* <li className="lg:mt-2 mt-1.5 ">
                             <NavLink
                               className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                             >
@@ -344,8 +428,8 @@ const Navbar = () => {
                             >
                               Oracle NetSuite
                             </NavLink>
-                          </li>
-                        </ul>
+                          </li> }
+                        </ul> */}
                       </div>
                     </div>
                     <div className="bg-[#1b8dff]  p-2">
@@ -379,39 +463,74 @@ const Navbar = () => {
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/content-migration"}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Content Migration
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/translation"}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Translation
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/transcription"}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transcription
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/transliteration"}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transliteration
-                          </NavLink>
+                          </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
-                          <NavLink
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/data-labeling-annotation"}
                             className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Data Labeling & Annotation
-                          </NavLink>
+                          </Link>
                         </li>
                       </ul>
                     </div>

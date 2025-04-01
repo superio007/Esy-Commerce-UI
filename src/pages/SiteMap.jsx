@@ -104,7 +104,7 @@ const SiteMap = () => {
                   <Link to={"/cms"} onClick={handleClick}>
                     <p className="font-medium">CMS</p>
                   </Link>
-                  <Link to={"/wordpress"} onClick={handleClick}>
+                  {/* <Link to={"/wordpress"} onClick={handleClick}>
                     <p>--WordPress</p>
                   </Link>
                   <Link to={"/drupal"} onClick={handleClick}>
@@ -112,11 +112,14 @@ const SiteMap = () => {
                   </Link>
                   <Link to={"/joomla"} onClick={handleClick}>
                     <p>--Joomla</p>
-                  </Link>
+                  </Link> */}
                   <Link to={"/crm"} onClick={handleClick}>
                     <p className="font-medium">CRM</p>
                   </Link>
-                  <Link to={"/salesforce"} onClick={handleClick}>
+                  <Link to={"/custom-development"} onClick={handleClick}>
+                    <p className="font-medium">Custom Development</p>
+                  </Link>
+                  {/* <Link to={"/salesforce"} onClick={handleClick}>
                     <p>--Salesforce</p>
                   </Link>
                   <Link to={"/hubspot"} onClick={handleClick}>
@@ -139,7 +142,7 @@ const SiteMap = () => {
                   </Link>
                   <Link to={"/oracle-netsuite"} onClick={handleClick}>
                     <p>--Oracle NetSuite</p>
-                  </Link>
+                  </Link> */}
                   {/* BPM */}
                   <Link to={"/bpm"} onClick={handleClick}>
                     <p className="font-bold md:mt-2">BPM</p>
