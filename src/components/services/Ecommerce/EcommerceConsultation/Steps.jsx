@@ -28,10 +28,10 @@ const Steps = () => {
   let count = 1;
   return (
     <>
-      <div className="xl:px-10 py-18 p-4 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="xl:px-10 py-16 p-4 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="flex flex-col text-center w-full mb-10">
           <h2 className="title-font sm:text-4xl text-3xl mb-4 text-gray-900">
-            How It's Work
+            How It Work
           </h2>
         </div>
         <div className="flex md:flex-row flex-col">

@@ -4,7 +4,7 @@ const OverviewKeyBenifits = () => {
   return (
     <>
       <div className="bg-white">
-        <div className="xl:px-10 py-6 md:py-12 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="xl:px-10 py-6 md:py-16 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Overview of Services */}
           <section className="text-gray-600 body-font">
             <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
@@ -37,7 +37,7 @@ const OverviewKeyBenifits = () => {
           </section>
           {/* Key Section */}
           <section className="text-gray-600 body-font">
-            <div className="flex px-5 py-12 md:py-24 md:flex-row flex-col-reverse items-center">
+            <div className="flex px-5 py-12 md:pt-16 md:pb-0 md:flex-row flex-col-reverse items-center">
               <div className="w-full md:w-1/2 flex justify-center mt-3 md:mt-0 md:justify-start">
                 <img
                   className="object-cover object-center rounded w-full max-w-md"
@@ -62,10 +62,10 @@ const OverviewKeyBenifits = () => {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font mr-2 w-max">
+                  <span className="title-font mr-2 w-max md:text-center text-start">
                     Optimized performance:
                   </span>
-                  <span className="w-max">
+                  <span className="w-max md:text-center text-start">
                     Faster load times and improved conversion rates.
                   </span>
                 </div>
@@ -82,10 +82,10 @@ const OverviewKeyBenifits = () => {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font mr-2 w-auto">
+                  <span className="title-font mr-2 w-max md:text-center text-start">
                     Streamlined operations:
                   </span>
-                  <span className="w-max">
+                  <span className="w-max md:text-center text-start">
                     Better inventory, order management, and fulfillment
                     processes.
                   </span>
@@ -103,10 +103,10 @@ const OverviewKeyBenifits = () => {
                     <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                     <path d="M22 4L12 14.01l-3-3"></path>
                   </svg>
-                  <span className="title-font mr-2 w-auto">
+                  <span className="title-font mr-2 w-max md:text-center text-start">
                     Increased revenue:
                   </span>
-                  <span className="w-max">
+                  <span className="w-max md:text-center text-start">
                     Data-driven strategies to boost online sales.
                   </span>
                 </div>

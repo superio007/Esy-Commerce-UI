@@ -3,7 +3,7 @@ const WhyUs = () => {
   return (
     <>
       <div className="bg-white">
-        <div className="xl:px-10 py-12 p-4 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="xl:px-10 py-16 p-4 3xl:mx-auto 3xl:max-w-screen-xl">
           <section className="text-gray-600 body-font">
             <div className="flex flex-col text-center w-full mb-20">
               <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">

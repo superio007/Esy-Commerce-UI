@@ -30,7 +30,7 @@ const caseStudies = [
 const CaseStudiesSection = ({ bgColor }) => {
   return (
     <div style={{ backgroundColor: `${bgColor}` }}>
-      <div className="xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl py-12 px-4">
+      <div className="xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl py-12 md:py-16 px-4">
         <h2 className="text-2xl font-bold text-center mb-6">
           Related Case Studies
         </h2>
