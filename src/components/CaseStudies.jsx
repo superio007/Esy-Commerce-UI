@@ -27,16 +27,18 @@ const caseStudies = [
   },
 ];
 
-const CaseStudiesSection = () => {
+const CaseStudiesSection = ({ bgColor }) => {
   return (
-    <div className="xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl py-12 px-4">
-      <h2 className="text-2xl font-bold text-center mb-6">
-        Related Case Studies
-      </h2>
-      <div className="grid md:grid-cols-3 gap-6">
-        {caseStudies.map((study) => (
-          <CaseStudyCard key={study.id} study={study} />
-        ))}
+    <div style={{ backgroundColor: `${bgColor}` }}>
+      <div className="xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl py-12 px-4">
+        <h2 className="text-2xl font-bold text-center mb-6">
+          Related Case Studies
+        </h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          {caseStudies.map((study) => (
+            <CaseStudyCard key={study.id} study={study} />
+          ))}
+        </div>
       </div>
     </div>
   );

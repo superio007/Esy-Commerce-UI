@@ -1,0 +1,19 @@
+.overview :global(li) {
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+    color: #617796 !important
+}
+
+.keyBeniFitsItem {
+    width: auto;
+}
+@media screen and (max-width:370px) {
+    .keyBeniFitsItem {
+        width: auto;
+    }
+}
+@media screen and (max-width:769px) {
+    .keyBeniFitsItem {
+        width: 100%;
+    }
+}

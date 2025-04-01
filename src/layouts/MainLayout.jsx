@@ -10,7 +10,6 @@ import {
   useGoogleReCaptcha,
 } from "react-google-recaptcha-v3";
 
-
 const RecaptchaToken = () => {
   const { executeRecaptcha } = useGoogleReCaptcha();
   const [iscaptchaToken, setiscaptchaToken] = useState(
@@ -32,7 +31,6 @@ const RecaptchaToken = () => {
       console.error("reCAPTCHA Error:", error);
     }
   };
-
   // Auto-fetch reCAPTCHA token when the component loads
   useEffect(() => {
     if (!iscaptchaToken && executeRecaptcha) {
@@ -42,7 +40,6 @@ const RecaptchaToken = () => {
 
   return null; // No UI rendering
 };
-
 
 const MainLayout = () => {
   return (
