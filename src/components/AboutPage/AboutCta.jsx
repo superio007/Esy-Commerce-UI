@@ -10,7 +10,7 @@ const AboutCta = () => {
                 Journey Today
               </h2>
               <button>
-                <NavLink>
+                <NavLink to="/contact">
                   <span
                     href=""
                     className="bg-[#007fff] text-white py-4 px-12 rounded-2xl"
