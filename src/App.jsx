@@ -11,13 +11,13 @@ import ApplyNowPage from "./pages/ApplyNowPage.jsx";
 import About from "./pages/AboutUsPage.jsx";
 import Partner from "./pages/PartnerPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
-import DataSecurityPolicyPage from "./pages/DataSecurityPolicyPage.jsx";
-import EthicsPolicyPage from "./pages/EthicsPolicyPage.jsx";
-import CodeofConductPage from "./pages/CodeofConductPage.jsx";
-import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.jsx";
-import InformationSecurityPage from "./pages/InformationSecurityPage.jsx";
+import DataSecurityPolicyPage from "./pages/Policies/DataSecurityPolicyPage.jsx";
+import EthicsPolicyPage from "./pages/Policies/EthicsPolicyPage.jsx";
+import CodeofConductPage from "./pages/Policies/CodeofConductPage.jsx";
+import PrivacyPolicyPage from "./pages/Policies/PrivacyPolicyPage.jsx";
+import InformationSecurityPage from "./pages/Policies/InformationSecurityPage.jsx";
 import SiteMap from "./pages/SiteMap.jsx";
-import FAQ from "./pages/FaqPage.jsx";
+import FAQ from "./pages/Policies/FaqPage.jsx";
 import Blogs from "./pages/BlogPage.jsx";
 import SingleBlogs from "./pages/SingleBlogs.jsx";
 import Services from "./pages/Services.jsx";
@@ -32,6 +32,14 @@ import YoutubeContentMarketing from "./pages/Services/YoutubeContentMarketing.js
 import LinkedinContentMarketing from "./pages/Services/LinkedinContentMarketing.jsx";
 import IdentityBrandingCommunication from "./pages/Services/IdentityBrandingCommunication.jsx";
 import CustomWebsiteDevlopment from "./pages/Services/CustomWebsiteDevlopment.jsx";
+import CMS from "./pages/Services/CMS.jsx";
+import CRM from "./pages/Services/CRM.jsx";
+import CustomDevlopment from "./pages/Services/CustomDevelopment.jsx";
+import Transliteration from "./pages/Services/Transliteration.jsx";
+import ContentMigration from "./pages/Services/ContentMigration.jsx";
+import DataLabelingAnnotation from "./pages/Services/DataLabelingAnnotation.jsx";
+import Translation from "./pages/Services/Translation.jsx";
+import Transcription from "./pages/Services/Transcription.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -83,13 +91,30 @@ function App() {
           path="/ecommerce-website-development"
           element={<EcommerceWebsiteDevelopment />}
         />
-        <Route path="/youtube-content-marketing" element={<YoutubeContentMarketing />} />
-        <Route path="/custom-website-development" element={<CustomWebsiteDevlopment />} />
+        <Route
+          path="/youtube-content-marketing"
+          element={<YoutubeContentMarketing />}
+        />
+        <Route
+          path="/custom-website-development"
+          element={<CustomWebsiteDevlopment />}
+        />
         <Route
           path="/identity-branding-communication"
           element={<IdentityBrandingCommunication />}
         />
-        <Route path="/linkedin-content-marketing" element={<LinkedinContentMarketing />} />
+        <Route
+          path="/linkedin-content-marketing"
+          element={<LinkedinContentMarketing />}
+        />
+        <Route path="/cms" element={<CMS />} />
+        <Route path="/crm" element={<CRM />} />
+        <Route path="/custom-development" element={<CustomDevlopment />} />
+        <Route path="/content-migration" element={<ContentMigration />} />
+        <Route path="/transcription" element={<Transcription />} />
+        <Route path="/translation" element={<Translation />} />
+        <Route path="/transliteration" element={<Transliteration />} />
+        <Route path="/data-labeling-annotation" element={<DataLabelingAnnotation />} />
       </Route>
     )
   );
