@@ -1,3 +1,6 @@
 .ContentMigration :global(h1) {
     color: white !important;
 }
+.ContentMigration :global(p) {
+    color: white !important;
+}

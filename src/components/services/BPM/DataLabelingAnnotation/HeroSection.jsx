@@ -11,6 +11,12 @@ const HeroSection = () => {
             <h1 className="text-[45px] font-bold  text-white capitalize">
               Data Labeling & Annotation
             </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero
+              sint veritatis nam suscipit beatae modi provident accusamus,
+              consequatur expedita quod hic blanditiis autem aliquid? Aliquam,
+              dicta laboriosam! Ducimus, sed.
+            </p>
           </section>
           <section className="w-full md:w-1/2">
             <Enquery />

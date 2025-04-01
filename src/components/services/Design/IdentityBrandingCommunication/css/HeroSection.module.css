@@ -1,3 +1,6 @@
 .IdentityBrandingCommunication :global(h1) {
     color: white !important;
 }
+.IdentityBrandingCommunication :global(p) {
+    color: white !important;
+}
