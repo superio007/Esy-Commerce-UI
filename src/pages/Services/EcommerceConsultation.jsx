@@ -7,6 +7,7 @@ import WhyUs from "../../components/services/Ecommerce/EcommerceConsultation/why
 import BrandSlider from "../../components/HomePage/CustomerSlider";
 import CaseStudiesSection from "../../components/CaseStudies";
 import FAQ from "../../components/services/Ecommerce/EcommerceConsultation/FAQ";
+import FAQ2 from "../../components/services/Ecommerce/EcommerceConsultation/FAQ2";
 const EcommerceConsultation = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const EcommerceConsultation = () => {
       <BrandSlider />
       <CaseStudiesSection bgColor={"#ffffff"} />
       <FAQ />
+      <FAQ2 />
       <CTA />
     </>
   );

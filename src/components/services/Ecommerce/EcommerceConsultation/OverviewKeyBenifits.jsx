@@ -49,7 +49,9 @@ const OverviewKeyBenifits = () => {
                 <h2 className="title-font sm:text-2xl text-3xl mb-4 text-gray-900">
                   Key Benifits
                 </h2>
-                <div className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}>
+                <div
+                  className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}
+                >
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -69,7 +71,9 @@ const OverviewKeyBenifits = () => {
                     Faster load times and improved conversion rates.
                   </span>
                 </div>
-                <div className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}>
+                <div
+                  className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}
+                >
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -90,7 +94,75 @@ const OverviewKeyBenifits = () => {
                     processes.
                   </span>
                 </div>
-                <div className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}>
+                <div
+                  className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-[#007fff] w-6 h-6 flex-shrink-0 mr-4"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span className="title-font mr-2 w-max md:text-center text-start">
+                    Increased revenue:
+                  </span>
+                  <span className="w-max md:text-center text-start">
+                    Data-driven strategies to boost online sales.
+                  </span>
+                </div>
+                <div
+                  className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-[#007fff] w-6 h-6 flex-shrink-0 mr-4"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span className="title-font mr-2 w-max md:text-center text-start">
+                    Increased revenue:
+                  </span>
+                  <span className="w-max md:text-center text-start">
+                    Data-driven strategies to boost online sales.
+                  </span>
+                </div>
+                <div
+                  className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="3"
+                    className="text-[#007fff] w-6 h-6 flex-shrink-0 mr-4"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                    <path d="M22 4L12 14.01l-3-3"></path>
+                  </svg>
+                  <span className="title-font mr-2 w-max md:text-center text-start">
+                    Increased revenue:
+                  </span>
+                  <span className="w-max md:text-center text-start">
+                    Data-driven strategies to boost online sales.
+                  </span>
+                </div>
+                <div
+                  className={`${styles.keyBeniFitsItem} rounded flex p-4 h-full items-center`}
+                >
                   <svg
                     fill="none"
                     stroke="currentColor"
