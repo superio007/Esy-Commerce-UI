@@ -73,8 +73,8 @@ const FAQ = () => {
                 }`}
                 style={{
                   borderTop: "1px solid #e5e7eb",
-                  right: -26,
-                  width: 32,
+                  right: -27,
+                  width: 30,
                   top: -1,
                   padding: "37.6px 0px 38px 0",
                   backgroundColor: "white",
