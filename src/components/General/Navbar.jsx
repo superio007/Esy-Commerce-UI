@@ -639,25 +639,31 @@ const Navbar = () => {
                 <div className="bg-white p-4">
                   <ul>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/ecommerce-consultation"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Ecommerce Consultation (Performance)
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/ecommerce-enablement"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Ecommerce Enablement (Operations)
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/ecommerce-website-development"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Ecommerce Website Development (TechDev)
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -682,32 +688,40 @@ const Navbar = () => {
                 <div className="bg-white p-4">
                   <ul>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/youtube-content-marketing"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         YouTube Content Marketing
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/linkedin-content-marketing"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         LinkedIn Content Marketing
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/identity-branding-communication"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Identity, Branding & Communication
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"//custom-website-development"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Custom Website Development
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -731,89 +745,105 @@ const Navbar = () => {
               <li>
                 <div className="bg-white p-4">
                   <ul>
-                    <li className="mb-4">CMS</li>
-                    <div className="pl-4">
+                    <Link
+                      to={"/cms"}
+                      onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                      <li className="mb-4">CMS</li>
+                    </Link>
+                    {/* <div className="pl-4">
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           WordPress
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Drupal
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Joomla
-                        </NavLink>
+                        </Link>
                       </li>
-                    </div>
-                    <li className="mb-4">CRM</li>
-                    <div className="pl-4">
+                    </div> */}
+                    <Link
+                      to={"/crm"}
+                      onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                      <li className="mb-4">CRM</li>
+                    </Link>
+                    <Link
+                      to={"/custom-development"}
+                      onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                      <li className="mb-4">Custom Development</li>
+                    </Link>
+                    {/* <div className="pl-4">
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Salesforce
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           HubSpot
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Odoo
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Zoho
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           ERP
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           ERPNext
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Microsoft Dynamics
-                        </NavLink>
+                        </Link>
                       </li>
                       <li className="mb-6 ">
-                        <NavLink
+                        <Link
                           className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                         >
                           Oracle NetSuite
-                        </NavLink>
+                        </Link>
                       </li>
-                    </div>
+                    </div> */}
                   </ul>
                 </div>
               </li>
@@ -837,39 +867,49 @@ const Navbar = () => {
                 <div className="bg-white p-4">
                   <ul>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/content-migration"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Content Migration
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/translation"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Translation
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/transcription"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Transcription
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/transliteration"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Transliteration
-                      </NavLink>
+                      </Link>
                     </li>
                     <li className="mb-6 ">
-                      <NavLink
+                      <Link
+                        to={"/data-labeling-annotation"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Data Labeling & Annotation
-                      </NavLink>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -877,11 +917,13 @@ const Navbar = () => {
             )}
             <li className={styles.navHeadsMobile}>
               <NavLink
+                to={"/about"}
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(false);
                   setMIsDevMenu(false);
                   setMIsBpmMenu(false);
+                  setIsMenuOpen(!isMenuOpen);
                 }}
                 className="text-gray-900 hover:text-blue-700"
               >
@@ -900,11 +942,13 @@ const Navbar = () => {
               <ul className="flex justify-center items-center bg-[#1b8dff] text-white">
                 <li className={styles.navHeadsMobile}>
                   <NavLink
+                    to={"/contact"}
                     onClick={() => {
                       setMIsEcommMenu(false);
                       setMIsDesignMenu(false);
                       setMIsDevMenu(false);
                       setMIsBpmMenu(false);
+                      setIsMenuOpen(!isMenuOpen);
                     }}
                   >
                     Contact Us

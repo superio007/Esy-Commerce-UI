@@ -1,37 +1,19 @@
 import { useState, useEffect } from "react";
 import { FaCircle } from "react-icons/fa";
-import { IoIosArrowForward ,IoIosArrowDown} from "react-icons/io";
-const faqsList = [
-  {
-    q: "What are some random questions to ask?",
-    a: "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
-  },
-  {
-    q: "Do you include common questions?",
-    a: "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
-  },
-  {
-    q: "Can I use this for 21 questions?",
-    a: "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
-  },
-  {
-    q: "Are these questions for girls or for boys?",
-    a: "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
-  },
-  {
-    q: "What do you wish you had more talent doing?",
-    a: "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
-  },
-];
-
-const FAQ = () => {
+import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
+const FAQ = ({ apiRes }) => {
   const [openIndex, setOpenIndex] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(faqsList[0].a);
-
+  const [selectedAnswer, setSelectedAnswer] = useState("");
+  const [faqsList, setFaqsList] = useState([]);
   useEffect(() => {
-    setOpenIndex(0); // Open first FAQ by default
-  }, []);
-
+    setOpenIndex(0);
+    setFaqsList(
+      apiRes.faq_qnas.map((faq) => ({ q: faq.Question, a: faq.Answer }))
+    );
+    if (apiRes.faq_qnas.length > 0) {
+      setSelectedAnswer(apiRes.faq_qnas[0].Answer);
+    }
+  }, [apiRes]);
   const toggleFAQ = (index) => {
     setOpenIndex(index);
     setSelectedAnswer(faqsList[index].a);
@@ -41,11 +23,12 @@ const FAQ = () => {
     <section className="py-16 px-4 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
       <div className="space-y-3 text-center">
         <h2 className="text-3xl text-gray-800 font-semibold">
-          Frequently Asked Questions
+          {apiRes.Heading || "Frequently Asked Questions"}
         </h2>
         <p className="text-gray-600 max-w-lg mx-auto text-lg">
-          Answered all frequently asked questions. Still confused? Feel free to
-          contact us.
+          {apiRes.subHeading ||
+            `Answered all frequently asked questions. Still confused? Feel free to
+          contact us.`}
         </p>
       </div>
       <div className="hidden md:flex mt-14 flex-col md:flex-row gap-6">

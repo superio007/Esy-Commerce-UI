@@ -1,6 +1,6 @@
 import styles from "./css/HeroSection.module.css";
 import Enquery from "../General/Enquery";
-const HeroSection = () => {
+const HeroSection = ({ apiRes }) => {
   return (
     <>
       <div className="bg-[#007fff]">
@@ -9,13 +9,14 @@ const HeroSection = () => {
             className={`w-full mb-8 md:mb-0 md:w-1/2 ${styles.EcommerceConsultation}`}
           >
             <h1 className="md:text-[45px] text-2xl font-bold text-white text-center md:text-start capitalize">
-              Ecommerce Consultation
+              {apiRes.Heading || "Ecommerce Consultation"}
             </h1>
             <p className="text-md md:text-xl mt-4 md:mt-0 text-center md:text-start">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero
-              sint veritatis nam suscipit beatae modi provident accusamus,
-              consequatur expedita quod hic blanditiis autem aliquid? Aliquam,
-              dicta laboriosam! Ducimus, sed.
+              {apiRes.SubHeading ||
+                `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero
+                sint veritatis nam suscipit beatae modi provident accusamus,
+                consequatur expedita quod hic blanditiis autem aliquid? Aliquam,
+                dicta laboriosam! Ducimus, sed.`}
             </p>
           </section>
           <section className="w-full md:w-1/2">
@@ -27,4 +28,3 @@ const HeroSection = () => {
   );
 };
 export default HeroSection;
-

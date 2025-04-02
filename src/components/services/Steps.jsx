@@ -1,42 +1,16 @@
-const Steps = () => {
-  const Steps = [
-    {
-      heading: "Initial Audit",
-      subheading:
-        "We analyze your website speed, UX/UI, checkout flow, and performance metrics.",
-    },
-    {
-      heading: "Strategy Development",
-      subheading:
-        "We provide a detailed action plan to improve conversion rates and overall performance.",
-    },
-    {
-      heading: "Implementation & Testing",
-      subheading:
-        "We apply the necessary fixes and enhancements while testing their impact.",
-    },
-    {
-      heading: "Performance Optimization",
-      subheading: "We fine-tune strategies based on real-time data.",
-    },
-    {
-      heading: "Reporting & Recommendations",
-      subheading:
-        "We provide insights and ongoing strategies for continuous improvement.",
-    },
-  ];
+const Steps = ({ apiRes }) => {
   let count = 1;
   return (
     <>
       <div className="xl:px-10 py-16 p-4 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="flex flex-col text-center w-full mb-10">
           <h2 className="title-font sm:text-4xl text-3xl mb-4 text-gray-900">
-            How It Work
+            {apiRes.Heading || "How It Work"}
           </h2>
         </div>
         <div className="flex md:flex-row flex-col">
           <div className="w-full mb-4 md:mb-0 md:w-1/2">
-            {Steps.map((step, index) => (
+            {apiRes.steps.map((step, index) => (
               <div
                 key={index}
                 className="flex relative pb-8 sm:items-center md:w-2/3 mx-auto"
@@ -50,9 +24,9 @@ const Steps = () => {
                 <div className="flex-grow md:pl-8 pl-2 flex sm:items-center items-start flex-col sm:flex-row">
                   <div className="flex-grow sm:pl-2 mt-3 sm:mt-0">
                     <h3 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                      {step.heading}
+                      {step.Heading}
                     </h3>
-                    <p className="leading-relaxed">{step.subheading}</p>
+                    <p className="leading-relaxed">{step.subHeading}</p>
                   </div>
                 </div>
               </div>
@@ -61,8 +35,8 @@ const Steps = () => {
           <div className="w-full md:w-1/2">
             <img
               className="w-full h-full object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600"
+              alt={apiRes.sideimage.alternativeText || "hero"}
+              src={apiRes.sideimage.url || "https://dummyimage.com/720x600"}
             />
           </div>
         </div>
