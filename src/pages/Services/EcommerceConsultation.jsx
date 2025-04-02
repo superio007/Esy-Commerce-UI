@@ -1,12 +1,12 @@
 import styles from "../../css/EcommerceConsultation.module.css";
-import HeroSection from "../../components/services/Ecommerce/EcommerceConsultation/HeroSection";
-import CTA from "../../components/services/Ecommerce/EcommerceConsultation/CTA";
-import OverviewKeyBenifits from "../../components/services/Ecommerce/EcommerceConsultation/OverviewKeyBenifits";
-import Steps from "../../components/services/Ecommerce/EcommerceConsultation/Steps";
-import WhyUs from "../../components/services/Ecommerce/EcommerceConsultation/whyChooseUS";
+import HeroSection from "../../components/services/HeroSection";
+import CTA from "../../components/services/CTA";
+import OverviewKeyBenifits from "../../components/services/OverviewKeyBenifits";
+import Steps from "../../components/services/Steps";
+import WhyUs from "../../components/services/whyChooseUS";
 import BrandSlider from "../../components/HomePage/CustomerSlider";
 import CaseStudiesSection from "../../components/CaseStudies";
-import FAQ from "../../components/services/Ecommerce/EcommerceConsultation/FAQ";
+import FAQ from "../../components/services/FAQ";
 const EcommerceConsultation = () => {
   return (
     <>

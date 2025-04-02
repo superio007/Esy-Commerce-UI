@@ -1,10 +1,22 @@
 import styles from "../../css/CustomWebsiteDevlopment.module.css";
-import HeroSection from "../../components/services/Design/CustomWebsiteDevlopment/HeroSection";
-import CTA from "../../components/services/Design/CustomWebsiteDevlopment/CTA";
+import HeroSection from "../../components/services/HeroSection";
+import CTA from "../../components/services/CTA";
+import OverviewKeyBenifits from "../../components/services/OverviewKeyBenifits";
+import Steps from "../../components/services/Steps";
+import WhyUs from "../../components/services/whyChooseUS";
+import BrandSlider from "../../components/HomePage/CustomerSlider";
+import CaseStudiesSection from "../../components/CaseStudies";
+import FAQ from "../../components/services/FAQ";
 const CustomWebsiteDevlopment = () => {
   return (
     <>
       <HeroSection />
+      <OverviewKeyBenifits />
+      <Steps />
+      <WhyUs />
+      <BrandSlider />
+      <CaseStudiesSection bgColor={"#ffffff"} />
+      <FAQ />
       <CTA />
     </>
   );
