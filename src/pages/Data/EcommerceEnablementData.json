@@ -1,0 +1,449 @@
+{
+  "data": {
+    "id": 5,
+    "documentId": "c7a1s4lj3td5896xct8kt1au",
+    "createdAt": "2025-04-02T12:28:13.743Z",
+    "updatedAt": "2025-04-02T12:57:24.684Z",
+    "publishedAt": "2025-04-02T12:57:24.884Z",
+    "service_hero_section": {
+      "id": 4,
+      "documentId": "c2smdn0kjhy1nkhu4vu7kcvn",
+      "Heading": "Ecommerce Enablement",
+      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "createdAt": "2025-04-02T12:28:56.830Z",
+      "updatedAt": "2025-04-02T12:28:56.830Z",
+      "publishedAt": "2025-04-02T12:28:56.904Z"
+    },
+    "service_over_view": {
+      "id": 8,
+      "documentId": "zy1imrj9zw0bhxqsjtkzz6oo",
+      "Heading": "Overview of the Service",
+      "subHeading": "Our operational support ensures that your eCommerce business runs smoothly by optimizing inventory, logistics, and customer service.",
+      "createdAt": "2025-04-02T12:55:11.305Z",
+      "updatedAt": "2025-04-02T13:01:36.223Z",
+      "publishedAt": "2025-04-02T13:01:36.519Z",
+      "pointsHeading": "Key problems we solve",
+      "Name": "Enablement",
+      "overview_points": [
+        {
+          "id": 16,
+          "documentId": "teukr0d5n2vheb2zbrnok8am",
+          "Point": "High operational costs.",
+          "createdAt": "2025-04-02T12:56:56.084Z",
+          "updatedAt": "2025-04-02T12:56:56.084Z",
+          "publishedAt": "2025-04-02T12:56:56.180Z"
+        },
+        {
+          "id": 11,
+          "documentId": "feyuvai6povur07y799a88ft",
+          "Point": "Delays in order fulfillment.",
+          "createdAt": "2025-04-02T12:55:42.191Z",
+          "updatedAt": "2025-04-02T12:56:02.908Z",
+          "publishedAt": "2025-04-02T12:56:03.011Z"
+        },
+        {
+          "id": 14,
+          "documentId": "abtse8551zxfv84nbjek77po",
+          "Point": "Inefficient inventory and supply chain management.",
+          "createdAt": "2025-04-02T12:56:17.877Z",
+          "updatedAt": "2025-04-02T12:56:24.017Z",
+          "publishedAt": "2025-04-02T12:56:24.130Z"
+        }
+      ],
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T10:27:39.092Z",
+        "updatedAt": "2025-04-02T12:47:17.477Z",
+        "publishedAt": "2025-04-02T10:27:39.093Z"
+      }
+    },
+    "key_benift": {
+      "id": 11,
+      "documentId": "rxdhf5cmo4u90s6h10cp8c24",
+      "Heading": "Key Benifits",
+      "createdAt": "2025-04-02T12:30:54.118Z",
+      "updatedAt": "2025-04-02T12:53:21.202Z",
+      "publishedAt": "2025-04-02T12:53:21.399Z",
+      "Name": "EcommerceEnablement",
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T10:27:39.092Z",
+        "updatedAt": "2025-04-02T12:47:17.477Z",
+        "publishedAt": "2025-04-02T10:27:39.093Z"
+      },
+      "key_benifts_points": [
+        {
+          "id": 18,
+          "documentId": "c22jp0nl5jqhbal4mh1ni63v",
+          "Heading": "Customer Satisfaction",
+          "subHeading": "Faster shipping and smoother transactions.",
+          "createdAt": "2025-04-02T12:41:45.812Z",
+          "updatedAt": "2025-04-02T12:41:45.812Z",
+          "publishedAt": "2025-04-02T12:41:45.955Z"
+        },
+        {
+          "id": 22,
+          "documentId": "mktkepngxjr6dlgx7rkqqf2m",
+          "Heading": "Scalable Operations",
+          "subHeading": "Grow your business without operational bottlenecks.",
+          "createdAt": "2025-04-02T12:42:13.012Z",
+          "updatedAt": "2025-04-02T12:42:24.190Z",
+          "publishedAt": "2025-04-02T12:42:24.293Z"
+        },
+        {
+          "id": 25,
+          "documentId": "p0q6if4jtguaieg6iubqrvd6",
+          "Heading": "Automation & Efficiency",
+          "subHeading": "AI-powered solutions for better workflow.",
+          "createdAt": "2025-04-02T12:42:43.209Z",
+          "updatedAt": "2025-04-02T12:42:52.041Z",
+          "publishedAt": "2025-04-02T12:42:52.133Z"
+        },
+        {
+          "id": 33,
+          "documentId": "c4xhjxrbvhclicx3cndd17nk",
+          "Heading": "Inventory Optimization",
+          "subHeading": "Prevent stockouts and overstock issues.",
+          "createdAt": "2025-04-02T12:44:46.086Z",
+          "updatedAt": "2025-04-02T12:44:53.447Z",
+          "publishedAt": "2025-04-02T12:44:53.551Z"
+        },
+        {
+          "id": 36,
+          "documentId": "o1z2sdwdoijij4adi6ma22i2",
+          "Heading": "Streamlined Supply Chain",
+          "subHeading": "Efficient order processing and logistics management.",
+          "createdAt": "2025-04-02T12:45:16.819Z",
+          "updatedAt": "2025-04-02T12:45:22.611Z",
+          "publishedAt": "2025-04-02T12:45:22.679Z"
+        }
+      ]
+    },
+    "how_it_work": {
+      "id": 7,
+      "documentId": "fv16cakbhmnpt1qek48ari6u",
+      "Heading": "How It Work",
+      "createdAt": "2025-04-02T12:47:22.007Z",
+      "updatedAt": "2025-04-02T12:53:41.972Z",
+      "publishedAt": "2025-04-02T12:53:42.186Z",
+      "sideimage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T10:27:39.092Z",
+        "updatedAt": "2025-04-02T12:47:17.477Z",
+        "publishedAt": "2025-04-02T10:27:39.093Z"
+      },
+      "steps": [
+        {
+          "id": 29,
+          "documentId": "uhlmvrzuqedz4isc99lxbg7q",
+          "Heading": "Business Assessment",
+          "subHeading": "We evaluate your existing operations, supply chain, and fulfillment process.\n\n",
+          "createdAt": "2025-04-02T12:51:01.683Z",
+          "updatedAt": "2025-04-02T12:51:07.377Z",
+          "publishedAt": "2025-04-02T12:51:07.465Z"
+        },
+        {
+          "id": 22,
+          "documentId": "r6pfeqmsopx2bw07bx1pl0jv",
+          "Heading": "Workflow Optimization",
+          "subHeading": "We streamline processes to reduce inefficiencies and improve order management.",
+          "createdAt": "2025-04-02T12:50:01.032Z",
+          "updatedAt": "2025-04-02T12:50:06.775Z",
+          "publishedAt": "2025-04-02T12:50:06.894Z"
+        },
+        {
+          "id": 19,
+          "documentId": "dv8xosdhi9irq3sab311gmcj",
+          "Heading": "Tech & Automation Setup",
+          "subHeading": "We integrate automation tools to enhance efficiency.",
+          "createdAt": "2025-04-02T12:49:32.619Z",
+          "updatedAt": "2025-04-02T12:49:43.726Z",
+          "publishedAt": "2025-04-02T12:49:43.876Z"
+        },
+        {
+          "id": 15,
+          "documentId": "yo52ymcb4wmsif0kaq35hjnw",
+          "Heading": "Performance Tracking",
+          "subHeading": "We monitor KPIs to ensure improved operational performance.\n\n",
+          "createdAt": "2025-04-02T12:49:08.471Z",
+          "updatedAt": "2025-04-02T12:49:16.110Z",
+          "publishedAt": "2025-04-02T12:49:16.259Z"
+        },
+        {
+          "id": 12,
+          "documentId": "g7lx7bejwaa5hentfwwdoi25",
+          "Heading": "Continuous Optimization",
+          "subHeading": "We provide ongoing support to scale and adapt operations.",
+          "createdAt": "2025-04-02T12:48:38.872Z",
+          "updatedAt": "2025-04-02T12:48:38.872Z",
+          "publishedAt": "2025-04-02T12:48:38.973Z"
+        }
+      ]
+    },
+    "why_us": {
+      "id": 2,
+      "documentId": "hfolj82j7cdr7k5rckomyuso",
+      "Heading": "Why Choose Us?",
+      "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+      "createdAt": "2025-04-02T10:22:44.737Z",
+      "updatedAt": "2025-04-02T10:22:44.737Z",
+      "publishedAt": "2025-04-02T10:22:44.811Z",
+      "why_us_points": [
+        {
+          "id": 2,
+          "documentId": "ho43113tzhve2oy50huwsipw",
+          "Heading": "7+ Years of Expertise",
+          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "createdAt": "2025-04-02T10:23:07.346Z",
+          "updatedAt": "2025-04-02T10:23:07.346Z",
+          "publishedAt": "2025-04-02T10:23:07.439Z"
+        },
+        {
+          "id": 6,
+          "documentId": "qjaneznxknxyubfnbqemf2zq",
+          "Heading": "Global Clientele",
+          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "createdAt": "2025-04-02T10:23:40.153Z",
+          "updatedAt": "2025-04-02T10:23:40.153Z",
+          "publishedAt": "2025-04-02T10:23:40.436Z"
+        },
+        {
+          "id": 9,
+          "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
+          "Heading": "End-to-End Services",
+          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "createdAt": "2025-04-02T10:23:57.816Z",
+          "updatedAt": "2025-04-02T10:24:14.349Z",
+          "publishedAt": "2025-04-02T10:24:14.416Z"
+        },
+        {
+          "id": 11,
+          "documentId": "ruzivl9hm0kb2audxcklgou2",
+          "Heading": "Tailored Strategies",
+          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "createdAt": "2025-04-02T10:23:23.816Z",
+          "updatedAt": "2025-04-02T10:24:34.762Z",
+          "publishedAt": "2025-04-02T10:24:34.894Z"
+        }
+      ]
+    },
+    "faq": {
+      "id": 2,
+      "documentId": "o6q55bnm3js6t4q8p6begehl",
+      "Heading": "Frequently Asked Questions",
+      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
+      "createdAt": "2025-04-02T10:22:21.248Z",
+      "updatedAt": "2025-04-02T10:22:21.248Z",
+      "publishedAt": "2025-04-02T10:22:21.414Z",
+      "faq_qnas": [
+        {
+          "id": 2,
+          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
+          "Question": "What are some random questions to ask?",
+          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+          "createdAt": "2025-04-02T10:20:28.626Z",
+          "updatedAt": "2025-04-02T10:20:28.626Z",
+          "publishedAt": "2025-04-02T10:20:28.859Z"
+        },
+        {
+          "id": 4,
+          "documentId": "fmd3wmwe0vbnibv069m1p8la",
+          "Question": "Do you include common questions?",
+          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+          "createdAt": "2025-04-02T10:20:44.139Z",
+          "updatedAt": "2025-04-02T10:20:44.139Z",
+          "publishedAt": "2025-04-02T10:20:44.189Z"
+        },
+        {
+          "id": 6,
+          "documentId": "tmt7zj71xgvfk5f3sost9etn",
+          "Question": "Can I use this for 21 questions?",
+          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+          "createdAt": "2025-04-02T10:21:04.273Z",
+          "updatedAt": "2025-04-02T10:21:04.273Z",
+          "publishedAt": "2025-04-02T10:21:04.354Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
+          "Question": "Are these questions for girls or for boys?",
+          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
+          "createdAt": "2025-04-02T10:21:21.815Z",
+          "updatedAt": "2025-04-02T10:21:21.815Z",
+          "publishedAt": "2025-04-02T10:21:21.868Z"
+        },
+        {
+          "id": 10,
+          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
+          "Question": "What do you wish you had more talent doing?",
+          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+          "createdAt": "2025-04-02T10:21:36.163Z",
+          "updatedAt": "2025-04-02T10:21:36.163Z",
+          "publishedAt": "2025-04-02T10:21:36.224Z"
+        }
+      ]
+    },
+    "cta": {
+      "id": 2,
+      "documentId": "qnllhsu06im3yhnc8gak65r9",
+      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "createdAt": "2025-04-02T10:20:02.028Z",
+      "updatedAt": "2025-04-02T10:20:02.028Z",
+      "publishedAt": "2025-04-02T10:20:02.114Z"
+    }
+  },
+  "meta": {}
+}
