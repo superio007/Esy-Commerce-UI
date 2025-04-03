@@ -1,0 +1,458 @@
+{
+  "data": {
+    "id": 4,
+    "documentId": "acemhx5z181kf4onugp539ri",
+    "createdAt": "2025-04-03T09:58:02.253Z",
+    "updatedAt": "2025-04-03T13:15:48.349Z",
+    "publishedAt": "2025-04-03T13:15:48.408Z",
+    "service_hero_section": {
+      "id": 29,
+      "documentId": "pv9rvdhjq4jzqpazalfk1ycn",
+      "Heading": "CRM",
+      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "createdAt": "2025-04-03T09:38:38.760Z",
+      "updatedAt": "2025-04-03T09:38:38.760Z",
+      "publishedAt": "2025-04-03T09:38:38.797Z"
+    },
+    "service_over_view": {
+      "id": 55,
+      "documentId": "dq9xzxstev7y2lp3ytneuh5q",
+      "Heading": "Overview of the Service",
+      "subHeading": "Our CRM solutions help businesses centralize customer interactions, automate workflows, and improve sales and customer service efficiency.",
+      "createdAt": "2025-04-03T12:55:26.492Z",
+      "updatedAt": "2025-04-03T13:18:49.297Z",
+      "publishedAt": "2025-04-03T13:18:49.355Z",
+      "pointsHeading": "Key problems we solve",
+      "Name": "CRM",
+      "overview_points": [
+        {
+          "id": 43,
+          "documentId": "b08egn6gms47jxqfnvkvde69",
+          "Point": "Disorganized customer data leading to inefficiencies.",
+          "createdAt": "2025-04-03T13:02:47.865Z",
+          "updatedAt": "2025-04-03T13:02:47.865Z",
+          "publishedAt": "2025-04-03T13:02:47.900Z"
+        },
+        {
+          "id": 47,
+          "documentId": "tknzo9t2fosq7a7gfa82w774",
+          "Point": "Lack of automation in customer engagement and follow-ups.",
+          "createdAt": "2025-04-03T13:02:56.296Z",
+          "updatedAt": "2025-04-03T13:03:16.855Z",
+          "publishedAt": "2025-04-03T13:03:16.891Z"
+        },
+        {
+          "id": 50,
+          "documentId": "n26fmc7b2t873qw6j6qdjg4w",
+          "Point": "Poor customer retention due to ineffective relationship management.",
+          "createdAt": "2025-04-03T13:03:21.175Z",
+          "updatedAt": "2025-04-03T13:03:30.136Z",
+          "publishedAt": "2025-04-03T13:03:30.198Z"
+        }
+      ],
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      }
+    },
+    "key_benift": {
+      "id": 43,
+      "documentId": "dbj9rrvhgj99oj14co8yh8om",
+      "Heading": "Key Benifits",
+      "createdAt": "2025-04-03T09:44:00.618Z",
+      "updatedAt": "2025-04-03T10:16:58.010Z",
+      "publishedAt": "2025-04-03T10:16:58.104Z",
+      "Name": "CRM",
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "key_benifts_points": [
+        {
+          "id": 95,
+          "documentId": "ne66lj50xww39shyhlfryd02",
+          "Heading": "Improved Sales & Retention",
+          "subHeading": "Strengthen relationships and boost conversions.",
+          "createdAt": "2025-04-03T10:14:14.565Z",
+          "updatedAt": "2025-04-03T10:14:14.565Z",
+          "publishedAt": "2025-04-03T10:14:14.607Z"
+        },
+        {
+          "id": 98,
+          "documentId": "kscykhc5t6jxpfk3ze4r3z84",
+          "Heading": "Personalized Customer Experience",
+          "subHeading": "Tailor interactions based on customer preferences.",
+          "createdAt": "2025-04-03T10:14:28.328Z",
+          "updatedAt": "2025-04-03T10:14:45.799Z",
+          "publishedAt": "2025-04-03T10:14:45.847Z"
+        },
+        {
+          "id": 101,
+          "documentId": "lvamlf1zxfpbakmpc0sxrfpt",
+          "Heading": "Seamless Integrations",
+          "subHeading": "Connect with emails, marketing tools, and third-party apps.",
+          "createdAt": "2025-04-03T10:15:00.773Z",
+          "updatedAt": "2025-04-03T10:15:06.103Z",
+          "publishedAt": "2025-04-03T10:15:06.148Z"
+        },
+        {
+          "id": 105,
+          "documentId": "gz73o8oz5ho66q85cobmivrf",
+          "Heading": "Enhanced Customer Insights",
+          "subHeading": "Track interactions, sales, and behavior patterns.",
+          "createdAt": "2025-04-03T10:15:18.075Z",
+          "updatedAt": "2025-04-03T10:15:29.824Z",
+          "publishedAt": "2025-04-03T10:15:29.858Z"
+        },
+        {
+          "id": 111,
+          "documentId": "oa0y4azxhx9aidbkfvocvqr0",
+          "Heading": "Automated Workflows",
+          "subHeading": "Reduce manual effort with automated follow-ups and reminders.",
+          "createdAt": "2025-04-03T10:16:10.338Z",
+          "updatedAt": "2025-04-03T10:16:19.380Z",
+          "publishedAt": "2025-04-03T10:16:19.428Z"
+        },
+        {
+          "id": 114,
+          "documentId": "w9dmkfxom2l3v5ia07qhngqz",
+          "Heading": "Centralized Customer Data",
+          "subHeading": "Store and manage client information in one place.",
+          "createdAt": "2025-04-03T10:16:29.852Z",
+          "updatedAt": "2025-04-03T10:16:35.734Z",
+          "publishedAt": "2025-04-03T10:16:35.777Z"
+        }
+      ]
+    },
+    "how_it_work": {
+      "id": 56,
+      "documentId": "qpmtu37lqew8mgpzmc84mv1m",
+      "Heading": "How It Work",
+      "createdAt": "2025-04-03T11:02:47.074Z",
+      "updatedAt": "2025-04-03T12:26:41.677Z",
+      "publishedAt": "2025-04-03T12:26:41.748Z",
+      "sideimage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "steps": [
+        {
+          "id": 91,
+          "documentId": "tlygs23z173gxwg7daqyjcik",
+          "Heading": "Business Needs Assessment",
+          "subHeading": "Define objectives and choose a CRM platform.",
+          "createdAt": "2025-04-03T12:07:14.741Z",
+          "updatedAt": "2025-04-03T12:07:21.685Z",
+          "publishedAt": "2025-04-03T12:07:21.722Z"
+        },
+        {
+          "id": 88,
+          "documentId": "lhzu5efuj75idvfoisecwbsp",
+          "Heading": "Customization & Setup",
+          "subHeading": "Configure workflows, automation, and dashboards.",
+          "createdAt": "2025-04-03T12:06:57.439Z",
+          "updatedAt": "2025-04-03T12:07:03.973Z",
+          "publishedAt": "2025-04-03T12:07:04.017Z"
+        },
+        {
+          "id": 85,
+          "documentId": "n1rgmec7dqg35hi34fbzfplk",
+          "Heading": "Data Migration & Integration",
+          "subHeading": "Transfer customer data and connect third-party tools.",
+          "createdAt": "2025-04-03T12:06:34.417Z",
+          "updatedAt": "2025-04-03T12:06:40.643Z",
+          "publishedAt": "2025-04-03T12:06:40.678Z"
+        },
+        {
+          "id": 64,
+          "documentId": "cp568t85f377ywy2ynuued2y",
+          "Heading": "SEO & Performance Checks",
+          "subHeading": "Preserve rankings and optimize load speed.",
+          "createdAt": "2025-04-03T12:02:34.241Z",
+          "updatedAt": "2025-04-03T12:02:40.127Z",
+          "publishedAt": "2025-04-03T12:02:40.169Z"
+        },
+        {
+          "id": 82,
+          "documentId": "ba4r316pby0iemkrrdjvkjhi",
+          "Heading": "Testing & Training",
+          "subHeading": "Ensure system performance and onboard teams.",
+          "createdAt": "2025-04-03T12:06:09.398Z",
+          "updatedAt": "2025-04-03T12:06:15.308Z",
+          "publishedAt": "2025-04-03T12:06:15.387Z"
+        }
+      ]
+    },
+    "why_us": {
+      "id": 2,
+      "documentId": "hfolj82j7cdr7k5rckomyuso",
+      "Heading": "Why Choose Us?",
+      "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+      "createdAt": "2025-04-02T15:52:44.737Z",
+      "updatedAt": "2025-04-02T15:52:44.737Z",
+      "publishedAt": "2025-04-02T15:52:44.811Z",
+      "why_us_points": [
+        {
+          "id": 2,
+          "documentId": "ho43113tzhve2oy50huwsipw",
+          "Heading": "7+ Years of Expertise",
+          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "createdAt": "2025-04-02T15:53:07.346Z",
+          "updatedAt": "2025-04-02T15:53:07.346Z",
+          "publishedAt": "2025-04-02T15:53:07.439Z"
+        },
+        {
+          "id": 6,
+          "documentId": "qjaneznxknxyubfnbqemf2zq",
+          "Heading": "Global Clientele",
+          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "createdAt": "2025-04-02T15:53:40.153Z",
+          "updatedAt": "2025-04-02T15:53:40.153Z",
+          "publishedAt": "2025-04-02T15:53:40.436Z"
+        },
+        {
+          "id": 9,
+          "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
+          "Heading": "End-to-End Services",
+          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "createdAt": "2025-04-02T15:53:57.816Z",
+          "updatedAt": "2025-04-02T15:54:14.349Z",
+          "publishedAt": "2025-04-02T15:54:14.416Z"
+        },
+        {
+          "id": 11,
+          "documentId": "ruzivl9hm0kb2audxcklgou2",
+          "Heading": "Tailored Strategies",
+          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "createdAt": "2025-04-02T15:53:23.816Z",
+          "updatedAt": "2025-04-02T15:54:34.762Z",
+          "publishedAt": "2025-04-02T15:54:34.894Z"
+        }
+      ]
+    },
+    "faq": {
+      "id": 2,
+      "documentId": "o6q55bnm3js6t4q8p6begehl",
+      "Heading": "Frequently Asked Questions",
+      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
+      "createdAt": "2025-04-02T15:52:21.248Z",
+      "updatedAt": "2025-04-02T15:52:21.248Z",
+      "publishedAt": "2025-04-02T15:52:21.414Z",
+      "faq_qnas": [
+        {
+          "id": 2,
+          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
+          "Question": "What are some random questions to ask?",
+          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+          "createdAt": "2025-04-02T15:50:28.626Z",
+          "updatedAt": "2025-04-02T15:50:28.626Z",
+          "publishedAt": "2025-04-02T15:50:28.859Z"
+        },
+        {
+          "id": 4,
+          "documentId": "fmd3wmwe0vbnibv069m1p8la",
+          "Question": "Do you include common questions?",
+          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+          "createdAt": "2025-04-02T15:50:44.139Z",
+          "updatedAt": "2025-04-02T15:50:44.139Z",
+          "publishedAt": "2025-04-02T15:50:44.189Z"
+        },
+        {
+          "id": 6,
+          "documentId": "tmt7zj71xgvfk5f3sost9etn",
+          "Question": "Can I use this for 21 questions?",
+          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+          "createdAt": "2025-04-02T15:51:04.273Z",
+          "updatedAt": "2025-04-02T15:51:04.273Z",
+          "publishedAt": "2025-04-02T15:51:04.354Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
+          "Question": "Are these questions for girls or for boys?",
+          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
+          "createdAt": "2025-04-02T15:51:21.815Z",
+          "updatedAt": "2025-04-02T15:51:21.815Z",
+          "publishedAt": "2025-04-02T15:51:21.868Z"
+        },
+        {
+          "id": 10,
+          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
+          "Question": "What do you wish you had more talent doing?",
+          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+          "createdAt": "2025-04-02T15:51:36.163Z",
+          "updatedAt": "2025-04-02T15:51:36.163Z",
+          "publishedAt": "2025-04-02T15:51:36.224Z"
+        }
+      ]
+    },
+    "cta": {
+      "id": 2,
+      "documentId": "qnllhsu06im3yhnc8gak65r9",
+      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "createdAt": "2025-04-02T15:50:02.028Z",
+      "updatedAt": "2025-04-02T15:50:02.028Z",
+      "publishedAt": "2025-04-02T15:50:02.114Z"
+    }
+  },
+  "meta": {}
+}

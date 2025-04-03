@@ -1,0 +1,458 @@
+{
+  "data": {
+    "id": 4,
+    "documentId": "hptj72blz30timoeyr4gv0vm",
+    "createdAt": "2025-04-03T10:01:27.082Z",
+    "updatedAt": "2025-04-03T13:18:07.022Z",
+    "publishedAt": "2025-04-03T13:18:07.083Z",
+    "service_hero_section": {
+      "id": 17,
+      "documentId": "a3sbqb0ejho2mf45h1u8gpam",
+      "Heading": "Youtube Content Marketing",
+      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "createdAt": "2025-04-03T09:35:43.308Z",
+      "updatedAt": "2025-04-03T09:37:05.660Z",
+      "publishedAt": "2025-04-03T09:37:05.723Z"
+    },
+    "service_over_view": {
+      "id": 64,
+      "documentId": "b4284le9n7bt6thja5cw1rcm",
+      "Heading": "Overview of the Service",
+      "subHeading": "We help brands create and optimize YouTube content to drive engagement, increase subscribers, and generate leads.",
+      "createdAt": "2025-04-03T12:51:24.301Z",
+      "updatedAt": "2025-04-03T13:20:12.348Z",
+      "publishedAt": "2025-04-03T13:20:12.423Z",
+      "pointsHeading": "Key problems we solve",
+      "Name": "YoutubeContentMarketing",
+      "overview_points": [
+        {
+          "id": 122,
+          "documentId": "d84w5hnyfpgud8vse397g05l",
+          "Point": "Low video views and engagement.",
+          "createdAt": "2025-04-03T13:13:19.016Z",
+          "updatedAt": "2025-04-03T13:13:29.423Z",
+          "publishedAt": "2025-04-03T13:13:29.465Z"
+        },
+        {
+          "id": 125,
+          "documentId": "jmcedqjwsuu60231i03fwjtd",
+          "Point": "Ineffective content strategy and poor audience targeting.",
+          "createdAt": "2025-04-03T13:13:37.309Z",
+          "updatedAt": "2025-04-03T13:13:41.980Z",
+          "publishedAt": "2025-04-03T13:13:42.033Z"
+        },
+        {
+          "id": 128,
+          "documentId": "yntpu8hnhcf9r83w2eb5kt3l",
+          "Point": "Lack of consistency in posting schedules.",
+          "createdAt": "2025-04-03T13:13:49.831Z",
+          "updatedAt": "2025-04-03T13:13:59.129Z",
+          "publishedAt": "2025-04-03T13:13:59.168Z"
+        }
+      ],
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      }
+    },
+    "key_benift": {
+      "id": 41,
+      "documentId": "na7um1gaf88s4dklflq16bgw",
+      "Heading": "Key Benifits",
+      "createdAt": "2025-04-03T09:41:21.934Z",
+      "updatedAt": "2025-04-03T10:05:58.523Z",
+      "publishedAt": "2025-04-03T10:05:58.598Z",
+      "Name": "KeyBenifitsYoutube",
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "key_benifts_points": [
+        {
+          "id": 56,
+          "documentId": "cj0ozu1bnykc78nj4z1xubqs",
+          "Heading": "Higher Engagement Rates",
+          "subHeading": "Optimized videos that attract viewers.",
+          "createdAt": "2025-04-03T10:03:06.899Z",
+          "updatedAt": "2025-04-03T10:03:06.899Z",
+          "publishedAt": "2025-04-03T10:03:06.937Z"
+        },
+        {
+          "id": 59,
+          "documentId": "bl8o84s3tnb3xo85wos7hiaj",
+          "Heading": "Targeted Audience Reach",
+          "subHeading": "Data-driven insights for audience growth.",
+          "createdAt": "2025-04-03T10:03:52.857Z",
+          "updatedAt": "2025-04-03T10:03:58.918Z",
+          "publishedAt": "2025-04-03T10:03:58.962Z"
+        },
+        {
+          "id": 63,
+          "documentId": "wogosuhkcvo8k28aw9jbbcsh",
+          "Heading": "Monetization Opportunities",
+          "subHeading": "Strategies to generate revenue from videos.",
+          "createdAt": "2025-04-03T10:04:08.437Z",
+          "updatedAt": "2025-04-03T10:04:19.165Z",
+          "publishedAt": "2025-04-03T10:04:19.198Z"
+        },
+        {
+          "id": 67,
+          "documentId": "l88k7hexsidipyjucu3rwj8o",
+          "Heading": "Content Consistency",
+          "subHeading": "A structured posting schedule for audience retention.",
+          "createdAt": "2025-04-03T10:04:38.227Z",
+          "updatedAt": "2025-04-03T10:04:48.782Z",
+          "publishedAt": "2025-04-03T10:04:48.815Z"
+        },
+        {
+          "id": 71,
+          "documentId": "vdxpfmyjuirau5mdzxnjl20w",
+          "Heading": "SEO for YouTube",
+          "subHeading": "Better rankings with keyword-optimized content.",
+          "createdAt": "2025-04-03T10:05:06.012Z",
+          "updatedAt": "2025-04-03T10:05:14.061Z",
+          "publishedAt": "2025-04-03T10:05:14.099Z"
+        },
+        {
+          "id": 75,
+          "documentId": "tn2jr680f40173ytfvvhlcsi",
+          "Heading": "Improved Brand Visibility",
+          "subHeading": "Grow your online presence with video content.",
+          "createdAt": "2025-04-03T10:05:29.618Z",
+          "updatedAt": "2025-04-03T10:05:38.395Z",
+          "publishedAt": "2025-04-03T10:05:38.449Z"
+        }
+      ]
+    },
+    "how_it_work": {
+      "id": 70,
+      "documentId": "vfgcrll6o06bfgu584luhwee",
+      "Heading": "How It Work",
+      "createdAt": "2025-04-03T11:00:15.184Z",
+      "updatedAt": "2025-04-03T12:48:18.766Z",
+      "publishedAt": "2025-04-03T12:48:18.834Z",
+      "sideimage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "steps": [
+        {
+          "id": 214,
+          "documentId": "qriwuiw1xkejrp9imkd6bfsa",
+          "Heading": "Performance Analysis & Scaling",
+          "subHeading": "We track metrics and refine strategies to improve results.",
+          "createdAt": "2025-04-03T12:47:02.649Z",
+          "updatedAt": "2025-04-03T12:47:02.649Z",
+          "publishedAt": "2025-04-03T12:47:02.685Z"
+        },
+        {
+          "id": 217,
+          "documentId": "vayz2ojbo3756uw2zgunor6q",
+          "Heading": "Publishing & Promotion",
+          "subHeading": "We schedule and distribute content for maximum impact.",
+          "createdAt": "2025-04-03T12:47:09.718Z",
+          "updatedAt": "2025-04-03T12:47:15.633Z",
+          "publishedAt": "2025-04-03T12:47:15.672Z"
+        },
+        {
+          "id": 220,
+          "documentId": "jn84rmmt273q6mz6mo3ya93u",
+          "Heading": "SEO & Optimization",
+          "subHeading": "We optimize titles, descriptions, and tags for better reach.",
+          "createdAt": "2025-04-03T12:47:23.705Z",
+          "updatedAt": "2025-04-03T12:47:30.770Z",
+          "publishedAt": "2025-04-03T12:47:30.815Z"
+        },
+        {
+          "id": 223,
+          "documentId": "f1twourn7bmuiqs2fol32vts",
+          "Heading": "Content Creation & Editing",
+          "subHeading": "We produce engaging videos optimized for YouTube.",
+          "createdAt": "2025-04-03T12:47:42.687Z",
+          "updatedAt": "2025-04-03T12:47:47.713Z",
+          "publishedAt": "2025-04-03T12:47:47.748Z"
+        },
+        {
+          "id": 226,
+          "documentId": "ra64sp8b0v0b3uq09qedxfti",
+          "Heading": "Content Strategy Planning",
+          "subHeading": "We analyze your niche and create a content roadmap.",
+          "createdAt": "2025-04-03T12:47:57.718Z",
+          "updatedAt": "2025-04-03T12:48:03.969Z",
+          "publishedAt": "2025-04-03T12:48:04.014Z"
+        }
+      ]
+    },
+    "why_us": {
+      "id": 2,
+      "documentId": "hfolj82j7cdr7k5rckomyuso",
+      "Heading": "Why Choose Us?",
+      "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+      "createdAt": "2025-04-02T15:52:44.737Z",
+      "updatedAt": "2025-04-02T15:52:44.737Z",
+      "publishedAt": "2025-04-02T15:52:44.811Z",
+      "why_us_points": [
+        {
+          "id": 2,
+          "documentId": "ho43113tzhve2oy50huwsipw",
+          "Heading": "7+ Years of Expertise",
+          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "createdAt": "2025-04-02T15:53:07.346Z",
+          "updatedAt": "2025-04-02T15:53:07.346Z",
+          "publishedAt": "2025-04-02T15:53:07.439Z"
+        },
+        {
+          "id": 6,
+          "documentId": "qjaneznxknxyubfnbqemf2zq",
+          "Heading": "Global Clientele",
+          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "createdAt": "2025-04-02T15:53:40.153Z",
+          "updatedAt": "2025-04-02T15:53:40.153Z",
+          "publishedAt": "2025-04-02T15:53:40.436Z"
+        },
+        {
+          "id": 9,
+          "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
+          "Heading": "End-to-End Services",
+          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "createdAt": "2025-04-02T15:53:57.816Z",
+          "updatedAt": "2025-04-02T15:54:14.349Z",
+          "publishedAt": "2025-04-02T15:54:14.416Z"
+        },
+        {
+          "id": 11,
+          "documentId": "ruzivl9hm0kb2audxcklgou2",
+          "Heading": "Tailored Strategies",
+          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "createdAt": "2025-04-02T15:53:23.816Z",
+          "updatedAt": "2025-04-02T15:54:34.762Z",
+          "publishedAt": "2025-04-02T15:54:34.894Z"
+        }
+      ]
+    },
+    "faq": {
+      "id": 2,
+      "documentId": "o6q55bnm3js6t4q8p6begehl",
+      "Heading": "Frequently Asked Questions",
+      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
+      "createdAt": "2025-04-02T15:52:21.248Z",
+      "updatedAt": "2025-04-02T15:52:21.248Z",
+      "publishedAt": "2025-04-02T15:52:21.414Z",
+      "faq_qnas": [
+        {
+          "id": 2,
+          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
+          "Question": "What are some random questions to ask?",
+          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+          "createdAt": "2025-04-02T15:50:28.626Z",
+          "updatedAt": "2025-04-02T15:50:28.626Z",
+          "publishedAt": "2025-04-02T15:50:28.859Z"
+        },
+        {
+          "id": 4,
+          "documentId": "fmd3wmwe0vbnibv069m1p8la",
+          "Question": "Do you include common questions?",
+          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+          "createdAt": "2025-04-02T15:50:44.139Z",
+          "updatedAt": "2025-04-02T15:50:44.139Z",
+          "publishedAt": "2025-04-02T15:50:44.189Z"
+        },
+        {
+          "id": 6,
+          "documentId": "tmt7zj71xgvfk5f3sost9etn",
+          "Question": "Can I use this for 21 questions?",
+          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+          "createdAt": "2025-04-02T15:51:04.273Z",
+          "updatedAt": "2025-04-02T15:51:04.273Z",
+          "publishedAt": "2025-04-02T15:51:04.354Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
+          "Question": "Are these questions for girls or for boys?",
+          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
+          "createdAt": "2025-04-02T15:51:21.815Z",
+          "updatedAt": "2025-04-02T15:51:21.815Z",
+          "publishedAt": "2025-04-02T15:51:21.868Z"
+        },
+        {
+          "id": 10,
+          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
+          "Question": "What do you wish you had more talent doing?",
+          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+          "createdAt": "2025-04-02T15:51:36.163Z",
+          "updatedAt": "2025-04-02T15:51:36.163Z",
+          "publishedAt": "2025-04-02T15:51:36.224Z"
+        }
+      ]
+    },
+    "cta": {
+      "id": 2,
+      "documentId": "qnllhsu06im3yhnc8gak65r9",
+      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "createdAt": "2025-04-02T15:50:02.028Z",
+      "updatedAt": "2025-04-02T15:50:02.028Z",
+      "publishedAt": "2025-04-02T15:50:02.114Z"
+    }
+  },
+  "meta": {}
+}

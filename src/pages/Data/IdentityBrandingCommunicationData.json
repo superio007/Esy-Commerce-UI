@@ -1,0 +1,458 @@
+{
+  "data": {
+    "id": 4,
+    "documentId": "ky8ur1plgab7k2zzkkgm51z8",
+    "createdAt": "2025-04-03T09:59:26.301Z",
+    "updatedAt": "2025-04-03T13:16:48.997Z",
+    "publishedAt": "2025-04-03T13:16:49.051Z",
+    "service_hero_section": {
+      "id": 21,
+      "documentId": "s6ssvn2pziakdrtjuenof34w",
+      "Heading": "Identity Branding & Communication",
+      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "createdAt": "2025-04-03T09:37:50.329Z",
+      "updatedAt": "2025-04-03T09:37:50.329Z",
+      "publishedAt": "2025-04-03T09:37:50.367Z"
+    },
+    "service_over_view": {
+      "id": 59,
+      "documentId": "ngnqjt3gadoxahhtf14g75ei",
+      "Heading": "Overview of the Service",
+      "subHeading": "We craft unique brand identities that communicate your business’s values and create lasting impressions.",
+      "createdAt": "2025-04-03T12:54:07.529Z",
+      "updatedAt": "2025-04-03T13:19:24.029Z",
+      "publishedAt": "2025-04-03T13:19:24.088Z",
+      "pointsHeading": "Key problems we solve",
+      "Name": "IdentityBrandingCommunication",
+      "overview_points": [
+        {
+          "id": 104,
+          "documentId": "z833h0wxwyy6q5pcqkkovhcy",
+          "Point": "Inconsistent branding across platforms.",
+          "createdAt": "2025-04-03T13:11:17.318Z",
+          "updatedAt": "2025-04-03T13:11:23.151Z",
+          "publishedAt": "2025-04-03T13:11:23.187Z"
+        },
+        {
+          "id": 107,
+          "documentId": "qykkpeimwycu8k4k8fgqajr5",
+          "Point": "Weak market positioning.",
+          "createdAt": "2025-04-03T13:11:33.586Z",
+          "updatedAt": "2025-04-03T13:11:40.407Z",
+          "publishedAt": "2025-04-03T13:11:40.447Z"
+        },
+        {
+          "id": 110,
+          "documentId": "b7umkexd54c9ca4u8pvh3cy3",
+          "Point": "Difficulty in connecting with the target audience.",
+          "createdAt": "2025-04-03T13:11:51.272Z",
+          "updatedAt": "2025-04-03T13:11:58.487Z",
+          "publishedAt": "2025-04-03T13:11:58.521Z"
+        }
+      ],
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      }
+    },
+    "key_benift": {
+      "id": 48,
+      "documentId": "y4djxfx189ppio5imgcn19jh",
+      "Heading": "Key Benifits",
+      "createdAt": "2025-04-03T09:42:54.400Z",
+      "updatedAt": "2025-04-03T10:33:38.938Z",
+      "publishedAt": "2025-04-03T10:33:39.037Z",
+      "Name": "IdentityBrandingCommunication",
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "key_benifts_points": [
+        {
+          "id": 188,
+          "documentId": "vg9djotsh7gj7qp7pwf40493",
+          "Heading": "Brand Longevity",
+          "subHeading": "A timeless identity that grows with your business.",
+          "createdAt": "2025-04-03T10:31:30.084Z",
+          "updatedAt": "2025-04-03T10:31:30.084Z",
+          "publishedAt": "2025-04-03T10:31:30.113Z"
+        },
+        {
+          "id": 191,
+          "documentId": "i4xzu54g8zi0tcdsevot5k3f",
+          "Heading": "Creative & Strategic Approach",
+          "subHeading": "Balance of aesthetics and business goals.",
+          "createdAt": "2025-04-03T10:31:37.270Z",
+          "updatedAt": "2025-04-03T10:31:47.904Z",
+          "publishedAt": "2025-04-03T10:31:47.938Z"
+        },
+        {
+          "id": 194,
+          "documentId": "dgu6pd1wv2e93fbzg78yvt1c",
+          "Heading": "Market Positioning",
+          "subHeading": "Stand out in a competitive market.",
+          "createdAt": "2025-04-03T10:32:04.090Z",
+          "updatedAt": "2025-04-03T10:32:11.908Z",
+          "publishedAt": "2025-04-03T10:32:11.963Z"
+        },
+        {
+          "id": 197,
+          "documentId": "zwpbzqc0ovhudmzvkbjxrqc6",
+          "Heading": "Increased Customer Trust",
+          "subHeading": "A strong brand builds credibility.",
+          "createdAt": "2025-04-03T10:32:21.816Z",
+          "updatedAt": "2025-04-03T10:32:36.182Z",
+          "publishedAt": "2025-04-03T10:32:36.218Z"
+        },
+        {
+          "id": 200,
+          "documentId": "odyf8xgn3tn0pvtwmi0cqwox",
+          "Heading": "Clear & Cohesive Messaging",
+          "subHeading": "Consistent brand communication across platforms.",
+          "createdAt": "2025-04-03T10:32:52.503Z",
+          "updatedAt": "2025-04-03T10:33:01.063Z",
+          "publishedAt": "2025-04-03T10:33:01.099Z"
+        },
+        {
+          "id": 203,
+          "documentId": "vyqt8iu100d94dcpm0e70g41",
+          "Heading": "Memorable Brand Identity",
+          "subHeading": "Distinctive branding for lasting recognition.",
+          "createdAt": "2025-04-03T10:33:11.971Z",
+          "updatedAt": "2025-04-03T10:33:20.640Z",
+          "publishedAt": "2025-04-03T10:33:20.670Z"
+        }
+      ]
+    },
+    "how_it_work": {
+      "id": 46,
+      "documentId": "lcnsny3wvabgztmhqvvzxwrt",
+      "Heading": "How It Work",
+      "createdAt": "2025-04-03T11:01:32.263Z",
+      "updatedAt": "2025-04-03T12:19:04.278Z",
+      "publishedAt": "2025-04-03T12:19:04.346Z",
+      "sideimage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "steps": [
+        {
+          "id": 124,
+          "documentId": "toahm5kbrm7bwv3rnst4ckcc",
+          "Heading": "Brand Discovery",
+          "subHeading": "We conduct research to understand your brand vision.",
+          "createdAt": "2025-04-03T12:17:27.035Z",
+          "updatedAt": "2025-04-03T12:17:27.035Z",
+          "publishedAt": "2025-04-03T12:17:27.063Z"
+        },
+        {
+          "id": 136,
+          "documentId": "eg86962v0fxrzy1aqih20bvr",
+          "Heading": "Concept Development",
+          "subHeading": "We create logo concepts, typography, and color schemes.",
+          "createdAt": "2025-04-03T12:17:33.573Z",
+          "updatedAt": "2025-04-03T12:18:47.070Z",
+          "publishedAt": "2025-04-03T12:18:47.114Z"
+        },
+        {
+          "id": 129,
+          "documentId": "p8n37ll4hlc6d4u1f2gaun55",
+          "Heading": "Brand Story & Messaging",
+          "subHeading": "We craft compelling narratives and positioning.",
+          "createdAt": "2025-04-03T12:17:45.977Z",
+          "updatedAt": "2025-04-03T12:17:52.886Z",
+          "publishedAt": "2025-04-03T12:17:52.917Z"
+        },
+        {
+          "id": 132,
+          "documentId": "rsibl2chkussaa374n8snbw8",
+          "Heading": "Visual Design & Branding Elements",
+          "subHeading": "We deliver complete branding assets.\n\n",
+          "createdAt": "2025-04-03T12:18:06.001Z",
+          "updatedAt": "2025-04-03T12:18:11.089Z",
+          "publishedAt": "2025-04-03T12:18:11.123Z"
+        },
+        {
+          "id": 135,
+          "documentId": "t72f5xw91s0l0yfu1k2n16q9",
+          "Heading": "Brand Guidelines & Implementation",
+          "subHeading": "We provide detailed guidelines for consistency.",
+          "createdAt": "2025-04-03T12:18:21.711Z",
+          "updatedAt": "2025-04-03T12:18:26.338Z",
+          "publishedAt": "2025-04-03T12:18:26.380Z"
+        }
+      ]
+    },
+    "why_us": {
+      "id": 2,
+      "documentId": "hfolj82j7cdr7k5rckomyuso",
+      "Heading": "Why Choose Us?",
+      "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+      "createdAt": "2025-04-02T15:52:44.737Z",
+      "updatedAt": "2025-04-02T15:52:44.737Z",
+      "publishedAt": "2025-04-02T15:52:44.811Z",
+      "why_us_points": [
+        {
+          "id": 2,
+          "documentId": "ho43113tzhve2oy50huwsipw",
+          "Heading": "7+ Years of Expertise",
+          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "createdAt": "2025-04-02T15:53:07.346Z",
+          "updatedAt": "2025-04-02T15:53:07.346Z",
+          "publishedAt": "2025-04-02T15:53:07.439Z"
+        },
+        {
+          "id": 6,
+          "documentId": "qjaneznxknxyubfnbqemf2zq",
+          "Heading": "Global Clientele",
+          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "createdAt": "2025-04-02T15:53:40.153Z",
+          "updatedAt": "2025-04-02T15:53:40.153Z",
+          "publishedAt": "2025-04-02T15:53:40.436Z"
+        },
+        {
+          "id": 9,
+          "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
+          "Heading": "End-to-End Services",
+          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "createdAt": "2025-04-02T15:53:57.816Z",
+          "updatedAt": "2025-04-02T15:54:14.349Z",
+          "publishedAt": "2025-04-02T15:54:14.416Z"
+        },
+        {
+          "id": 11,
+          "documentId": "ruzivl9hm0kb2audxcklgou2",
+          "Heading": "Tailored Strategies",
+          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "createdAt": "2025-04-02T15:53:23.816Z",
+          "updatedAt": "2025-04-02T15:54:34.762Z",
+          "publishedAt": "2025-04-02T15:54:34.894Z"
+        }
+      ]
+    },
+    "faq": {
+      "id": 2,
+      "documentId": "o6q55bnm3js6t4q8p6begehl",
+      "Heading": "Frequently Asked Questions",
+      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
+      "createdAt": "2025-04-02T15:52:21.248Z",
+      "updatedAt": "2025-04-02T15:52:21.248Z",
+      "publishedAt": "2025-04-02T15:52:21.414Z",
+      "faq_qnas": [
+        {
+          "id": 2,
+          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
+          "Question": "What are some random questions to ask?",
+          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+          "createdAt": "2025-04-02T15:50:28.626Z",
+          "updatedAt": "2025-04-02T15:50:28.626Z",
+          "publishedAt": "2025-04-02T15:50:28.859Z"
+        },
+        {
+          "id": 4,
+          "documentId": "fmd3wmwe0vbnibv069m1p8la",
+          "Question": "Do you include common questions?",
+          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+          "createdAt": "2025-04-02T15:50:44.139Z",
+          "updatedAt": "2025-04-02T15:50:44.139Z",
+          "publishedAt": "2025-04-02T15:50:44.189Z"
+        },
+        {
+          "id": 6,
+          "documentId": "tmt7zj71xgvfk5f3sost9etn",
+          "Question": "Can I use this for 21 questions?",
+          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+          "createdAt": "2025-04-02T15:51:04.273Z",
+          "updatedAt": "2025-04-02T15:51:04.273Z",
+          "publishedAt": "2025-04-02T15:51:04.354Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
+          "Question": "Are these questions for girls or for boys?",
+          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
+          "createdAt": "2025-04-02T15:51:21.815Z",
+          "updatedAt": "2025-04-02T15:51:21.815Z",
+          "publishedAt": "2025-04-02T15:51:21.868Z"
+        },
+        {
+          "id": 10,
+          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
+          "Question": "What do you wish you had more talent doing?",
+          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+          "createdAt": "2025-04-02T15:51:36.163Z",
+          "updatedAt": "2025-04-02T15:51:36.163Z",
+          "publishedAt": "2025-04-02T15:51:36.224Z"
+        }
+      ]
+    },
+    "cta": {
+      "id": 2,
+      "documentId": "qnllhsu06im3yhnc8gak65r9",
+      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "createdAt": "2025-04-02T15:50:02.028Z",
+      "updatedAt": "2025-04-02T15:50:02.028Z",
+      "publishedAt": "2025-04-02T15:50:02.114Z"
+    }
+  },
+  "meta": {}
+}

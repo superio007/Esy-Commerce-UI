@@ -1,0 +1,458 @@
+{
+  "data": {
+    "id": 4,
+    "documentId": "rkwoxjibz7830zwyp1fzi1bo",
+    "createdAt": "2025-04-03T09:58:43.681Z",
+    "updatedAt": "2025-04-03T13:16:20.513Z",
+    "publishedAt": "2025-04-03T13:16:20.571Z",
+    "service_hero_section": {
+      "id": 25,
+      "documentId": "ho0i6tqn3man2o9mfqmxk0a7",
+      "Heading": "Custom Website Devlopment",
+      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "createdAt": "2025-04-03T09:38:19.213Z",
+      "updatedAt": "2025-04-03T09:38:19.213Z",
+      "publishedAt": "2025-04-03T09:38:19.359Z"
+    },
+    "service_over_view": {
+      "id": 57,
+      "documentId": "x2oxj143esuj1m4k65qvivl3",
+      "Heading": "Overview of the Service",
+      "subHeading": "We build tailor-made websites that align with your business goals, ensuring top-notch performance and user experience.",
+      "createdAt": "2025-04-03T12:54:37.968Z",
+      "updatedAt": "2025-04-03T13:19:07.029Z",
+      "publishedAt": "2025-04-03T13:19:07.094Z",
+      "pointsHeading": "Key problems we solve",
+      "Name": "CustomWebsiteDevlopment",
+      "overview_points": [
+        {
+          "id": 94,
+          "documentId": "kmo970mhw2idj9rd165ojv28",
+          "Point": "Generic, template-based websites lacking uniqueness.",
+          "createdAt": "2025-04-03T13:10:17.074Z",
+          "updatedAt": "2025-04-03T13:10:24.210Z",
+          "publishedAt": "2025-04-03T13:10:24.244Z"
+        },
+        {
+          "id": 98,
+          "documentId": "bj52ppolcimqcheavrufrkrh",
+          "Point": "Poorly optimized sites leading to low traffic and conversions.",
+          "createdAt": "2025-04-03T13:10:35.305Z",
+          "updatedAt": "2025-04-03T13:10:40.705Z",
+          "publishedAt": "2025-04-03T13:10:40.744Z"
+        },
+        {
+          "id": 101,
+          "documentId": "egbnw6ilkywr7wyhyosox3ll",
+          "Point": "Limited scalability to support business growth.",
+          "createdAt": "2025-04-03T13:10:53.731Z",
+          "updatedAt": "2025-04-03T13:11:00.965Z",
+          "publishedAt": "2025-04-03T13:11:01.006Z"
+        }
+      ],
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      }
+    },
+    "key_benift": {
+      "id": 46,
+      "documentId": "nl1qist9wkrhyaz07zvgg7k6",
+      "Heading": "Key Benifits",
+      "createdAt": "2025-04-03T09:43:23.107Z",
+      "updatedAt": "2025-04-03T10:26:39.526Z",
+      "publishedAt": "2025-04-03T10:26:39.595Z",
+      "Name": "CustomWebsiteDevlopment",
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "key_benifts_points": [
+        {
+          "id": 152,
+          "documentId": "d9kri2cvrt1v5lsg0jum5f0t",
+          "Heading": "Future Scalability",
+          "subHeading": "A website that grows with your business.",
+          "createdAt": "2025-04-03T10:24:17.037Z",
+          "updatedAt": "2025-04-03T10:24:17.037Z",
+          "publishedAt": "2025-04-03T10:24:17.071Z"
+        },
+        {
+          "id": 155,
+          "documentId": "n7v56pb0nrv1yjzl2yhdfdjc",
+          "Heading": "Security & Compliance",
+          "subHeading": "Protection against cyber threats.",
+          "createdAt": "2025-04-03T10:24:42.913Z",
+          "updatedAt": "2025-04-03T10:24:49.120Z",
+          "publishedAt": "2025-04-03T10:24:49.170Z"
+        },
+        {
+          "id": 158,
+          "documentId": "b12a9phbq5wfvp54zdm76f3k",
+          "Heading": "Easy Content Management",
+          "subHeading": "Simple updates with CMS integration.",
+          "createdAt": "2025-04-03T10:25:00.820Z",
+          "updatedAt": "2025-04-03T10:25:06.258Z",
+          "publishedAt": "2025-04-03T10:25:06.298Z"
+        },
+        {
+          "id": 161,
+          "documentId": "cmq660a7w0m56u5b86r6kdhh",
+          "Heading": "Performance & Speed",
+          "subHeading": "Fast-loading websites for better user experience.",
+          "createdAt": "2025-04-03T10:25:26.044Z",
+          "updatedAt": "2025-04-03T10:25:32.582Z",
+          "publishedAt": "2025-04-03T10:25:32.615Z"
+        },
+        {
+          "id": 165,
+          "documentId": "g1s1mflksnxczklzbssuz2hn",
+          "Heading": "SEO & Mobile Optimization",
+          "subHeading": "Built for search engines and all devices.",
+          "createdAt": "2025-04-03T10:25:43.710Z",
+          "updatedAt": "2025-04-03T10:25:59.189Z",
+          "publishedAt": "2025-04-03T10:25:59.297Z"
+        },
+        {
+          "id": 168,
+          "documentId": "nai1v0xpzmw57qaqjiphxds6",
+          "Heading": "Tailored to Your Needs",
+          "subHeading": "No one-size-fits-all solutions.",
+          "createdAt": "2025-04-03T10:26:14.484Z",
+          "updatedAt": "2025-04-03T10:26:19.650Z",
+          "publishedAt": "2025-04-03T10:26:19.688Z"
+        }
+      ]
+    },
+    "how_it_work": {
+      "id": 66,
+      "documentId": "hpv6emb1yoan71zioht61yjr",
+      "Heading": "How It Work",
+      "createdAt": "2025-04-03T11:02:07.837Z",
+      "updatedAt": "2025-04-03T12:41:33.146Z",
+      "publishedAt": "2025-04-03T12:41:33.209Z",
+      "sideimage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "steps": [
+        {
+          "id": 100,
+          "documentId": "zy0i67qo7aywi79lgffwqiy5",
+          "Heading": "Testing & Quality Assurance",
+          "subHeading": "Perform performance, security, and usability tests.",
+          "createdAt": "2025-04-03T12:09:50.808Z",
+          "updatedAt": "2025-04-03T12:09:50.808Z",
+          "publishedAt": "2025-04-03T12:09:50.926Z"
+        },
+        {
+          "id": 78,
+          "documentId": "j0l3w6qd67qjqnab30hft0ka",
+          "Heading": "Deployment & Continuous Improvement",
+          "subHeading": "Go live and optimize as business grows.",
+          "createdAt": "2025-04-03T12:06:02.723Z",
+          "updatedAt": "2025-04-03T12:06:02.723Z",
+          "publishedAt": "2025-04-03T12:06:02.753Z"
+        },
+        {
+          "id": 185,
+          "documentId": "plzgpaqyv1iu6tpyaql859vq",
+          "Heading": "Requirement Gathering",
+          "subHeading": "Understand business needs and define scope.",
+          "createdAt": "2025-04-03T12:37:15.218Z",
+          "updatedAt": "2025-04-03T12:37:15.218Z",
+          "publishedAt": "2025-04-03T12:37:15.245Z"
+        },
+        {
+          "id": 188,
+          "documentId": "g20u75bvugrqfayjwcy7n9pd",
+          "Heading": "Planning & UI/UX Design",
+          "subHeading": "Create wireframes and user-friendly interfaces.",
+          "createdAt": "2025-04-03T12:37:33.710Z",
+          "updatedAt": "2025-04-03T12:37:40.839Z",
+          "publishedAt": "2025-04-03T12:37:40.879Z"
+        },
+        {
+          "id": 192,
+          "documentId": "y8ilmbevgufmm6k9v7qhlc4r",
+          "Heading": "Development & Coding",
+          "subHeading": "Build core functionalities and backend systems.\n",
+          "createdAt": "2025-04-03T12:38:03.467Z",
+          "updatedAt": "2025-04-03T12:38:10.710Z",
+          "publishedAt": "2025-04-03T12:38:10.748Z"
+        }
+      ]
+    },
+    "why_us": {
+      "id": 2,
+      "documentId": "hfolj82j7cdr7k5rckomyuso",
+      "Heading": "Why Choose Us?",
+      "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+      "createdAt": "2025-04-02T15:52:44.737Z",
+      "updatedAt": "2025-04-02T15:52:44.737Z",
+      "publishedAt": "2025-04-02T15:52:44.811Z",
+      "why_us_points": [
+        {
+          "id": 2,
+          "documentId": "ho43113tzhve2oy50huwsipw",
+          "Heading": "7+ Years of Expertise",
+          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "createdAt": "2025-04-02T15:53:07.346Z",
+          "updatedAt": "2025-04-02T15:53:07.346Z",
+          "publishedAt": "2025-04-02T15:53:07.439Z"
+        },
+        {
+          "id": 6,
+          "documentId": "qjaneznxknxyubfnbqemf2zq",
+          "Heading": "Global Clientele",
+          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "createdAt": "2025-04-02T15:53:40.153Z",
+          "updatedAt": "2025-04-02T15:53:40.153Z",
+          "publishedAt": "2025-04-02T15:53:40.436Z"
+        },
+        {
+          "id": 9,
+          "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
+          "Heading": "End-to-End Services",
+          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "createdAt": "2025-04-02T15:53:57.816Z",
+          "updatedAt": "2025-04-02T15:54:14.349Z",
+          "publishedAt": "2025-04-02T15:54:14.416Z"
+        },
+        {
+          "id": 11,
+          "documentId": "ruzivl9hm0kb2audxcklgou2",
+          "Heading": "Tailored Strategies",
+          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "createdAt": "2025-04-02T15:53:23.816Z",
+          "updatedAt": "2025-04-02T15:54:34.762Z",
+          "publishedAt": "2025-04-02T15:54:34.894Z"
+        }
+      ]
+    },
+    "faq": {
+      "id": 2,
+      "documentId": "o6q55bnm3js6t4q8p6begehl",
+      "Heading": "Frequently Asked Questions",
+      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
+      "createdAt": "2025-04-02T15:52:21.248Z",
+      "updatedAt": "2025-04-02T15:52:21.248Z",
+      "publishedAt": "2025-04-02T15:52:21.414Z",
+      "faq_qnas": [
+        {
+          "id": 2,
+          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
+          "Question": "What are some random questions to ask?",
+          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+          "createdAt": "2025-04-02T15:50:28.626Z",
+          "updatedAt": "2025-04-02T15:50:28.626Z",
+          "publishedAt": "2025-04-02T15:50:28.859Z"
+        },
+        {
+          "id": 4,
+          "documentId": "fmd3wmwe0vbnibv069m1p8la",
+          "Question": "Do you include common questions?",
+          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+          "createdAt": "2025-04-02T15:50:44.139Z",
+          "updatedAt": "2025-04-02T15:50:44.139Z",
+          "publishedAt": "2025-04-02T15:50:44.189Z"
+        },
+        {
+          "id": 6,
+          "documentId": "tmt7zj71xgvfk5f3sost9etn",
+          "Question": "Can I use this for 21 questions?",
+          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+          "createdAt": "2025-04-02T15:51:04.273Z",
+          "updatedAt": "2025-04-02T15:51:04.273Z",
+          "publishedAt": "2025-04-02T15:51:04.354Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
+          "Question": "Are these questions for girls or for boys?",
+          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
+          "createdAt": "2025-04-02T15:51:21.815Z",
+          "updatedAt": "2025-04-02T15:51:21.815Z",
+          "publishedAt": "2025-04-02T15:51:21.868Z"
+        },
+        {
+          "id": 10,
+          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
+          "Question": "What do you wish you had more talent doing?",
+          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+          "createdAt": "2025-04-02T15:51:36.163Z",
+          "updatedAt": "2025-04-02T15:51:36.163Z",
+          "publishedAt": "2025-04-02T15:51:36.224Z"
+        }
+      ]
+    },
+    "cta": {
+      "id": 2,
+      "documentId": "qnllhsu06im3yhnc8gak65r9",
+      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "createdAt": "2025-04-02T15:50:02.028Z",
+      "updatedAt": "2025-04-02T15:50:02.028Z",
+      "publishedAt": "2025-04-02T15:50:02.114Z"
+    }
+  },
+  "meta": {}
+}

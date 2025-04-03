@@ -1,0 +1,458 @@
+{
+  "data": {
+    "id": 4,
+    "documentId": "lgdyuox0yp1vu1tpbyd6wshu",
+    "createdAt": "2025-04-03T09:59:04.384Z",
+    "updatedAt": "2025-04-03T13:16:35.281Z",
+    "publishedAt": "2025-04-03T13:16:35.337Z",
+    "service_hero_section": {
+      "id": 23,
+      "documentId": "fl5yzl5y6uwos2v1ptj0zuel",
+      "Heading": "Data Labeling & Annotation",
+      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "createdAt": "2025-04-03T09:38:07.462Z",
+      "updatedAt": "2025-04-03T09:38:07.462Z",
+      "publishedAt": "2025-04-03T09:38:07.502Z"
+    },
+    "service_over_view": {
+      "id": 58,
+      "documentId": "wgtc07yart7smnbgy7hjutl2",
+      "Heading": "Overview of the Service",
+      "subHeading": "We provide high-quality data labeling and annotation services for AI and machine learning applications.",
+      "createdAt": "2025-04-03T12:54:23.638Z",
+      "updatedAt": "2025-04-03T13:19:15.980Z",
+      "publishedAt": "2025-04-03T13:19:16.044Z",
+      "pointsHeading": "Key problems we solve",
+      "Name": "DataLabelingAnnotation",
+      "overview_points": [
+        {
+          "id": 85,
+          "documentId": "o09o03ok4hfecxhm19rx70xp",
+          "Point": "Poorly annotated data leading to inaccurate AI models.",
+          "createdAt": "2025-04-03T13:09:10.025Z",
+          "updatedAt": "2025-04-03T13:09:10.025Z",
+          "publishedAt": "2025-04-03T13:09:10.064Z"
+        },
+        {
+          "id": 88,
+          "documentId": "ekabjzw4g31syi2hpgaietpz",
+          "Point": "Inefficiency in handling large-scale datasets.",
+          "createdAt": "2025-04-03T13:09:24.259Z",
+          "updatedAt": "2025-04-03T13:09:31.196Z",
+          "publishedAt": "2025-04-03T13:09:31.227Z"
+        },
+        {
+          "id": 91,
+          "documentId": "hg45fuszqpy55poqwn2eer43",
+          "Point": "High costs and time-consuming manual annotation.",
+          "createdAt": "2025-04-03T13:09:42.584Z",
+          "updatedAt": "2025-04-03T13:09:48.776Z",
+          "publishedAt": "2025-04-03T13:09:48.811Z"
+        }
+      ],
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      }
+    },
+    "key_benift": {
+      "id": 47,
+      "documentId": "szbsoqfh66xdb9q2gsvttqat",
+      "Heading": "Key Benifits",
+      "createdAt": "2025-04-03T09:43:09.875Z",
+      "updatedAt": "2025-04-03T10:29:32.882Z",
+      "publishedAt": "2025-04-03T10:29:32.962Z",
+      "Name": "DataLabelingAnnotation",
+      "SideImage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "key_benifts_points": [
+        {
+          "id": 170,
+          "documentId": "d89grefcrugoasrkwhtgq5mc",
+          "Heading": "Compliance & Data Security",
+          "subHeading": "Safe and ethical data handling practices.",
+          "createdAt": "2025-04-03T10:27:52.023Z",
+          "updatedAt": "2025-04-03T10:27:52.023Z",
+          "publishedAt": "2025-04-03T10:27:52.050Z"
+        },
+        {
+          "id": 173,
+          "documentId": "d74uv4cusizkzxqj02xhl33b",
+          "Heading": "Cost-Effective Processing",
+          "subHeading": "High-quality results at optimized costs.",
+          "createdAt": "2025-04-03T10:28:01.110Z",
+          "updatedAt": "2025-04-03T10:28:06.280Z",
+          "publishedAt": "2025-04-03T10:28:06.335Z"
+        },
+        {
+          "id": 176,
+          "documentId": "b8n7ruvu0wrnohbjg1adktb9",
+          "Heading": "Scalable Solutions",
+          "subHeading": "Handle large datasets efficiently.",
+          "createdAt": "2025-04-03T10:28:18.629Z",
+          "updatedAt": "2025-04-03T10:28:24.666Z",
+          "publishedAt": "2025-04-03T10:28:24.701Z"
+        },
+        {
+          "id": 179,
+          "documentId": "v0uivfmzlkrcbbaige68tsy7",
+          "Heading": "Custom Annotation Workflows",
+          "subHeading": "Tailored solutions for different industries.",
+          "createdAt": "2025-04-03T10:28:38.928Z",
+          "updatedAt": "2025-04-03T10:28:44.498Z",
+          "publishedAt": "2025-04-03T10:28:44.554Z"
+        },
+        {
+          "id": 182,
+          "documentId": "erxitpm0aow7zvco0uokl7l9",
+          "Heading": "Precision & Accuracy",
+          "subHeading": "Expert annotation for better model performance.",
+          "createdAt": "2025-04-03T10:28:55.418Z",
+          "updatedAt": "2025-04-03T10:29:01.432Z",
+          "publishedAt": "2025-04-03T10:29:01.470Z"
+        },
+        {
+          "id": 186,
+          "documentId": "m9q5ub8ulaqxmy9qbmyegdmv",
+          "Heading": "AI-Ready Data",
+          "subHeading": "High-quality labeled data for machine learning.",
+          "createdAt": "2025-04-03T10:29:12.011Z",
+          "updatedAt": "2025-04-03T10:29:18.638Z",
+          "publishedAt": "2025-04-03T10:29:18.687Z"
+        }
+      ]
+    },
+    "how_it_work": {
+      "id": 45,
+      "documentId": "nb415b8fsoyi72djjjl9knnl",
+      "Heading": "How It Work",
+      "createdAt": "2025-04-03T11:01:54.852Z",
+      "updatedAt": "2025-04-03T12:16:35.127Z",
+      "publishedAt": "2025-04-03T12:16:35.194Z",
+      "sideimage": {
+        "id": 5,
+        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
+        "name": "720x600.png",
+        "alternativeText": "sample",
+        "caption": null,
+        "width": 720,
+        "height": 600,
+        "formats": {
+          "small": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
+            "hash": "small_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "small_720x600.png",
+            "path": null,
+            "size": 10.6,
+            "width": 500,
+            "height": 417,
+            "sizeInBytes": 10602,
+            "provider_metadata": {
+              "public_id": "small_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          },
+          "thumbnail": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
+            "hash": "thumbnail_720x600_5dfb8782cc",
+            "mime": "image/png",
+            "name": "thumbnail_720x600.png",
+            "path": null,
+            "size": 3.53,
+            "width": 187,
+            "height": 156,
+            "sizeInBytes": 3526,
+            "provider_metadata": {
+              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "resource_type": "image"
+            }
+          }
+        },
+        "hash": "720x600_5dfb8782cc",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.28,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "previewUrl": null,
+        "provider": "cloudinary",
+        "provider_metadata": {
+          "public_id": "720x600_5dfb8782cc",
+          "resource_type": "image"
+        },
+        "createdAt": "2025-04-02T15:57:39.092Z",
+        "updatedAt": "2025-04-02T18:17:17.477Z",
+        "publishedAt": "2025-04-02T15:57:39.093Z"
+      },
+      "steps": [
+        {
+          "id": 107,
+          "documentId": "vnr7ctos7oiyxx9ih71368v2",
+          "Heading": "Dataset Evaluation",
+          "subHeading": "We analyze your data and annotation requirements.",
+          "createdAt": "2025-04-03T12:14:40.226Z",
+          "updatedAt": "2025-04-03T12:14:47.196Z",
+          "publishedAt": "2025-04-03T12:14:47.240Z"
+        },
+        {
+          "id": 110,
+          "documentId": "wu2uzw5n6x2sree2d1emfbud",
+          "Heading": "Annotation Guidelines Creation",
+          "subHeading": "We define tagging rules and standards.",
+          "createdAt": "2025-04-03T12:14:55.549Z",
+          "updatedAt": "2025-04-03T12:15:01.244Z",
+          "publishedAt": "2025-04-03T12:15:01.286Z"
+        },
+        {
+          "id": 113,
+          "documentId": "vubj391u23dl6g5rq9ixg8gs",
+          "Heading": "Data Labeling & Processing",
+          "subHeading": "We manually or AI-assist label datasets.",
+          "createdAt": "2025-04-03T12:15:16.040Z",
+          "updatedAt": "2025-04-03T12:15:22.151Z",
+          "publishedAt": "2025-04-03T12:15:22.193Z"
+        },
+        {
+          "id": 116,
+          "documentId": "qzunsdq8ivw1yin3b8psqvnm",
+          "Heading": "Quality Assurance",
+          "subHeading": "We perform thorough validation to ensure accuracy.",
+          "createdAt": "2025-04-03T12:15:35.491Z",
+          "updatedAt": "2025-04-03T12:15:40.340Z",
+          "publishedAt": "2025-04-03T12:15:40.381Z"
+        },
+        {
+          "id": 122,
+          "documentId": "uayq14rurl7yf1xw50dtlsk3",
+          "Heading": "Delivery & Feedback Iteration",
+          "subHeading": "We refine results based on client feedback.",
+          "createdAt": "2025-04-03T12:16:07.841Z",
+          "updatedAt": "2025-04-03T12:16:13.009Z",
+          "publishedAt": "2025-04-03T12:16:13.043Z"
+        }
+      ]
+    },
+    "why_us": {
+      "id": 2,
+      "documentId": "hfolj82j7cdr7k5rckomyuso",
+      "Heading": "Why Choose Us?",
+      "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+      "createdAt": "2025-04-02T15:52:44.737Z",
+      "updatedAt": "2025-04-02T15:52:44.737Z",
+      "publishedAt": "2025-04-02T15:52:44.811Z",
+      "why_us_points": [
+        {
+          "id": 2,
+          "documentId": "ho43113tzhve2oy50huwsipw",
+          "Heading": "7+ Years of Expertise",
+          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "createdAt": "2025-04-02T15:53:07.346Z",
+          "updatedAt": "2025-04-02T15:53:07.346Z",
+          "publishedAt": "2025-04-02T15:53:07.439Z"
+        },
+        {
+          "id": 6,
+          "documentId": "qjaneznxknxyubfnbqemf2zq",
+          "Heading": "Global Clientele",
+          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "createdAt": "2025-04-02T15:53:40.153Z",
+          "updatedAt": "2025-04-02T15:53:40.153Z",
+          "publishedAt": "2025-04-02T15:53:40.436Z"
+        },
+        {
+          "id": 9,
+          "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
+          "Heading": "End-to-End Services",
+          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "createdAt": "2025-04-02T15:53:57.816Z",
+          "updatedAt": "2025-04-02T15:54:14.349Z",
+          "publishedAt": "2025-04-02T15:54:14.416Z"
+        },
+        {
+          "id": 11,
+          "documentId": "ruzivl9hm0kb2audxcklgou2",
+          "Heading": "Tailored Strategies",
+          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "createdAt": "2025-04-02T15:53:23.816Z",
+          "updatedAt": "2025-04-02T15:54:34.762Z",
+          "publishedAt": "2025-04-02T15:54:34.894Z"
+        }
+      ]
+    },
+    "faq": {
+      "id": 2,
+      "documentId": "o6q55bnm3js6t4q8p6begehl",
+      "Heading": "Frequently Asked Questions",
+      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
+      "createdAt": "2025-04-02T15:52:21.248Z",
+      "updatedAt": "2025-04-02T15:52:21.248Z",
+      "publishedAt": "2025-04-02T15:52:21.414Z",
+      "faq_qnas": [
+        {
+          "id": 2,
+          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
+          "Question": "What are some random questions to ask?",
+          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
+          "createdAt": "2025-04-02T15:50:28.626Z",
+          "updatedAt": "2025-04-02T15:50:28.626Z",
+          "publishedAt": "2025-04-02T15:50:28.859Z"
+        },
+        {
+          "id": 4,
+          "documentId": "fmd3wmwe0vbnibv069m1p8la",
+          "Question": "Do you include common questions?",
+          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
+          "createdAt": "2025-04-02T15:50:44.139Z",
+          "updatedAt": "2025-04-02T15:50:44.139Z",
+          "publishedAt": "2025-04-02T15:50:44.189Z"
+        },
+        {
+          "id": 6,
+          "documentId": "tmt7zj71xgvfk5f3sost9etn",
+          "Question": "Can I use this for 21 questions?",
+          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
+          "createdAt": "2025-04-02T15:51:04.273Z",
+          "updatedAt": "2025-04-02T15:51:04.273Z",
+          "publishedAt": "2025-04-02T15:51:04.354Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
+          "Question": "Are these questions for girls or for boys?",
+          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
+          "createdAt": "2025-04-02T15:51:21.815Z",
+          "updatedAt": "2025-04-02T15:51:21.815Z",
+          "publishedAt": "2025-04-02T15:51:21.868Z"
+        },
+        {
+          "id": 10,
+          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
+          "Question": "What do you wish you had more talent doing?",
+          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
+          "createdAt": "2025-04-02T15:51:36.163Z",
+          "updatedAt": "2025-04-02T15:51:36.163Z",
+          "publishedAt": "2025-04-02T15:51:36.224Z"
+        }
+      ]
+    },
+    "cta": {
+      "id": 2,
+      "documentId": "qnllhsu06im3yhnc8gak65r9",
+      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "createdAt": "2025-04-02T15:50:02.028Z",
+      "updatedAt": "2025-04-02T15:50:02.028Z",
+      "publishedAt": "2025-04-02T15:50:02.114Z"
+    }
+  },
+  "meta": {}
+}
