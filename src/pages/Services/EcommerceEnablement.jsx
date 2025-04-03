@@ -13,7 +13,7 @@ import EcommerceEnablementPageData from "../Data/EcommerceEnablementData.json";
 
 const fetchEcommerceEnablementContent = async () => {
   const { data } = await axios.get(
-    "http://localhost:1337/api/ecommerce-enablement?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*"
+    "https://whale-app-8hpek.ondigitalocean.app/api/ecommerce-enablement?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*"
   );
   return data.data;
 };

@@ -46,26 +46,26 @@ const Design = () => {
             </div>
           </section>
           {/* LinkedIn Content Marketing */}
-          <section class="text-gray-600 body-font">
-            <div class="flex px-5 py-24 md:flex-row flex-col items-center">
-              <div class="w-full md:w-1/2 flex justify-start">
+          <section className="text-gray-600 body-font">
+            <div className="flex px-5 py-24 md:flex-row flex-col items-center">
+              <div className="w-full md:w-1/2 flex justify-start">
                 <img
-                  class="object-cover object-center rounded w-full max-w-md"
+                  className="object-cover object-center rounded w-full max-w-md"
                   alt="hero"
                   src="https://dummyimage.com/720x600"
                 />
               </div>
-              <div class="w-full md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <div className="w-full md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                   LinkedIn Content Marketing
                 </h1>
-                <p class="mb-8 leading-relaxed">
+                <p className="mb-8 leading-relaxed">
                   Copper mug try-hard pitchfork pour-over freegan heirloom
                   neutra air plant cold-pressed tacos poke beard tote bag.
                   Heirloom echo park mlkshk tote bag selvage hot chicken
                   authentic tumeric truffaut hexagon try-hard chambray.
                 </p>
-                <div class="flex justify-center">
+                <div className="flex justify-center">
                   <Link
                     to={"/linkedin-content-marketing"}
                     className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
@@ -108,26 +108,26 @@ const Design = () => {
             </div>
           </section>
           {/* Custom Website Development */}
-          <section class="text-gray-600 body-font">
-            <div class="flex px-5 py-24 md:flex-row flex-col items-center">
-              <div class="w-full md:w-1/2 flex justify-start">
+          <section className="text-gray-600 body-font">
+            <div className="flex px-5 py-24 md:flex-row flex-col items-center">
+              <div className="w-full md:w-1/2 flex justify-start">
                 <img
-                  class="object-cover object-center rounded w-full max-w-md"
+                  className="object-cover object-center rounded w-full max-w-md"
                   alt="hero"
                   src="https://dummyimage.com/720x600"
                 />
               </div>
-              <div class="w-full md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <div className="w-full md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                   Custom Website Development
                 </h1>
-                <p class="mb-8 leading-relaxed">
+                <p className="mb-8 leading-relaxed">
                   Copper mug try-hard pitchfork pour-over freegan heirloom
                   neutra air plant cold-pressed tacos poke beard tote bag.
                   Heirloom echo park mlkshk tote bag selvage hot chicken
                   authentic tumeric truffaut hexagon try-hard chambray.
                 </p>
-                <div class="flex justify-center">
+                <div className="flex justify-center">
                   <Link
                     to={"/custom-website-development"}
                     className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"

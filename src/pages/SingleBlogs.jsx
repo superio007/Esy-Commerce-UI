@@ -10,7 +10,7 @@ import styles from "../css/Blogs.module.css";
 
 const fetchBlogsContent = async () => {
   const { data } = await axios.get(
-    "http://localhost:1337/api/blogs?populate=*"
+    "https://whale-app-8hpek.ondigitalocean.app/api/blogs?populate=*"
   );
   return data.data;
 };

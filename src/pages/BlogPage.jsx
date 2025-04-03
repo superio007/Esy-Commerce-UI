@@ -7,7 +7,7 @@ import BlogsPageData from "../Data/BlogsData.json";
 
 const fetchBlogsContent = async () => {
   const { data } = await axios.get(
-    "http://localhost:1337/api/blogs?populate=*"
+    "https://whale-app-8hpek.ondigitalocean.app/api/blogs?populate=*"
   );
   return data.data;
 };
@@ -32,7 +32,7 @@ const Blogs = () => {
   }));
   if (isLoading) return <p>Loading...</p>;
   console.log(ApiData);
-  
+
   return (
     <>
       {ApiData.length > 0 ? (
