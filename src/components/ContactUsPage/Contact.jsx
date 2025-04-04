@@ -1,5 +1,18 @@
 import { useForm } from "react-hook-form";
 import { useState } from "react";
+import axios from "axios";
+const postContactForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "http://localhost:1337/api/contact-from-entries",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const Conatct = ({ sectionPoints }) => {
   const {
     register,
@@ -17,6 +30,14 @@ const Conatct = ({ sectionPoints }) => {
   const onSubmit = (data) => {
     setLoading(true);
     console.log(data);
+    const formattedData = {
+      data: {
+        FullName: data.name,
+        Phone: data.Phone,
+        Email: data.Email,
+      },
+    };
+    postContactForm(formattedData);
     setLoading(false);
     reset();
   };
@@ -175,7 +196,7 @@ const Conatct = ({ sectionPoints }) => {
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
                 <span className="title-font font-medium">
-                  {sectionPoints[7].Heading ||"Kinfolk Chips Snackwave"}
+                  {sectionPoints[7].Heading || "Kinfolk Chips Snackwave"}
                 </span>
               </div>
             </div>

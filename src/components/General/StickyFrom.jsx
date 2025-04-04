@@ -1,13 +1,35 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
+import { useLocation } from "react-router-dom";
 // import styles from "./css/NonStickyFrom.module.css";
 import styles from "./css/StickyFrom.module.css";
 import { encryptData, decryptData } from "../../utils/cryptoUtils";
+import axios from "axios";
+const postStickyForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "http://localhost:1337/api/sticky-form-entries",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const StickyFrom = () => {
   const [isUserToken, setIsUserToken] = useState(
     !!localStorage.getItem("user-token")
   );
-
+  const [pageLoc, setPageLoc] = useState("");
+  let Location = useLocation().pathname;
+  useEffect(() => {
+    if (Location === "/") {
+      setPageLoc("Home Page");
+    } else {
+      setPageLoc(Location.split("/").join(""));
+    }
+  }, [Location]);
   const {
     reset,
     register,
@@ -27,6 +49,14 @@ const StickyFrom = () => {
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 2000));
     setIsUserToken(true);
+    const formattedData = {
+      data: {
+        Phone: data.PhoneNumber,
+        Email: data.email,
+        PageInfo: pageLoc,
+      },
+    };
+    postStickyForm(formattedData);
     setLoading(false);
     reset();
   };

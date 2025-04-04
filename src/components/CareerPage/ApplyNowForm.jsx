@@ -4,7 +4,19 @@ import { useState, useEffect } from "react";
 import styles from "./css/ApplyNowForm.module.css";
 import { CiLinkedin } from "react-icons/ci";
 import { BsLightningChargeFill } from "react-icons/bs";
-
+import { Axios } from "axios";
+const postContactForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "http://localhost:1337/api/sticky-form-entries",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const ApplyNowForm = () => {
   const {
     register,
@@ -143,6 +155,14 @@ const ApplyNowForm = () => {
     }
 
     setLoading(false);
+    const formattedData = {
+      data: {
+        FullName: data.name,
+        Phone: data.Phone,
+        Email: data.Email,
+      },
+    };
+    postContactForm(formattedData);
     reset();
     setFileName("");
     setFileUrl("");

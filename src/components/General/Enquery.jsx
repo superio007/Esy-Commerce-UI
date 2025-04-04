@@ -1,7 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { set, useForm } from "react-hook-form";
-
+import { useLocation } from "react-router-dom";
+import axios from "axios";
+const postEnqueryForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "http://localhost:1337/api/enquery-form-entries",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const ProposalForm = () => {
+  const [pageLoc, setPageLoc] = useState("");
+  let Location = useLocation().pathname;
+  useEffect(() => {
+    if (Location === "/") {
+      setPageLoc("Home Page");
+    } else {
+      setPageLoc(Location.split("/").join(""));
+    }
+  }, [Location]);
   const {
     register,
     reset,
@@ -9,11 +31,19 @@ const ProposalForm = () => {
     formState: { errors },
   } = useForm();
   const [isThanks, setIsThanks] = useState(false);
-
   const onSubmit = (data) => {
-    reset();
-      console.log(data);
-      setIsThanks(true);
+    const formattedData = {
+      data: {
+        FullName: data.fullName,
+        Email: data.email,
+        Message: data.message,
+        PageInfo: pageLoc,
+      },
+    };
+    postEnqueryForm(formattedData);
+    // console.log(data);
+    reset(); // Reset the form fields after submission
+    setIsThanks(true);
   };
 
   return (
@@ -29,12 +59,12 @@ const ProposalForm = () => {
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
           <input
             type="text"
-            placeholder="First Name*"
-            {...register("firstName", { required: true })}
+            placeholder="Full Name*"
+            {...register("fullName", { required: true })}
             className="w-full rounded-md p-2 mb-3 outline-none text-black"
           />
-          {errors.firstName && (
-            <span className="text-red-500">First Name is required</span>
+          {errors.fullName && (
+            <span className="text-red-500">Full Name is required</span>
           )}
 
           <input
@@ -65,8 +95,10 @@ const ProposalForm = () => {
         </form>
       </div>
       {isThanks && (
-        <div className="text-green-700 text-center py-4">
-          <p>Thanks for your message! Our team will get back to you shortly.</p>
+        <div className="text-white text-center py-4">
+          <span>
+            Thanks for your message! Our team will get back to you shortly.
+          </span>
         </div>
       )}
     </>
