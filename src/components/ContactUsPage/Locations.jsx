@@ -1,9 +1,17 @@
 import React from "react";
-const Locations = () => {
+const Locations = ({ heading, Locations }) => {
+  function insertLineBreak(address, breakAfter = 35) {
+    if (address.length <= breakAfter) return address;
+    const firstPart = address.slice(0, breakAfter);
+    const secondPart = address.slice(breakAfter).trim();
+    return `${firstPart}<br /> ${secondPart}`;
+  }
   return (
     <>
       <div className="xl:p-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
-        <h2 className="text-2xl font-medium p-8 text-center">Our Offices</h2>
+        <h2 className="text-2xl font-medium p-8 text-center">
+          {heading || "Our Offices"}
+        </h2>
         <div className="flex md:flex-row p-4 gap-4 flex-col justify-evenly">
           <div className="md:w-max w-auto">
             <div className="bg-white rounded-md md:px-12 p-8 md:py-6">
@@ -13,12 +21,16 @@ const Locations = () => {
                   src="https://s.w.org/images/core/emoji/15.0.3/svg/1f1fa-1f1f8.svg"
                   alt=""
                 />
-                EsyCommerce Digital Services LLC
+                {Locations[0].OfficeName || "EsyCommerce Digital Services LLC"}
               </p>
+              <p
+                className="font-normal text-[16px] "
+                dangerouslySetInnerHTML={{
+                  __html: insertLineBreak(Locations[0].OfficeAddress),
+                }}
+              ></p>
               <p className="font-normal text-[16px] ">
-                447 Broadway, 2nd Floor, Suite 896,
-                <br /> New York, New York 10013, USA <br /> Phone: +1 (279)
-                732-6842
+                Phone: {Locations[0].Phone || "+1 (279) 732-6842"}
               </p>
             </div>
           </div>
@@ -30,11 +42,16 @@ const Locations = () => {
                   src="https://s.w.org/images/core/emoji/15.0.3/svg/1f1ee-1f1f3.svg"
                   alt=""
                 />
-                Offshore Global Capability Center (GCC)
+                {Locations[1].OfficeName||"Offshore Global Capability Center (GCC)"}
               </p>
+              <p
+                className="font-normal text-[16px] "
+                dangerouslySetInnerHTML={{
+                  __html: insertLineBreak(Locations[1].OfficeAddress,38),
+                }}
+              ></p>
               <p className="font-normal text-[16px] ">
-                811, Opal Business Park, Wagle Estate <br /> Thane, Mumbai 400
-                606, India <br /> Phone: +91 865-223-3399
+                Phone: {Locations[1].Phone || "+91 865-223-3399"}
               </p>
             </div>
           </div>
