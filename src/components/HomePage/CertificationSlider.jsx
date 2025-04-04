@@ -1,44 +1,17 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import "./css/CertificationSlider.css";
-const brands = [
-  {
-    src: "./src/assets/Aniversary.png",
-    alt: "Aniversary.png",
-    title: "Proven Track Record",
-    text: "13+ years in business",
-  },
-  {
-    src: "./src/assets/CMMI3.png",
-    alt: "CMMI3.png",
-    title: "Defined processes",
-    text: "CMMI level 3 certified",
-  },
-  {
-    src: "./src/assets/ISO.png",
-    alt: "ISO.png",
-    title: "Qulity Assured",
-    text: "ISO 9001:2015 certified",
-  },
-  {
-    src: "./src/assets/ISO27001.png",
-    alt: "ISO27001.png",
-    title: "Data Security Gauranteed",
-    text: "ISO / IEC 27001:2013 certified",
-  },
-  {
-    src: "./src/assets/IAF.png",
-    alt: "IAF.png",
-    title: "global accreditations",
-    text: "IAS & IAF Certified",
-  },
-  {
-    src: "./src/assets/microsoftGoldPartner.png",
-    alt: "microsoftGoldPartner",
-    title: "MICROSOFT GOLD PARTNER",
-    text: "DATA ANALYTICS COMPETENCY",
-  },
-];
-const Certification = ({ BackColor }) => {
+const Certification = ({ BackColor, CertificationSlider }) => {
+  const [brands, setBrands] = useState([]);
+  useEffect(() => {
+    const data =
+      CertificationSlider?.map((item) => ({
+        src: item.CertificateImage.url,
+        alt: item.CertificateImage.alternativeText,
+        title: item.Heading,
+        text: item.subHeading,
+      })) || [];
+    setBrands(data);
+  }, [CertificationSlider]);
   return (
     <>
       <div className="" style={{ backgroundColor: BackColor }}>

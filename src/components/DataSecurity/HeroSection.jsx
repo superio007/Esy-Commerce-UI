@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./css/HeroSection.module.css";
 import Employees from "./assets/Employees.lottie"
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-const HeroSection = () => {
+const HeroSection = ({ heading, subHeading }) => {
   return (
     <>
       <div className="bg-[#007fff]">
@@ -13,11 +13,11 @@ const HeroSection = () => {
           <div className="flex md:flex-row flex-col items-center">
             <div className="md:w-fit flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="text-[50px] font-bold">
-                STAKEHOLDER GRIEVANCE POLICY
+                {heading||"STAKEHOLDER GRIEVANCE POLICY"}
               </h1>
               <p className="mb-8 leading-relaxed">
-                We ensure transparent, fair, and timely resolution of
-                stakeholder concerns.
+                {subHeading||`We ensure transparent, fair, and timely resolution of
+                stakeholder concerns.`}
               </p>
             </div>
             <div id="" className={styles.CareerImage}>

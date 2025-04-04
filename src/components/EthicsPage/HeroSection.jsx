@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./css/HeroSection.module.css";
-import Employees from "./assets/Employees.lottie"
+import Employees from "./assets/Employees.lottie";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-const HeroSection = () => {
+const HeroSection = ({ heading, subHeading }) => {
   return (
     <>
       <div className="bg-[#007fff]">
@@ -12,10 +12,13 @@ const HeroSection = () => {
         >
           <div className="flex md:flex-row flex-col items-center">
             <div className="md:w-fit flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="text-[45px] font-bold">CODE OF ETHICS POLICY</h1>
+              <h1 className="text-[45px] font-bold">
+                {heading || "CODE OF ETHICS POLICY"}
+              </h1>
               <p className="mb-8 leading-relaxed">
-                We commit to honesty, fairness, and ethical excellence in all
-                our actions.
+                {subHeading ||
+                  `We commit to honesty, fairness, and ethical excellence in all
+                our actions.`}
               </p>
             </div>
             <div id="" className={styles.CareerImage}>

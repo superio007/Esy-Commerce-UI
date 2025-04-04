@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./css/HeroSection.module.css";
 import InformationSecurity from "./assets/InformationSecurity.lottie"
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-const HeroSection = () => {
+const HeroSection = ({ heading, subHeading }) => {
   return (
     <>
       <div className="bg-[#007fff]">
@@ -12,10 +12,10 @@ const HeroSection = () => {
         >
           <div className="flex md:flex-row flex-col items-center">
             <div className="md:w-fit flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="text-[60px] font-bold">Information Security</h1>
+              <h1 className="text-[60px] font-bold">{heading||"Information Security"}</h1>
               <p className="mb-8 leading-relaxed">
-                We safeguard your personal data with strict security measures to
-                prevent unauthorized access.
+                {subHeading||`We safeguard your personal data with strict security measures to
+                prevent unauthorized access.`}
               </p>
             </div>
             <div id="" className={styles.CareerImage}>

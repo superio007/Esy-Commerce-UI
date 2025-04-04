@@ -1,4 +1,4 @@
-export default function CoreValues() {
+export default function CoreValues({ coreValues }) {
   const values = [
     {
       title: "Collaboration",
@@ -37,7 +37,7 @@ export default function CoreValues() {
       icon: "🤝",
     },
   ];
-
+  
   return (
     <section className="bg-white">
       <section className="p-6 xl:px-10 py-16 3xl:mx-auto 3xl:max-w-screen-xl text-center">
