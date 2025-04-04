@@ -14,7 +14,7 @@ import DataLabelingAnnotationPageData from "../Data/DataLabelingAnnotationData.j
 
 const fetchDataLabelingAnnotationContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/data-labeling-annotation?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*"
+    "https://whale-app-8hpek.ondigitalocean.app/api/data-labeling-annotation?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };
@@ -40,7 +40,7 @@ const DataLabelingAnnotation = () => {
             />
             <Steps apiRes={apiResponse.how_it_work} />
             <WhyUs apiRes={apiResponse.why_us} />
-            <BrandSlider />
+            <BrandSlider CustomerSlider={apiResponse.customer_slider} />
             <CaseStudiesSection bgColor={"#ffffff"} />
             <FAQ apiRes={apiResponse.faq} />
             <CTA apiRes={apiResponse.cta} />

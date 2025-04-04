@@ -13,21 +13,19 @@ import CustomDevelopmentPageData from "../Data/CustomDevelopmentData.json";
 
 const fetchCustomDevelopmentContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/custom-development?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*"
+    "https://whale-app-8hpek.ondigitalocean.app/api/custom-development?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };
 const CustomDevlopment = () => {
   const { data, isLoading, error } = useQuery({
-      queryKey: ["CustomDevelopmentpage-content"],
-      queryFn: fetchCustomDevelopmentContent,
-    });
-  
-    // Use API data if available; fallback to static data on error
-    const apiResponse = error
-      ? CustomDevelopmentPageData.data || []
-      : data || [];
-    if (isLoading) return <p>Loading...</p>;
+    queryKey: ["CustomDevelopmentpage-content"],
+    queryFn: fetchCustomDevelopmentContent,
+  });
+
+  // Use API data if available; fallback to static data on error
+  const apiResponse = error ? CustomDevelopmentPageData.data || [] : data || [];
+  if (isLoading) return <p>Loading...</p>;
   return (
     <>
       {apiResponse ? (
@@ -39,7 +37,7 @@ const CustomDevlopment = () => {
           />
           <Steps apiRes={apiResponse.how_it_work} />
           <WhyUs apiRes={apiResponse.why_us} />
-          <BrandSlider />
+          <BrandSlider CustomerSlider={apiResponse.customer_slider} />
           <CaseStudiesSection bgColor={"#ffffff"} />
           <FAQ apiRes={apiResponse.faq} />
           <CTA apiRes={apiResponse.cta} />

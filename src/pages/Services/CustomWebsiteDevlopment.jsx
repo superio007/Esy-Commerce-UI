@@ -13,7 +13,7 @@ import CustomWebsiteDevlopmentPageData from "../Data/CustomWebsiteDevlopmentData
 
 const fetchCustomWebsiteDevlopmentContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/custom-website-development?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*"
+    "https://whale-app-8hpek.ondigitalocean.app/api/custom-website-development?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };
@@ -39,7 +39,7 @@ const CustomWebsiteDevlopment = () => {
           />
           <Steps apiRes={apiResponse.how_it_work} />
           <WhyUs apiRes={apiResponse.why_us} />
-          <BrandSlider />
+          <BrandSlider CustomerSlider={apiResponse.customer_slider} />
           <CaseStudiesSection bgColor={"#ffffff"} />
           <FAQ apiRes={apiResponse.faq} />
           <CTA apiRes={apiResponse.cta} />
