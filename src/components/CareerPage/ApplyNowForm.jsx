@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import styles from "./css/ApplyNowForm.module.css";
 import { CiLinkedin } from "react-icons/ci";
 import { BsLightningChargeFill } from "react-icons/bs";
-import { Axios } from "axios";
-const postContactForm = async (formattedData) => {
+import axios from "axios";
+const postJobForm = async (formattedData) => {
   const { data } = await axios.post(
     "http://localhost:1337/api/sticky-form-entries",
     formattedData, // Sending formattedData in the request body
@@ -162,7 +162,7 @@ const ApplyNowForm = () => {
         Email: data.Email,
       },
     };
-    postContactForm(formattedData);
+    postJobForm(formattedData);
     reset();
     setFileName("");
     setFileUrl("");
