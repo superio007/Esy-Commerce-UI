@@ -19,7 +19,7 @@ import StrapiLogo from "./assets/Strapi.jpg";
 import NodeLogo from "./assets/node.png";
 import AngularLogo from "./assets/angular.png";
 
-const Headless = () => {
+const Headless = ({ apiRes }) => {
   const [isTopVisible, setIsTopVisible] = useState(false);
   const [isBottomVisible, setIsBottomVisible] = useState(false);
   const [isFullVisible, setIsFullVisible] = useState(false);
@@ -83,14 +83,16 @@ const Headless = () => {
           <h2
             className={`${styles.LandHeadingSectionHeading} xl:text-6xl text-4xl font-bold leading-tight text-center`}
           >
-            Discover the Power of <br /> Custom Development
+            {apiRes.Heading ||
+              "Discover the Power of <br /> Custom Development"}
           </h2>
           <p
             className={`leading-tight text-center ${styles.LandHeadingSectionSubheading}`}
           >
-            Want a high-performing, user-friendly website? With our web
+            {apiRes.subHeading ||
+              `Want a high-performing, user-friendly website? With our web
             development team, create a website that loads faster and looks
-            unique.
+            unique.`}
           </p>
         </section>
         <section
@@ -100,16 +102,22 @@ const Headless = () => {
           <div className="outer-div p-2 grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 items-center gap-6 pt-12 pb-12 relative">
             <div className="left-div">
               <div className="flex flex-col md:items-start md:text-left md:mb-0 items-center">
-                <h3 className={`title-font md:text-left ${styles.LandHeadlessCMSHeading} text-center sm:text-4xl text-3xl mb-4 font-medium `}>
-                  Before they sold out
+                <h3
+                  className={`title-font md:text-left ${styles.LandHeadlessCMSHeading} text-center sm:text-4xl text-3xl mb-4 font-medium `}
+                >
+                  {apiRes.home_headless_cms_section_points[0].Heading ||
+                    ` Before they sold out
                   <br className="hidden lg:inline-block" />
-                  readymade gluten
+                  readymade gluten`}
                 </h3>
-                <p className={`${styles.LandHeadlessCMSSubheading} mb-8 md:text-left text-center leading-relaxed`}>
-                  Copper mug try-hard pitchfork pour-over freegan heirloom
+                <p
+                  className={`${styles.LandHeadlessCMSSubheading} mb-8 md:text-left text-center leading-relaxed`}
+                >
+                  {apiRes.home_headless_cms_section_points[0].subHeading ||
+                    `Copper mug try-hard pitchfork pour-over freegan heirloom
                   neutra air plant cold-pressed tacos poke beard tote bag.
                   Heirloom echo park mlkshk tote bag selvage hot chicken
-                  authentic tumeric truffaut hexagon try-hard chambray.
+                  authentic tumeric truffaut hexagon try-hard chambray.`}
                 </p>
               </div>
             </div>
@@ -241,16 +249,22 @@ const Headless = () => {
 
             <div className="right-div relative z-10">
               <div className="flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-                <h3 className={`${styles.LandHeadlessCMSHeading} title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium`}>
-                  Before they sold out
+                <h3
+                  className={`${styles.LandHeadlessCMSHeading} title-font md:text-left text-center sm:text-4xl text-3xl mb-4 font-medium`}
+                >
+                  {apiRes.home_headless_cms_section_points[1].Heading ||
+                    `Before they sold out
                   <br className="hidden lg:inline-block" />
-                  readymade gluten
+                  readymade gluten`}
                 </h3>
-                <p className={`${styles.LandHeadlessCMSSubheading} mb-8 md:text-left text-center leading-relaxed`}>
-                  Copper mug try-hard pitchfork pour-over freegan heirloom
+                <p
+                  className={`${styles.LandHeadlessCMSSubheading} mb-8 md:text-left text-center leading-relaxed`}
+                >
+                  {apiRes.home_headless_cms_section_points[1].subHeading ||
+                    `Copper mug try-hard pitchfork pour-over freegan heirloom
                   neutra air plant cold-pressed tacos poke beard tote bag.
                   Heirloom echo park mlkshk tote bag selvage hot chicken
-                  authentic tumeric truffaut hexagon try-hard chambray.
+                  authentic tumeric truffaut hexagon try-hard chambray.`}
                 </p>
               </div>
             </div>

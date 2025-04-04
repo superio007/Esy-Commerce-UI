@@ -5,13 +5,22 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import styles from "./css/Testimonial.module.css";
-import { div } from "framer-motion/client";
 
-const Testimonial = () => {
+const Testimonial = ({ apiRes }) => {
   const sectionRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(100); // Initial offset
   const [isVisible, setIsVisible] = useState(false);
-
+  const [testimonials, setTestimonials] = useState([]);
+  useEffect(() => {
+    const data =
+      apiRes.home_testamonials_points?.map((item) => ({
+        name: item.ClientName,
+        role: item.ClientPosition,
+        image: "https://dummyimage.com/302x302",
+        text: item.review,
+      })) || [];
+    setTestimonials(data);
+  }, [apiRes]);
   useEffect(() => {
     const handleScroll = () => {
       if (sectionRef.current) {
@@ -32,27 +41,6 @@ const Testimonial = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const testimonials = [
-    {
-      name: "HOLDEN CAULFIELD",
-      role: "Senior Product Designer",
-      image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park...",
-    },
-    {
-      name: "ALPER KAMU",
-      role: "UI Developer",
-      image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park...",
-    },
-    {
-      name: "HENRY LETHAM",
-      role: "CTO",
-      image: "https://dummyimage.com/302x302",
-      text: "Edison bulb retro cloud bread echo park...",
-    },
-  ];
 
   return (
     <div className="bg-[#fafafa]">

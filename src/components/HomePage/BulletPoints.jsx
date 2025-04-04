@@ -1,19 +1,15 @@
 import { useEffect, useState, useRef } from "react";
 import styles from "./css/BuletPoints.module.css";
 
-const BulletPoints = () => {
-  const bulletPoints = [
-    "Authentic Cliche Forage",
-    "Kinfolk Chips Snackwave",
-    "Coloring Book Ethical",
-    "Typewriter Polaroid Cray",
-    "Pack Truffaut Blue",
-    "The Catcher In The Rye",
-  ];
-
+const BulletPoints = ({ apiRes }) => {
   const [visibleIndexes, setVisibleIndexes] = useState([]);
   const bulletRefs = useRef([]);
-
+  const [bulletPoints, setbulletPoints] = useState([]);
+  useEffect(() => {
+    const data =
+      apiRes.home_bullet_section_points?.map((item) => item.Heading) || [];
+    setbulletPoints(data);
+  }, [apiRes]);
   useEffect(() => {
     const handleScroll = () => {
       const newVisibleIndexes = [];
@@ -46,8 +42,8 @@ const BulletPoints = () => {
           <div id="LeftSide">
             <img
               className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600"
+              alt={apiRes.sideimage.alternativeText || "hero"}
+              src={apiRes.sideimage.url}
             />
           </div>
           <div className="mt-4 xl:mt-0 sm:mt-6 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -55,15 +51,17 @@ const BulletPoints = () => {
               <h2
                 className={`title-font ${styles.LandBulletsHeading} sm:text-4xl capitalize text-3xl mb-4 font-medium`}
               >
-                Before they sold out
+                {apiRes.Heading ||
+                  `Before they sold out
                 <br className="hidden lg:inline-block" />
-                readymade gluten
+                readymade gluten`}
               </h2>
               <p className={`leading-relaxed ${styles.LandBulletsSubheading}`}>
-                Copper mug try-hard pitchfork pour-over freegan heirloom neutra
+                {apiRes.subHeading ||
+                  `Copper mug try-hard pitchfork pour-over freegan heirloom neutra
                 air plant cold-pressed tacos poke beard tote bag. Heirloom echo
                 park mlkshk tote bag selvage hot chicken authentic tumeric
-                truffaut hexagon try-hard chambray.
+                truffaut hexagon try-hard chambray.`}
               </p>
             </div>
             <div className="flex flex-wrap w-full">
