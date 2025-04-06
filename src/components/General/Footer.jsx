@@ -1,8 +1,8 @@
-import WebsitLogo from "./assets/Logo.png";
+import WebsitLogo from "../../../src/assets/General/Logo.png";
 import styles from "./css/Footer.module.css";
 import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
-import FooterBrands from "./assets/footerBrands.png";
+import FooterBrands from "../../../src/assets/General/footerBrands.png";
 import { useEffect , useState } from "react";
 const Footer = () => {
   const handleClick = () => {

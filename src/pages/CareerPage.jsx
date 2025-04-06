@@ -3,10 +3,11 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import styles from "../components/CareerPage/css/CarrearCards.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import lottie from "../assets/CareerPage/vRMSsmzJes (2).lottie";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Jobs from "../components/CareerPage/assets/jobs.json";
+import Jobs from "../assets/CareerPage/jobs.json";
 import {
   FaLaptop,
   FaBriefcase,
@@ -84,11 +85,7 @@ const careerPage = () => {
               </div>
             </div>
             <div id="" className={styles.CareerImage}>
-              <DotLottieReact
-                src="./src/components/CareerPage/assets/vRMSsmzJes (2).lottie"
-                loop
-                autoplay
-              />
+              <DotLottieReact src={lottie} loop autoplay />
             </div>
           </div>
         </section>
@@ -344,7 +341,9 @@ const careerPage = () => {
         >
           {Jobs.map((volunteer, index) => (
             <SwiperSlide key={index}>
-              <div className={`${styles.careerCard} px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200`}>
+              <div
+                className={`${styles.careerCard} px-10 py-10  bg-white  rounded-xl flex flex-col gap-y-4 border border-gray-200`}
+              >
                 {/* Type and Urgency */}
                 <div className="flex gap-4 items-center">
                   <span className="bg-[#aec8d5] py-2 px-3 text-[12px] text-[#00234b] rounded-3xl">

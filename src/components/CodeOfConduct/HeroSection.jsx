@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./css/HeroSection.module.css";
-import Employees from "./assets/Employees.lottie";
+import Employees from "../../../src/assets/CodeOfConduct/Employees.lottie";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const HeroSection = ({ heading, subHeading }) => {
   return (

@@ -1,10 +1,10 @@
 import { useParallax } from "react-scroll-parallax";
 import "./css/RotateEffect.css";
-import loadingLogo from "./assets/loadingLogo.png";
-import Wordpress from "./assets/wordpress.png";
-import drupal from "./assets/drupal.png";
-import magento from "./assets/magento.png";
-import joomla from "./assets/social.png";
+import loadingLogo from "../../../src/assets/homePage/loadingLogo.png";
+import Wordpress from "../../../src/assets/homePage/wordpress.png";
+import drupal from "../../../src/assets/homePage/drupal.png";
+import magento from "../../../src/assets/homePage/magento.png";
+import joomla from "../../../src/assets/homePage/social.png";
 
 const RotateEffect = () => {
   const parallax = useParallax({

@@ -1,5 +1,5 @@
 import { useParams, NavLink } from "react-router-dom";
-import Jobs from "../components/CareerPage/assets/jobs.json";
+import Jobs from "../assets/CareerPage/jobs.json";
 import styles from "../components/CareerPage/css/SinglePosting.module.css";
 import { FiDownload } from "react-icons/fi";
 import AnimatedBtn from "../components/General/AnimatedBtn";

@@ -1,26 +1,28 @@
 import { useParams, NavLink } from "react-router-dom";
-import Jobs from "../components/CareerPage/assets/jobs.json";
+import Jobs from "../assets/CareerPage/jobs.json";
 import ApplyNowForm from "../components/CareerPage/ApplyNowForm";
 import styles from "../components/CareerPage/css/SinglePosting.module.css";
 const ApplyNowPage = () => {
   let jobTitle = useParams();
   let title = "";
-    title = jobTitle.title.split("-").join(" ");
-    const SingleJob = [];
-    Jobs.forEach((job) => {
-      if (job.job_title === title) {
-        SingleJob.push(job);
-      }
-    });
-  
-//   console.log(SingleJob);
+  title = jobTitle.title.split("-").join(" ");
+  const SingleJob = [];
+  Jobs.forEach((job) => {
+    if (job.job_title === title) {
+      SingleJob.push(job);
+    }
+  });
+
+  //   console.log(SingleJob);
   return (
     <>
-      <div className={`${styles.singleHeading} bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center`}>
+      <div
+        className={`${styles.singleHeading} bg-[#007fff] text-white h-auto py-[60px] px-[30px] md:h-80 flex flex-col gap-4  justify-center items-center`}
+      >
         <h1 className="text-center text-[32px] text-wrap sm:text-4xl md:text-6xl">
           {title}
         </h1>
-        {SingleJob.map((job,index) => (
+        {SingleJob.map((job, index) => (
           <div key={index} className="flex gap-4 justify-center flex-wrap p-2">
             <div className="flex items-center gap-1">
               {/* location */}
@@ -148,7 +150,7 @@ const ApplyNowPage = () => {
         ))}
       </div>
       <div className="xl:px-40 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl">
-        <ApplyNowForm/>
+        <ApplyNowForm />
       </div>
     </>
   );

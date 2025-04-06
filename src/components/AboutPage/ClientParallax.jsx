@@ -1,12 +1,12 @@
 import { Parallax } from "react-scroll-parallax";
-import C2P from "./assets/C2P.png";
-import Joshi from "./assets/Johi.png";
-import JollyDesign from "./assets/JollyDesign.png";
-import Realxwell from "./assets/Realxwell.png";
-import SleepyOwl from "./assets/Sleepy_Owl.png";
-import StylistWardrobe from "./assets/Stylist_Wardrobe.png";
-import Vahdam from "./assets/Vahdam.png";
-import VibrantLiving from "./assets/Vibrant_Living.png";
+import C2P from "../../../src/assets/AboutPage/C2P.png";
+import Joshi from "../../../src/assets/AboutPage/Johi.png";
+import JollyDesign from "../../../src/assets/AboutPage/JollyDesign.png";
+import Realxwell from "../../../src/assets/AboutPage/Realxwell.png";
+import SleepyOwl from "../../../src/assets/AboutPage/Sleepy_Owl.png";
+import StylistWardrobe from "../../../src/assets/AboutPage/Stylist_Wardrobe.png";
+import Vahdam from "../../../src/assets/AboutPage/Vahdam.png";
+import VibrantLiving from "../../../src/assets/AboutPage/Vibrant_Living.png";
 
 const ClientParallax = () => {
   return (

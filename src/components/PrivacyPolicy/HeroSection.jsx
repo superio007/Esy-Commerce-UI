@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./css/HeroSection.module.css";
-import PrivacyLottie from "./assets/Privacy.lottie";
+import PrivacyLottie from "../../../src/assets/PrivacyPolicy/Privacy.lottie";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const HeroSection = ({ heading, subHeading }) => {
   return (

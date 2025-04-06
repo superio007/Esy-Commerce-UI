@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import logoWhite from "./assets/logoWhite.png";
+import logoWhite from "../../../src/assets/General/logoWhite.png";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Sticky from "./StickyFrom";

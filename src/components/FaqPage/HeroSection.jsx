@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./css/HeroSection.module.css";
-import Employees from "./assets/FAQ.lottie"
+import Employees from "../../../src/assets/FaqPage/FAQ.lottie"
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const HeroSection = () => {
   return (
