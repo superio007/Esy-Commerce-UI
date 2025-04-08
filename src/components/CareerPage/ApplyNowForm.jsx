@@ -1,13 +1,13 @@
 import { useForm } from "react-hook-form";
 import "flowbite";
 import { useState, useEffect } from "react";
-import styles from "./css/ApplyNowForm.module.css";
 import { CiLinkedin } from "react-icons/ci";
 import { BsLightningChargeFill } from "react-icons/bs";
 import axios from "axios";
+import emailjs from "@emailjs/browser";
 const postJobForm = async (formattedData) => {
   const { data } = await axios.post(
-    "http://localhost:1337/api/sticky-form-entries",
+    "https://whale-app-8hpek.ondigitalocean.app/api/carrear-forms-entires",
     formattedData, // Sending formattedData in the request body
     {
       headers: {
@@ -27,87 +27,89 @@ const ApplyNowForm = () => {
     reset,
     formState: { errors },
   } = useForm();
+  // cloudnary variables
   const CLOUDINARY_URL = import.meta.env.VITE_CLOUDINARY_URL;
   const UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_PRESET;
-  const FullnameValue = watch("name", "");
-  const PhoneValue = watch("Phone", "");
-  const EmailValue = watch("Email", "");
-  const ExpectedCtcValue = watch("ExpectedCtc", "");
-  const CurrentCtcValue = watch("CurrentCtc", "");
-  const CurrentCityValue = watch("CurrentCity", "");
-  const watchedPosition = watch("Postion", "");
-  const OtherPositionValue = watch("OtherPosition", "");
-  const watchedFind = watch("Find", "");
-  const OtherFindValue = watch("OtherFind", "");
-  const watchedReason = watch("Reason", "");
-  const OtherReasonValue = watch("OtherReason", "");
-  const watchedSystem = watch("Sytsem", "");
-  const watchedInternet = watch("Internet", "");
-  const watchedJoin = watch("Join", "");
-  const watchedJobType = watch("JobType", "");
-  const OtherJobTypeValue = watch("OtherJobType", "");
-  const watchedNotice = watch("Notice", "");
-  const ExperienceValue = watch("Experience", "");
-  const MessageValue = watch("Message", "");
-  const watchedDate = watch("Date", "");
-  const [fileName, setFileName] = useState("");
-  const [fileUrl, setFileUrl] = useState(""); // Store uploaded file URL
+  // states
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-
-  const [showDateInput, setShowDateInput] = useState(true);
-  const [showQuestionInput, setShowQuestionInput] = useState(true);
-
   const [showOtherPositionInput, setShowOtherPositionInput] = useState(false);
   const [showOtherJobTypeInput, setShowOtherJobTypeInput] = useState(false);
   const [showOtherFindInput, setShowOtherFindInput] = useState(false);
   const [showOtherReasonInput, setShowOtherReasonInput] = useState(false);
-  // const [DateJoin, setDateJoin] = useState(false);
+  const [showDateInput, setshowDateInput] = useState(false);
+  const [showJoinInput, setshowJoinInput] = useState(false);
+  // watchers
+  const FullnameValue = watch("name", "");
+  const EmailValue = watch("Email", "");
+  const PhoneValue = watch("Phone", "");
+  const PositionValue = watch("Position", "");
+  const OtherPositionValue = watch("OtherPosition", "");
+  const ExperienceValue = watch("Experience", "");
+  const JobTypeValue = watch("JobType", "");
+  const OtherJobTypeValue = watch("OtherJobType", "");
+  const CurrentCtcValue = watch("CurrentCtc", "");
+  const ExpectedCtcValue = watch("ExpectedCtc", "");
+  const CurrentCityValue = watch("CurrentCity", "");
+  const FindValue = watch("Find", "");
+  const OtherFindValue = watch("OtherFind", "");
+  const ReasonValue = watch("Reason", "");
+  const OtherReasonValue = watch("OtherReason", "");
+  const SystemValue = watch("System", "");
+  const InternetValue = watch("Internet", "");
+  const NoticeValue = watch("Notice", "");
+  const DateValue = watch("Date", "");
+  const JoinValue = watch("Join", "");
+  const MessageValue = watch("Message", "");
+  // for uploading resume
+  const [fileName, setFileName] = useState("");
+  const [fileUrl, setFileUrl] = useState("");
+  const [error, setError] = useState("");
+  // watchers to show fields
+  // show other position input field
   useEffect(() => {
-    if (watchedFind === "Other") {
-      setShowOtherFindInput(true);
-    } else {
-      setShowOtherFindInput(false);
-    }
-  }, [watchedFind]);
-  useEffect(() => {
-    if (watchedReason === "Other") {
-      setShowOtherReasonInput(true);
-    } else {
-      setShowOtherReasonInput(false);
-    }
-  }, [watchedReason]);
-  useEffect(() => {
-    if (watchedPosition === "Other") {
+    if (PositionValue === "Other") {
       setShowOtherPositionInput(true);
     } else {
       setShowOtherPositionInput(false);
     }
-  }, [watchedPosition]);
+  }, [PositionValue]);
+  // other job type input field
   useEffect(() => {
-    if (watchedJobType === "Other") {
+    if (JobTypeValue === "Other") {
       setShowOtherJobTypeInput(true);
     } else {
       setShowOtherJobTypeInput(false);
     }
-  }, [watchedJobType]);
-
+  }, [JobTypeValue]);
+  // other find input field
   useEffect(() => {
-    setShowDateInput(false);
-    setShowQuestionInput(false);
-  }, []);
-  useEffect(() => {
-    if (watchedNotice === "Yes") {
-      setShowDateInput(false); // Enable Date Picker
-      setShowQuestionInput(true); // Disable Join
-    } else if (watchedNotice === "No") {
-      setShowDateInput(true); // Disable Date Picker
-      setShowQuestionInput(false); // Enable Join
+    if (FindValue === "Other") {
+      setShowOtherFindInput(true);
+    } else {
+      setShowOtherFindInput(false);
     }
-    setValue("Join", "");
-    setValue("Date", "");
-  }, [watchedNotice, setValue]);
-
+  }, [FindValue]);
+  // other reason input field
+  useEffect(() => {
+    if (ReasonValue === "Other") {
+      setShowOtherReasonInput(true);
+    } else {
+      setShowOtherReasonInput(false);
+    }
+  }, [ReasonValue]);
+  // to display join dropdown or date input
+  useEffect(() => {
+    if (NoticeValue === "Yes") {
+      setshowJoinInput(true);
+      setshowDateInput(false);
+    } else if (NoticeValue === "No") {
+      setshowJoinInput(false);
+      setshowDateInput(true);
+    } else {
+      setshowJoinInput(false);
+      setshowDateInput(false);
+    }
+  }, [NoticeValue]);
   const onFileChange = (event) => {
     const file = event.target.files[0];
 
@@ -127,13 +129,7 @@ const ApplyNowForm = () => {
     }
   };
   const onSubmit = async (data) => {
-    if (!data.resume) {
-      alert("Please upload a resume");
-      return;
-    }
-
     setLoading(true);
-    console.log(data);
     const formData = new FormData();
     formData.append("file", data.resume);
     formData.append("upload_preset", UPLOAD_PRESET); // Required by Cloudinary
@@ -147,29 +143,52 @@ const ApplyNowForm = () => {
       const result = await response.json();
       console.log(result);
       setFileUrl(result.secure_url); // ✅ Store the file URL
-      //   console.log("Uploaded File URL:", result.secure_url);
       data.resume = result.secure_url;
-      console.log(data);
-      //   alert("Resume uploaded successfully!");
     } catch (error) {
       console.error("Upload Error:", error);
       alert("Failed to upload resume");
     }
-
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICEID, // Replace with your EmailJS Service ID
+        import.meta.env.VITE_CONTACTTEMPLATEID, // Replace with your EmailJS Template ID
+        data,
+        import.meta.env.VITE_PUBLICID // Replace with your EmailJS Public Key
+      )
+      .then(() => console.log(""))
+      .catch((error) => alert("Error sending email: " + error.text));
+    const formatedData = {
+      data: {
+        FullName: data.name,
+        Email: data.Email,
+        Phone: data.Phone,
+        Position: data.Position,
+        OtherPosition: data.OtherPosition,
+        Experiance: data.Experience,
+        JobType: data.JobType,
+        OtherJobType: data.OtherJobType,
+        CurrentCtc: data.CurrentCtc,
+        ExpectCtc: data.ExpectedCtc,
+        City: data.CurrentCity,
+        ResumeLink: data.resume,
+        JobPortal: data.Find,
+        OtherJobPortal: data.OtherFind,
+        ResonToLeave: data.Reason,
+        OtherResonToLeave: data.OtherPosition,
+        OwnSystem: data.System,
+        Internet: data.Internet,
+        NoticePeriod: data.Notice,
+        RelavingDate: data.Join,
+        JoiningDate: data.Date,
+        Message: data.Message,
+      },
+    };
+    postJobForm(formatedData);
     setLoading(false);
-    // const formattedData = {
-    //   data: {
-    //     FullName: data.name,
-    //     Phone: data.Phone,
-    //     Email: data.Email,
-    //   },
-    // };
-    // postJobForm(formattedData);
     reset();
     setFileName("");
     setFileUrl("");
   };
-
   return (
     <>
       <div className="ApplyNowForm flex flex-col md:flex-row gap-4 justify-between items-center p-8 rounded-2xl bg-[#fff]">
@@ -827,15 +846,15 @@ const ApplyNowForm = () => {
             <div className="py-4 w-full">
               <div className="relative">
                 <select
-                  id="Postion"
-                  {...register("Postion", {
+                  id="Position"
+                  {...register("Position", {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                     ${
-                      errors.Postion
+                      errors.Position
                         ? "border-red-600"
-                        : watchedPosition
+                        : PositionValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -855,11 +874,11 @@ const ApplyNowForm = () => {
                   <option value="Other">Other</option>
                 </select>
                 <label
-                  htmlFor="Postion"
+                  htmlFor="Position"
                   className={`absolute text-sm ${
-                    errors.Postion
+                    errors.Position
                       ? "text-red-600"
-                      : watchedPosition
+                      : PositionValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -867,9 +886,9 @@ const ApplyNowForm = () => {
                   Select Your Position
                 </label>
               </div>
-              {errors.Postion && (
+              {errors.Position && (
                 <span className="mt-2 pl-2 text-xs text-red-600">
-                  {errors.Postion.message}
+                  {errors.Position.message}
                 </span>
               )}
             </div>
@@ -965,7 +984,7 @@ const ApplyNowForm = () => {
                     ${
                       errors.JobType
                         ? "border-red-600"
-                        : watchedJobType
+                        : JobTypeValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -984,7 +1003,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.JobType
                       ? "text-red-600"
-                      : watchedJobType
+                      : JobTypeValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1009,7 +1028,7 @@ const ApplyNowForm = () => {
                   type="text"
                   id="OtherJobType"
                   {...register("OtherJobType", {
-                    required: showOtherJobTypeInput
+                    required: !showOtherJobTypeInput
                       ? false
                       : "Other Job Type is required",
                   })}
@@ -1053,8 +1072,8 @@ const ApplyNowForm = () => {
                   {...register("CurrentCtc", {
                     required: "Current Ctc is required",
                   })}
-                  min={watchedJobType === "Internship" ? 0 : 100000}
-                  value={watchedJobType === "Internship" ? 0 : CurrentCtcValue}
+                  min={JobTypeValue === "Internship" ? 0 : 100000}
+                  value={JobTypeValue === "Internship" ? 0 : CurrentCtcValue}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 ${
                     errors.CurrentCtc
                       ? "border-red-600"
@@ -1092,7 +1111,7 @@ const ApplyNowForm = () => {
                   {...register("ExpectedCtc", {
                     required: "Expected ctc is required",
                   })}
-                  min={watchedJobType === "Internship" ? 0 : 100000}
+                  min={JobTypeValue === "Internship" ? 0 : 100000}
                   // value=""
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 ${
                     errors.ExpectedCtc
@@ -1222,7 +1241,7 @@ const ApplyNowForm = () => {
                     ${
                       errors.Find
                         ? "border-red-600"
-                        : watchedFind
+                        : FindValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -1261,7 +1280,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.Find
                       ? "text-red-600"
-                      : watchedFind
+                      : FindValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1286,7 +1305,7 @@ const ApplyNowForm = () => {
                   type="text"
                   id="OtherFind"
                   {...register("OtherFind", {
-                    required: showOtherFindInput
+                    required: !showOtherFindInput
                       ? false
                       : "Other Find is required",
                   })}
@@ -1319,7 +1338,7 @@ const ApplyNowForm = () => {
               )}
             </div>
             {/* Reason */}
-            <div className="py-4 w-full">
+            <div className={`py-4 w-full`}>
               <div className="relative">
                 <select
                   id="Reason"
@@ -1330,7 +1349,7 @@ const ApplyNowForm = () => {
                     ${
                       errors.Reason
                         ? "border-red-600"
-                        : watchedReason
+                        : ReasonValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -1355,7 +1374,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.Reason
                       ? "text-red-600"
-                      : watchedReason
+                      : ReasonValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1370,13 +1389,19 @@ const ApplyNowForm = () => {
               )}
             </div>
             {/* Other Reason */}
-            <div className={`py-4 w-full`}>
+            <div
+              className={`${
+                showOtherReasonInput ? "block" : "hidden"
+              } py-4 w-full`}
+            >
               <div className="relative">
                 <input
                   type="text"
                   id="OtherReason"
                   {...register("OtherReason", {
-                    required: "Other Reason is required",
+                    required: !showOtherReasonInput
+                      ? false
+                      : "Other Reason is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 ${
                     errors.OtherReason
@@ -1409,19 +1434,19 @@ const ApplyNowForm = () => {
           </div>
           {/* System | Internet */}
           <div className="flex md:flex-row flex-col md:gap-4 justify-between">
-            {/* Sytsem */}
+            {/* System */}
             <div className="py-4 w-full">
               <div className="relative">
                 <select
-                  id="Sytsem"
-                  {...register("Sytsem", {
+                  id="System"
+                  {...register("System", {
                     required: "This field is required",
                   })}
                   className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                     ${
-                      errors.Sytsem
+                      errors.System
                         ? "border-red-600"
-                        : watchedSystem
+                        : SystemValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -1434,11 +1459,11 @@ const ApplyNowForm = () => {
                   <option value="Yes">Yes</option>
                 </select>
                 <label
-                  htmlFor="Sytsem"
+                  htmlFor="System"
                   className={`absolute text-sm ${
-                    errors.Sytsem
+                    errors.System
                       ? "text-red-600"
-                      : watchedSystem
+                      : SystemValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1446,9 +1471,9 @@ const ApplyNowForm = () => {
                   Do You Own A Computer System For (WFH/Hybrid)
                 </label>
               </div>
-              {errors.Sytsem && (
+              {errors.System && (
                 <span className="mt-2 pl-2 text-xs text-red-600">
-                  {errors.Sytsem.message}
+                  {errors.System.message}
                 </span>
               )}
             </div>
@@ -1464,7 +1489,7 @@ const ApplyNowForm = () => {
                     ${
                       errors.Internet
                         ? "border-red-600"
-                        : watchedInternet
+                        : InternetValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -1481,7 +1506,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.Internet
                       ? "text-red-600"
-                      : watchedInternet
+                      : InternetValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1510,7 +1535,7 @@ const ApplyNowForm = () => {
                     ${
                       errors.Notice
                         ? "border-red-600"
-                        : watchedNotice
+                        : NoticeValue
                         ? "border-green-600"
                         : "border-gray-500"
                     } 
@@ -1527,7 +1552,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.Notice
                       ? "text-red-600"
-                      : watchedNotice
+                      : NoticeValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1541,11 +1566,10 @@ const ApplyNowForm = () => {
                 </span>
               )}
             </div>
-            {/* Date of Joining */}
-            {/* {DateJoin && (
-              <> */}
             {/* Date Picker */}
-            {/* <div className="py-4 w-full">
+            <div
+              className={`${showDateInput ? "block" : "hidden"} py-4 w-full`}
+            >
               <div className="relative">
                 <input
                   type="date"
@@ -1553,14 +1577,11 @@ const ApplyNowForm = () => {
                   {...register("Date", {
                     required: !showDateInput ? false : "Date is required",
                   })}
-                  disabled={!showDateInput} // ✅ Fix: Initially disabled
-                  className={`${
-                    !showDateInput ? styles.disabledInput : " "
-                  } block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
+                  className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                   ${
                     errors.Date
                       ? "border-red-600"
-                      : watchedDate?.length > 0
+                      : DateValue?.length > 0
                       ? "border-green-600"
                       : "border-gray-500"
                   } 
@@ -1572,7 +1593,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.Date
                       ? "text-red-600"
-                      : watchedDate?.length > 0
+                      : DateValue?.length > 0
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1585,25 +1606,22 @@ const ApplyNowForm = () => {
                   {errors.Date.message}
                 </span>
               )}
-            </div> */}
+            </div>
             {/* Join */}
-            <div className={` py-4 w-full`}>
+            <div
+              className={`${showJoinInput ? "block" : "hidden"} py-4 w-full`}
+            >
               <div className="relative">
                 <select
                   id="Join"
                   {...register("Join", {
-                    required: !showQuestionInput
-                      ? false
-                      : "This field is required",
+                    required: !showJoinInput ? false : "This field is required",
                   })}
-                  disabled={!showQuestionInput} // ✅ Fix: Initially disabled
-                  className={`${
-                    !showQuestionInput ? styles.disabledInput : " "
-                  } block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
+                  className={`block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                         ${
                           errors.Join
                             ? "border-red-600"
-                            : watchedJoin
+                            : JoinValue
                             ? "border-green-600"
                             : "border-gray-500"
                         } 
@@ -1622,7 +1640,7 @@ const ApplyNowForm = () => {
                   className={`absolute text-sm ${
                     errors.Join
                       ? "text-red-600"
-                      : watchedJoin
+                      : JoinValue
                       ? "text-green-600"
                       : "text-gray-500"
                   } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
@@ -1636,8 +1654,6 @@ const ApplyNowForm = () => {
                 </span>
               )}
             </div>
-            {/* </>
-            )} */}
             {/* Message */}
             <div className="py-4 w-full">
               <div className="relative">
@@ -1680,7 +1696,7 @@ const ApplyNowForm = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="mt-4 bg-[#007fff]  text-white px-16 py-4 rounded-lg"
+              className="mt-4 bg-[#007fff] hover:bg-indigo-700 hover:cursor-pointer text-white px-16 py-4 rounded-lg"
               disabled={loading}
             >
               {loading ? (

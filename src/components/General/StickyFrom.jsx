@@ -131,7 +131,7 @@ const StickyFrom = () => {
           <div className="w-full xl:w-auto flex items-center">
             <button
               type="submit"
-              className="text-white w-full xl:w-[180px] bg-[#007fff] border-0 py-3 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg flex justify-center items-center"
+              className="text-white w-full xl:w-[180px] bg-[#007fff] border-0 py-3 px-8 focus:outline-none hover:bg-indigo-700 hover:cursor-pointer rounded text-lg flex justify-center items-center"
               disabled={isSubmitting || loading}
             >
               {loading ? (
@@ -233,7 +233,7 @@ const StickyFrom = () => {
           <div className="w-full xl:w-auto flex items-center">
             <button
               type="submit"
-              className="text-white w-full xl:w-[180px] bg-[#007fff] border-0 py-3 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg flex justify-center items-center"
+              className="text-white w-full xl:w-[180px] bg-[#007fff] border-0 py-3 px-8 focus:outline-none hover:bg-indigo-700 hover:cursor-pointer rounded text-lg flex justify-center items-center"
               disabled={isSubmitting || loading}
             >
               {loading ? (

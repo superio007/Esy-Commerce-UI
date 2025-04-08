@@ -2,6 +2,20 @@ import { set, useForm, Controller } from "react-hook-form";
 import { useState, useEffect } from "react";
 import Select from "react-select";
 import styles from "./css/PartnerForm.module.css";
+import axios from "axios";
+import emailjs from "@emailjs/browser";
+const postPartnerForm = async (formattedData) => {
+  const { data } = await axios.post(
+    "https://whale-app-8hpek.ondigitalocean.app/api/partner-form-entries",
+    formattedData, // Sending formattedData in the request body
+    {
+      headers: {
+        "Content-Type": "application/json", // Ensure JSON content type
+      },
+    }
+  );
+  return data;
+};
 const PartnerForm = () => {
   const {
     register,
@@ -93,7 +107,37 @@ const PartnerForm = () => {
       console.error("Upload Error:", error);
       alert("Failed to upload Protfolio");
     }
-
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICEID, // Replace with your EmailJS Service ID
+        import.meta.env.VITE_CONTACTTEMPLATEID, // Replace with your EmailJS Template ID
+        data,
+        import.meta.env.VITE_PUBLICID // Replace with your EmailJS Public Key
+      )
+      .then(() => console.log(""))
+      .catch((error) => alert("Error sending email: " + error.text));
+    const formatedData = {
+      data: {
+        FirstName: data.FirstName,
+        LastName: data.LastName,
+        Phone: data.Phone,
+        Email: data.Email,
+        WebsiteURL: data.Website,
+        CompanyName: data.CompanyName,
+        CompanyType: data.CompanyType,
+        OtherCompanyType: data.OtherCompanyType,
+        CompanySize: data.CompanySize,
+        Address: data.Address,
+        PrimaryService: data.PrimaryServices,
+        OtherPrimaryService: data.OtherPrimaryService,
+        SecondaryServices: data.SecondaryServices,
+        PortfolioLink: data.Protfolio,
+        SocialMedia: data.SocialMedia,
+        OtherSocialMedia: data.showOtherSocial,
+        Pitch: data.ElevatorPitch,
+      },
+    };
+    postPartnerForm(formatedData);
     setLoading(false);
     reset();
     reset({ SecondaryServices: [] });
@@ -914,7 +958,7 @@ const PartnerForm = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="mt-4 bg-[#007fff]  text-white px-16 py-4 rounded-lg"
+              className="mt-4 bg-[#007fff] hover:bg-indigo-700 hover:cursor-pointer  text-white px-16 py-4 rounded-lg"
               disabled={loading}
             >
               {loading ? (
