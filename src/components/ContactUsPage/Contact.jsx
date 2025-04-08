@@ -1,9 +1,12 @@
 import { useForm } from "react-hook-form";
 import { useState } from "react";
+import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "http://localhost:1337/api/contact-from-entries",
+    "https://whale-app-8hpek.ondigitalocean.app/api/contact-from-entries",
     formattedData, // Sending formattedData in the request body
     {
       headers: {
@@ -13,7 +16,31 @@ const postContactForm = async (formattedData) => {
   );
   return data;
 };
+const usePostContactForm = () => {
+  return useMutation({
+    mutationFn: postContactForm, // ✅ Correct way to use mutation function
+    onSuccess: () => {
+      Swal.fire({
+        icon: "success",
+        title: "Form Submitted Successfully!",
+        text: "Your contact form has been sent.",
+        confirmButtonText: "OK",
+      });
+    },
+    onError: (error) => {
+      Swal.fire({
+        icon: "error",
+        title: "Submission Failed",
+        text:
+          error.response?.data?.message ||
+          "Something went wrong. Please try again.",
+        confirmButtonText: "OK",
+      });
+    },
+  });
+};
 const Conatct = ({ sectionPoints }) => {
+  const { mutate } = usePostContactForm();
   const {
     register,
     handleSubmit,
@@ -29,7 +56,15 @@ const Conatct = ({ sectionPoints }) => {
   const EmailValue = watch("Email", "");
   const onSubmit = (data) => {
     setLoading(true);
-    console.log(data);
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICEID, // Replace with your EmailJS Service ID
+        import.meta.env.VITE_CONTACTTEMPLATEID, // Replace with your EmailJS Template ID
+        data,
+        import.meta.env.VITE_PUBLICID // Replace with your EmailJS Public Key
+      )
+      .then(() => console.log("Email sent successfully"))
+      .catch((error) => alert("Error sending email: " + error.text));
     const formattedData = {
       data: {
         FullName: data.name,
@@ -37,7 +72,7 @@ const Conatct = ({ sectionPoints }) => {
         Email: data.Email,
       },
     };
-    postContactForm(formattedData);
+    mutate(formattedData);
     setLoading(false);
     reset();
   };

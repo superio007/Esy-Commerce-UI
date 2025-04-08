@@ -9,9 +9,9 @@ const Map = () => {
         width="100%"
         height="100%"
         style={{
-          border: "0",// Ensures interactivity
+          border: "0", // Ensures interactivity
         }}
-        fullscreenControl="false"
+        fullscreencontrol="false"
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
