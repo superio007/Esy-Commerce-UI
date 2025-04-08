@@ -1,4 +1,4 @@
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import "flowbite";
 import { useState, useEffect } from "react";
 import styles from "./css/ApplyNowForm.module.css";
@@ -62,6 +62,7 @@ const ApplyNowForm = () => {
   const [showOtherJobTypeInput, setShowOtherJobTypeInput] = useState(false);
   const [showOtherFindInput, setShowOtherFindInput] = useState(false);
   const [showOtherReasonInput, setShowOtherReasonInput] = useState(false);
+  // const [DateJoin, setDateJoin] = useState(false);
   useEffect(() => {
     if (watchedFind === "Other") {
       setShowOtherFindInput(true);
@@ -132,7 +133,7 @@ const ApplyNowForm = () => {
     }
 
     setLoading(true);
-
+    console.log(data);
     const formData = new FormData();
     formData.append("file", data.resume);
     formData.append("upload_preset", UPLOAD_PRESET); // Required by Cloudinary
@@ -144,6 +145,7 @@ const ApplyNowForm = () => {
       });
 
       const result = await response.json();
+      console.log(result);
       setFileUrl(result.secure_url); // ✅ Store the file URL
       //   console.log("Uploaded File URL:", result.secure_url);
       data.resume = result.secure_url;
@@ -155,14 +157,14 @@ const ApplyNowForm = () => {
     }
 
     setLoading(false);
-    const formattedData = {
-      data: {
-        FullName: data.name,
-        Phone: data.Phone,
-        Email: data.Email,
-      },
-    };
-    postJobForm(formattedData);
+    // const formattedData = {
+    //   data: {
+    //     FullName: data.name,
+    //     Phone: data.Phone,
+    //     Email: data.Email,
+    //   },
+    // };
+    // postJobForm(formattedData);
     reset();
     setFileName("");
     setFileUrl("");
@@ -1539,18 +1541,21 @@ const ApplyNowForm = () => {
                 </span>
               )}
             </div>
+            {/* Date of Joining */}
+            {/* {DateJoin && (
+              <> */}
             {/* Date Picker */}
-            <div className="py-4 w-full">
+            {/* <div className="py-4 w-full">
               <div className="relative">
                 <input
                   type="date"
                   id="Date"
                   {...register("Date", {
-                    required: showDateInput ? false : "Date is required",
+                    required: !showDateInput ? false : "Date is required",
                   })}
                   disabled={!showDateInput} // ✅ Fix: Initially disabled
                   className={`${
-                    styles.disabledInput
+                    !showDateInput ? styles.disabledInput : " "
                   } block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                   ${
                     errors.Date
@@ -1580,21 +1585,20 @@ const ApplyNowForm = () => {
                   {errors.Date.message}
                 </span>
               )}
-            </div>
-
+            </div> */}
             {/* Join */}
             <div className={` py-4 w-full`}>
               <div className="relative">
                 <select
                   id="Join"
                   {...register("Join", {
-                    required: showQuestionInput
+                    required: !showQuestionInput
                       ? false
                       : "This field is required",
                   })}
                   disabled={!showQuestionInput} // ✅ Fix: Initially disabled
                   className={`${
-                    styles.disabledInput
+                    !showQuestionInput ? styles.disabledInput : " "
                   } block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 
                         ${
                           errors.Join
@@ -1632,6 +1636,8 @@ const ApplyNowForm = () => {
                 </span>
               )}
             </div>
+            {/* </>
+            )} */}
             {/* Message */}
             <div className="py-4 w-full">
               <div className="relative">

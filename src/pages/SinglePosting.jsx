@@ -23,8 +23,8 @@ const SinglePosting = () => {
         <h1 className="text-center text-[32px] text-wrap sm:text-4xl md:text-6xl">
           {title}
         </h1>
-        {SingleJob.map((job) => (
-          <div className="flex gap-4 justify-center flex-wrap p-2">
+        {SingleJob.map((job, index) => (
+          <div key={index} className="flex gap-4 justify-center flex-wrap p-2">
             <div className="flex items-center gap-1">
               {/* location */}
               <svg
