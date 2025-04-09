@@ -13,21 +13,19 @@ import TransliterationPageData from "../Data/TransliterationData.json";
 
 const fetchTransliterationContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/transliteration?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/transliteration?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };
 const Transliteration = () => {
   const { data, isLoading, error } = useQuery({
-      queryKey: ["Transliterationpage-content"],
-      queryFn: fetchTransliterationContent,
-    });
-  
-    // Use API data if available; fallback to static data on error
-    const apiResponse = error
-      ? TransliterationPageData.data || []
-      : data || [];
-    if (isLoading) return <p>Loading...</p>;
+    queryKey: ["Transliterationpage-content"],
+    queryFn: fetchTransliterationContent,
+  });
+
+  // Use API data if available; fallback to static data on error
+  const apiResponse = error ? TransliterationPageData.data || [] : data || [];
+  if (isLoading) return <p>Loading...</p>;
   return (
     <>
       {apiResponse ? (

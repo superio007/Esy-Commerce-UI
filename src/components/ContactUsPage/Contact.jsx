@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://whale-app-8hpek.ondigitalocean.app/api/contact-from-entries",
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/contact-from-entries",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

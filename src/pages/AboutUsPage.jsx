@@ -12,7 +12,7 @@ import AboutPageData from "../Data/AboutData.json";
 
 const fetchAboutContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/about-page?populate[about_hero_section][populate]=*&populate[about_why_us][populate]=*&populate[about_us_core_value][populate]=*&populate[about_team_section][populate]=*&populate[certifications][populate]=*&populate[about_cta][populate]=*&populate[team_members][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/about-page?populate[about_hero_section][populate]=*&populate[about_why_us][populate]=*&populate[about_us_core_value][populate]=*&populate[about_team_section][populate]=*&populate[certifications][populate]=*&populate[about_cta][populate]=*&populate[team_members][populate]=*"
   );
   return data.data;
 };

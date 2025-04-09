@@ -7,7 +7,7 @@ import axios from "axios";
 import emailjs from "@emailjs/browser";
 const postJobForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://whale-app-8hpek.ondigitalocean.app/api/carrear-forms-entires",
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/carrear-forms-entires",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

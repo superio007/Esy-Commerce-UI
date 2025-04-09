@@ -13,7 +13,7 @@ import CustomDevelopmentPageData from "../Data/CustomDevelopmentData.json";
 
 const fetchCustomDevelopmentContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/custom-development?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/custom-development?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };

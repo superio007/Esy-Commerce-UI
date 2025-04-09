@@ -9,7 +9,7 @@ import { useQuery } from "@tanstack/react-query";
 import CodeofConductPageData from "../Data/CodeofConductData.json";
 const fetchCodeofConductPageDataContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/codeof-conduct"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/codeof-conduct"
   );
   return data.data;
 };
@@ -28,12 +28,12 @@ const CodeofConductPage = () => {
       />
       <div className={`${styles.CodeOfConduct} bg-white`}>
         <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeRaw]}
-            >
-              {apiResponse.Content}
-            </ReactMarkdown>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw]}
+          >
+            {apiResponse.Content}
+          </ReactMarkdown>
         </div>
       </div>
     </>

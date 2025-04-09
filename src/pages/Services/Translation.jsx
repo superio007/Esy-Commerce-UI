@@ -13,7 +13,7 @@ import TranslationPageData from "../Data/TranslationData.json";
 
 const fetchTranslationContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/translation?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/translation?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };
@@ -24,30 +24,28 @@ const Translation = () => {
   });
 
   // Use API data if available; fallback to static data on error
-  const apiResponse = error
-    ? TranslationPageData.data || []
-    : data || [];
+  const apiResponse = error ? TranslationPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;
-    return (
-      <>
-        {apiResponse ? (
-          <>
-            <HeroSection apiRes={apiResponse.service_hero_section} />
-            <OverviewKeyBenifits
-              overview={apiResponse.service_over_view}
-              keyBenifits={apiResponse.key_benift}
-            />
-            <Steps apiRes={apiResponse.how_it_work} />
-            <WhyUs apiRes={apiResponse.why_us} />
-            <BrandSlider CustomerSlider={apiResponse.customer_slider} />
-            <CaseStudiesSection bgColor={"#ffffff"} />
-            <FAQ apiRes={apiResponse.faq} />
-            <CTA apiRes={apiResponse.cta} />
-          </>
-        ) : (
-          <div>No data available</div>
-        )}
-      </>
-    );
-}
-export default Translation
+  return (
+    <>
+      {apiResponse ? (
+        <>
+          <HeroSection apiRes={apiResponse.service_hero_section} />
+          <OverviewKeyBenifits
+            overview={apiResponse.service_over_view}
+            keyBenifits={apiResponse.key_benift}
+          />
+          <Steps apiRes={apiResponse.how_it_work} />
+          <WhyUs apiRes={apiResponse.why_us} />
+          <BrandSlider CustomerSlider={apiResponse.customer_slider} />
+          <CaseStudiesSection bgColor={"#ffffff"} />
+          <FAQ apiRes={apiResponse.faq} />
+          <CTA apiRes={apiResponse.cta} />
+        </>
+      ) : (
+        <div>No data available</div>
+      )}
+    </>
+  );
+};
+export default Translation;

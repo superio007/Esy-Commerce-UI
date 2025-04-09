@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import axios from "axios";
 const postEnqueryForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://whale-app-8hpek.ondigitalocean.app/api/enquery-form-entries",
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/enquery-form-entries",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

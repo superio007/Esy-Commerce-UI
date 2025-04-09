@@ -7,7 +7,7 @@ import { encryptData, decryptData } from "../../utils/cryptoUtils";
 import axios from "axios";
 const postStickyForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://whale-app-8hpek.ondigitalocean.app/api/sticky-form-entries",
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/sticky-form-entries",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

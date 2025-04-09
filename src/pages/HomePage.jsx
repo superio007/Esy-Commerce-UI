@@ -13,7 +13,7 @@ import HomePageData from "../Data/HomeData.json";
 
 const fetchHomeContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/home-page?populate[home_herosection][populate]=*&populate[customer_slider][populate]=*&populate[home_bullet_section][populate]=*&populate[home_service_section][populate]=*&populate[home_headless_cms_section][populate]=*&populate[home_testamonial_section][populate]=*&populate[certifications][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/home-page?populate[home_herosection][populate]=*&populate[customer_slider][populate]=*&populate[home_bullet_section][populate]=*&populate[home_service_section][populate]=*&populate[home_headless_cms_section][populate]=*&populate[home_testamonial_section][populate]=*&populate[certifications][populate]=*"
   );
   return data.data;
 };

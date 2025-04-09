@@ -10,7 +10,7 @@ import ContactPageData from "../Data/ContactData.json";
 
 const fetchContactContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/contact-page?populate[contact_section][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/contact-page?populate[contact_section][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };

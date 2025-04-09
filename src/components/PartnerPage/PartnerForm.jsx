@@ -6,7 +6,7 @@ import axios from "axios";
 import emailjs from "@emailjs/browser";
 const postPartnerForm = async (formattedData) => {
   const { data } = await axios.post(
-    "https://whale-app-8hpek.ondigitalocean.app/api/partner-form-entries",
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/partner-form-entries",
     formattedData, // Sending formattedData in the request body
     {
       headers: {

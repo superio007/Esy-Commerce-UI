@@ -9,7 +9,7 @@ import { useQuery } from "@tanstack/react-query";
 import DataSecurityPageData from "../Data/DataSecurityData.json";
 const fetchDataSecurityPageDataContent = async () => {
   const { data } = await axios.get(
-    "https://whale-app-8hpek.ondigitalocean.app/api/data-security-policy"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/data-security-policy"
   );
   return data.data;
 };
@@ -29,12 +29,12 @@ const DataSecurityPolicyPage = () => {
       <div className={`${styles.DataPolicy} bg-white`}>
         <div>
           <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-              <ReactMarkdown
-                remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeRaw]}
-              >
-                {apiResponse.Content}
-              </ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+            >
+              {apiResponse.Content}
+            </ReactMarkdown>
           </div>
         </div>
       </div>
