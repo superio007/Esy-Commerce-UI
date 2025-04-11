@@ -40,7 +40,7 @@ export default function CoreValues({ coreValues }) {
   
   return (
     <section className="bg-white">
-      <section className="p-6 xl:px-10 py-16 3xl:mx-auto 3xl:max-w-screen-xl text-center">
+      <section className="p-6 xl:px-10 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl text-center">
         <h2 className="text-4xl font-bold text-gray-800">Our Core Values</h2>
         <p className="mt-2 text-gray-600">
           Our values shape the culture of our organization and define the

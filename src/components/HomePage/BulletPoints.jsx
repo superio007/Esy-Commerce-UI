@@ -38,7 +38,7 @@ const BulletPoints = ({ apiRes }) => {
       className={`${styles.BuletSection} xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}
     >
       <section className=" body-font">
-        <div className="flex px-5 pb-18 pt-18 md:flex-row flex-col items-center">
+        <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
           <div id="LeftSide">
             <img
               className="object-cover object-center rounded"

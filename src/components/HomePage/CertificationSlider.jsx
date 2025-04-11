@@ -15,7 +15,7 @@ const Certification = ({ BackColor, CertificationSlider }) => {
   return (
     <>
       <div className="" style={{ backgroundColor: BackColor }}>
-        <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="xl:px-10 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
           <div
             className="Certification-slider-container"
             // style={{ backgroundColor: "#f6f3ff", borderTop: "1px solid #e2d9ff" }}

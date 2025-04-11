@@ -13,7 +13,7 @@ const BPM = () => {
         </section>
       </div>
       <div className="bg-white">
-        <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="xl:px-10 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Content Migration */}
           <section className="text-gray-600 body-font">
             <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
@@ -47,7 +47,7 @@ const BPM = () => {
           </section>
           {/* Translation */}
           <section className="text-gray-600 body-font">
-            <div className="flex px-5 py-24 md:flex-row flex-col items-center">
+            <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
               <div className="w-full md:w-1/2 flex justify-start">
                 <img
                   className="object-cover object-center rounded w-full max-w-md"
@@ -109,7 +109,7 @@ const BPM = () => {
           </section>
           {/* Transliteration */}
           <section className="text-gray-600 body-font">
-            <div className="flex px-5 py-24 md:flex-row flex-col items-center">
+            <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
               <div className="w-full md:w-1/2 flex justify-start">
                 <img
                   className="object-cover object-center rounded w-full max-w-md"

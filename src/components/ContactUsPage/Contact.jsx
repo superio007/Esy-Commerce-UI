@@ -78,7 +78,7 @@ const Conatct = ({ sectionPoints }) => {
   };
   return (
     <>
-      <div className="flex md:flex-row items-center p-6 flex-col-reverse xl:p-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="flex md:flex-row items-center md:py-16 py-8 flex-col-reverse xl:py-16 xl:px-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="w-full md:w-1/2 lg:w-3/5">
           <div className="flex flex-wrap ">
             <div className="p-2 sm:w-1/2 w-full">
@@ -365,7 +365,7 @@ const Conatct = ({ sectionPoints }) => {
             <div className="flex justify-start">
               <button
                 type="submit"
-                className="mt-4 bg-[#007fff] hover:bg-indigo-700 hover:cursor-pointer  text-white px-16 py-4 rounded-lg"
+                className="mt-4 bg-[#007fff] hover:bg-[#0066ff] hover:cursor-pointer  text-white px-16 py-4 rounded-lg"
                 disabled={loading}
               >
                 {loading ? (

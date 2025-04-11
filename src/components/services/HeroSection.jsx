@@ -4,7 +4,7 @@ const HeroSection = ({ apiRes }) => {
   return (
     <>
       <div className="bg-[#007fff]">
-        <div className="flex md:flex-row flex-col items-center xl:px-16 p-8 md:py-16 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="flex md:flex-row flex-col items-center xl:px-16 px-8 xl:py-16 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
           <section
             className={`w-full mb-8 md:mb-0 md:w-1/2 ${styles.EcommerceConsultation}`}
           >

@@ -17,10 +17,7 @@ const landingBrandslider = ({ CustomerSlider }) => {
   return (
     <div className={isContactPage ? "bg-[#fafafa]" : "bg-[fff]"}>
       <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
-        <div
-          className=" brand-slider-container"
-          // style={{ backgroundColor: "#f6f3ff", borderTop: "1px solid #e2d9ff" }}
-        >
+        <div className=" brand-slider-container">
           {/* Scrolling Brand Logos */}
           <div className="brand-slider">
             <div className="slider-track">

@@ -1,9 +1,10 @@
 import WebsitLogo from "../../../src/assets/General/Logo.png";
 import styles from "./css/Footer.module.css";
 import { Link } from "react-router-dom";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import FooterBrands from "../../../src/assets/General/footerBrands.png";
-import { useEffect , useState } from "react";
+import { useEffect, useState } from "react";
 const Footer = () => {
   const handleClick = () => {
     window.scrollTo(0, 0);
@@ -30,13 +31,29 @@ const Footer = () => {
                 <p>Contact</p>
               </Link>
             </div>
-            <div className="mt-8 md:mt-0">
+            <div className="flex gap-3 mt-8 md:mt-0">
               <Link
                 to={
                   "https://www.linkedin.com/company/esycommerce?originalSubdomain=in"
                 }
+                target="_blank"
               >
-                <FaLinkedin className="text-[#00234b] hover:text-[#007fff] text-md" />
+                <FaLinkedinIn className="text-[#00234b] hover:text-[#007fff] text-lg" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/channel/UCnrZjfj9nMDt76ibDXYHqQQ"}
+                target="_blank"
+              >
+                <FaYoutube className="text-[#00234b] hover:text-[#007fff] text-lg" />
+              </Link>
+              <Link
+                to={"https://www.instagram.com/esycommerce/"}
+                target="_blank"
+              >
+                <FaInstagram className="text-[#00234b] hover:text-[#007fff] text-lg" />
+              </Link>
+              <Link to={"https://x.com/EsyCommerce"} target="_blank">
+                <FaXTwitter className="text-[#00234b] hover:text-[#007fff] text-lg" />
               </Link>
             </div>
           </div>

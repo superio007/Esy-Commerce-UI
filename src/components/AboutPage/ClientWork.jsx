@@ -7,7 +7,7 @@ export default function ClientWorkSection({ points, heading }) {
     )} <br />\n<span className="text-[#007fff]">${lastWord}</span>`;
   }
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white md:py-16 py-8">
       <div className="flex flex-col md:flex-row items-center justify-between px-8 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="md:w-1/2 text-gray-800 text-lg leading-relaxed">
           {points.map((point, index) => (

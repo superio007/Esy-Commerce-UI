@@ -48,7 +48,7 @@ const BlogGrid = () => {
   }, [inView, vantaEffect]);
 
   return (
-    <section ref={ref} className="relative  xl:py-12">
+    <section ref={ref} className="relative md:py-16 py-8">
       {/* The Vanta.js background will be applied here */}
       <div
         ref={vantaRef}
@@ -58,9 +58,11 @@ const BlogGrid = () => {
       {/* Content on top of the Vanta background */}
       <section
         id="HeadingSection"
-        className="relative xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl"
+        className="relative xl:px-12 pb-6 3xl:mx-auto 3xl:max-w-screen-xl"
       >
-        <h2 className={`${styles.LandBlogHeading} xl:text-6xl text-4xl font-bold leading-tight text-center`}>
+        <h2
+          className={`${styles.LandBlogHeading} xl:text-6xl text-4xl font-bold leading-tight text-center`}
+        >
           Our Blogs
         </h2>
       </section>
@@ -72,22 +74,34 @@ const BlogGrid = () => {
           id="overFlow"
           className="grid grid-cols-5 grid-rows-6 gap-8 min-w-[800px] flex-shrink-0"
         >
-          <div className={`${styles.blogGrid} row-span-4 bg-[#007fff] rounded-2xl text-white h-[350px]`}>
+          <div
+            className={`${styles.blogGrid} row-span-4 bg-[#007fff] rounded-2xl text-white h-[350px]`}
+          >
             1
           </div>
-          <div className={`${styles.blogGrid} col-span-3 row-span-4 bg-[#007fff] rounded-2xl text-white`}>
+          <div
+            className={`${styles.blogGrid} col-span-3 row-span-4 bg-[#007fff] rounded-2xl text-white`}
+          >
             2
           </div>
-          <div className={`${styles.blogGrid} row-span-4 col-start-5 row-start-3 bg-[#007fff] rounded-2xl text-white`}>
+          <div
+            className={`${styles.blogGrid} row-span-4 col-start-5 row-start-3 bg-[#007fff] rounded-2xl text-white`}
+          >
             3
           </div>
-          <div className={`${styles.blogGrid} row-span-2 col-start-5 row-start-1 bg-[#007fff] rounded-2xl text-white`}>
+          <div
+            className={`${styles.blogGrid} row-span-2 col-start-5 row-start-1 bg-[#007fff] rounded-2xl text-white`}
+          >
             4
           </div>
-          <div className={`${styles.blogGrid} col-span-2 row-span-2 col-start-3 row-start-5 bg-[#007fff] rounded-2xl text-white`}>
+          <div
+            className={`${styles.blogGrid} col-span-2 row-span-2 col-start-3 row-start-5 bg-[#007fff] rounded-2xl text-white`}
+          >
             5
           </div>
-          <div className={`${styles.blogGrid} col-span-2 row-span-2 col-start-1 row-start-5 bg-[#007fff] rounded-2xl text-white`}>
+          <div
+            className={`${styles.blogGrid} col-span-2 row-span-2 col-start-1 row-start-5 bg-[#007fff] rounded-2xl text-white`}
+          >
             6
           </div>
         </div>

@@ -20,7 +20,7 @@ const FAQ = ({ apiRes }) => {
   };
 
   return (
-    <section className="py-16 px-4 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
+    <section className="md:py-16 py-8 px-8 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
       <div className="space-y-3 text-center">
         <h2 className="text-3xl text-gray-800 font-semibold">
           {apiRes.Heading || "Frequently Asked Questions"}

@@ -958,7 +958,7 @@ const PartnerForm = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="mt-4 bg-[#007fff] hover:bg-indigo-700 hover:cursor-pointer  text-white px-16 py-4 rounded-lg"
+              className="mt-4 bg-[#007fff] hover:bg-[#0066ff] hover:cursor-pointer  text-white px-16 py-4 rounded-lg"
               disabled={loading}
             >
               {loading ? (

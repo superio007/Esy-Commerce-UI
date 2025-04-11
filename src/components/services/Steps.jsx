@@ -2,7 +2,7 @@ const Steps = ({ apiRes }) => {
   let count = 1;
   return (
     <>
-      <div className="xl:px-10 py-16 p-4 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="xl:px-10 md:py-16 py-8 px-8 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="flex flex-col text-center w-full mb-10">
           <h2 className="title-font sm:text-4xl text-3xl mb-4 text-gray-900">
             {apiRes.Heading || "How It Work"}

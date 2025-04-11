@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const HeaderSection = ({ apiRes }) => {
   return (
     <section className={`${styles.HeaderAboutSection} bg-[#007fff] text-white`}>
-      <div className="p-6 xl:px-10 py-16 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="p-6 xl:px-10 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl xl:text-5xl font-bold leading-tight">

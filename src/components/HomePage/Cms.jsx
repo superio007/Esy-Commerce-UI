@@ -17,7 +17,7 @@ const CMS = ({ apiRes }) => {
       <div className="bg-white">
         <section
           id="CMSSection"
-          className=" xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl py-16 "
+          className=" xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl md:py-16 py-8 "
         >
           <div className="md:text-left text-center grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
             {/* Left Content */}

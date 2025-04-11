@@ -3,7 +3,7 @@ const CTA = ({ apiRes }) => {
   return (
     <>
       <div className="bg-white">
-        <div className="p-6  md:py-16 xl:px-16 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="px-8 xl:px-16 md:py-16 xl:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
           <div className="flex text-center flex-col justify-center items-center gap-12">
             <h2 className="text-xl md:text-4xl font-bold">
               {apiRes.Heading ||

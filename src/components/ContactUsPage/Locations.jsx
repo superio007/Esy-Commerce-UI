@@ -8,7 +8,7 @@ const Locations = ({ heading, Locations }) => {
   }
   return (
     <>
-      <div className="xl:p-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="xl:p-16 xl:px-10 md:py-16 py-8 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
         <h2 className="text-2xl font-medium p-8 text-center">
           {heading || "Our Offices"}
         </h2>
@@ -42,12 +42,13 @@ const Locations = ({ heading, Locations }) => {
                   src="https://s.w.org/images/core/emoji/15.0.3/svg/1f1ee-1f1f3.svg"
                   alt=""
                 />
-                {Locations[1].OfficeName||"Offshore Global Capability Center (GCC)"}
+                {Locations[1].OfficeName ||
+                  "Offshore Global Capability Center (GCC)"}
               </p>
               <p
                 className="font-normal text-[16px] "
                 dangerouslySetInnerHTML={{
-                  __html: insertLineBreak(Locations[1].OfficeAddress,38),
+                  __html: insertLineBreak(Locations[1].OfficeAddress, 38),
                 }}
               ></p>
               <p className="font-normal text-[16px] ">

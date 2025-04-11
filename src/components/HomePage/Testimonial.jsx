@@ -43,12 +43,12 @@ const Testimonial = ({ apiRes }) => {
   }, []);
 
   return (
-    <div className="bg-[#fafafa]">
+    <div className="bg-[#ffffff]">
       <section
         className={`${styles.testimonials} xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}
         ref={sectionRef}
       >
-        <div className="md:px-5 md:pt-12 py-12">
+        <div className="md:px-5 md:py-16 py-8">
           <div className="md:pb-12 pb-2">
             <h2 className="Land-Testimonial-Heading xl:text-4xl text-4xl font-bold leading-tight text-center">
               What our clients say!

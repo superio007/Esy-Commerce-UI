@@ -7,36 +7,71 @@ import magento from "../../../src/assets/homePage/magento.png";
 import joomla from "../../../src/assets/homePage/social.png";
 
 const RotateEffect = () => {
-  const parallax = useParallax({
+  const parallaxOuter = useParallax({
     rotate: [0, 360], // Rotate effect while scrolling
   });
-
+  const parallaxSecondOuter = useParallax({
+    rotate: [360, 0], // Rotate effect while scrolling
+  });
+  const parallaxSecondInner = useParallax({
+    rotate: [0, 360], // Rotate effect while scrolling
+  });
   return (
-    <div className="spinner border-effect">
-      <img
-        src={loadingLogo}
-        id="centerLogo"
-        alt="loadingLogo"
-        className="h-[80px]"
-      />
-      <div ref={parallax.ref}>
-        {/* Center logo (will not rotate) */}
-
-        {/* Rotating elements */}
-        <div className="Wordpress">
-          <img className="img" src={Wordpress} alt="WordPress Logo" />
+    <>
+      <div className="spinner border-effect">
+        <img
+          src={loadingLogo}
+          id="centerLogo"
+          alt="loadingLogo"
+          className="h-[80px]"
+        />
+        <div className="outer-rotation-container" ref={parallaxOuter.ref}>
+          {/* Rotating elements */}
+          <div className="element-one">
+            <img className="img" src={Wordpress} alt="WordPress Logo" />
+          </div>
+          <div className="element-two">
+            <img className="img" src={drupal} alt="Drupal Logo" />
+          </div>
+          <div className="element-three">
+            <img className="img" src={joomla} alt="Joomla Logo" />
+          </div>
+          <div className="element-four">
+            <img className="img" src={magento} alt="Magento Logo" />
+          </div>
         </div>
-        <div className="Drupal">
-          <img className="img" src={drupal} alt="Drupal Logo" />
+        <div className="second-outer-container" ref={parallaxSecondOuter.ref}>
+          {/* Rotating elements */}
+          <div className="element-one">
+            <img className="img" src={Wordpress} alt="WordPress Logo" />
+          </div>
+          <div className="element-two">
+            <img className="img" src={drupal} alt="Drupal Logo" />
+          </div>
+          <div className="element-three">
+            <img className="img" src={joomla} alt="Joomla Logo" />
+          </div>
+          <div className="element-four">
+            <img className="img" src={magento} alt="Magento Logo" />
+          </div>
         </div>
-        <div className="Joomla">
-          <img className="img" src={joomla} alt="Joomla Logo" />
-        </div>
-        <div className="Magento">
-          <img className="img" src={magento} alt="Magento Logo" />
+        <div className="second-inner-container" ref={parallaxSecondInner.ref}>
+          {/* Rotating elements */}
+          <div className="element-one">
+            <img className="img" src={Wordpress} alt="WordPress Logo" />
+          </div>
+          <div className="element-two">
+            <img className="img" src={drupal} alt="Drupal Logo" />
+          </div>
+          <div className="element-three">
+            <img className="img" src={joomla} alt="Joomla Logo" />
+          </div>
+          <div className="element-four">
+            <img className="img" src={magento} alt="Magento Logo" />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

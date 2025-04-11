@@ -1,4 +1,4 @@
-import React, { useState ,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 import "swiper/css";
@@ -20,8 +20,8 @@ const TeamSection = ({ heading, TeamMembers, subHeading }) => {
     setteamMembers(data);
   }, [TeamMembers]);
   return (
-    <div className="p-6 xl:px-16 py-[40px] 3xl:mx-auto 3xl:max-w-screen-xl">
-      <div className="flex flex-col text-center gap-4 py-8">
+    <div className="p-6 xl:px-16 md:pt-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
+      <div className="flex flex-col text-center gap-4 pb-8">
         <h2 className="text-2xl md:text-4xl font-bold">
           {heading || "Our Team"}
         </h2>

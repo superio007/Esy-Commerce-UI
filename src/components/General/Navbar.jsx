@@ -103,7 +103,7 @@ const Navbar = () => {
         // #007fffc7
         className={`${
           isContactPage ? `bg-[#007fffc7]` : `bg-[#007fff]`
-        } p-2 border-gray-200 dark:border-gray-600 relative z-9`}
+        } p-3 border-gray-200 dark:border-gray-600 relative z-9`}
       >
         <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
@@ -584,7 +584,7 @@ const Navbar = () => {
             >
               {/* Top Line */}
               <motion.span
-                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                className="absolute w-6 h-0.5 bg-white rounded"
                 variants={{
                   closed: { rotate: 0, y: -6 },
                   open: { rotate: 45, y: 0 },
@@ -593,7 +593,7 @@ const Navbar = () => {
               />
               {/* Middle Line */}
               <motion.span
-                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                className="absolute w-6 h-0.5 bg-white rounded"
                 variants={{
                   closed: { opacity: 1 },
                   open: { opacity: 0 },
@@ -602,7 +602,7 @@ const Navbar = () => {
               />
               {/* Bottom Line */}
               <motion.span
-                className="absolute w-6 h-0.5 bg-gray-500 rounded"
+                className="absolute w-6 h-0.5 bg-white rounded"
                 variants={{
                   closed: { rotate: 0, y: 6 },
                   open: { rotate: -45, y: 0 },
@@ -617,7 +617,7 @@ const Navbar = () => {
         <div
           className={`xl:hidden ${styles.mobileMenuNav} ${
             isMenuOpen ? "block" : "hidden"
-          } p-4 bg-white xl:px-10 flex flex-col justify-between min-h-screen`}
+          } p-4 bg-white xl:px-10 md:mt-0 mt-3 flex flex-col justify-between min-h-screen`}
         >
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
             <li className={styles.navHeadsMobile}>

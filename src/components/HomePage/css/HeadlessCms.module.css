@@ -1,6 +1,8 @@
 .BrandLogo{
   width: 65%;
   object-fit: contain;
+  background-color: #fafafa;
+  background-size: contain;
 }
 @keyframes fadeInUp {
   from {

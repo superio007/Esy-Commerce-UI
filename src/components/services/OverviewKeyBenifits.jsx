@@ -3,10 +3,10 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
   return (
     <>
       <div className="bg-white">
-        <div className="xl:px-10 py-6 md:py-16 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="xl:px-10 py-8 px-8 md:py-16 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Overview of Services */}
           <section className="text-gray-600 body-font">
-            <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+            <div className="container mx-auto flex md:px-5 md:flex-row flex-col items-center">
               <div className="w-full md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
                 <h2 className="title-font sm:text-2xl text-center text-3xl mb-4 text-gray-900">
                   {overview.Heading || "Overview of the Service"}
@@ -41,7 +41,7 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
           </section>
           {/* Key Section */}
           <section className="text-gray-600 body-font">
-            <div className="flex px-5 py-12 md:pt-16 md:pb-0 md:flex-row flex-col-reverse items-center">
+            <div className="flex md:px-5 pt-8 md:pt-16 md:pb-0 md:flex-row flex-col-reverse items-center">
               <div className="w-full md:w-1/2 flex justify-center mt-3 md:mt-0 md:justify-start">
                 <img
                   className="object-cover object-center rounded w-full max-w-md"

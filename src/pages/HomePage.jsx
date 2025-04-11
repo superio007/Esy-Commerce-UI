@@ -28,28 +28,32 @@ const HomePage = () => {
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
-      {/* Hero Section */}
-      <HeroSection
-        heading={apiResponse.home_herosection.Heading}
-        subHeading={apiResponse.home_herosection.subHeading}
-      />
-      {/* Brand Slider */}
-      <CustomerSlider CustomerSlider={apiResponse.customer_slider} />
-      {/* Bullet Points */}
-      <BulletPoints apiRes={apiResponse.home_bullet_section} />
-      {/* CMS Section */}
-      <CMS apiRes={apiResponse.home_service_section} />
-      {/* Headless Cms section */}
-      <Headless apiRes={apiResponse.home_headless_cms_section} />
-      {/* Blog Grid */}
-      <BlogGrid />
-      {/* Testimonial */}
-      <Testimonial apiRes={apiResponse.home_testamonial_section} />
-      {/* Awards & Certification */}
-      <Certification
-        BackColor={"#fff"}
-        CertificationSlider={apiResponse.certifications}
-      />
+      <div className={styles.HomePage}>
+        {/* Hero Section */}
+        <HeroSection
+          heading={apiResponse.home_herosection.Heading}
+          subHeading={apiResponse.home_herosection.subHeading}
+        />
+        {/* Brand Slider */}
+        <div className="md:pt-6">
+          <CustomerSlider CustomerSlider={apiResponse.customer_slider} />
+        </div>
+        {/* Bullet Points */}
+        <BulletPoints apiRes={apiResponse.home_bullet_section} />
+        {/* CMS Section */}
+        <CMS apiRes={apiResponse.home_service_section} />
+        {/* Headless Cms section */}
+        <Headless apiRes={apiResponse.home_headless_cms_section} />
+        {/* Testimonial */}
+        <Testimonial apiRes={apiResponse.home_testamonial_section} />
+        {/* Blog Grid */}
+        <BlogGrid />
+        {/* Awards & Certification */}
+        <Certification
+          BackColor={"#fff"}
+          CertificationSlider={apiResponse.certifications}
+        />
+      </div>
     </>
   );
 };

@@ -1,21 +1,30 @@
-.rotation-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 400px; /* Adjust as needed */
-}
-
 .spinner {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   transform-origin: center;
-  border: 3px solid #ffd700; /* Added border */
+  border: 3px solid #007fff;
+  /* Added border */
   border-radius: 50%;
+}
+
+.second-outer-container {
+  position: absolute !important;
+  width: 350px !important;
+  height: 350px !important;
+  border-radius: 50%;
+  border: 3px solid #007fff;
+}
+
+.second-inner-container {
+  position: absolute !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50%;
+  border: 3px solid #007fff;
 }
 
 /* Outer rotating icons */
@@ -26,17 +35,54 @@
 }
 
 /* Positioning outer icons */
-.Wordpress {
-  transform: translate(150px, 0) rotate(0deg);
+.outer-rotation-container .element-one {
+  transform: translate(244px, 0) rotate(174deg);
 }
-.Drupal {
-  transform: translate(-145px, 0) rotate(0deg);
+
+.outer-rotation-container .element-two {
+  transform: translate(-252px, 0) rotate(-188deg);
 }
-.Joomla {
-  transform: translate(0, 150px) rotate(0deg);
+
+.outer-rotation-container .element-three {
+  transform: translate(0, 252px) rotate(-10deg);
 }
-.Magento {
-  transform: translate(0, -145px) rotate(0deg);
+
+.outer-rotation-container .element-four {
+  transform: translate(0, -247px) rotate(-186deg);
+}
+
+/* Positioning second outer icons */
+.second-outer-container .element-one {
+  transform: translate(233px, 0) rotate(0deg);
+}
+
+.second-outer-container .element-two {
+  transform: translate(46px, 283px) rotate(-360deg);
+}
+
+.second-outer-container .element-three {
+  transform: translate(-1px, 54px) rotate(-4deg);
+}
+
+.second-outer-container .element-four {
+  transform: translate(295px, 236px) rotate(0deg);
+}
+
+/* Positioning second inner icons */
+.second-inner-container .element-one {
+  transform: translate(159px, 78px) rotate(192deg);
+}
+
+.second-inner-container .element-two {
+  transform: translate(40px, 158px) rotate(-527deg);
+}
+
+.second-inner-container .element-three {
+  transform: translate(-24px, 56px) rotate(8deg);
+}
+
+.second-inner-container .element-four {
+  transform: translate(80px, -27px) rotate(-169deg);
 }
 
 /* Keeping inner icons upright */
@@ -46,27 +92,194 @@
 }
 
 .spinner .img {
+  background-color: #fff;
   width: 50px;
   height: auto;
-  transform: rotate(0deg); /* Removed rotation effect */
+  transform: rotate(0deg) !important;
+  /* Removed rotation effect */
 }
-/* For Samsung Fold */
-@media screen and (max-width: 331px) {
+
+@media screen and (min-width: 769px) and (max-width:1140px) {
   .spinner {
+    width: 400px;
+    height: 400px;
+  }
+
+  .second-outer-container {
+    width: 290px !important;
+    height: 290px !important;
+  }
+
+  .second-inner-container {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  /* Outer rotating icons */
+  .spinner div {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Positioning outer icons */
+  .outer-rotation-container .element-one {
+    transform: translate(192px, 0) rotate(156deg);
+  }
+
+  .outer-rotation-container .element-two {
+    transform: translate(-206px, -26px) rotate(-203deg);
+  }
+
+  .outer-rotation-container .element-three {
+    transform: translate(0, 202px) rotate(-24deg);
+  }
+
+  .outer-rotation-container .element-four {
+    transform: translate(0, -197px) rotate(-203deg);
+  }
+
+  /* Positioning second outer icons */
+  .second-outer-container .element-one {
+    transform: translate(251px, 105px) rotate(-162deg);
+  }
+
+  .second-outer-container .element-two {
+    transform: translate(-34px, 122px) rotate(199deg);
+  }
+
+  .second-outer-container .element-three {
+    transform: translate(128px, -33px) rotate(-73deg);
+  }
+
+  .second-outer-container .element-four {
+    transform: translate(108px, 249px) rotate(-162deg);
+  }
+
+  /* Positioning second inner icons */
+  .second-inner-container .element-one {
+    transform: translate(139px, 64px) rotate(161deg);
+  }
+
+  .second-inner-container .element-two {
+    transform: translate(33px, 141px) rotate(-559deg);
+  }
+
+  .second-inner-container .element-three {
+    transform: translate(-23px, 49px) rotate(-18deg);
+  }
+
+  .second-inner-container .element-four {
+    transform: translate(72px, -26px) rotate(-201deg);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .spinner {
+    height: 400px !important;
+    width: 400px !important;
+  }
+
+  .second-outer-container {
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  .second-inner-container {
+    display: none
+  }
+
+  .outer-rotation-container .element-one {
+    transform: translate(185px, 44px) rotate(-216deg);
+  }
+
+  .outer-rotation-container .element-two {
+    transform: translate(-199px, -45px) rotate(132deg);
+  }
+
+  .outer-rotation-container .element-three {
+    transform: translate(-44px, 179px) rotate(-142deg);
+  }
+
+  .outer-rotation-container .element-four {
+    transform: translate(27px, -186px) rotate(126deg);
+  }
+
+  .second-outer-container .element-one {
+    transform: translate(-23px, 129px) rotate(-133deg);
+  }
+
+  .second-outer-container .element-two {
+    transform: translate(124px, 205px) rotate(226deg);
+  }
+
+  .second-outer-container .element-three {
+    transform: translate(61px, -25px) rotate(315deg);
+  }
+
+  .second-outer-container .element-four {
+    transform: translate(209px, 72px) rotate(-132deg);
+  }
+
+  /* Center logo (fixed position, no rotation) */
+  #centerLogo {
+    height: 60px;
+    position: absolute;
+  }
+}
+
+/* For Samsung Fold */
+@media screen and (max-width: 390px) {
+  .spinner {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .second-outer-container {
+    width: 200px !important;
     height: 200px !important;
   }
-  .Wordpress {
-    transform: translate(100px, 0) rotate(0deg);
+
+  .second-inner-container {
+    display: none
   }
-  .Drupal {
-    transform: translate(-100px, 0) rotate(0deg);
+
+  .spinner div {
+    width: 40px;
+    height: 40px;
   }
-  .Joomla {
-    transform: translate(0, 100px) rotate(0deg);
+
+  .outer-rotation-container .element-one {
+    transform: translate(140px, 44px) rotate(-162deg);
   }
-  .Magento {
-    transform: translate(0, -100px) rotate(0deg);
+
+  .outer-rotation-container .element-two {
+    transform: translate(-146px, -20px) rotate(197deg);
   }
+
+  .outer-rotation-container .element-three {
+    transform: translate(-37px, 142px) rotate(-75deg);
+  }
+
+  .outer-rotation-container .element-four {
+    transform: translate(43px, -136px) rotate(197deg);
+  }
+
+  .second-outer-container .element-one {
+    transform: translate(-14px, 49px) rotate(-194deg);
+  }
+
+  .second-outer-container .element-two {
+    transform: translate(32px, 164px) rotate(164deg);
+  }
+
+  .second-outer-container .element-three {
+    transform: translate(128px, -4px) rotate(256deg);
+  }
+
+  .second-outer-container .element-four {
+    transform: translate(166px, 125px) rotate(-194deg);
+  }
+
   /* Center logo (fixed position, no rotation) */
   #centerLogo {
     height: 60px;

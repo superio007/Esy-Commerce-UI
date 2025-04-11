@@ -74,7 +74,7 @@ const Headless = ({ apiRes }) => {
   return (
     <>
       {/* Heading Section */}
-      <section className="py-18">
+      <section className="md:py-16 py-8">
         <section
           style={{ position: "relative" }}
           id="HeadingSection"
@@ -273,28 +273,26 @@ const Headless = ({ apiRes }) => {
           {isTopVisible && (
             <div className="absolute top-0 left-0 w-full h-full -z-10">
               {[
-                ["LoadingLogo", "top-one", "red"],
-                ["LoadingLogo", "top-two", "orange"],
-                ["LoadingLogo", "top-three", "yellow"],
-                ["LoadingLogo", "top-four", "green"],
-                ["LoadingLogo", "top-five", "blue"],
-                ["LoadingLogo", "top-six", "indigo"],
-                ["LoadingLogo", "top-seven", "violet"],
-              ].map(([start, end, color], index) => (
+                ["LoadingLogo", "top-one"],
+                ["LoadingLogo", "top-two"],
+                ["LoadingLogo", "top-four"],
+                ["LoadingLogo", "top-five"],
+                ["LoadingLogo", "top-six"],
+                ["LoadingLogo", "top-seven"],
+                ["LoadingLogo", "top-three"],
+              ].map(([start, end], index) => (
                 <Xarrow
                   key={index}
                   start={start}
                   end={end}
-                  color={color}
+                  color="#0080ff"
                   showHead={false}
                   strokeWidth={2}
                   className="animated-arrow"
                   headSize={6}
                   animateDrawing={1}
                   dashness={{ strokeLen: 10, nonStrokeLen: 5 }}
-                  curveness={
-                    start.includes("top") === end.includes("top") ? 1 : 0.5
-                  } // Adjust curvature to prevent overlapping
+                  curveness={0.8} // Adjust curvature to prevent overlapping
                 />
               ))}
             </div>
@@ -302,35 +300,33 @@ const Headless = ({ apiRes }) => {
           {isFullVisible && (
             <div className="absolute top-0 left-0 w-full h-full -z-10">
               {[
-                ["LoadingLogo", "top-one", "red"],
-                ["LoadingLogo", "top-two", "orange"],
-                ["LoadingLogo", "top-three", "yellow"],
-                ["LoadingLogo", "top-four", "green"],
-                ["LoadingLogo", "top-five", "blue"],
-                ["LoadingLogo", "top-six", "indigo"],
-                ["LoadingLogo", "top-seven", "violet"],
-                ["LoadingLogo", "bottom-one", "red"],
-                ["LoadingLogo", "bottom-two", "orange"],
-                ["LoadingLogo", "bottom-three", "yellow"],
-                ["LoadingLogo", "bottom-four", "green"],
-                ["LoadingLogo", "bottom-five", "blue"],
-                ["LoadingLogo", "bottom-six", "indigo"],
-                ["LoadingLogo", "bottom-seven", "violet"],
-              ].map(([start, end, color], index) => (
+                ["LoadingLogo", "top-one"],
+                ["LoadingLogo", "top-two"],
+                ["LoadingLogo", "top-three"],
+                ["LoadingLogo", "top-four"],
+                ["LoadingLogo", "top-five"],
+                ["LoadingLogo", "top-six"],
+                ["LoadingLogo", "top-seven"],
+                ["LoadingLogo", "bottom-one"],
+                ["LoadingLogo", "bottom-two"],
+                ["LoadingLogo", "bottom-three"],
+                ["LoadingLogo", "bottom-four"],
+                ["LoadingLogo", "bottom-five"],
+                ["LoadingLogo", "bottom-six"],
+                ["LoadingLogo", "bottom-seven"],
+              ].map(([start, end], index) => (
                 <Xarrow
                   key={index}
                   start={start}
                   end={end}
-                  color={color}
+                  color="#0080ff"
                   showHead={false}
                   strokeWidth={2}
                   className="animated-arrow"
                   headSize={6}
                   animateDrawing={1}
                   dashness={{ strokeLen: 10, nonStrokeLen: 5 }}
-                  curveness={
-                    start.includes("top") === end.includes("top") ? 1 : 0.5
-                  } // Adjust curvature to prevent overlapping
+                  curveness={0.8} // Adjust curvature to prevent overlapping
                 />
               ))}
             </div>
@@ -338,29 +334,27 @@ const Headless = ({ apiRes }) => {
           {isBottomVisible && (
             <div className="absolute top-0 left-0 w-full h-full -z-10">
               {[
-                ["LoadingLogo", "bottom-one", "red"],
-                ["LoadingLogo", "bottom-two", "orange"],
-                ["LoadingLogo", "bottom-three", "yellow"],
-                ["LoadingLogo", "bottom-four", "green"],
-                ["LoadingLogo", "bottom-five", "blue"],
-                ["LoadingLogo", "bottom-six", "indigo"],
-                ["LoadingLogo", "bottom-seven", "violet"],
-              ].map(([start, end, color], index) => (
+                ["LoadingLogo", "bottom-one"],
+                ["LoadingLogo", "bottom-two"],
+                ["LoadingLogo", "bottom-three"],
+                ["LoadingLogo", "bottom-four"],
+                ["LoadingLogo", "bottom-five"],
+                ["LoadingLogo", "bottom-six"],
+                ["LoadingLogo", "bottom-seven"],
+              ].map(([start, end], index) => (
                 <Xarrow
                   ref={arrowRef}
                   key={index}
                   start={start}
                   end={end}
                   showHead={false}
-                  color={color}
+                  color="#0080ff"
                   strokeWidth={2}
                   className="animated-arrow"
                   headSize={6}
                   animateDrawing={1}
                   dashness={{ strokeLen: 10, nonStrokeLen: 5 }}
-                  curveness={
-                    start.includes("top") === end.includes("top") ? 1 : 0.5
-                  } // Adjust curvature to prevent overlapping
+                  curveness={0.8} // Adjust curvature to prevent overlapping
                 />
               ))}
             </div>
