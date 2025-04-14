@@ -1,49 +1,69 @@
-.BrandLogo{
-  width: 65%;
+.BrandLogo {
+  width: 58%;
   object-fit: contain;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   background-size: contain;
 }
+
+@media screen and (max-width: 1500px) {
+  .BrandLogo {
+    width: 42%;
+    object-fit: contain;
+    /* background-color: #fafafa; */
+    background-size: contain;
+  }
+
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 @keyframes leftSlide {
   from {
     transform: translateX(-1000px);
   }
+
   to {
     transform: translateX(0);
   }
 }
+
 @keyframes rightSlide {
   from {
     transform: translateX(1000px);
   }
+
   to {
     transform: translateX(0);
   }
 }
+
 @media screen and (max-width: 331px) {
   .LandHeadingSectionHeading {
     font-size: 1.8rem !important;
     line-height: 2.5rem !important;
   }
-  .LandHeadingSectionSubheading{
+
+  .LandHeadingSectionSubheading {
     font-size: 0.75rem !important;
     line-height: 1.2rem !important;
   }
+
   .LandHeadlessCMSHeading {
     font-size: 1rem !important;
     line-height: 1.25rem !important;
   }
-  .LandHeadlessCMSSubheading{
+
+  .LandHeadlessCMSSubheading {
     font-size: 0.75rem !important;
     line-height: 1.2rem !important;
   }

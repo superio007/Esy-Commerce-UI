@@ -6,6 +6,7 @@ import Certification from "../components/HomePage/CertificationSlider";
 import BlogGrid from "../components/HomePage/BlogGrid";
 import Testimonial from "../components/HomePage/Testimonial";
 import Headless from "../components/HomePage/HeadlessCms";
+import Headless2 from "../components/HomePage/HeadlessCms2";
 import CMS from "../components/HomePage/Cms";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
@@ -21,6 +22,12 @@ const HomePage = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Homepage-content"],
     queryFn: fetchHomeContent,
+    initialData: HomePageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    staleTime: 1000 * 60 * 60, // 1 hour
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    refetchInterval: false,
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? HomePageData.data || [] : data || [];
@@ -43,7 +50,8 @@ const HomePage = () => {
         {/* CMS Section */}
         <CMS apiRes={apiResponse.home_service_section} />
         {/* Headless Cms section */}
-        <Headless apiRes={apiResponse.home_headless_cms_section} />
+        {/* <Headless apiRes={apiResponse.home_headless_cms_section} /> */}
+        <Headless2 apiRes={apiResponse.home_headless_cms_section} />
         {/* Testimonial */}
         <Testimonial apiRes={apiResponse.home_testamonial_section} />
         {/* Blog Grid */}

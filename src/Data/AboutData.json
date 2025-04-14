@@ -1,630 +1,1012 @@
 {
-  "data": {
-    "id": 4,
-    "documentId": "wqtalkfmzxzpthz812xtl8ji",
-    "createdAt": "2025-04-03T17:26:12.266Z",
-    "updatedAt": "2025-04-04T05:44:04.053Z",
-    "publishedAt": "2025-04-04T05:44:04.123Z",
-    "about_hero_section": {
-      "id": 5,
-      "documentId": "og5sgopnn55wnjl6g9h95n4p",
-      "Heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nam eius obcaecati!",
-      "createdAt": "2025-04-03T16:06:18.925Z",
-      "updatedAt": "2025-04-04T05:32:52.360Z",
-      "publishedAt": "2025-04-04T05:32:52.433Z",
-      "sideimage": {
-        "id": 6,
-        "documentId": "mtzz4vuu85ec2bpg4n2y495k",
-        "name": "HeaderThumbnail.png",
-        "alternativeText": "HeaderThumbnail",
-        "caption": null,
-        "width": 1472,
-        "height": 930,
-        "formats": {
-          "large": {
-            "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744686/large_Header_Thumbnail_14d94c847f.png",
-            "hash": "large_Header_Thumbnail_14d94c847f",
-            "mime": "image/png",
-            "name": "large_HeaderThumbnail.png",
-            "path": null,
-            "size": 1120.48,
-            "width": 1000,
-            "height": 632,
-            "sizeInBytes": 1120485,
-            "provider_metadata": {
-              "public_id": "large_Header_Thumbnail_14d94c847f",
-              "resource_type": "image"
-            }
-          },
-          "small": {
-            "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/small_Header_Thumbnail_14d94c847f.png",
-            "hash": "small_Header_Thumbnail_14d94c847f",
-            "mime": "image/png",
-            "name": "small_HeaderThumbnail.png",
-            "path": null,
-            "size": 314.08,
-            "width": 500,
-            "height": 316,
-            "sizeInBytes": 314085,
-            "provider_metadata": {
-              "public_id": "small_Header_Thumbnail_14d94c847f",
-              "resource_type": "image"
-            }
-          },
-          "medium": {
-            "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/medium_Header_Thumbnail_14d94c847f.png",
-            "hash": "medium_Header_Thumbnail_14d94c847f",
-            "mime": "image/png",
-            "name": "medium_HeaderThumbnail.png",
-            "path": null,
-            "size": 660.15,
-            "width": 750,
-            "height": 474,
-            "sizeInBytes": 660148,
-            "provider_metadata": {
-              "public_id": "medium_Header_Thumbnail_14d94c847f",
-              "resource_type": "image"
-            }
-          },
-          "thumbnail": {
-            "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/thumbnail_Header_Thumbnail_14d94c847f.png",
-            "hash": "thumbnail_Header_Thumbnail_14d94c847f",
-            "mime": "image/png",
-            "name": "thumbnail_HeaderThumbnail.png",
-            "path": null,
-            "size": 87.74,
-            "width": 245,
-            "height": 155,
-            "sizeInBytes": 87743,
-            "provider_metadata": {
-              "public_id": "thumbnail_Header_Thumbnail_14d94c847f",
-              "resource_type": "image"
-            }
-          }
-        },
-        "hash": "Header_Thumbnail_14d94c847f",
-        "ext": ".png",
-        "mime": "image/png",
-        "size": 470.34,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/Header_Thumbnail_14d94c847f.png",
-        "previewUrl": null,
-        "provider": "cloudinary",
-        "provider_metadata": {
-          "public_id": "Header_Thumbnail_14d94c847f",
-          "resource_type": "image"
-        },
-        "createdAt": "2025-04-04T05:31:27.202Z",
-        "updatedAt": "2025-04-04T05:31:38.757Z",
-        "publishedAt": "2025-04-04T05:31:27.204Z"
-      },
-      "about_why_us_points": [
-        {
-          "id": 2,
-          "documentId": "ibq8ltrdjdef080dxfq6krux",
-          "Point": "Growing customer expectations. Market-shaping AI. Self-optimizing systems.",
-          "createdAt": "2025-04-03T17:20:19.137Z",
-          "updatedAt": "2025-04-03T17:20:19.137Z",
-          "publishedAt": "2025-04-03T17:20:19.165Z"
-        },
-        {
-          "id": 6,
-          "documentId": "dq0x8hbaze6axxyl3ykwf9zg",
-          "Point": "The post-digital age shows no signs of slowing down, and the need for rapid business transformation has never been greater.",
-          "createdAt": "2025-04-03T17:20:33.136Z",
-          "updatedAt": "2025-04-03T17:20:33.136Z",
-          "publishedAt": "2025-04-03T17:20:33.165Z"
-        },
-        {
-          "id": 4,
-          "documentId": "qfn325t1xnjc8pxho36nq7p7",
-          "Point": "We meet clients wherever they are on their paths to change—in every industry across the globe—and partner with them to create lasting value.",
-          "createdAt": "2025-04-03T17:20:28.592Z",
-          "updatedAt": "2025-04-03T17:20:28.592Z",
-          "publishedAt": "2025-04-03T17:20:28.628Z"
-        }
-      ],
-      "about_team_section": {
-        "id": 3,
-        "documentId": "reijxo88q9o8komxxsffer6e",
-        "Heading": "Our Team",
-        "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
-        "createdAt": "2025-04-03T16:06:36.293Z",
-        "updatedAt": "2025-04-04T06:19:12.230Z",
-        "publishedAt": "2025-04-04T06:19:12.291Z"
-      }
-    },
-    "about_why_us": {
-      "id": 2,
-      "documentId": "p7ddlhd6c6zkukn0fqjudns2",
-      "Heading": "How we work with our Clients.",
-      "createdAt": "2025-04-03T17:20:46.032Z",
-      "updatedAt": "2025-04-03T17:20:46.032Z",
-      "publishedAt": "2025-04-03T17:20:46.058Z"
-    },
-    "about_us_core_value": {
-      "id": 3,
-      "documentId": "anam331foq0to6gzis5risg0",
-      "Heading": "Our Core Values",
-      "subHeading": "Our values shape the culture of our organization and define the character of our company.",
-      "createdAt": "2025-04-03T16:06:52.343Z",
-      "updatedAt": "2025-04-03T17:19:43.198Z",
-      "publishedAt": "2025-04-03T17:19:43.258Z",
-      "about_us_core_values_points": [
-        {
-          "id": 8,
-          "documentId": "k2ffossf2uau4eidv9zi8n9j",
-          "Heading": "Integrity",
-          "subHeading": "Integrity is the practice of being honest and showing a consistent and uncompromising adherence to strong moral and ethical principles.",
-          "createdAt": "2025-04-03T17:18:38.084Z",
-          "updatedAt": "2025-04-03T17:18:38.084Z",
-          "publishedAt": "2025-04-03T17:18:38.121Z"
-        },
-        {
-          "id": 13,
-          "documentId": "zoxfqve1crbsn5caa06ndo7l",
-          "Heading": "Trust",
-          "subHeading": "Trust will help us foster a positive and productive environment that delivers value to our users and customers.",
-          "createdAt": "2025-04-03T17:18:25.991Z",
-          "updatedAt": "2025-04-03T17:19:58.013Z",
-          "publishedAt": "2025-04-03T17:19:58.053Z"
-        },
-        {
-          "id": 4,
-          "documentId": "m2qjesb9c8yjmq56tsb4rt5p",
-          "Heading": "Transparency",
-          "subHeading": "Transparency, as used in science, is operating in such a way that it is easy for others to see what actions are performed.",
-          "createdAt": "2025-04-03T17:18:08.203Z",
-          "updatedAt": "2025-04-03T17:18:08.203Z",
-          "publishedAt": "2025-04-03T17:18:08.245Z"
-        },
-        {
-          "id": 2,
-          "documentId": "ejnumom35mk68be0aiczetu4",
-          "Heading": "Collaboration",
-          "subHeading": "Collaboration is the process of two or more people or organizations working together to complete a task or achieve a goal.",
-          "createdAt": "2025-04-03T17:17:09.840Z",
-          "updatedAt": "2025-04-03T17:17:09.840Z",
-          "publishedAt": "2025-04-03T17:17:09.903Z"
-        },
-        {
-          "id": 10,
-          "documentId": "hx0b4cy3rzoqxx5anqtcdm7x",
-          "Heading": "Innovation",
-          "subHeading": "Innovation drives us to create new solutions, improve existing processes, and continuously push the boundaries of what’s possible.",
-          "createdAt": "2025-04-03T17:18:47.308Z",
-          "updatedAt": "2025-04-03T17:18:47.308Z",
-          "publishedAt": "2025-04-03T17:18:47.347Z"
-        },
-        {
-          "id": 12,
-          "documentId": "kqe3c4e9lp7irwnnl297988r",
-          "Heading": "Customer Focus",
-          "subHeading": "We prioritize our customers’ needs, ensuring we deliver exceptional value and an outstanding experience in every interaction.",
-          "createdAt": "2025-04-03T17:18:55.592Z",
-          "updatedAt": "2025-04-03T17:18:55.592Z",
-          "publishedAt": "2025-04-03T17:18:55.627Z"
-        }
-      ]
-    },
-    "about_team_section": {
-      "id": 3,
-      "documentId": "reijxo88q9o8komxxsffer6e",
-      "Heading": "Our Team",
-      "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
-      "createdAt": "2025-04-03T16:06:36.293Z",
-      "updatedAt": "2025-04-04T06:19:12.230Z",
-      "publishedAt": "2025-04-04T06:19:12.291Z",
-      "about_hero_sections": [
-        {
-          "id": 5,
-          "documentId": "og5sgopnn55wnjl6g9h95n4p",
-          "Heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nam eius obcaecati!",
-          "createdAt": "2025-04-03T16:06:18.925Z",
-          "updatedAt": "2025-04-04T05:32:52.360Z",
-          "publishedAt": "2025-04-04T05:32:52.433Z"
-        }
-      ],
-      "team_members": [
-        {
-          "id": 8,
-          "documentId": "nnyx07o8f9d7ml6h7gurk47x",
-          "EmployeeName": "Emily Davis",
-          "Position": "HR Manager",
-          "LinkedinLink": "https://www.linkedin.com/",
-          "createdAt": "2025-04-04T05:37:51.116Z",
-          "updatedAt": "2025-04-04T05:37:51.116Z",
-          "publishedAt": "2025-04-04T05:37:51.153Z"
-        },
-        {
-          "id": 4,
-          "documentId": "kik6oq2o6dnbpovfoz3qfwrj",
-          "EmployeeName": "Jane Doe",
-          "Position": "Marketing Head",
-          "LinkedinLink": "https://www.linkedin.com/",
-          "createdAt": "2025-04-04T05:36:33.705Z",
-          "updatedAt": "2025-04-04T05:36:33.705Z",
-          "publishedAt": "2025-04-04T05:36:33.739Z"
-        },
-        {
-          "id": 6,
-          "documentId": "pwbi8g24dem050u5a4vimep6",
-          "EmployeeName": "John Smith",
-          "Position": "Software Engineer",
-          "LinkedinLink": "https://www.linkedin.com/",
-          "createdAt": "2025-04-04T05:37:14.100Z",
-          "updatedAt": "2025-04-04T05:37:14.100Z",
-          "publishedAt": "2025-04-04T05:37:14.224Z"
-        },
-        {
-          "id": 10,
-          "documentId": "m9o3dkkkvfzd5l6q3d0jld4r",
-          "EmployeeName": "Sarah Johnson",
-          "Position": "UX Designer",
-          "LinkedinLink": "https://www.linkedin.com/",
-          "createdAt": "2025-04-04T05:38:24.013Z",
-          "updatedAt": "2025-04-04T05:38:24.013Z",
-          "publishedAt": "2025-04-04T05:38:24.130Z"
-        },
-        {
-          "id": 2,
-          "documentId": "smvabufio2g7tny6o8py7kri",
-          "EmployeeName": "Wayne Romano",
-          "Position": "Product Designer",
-          "LinkedinLink": "https://www.linkedin.com/",
-          "createdAt": "2025-04-04T05:35:45.759Z",
-          "updatedAt": "2025-04-04T05:35:45.759Z",
-          "publishedAt": "2025-04-04T05:35:45.796Z"
-        }
-      ]
-    },
-    "certifications": [
-      {
-        "id": 12,
-        "documentId": "x3uo0eqk56zil7ahbi8xrwvq",
-        "Heading": "Data Security Gauranteed",
-        "subHeading": "ISO / IEC 27001:2013 certified",
-        "createdAt": "2025-04-04T05:43:25.520Z",
-        "updatedAt": "2025-04-04T05:43:25.520Z",
-        "publishedAt": "2025-04-04T05:43:25.729Z",
-        "CertificateImage": {
-          "id": 11,
-          "documentId": "derv603k0zhv9ufgawxj8pui",
-          "name": "ISO27001.png",
-          "alternativeText": "ISO27001",
-          "caption": null,
-          "width": 590,
-          "height": 242,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/small_ISO_27001_afffd72b44.png",
-              "hash": "small_ISO_27001_afffd72b44",
-              "mime": "image/png",
-              "name": "small_ISO27001.png",
-              "path": null,
-              "size": 63.29,
-              "width": 500,
-              "height": 205,
-              "sizeInBytes": 63288,
-              "provider_metadata": {
-                "public_id": "small_ISO_27001_afffd72b44",
-                "resource_type": "image"
-              }
+    "data": {
+        "id": 7,
+        "documentId": "wqtalkfmzxzpthz812xtl8ji",
+        "createdAt": "2025-04-03T17:26:12.266Z",
+        "updatedAt": "2025-04-04T08:47:26.491Z",
+        "publishedAt": "2025-04-04T08:47:26.564Z",
+        "about_hero_section": {
+            "id": 5,
+            "documentId": "og5sgopnn55wnjl6g9h95n4p",
+            "Heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nam eius obcaecati!",
+            "createdAt": "2025-04-03T16:06:18.925Z",
+            "updatedAt": "2025-04-04T05:32:52.360Z",
+            "publishedAt": "2025-04-04T05:32:52.433Z",
+            "sideimage": {
+                "id": 6,
+                "documentId": "mtzz4vuu85ec2bpg4n2y495k",
+                "name": "HeaderThumbnail.png",
+                "alternativeText": "HeaderThumbnail",
+                "caption": null,
+                "width": 1472,
+                "height": 930,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744686/large_Header_Thumbnail_14d94c847f.png",
+                        "hash": "large_Header_Thumbnail_14d94c847f",
+                        "mime": "image/png",
+                        "name": "large_HeaderThumbnail.png",
+                        "path": null,
+                        "size": 1120.48,
+                        "width": 1000,
+                        "height": 632,
+                        "sizeInBytes": 1120485,
+                        "provider_metadata": {
+                            "public_id": "large_Header_Thumbnail_14d94c847f",
+                            "resource_type": "image"
+                        }
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/small_Header_Thumbnail_14d94c847f.png",
+                        "hash": "small_Header_Thumbnail_14d94c847f",
+                        "mime": "image/png",
+                        "name": "small_HeaderThumbnail.png",
+                        "path": null,
+                        "size": 314.08,
+                        "width": 500,
+                        "height": 316,
+                        "sizeInBytes": 314085,
+                        "provider_metadata": {
+                            "public_id": "small_Header_Thumbnail_14d94c847f",
+                            "resource_type": "image"
+                        }
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/medium_Header_Thumbnail_14d94c847f.png",
+                        "hash": "medium_Header_Thumbnail_14d94c847f",
+                        "mime": "image/png",
+                        "name": "medium_HeaderThumbnail.png",
+                        "path": null,
+                        "size": 660.15,
+                        "width": 750,
+                        "height": 474,
+                        "sizeInBytes": 660148,
+                        "provider_metadata": {
+                            "public_id": "medium_Header_Thumbnail_14d94c847f",
+                            "resource_type": "image"
+                        }
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/thumbnail_Header_Thumbnail_14d94c847f.png",
+                        "hash": "thumbnail_Header_Thumbnail_14d94c847f",
+                        "mime": "image/png",
+                        "name": "thumbnail_HeaderThumbnail.png",
+                        "path": null,
+                        "size": 87.74,
+                        "width": 245,
+                        "height": 155,
+                        "sizeInBytes": 87743,
+                        "provider_metadata": {
+                            "public_id": "thumbnail_Header_Thumbnail_14d94c847f",
+                            "resource_type": "image"
+                        }
+                    }
+                },
+                "hash": "Header_Thumbnail_14d94c847f",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 470.34,
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744685/Header_Thumbnail_14d94c847f.png",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                    "public_id": "Header_Thumbnail_14d94c847f",
+                    "resource_type": "image"
+                },
+                "createdAt": "2025-04-04T05:31:27.202Z",
+                "updatedAt": "2025-04-04T05:31:38.757Z",
+                "publishedAt": "2025-04-04T05:31:27.204Z"
             },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_27001_afffd72b44.png",
-              "hash": "thumbnail_ISO_27001_afffd72b44",
-              "mime": "image/png",
-              "name": "thumbnail_ISO27001.png",
-              "path": null,
-              "size": 19.88,
-              "width": 245,
-              "height": 100,
-              "sizeInBytes": 19882,
-              "provider_metadata": {
-                "public_id": "thumbnail_ISO_27001_afffd72b44",
-                "resource_type": "image"
-              }
+            "about_why_us_points": [
+                {
+                    "id": 2,
+                    "documentId": "ibq8ltrdjdef080dxfq6krux",
+                    "Point": "Growing customer expectations. Market-shaping AI. Self-optimizing systems.",
+                    "createdAt": "2025-04-03T17:20:19.137Z",
+                    "updatedAt": "2025-04-03T17:20:19.137Z",
+                    "publishedAt": "2025-04-03T17:20:19.165Z"
+                },
+                {
+                    "id": 6,
+                    "documentId": "dq0x8hbaze6axxyl3ykwf9zg",
+                    "Point": "The post-digital age shows no signs of slowing down, and the need for rapid business transformation has never been greater.",
+                    "createdAt": "2025-04-03T17:20:33.136Z",
+                    "updatedAt": "2025-04-03T17:20:33.136Z",
+                    "publishedAt": "2025-04-03T17:20:33.165Z"
+                },
+                {
+                    "id": 4,
+                    "documentId": "qfn325t1xnjc8pxho36nq7p7",
+                    "Point": "We meet clients wherever they are on their paths to change—in every industry across the globe—and partner with them to create lasting value.",
+                    "createdAt": "2025-04-03T17:20:28.592Z",
+                    "updatedAt": "2025-04-03T17:20:28.592Z",
+                    "publishedAt": "2025-04-03T17:20:28.628Z"
+                }
+            ],
+            "about_team_section": {
+                "id": 3,
+                "documentId": "reijxo88q9o8komxxsffer6e",
+                "Heading": "Our Team",
+                "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+                "createdAt": "2025-04-03T16:06:36.293Z",
+                "updatedAt": "2025-04-04T06:19:12.230Z",
+                "publishedAt": "2025-04-04T06:19:12.291Z"
             }
-          },
-          "hash": "ISO_27001_afffd72b44",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 17.52,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_27001_afffd72b44.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "ISO_27001_afffd72b44",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:49.765Z",
-          "updatedAt": "2025-04-04T05:40:49.765Z",
-          "publishedAt": "2025-04-04T05:40:49.766Z"
-        }
-      },
-      {
-        "id": 8,
-        "documentId": "sj3eqd5ljj5gvg5081x04fdo",
-        "Heading": "Defined processes",
-        "subHeading": "CMMI level 3 certified",
-        "createdAt": "2025-04-04T05:42:27.125Z",
-        "updatedAt": "2025-04-04T05:42:27.125Z",
-        "publishedAt": "2025-04-04T05:42:27.321Z",
-        "CertificateImage": {
-          "id": 12,
-          "documentId": "knkbbph1u8bfcjsbznmw1adg",
-          "name": "CMMI3.png",
-          "alternativeText": "CMMI3",
-          "caption": null,
-          "width": 400,
-          "height": 316,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/thumbnail_CMMI_3_5840bbe7a4.png",
-              "hash": "thumbnail_CMMI_3_5840bbe7a4",
-              "mime": "image/png",
-              "name": "thumbnail_CMMI3.png",
-              "path": null,
-              "size": 20.56,
-              "width": 197,
-              "height": 156,
-              "sizeInBytes": 20564,
-              "provider_metadata": {
-                "public_id": "thumbnail_CMMI_3_5840bbe7a4",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "CMMI_3_5840bbe7a4",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 17.88,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/CMMI_3_5840bbe7a4.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "CMMI_3_5840bbe7a4",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:49.974Z",
-          "updatedAt": "2025-04-04T05:40:49.974Z",
-          "publishedAt": "2025-04-04T05:40:49.976Z"
-        }
-      },
-      {
-        "id": 4,
-        "documentId": "z3hwzij5pm1yor0keksi5fj5",
-        "Heading": "global accreditations",
-        "subHeading": "IAS & IAF Certified",
-        "createdAt": "2025-04-04T05:41:26.904Z",
-        "updatedAt": "2025-04-04T05:41:26.904Z",
-        "publishedAt": "2025-04-04T05:41:26.938Z",
-        "CertificateImage": {
-          "id": 15,
-          "documentId": "pfetwtf098hu17wb1niw5fmj",
-          "name": "IAF.png",
-          "alternativeText": "IAF",
-          "caption": null,
-          "width": 482,
-          "height": 264,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_IAF_d637e06a16.png",
-              "hash": "thumbnail_IAF_d637e06a16",
-              "mime": "image/png",
-              "name": "thumbnail_IAF.png",
-              "path": null,
-              "size": 44.46,
-              "width": 245,
-              "height": 134,
-              "sizeInBytes": 44457,
-              "provider_metadata": {
-                "public_id": "thumbnail_IAF_d637e06a16",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "IAF_d637e06a16",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 32.47,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/IAF_d637e06a16.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "IAF_d637e06a16",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:50.835Z",
-          "updatedAt": "2025-04-04T05:40:50.835Z",
-          "publishedAt": "2025-04-04T05:40:50.835Z"
-        }
-      },
-      {
-        "id": 2,
-        "documentId": "qt9h7poccp4pb47vjsfryaxf",
-        "Heading": "MICROSOFT GOLD PARTNER",
-        "subHeading": "DATA ANALYTICS COMPETENCY",
-        "createdAt": "2025-04-04T05:41:08.122Z",
-        "updatedAt": "2025-04-04T05:41:08.122Z",
-        "publishedAt": "2025-04-04T05:41:08.178Z",
-        "CertificateImage": {
-          "id": 16,
-          "documentId": "u9ymqacioq8d3ic505efcy9m",
-          "name": "microsoftGoldPartner.png",
-          "alternativeText": "microsoftGoldPartner",
-          "caption": null,
-          "width": 566,
-          "height": 256,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/small_microsoft_Gold_Partner_e8d4e480ed.png",
-              "hash": "small_microsoft_Gold_Partner_e8d4e480ed",
-              "mime": "image/png",
-              "name": "small_microsoftGoldPartner.png",
-              "path": null,
-              "size": 66.11,
-              "width": 500,
-              "height": 226,
-              "sizeInBytes": 66114,
-              "provider_metadata": {
-                "public_id": "small_microsoft_Gold_Partner_e8d4e480ed",
-                "resource_type": "image"
-              }
+        },
+        "about_why_us": {
+            "id": 2,
+            "documentId": "p7ddlhd6c6zkukn0fqjudns2",
+            "Heading": "How we work with our Clients.",
+            "createdAt": "2025-04-03T17:20:46.032Z",
+            "updatedAt": "2025-04-03T17:20:46.032Z",
+            "publishedAt": "2025-04-03T17:20:46.058Z"
+        },
+        "about_us_core_value": {
+            "id": 3,
+            "documentId": "anam331foq0to6gzis5risg0",
+            "Heading": "Our Core Values",
+            "subHeading": "Our values shape the culture of our organization and define the character of our company.",
+            "createdAt": "2025-04-03T16:06:52.343Z",
+            "updatedAt": "2025-04-03T17:19:43.198Z",
+            "publishedAt": "2025-04-03T17:19:43.258Z",
+            "about_us_core_values_points": [
+                {
+                    "id": 18,
+                    "documentId": "k2ffossf2uau4eidv9zi8n9j",
+                    "Heading": "Integrity",
+                    "subHeading": "Integrity is the practice of being honest and showing a consistent and uncompromising adherence to strong moral and ethical principles.",
+                    "createdAt": "2025-04-03T17:18:38.084Z",
+                    "updatedAt": "2025-04-04T08:52:41.000Z",
+                    "publishedAt": "2025-04-04T08:52:41.101Z"
+                },
+                {
+                    "id": 20,
+                    "documentId": "zoxfqve1crbsn5caa06ndo7l",
+                    "Heading": "Trust",
+                    "subHeading": "Trust will help us foster a positive and productive environment that delivers value to our users and customers.",
+                    "createdAt": "2025-04-03T17:18:25.991Z",
+                    "updatedAt": "2025-04-04T08:57:50.634Z",
+                    "publishedAt": "2025-04-04T08:57:50.684Z"
+                },
+                {
+                    "id": 19,
+                    "documentId": "m2qjesb9c8yjmq56tsb4rt5p",
+                    "Heading": "Transparency",
+                    "subHeading": "Transparency, as used in science, is operating in such a way that it is easy for others to see what actions are performed.",
+                    "createdAt": "2025-04-03T17:18:08.203Z",
+                    "updatedAt": "2025-04-04T08:56:24.112Z",
+                    "publishedAt": "2025-04-04T08:56:24.154Z"
+                },
+                {
+                    "id": 14,
+                    "documentId": "ejnumom35mk68be0aiczetu4",
+                    "Heading": "Collaboration",
+                    "subHeading": "Collaboration is the process of two or more people or organizations working together to complete a task or achieve a goal.",
+                    "createdAt": "2025-04-03T17:17:09.840Z",
+                    "updatedAt": "2025-04-04T08:49:38.329Z",
+                    "publishedAt": "2025-04-04T08:49:38.401Z"
+                },
+                {
+                    "id": 17,
+                    "documentId": "hx0b4cy3rzoqxx5anqtcdm7x",
+                    "Heading": "Innovation",
+                    "subHeading": "Innovation drives us to create new solutions, improve existing processes, and continuously push the boundaries of what’s possible.",
+                    "createdAt": "2025-04-03T17:18:47.308Z",
+                    "updatedAt": "2025-04-04T08:51:49.934Z",
+                    "publishedAt": "2025-04-04T08:51:49.982Z"
+                },
+                {
+                    "id": 15,
+                    "documentId": "kqe3c4e9lp7irwnnl297988r",
+                    "Heading": "Customer Focus",
+                    "subHeading": "We prioritize our customers’ needs, ensuring we deliver exceptional value and an outstanding experience in every interaction.",
+                    "createdAt": "2025-04-03T17:18:55.592Z",
+                    "updatedAt": "2025-04-04T08:50:49.960Z",
+                    "publishedAt": "2025-04-04T08:50:50.013Z"
+                }
+            ]
+        },
+        "about_team_section": {
+            "id": 3,
+            "documentId": "reijxo88q9o8komxxsffer6e",
+            "Heading": "Our Team",
+            "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+            "createdAt": "2025-04-03T16:06:36.293Z",
+            "updatedAt": "2025-04-04T06:19:12.230Z",
+            "publishedAt": "2025-04-04T06:19:12.291Z",
+            "about_hero_sections": [
+                {
+                    "id": 5,
+                    "documentId": "og5sgopnn55wnjl6g9h95n4p",
+                    "Heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                    "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nam eius obcaecati!",
+                    "createdAt": "2025-04-03T16:06:18.925Z",
+                    "updatedAt": "2025-04-04T05:32:52.360Z",
+                    "publishedAt": "2025-04-04T05:32:52.433Z"
+                }
+            ],
+            "team_members": [
+                {
+                    "id": 8,
+                    "documentId": "nnyx07o8f9d7ml6h7gurk47x",
+                    "EmployeeName": "Emily Davis",
+                    "Position": "HR Manager",
+                    "LinkedinLink": "https://www.linkedin.com/",
+                    "createdAt": "2025-04-04T05:37:51.116Z",
+                    "updatedAt": "2025-04-04T05:37:51.116Z",
+                    "publishedAt": "2025-04-04T05:37:51.153Z"
+                },
+                {
+                    "id": 4,
+                    "documentId": "kik6oq2o6dnbpovfoz3qfwrj",
+                    "EmployeeName": "Jane Doe",
+                    "Position": "Marketing Head",
+                    "LinkedinLink": "https://www.linkedin.com/",
+                    "createdAt": "2025-04-04T05:36:33.705Z",
+                    "updatedAt": "2025-04-04T05:36:33.705Z",
+                    "publishedAt": "2025-04-04T05:36:33.739Z"
+                },
+                {
+                    "id": 6,
+                    "documentId": "pwbi8g24dem050u5a4vimep6",
+                    "EmployeeName": "John Smith",
+                    "Position": "Software Engineer",
+                    "LinkedinLink": "https://www.linkedin.com/",
+                    "createdAt": "2025-04-04T05:37:14.100Z",
+                    "updatedAt": "2025-04-04T05:37:14.100Z",
+                    "publishedAt": "2025-04-04T05:37:14.224Z"
+                },
+                {
+                    "id": 10,
+                    "documentId": "m9o3dkkkvfzd5l6q3d0jld4r",
+                    "EmployeeName": "Sarah Johnson",
+                    "Position": "UX Designer",
+                    "LinkedinLink": "https://www.linkedin.com/",
+                    "createdAt": "2025-04-04T05:38:24.013Z",
+                    "updatedAt": "2025-04-04T05:38:24.013Z",
+                    "publishedAt": "2025-04-04T05:38:24.130Z"
+                },
+                {
+                    "id": 2,
+                    "documentId": "smvabufio2g7tny6o8py7kri",
+                    "EmployeeName": "Wayne Romano",
+                    "Position": "Product Designer",
+                    "LinkedinLink": "https://www.linkedin.com/",
+                    "createdAt": "2025-04-04T05:35:45.759Z",
+                    "updatedAt": "2025-04-04T05:35:45.759Z",
+                    "publishedAt": "2025-04-04T05:35:45.796Z"
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "id": 12,
+                "documentId": "x3uo0eqk56zil7ahbi8xrwvq",
+                "Heading": "Data Security Gauranteed",
+                "subHeading": "ISO / IEC 27001:2013 certified",
+                "createdAt": "2025-04-04T05:43:25.520Z",
+                "updatedAt": "2025-04-04T05:43:25.520Z",
+                "publishedAt": "2025-04-04T05:43:25.729Z",
+                "CertificateImage": {
+                    "id": 11,
+                    "documentId": "derv603k0zhv9ufgawxj8pui",
+                    "name": "ISO27001.png",
+                    "alternativeText": "ISO27001",
+                    "caption": null,
+                    "width": 590,
+                    "height": 242,
+                    "formats": {
+                        "small": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/small_ISO_27001_afffd72b44.png",
+                            "hash": "small_ISO_27001_afffd72b44",
+                            "mime": "image/png",
+                            "name": "small_ISO27001.png",
+                            "path": null,
+                            "size": 63.29,
+                            "width": 500,
+                            "height": 205,
+                            "sizeInBytes": 63288,
+                            "provider_metadata": {
+                                "public_id": "small_ISO_27001_afffd72b44",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_27001_afffd72b44.png",
+                            "hash": "thumbnail_ISO_27001_afffd72b44",
+                            "mime": "image/png",
+                            "name": "thumbnail_ISO27001.png",
+                            "path": null,
+                            "size": 19.88,
+                            "width": 245,
+                            "height": 100,
+                            "sizeInBytes": 19882,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_ISO_27001_afffd72b44",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "ISO_27001_afffd72b44",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 17.52,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_27001_afffd72b44.png",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "ISO_27001_afffd72b44",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:40:49.765Z",
+                    "updatedAt": "2025-04-04T05:40:49.765Z",
+                    "publishedAt": "2025-04-04T05:40:49.766Z"
+                }
             },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_microsoft_Gold_Partner_e8d4e480ed.png",
-              "hash": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
-              "mime": "image/png",
-              "name": "thumbnail_microsoftGoldPartner.png",
-              "path": null,
-              "size": 20.94,
-              "width": 245,
-              "height": 111,
-              "sizeInBytes": 20937,
-              "provider_metadata": {
-                "public_id": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
-                "resource_type": "image"
-              }
+            {
+                "id": 8,
+                "documentId": "sj3eqd5ljj5gvg5081x04fdo",
+                "Heading": "Defined processes",
+                "subHeading": "CMMI level 3 certified",
+                "createdAt": "2025-04-04T05:42:27.125Z",
+                "updatedAt": "2025-04-04T05:42:27.125Z",
+                "publishedAt": "2025-04-04T05:42:27.321Z",
+                "CertificateImage": {
+                    "id": 12,
+                    "documentId": "knkbbph1u8bfcjsbznmw1adg",
+                    "name": "CMMI3.png",
+                    "alternativeText": "CMMI3",
+                    "caption": null,
+                    "width": 400,
+                    "height": 316,
+                    "formats": {
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/thumbnail_CMMI_3_5840bbe7a4.png",
+                            "hash": "thumbnail_CMMI_3_5840bbe7a4",
+                            "mime": "image/png",
+                            "name": "thumbnail_CMMI3.png",
+                            "path": null,
+                            "size": 20.56,
+                            "width": 197,
+                            "height": 156,
+                            "sizeInBytes": 20564,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_CMMI_3_5840bbe7a4",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "CMMI_3_5840bbe7a4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 17.88,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/CMMI_3_5840bbe7a4.png",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "CMMI_3_5840bbe7a4",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:40:49.974Z",
+                    "updatedAt": "2025-04-04T05:40:49.974Z",
+                    "publishedAt": "2025-04-04T05:40:49.976Z"
+                }
+            },
+            {
+                "id": 4,
+                "documentId": "z3hwzij5pm1yor0keksi5fj5",
+                "Heading": "global accreditations",
+                "subHeading": "IAS & IAF Certified",
+                "createdAt": "2025-04-04T05:41:26.904Z",
+                "updatedAt": "2025-04-04T05:41:26.904Z",
+                "publishedAt": "2025-04-04T05:41:26.938Z",
+                "CertificateImage": {
+                    "id": 15,
+                    "documentId": "pfetwtf098hu17wb1niw5fmj",
+                    "name": "IAF.png",
+                    "alternativeText": "IAF",
+                    "caption": null,
+                    "width": 482,
+                    "height": 264,
+                    "formats": {
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_IAF_d637e06a16.png",
+                            "hash": "thumbnail_IAF_d637e06a16",
+                            "mime": "image/png",
+                            "name": "thumbnail_IAF.png",
+                            "path": null,
+                            "size": 44.46,
+                            "width": 245,
+                            "height": 134,
+                            "sizeInBytes": 44457,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_IAF_d637e06a16",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "IAF_d637e06a16",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 32.47,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/IAF_d637e06a16.png",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "IAF_d637e06a16",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:40:50.835Z",
+                    "updatedAt": "2025-04-04T05:40:50.835Z",
+                    "publishedAt": "2025-04-04T05:40:50.835Z"
+                }
+            },
+            {
+                "id": 2,
+                "documentId": "qt9h7poccp4pb47vjsfryaxf",
+                "Heading": "MICROSOFT GOLD PARTNER",
+                "subHeading": "DATA ANALYTICS COMPETENCY",
+                "createdAt": "2025-04-04T05:41:08.122Z",
+                "updatedAt": "2025-04-04T05:41:08.122Z",
+                "publishedAt": "2025-04-04T05:41:08.178Z",
+                "CertificateImage": {
+                    "id": 16,
+                    "documentId": "u9ymqacioq8d3ic505efcy9m",
+                    "name": "microsoftGoldPartner.png",
+                    "alternativeText": "microsoftGoldPartner",
+                    "caption": null,
+                    "width": 566,
+                    "height": 256,
+                    "formats": {
+                        "small": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/small_microsoft_Gold_Partner_e8d4e480ed.png",
+                            "hash": "small_microsoft_Gold_Partner_e8d4e480ed",
+                            "mime": "image/png",
+                            "name": "small_microsoftGoldPartner.png",
+                            "path": null,
+                            "size": 66.11,
+                            "width": 500,
+                            "height": 226,
+                            "sizeInBytes": 66114,
+                            "provider_metadata": {
+                                "public_id": "small_microsoft_Gold_Partner_e8d4e480ed",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_microsoft_Gold_Partner_e8d4e480ed.png",
+                            "hash": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
+                            "mime": "image/png",
+                            "name": "thumbnail_microsoftGoldPartner.png",
+                            "path": null,
+                            "size": 20.94,
+                            "width": 245,
+                            "height": 111,
+                            "sizeInBytes": 20937,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "microsoft_Gold_Partner_e8d4e480ed",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 24.93,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/microsoft_Gold_Partner_e8d4e480ed.png",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "microsoft_Gold_Partner_e8d4e480ed",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:40:51.003Z",
+                    "updatedAt": "2025-04-04T05:40:51.003Z",
+                    "publishedAt": "2025-04-04T05:40:51.003Z"
+                }
+            },
+            {
+                "id": 6,
+                "documentId": "z330673zx1jo03y2mr1ho540",
+                "Heading": "Proven Track Record",
+                "subHeading": "13+ years in business",
+                "createdAt": "2025-04-04T05:42:00.705Z",
+                "updatedAt": "2025-04-04T05:42:00.705Z",
+                "publishedAt": "2025-04-04T05:42:00.741Z",
+                "CertificateImage": {
+                    "id": 14,
+                    "documentId": "zz8go3fyub14qc4y5xmgqaal",
+                    "name": "Aniversary.png",
+                    "alternativeText": "Aniversary",
+                    "caption": null,
+                    "width": 398,
+                    "height": 348,
+                    "formats": {
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_Aniversary_b5e84d318d.png",
+                            "hash": "thumbnail_Aniversary_b5e84d318d",
+                            "mime": "image/png",
+                            "name": "thumbnail_Aniversary.png",
+                            "path": null,
+                            "size": 20.32,
+                            "width": 178,
+                            "height": 156,
+                            "sizeInBytes": 20319,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_Aniversary_b5e84d318d",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "Aniversary_b5e84d318d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 16.92,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/Aniversary_b5e84d318d.png",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "Aniversary_b5e84d318d",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:40:50.716Z",
+                    "updatedAt": "2025-04-04T05:41:55.224Z",
+                    "publishedAt": "2025-04-04T05:40:50.717Z"
+                }
+            },
+            {
+                "id": 10,
+                "documentId": "ampqvno9ioe6jqmkv19zil7s",
+                "Heading": "Qulity Assured",
+                "subHeading": "ISO 9001:2015 certified",
+                "createdAt": "2025-04-04T05:42:54.910Z",
+                "updatedAt": "2025-04-04T05:42:54.910Z",
+                "publishedAt": "2025-04-04T05:42:54.943Z",
+                "CertificateImage": {
+                    "id": 13,
+                    "documentId": "wt9ruqqvzgekc5ztotvhi049",
+                    "name": "ISO.png",
+                    "alternativeText": "ISO",
+                    "caption": null,
+                    "width": 410,
+                    "height": 280,
+                    "formats": {
+                        "thumbnail": {
+                            "ext": ".png",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_2acef8fe94.png",
+                            "hash": "thumbnail_ISO_2acef8fe94",
+                            "mime": "image/png",
+                            "name": "thumbnail_ISO.png",
+                            "path": null,
+                            "size": 23.17,
+                            "width": 228,
+                            "height": 156,
+                            "sizeInBytes": 23172,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_ISO_2acef8fe94",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "ISO_2acef8fe94",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 11.84,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_2acef8fe94.png",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "ISO_2acef8fe94",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:40:50.055Z",
+                    "updatedAt": "2025-04-04T05:40:50.055Z",
+                    "publishedAt": "2025-04-04T05:40:50.056Z"
+                }
             }
-          },
-          "hash": "microsoft_Gold_Partner_e8d4e480ed",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 24.93,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/microsoft_Gold_Partner_e8d4e480ed.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "microsoft_Gold_Partner_e8d4e480ed",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:51.003Z",
-          "updatedAt": "2025-04-04T05:40:51.003Z",
-          "publishedAt": "2025-04-04T05:40:51.003Z"
-        }
-      },
-      {
-        "id": 6,
-        "documentId": "z330673zx1jo03y2mr1ho540",
-        "Heading": "Proven Track Record",
-        "subHeading": "13+ years in business",
-        "createdAt": "2025-04-04T05:42:00.705Z",
-        "updatedAt": "2025-04-04T05:42:00.705Z",
-        "publishedAt": "2025-04-04T05:42:00.741Z",
-        "CertificateImage": {
-          "id": 14,
-          "documentId": "zz8go3fyub14qc4y5xmgqaal",
-          "name": "Aniversary.png",
-          "alternativeText": "Aniversary",
-          "caption": null,
-          "width": 398,
-          "height": 348,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_Aniversary_b5e84d318d.png",
-              "hash": "thumbnail_Aniversary_b5e84d318d",
-              "mime": "image/png",
-              "name": "thumbnail_Aniversary.png",
-              "path": null,
-              "size": 20.32,
-              "width": 178,
-              "height": 156,
-              "sizeInBytes": 20319,
-              "provider_metadata": {
-                "public_id": "thumbnail_Aniversary_b5e84d318d",
-                "resource_type": "image"
-              }
+        ],
+        "about_cta": {
+            "id": 2,
+            "documentId": "sc0s5eunj7t9fqvcajztr33b",
+            "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+            "createdAt": "2025-04-03T16:03:09.165Z",
+            "updatedAt": "2025-04-03T16:03:09.165Z",
+            "publishedAt": "2025-04-03T16:03:09.313Z"
+        },
+        "team_members": [
+            {
+                "id": 8,
+                "documentId": "nnyx07o8f9d7ml6h7gurk47x",
+                "EmployeeName": "Emily Davis",
+                "Position": "HR Manager",
+                "LinkedinLink": "https://www.linkedin.com/",
+                "createdAt": "2025-04-04T05:37:51.116Z",
+                "updatedAt": "2025-04-04T05:37:51.116Z",
+                "publishedAt": "2025-04-04T05:37:51.153Z",
+                "EmployeeImage": {
+                    "id": 10,
+                    "documentId": "yg9upfctctqcyxcwwz0rmlcz",
+                    "name": "janet-2.jpg",
+                    "alternativeText": "janet",
+                    "caption": null,
+                    "width": 425,
+                    "height": 545,
+                    "formats": {
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745066/small_janet_2_b6ab094231.jpg",
+                            "hash": "small_janet_2_b6ab094231",
+                            "mime": "image/jpeg",
+                            "name": "small_janet-2.jpg",
+                            "path": null,
+                            "size": 27.91,
+                            "width": 390,
+                            "height": 500,
+                            "sizeInBytes": 27911,
+                            "provider_metadata": {
+                                "public_id": "small_janet_2_b6ab094231",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745066/thumbnail_janet_2_b6ab094231.jpg",
+                            "hash": "thumbnail_janet_2_b6ab094231",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_janet-2.jpg",
+                            "path": null,
+                            "size": 4.09,
+                            "width": 122,
+                            "height": 156,
+                            "sizeInBytes": 4089,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_janet_2_b6ab094231",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "janet_2_b6ab094231",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 31.97,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745066/janet_2_b6ab094231.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "janet_2_b6ab094231",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:37:47.312Z",
+                    "updatedAt": "2025-04-04T05:37:47.312Z",
+                    "publishedAt": "2025-04-04T05:37:47.313Z"
+                },
+                "about_team_section": {
+                    "id": 3,
+                    "documentId": "reijxo88q9o8komxxsffer6e",
+                    "Heading": "Our Team",
+                    "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+                    "createdAt": "2025-04-03T16:06:36.293Z",
+                    "updatedAt": "2025-04-04T06:19:12.230Z",
+                    "publishedAt": "2025-04-04T06:19:12.291Z"
+                }
+            },
+            {
+                "id": 6,
+                "documentId": "pwbi8g24dem050u5a4vimep6",
+                "EmployeeName": "John Smith",
+                "Position": "Software Engineer",
+                "LinkedinLink": "https://www.linkedin.com/",
+                "createdAt": "2025-04-04T05:37:14.100Z",
+                "updatedAt": "2025-04-04T05:37:14.100Z",
+                "publishedAt": "2025-04-04T05:37:14.224Z",
+                "EmployeeImage": {
+                    "id": 9,
+                    "documentId": "vurqlqr1i68ctqbewfh3ks2p",
+                    "name": "Stuart.jpg",
+                    "alternativeText": "Stuart",
+                    "caption": null,
+                    "width": 425,
+                    "height": 545,
+                    "formats": {
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745027/small_Stuart_d7ccef101e.jpg",
+                            "hash": "small_Stuart_d7ccef101e",
+                            "mime": "image/jpeg",
+                            "name": "small_Stuart.jpg",
+                            "path": null,
+                            "size": 25.63,
+                            "width": 390,
+                            "height": 500,
+                            "sizeInBytes": 25630,
+                            "provider_metadata": {
+                                "public_id": "small_Stuart_d7ccef101e",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745027/thumbnail_Stuart_d7ccef101e.jpg",
+                            "hash": "thumbnail_Stuart_d7ccef101e",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_Stuart.jpg",
+                            "path": null,
+                            "size": 4.32,
+                            "width": 122,
+                            "height": 156,
+                            "sizeInBytes": 4323,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_Stuart_d7ccef101e",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "Stuart_d7ccef101e",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 29.83,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745027/Stuart_d7ccef101e.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "Stuart_d7ccef101e",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:37:08.321Z",
+                    "updatedAt": "2025-04-04T05:37:08.321Z",
+                    "publishedAt": "2025-04-04T05:37:08.321Z"
+                },
+                "about_team_section": {
+                    "id": 3,
+                    "documentId": "reijxo88q9o8komxxsffer6e",
+                    "Heading": "Our Team",
+                    "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+                    "createdAt": "2025-04-03T16:06:36.293Z",
+                    "updatedAt": "2025-04-04T06:19:12.230Z",
+                    "publishedAt": "2025-04-04T06:19:12.291Z"
+                }
+            },
+            {
+                "id": 4,
+                "documentId": "kik6oq2o6dnbpovfoz3qfwrj",
+                "EmployeeName": "Jane Doe",
+                "Position": "Marketing Head",
+                "LinkedinLink": "https://www.linkedin.com/",
+                "createdAt": "2025-04-04T05:36:33.705Z",
+                "updatedAt": "2025-04-04T05:36:33.705Z",
+                "publishedAt": "2025-04-04T05:36:33.739Z",
+                "EmployeeImage": {
+                    "id": 8,
+                    "documentId": "rnxybsbbx76zs4g0q9yxnal4",
+                    "name": "Helen.jpg",
+                    "alternativeText": "Helen",
+                    "caption": null,
+                    "width": 425,
+                    "height": 545,
+                    "formats": {
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744989/small_Helen_89843292a6.jpg",
+                            "hash": "small_Helen_89843292a6",
+                            "mime": "image/jpeg",
+                            "name": "small_Helen.jpg",
+                            "path": null,
+                            "size": 28.47,
+                            "width": 390,
+                            "height": 500,
+                            "sizeInBytes": 28473,
+                            "provider_metadata": {
+                                "public_id": "small_Helen_89843292a6",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744989/thumbnail_Helen_89843292a6.jpg",
+                            "hash": "thumbnail_Helen_89843292a6",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_Helen.jpg",
+                            "path": null,
+                            "size": 4.76,
+                            "width": 122,
+                            "height": 156,
+                            "sizeInBytes": 4758,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_Helen_89843292a6",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "Helen_89843292a6",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 33.02,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744989/Helen_89843292a6.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "Helen_89843292a6",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:36:30.086Z",
+                    "updatedAt": "2025-04-04T05:36:30.086Z",
+                    "publishedAt": "2025-04-04T05:36:30.087Z"
+                },
+                "about_team_section": {
+                    "id": 3,
+                    "documentId": "reijxo88q9o8komxxsffer6e",
+                    "Heading": "Our Team",
+                    "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+                    "createdAt": "2025-04-03T16:06:36.293Z",
+                    "updatedAt": "2025-04-04T06:19:12.230Z",
+                    "publishedAt": "2025-04-04T06:19:12.291Z"
+                }
+            },
+            {
+                "id": 10,
+                "documentId": "m9o3dkkkvfzd5l6q3d0jld4r",
+                "EmployeeName": "Sarah Johnson",
+                "Position": "UX Designer",
+                "LinkedinLink": "https://www.linkedin.com/",
+                "createdAt": "2025-04-04T05:38:24.013Z",
+                "updatedAt": "2025-04-04T05:38:24.013Z",
+                "publishedAt": "2025-04-04T05:38:24.130Z",
+                "EmployeeImage": {
+                    "id": 7,
+                    "documentId": "s9oeq7dfac981l403odtns43",
+                    "name": "Belinda.jpg",
+                    "alternativeText": "Belinda",
+                    "caption": null,
+                    "width": 425,
+                    "height": 545,
+                    "formats": {
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744940/small_Belinda_99ba55d7ec.jpg",
+                            "hash": "small_Belinda_99ba55d7ec",
+                            "mime": "image/jpeg",
+                            "name": "small_Belinda.jpg",
+                            "path": null,
+                            "size": 16.78,
+                            "width": 390,
+                            "height": 500,
+                            "sizeInBytes": 16776,
+                            "provider_metadata": {
+                                "public_id": "small_Belinda_99ba55d7ec",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744940/thumbnail_Belinda_99ba55d7ec.jpg",
+                            "hash": "thumbnail_Belinda_99ba55d7ec",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_Belinda.jpg",
+                            "path": null,
+                            "size": 3.44,
+                            "width": 122,
+                            "height": 156,
+                            "sizeInBytes": 3436,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_Belinda_99ba55d7ec",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "Belinda_99ba55d7ec",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 18.8,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744940/Belinda_99ba55d7ec.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "Belinda_99ba55d7ec",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:35:41.086Z",
+                    "updatedAt": "2025-04-04T05:36:13.201Z",
+                    "publishedAt": "2025-04-04T05:35:41.087Z"
+                },
+                "about_team_section": {
+                    "id": 3,
+                    "documentId": "reijxo88q9o8komxxsffer6e",
+                    "Heading": "Our Team",
+                    "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+                    "createdAt": "2025-04-03T16:06:36.293Z",
+                    "updatedAt": "2025-04-04T06:19:12.230Z",
+                    "publishedAt": "2025-04-04T06:19:12.291Z"
+                }
+            },
+            {
+                "id": 2,
+                "documentId": "smvabufio2g7tny6o8py7kri",
+                "EmployeeName": "Wayne Romano",
+                "Position": "Product Designer",
+                "LinkedinLink": "https://www.linkedin.com/",
+                "createdAt": "2025-04-04T05:35:45.759Z",
+                "updatedAt": "2025-04-04T05:35:45.759Z",
+                "publishedAt": "2025-04-04T05:35:45.796Z",
+                "EmployeeImage": {
+                    "id": 7,
+                    "documentId": "s9oeq7dfac981l403odtns43",
+                    "name": "Belinda.jpg",
+                    "alternativeText": "Belinda",
+                    "caption": null,
+                    "width": 425,
+                    "height": 545,
+                    "formats": {
+                        "small": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744940/small_Belinda_99ba55d7ec.jpg",
+                            "hash": "small_Belinda_99ba55d7ec",
+                            "mime": "image/jpeg",
+                            "name": "small_Belinda.jpg",
+                            "path": null,
+                            "size": 16.78,
+                            "width": 390,
+                            "height": 500,
+                            "sizeInBytes": 16776,
+                            "provider_metadata": {
+                                "public_id": "small_Belinda_99ba55d7ec",
+                                "resource_type": "image"
+                            }
+                        },
+                        "thumbnail": {
+                            "ext": ".jpg",
+                            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744940/thumbnail_Belinda_99ba55d7ec.jpg",
+                            "hash": "thumbnail_Belinda_99ba55d7ec",
+                            "mime": "image/jpeg",
+                            "name": "thumbnail_Belinda.jpg",
+                            "path": null,
+                            "size": 3.44,
+                            "width": 122,
+                            "height": 156,
+                            "sizeInBytes": 3436,
+                            "provider_metadata": {
+                                "public_id": "thumbnail_Belinda_99ba55d7ec",
+                                "resource_type": "image"
+                            }
+                        }
+                    },
+                    "hash": "Belinda_99ba55d7ec",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "size": 18.8,
+                    "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743744940/Belinda_99ba55d7ec.jpg",
+                    "previewUrl": null,
+                    "provider": "cloudinary",
+                    "provider_metadata": {
+                        "public_id": "Belinda_99ba55d7ec",
+                        "resource_type": "image"
+                    },
+                    "createdAt": "2025-04-04T05:35:41.086Z",
+                    "updatedAt": "2025-04-04T05:36:13.201Z",
+                    "publishedAt": "2025-04-04T05:35:41.087Z"
+                },
+                "about_team_section": {
+                    "id": 3,
+                    "documentId": "reijxo88q9o8komxxsffer6e",
+                    "Heading": "Our Team",
+                    "subHeading": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis beatae maiores?",
+                    "createdAt": "2025-04-03T16:06:36.293Z",
+                    "updatedAt": "2025-04-04T06:19:12.230Z",
+                    "publishedAt": "2025-04-04T06:19:12.291Z"
+                }
             }
-          },
-          "hash": "Aniversary_b5e84d318d",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 16.92,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/Aniversary_b5e84d318d.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Aniversary_b5e84d318d",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:50.716Z",
-          "updatedAt": "2025-04-04T05:41:55.224Z",
-          "publishedAt": "2025-04-04T05:40:50.717Z"
-        }
-      },
-      {
-        "id": 10,
-        "documentId": "ampqvno9ioe6jqmkv19zil7s",
-        "Heading": "Qulity Assured",
-        "subHeading": "ISO 9001:2015 certified",
-        "createdAt": "2025-04-04T05:42:54.910Z",
-        "updatedAt": "2025-04-04T05:42:54.910Z",
-        "publishedAt": "2025-04-04T05:42:54.943Z",
-        "CertificateImage": {
-          "id": 13,
-          "documentId": "wt9ruqqvzgekc5ztotvhi049",
-          "name": "ISO.png",
-          "alternativeText": "ISO",
-          "caption": null,
-          "width": 410,
-          "height": 280,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_2acef8fe94.png",
-              "hash": "thumbnail_ISO_2acef8fe94",
-              "mime": "image/png",
-              "name": "thumbnail_ISO.png",
-              "path": null,
-              "size": 23.17,
-              "width": 228,
-              "height": 156,
-              "sizeInBytes": 23172,
-              "provider_metadata": {
-                "public_id": "thumbnail_ISO_2acef8fe94",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "ISO_2acef8fe94",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 11.84,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_2acef8fe94.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "ISO_2acef8fe94",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:50.055Z",
-          "updatedAt": "2025-04-04T05:40:50.055Z",
-          "publishedAt": "2025-04-04T05:40:50.056Z"
-        }
-      }
-    ],
-    "about_cta": {
-      "id": 2,
-      "documentId": "sc0s5eunj7t9fqvcajztr33b",
-      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
-      "createdAt": "2025-04-03T16:03:09.165Z",
-      "updatedAt": "2025-04-03T16:03:09.165Z",
-      "publishedAt": "2025-04-03T16:03:09.313Z"
-    }
-  },
-  "meta": {}
+        ]
+    },
+    "meta": {}
 }

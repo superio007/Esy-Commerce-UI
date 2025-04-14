@@ -2,17 +2,31 @@
   0% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(0px);
   }
 }
+.LandBlogHeading{
+  color: white !important;
+}
 
 .blogGrid {
   animation: float 3s ease-in-out infinite;
-  flex-shrink: 0; /* Prevents shrinking when screen is small */
+  flex-shrink: 0;
+  /* Prevents shrinking when screen is small */
+}
+
+.blogGrid :global(.blogThumbnail) {
+  filter: grayscale(100%);
+
+  &:hover {
+    filter: grayscale(0%);
+  }
 }
 
 /* Add slight delays to create a natural floating effect */
@@ -31,8 +45,9 @@
 .blogGrid:nth-child(5) {
   animation-delay: 0.8s;
 }
+
 @media screen and (max-width: 331px) {
-  .LandBlogHeading{
+  .LandBlogHeading {
     font-size: 1.8rem !important;
     line-height: 2.5rem !important;
   }

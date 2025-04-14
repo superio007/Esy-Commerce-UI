@@ -22,6 +22,10 @@ const SingleBlogs = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Blogspage-content"],
     queryFn: fetchBlogsContent,
+    staleTime: 1000 * 60 * 60, // 1 hour
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    refetchInterval: false,
   });
 
   // ✅ Use useMemo to prevent infinite loops
