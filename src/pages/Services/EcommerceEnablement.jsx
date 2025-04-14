@@ -21,8 +21,8 @@ const EcommerceEnablement = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["EcommerceEnablementpage-content"],
     queryFn: fetchEcommerceEnablementContent,
-    initialData: EcommerceEnablementPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // initialData: EcommerceEnablementPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

@@ -17,8 +17,8 @@ const PrivacyPolicyPage = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["PrivacyPageDatapage-content"],
     queryFn: fetchPrivacyPageDataContent,
-    initialData: PrivacyPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // initialData: PrivacyPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

@@ -22,8 +22,8 @@ const HomePage = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Homepage-content"],
     queryFn: fetchHomeContent,
-    initialData: HomePageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // initialData: HomePageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

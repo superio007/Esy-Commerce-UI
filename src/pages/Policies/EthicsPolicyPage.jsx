@@ -17,8 +17,8 @@ const EthicsPolicyPage = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["EthicsPageDatapage-content"],
     queryFn: fetchEthicsPageDataContent,
-    initialData: EthicsPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // initialData: EthicsPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

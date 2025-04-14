@@ -1,4 +1,5 @@
 import HeaderAboutSection from "../components/AboutPage/HeaderAboutSection";
+import { useEffect, useState } from "react";
 import AboutCta from "../components/AboutPage/AboutCta";
 import CoreValues from "../components/AboutPage/CoreValues";
 import CertificateSlider from "../components/HomePage/CertificationSlider";
@@ -17,18 +18,22 @@ const fetchAboutContent = async () => {
   return data.data;
 };
 const About = () => {
+  const [apiResponse, setApiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
     queryKey: ["Aboutpage-content"],
     queryFn: fetchAboutContent,
-    initialData: AboutPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // initialData: AboutPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
     refetchInterval: false,
   });
-  // Use API data if available; fallback to static data on error
-  const apiResponse = error ? AboutPageData.data || [] : data || [];
+  useEffect(() => {
+    // Use API data if available; fallback to static data on error
+    setApiResponse(error ? AboutPageData.data || [] : data || []);
+  }, [data, error]);
+
   console.log("API Response:", apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (

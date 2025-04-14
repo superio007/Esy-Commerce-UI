@@ -22,8 +22,8 @@ const DataLabelingAnnotation = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["DataLabelingAnnotationpage-content"],
     queryFn: fetchDataLabelingAnnotationContent,
-    initialData: DataLabelingAnnotationPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // initialData: DataLabelingAnnotationPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

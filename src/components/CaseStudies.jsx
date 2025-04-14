@@ -9,7 +9,7 @@ const caseStudies = [
     title: "How Innostax helped Bancstac to optimize Software Development...",
     description:
       "Innostax helped Bancstac to optimize Software Development through AWS, Elastic Search, and MySQL.",
-    image: "./src/assets/case1.webp",
+    image: "./src/assets/CaseStudiesPage/case1.avif",
     tags: ["AWS", "Elastic Search", "Java", "Jenkins", "MySQL"],
   },
   {
@@ -17,7 +17,7 @@ const caseStudies = [
     title: "How Innostax Streamlined Technique’s Project Management...",
     description:
       "Innostax Streamlined Technique's Project Management and Significantly Enhanced Overall Efficiency through Automation",
-    image: "./src/assets/case2.webp",
+    image: "./src/assets/CaseStudiesPage/case1.avif",
     tags: ["Azure", "Microsoft Power Automate"],
   },
   {
@@ -25,7 +25,7 @@ const caseStudies = [
     title: "How Innostax Powered a 15% Increase in Travelstart’s Ticket Sales",
     description:
       "Innostax enabled Travelstart to increase ticket sales by 15% through .NET and Angular enhancements.",
-    image: "./src/assets/case1.webp",
+    image: "./src/assets/CaseStudiesPage/case3.jpg",
     tags: [".NET", "Angular", "Java"],
   },
 ];
