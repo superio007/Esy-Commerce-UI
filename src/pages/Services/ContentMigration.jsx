@@ -21,8 +21,8 @@ const ContentMigration = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["ContentMigrationpage-content"],
     queryFn: fetchContentMigrationContent,
-    // initialData: ContentMigrationPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: ContentMigrationPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

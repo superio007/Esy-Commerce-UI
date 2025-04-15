@@ -21,8 +21,8 @@ const Transliteration = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Transliterationpage-content"],
     queryFn: fetchTransliterationContent,
-    // initialData: TransliterationPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: TransliterationPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

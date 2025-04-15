@@ -18,8 +18,8 @@ const ContactPage = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Contactpage-content"],
     queryFn: fetchContactContent,
-    // initialData: ContactPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: ContactPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

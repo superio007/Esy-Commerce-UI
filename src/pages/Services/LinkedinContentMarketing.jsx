@@ -21,8 +21,8 @@ const LinkedinContentMarketing = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["LinkedinContentMarketingpage-content"],
     queryFn: fetchLinkedinContentMarketingContent,
-    // initialData: LinkedinContentMarketingPageData.data,
-    // initialDataUpdatedAt: 0, // Forces background API call
+    initialData: LinkedinContentMarketingPageData.data,
+    initialDataUpdatedAt: 0, // Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

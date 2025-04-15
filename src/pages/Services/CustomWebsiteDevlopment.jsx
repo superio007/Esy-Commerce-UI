@@ -21,8 +21,8 @@ const CustomWebsiteDevlopment = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["CustomWebsiteDevlopmentpage-content"],
     queryFn: fetchCustomWebsiteDevlopmentContent,
-    // initialData: CustomWebsiteDevlopmentPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: CustomWebsiteDevlopmentPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

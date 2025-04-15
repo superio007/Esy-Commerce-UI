@@ -18,23 +18,20 @@ const fetchAboutContent = async () => {
   return data.data;
 };
 const About = () => {
-  const [apiResponse, setApiResponse] = useState([]);
+  // const [apiResponse, setApiResponse] = useState([]);
   const { data, isLoading, error } = useQuery({
     queryKey: ["Aboutpage-content"],
     queryFn: fetchAboutContent,
-    // initialData: AboutPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: AboutPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
     refetchInterval: false,
   });
-  useEffect(() => {
-    // Use API data if available; fallback to static data on error
-    setApiResponse(error ? AboutPageData.data || [] : data || []);
-  }, [data, error]);
+  const apiResponse = error ? AboutPageData.data || [] : data || [];
 
-  console.log("API Response:", apiResponse);
+  // console.log("API Response:", apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

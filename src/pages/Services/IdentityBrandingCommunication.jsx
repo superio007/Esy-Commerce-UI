@@ -21,8 +21,8 @@ const IdentityBrandingCommunication = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["IdentityBrandingCommunicationpage-content"],
     queryFn: fetchIdentityBrandingCommunicationContent,
-    // initialData: IdentityBrandingCommunicationPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: IdentityBrandingCommunicationPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,

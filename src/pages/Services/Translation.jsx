@@ -21,8 +21,8 @@ const Translation = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Translationpage-content"],
     queryFn: fetchTranslationContent,
-    // initialData: TranslationPageData.data,
-    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    initialData: TranslationPageData.data,
+    initialDataUpdatedAt: 0, // 👈 Forces background API call
     staleTime: 1000 * 60 * 60, // 1 hour
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
