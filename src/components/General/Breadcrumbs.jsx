@@ -22,7 +22,7 @@ const Breadcrumbs = () => {
 
             return (
               <li key={to}>
-                <span className="mx-2">/</span>
+                <span className="mx-2 text-white">/</span>
                 {last ? (
                   <span className="text-white capitalize">{(value).length > 15 ? (value).slice(0, 15) + "..." : value}</span>
                 ) : (
