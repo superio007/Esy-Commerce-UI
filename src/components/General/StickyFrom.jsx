@@ -65,7 +65,7 @@ const StickyFrom = () => {
     <div className={`${styles.fromDiv} bg-white mx-auto`}>
       <div
         className="3xl:mx-auto xl:px-10
-        3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center  w-full gap-4"
+        3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center md:py-16 py-8 w-full gap-4"
       >
         {/* Left Section - Contact Us (4 Columns) */}
         <div className="xl:col-span-4 w-full text-center xl:text-left">
@@ -167,7 +167,7 @@ const StickyFrom = () => {
     <div className={`${styles.NonFromDiv} bg-white mx-auto`}>
       <div
         className="3xl:mx-auto xl:px-10
-        3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center  w-full gap-4"
+        3xl:max-w-screen-xl grid grid-cols-1 xl:grid-cols-12 xl:items-center md:py-16 py-8 w-full gap-4"
       >
         {/* Left Section - Contact Us (4 Columns) */}
         <div className="xl:col-span-4 w-full text-center xl:text-left">

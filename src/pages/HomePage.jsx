@@ -42,7 +42,7 @@ const HomePage = () => {
           subHeading={apiResponse.home_herosection.subHeading}
         />
         {/* Brand Slider */}
-        <div className="md:pt-6">
+        <div className="md:py-6">
           <CustomerSlider CustomerSlider={apiResponse.customer_slider} />
         </div>
         {/* Bullet Points */}

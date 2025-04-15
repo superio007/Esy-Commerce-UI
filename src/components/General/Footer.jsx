@@ -61,8 +61,8 @@ const Footer = () => {
         <div className="py-14 p-6 xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl xl:grid xl:grid-rows-1 xl:grid-cols-5 md:grid md:grid-rows-2 md:grid-cols-2  gap-6 ">
           <div className="col-span-1">
             <img
-              className="mb-6"
-              style={{ maxWidth: "70%", width: "400px" }}
+              className="mb-3"
+              style={{ maxWidth: "90%", width: "400px" }}
               src={WebsitLogo}
               alt="Website Logo"
             />

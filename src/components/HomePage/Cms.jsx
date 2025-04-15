@@ -23,7 +23,7 @@ const CMS = ({ apiRes }) => {
             {/* Left Content */}
             <div className={`space-y-6 `}>
               <h2
-                className={`${styles.LandCMSHeading} sm:text-4xl capitalize text-3xl font-semibold`}
+                className={`${styles.LandCMSHeading} sm:text-4xl capitalize text-3xl font-medium`}
               >
                 Services We Offer
               </h2>
@@ -32,7 +32,7 @@ const CMS = ({ apiRes }) => {
                 {contentArray.map((item, index) => (
                   <div className="pb-4" key={index}>
                     <h3
-                      className={`${styles.LandCMSSubheading} text-[21px] font-semibold`}
+                      className={`${styles.LandCMSSubheading} text-[21px] font-normal`}
                     >
                       {item.title}
                     </h3>
