@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { set, useForm } from "react-hook-form";
 import { useLocation } from "react-router-dom";
+import styles from "./css/EnqueryFrom.module.scss";
 import axios from "axios";
 const postEnqueryForm = async (formattedData) => {
   const { data } = await axios.post(
@@ -49,10 +50,10 @@ const ProposalForm = () => {
   return (
     <>
       <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto rounded-lg shadow-lg">
-        <h2 className="text-xl font-bold uppercase text-center">
+        <h2 className={`${styles.FormHeading}  uppercase text-center`}>
           <span className="text-[#007fff]">Shape Your</span> Future Growth
         </h2>
-        <p className="text-center mb-5 text-sm">
+        <p className={`text-center mb-5 ${styles.FormSubHeading}`}>
           How our expertise can meet your needs
         </p>
 

@@ -1,0 +1,30 @@
+@use "./MainVariables" as *;
+* {
+    font-family: $Font-Family;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $Heading-Color !important;
+}
+
+p {
+    color: $Sub-Heading-Color !important;
+}
+
+body {
+    /* height: 100vh; */
+    background-color: $Body-Color;
+}
+
+li {
+    list-style-type: none;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 20px !important;
+}

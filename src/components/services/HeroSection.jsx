@@ -1,17 +1,21 @@
-import styles from "./css/HeroSection.module.css";
+import styles from "./css/HeroSection.module.scss";
 import Enquery from "../General/Enquery";
 const HeroSection = ({ apiRes }) => {
   return (
     <>
       <div className="bg-[#007fff]">
-        <div className="flex md:flex-row flex-col items-center xl:px-16 px-8 xl:py-16 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className={`flex md:flex-row flex-col items-center xl:px-16 ${styles.HeroSection} 3xl:mx-auto 3xl:max-w-screen-xl`}>
           <section
             className={`w-full mb-8 md:mb-0 md:w-1/2 ${styles.EcommerceConsultation}`}
           >
-            <h1 className="md:text-[45px] text-2xl font-bold text-white text-center md:text-start capitalize">
+            <h1
+              className={`${styles.HeroHeading} font-bold text-white text-start capitalize`}
+            >
               {apiRes.Heading || "Ecommerce Consultation"}
             </h1>
-            <p className="text-md md:text-xl mt-4 md:mt-0 text-center md:text-start">
+            <p
+              className={`${styles.HeroSubHeading} mt-4 md:mt-0 text-start`}
+            >
               {apiRes.SubHeading ||
                 `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero
                 sint veritatis nam suscipit beatae modi provident accusamus,

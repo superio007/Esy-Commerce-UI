@@ -1,0 +1,17 @@
+@use "../../../MainVariables" as *;
+.HeroSection{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height
+}
+.HeroHeading {
+    font-size: $font-size-hero;
+    line-height: $line-height-hero;
+    font-weight: $font-weight-bold;
+    color: $color-primary-hero !important;
+}
+
+.HeroSubHeading {
+    font-size: $font-size-subhero;
+    line-height: $line-height-subhero;
+    font-weight: $font-weight-regular;
+    color: $color-primary-hero !important;
+}

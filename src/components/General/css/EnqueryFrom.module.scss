@@ -1,0 +1,13 @@
+@use "./FormVariables" as *; // path may vary
+
+.FormHeading{
+    font-size:$form-heading;
+    line-height:$form-heading--line-height;
+    font-weight:$font-weight-bold;
+}
+
+.FormSubHeading{
+    font-size:$form-subheading;
+    line-height:$form-subheading--line-height;
+    font-weight:$font-weight-regular;
+}

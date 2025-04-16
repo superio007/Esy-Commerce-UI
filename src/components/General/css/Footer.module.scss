@@ -1,3 +1,4 @@
+@use "../../../MainVariables" as *;
 .Footer .navHeads {
     position: relative;
     text-decoration: none;
@@ -7,7 +8,19 @@
 .Footer .navHeads a{
   color: #1b3139;
 }
-
+.FooterContainer{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height; 
+}
+.FirstFooterContainer{
+    padding-bottom: $Sub-Section-Vertical-Height;
+}
+.SecondFooterContainer {
+    padding-top: $Sub-Section-Vertical-Height;
+    padding-bottom: $Sub-Section-Vertical-Height;
+}
+.ThirdFooterContainer{
+    padding-top: $Sub-Section-Vertical-Height;
+}
 .Footer .navHeads::after {
     content: "";
     position: absolute;

@@ -1,11 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./css/BlogGrid.module.css"; // Ensure CSS file is included
 import Logo from "../../assets/homePage/LogoWhite.png";
-import New from "../../assets/homePage/blog6.jpg"
 import Thumbnail from "../../assets/homePage/thumbnail.jpg"; // Example thumbnail image
-import VideoThumb from "../../assets/homePage/videoThumb.avif"; // Example video thumbnail image
-import VideoThumb2 from "../../assets/homePage/videoThumb2.avif"; // Example video thumbnail image
-import VideoThumb3 from "../../assets/homePage/videoThumb3.avif"; // Example video thumbnail image
+import VideoThumb from "../../assets/homePage/VideoThumbNail.jpg"; // Example video thumbnail image
+import VideoThumb2 from "../../assets/homePage/VideoThumbNail2.jpg"; // Example video thumbnail image
+import VideoThumb3 from "../../assets/homePage/VideoThumbNail3.jpg"; // Example video thumbnail image
 const BlogGrid = () => {
   return (
     <>
@@ -55,7 +54,7 @@ const BlogGrid = () => {
               className={`${styles.blogGrid} col-span-3 row-span-4 col-start-2 row-start-1`}
             >
               <img
-                src={New}
+                src={VideoThumb}
                 className="rounded-2xl blogThumbnail w-full object-cover"
                 alt=""
               />

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaCircle } from "react-icons/fa";
+import styles from "./css/Faq.module.scss";
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 const FAQ = ({ apiRes }) => {
   const [openIndex, setOpenIndex] = useState(0);
@@ -20,18 +21,20 @@ const FAQ = ({ apiRes }) => {
   };
 
   return (
-    <section className="md:py-16 py-8 px-8 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
-      <div className="space-y-3 text-center">
-        <h2 className="text-3xl text-gray-800 font-semibold">
+    <section
+      className={`${styles.faqSection} px-8 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}
+    >
+      <div className={`${styles.faqSubSection} md:text-center`}>
+        <h2 className={styles.faqH2}>
           {apiRes.Heading || "Frequently Asked Questions"}
         </h2>
-        <p className="text-gray-600 max-w-lg mx-auto text-lg">
+        <p className={styles.faqP}>
           {apiRes.subHeading ||
             `Answered all frequently asked questions. Still confused? Feel free to
           contact us.`}
         </p>
       </div>
-      <div className="hidden md:flex mt-14 flex-col md:flex-row gap-6">
+      <div className="hidden md:flex  flex-col md:flex-row gap-6">
         {/* FAQ List */}
         <div className="w-full md:w-1/2 space-y-4">
           {faqsList.map((faq, index) => (
@@ -43,7 +46,7 @@ const FAQ = ({ apiRes }) => {
               onClick={() => toggleFAQ(index)}
             >
               <div className="flex justify-between items-center">
-                <h3 className="text-lg font-medium text-gray-800">{faq.q}</h3>
+                <h3 className={styles.faqH3}>{faq.q}</h3>
                 {openIndex === index ? (
                   <IoIosArrowForward className="text-xl text-[#00234b]" />
                 ) : (
@@ -72,17 +75,17 @@ const FAQ = ({ apiRes }) => {
 
         {/* Dynamic Answer Block */}
         <div className="w-full md:w-1/2 bg-white rounded-md p-6 border border-gray-200">
-          <p className="text-gray-600 text-lg">{selectedAnswer}</p>
+          <p className={styles.faqP}>{selectedAnswer}</p>
         </div>
       </div>
-      <div className="md:hidden mt-14 space-y-4">
+      <div className="md:hidden space-y-4">
         {faqsList.map((faq, index) => (
           <div key={index} className="flex md:flex-row flex-col">
             <div
               className="bg-white w-full flex rounded-md justify-between p-4 md:p-6 cursor-pointer"
               onClick={() => toggleFAQ(index)}
             >
-              <h3>{faq.q}</h3>
+              <h3 className={styles.faqH3}>{faq.q}</h3>
               {openIndex === index ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +123,7 @@ const FAQ = ({ apiRes }) => {
                 className="bg-white w-full rounded-md p-4 md:p-6"
                 onClick={() => toggleFAQ(index)}
               >
-                <p>{faq.a}</p>
+                <p className={styles.faqP}>{faq.a}</p>
               </div>
             )}
           </div>

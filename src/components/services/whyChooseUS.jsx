@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
+import styles from "./css/whyChooseUs.module.scss";
 const WhyUs = ({ apiRes }) => {
   return (
     <>
       <div className="bg-white">
-        <div className="xl:px-10 md:py-16 py-8 px-8 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className={`xl:px-10 ${styles.whyUsSection} 3xl:mx-auto 3xl:max-w-screen-xl`}>
           <section className="text-gray-600 body-font">
-            <div className="flex flex-col text-center w-full mb-20">
-              <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <div className={`flex flex-col md:text-center w-full ${styles.whyUsSubSection}`}>
+              <h2 className={`title-font ${styles.whyUsH2}`}>
                 {apiRes.Heading || "Why Choose Us?"}
               </h2>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p
+                className={`lg:w-2/3 mx-auto leading-relaxed ${styles.whyUsP}`}
+              >
                 {apiRes.subHeading ||
                   `With over 7 years of experience, we have built Link strong
                 reputation for delivering high-quality solutions that drive real
@@ -24,10 +27,10 @@ const WhyUs = ({ apiRes }) => {
                   key={index}
                   className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-b-2 md:border-b-0 md:border-l-2 border-gray-200 border-opacity-60"
                 >
-                  <h3 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                  <h3 className={`${styles.WhyUsH3} title-font`}>
                     {point.Heading}
                   </h3>
-                  <p className="leading-relaxed text-base mb-4">
+                  <p className={`leading-relaxed ${styles.whyUsP}`}>
                     {point.subHeading}
                   </p>
                   <Link

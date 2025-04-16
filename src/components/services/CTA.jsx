@@ -1,24 +1,22 @@
 import { Link } from "react-router-dom";
+import styles from "./css/CTA.module.scss";
 const CTA = ({ apiRes }) => {
   return (
     <>
       <div className="bg-white">
-        <div className="px-8 xl:px-16 md:py-16 xl:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
-          <div className="flex text-center flex-col justify-center items-center gap-12">
-            <h2 className="text-xl md:text-4xl font-bold">
+        <div
+          className={`px-8 xl:px-16 ${styles.ctaSection} 3xl:mx-auto 3xl:max-w-screen-xl`}
+        >
+          <div
+            className={`flex text-center flex-col justify-center items-center `}
+          >
+            <h2 className={styles.ctaH2}>
               {apiRes.Heading ||
                 `Join 100+ Successful Tech Companies — Start Your Custom Software
               Journey Today`}
             </h2>
-            <button>
-              <Link to="/contact">
-                <span
-                  href=""
-                  className="bg-[#007fff] text-white py-4 px-12 rounded-2xl"
-                >
-                  Chat With Us
-                </span>
-              </Link>
+            <button className="bg-[#007fff] text-white py-4 px-12 rounded-xl">
+              <Link to="/contact">Chat With Us</Link>
             </button>
           </div>
         </div>

@@ -40,6 +40,7 @@
     "react-xarrows": "^2.0.2",
     "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
+    "sass": "^1.86.3",
     "sweetalert2": "^11.17.2",
     "swiper": "^11.2.4",
     "typewriter-effect": "^2.21.0"
