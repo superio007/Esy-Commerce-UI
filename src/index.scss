@@ -13,6 +13,7 @@ h6 {
 
 p {
     color: $Sub-Heading-Color !important;
+    
 }
 
 body {
@@ -22,6 +23,8 @@ body {
 
 li {
     list-style-type: none;
+    font-size: $font-size-body !important;
+    line-height: $line-height-body !important;
 }
 
 .swiper-button-prev:after,

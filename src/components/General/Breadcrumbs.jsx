@@ -9,7 +9,7 @@ const Breadcrumbs = () => {
 
   return (
     <section className={`${isContactPage ? 'bg-transparent' : 'bg-[#007fff]'}`}>
-      <nav className="relative py-2 px-5 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
+      <nav className="relative py-2 px-10 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
         <ol className="list-reset flex flex-wrap text-gray-500">
           <li>
             <Link to="/" className="text-[#fff] hover:text-blue-600">

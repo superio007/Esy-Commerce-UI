@@ -37,35 +37,37 @@ const CaseStudiesSection = ({ bgColor }) => {
   return (
     <div style={{ backgroundColor: `${bgColor}` }}>
       <div
-        className={`xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl ${styles.caseStudySection} px-8`}
+        className={`xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl ${styles.caseStudySection}`}
       >
-        <h2 className={`md:text-center ${styles.caseStudiesH2}`}>
-          Related Case Studies
-        </h2>
+        <div className="px-6 md:px-0 ">
+          <h2 className={`md:text-center ${styles.caseStudiesH2}`}>
+            Related Case Studies
+          </h2>
 
-        {/* Desktop grid view */}
-        <div className="hidden md:grid md:grid-cols-3 gap-6">
-          {caseStudies.map((study) => (
-            <CaseStudyCard key={study.id} study={study} />
-          ))}
-        </div>
-
-        {/* Mobile Swiper view */}
-        <div className="md:hidden">
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={50}
-            navigation={true}
-            pagination={{ clickable: true }}
-            modules={[Navigation]}
-            className="mySwiper"
-          >
+          {/* Desktop grid view */}
+          <div className="hidden md:grid md:grid-cols-3 gap-6">
             {caseStudies.map((study) => (
-              <SwiperSlide key={study.id}>
-                <CaseStudyCard study={study} />
-              </SwiperSlide>
+              <CaseStudyCard key={study.id} study={study} />
             ))}
-          </Swiper>
+          </div>
+
+          {/* Mobile Swiper view */}
+          <div className="md:hidden">
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={50}
+              navigation={true}
+              pagination={{ clickable: true }}
+              modules={[Navigation]}
+              className="mySwiper"
+            >
+              {caseStudies.map((study) => (
+                <SwiperSlide key={study.id}>
+                  <CaseStudyCard study={study} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
     </div>
@@ -96,8 +98,8 @@ const CaseStudyCard = ({ study }) => {
           hover ? "opacity-100" : "opacity-0"
         }`}
       >
-        <h3 className={`text-center ${styles.caseStudiesH3}`}>{study.title}</h3>
-        <div className="flex flex-wrap gap-2 w-full justify-center mt-2">
+        <h3 className={`${styles.caseStudiesH3}`}>{study.title}</h3>
+        <div className="flex flex-wrap gap-2 w-full mt-2">
           {study.tags.map((tag, index) => (
             <span
               key={index}
@@ -107,7 +109,7 @@ const CaseStudyCard = ({ study }) => {
             </span>
           ))}
         </div>
-        <p className={`text-center ${styles.caseStudiesP}`}>
+        <p className={`${styles.caseStudiesP}`}>
           {study.description}
         </p>
         <button className="bg-[#007fff] rounded-full text-white p-2 w-full mt-4">

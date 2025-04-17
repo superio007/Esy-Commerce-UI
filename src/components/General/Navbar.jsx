@@ -53,57 +53,15 @@ const Navbar = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-
-  // Loading screen states and initial effect
-  // const [showLoading, setShowLoading] = useState(true);
-  // const [slideUp, setSlideUp] = useState(false);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setSlideUp(true);
-  //     setTimeout(() => {
-  //       setShowLoading(false);
-  //     }, 500); // match this with your transition duration
-  //   }, 2000); // initial display duration
-  //   return () => clearTimeout(timer);
-  // }, []);
-
-  // // Function to re-trigger the loading screen when needed (e.g., on logo click)
-  // const handleLoadingScreen = () => {
-  //   setShowLoading(true);
-  //   setSlideUp(false);
-  //   setTimeout(() => {
-  //     setSlideUp(true);
-  //     setTimeout(() => {
-  //       setShowLoading(false);
-  //     }, 500);
-  //   }, 5000);
-  // };
-
   return (
     <>
-      {/* {showLoading && (
-        <div
-          id="loading-screen"
-          className={`bg-black flex justify-center items-center h-screen transition-transform duration-500 ${
-            slideUp ? "-translate-y-full" : "translate-y-0"
-          }`}
-        >
-          <img
-            className="w-[150px] animate-spin"
-            src={loadingLogo}
-            alt="Loading"
-          />
-        </div>
-      )} */}
-
       <nav
         ref={menuRef}
         // #007fff94
         // #007fffc7
         className={`${
           isContactPage ? `bg-[#007fffc7]` : `bg-[#007fff]`
-        } p-3 border-gray-200 dark:border-gray-600 relative z-9`}
+        } p-3 px-8 md:px-0 border-gray-200 dark:border-gray-600 relative z-9`}
       >
         <div className="flex flex-wrap justify-between items-center xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
           {/* Logo */}
@@ -614,10 +572,11 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu (Toggled) */}
+
         <div
-          className={`xl:hidden ${styles.mobileMenuNav} ${
-            isMenuOpen ? "block" : "hidden"
-          } p-4 bg-white xl:px-10 md:mt-0 mt-3 flex flex-col justify-between min-h-screen`}
+          className={`xl:hidden transform transition-transform duration-300 ease-in-out fixed mt-3 right-0 w-full md:max-w-[400px] sm:max-w-[100vw] h-[90%] z-50 ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          } p-4 bg-white flex flex-col justify-between`}
         >
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
             <li className={styles.navHeadsMobile}>

@@ -343,40 +343,172 @@
       "publishedAt": "2025-04-02T15:52:44.811Z",
       "why_us_points": [
         {
-          "id": 2,
+          "id": 13,
           "documentId": "ho43113tzhve2oy50huwsipw",
           "Heading": "7+ Years of Expertise",
           "subHeading": "Proven experience delivering high-quality solutions across industries.",
           "createdAt": "2025-04-02T15:53:07.346Z",
-          "updatedAt": "2025-04-02T15:53:07.346Z",
-          "publishedAt": "2025-04-02T15:53:07.439Z"
+          "updatedAt": "2025-04-17T11:36:00.472Z",
+          "publishedAt": "2025-04-17T11:36:00.495Z",
+          "why_us": {
+            "id": 2,
+            "documentId": "hfolj82j7cdr7k5rckomyuso",
+            "Heading": "Why Choose Us?",
+            "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+            "createdAt": "2025-04-02T15:52:44.737Z",
+            "updatedAt": "2025-04-02T15:52:44.737Z",
+            "publishedAt": "2025-04-02T15:52:44.811Z"
+          },
+          "Icon": {
+            "id": 39,
+            "documentId": "rh92my112kmagfrgukwqceak",
+            "name": "quality.png",
+            "alternativeText": "quality.png",
+            "caption": null,
+            "width": 64,
+            "height": 64,
+            "formats": null,
+            "hash": "quality_4a458566a2",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 1.02,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889756/quality_4a458566a2.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "quality_4a458566a2",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-17T11:35:57.294Z",
+            "updatedAt": "2025-04-17T11:35:57.294Z",
+            "publishedAt": "2025-04-17T11:35:57.294Z"
+          }
         },
         {
-          "id": 6,
+          "id": 14,
           "documentId": "qjaneznxknxyubfnbqemf2zq",
           "Heading": "Global Clientele",
           "subHeading": "Extensive experience working with businesses in the USA and beyond.",
           "createdAt": "2025-04-02T15:53:40.153Z",
-          "updatedAt": "2025-04-02T15:53:40.153Z",
-          "publishedAt": "2025-04-02T15:53:40.436Z"
+          "updatedAt": "2025-04-17T11:36:20.542Z",
+          "publishedAt": "2025-04-17T11:36:20.567Z",
+          "why_us": {
+            "id": 2,
+            "documentId": "hfolj82j7cdr7k5rckomyuso",
+            "Heading": "Why Choose Us?",
+            "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+            "createdAt": "2025-04-02T15:52:44.737Z",
+            "updatedAt": "2025-04-02T15:52:44.737Z",
+            "publishedAt": "2025-04-02T15:52:44.811Z"
+          },
+          "Icon": {
+            "id": 40,
+            "documentId": "n8zlj8dgrg5yj2y4bqg0u862",
+            "name": "international.png",
+            "alternativeText": "international.png",
+            "caption": null,
+            "width": 64,
+            "height": 64,
+            "formats": null,
+            "hash": "international_e4228b3296",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 1.37,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889777/international_e4228b3296.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "international_e4228b3296",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-17T11:36:17.773Z",
+            "updatedAt": "2025-04-17T11:36:17.773Z",
+            "publishedAt": "2025-04-17T11:36:17.773Z"
+          }
         },
         {
-          "id": 9,
+          "id": 12,
           "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
           "Heading": "End-to-End Services",
           "subHeading": "From strategy to execution, we provide complete business solutions.",
           "createdAt": "2025-04-02T15:53:57.816Z",
-          "updatedAt": "2025-04-02T15:54:14.349Z",
-          "publishedAt": "2025-04-02T15:54:14.416Z"
+          "updatedAt": "2025-04-17T11:35:37.462Z",
+          "publishedAt": "2025-04-17T11:35:37.480Z",
+          "why_us": {
+            "id": 2,
+            "documentId": "hfolj82j7cdr7k5rckomyuso",
+            "Heading": "Why Choose Us?",
+            "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+            "createdAt": "2025-04-02T15:52:44.737Z",
+            "updatedAt": "2025-04-02T15:52:44.737Z",
+            "publishedAt": "2025-04-02T15:52:44.811Z"
+          },
+          "Icon": {
+            "id": 38,
+            "documentId": "aezlcij39hb1de7zdpvlq434",
+            "name": "destination.png",
+            "alternativeText": "destination.png",
+            "caption": null,
+            "width": 64,
+            "height": 64,
+            "formats": null,
+            "hash": "destination_787e32b206",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 0.9,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889731/destination_787e32b206.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "destination_787e32b206",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-17T11:35:31.820Z",
+            "updatedAt": "2025-04-17T11:35:31.820Z",
+            "publishedAt": "2025-04-17T11:35:31.820Z"
+          }
         },
         {
-          "id": 11,
+          "id": 15,
           "documentId": "ruzivl9hm0kb2audxcklgou2",
           "Heading": "Tailored Strategies",
           "subHeading": "Customized solutions designed to meet your unique business needs.",
           "createdAt": "2025-04-02T15:53:23.816Z",
-          "updatedAt": "2025-04-02T15:54:34.762Z",
-          "publishedAt": "2025-04-02T15:54:34.894Z"
+          "updatedAt": "2025-04-17T11:36:42.731Z",
+          "publishedAt": "2025-04-17T11:36:42.744Z",
+          "why_us": {
+            "id": 2,
+            "documentId": "hfolj82j7cdr7k5rckomyuso",
+            "Heading": "Why Choose Us?",
+            "subHeading": "With over 7 years of experience, we have built Link strong reputation for delivering high-quality solutions that drive real results. Our expertise spans multiple industries, helping businesses grow, optimize operations, and enhance digital experiences.",
+            "createdAt": "2025-04-02T15:52:44.737Z",
+            "updatedAt": "2025-04-02T15:52:44.737Z",
+            "publishedAt": "2025-04-02T15:52:44.811Z"
+          },
+          "Icon": {
+            "id": 41,
+            "documentId": "ev4ckjw5gr7t38rvcif5baki",
+            "name": "idea.png",
+            "alternativeText": "idea.png",
+            "caption": null,
+            "width": 64,
+            "height": 64,
+            "formats": null,
+            "hash": "idea_5797686f0d",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 1.06,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889796/idea_5797686f0d.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "idea_5797686f0d",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-17T11:36:36.903Z",
+            "updatedAt": "2025-04-17T11:36:36.903Z",
+            "publishedAt": "2025-04-17T11:36:36.903Z"
+          }
         }
       ]
     },

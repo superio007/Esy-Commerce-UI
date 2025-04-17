@@ -5,10 +5,10 @@ const CTA = ({ apiRes }) => {
     <>
       <div className="bg-white">
         <div
-          className={`px-8 xl:px-16 ${styles.ctaSection} 3xl:mx-auto 3xl:max-w-screen-xl`}
+          className={` xl:px-16 ${styles.ctaSection} 3xl:mx-auto 3xl:max-w-screen-xl`}
         >
           <div
-            className={`flex text-center flex-col justify-center items-center `}
+            className={`px-6 md:px-0 flex text-center flex-col justify-center items-center `}
           >
             <h2 className={styles.ctaH2}>
               {apiRes.Heading ||

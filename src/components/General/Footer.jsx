@@ -79,7 +79,7 @@ const Footer = () => {
                 for successful AI & <br /> Machine Learning projects.
               </p>
               <img
-                style={{ maxWidth: "70%", width: "400px" }}
+                style={{ maxWidth: "86%", width: "400px" }}
                 src={FooterBrands}
                 className="mb-6"
                 alt=""
@@ -184,10 +184,10 @@ const Footer = () => {
               </ul>
             </div>
             <div className="xl:col-span-2 md:col-span-1">
-              <h2 className="mb-1 leading-normal text-[18px] font-bold">
+              <h2 className="mb-3 leading-normal text-[18px] font-bold">
                 Contact Us
               </h2>
-              <div className="pb-1">
+              <div className="pb-5">
                 <p className="flex  flex-wrap gap-2 text-1xl leading-normal font-medium mb-2">
                   <img
                     className="w-[25px]"
