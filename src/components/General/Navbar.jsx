@@ -79,6 +79,13 @@ const Navbar = () => {
           {/* Logo */}
           <NavLink
             to="/"
+            onClick={() => {
+              setMIsEcommMenu(false);
+              setMIsDesignMenu(false);
+              setMIsDevMenu(false);
+              setMIsBpmMenu(false);
+              setIsMenuOpen(false);
+            }}
             className="flex items-center space-x-3 relative"
             // onClick={handleLoadingScreen}
           >
@@ -591,8 +598,8 @@ const Navbar = () => {
           } p-4 bg-white flex flex-col justify-between`}
         >
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
-            <li className={styles.navHeadsMobile}>
-              <NavLink
+            <li className={`${styles.navHeadsMobile}`}>
+              <div
                 className="flex justify-between items-center text-gray-900 hover:text-blue-700"
                 onClick={() => {
                   setMIsEcommMenu(!isMEcommMenuOpen);
@@ -603,7 +610,7 @@ const Navbar = () => {
               >
                 Ecommerce
                 {isMEcommMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
-              </NavLink>
+              </div>
             </li>
             {isMEcommMenuOpen && (
               <li>
@@ -641,7 +648,7 @@ const Navbar = () => {
               </li>
             )}
             <li className={styles.navHeadsMobile}>
-              <NavLink
+              <div
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(!isMDesignMenuOpen);
@@ -652,7 +659,7 @@ const Navbar = () => {
               >
                 Design
                 {isMDesignMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
-              </NavLink>
+              </div>
             </li>
             {isMDesignMenuOpen && (
               <li>
@@ -699,7 +706,7 @@ const Navbar = () => {
               </li>
             )}
             <li className={styles.navHeadsMobile}>
-              <NavLink
+              <div
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(false);
@@ -710,7 +717,7 @@ const Navbar = () => {
               >
                 Development
                 {isMDevMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
-              </NavLink>
+              </div>
             </li>
             {isMDevMenuOpen && (
               <li>
@@ -820,7 +827,7 @@ const Navbar = () => {
               </li>
             )}
             <li className={styles.navHeadsMobile}>
-              <NavLink
+              <div
                 onClick={() => {
                   setMIsEcommMenu(false);
                   setMIsDesignMenu(false);
@@ -831,7 +838,7 @@ const Navbar = () => {
               >
                 BPM
                 {isMBpmMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
-              </NavLink>
+              </div>
             </li>
             {isMBpmMenuOpen && (
               <li>

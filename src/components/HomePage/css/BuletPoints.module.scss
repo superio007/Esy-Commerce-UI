@@ -1,0 +1,31 @@
+@use "../../../MainVariables" as *;
+
+.BuletSection {
+  padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.BulletPoints{
+  margin-top: $Section-Horizontal-Height;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.LandBulletsHeading{
+  font-size: $font-size-h2;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-h2;
+}
+.LandBulletsSubheading{
+  font-size: $font-size-body;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-body;
+}
+.fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}

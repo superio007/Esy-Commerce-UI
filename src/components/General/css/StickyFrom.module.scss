@@ -9,10 +9,21 @@
 .StickyfromDiv{
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
+.StickyH2{
+    font-size: $font-size-h2;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-h2;
+}
 nav .fromDiv {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+    .StickyH2{
+        margin-bottom: $Sub-Section-Vertical-Height;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -32,10 +43,4 @@ nav .fromDiv {
     bottom: 0;
     width: 100%;
     /* padding: 1.5rem 0; */
-}
-
-@media screen and (max-width: 769px) {
-    .NonFromDiv {
-        padding: 1.5rem;
-    }
 }

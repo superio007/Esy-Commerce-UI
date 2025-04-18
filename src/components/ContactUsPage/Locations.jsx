@@ -15,7 +15,7 @@ const Locations = ({ heading, Locations }) => {
             <h2 className={`${styles.LocationH2} p-8 text-center`}>
               {heading || "Our Offices"}
             </h2>
-            <div className="flex md:flex-row p-4 gap-4 flex-col justify-evenly">
+            <div className="flex md:flex-row  gap-4 flex-col justify-evenly">
               <div className="md:w-max w-auto">
                 <div className="bg-white rounded-md md:px-12 p-8 md:py-6">
                   <h3

@@ -5,7 +5,7 @@ import CustomerSlider from "../components/HomePage/CustomerSlider";
 import Certification from "../components/HomePage/CertificationSlider";
 import BlogGrid from "../components/HomePage/BlogGrid";
 import Testimonial from "../components/HomePage/Testimonial";
-import Headless from "../components/HomePage/HeadlessCms";
+// import Headless from "../components/HomePage/HeadlessCms";
 import Headless2 from "../components/HomePage/HeadlessCms2";
 import CMS from "../components/HomePage/Cms";
 import axios from "axios";

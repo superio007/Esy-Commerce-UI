@@ -84,7 +84,7 @@ const Conatct = ({ sectionPoints }) => {
           <div className="px-6 md:px-0 flex md:flex-row items-center flex-col-reverse ">
             <div className="w-full md:w-1/2 lg:w-3/5">
               <div className="flex flex-wrap ">
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -103,7 +103,7 @@ const Conatct = ({ sectionPoints }) => {
                     </span>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -122,7 +122,7 @@ const Conatct = ({ sectionPoints }) => {
                     </span>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -141,7 +141,7 @@ const Conatct = ({ sectionPoints }) => {
                     </span>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -160,7 +160,7 @@ const Conatct = ({ sectionPoints }) => {
                     </span>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -179,7 +179,7 @@ const Conatct = ({ sectionPoints }) => {
                     </span>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -200,7 +200,7 @@ const Conatct = ({ sectionPoints }) => {
                 </div>
               </div>
               <div className="flex flex-wrap ">
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"
@@ -219,7 +219,7 @@ const Conatct = ({ sectionPoints }) => {
                     </span>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/2 w-full">
+                <div className=" sm:w-1/2 w-full">
                   <div className="rounded flex p-4 h-full items-center">
                     <svg
                       fill="none"

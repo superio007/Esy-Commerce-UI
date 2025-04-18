@@ -1,9 +1,46 @@
+@use "../../../MainVariables" as *;
+
+.HeadlessCMS{
+  padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+
 .BrandLogo {
   width: 58%;
   object-fit: contain;
   /* background-color: #fafafa; */
   background-size: contain;
 }
+
+.LandHeadingSectionHeading{
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+  font-weight: $font-weight-medium
+}
+.subsection{
+  margin-bottom: $Sub-Section-Vertical-Height;
+}
+.SecSubSection{
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  font-weight: $font-weight-regular;
+}
+.SecH3up{
+  font-size: $font-size-h3;
+  line-height: $line-height-h3;
+  font-weight: $font-weight-medium
+}
+.LandHeadlessh3{
+  font-size: $font-size-h3;
+  line-height: $line-height-h3;
+  font-weight: $font-weight-medium
+}
+
+.LandHeadingSectionSubheading{
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  font-weight: $font-weight-regular;
+}
+
 
 @media screen and (max-width: 1500px) {
   .BrandLogo {
@@ -13,6 +50,19 @@
     background-size: contain;
   }
 
+}
+@media screen and (max-width:769px) {
+  .subsection {
+    margin-bottom: 0;
+  }
+
+  .SecSubSection {
+    margin-bottom: $Sub-Section-Vertical-Height ;
+  }
+
+  .SecH3up {
+    margin-top: $Sub-Section-Vertical-Height ;
+  }
 }
 
 @keyframes fadeInUp {
@@ -47,7 +97,9 @@
   }
 }
 
-@media screen and (max-width: 331px) {
+
+
+/* @media screen and (max-width: 331px) {
   .LandHeadingSectionHeading {
     font-size: 1.8rem !important;
     line-height: 2.5rem !important;
@@ -67,4 +119,4 @@
     font-size: 0.75rem !important;
     line-height: 1.2rem !important;
   }
-}
+} */

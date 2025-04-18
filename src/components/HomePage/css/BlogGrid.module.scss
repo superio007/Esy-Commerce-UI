@@ -1,3 +1,9 @@
+@use "../../../MainVariables" as *;
+
+.BlogGridSection{
+  padding: $Section-Vertical-Height $Section-Horizontal-Height;
+  }
+
 @keyframes float {
   0% {
     transform: translateY(0px);
@@ -13,6 +19,10 @@
 }
 .LandBlogHeading{
   color: white !important;
+  font-size: $font-size-h2;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-h2;
+  margin-bottom: $Sub-Section-Vertical-Height;
 }
 
 .blogGrid {
@@ -44,11 +54,4 @@
 
 .blogGrid:nth-child(5) {
   animation-delay: 0.8s;
-}
-
-@media screen and (max-width: 331px) {
-  .LandBlogHeading {
-    font-size: 1.8rem !important;
-    line-height: 2.5rem !important;
-  }
 }
