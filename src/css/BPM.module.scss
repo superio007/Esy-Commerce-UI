@@ -1,0 +1,36 @@
+@use "../MainVariables" as *;
+
+.BPM {
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+
+.BPMHeading {
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-hero;
+    color: $color-primary-hero !important;
+}
+
+.DivSpace {
+    margin-bottom: $Sub-Section-Vertical-Height;
+}
+
+.BPMH2 {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-bold;
+}
+
+.BPMH2Middle {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-bold;
+    margin-top: $Sub-Section-Vertical-Height;
+}
+
+.BPMp {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: $font-weight-regular;
+    margin-bottom: $Sub-Section-Vertical-Height;
+}

@@ -1,0 +1,36 @@
+@use "../MainVariables" as *;
+
+.Design {
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+
+.DesignHeading {
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-hero;
+    color: $color-primary-hero !important;
+}
+
+.DivSpace {
+    margin-bottom: $Sub-Section-Vertical-Height;
+}
+
+.DesignH2 {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-bold;
+}
+
+.DesignH2Middle {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-bold;
+    margin-top: $Sub-Section-Vertical-Height;
+}
+
+.Designp {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: $font-weight-regular;
+    margin-bottom: $Sub-Section-Vertical-Height;
+}

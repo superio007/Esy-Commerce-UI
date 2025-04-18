@@ -1,0 +1,25 @@
+@use "../../../MainVariables" as *;
+.CoreValuesSection{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.coreH2{
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-medium;
+}
+.coresub{
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: $font-weight-regular;
+    margin-bottom: $Sub-Section-Vertical-Height;
+}
+.coreH3{
+    font-size: $font-size-h3;
+    line-height: $line-height-h3;
+    font-weight: $font-weight-medium;
+}
+.corep{
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: $font-weight-regular;
+}

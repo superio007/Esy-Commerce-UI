@@ -1,11 +1,15 @@
 import { NavLink } from "react-router-dom";
-const AboutCta = ({heading}) => {
-    return (
-      <>
-        <div className="bg-white">
-          <div className="p-6  xl:px-16 md:py-16 py-8 3xl:mx-auto 3xl:max-w-screen-xl">
-            <div className="flex text-center flex-col justify-center items-center gap-12">
-              <h2 className="text-xl md:text-4xl font-bold">
+import styles from "./css/AboutCta.module.scss";
+const AboutCta = ({ heading }) => {
+  return (
+    <>
+      <div className="bg-white">
+        <div
+          className={`xl:px-16 ${styles.ctaSection} 3xl:mx-auto 3xl:max-w-screen-xl`}
+        >
+          <div className="px-6 md:px-0">
+            <div className="flex text-center flex-col justify-center items-center ">
+              <h2 className={styles.ctaH2}>
                 {heading ||
                   "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today"}
               </h2>
@@ -22,7 +26,8 @@ const AboutCta = ({heading}) => {
             </div>
           </div>
         </div>
-      </>
-    );
-}
-export default AboutCta
+      </div>
+    </>
+  );
+};
+export default AboutCta;

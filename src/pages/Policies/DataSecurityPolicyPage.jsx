@@ -1,9 +1,8 @@
 import React from "react";
-import styles from "../../css/DataPolicy.module.css";
-import HeroSection from "../../components/DataSecurity/HeroSection";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
+import styles from "../../css/DataPolicy.module.scss";
+import Lottie from "../../assets/DataSecurity/Employees.lottie";
+import HeroSection from "../../components/Policies/HeroSection";
+import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import DataSecurityPageData from "../Data/DataSecurityData.json";
@@ -31,16 +30,12 @@ const DataSecurityPolicyPage = () => {
       <HeroSection
         heading={apiResponse.Heading}
         subHeading={apiResponse.subHeading}
+        lottie={Lottie}
       />
       <div className={`${styles.DataPolicy} bg-white`}>
         <div>
           <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeRaw]}
-            >
-              {apiResponse.Content}
-            </ReactMarkdown>
+            <ReactMarkdown Content={apiResponse.Content} />
           </div>
         </div>
       </div>

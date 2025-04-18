@@ -1,0 +1,24 @@
+@use "../../../MainVariables" as *;
+.HeroSection{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.HeroHeading{
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-hero;
+    color: $color-primary-hero !important;
+}
+.HeroSubHeading{
+    font-size: $font-size-subhero;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-subhero;
+    color: $color-primary-hero !important;
+}
+.CareerImage canvas {
+    width: 700px !important;
+}
+@media screen and (max-width: 1280px) {
+    .CareerImage canvas {
+        width: 100% !important;
+    }
+}

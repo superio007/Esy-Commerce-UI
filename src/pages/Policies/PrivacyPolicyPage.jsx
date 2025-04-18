@@ -1,9 +1,8 @@
 import React from "react";
-import HeroSection from "../../components/PrivacyPolicy/HeroSection";
-import styles from "../../css/PrivacyPolicyPage.module.css";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
+import HeroSection from "../../components/Policies/HeroSection";
+import Lottie from "../../assets/PrivacyPolicy/Privacy.lottie";
+import styles from "../../css/PrivacyPolicyPage.module.scss";
+import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import PrivacyPageData from "../Data/PrivacyData.json";
@@ -31,15 +30,11 @@ const PrivacyPolicyPage = () => {
       <HeroSection
         heading={apiResponse.Heading}
         subHeading={apiResponse.subHeading}
+        lottie={Lottie}
       />
       <div className={`${styles.PrivacyPolicy} bg-white`}>
         <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
-          >
-            {apiResponse.Content}
-          </ReactMarkdown>
+          <ReactMarkdown Content={apiResponse.Content} />
         </div>
       </div>
     </>

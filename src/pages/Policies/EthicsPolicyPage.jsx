@@ -1,9 +1,8 @@
 import React from "react";
-import styles from "../../css/Ethics.module.css";
-import HeroSection from "../../components/EthicsPage/HeroSection";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
+import styles from "../../css/Ethics.module.scss";
+import HeroSection from "../../components/Policies/HeroSection";
+import Lottie from "../../assets/EthicsPage/Employees.lottie";
+import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import EthicsPageData from "../Data/EthicsData.json";
@@ -31,15 +30,11 @@ const EthicsPolicyPage = () => {
       <HeroSection
         heading={apiResponse.Heading}
         subHeading={apiResponse.subHeading}
+        lottie={Lottie}
       />
       <div className={`${styles.Ethics} bg-white`}>
         <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
-          >
-            {apiResponse.Content}
-          </ReactMarkdown>
+          <ReactMarkdown Content={apiResponse.Content} />
         </div>
       </div>
     </>

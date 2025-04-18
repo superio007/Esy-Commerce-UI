@@ -1,9 +1,8 @@
 import React from "react";
-import HeroSection from "../../components/CodeOfConduct/HeroSection";
-import styles from "../../css/CodeOfConduct.module.css";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
+import HeroSection from "../../components/Policies/HeroSection";
+import styles from "../../css/CodeOfConduct.module.scss";
+import Lottie from "../../assets/CodeOfConduct/Employees.lottie";
+import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import CodeofConductPageData from "../Data/CodeofConductData.json";
@@ -31,15 +30,11 @@ const CodeofConductPage = () => {
       <HeroSection
         heading={apiResponse.Heading}
         subHeading={apiResponse.subHeading}
+        lottie={Lottie}
       />
       <div className={`${styles.CodeOfConduct} bg-white`}>
         <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
-          >
-            {apiResponse.Content}
-          </ReactMarkdown>
+          <ReactMarkdown Content={apiResponse.Content} />
         </div>
       </div>
     </>

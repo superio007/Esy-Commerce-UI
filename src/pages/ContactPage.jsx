@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../css/ContactPage.module.css";
+import styles from "../css/ContactPage.module.scss";
 import Map from "../components/ContactUsPage/Map";
 import CustomerSlider from "../components/HomePage/CustomerSlider";
 import Contact from "../components/ContactUsPage/Contact";
@@ -35,10 +35,10 @@ const ContactPage = () => {
         sectionPoints={apiResponse.contact_section.contact_section_points}
       />
       <div className="text-center">
-        <h2 className="text-2xl font-medium capitalize">
+        <h3 className={`${styles.ContactH3} capitalize`}>
           {apiResponse.contact_section.CustomerSliderHeading ||
             "Trusted by industry leaders worldwide."}
-        </h2>
+        </h3>
         <CustomerSlider CustomerSlider={apiResponse.customer_slider} />
       </div>
       <Locations

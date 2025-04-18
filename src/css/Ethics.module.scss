@@ -1,0 +1,28 @@
+@use "../MainVariables" as *;
+
+.Ethics {
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+
+.Ethics li {
+    list-style-type: disc;
+    color: $Sub-Heading-Color !important;
+}
+
+.Ethics h2 {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-medium;
+}
+
+.Ethics h3 {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-medium;
+}
+
+.Ethics p {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: $font-weight-regular;
+}

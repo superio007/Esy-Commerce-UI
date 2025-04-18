@@ -1,9 +1,8 @@
 import React from "react";
-import HeroSection from "../../components/InformationSecurityPage/HeroSection";
-import styles from "../../css/InformationSecurity.module.css";
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
+import HeroSection from "../../components/Policies/HeroSection";
+import Lottie from "../../assets/InformationSecurityPage/InformationSecurity.lottie";
+import styles from "../../css/InformationSecurity.module.scss";
+import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import InformationSecurityPageData from "../Data/InformationSecurityData.json";
@@ -33,15 +32,11 @@ const InformationSecurityPage = () => {
       <HeroSection
         heading={apiResponse.Heading}
         subHeading={apiResponse.subHeading}
+        lottie={Lottie}
       />
       <div className={`${styles.InformationSecurity} bg-white`}>
         <div className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
-          >
-            {apiResponse.Content}
-          </ReactMarkdown>
+          <ReactMarkdown Content={apiResponse.Content} />
         </div>
       </div>
     </>

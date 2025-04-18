@@ -42,6 +42,7 @@ const Navbar = () => {
         setIsDesignMenu(false);
         setIsDevMenu(false);
         setIsBpmMenu(false);
+        setIsMenuOpen(false);
       }
     };
 
@@ -53,6 +54,17 @@ const Navbar = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isMenuOpen]);
   return (
     <>
       <nav

@@ -1,0 +1,9 @@
+@use "../../../MainVariables" as *;
+.ConatctPage{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height
+}
+.ContactH2{
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-medium;
+}

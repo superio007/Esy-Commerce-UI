@@ -1,0 +1,10 @@
+@use "../../../MainVariables" as *;
+.ctaSection{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height
+}
+.ctaH2{
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+    font-weight: $font-weight-medium;
+    margin-bottom: $Sub-Section-Vertical-Height ;
+}

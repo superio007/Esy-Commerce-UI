@@ -6,3 +6,9 @@
 @theme {
   --breakpoint-3xl: 1600px;
 }
+@media screen and (max-width: 769px) {
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
