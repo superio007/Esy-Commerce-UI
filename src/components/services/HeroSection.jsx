@@ -9,9 +9,7 @@ const HeroSection = ({ apiRes }) => {
             <section
               className={`w-full mb-8 md:mb-0 md:w-1/2 ${styles.EcommerceConsultation}`}
             >
-              <h1
-                className={`${styles.HeroHeading} font-bold text-white text-start capitalize`}
-              >
+              <h1 className={`${styles.HeroHeading}  text-start capitalize`}>
                 {apiRes.Heading || "Ecommerce Consultation"}
               </h1>
               <p className={`${styles.HeroSubHeading} mt-4 md:mt-0 text-start`}>

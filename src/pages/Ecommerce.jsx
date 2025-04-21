@@ -1,5 +1,9 @@
 import styles from "../css/Ecommerce.module.scss";
 import { Link } from "react-router-dom";
+import React from "react";
+import ECommConsultation from "../assets/Services/Ecomm-Consultation.png";
+import ECommEnablement from "../assets/Services/EcommerceEnablement.png";
+import ECommWebsiteDevelopment from "../assets/Services/EcommerceWebDev.png";
 const Ecommerce = () => {
   return (
     <>
@@ -52,7 +56,7 @@ const Ecommerce = () => {
                     <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={ECommConsultation}
                     />
                   </div>
                 </div>
@@ -64,7 +68,7 @@ const Ecommerce = () => {
                     <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={ECommEnablement}
                     />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
@@ -120,7 +124,7 @@ const Ecommerce = () => {
                     <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={ECommWebsiteDevelopment}
                     />
                   </div>
                 </div>

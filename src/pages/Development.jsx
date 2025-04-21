@@ -1,5 +1,9 @@
 import styles from "../css/Development.module.scss";
 import { Link } from "react-router-dom";
+import React from "react";
+import CMS from "../assets/Services/CMS.png";
+import CRM from "../assets/Services/CRM.png";
+import CustomDevelopment from "../assets/Services/custom-website-development.png";
 const Development = () => {
   return (
     <>
@@ -48,7 +52,7 @@ const Development = () => {
                     <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={CMS}
                     />
                   </div>
                 </div>
@@ -60,7 +64,7 @@ const Development = () => {
                     <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={CRM}
                     />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left ">
@@ -110,7 +114,7 @@ const Development = () => {
                     <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={CustomDevelopment}
                     />
                   </div>
                 </div>

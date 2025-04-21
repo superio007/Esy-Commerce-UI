@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import styles from "../components/CareerPage/css/CarrearCards.module.css";
+import styles from "../css/CareearPage.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import lottie from "../assets/CareerPage/vRMSsmzJes (2).lottie";
@@ -48,47 +48,48 @@ const careerPage = () => {
   return (
     <>
       <div className="bg-[#007fff]">
-        <section
-          id=""
-          className={`${styles.CareerHead} xl:px-16 p-3 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl`}
+        <div
+          className={`${styles.CareerPageSection} xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}
         >
-          <div className="flex md:flex-row flex-col items-center">
-            <div className="md:w-fit flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="text-[60px] font-bold">
-                Looking for a{" "}
-                <span className={styles.highlightUnderlineHead}>
-                  new career?
-                  <span
-                    className={styles.underlineBarHead}
-                    style={{
-                      background:
-                        "linear-gradient(90deg, #00eeff 0%, transparent 100%)",
-                      bottom: "9px",
-                      height: "18px",
-                      position: "absolute",
-                    }}
-                  ></span>
-                </span>
-              </h1>
-              <p className="mb-8 leading-relaxed">
-                Our staff and fellows come from many backgrounds, disciplines
-                and countries.
-              </p>
-              <div className="mt-4 md:mt-0">
-                <a
-                  style={{ display: "inline-block" }}
-                  href="#Carreer-Section"
-                  className="h-max py-4 px-8 bg-[#ffffff] text-[#007fff] rounded-xl"
-                >
-                  Join the team
-                </a>
+          <div className="px-6 md:px-0">
+            <div className="flex md:flex-row flex-col items-center">
+              <div className="md:w-fit flex flex-col items-start text-left mb-16 md:mb-0">
+                <h1 className={`${styles.CareerPageHeading}`}>
+                  Looking for a{" "}
+                  <span className={styles.highlightUnderlineHead}>
+                    new career?
+                    <span
+                      className={styles.underlineBarHead}
+                      style={{
+                        background:
+                          "linear-gradient(90deg, #00eeff 0%, transparent 100%)",
+                        bottom: "9px",
+                        height: "18px",
+                        position: "absolute",
+                      }}
+                    ></span>
+                  </span>
+                </h1>
+                <p className={styles.CareerPageSubHeading}>
+                  Our staff and fellows come from many backgrounds, disciplines
+                  and countries.
+                </p>
+                <div className="mt-4 md:mt-0">
+                  <a
+                    style={{ display: "inline-block" }}
+                    href="#Carreer-Section"
+                    className="h-max py-4 px-8 bg-[#ffffff] text-[#007fff] rounded-xl"
+                  >
+                    Join the team
+                  </a>
+                </div>
+              </div>
+              <div id="" className={styles.CareerImage}>
+                <DotLottieReact src={lottie} loop autoplay />
               </div>
             </div>
-            <div id="" className={styles.CareerImage}>
-              <DotLottieReact src={lottie} loop autoplay />
-            </div>
           </div>
-        </section>
+        </div>
       </div>
       <div className="bg-white">
         <section className="xl:px-10 py-12 3xl:mx-auto 3xl:max-w-screen-xl ">

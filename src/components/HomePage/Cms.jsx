@@ -22,7 +22,7 @@ const CMS = ({ apiRes }) => {
                 {/* Left Content */}
                 <div>
                   <h2
-                    className={`${styles.LandCMSHeading}`}
+                    className={`${styles.LandCMSHeading} md:mb-3`}
                   >
                     Services We Offer
                   </h2>

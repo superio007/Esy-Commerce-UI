@@ -1,0 +1,88 @@
+@use "../MainVariables" as *;
+
+.CareerPageSection{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+
+.CareerPageHeading{
+    font-size: $font-size-hero;
+    line-height: $line-height-hero;
+    font-weight: $font-weight-bold;
+    color: $color-primary-hero !important;
+    margin-bottom: calc($Sub-Section-Vertical-Height/2);
+}
+.CareerPageSubHeading{
+    font-size: $font-size-subhero;
+    line-height: $line-height-subhero;
+    font-weight: $font-weight-regular;
+    color: $color-primary-hero !important;
+    margin-bottom: $Sub-Section-Vertical-Height;
+}
+.careerCard {
+    width: 300px;
+    height: 500px;
+}
+
+.swiper-wrapper {
+    align-items: stretch;
+}
+
+.highlightUnderline {
+    position: relative;
+    z-index: 1;
+}
+
+.highlightUnderlineHead {
+    position: relative;
+    z-index: 1;
+}
+
+.underlineBarHead {
+    z-index: -1;
+    height: 13px;
+    position: absolute;
+    top: 0;
+}
+
+canvas {
+    width: 700px !important;
+}
+
+.underlineBar {
+    z-index: -1;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.benifitIcon {
+    color: #007fff;
+}
+
+.benifitsCard {
+    &:hover {
+        color: #fff !important;
+        background-color: #007fff;
+
+        h3,
+        p {
+            color: #fff !important;
+        }
+
+        .benifitIcon {
+            color: #fff !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .CareerImage canvas {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 331px) {
+    .careerCard {
+        width: 245px;
+    }
+}
