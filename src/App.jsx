@@ -40,6 +40,7 @@ import ContentMigration from "./pages/Services/ContentMigration.jsx";
 import DataLabelingAnnotation from "./pages/Services/DataLabelingAnnotation.jsx";
 import Translation from "./pages/Services/Translation.jsx";
 import Transcription from "./pages/Services/Transcription.jsx";
+import StaffOffServices from "./pages/Services/StaffOffService.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -115,6 +116,7 @@ function App() {
         <Route path="/translation" element={<Translation />} />
         <Route path="/transliteration" element={<Transliteration />} />
         <Route path="/data-labeling-annotation" element={<DataLabelingAnnotation />} />
+        <Route path="/staff-off-services" element={<StaffOffServices />} />
       </Route>
     )
   );

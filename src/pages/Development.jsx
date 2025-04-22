@@ -4,6 +4,7 @@ import React from "react";
 import CMS from "../assets/Services/CMS.png";
 import CRM from "../assets/Services/CRM.png";
 import CustomDevelopment from "../assets/Services/custom-website-development.png";
+import StaffOffServices from "../assets/Services/StaffOffServices.png";
 const Development = () => {
   return (
     <>
@@ -29,7 +30,7 @@ const Development = () => {
               {/* CMS */}
               <section className={styles.DivSpace}>
                 <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex flex-col md:items-start text-left mb-16 md:mb-0 ">
+                  <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  md:mb-0 ">
                     <h2 className={styles.DevelopmentH2}>CMS</h2>
                     <p className={styles.Developmentp}>
                       Empower your team to manage website content with ease. We
@@ -74,7 +75,7 @@ const Development = () => {
                       centralize customer data, automate workflows, and improve
                       sales and support processes. From HubSpot to Zoho to
                       custom-built CRMs, we ensure seamless integration with
-                      your ecommerce and marketing stack—so no lead slips
+                      your Developmenterce and marketing stack—so no lead slips
                       through the cracks.
                     </p>
                     <div className="flex md:justify-center">
@@ -91,7 +92,7 @@ const Development = () => {
               {/* Custom Development */}
               <section>
                 <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex flex-col md:items-start text-left mb-16 md:mb-0 ">
+                  <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  md:mb-0 ">
                     <h2 className={styles.DevelopmentH2}>Custom Development</h2>
                     <p className={styles.Developmentp}>
                       Have a unique idea or business challenge that
@@ -116,6 +117,42 @@ const Development = () => {
                       alt="hero"
                       src={CustomDevelopment}
                     />
+                  </div>
+                </div>
+              </section>
+              {/* Staff Off Services (Remote Talent Solutions)*/}
+              <section className="text-gray-600 body-font">
+                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
+                  <div className="w-full md:w-1/2 flex justify-start">
+                    <img
+                      className="object-cover object-center rounded w-full max-w-md"
+                      alt="hero"
+                      src={StaffOffServices}
+                    />
+                  </div>
+                  <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
+                    <h1 className={styles.DevelopmentH2Middle}>
+                      Staff Off Services (Remote Talent Solutions)
+                    </h1>
+                    <p className={styles.Developmentp}>
+                      Access skilled remote professionals across a wide range of
+                      business functions without the overhead of in-house
+                      hiring. Our offshore talent seamlessly integrates with
+                      your operations, delivering support in areas like data
+                      entry, customer service, administrative assistance,
+                      content moderation, back-office operations, and more.
+                      Whether you need one role or a fully managed team, our
+                      staffing solutions are flexible, cost-effective, and
+                      tailored to your business processes and goals.
+                    </p>
+                    <div className="flex md:justify-center">
+                      <Link
+                        to={"/staff-off-services"}
+                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                      >
+                        Know More
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </section>

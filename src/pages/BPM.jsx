@@ -1,11 +1,11 @@
 import styles from "../css/BPM.module.scss";
 import { Link } from "react-router-dom";
 import React from "react";
-import Content from "../assets/Services/Content-migration.png"
+import Content from "../assets/Services/Content-migration.png";
 import Translation from "../assets/Services/Translation.png";
 import Transcription from "../assets/Services/Transcription.png";
 import Transliteration from "../assets/Services/Transliteration.png";
-// import DataLabeling from "../assets/Services/Data-labeling.png";
+import DataLabel from "../assets/Services/DataLabel.png";
 const BPM = () => {
   return (
     <>
@@ -177,7 +177,7 @@ const BPM = () => {
                     <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
-                      src="https://dummyimage.com/720x600"
+                      src={DataLabel}
                     />
                   </div>
                 </div>

@@ -4,7 +4,6 @@ import React from "react";
 import ECommConsultation from "../assets/Services/Ecomm-Consultation.png";
 import ECommEnablement from "../assets/Services/EcommerceEnablement.png";
 import ECommWebsiteDevelopment from "../assets/Services/EcommerceWebDev.png";
-import StaffOffServices from "../assets/Services/StaffOffServices.png";
 const Ecommerce = () => {
   return (
     <>
@@ -127,42 +126,6 @@ const Ecommerce = () => {
                       alt="hero"
                       src={ECommWebsiteDevelopment}
                     />
-                  </div>
-                </div>
-              </section>
-              {/* Staff Off Services (Remote Talent Solutions)*/}
-              <section className="text-gray-600 body-font">
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex justify-start">
-                    <img
-                      className="object-cover object-center rounded w-full max-w-md"
-                      alt="hero"
-                      src={StaffOffServices}
-                    />
-                  </div>
-                  <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
-                    <h1 className={styles.ECommH2Middle}>
-                      Staff Off Services (Remote Talent Solutions)
-                    </h1>
-                    <p className={styles.ECommp}>
-                      Access skilled remote professionals across a wide range of
-                      business functions without the overhead of in-house
-                      hiring. Our offshore talent seamlessly integrates with
-                      your operations, delivering support in areas like data
-                      entry, customer service, administrative assistance,
-                      content moderation, back-office operations, and more.
-                      Whether you need one role or a fully managed team, our
-                      staffing solutions are flexible, cost-effective, and
-                      tailored to your business processes and goals.
-                    </p>
-                    <div className="flex md:justify-center">
-                      <Link
-                        to={"/ecommerce-enablement"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
-                      >
-                        Know More
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </section>
