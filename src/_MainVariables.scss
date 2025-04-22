@@ -8,7 +8,7 @@ $Sub-Heading-Color:#a0a3aa;
 $Body-Color:#FAFAFA;
 
 // Font Sizes (Responsive with clamp & rem)
-$font-size-hero: clamp(2.25rem, 5vw, 3.75rem); // 28px → 40px
+$font-size-hero: clamp(2.25rem, 4vw, 3.75rem); // 28px → 40px
 $font-size-subhero: clamp(1em, 3vw, 1.125rem); // 16px → 18px
 $font-size-h2: clamp(1.336rem, 4vw, 1.89rem); // 24px → 32px
 $font-size-h3: clamp(0.793rem, 2.8vw, 1rem); // 20px → 24px
@@ -17,9 +17,9 @@ $font-size-small: clamp(0.65rem, 1.5vw, 0.775rem); // 12px → 14px
 $font-size-button: clamp(0.875rem, 2.5vw, 1.125rem); // 14px → 18px
 
 // Line Heights (Responsive with clamp & rem)
-$line-height-hero: clamp(2.5rem, 6vw, 3.9rem); // 38px → 52px
+$line-height-hero: clamp(2.5rem, 4vw, 3.9rem); // 38px → 52px
 $line-height-subhero: clamp(1.625rem, 4vw, 2rem); // 24px → 28px
-$line-height-h2: clamp(2.485rem, 4vw, 3.5rem); // 32px → 42px
+$line-height-h2: clamp(2.485rem, 4vw, 2.5rem); // 32px → 42px
 $line-height-h3: clamp(1.82rem, 4vw, 2.8rem); // 28px → 34px
 $line-height-body: clamp(1.55rem, 3vw, 1.5rem); // 20px → 24px
 $line-height-small: clamp(1rem, 2vw, 1.25rem); // 16px → 20px

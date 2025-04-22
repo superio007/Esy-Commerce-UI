@@ -171,7 +171,7 @@ const StickyFrom = () => {
       >
         <div className="px-6 md:px-0 grid grid-cols-1 xl:grid-cols-12 xl:items-center w-full gap-4">
           {/* Left Section - Contact Us (4 Columns) */}
-          <div className="xl:col-span-4 w-full text-center xl:text-left">
+          <div className="xl:col-span-4 w-full text-left">
             <h2 className={styles.StickyH2}>Book Your Free Consultation</h2>
           </div>
 
