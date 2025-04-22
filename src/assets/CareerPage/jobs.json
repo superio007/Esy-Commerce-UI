@@ -1,201 +1,406 @@
 [
-    {
-        "id":1,
-        "job_title": "Senior C SHARP .NET Developer",
-        "experience_required": "5+ Years",
-        "location": "Thane, MH",
-        "mode": "WFO/Hybrid",
-        "contract_duration": "6 months",
-        "technologies":[ "C# ", ".NET" , "ASP.NET", "MVC", "HTML", "CSS", "JavaScript"],
-        "job_description": "EsyCommerce is seeking a highly experienced Senior C# .NET Developer for a 6-month contract position. The ideal candidate will possess strong technical leadership skills and a proven track record of delivering high-quality software solutions. You will be responsible for designing, developing, and maintaining complex applications, as well as providing technical guidance and mentorship to a team of developers.",
-        "roles_responsibilities": [
-            "Write complex software programs from design specifications.",
-            "Plan, execute, and document unit tests.",
-            "Report status and issues effectively.",
-            "Document detailed designs.",
-            "Be accountable for unit test leakage.",
-            "Contribute to and may decide upon system architecture and design decisions.",
-            "Develop overall technical strategies for external client projects based on technical requirements.",
-            "Communicate with external clients regularly regarding progress, challenges, timelines, and end results.",
-            "Create technical estimations.",
-            "Present technical strategies to clients and gather technical requirements as needed.",
-            "Create and update design and functional documents.",
-            "Identify and troubleshoot issues effectively.",
-            "Perform a mix of maintenance and new development as required.",
-            "Implement project applications according to specifications.",
-            "Research technical issues and provide recommendations to enhance client websites.",
-            "Work both independently and as part of a team to create reliable and high-performing e-commerce & mobile sites.",
-            "Unit test code to ensure quality.",
-            "Juggle multiple projects and shifting priorities effectively.",
-            "Perform code review sessions with other developers and suggest improvements or alternate approaches.",
-            "Assist project managers and directors with creating task-level project plans.",
-            "Work closely with project managers and account managers to ensure client expectations are met and project schedules and budgets are adhered to.",
-            "Guide, improve the performance of, and align a team of at least 5 developers for project success, while remaining hands-on with own tasks."
-        ],
-        "required_skills": [
-            "Bachelor’s degree in computer science or a related field.",
-            "8+ years of hands-on experience in software design and development, database design and development, and system integration.",
-            "Solid experience troubleshooting HTML, CSS, and JavaScript/jQuery issues.",
-            "Very good communication skills, with experience communicating directly with clients.",
-            "Ability to quickly learn and support other technologies based on core skills.",
-            "Experience handling a team of at least 5 members.",
-            "Strong organizational and communication skills.",
-            "Flexibility, energy, and ability to work well with others in a cross-functional environment.",
-            "Ability to learn and upskill in new technologies.",
-            "Ability to deliver in a high-pressure and high-demand environment."
-        ],
-        "preferred_skills": [
-            "Onsite experience (preferably US).",
-            "Knowledge of Shell scripting, .NET 2.0, and BizTalk."
-        ],
-        "company_overview": {
-            "name": "EsyCommerce Digital Services LLP",
-            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
-        },
-        "contact_details": {
-            "email": "hr@esycommerce.com",
-            "website": "www.esycommerce.com",
-            "youtube": "youtube.com/@esycommerce",
-            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
-            "phone": "8652233399"
-        }
-    },
-    {
-        "id":2,
-        "job_title": "Front End Developer",
-        "experience_required": "3+ Years",
-        "location": "Thane, MH",
-        "technologies":[ "C# ", ".NET" , "ASP.NET", "MVC", "HTML", "CSS", "JavaScript"],
-        "mode": "WFO/Hybrid",
-        "contract_duration": "6 months",
-        "job_description": "EsyCommerce is seeking a skilled Front-End Developer for a 6-month contract position. The ideal candidate will have strong UI/UX skills and experience in building dynamic and responsive web applications using modern front-end technologies. You will collaborate with designers and back-end developers to create seamless user experiences.",
-        "roles_responsibilities": [
-            "Develop high-quality front-end code using HTML, CSS, JavaScript, and modern frameworks like React or Vue.js.",
-            "Ensure a responsive and user-friendly design for all devices.",
-            "Work closely with UX/UI designers to implement engaging and interactive web applications.",
-            "Optimize applications for speed and scalability.",
-            "Debug and troubleshoot front-end issues.",
-            "Collaborate with back-end developers to integrate APIs and services.",
-            "Write clean, maintainable, and well-documented code.",
-            "Participate in code reviews and suggest best practices.",
-            "Keep up-to-date with the latest front-end technologies and trends."
-        ],
-        "required_skills": [
-            "Bachelor’s degree in Computer Science, Web Development, or a related field.",
-            "3+ years of experience in front-end development.",
-            "Proficiency in HTML, CSS, JavaScript, and frameworks like React, Vue.js, or Angular.",
-            "Experience with responsive design and cross-browser compatibility.",
-            "Strong understanding of UI/UX principles.",
-            "Good knowledge of REST APIs and JSON.",
-            "Excellent debugging and problem-solving skills.",
-            "Strong communication and teamwork abilities."
-        ],
-        "preferred_skills": [
-            "Experience with CSS pre-processors like SASS or LESS.",
-            "Familiarity with front-end build tools such as Webpack or Gulp.",
-            "Knowledge of GraphQL and headless CMS."
-        ],
-        "company_overview": {
-            "name": "EsyCommerce Digital Services LLP",
-            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
-        },
-        "contact_details": {
-            "email": "hr@esycommerce.com",
-            "youtube": "youtube.com/@esycommerce",
-            "website": "www.esycommerce.com",
-            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
-            "phone": "8652233399"
-        }
-    },
-    {
-        "id":3,
-        "job_title": "Back End Developer",
-        "experience_required": "4+ Years",
-        "technologies":[ "C# ", ".NET" , "ASP.NET", "MVC", "HTML", "CSS", "JavaScript"],
-        "location": "Thane, MH",
-        "mode": "WFO/Hybrid",
-        "contract_duration": "6 months",
-        "job_description": "EsyCommerce is hiring a skilled Back-End Developer for a 6-month contract role. The ideal candidate will be responsible for developing and maintaining robust server-side applications, integrating APIs, and ensuring efficient database management. You will work closely with the front-end team to deliver seamless applications.",
-        "roles_responsibilities": [
-            "Develop server-side logic and maintain databases to ensure optimal performance.",
-            "Design, implement, and document APIs and microservices.",
-            "Optimize application performance, security, and scalability.",
-            "Collaborate with front-end developers to integrate user-facing elements.",
-            "Troubleshoot and debug server-side issues.",
-            "Write unit and integration tests to ensure application reliability.",
-            "Maintain and improve existing codebases.",
-            "Stay updated on new technologies and industry trends."
-        ],
-        "required_skills": [
-            "Bachelor’s degree in Computer Science or a related field.",
-            "4+ years of experience in back-end development.",
-            "Proficiency in C#, .NET Core, Node.js, or Python.",
-            "Experience with database management using SQL Server, MySQL, or PostgreSQL.",
-            "Knowledge of RESTful APIs, GraphQL, and authentication protocols.",
-            "Familiarity with cloud platforms like AWS or Azure.",
-            "Experience with version control tools like Git.",
-            "Strong problem-solving and debugging skills."
-        ],
-        "preferred_skills": [
-            "Knowledge of containerization using Docker or Kubernetes.",
-            "Experience with message queues like RabbitMQ or Kafka.",
-            "Understanding of CI/CD pipelines."
-        ],
-        "company_overview": {
-            "name": "EsyCommerce Digital Services LLP",
-            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
-        },
-        "contact_details": {
-            "email": "hr@esycommerce.com",
-            "website": "www.esycommerce.com",
-            "youtube": "youtube.com/@esycommerce",
-            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
-            "phone": "8652233399"
-        }
-    },
-    {
-        "id":4,
-        "job_title": "Full Stack Developer",
-        "experience_required": "5+ Years",
-        "technologies":[ "C# ", ".NET" , "ASP.NET", "MVC", "HTML", "CSS", "JavaScript"],
-        "location": "Thane, MH",
-        "mode": "WFO/Hybrid",
-        "contract_duration": "6 months",
-        "job_description": "EsyCommerce is looking for an experienced Full-Stack Developer to join our team for a 6-month contract. The ideal candidate should have expertise in both front-end and back-end development and be able to work on complex projects with a focus on high-performance applications.",
-        "roles_responsibilities": [
-            "Develop and maintain both front-end and back-end components.",
-            "Design user interfaces using modern front-end frameworks like React or Vue.js.",
-            "Build and optimize RESTful APIs and database structures.",
-            "Ensure performance, security, and responsiveness of applications.",
-            "Write clean, maintainable, and well-documented code.",
-            "Work collaboratively with UX designers, back-end developers, and product managers.",
-            "Optimize applications for speed and scalability.",
-            "Participate in code reviews and implement best practices."
-        ],
-        "required_skills": [
-            "Bachelor’s degree in Computer Science or a related field.",
-            "5+ years of experience in full-stack development.",
-            "Proficiency in JavaScript frameworks (React, Vue.js, or Angular) and back-end technologies (Node.js, .NET Core, Python).",
-            "Experience with relational and NoSQL databases (SQL Server, MongoDB, Firebase).",
-            "Familiarity with cloud services (AWS, Azure, or Google Cloud).",
-            "Good knowledge of version control systems (Git, GitHub).",
-            "Ability to work in a fast-paced environment and manage multiple projects."
-        ],
-        "preferred_skills": [
-            "Experience with DevOps and CI/CD pipelines.",
-            "Familiarity with WebSockets and real-time data processing.",
-            "Knowledge of mobile development (React Native, Flutter)."
-        ],
-        "company_overview": {
-            "name": "EsyCommerce Digital Services LLP",
-            "description": "EsyCommerce, a CMMI Level 3 and ISO/IEC 27001:2013 certified IT consulting and managed business services company. With a proven track record of delivering over 600 successful projects across diverse sectors, we specialize in application development, content management, digital transformation, ecommerce enablement, and data analytics. We are committed to providing end-to-end solutions with the highest quality standards in service delivery. At EsyCommerce, we value talent in all its forms and are particularly adept at nurturing and developing the skills of introverted developers."
-        },
-        "contact_details": {
-            "email": "hr@esycommerce.com",
-            "website": "www.esycommerce.com",
-            "youtube": "youtube.com/@esycommerce",
-            "address": "811, Opal Square, SG Barve Road, Opp. Rayladevi Lake, Wagle Estate, Thane (W), MH, INDIA - 400604",
-            "phone": "8652233399"
-        }
-    }
+  {
+    "id": 14,
+    "documentId": "eu2v61v6avx5ti5fl2sb3ox0",
+    "JobType": "Contract",
+    "JobPeriod": "6 months",
+    "PositionName": "Front End Developer",
+    "CompanyName": "EsyCommerce Digital Services LLP",
+    "Experiance": "3+ Years",
+    "Location": "Thane, MH",
+    "createdAt": "2025-04-22T09:11:29.284Z",
+    "updatedAt": "2025-04-22T09:46:38.340Z",
+    "publishedAt": "2025-04-22T09:46:38.360Z",
+    "JobDescription": "EsyCommerce is seeking a skilled Front-End Developer for a 6-month contract position. The ideal candidate will have strong UI/UX skills and experience in building dynamic and responsive web applications using modern front-end technologies. You will collaborate with designers and back-end developers to create seamless user experiences.",
+    "job_requirements": [
+      {
+        "id": 16,
+        "documentId": "vn3e742emylfa49pkjn3hsby",
+        "Heading": "Strong communication and teamwork abilities.",
+        "createdAt": "2025-04-22T09:51:24.810Z",
+        "updatedAt": "2025-04-22T09:51:24.810Z",
+        "publishedAt": "2025-04-22T09:51:24.853Z"
+      },
+      {
+        "id": 19,
+        "documentId": "aq9es4evhzb1323xl9leakrz",
+        "Heading": "Excellent debugging and problem-solving skills.",
+        "createdAt": "2025-04-22T09:51:32.966Z",
+        "updatedAt": "2025-04-22T09:51:36.430Z",
+        "publishedAt": "2025-04-22T09:51:36.444Z"
+      },
+      {
+        "id": 22,
+        "documentId": "inf3umx52452o97pcvv09uo3",
+        "Heading": "Good knowledge of REST APIs and JSON.",
+        "createdAt": "2025-04-22T09:51:48.679Z",
+        "updatedAt": "2025-04-22T09:51:51.804Z",
+        "publishedAt": "2025-04-22T09:51:51.817Z"
+      },
+      {
+        "id": 25,
+        "documentId": "tqgsj0aeqtxo5cbvm3xgik6d",
+        "Heading": "Strong understanding of UI/UX principles.",
+        "createdAt": "2025-04-22T09:51:59.275Z",
+        "updatedAt": "2025-04-22T09:52:05.482Z",
+        "publishedAt": "2025-04-22T09:52:05.494Z"
+      },
+      {
+        "id": 28,
+        "documentId": "bjkpe7ereg22bd05v92f1ee0",
+        "Heading": "Experience with responsive design and cross-browser compatibility.",
+        "createdAt": "2025-04-22T09:52:16.626Z",
+        "updatedAt": "2025-04-22T09:52:22.440Z",
+        "publishedAt": "2025-04-22T09:52:22.452Z"
+      },
+      {
+        "id": 31,
+        "documentId": "uem0ux0411d7cv3c655nwcrb",
+        "Heading": "3+ years of experience in front-end development.",
+        "createdAt": "2025-04-22T09:52:38.637Z",
+        "updatedAt": "2025-04-22T09:52:41.970Z",
+        "publishedAt": "2025-04-22T09:52:41.981Z"
+      },
+      {
+        "id": 34,
+        "documentId": "m81ntd1n48df6w3sf4tn30ha",
+        "Heading": "Bachelor’s degree in Computer Science, Web Development, or a related field.",
+        "createdAt": "2025-04-22T09:52:50.830Z",
+        "updatedAt": "2025-04-22T09:52:53.790Z",
+        "publishedAt": "2025-04-22T09:52:53.802Z"
+      }
+    ],
+    "job_role_responsibilities": [
+      {
+        "id": 18,
+        "documentId": "l8mirhlnhlbyvcgofnfg67p5",
+        "Heading": "Develop high-quality front-end code using HTML, CSS, JavaScript, and modern frameworks like React or Vue.js.",
+        "createdAt": "2025-04-22T09:48:00.465Z",
+        "updatedAt": "2025-04-22T09:48:00.465Z",
+        "publishedAt": "2025-04-22T09:48:00.485Z"
+      },
+      {
+        "id": 22,
+        "documentId": "sgzd3z8fyuk3zx1rzu512nbv",
+        "Heading": "Ensure a responsive and user-friendly design for all devices.",
+        "createdAt": "2025-04-22T09:48:08.715Z",
+        "updatedAt": "2025-04-22T09:48:37.734Z",
+        "publishedAt": "2025-04-22T09:48:37.747Z"
+      },
+      {
+        "id": 25,
+        "documentId": "fhw65pvk6oxusr46p8hip7wz",
+        "Heading": "Keep up-to-date with the latest front-end technologies and trends.",
+        "createdAt": "2025-04-22T09:48:43.492Z",
+        "updatedAt": "2025-04-22T09:48:47.033Z",
+        "publishedAt": "2025-04-22T09:48:47.045Z"
+      },
+      {
+        "id": 28,
+        "documentId": "a8l5uoghoflv25kbjs1jjlma",
+        "Heading": "Participate in code reviews and suggest best practices.",
+        "createdAt": "2025-04-22T09:49:04.211Z",
+        "updatedAt": "2025-04-22T09:49:08.298Z",
+        "publishedAt": "2025-04-22T09:49:08.311Z"
+      },
+      {
+        "id": 31,
+        "documentId": "i1s7pejgn74qs5as8lvzt6v6",
+        "Heading": "Collaborate with back-end developers to integrate APIs and services.",
+        "createdAt": "2025-04-22T09:50:03.454Z",
+        "updatedAt": "2025-04-22T09:50:12.928Z",
+        "publishedAt": "2025-04-22T09:50:12.940Z"
+      },
+      {
+        "id": 34,
+        "documentId": "b778855vzjfjkjy4ci9ksag6",
+        "Heading": "Debug and troubleshoot front-end issues.",
+        "createdAt": "2025-04-22T09:50:25.830Z",
+        "updatedAt": "2025-04-22T09:50:30.112Z",
+        "publishedAt": "2025-04-22T09:50:30.126Z"
+      },
+      {
+        "id": 37,
+        "documentId": "extu1a8yayiblg16wo86n6hd",
+        "Heading": "Work closely with UX/UI designers to implement engaging and interactive web applications.",
+        "createdAt": "2025-04-22T09:50:40.572Z",
+        "updatedAt": "2025-04-22T09:50:43.945Z",
+        "publishedAt": "2025-04-22T09:50:43.958Z"
+      }
+    ],
+    "prefered_skills": [
+      {
+        "id": 8,
+        "documentId": "zk5zuwwqnef1psx2iwoa4kn6",
+        "Heading": "Knowledge of GraphQL and headless CMS.",
+        "createdAt": "2025-04-22T09:53:41.142Z",
+        "updatedAt": "2025-04-22T09:53:41.142Z",
+        "publishedAt": "2025-04-22T09:53:41.166Z"
+      },
+      {
+        "id": 12,
+        "documentId": "lmm4r53mmhpgvzkkq0d4rlpo",
+        "Heading": "Familiarity with front-end build tools such as Webpack or Gulp.",
+        "createdAt": "2025-04-22T09:53:46.626Z",
+        "updatedAt": "2025-04-22T09:53:55.180Z",
+        "publishedAt": "2025-04-22T09:53:55.194Z"
+      },
+      {
+        "id": 15,
+        "documentId": "fmp0s4bbtxphx3k2nbhryvib",
+        "Heading": "Experience with CSS pre-processors like SASS or LESS.",
+        "createdAt": "2025-04-22T09:54:04.503Z",
+        "updatedAt": "2025-04-22T09:54:15.240Z",
+        "publishedAt": "2025-04-22T09:54:15.253Z"
+      }
+    ],
+    "position_languages_tags": [
+      {
+        "id": 16,
+        "documentId": "nxtqgldmfy8mxdfxwa0grrqv",
+        "Heading": "HTML",
+        "createdAt": "2025-04-22T09:54:48.188Z",
+        "updatedAt": "2025-04-22T09:54:48.188Z",
+        "publishedAt": "2025-04-22T09:54:48.198Z"
+      },
+      {
+        "id": 19,
+        "documentId": "ogan9ww1rkhaeygkihw5kcy2",
+        "Heading": "CSS",
+        "createdAt": "2025-04-22T09:54:56.000Z",
+        "updatedAt": "2025-04-22T09:54:59.512Z",
+        "publishedAt": "2025-04-22T09:54:59.525Z"
+      },
+      {
+        "id": 22,
+        "documentId": "y4q41mezbqduwg7jv3iuiovt",
+        "Heading": "JavaScript",
+        "createdAt": "2025-04-22T09:55:11.055Z",
+        "updatedAt": "2025-04-22T09:55:16.059Z",
+        "publishedAt": "2025-04-22T09:55:16.073Z"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "documentId": "jzn95b0yknh9e2q9aahn2fkx",
+    "JobType": "Full Time",
+    "JobPeriod": "6 months",
+    "PositionName": "Full Stack Developer",
+    "CompanyName": "EsyCommerce Digital Services LLP",
+    "Experiance": "5+ Years",
+    "Location": "Thane, MH",
+    "createdAt": "2025-04-22T09:13:03.402Z",
+    "updatedAt": "2025-04-22T09:21:45.433Z",
+    "publishedAt": "2025-04-22T09:21:45.454Z",
+    "JobDescription": "EsyCommerce is looking for an experienced Full-Stack Developer to join our team for a 6-month contract. The ideal candidate should have expertise in both front-end and back-end development and be able to work on complex projects with a focus on high-performance applications.",
+    "job_requirements": [
+      {
+        "id": 2,
+        "documentId": "n7tj1pgbvij56ielhgfbtawv",
+        "Heading": "Bachelor’s degree in Computer Science or a related field.",
+        "createdAt": "2025-04-22T09:15:25.945Z",
+        "updatedAt": "2025-04-22T09:15:25.945Z",
+        "publishedAt": "2025-04-22T09:15:25.956Z"
+      },
+      {
+        "id": 4,
+        "documentId": "dwuwxg2ehod1ys2evh4w157h",
+        "Heading": "5+ years of experience in full-stack development.",
+        "createdAt": "2025-04-22T09:15:34.987Z",
+        "updatedAt": "2025-04-22T09:15:34.987Z",
+        "publishedAt": "2025-04-22T09:15:34.998Z"
+      },
+      {
+        "id": 8,
+        "documentId": "c4d6zfp7px45y203m99sv76r",
+        "Heading": "Experience with relational and NoSQL databases (SQL Server, MongoDB, Firebase).",
+        "createdAt": "2025-04-22T09:15:53.089Z",
+        "updatedAt": "2025-04-22T09:15:53.089Z",
+        "publishedAt": "2025-04-22T09:15:53.099Z"
+      },
+      {
+        "id": 6,
+        "documentId": "ff27q10okq5z6ufkemt4ia7h",
+        "Heading": "Proficiency in JavaScript frameworks (React, Vue.js, or Angular) and back-end technologies (Node.js, .NET Core, Python).",
+        "createdAt": "2025-04-22T09:15:44.884Z",
+        "updatedAt": "2025-04-22T09:15:44.884Z",
+        "publishedAt": "2025-04-22T09:15:44.893Z"
+      },
+      {
+        "id": 12,
+        "documentId": "r3yqkt94ywmck2l4vfe4vhij",
+        "Heading": "Good knowledge of version control systems (Git, GitHub).",
+        "createdAt": "2025-04-22T09:16:07.614Z",
+        "updatedAt": "2025-04-22T09:16:07.614Z",
+        "publishedAt": "2025-04-22T09:16:07.623Z"
+      },
+      {
+        "id": 10,
+        "documentId": "o3hh0njvicsmhvdmng1ywwd6",
+        "Heading": "Familiarity with cloud services (AWS, Azure, or Google Cloud).",
+        "createdAt": "2025-04-22T09:15:59.732Z",
+        "updatedAt": "2025-04-22T09:15:59.732Z",
+        "publishedAt": "2025-04-22T09:15:59.758Z"
+      },
+      {
+        "id": 14,
+        "documentId": "qe3thgdh5qs71ltixy9957l1",
+        "Heading": "Ability to work in a fast-paced environment and manage multiple projects.",
+        "createdAt": "2025-04-22T09:16:17.626Z",
+        "updatedAt": "2025-04-22T09:16:17.626Z",
+        "publishedAt": "2025-04-22T09:16:17.636Z"
+      }
+    ],
+    "job_role_responsibilities": [
+      {
+        "id": 2,
+        "documentId": "b63w73dh1wdxytqpo14b546b",
+        "Heading": "Develop and maintain both front-end and back-end components.",
+        "createdAt": "2025-04-22T09:17:34.136Z",
+        "updatedAt": "2025-04-22T09:17:34.136Z",
+        "publishedAt": "2025-04-22T09:17:34.147Z"
+      },
+      {
+        "id": 4,
+        "documentId": "t7pmc8bp9m07aurrvay97svc",
+        "Heading": "Design user interfaces using modern front-end frameworks like React or Vue.js.",
+        "createdAt": "2025-04-22T09:17:43.660Z",
+        "updatedAt": "2025-04-22T09:17:43.660Z",
+        "publishedAt": "2025-04-22T09:17:43.669Z"
+      },
+      {
+        "id": 6,
+        "documentId": "kz83egrlxcarml3ypcs7p5fk",
+        "Heading": "Build and optimize RESTful APIs and database structures.",
+        "createdAt": "2025-04-22T09:17:50.336Z",
+        "updatedAt": "2025-04-22T09:17:50.336Z",
+        "publishedAt": "2025-04-22T09:17:50.345Z"
+      },
+      {
+        "id": 8,
+        "documentId": "igfxch2nvglhndg0xdq8xbe1",
+        "Heading": "Ensure performance, security, and responsiveness of applications.",
+        "createdAt": "2025-04-22T09:17:56.688Z",
+        "updatedAt": "2025-04-22T09:17:56.688Z",
+        "publishedAt": "2025-04-22T09:17:56.697Z"
+      },
+      {
+        "id": 10,
+        "documentId": "pyb9vumgspkv47pehththvci",
+        "Heading": "Write clean, maintainable, and well-documented code.",
+        "createdAt": "2025-04-22T09:18:03.745Z",
+        "updatedAt": "2025-04-22T09:18:03.745Z",
+        "publishedAt": "2025-04-22T09:18:03.753Z"
+      },
+      {
+        "id": 12,
+        "documentId": "sklzrm2r0hfioo0phfboiqsd",
+        "Heading": "Work collaboratively with UX designers, back-end developers, and product managers.",
+        "createdAt": "2025-04-22T09:18:13.057Z",
+        "updatedAt": "2025-04-22T09:18:13.057Z",
+        "publishedAt": "2025-04-22T09:18:13.070Z"
+      },
+      {
+        "id": 14,
+        "documentId": "h3nrc0vitwi89gpoo5nfx761",
+        "Heading": "Optimize applications for speed and scalability.",
+        "createdAt": "2025-04-22T09:18:22.985Z",
+        "updatedAt": "2025-04-22T09:18:22.985Z",
+        "publishedAt": "2025-04-22T09:18:23.001Z"
+      },
+      {
+        "id": 16,
+        "documentId": "kvjwa98k8lppr9stlicp7o9h",
+        "Heading": "Participate in code reviews and implement best practices.",
+        "createdAt": "2025-04-22T09:18:33.242Z",
+        "updatedAt": "2025-04-22T09:18:33.242Z",
+        "publishedAt": "2025-04-22T09:18:33.251Z"
+      }
+    ],
+    "prefered_skills": [
+      {
+        "id": 2,
+        "documentId": "nb1pepluboyw0h9u6vh3szr0",
+        "Heading": "Experience with DevOps and CI/CD pipelines.",
+        "createdAt": "2025-04-22T09:19:09.427Z",
+        "updatedAt": "2025-04-22T09:19:09.427Z",
+        "publishedAt": "2025-04-22T09:19:09.437Z"
+      },
+      {
+        "id": 4,
+        "documentId": "i3jh17jfer6rji0ehzn78rlz",
+        "Heading": "Knowledge of mobile development (React Native, Flutter).",
+        "createdAt": "2025-04-22T09:19:18.575Z",
+        "updatedAt": "2025-04-22T09:19:18.575Z",
+        "publishedAt": "2025-04-22T09:19:18.584Z"
+      },
+      {
+        "id": 6,
+        "documentId": "vzfq406uwnnyvbht063iw4rp",
+        "Heading": "Familiarity with WebSockets and real-time data processing.",
+        "createdAt": "2025-04-22T09:19:23.764Z",
+        "updatedAt": "2025-04-22T09:19:23.764Z",
+        "publishedAt": "2025-04-22T09:19:23.773Z"
+      }
+    ],
+    "position_languages_tags": [
+      {
+        "id": 2,
+        "documentId": "llh3i52qrl0rw827jy8vdmi5",
+        "Heading": "React",
+        "createdAt": "2025-04-22T09:20:20.807Z",
+        "updatedAt": "2025-04-22T09:20:20.807Z",
+        "publishedAt": "2025-04-22T09:20:20.816Z"
+      },
+      {
+        "id": 8,
+        "documentId": "lov4h58ejwt0yk1imauwhv82",
+        "Heading": "Tailwind",
+        "createdAt": "2025-04-22T09:20:47.979Z",
+        "updatedAt": "2025-04-22T09:20:47.979Z",
+        "publishedAt": "2025-04-22T09:20:47.988Z"
+      },
+      {
+        "id": 4,
+        "documentId": "umsbksxksv32nk5vttd8mglv",
+        "Heading": "Node",
+        "createdAt": "2025-04-22T09:20:27.106Z",
+        "updatedAt": "2025-04-22T09:20:27.106Z",
+        "publishedAt": "2025-04-22T09:20:27.114Z"
+      },
+      {
+        "id": 10,
+        "documentId": "ls1cl5rioscafq0xbuz4akey",
+        "Heading": "HTML",
+        "createdAt": "2025-04-22T09:21:00.772Z",
+        "updatedAt": "2025-04-22T09:21:00.772Z",
+        "publishedAt": "2025-04-22T09:21:00.780Z"
+      },
+      {
+        "id": 12,
+        "documentId": "a74mf3a80te9f41a5q2bcina",
+        "Heading": "CSS",
+        "createdAt": "2025-04-22T09:21:06.636Z",
+        "updatedAt": "2025-04-22T09:21:06.636Z",
+        "publishedAt": "2025-04-22T09:21:06.644Z"
+      },
+      {
+        "id": 14,
+        "documentId": "xy4172bjw8pwlzs52fzy4ajf",
+        "Heading": "Javascript",
+        "createdAt": "2025-04-22T09:21:13.894Z",
+        "updatedAt": "2025-04-22T09:21:13.894Z",
+        "publishedAt": "2025-04-22T09:21:13.902Z"
+      },
+      {
+        "id": 6,
+        "documentId": "tshmsrmppp09nbc71q9c0q6n",
+        "Heading": "Mongodb",
+        "createdAt": "2025-04-22T09:20:41.193Z",
+        "updatedAt": "2025-04-22T09:20:41.193Z",
+        "publishedAt": "2025-04-22T09:20:41.203Z"
+      }
+    ]
+  }
 ]

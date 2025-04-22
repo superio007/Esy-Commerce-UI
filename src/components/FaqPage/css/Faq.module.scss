@@ -1,0 +1,23 @@
+@use "../../../MainVariables" as *;
+
+.FaqSection {
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.FaqContainer{
+    margin-bottom: $Sub-Section-Vertical-Height;
+}
+.FaqH2 {
+    font-size: $font-size-h2;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-h2;
+}
+.FaqH3 {
+    font-size: $font-size-h3;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-h3;
+}
+.FaqP {
+    font-size: $font-size-body;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-body;
+}
