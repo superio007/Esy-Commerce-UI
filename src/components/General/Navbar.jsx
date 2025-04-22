@@ -107,6 +107,12 @@ const Navbar = () => {
             >
               <li className={styles.navHeads}>
                 <a
+                  onMouseOver={() => {
+                    setIsEcommMenu(!isEcommMenuOpen);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
                   onClick={() => {
                     setIsEcommMenu(!isEcommMenuOpen);
                     setIsDesignMenu(false);
@@ -181,6 +187,12 @@ const Navbar = () => {
               </li>
               <li className={styles.navHeads}>
                 <a
+                  onMouseOver={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(!isDesignMenuOpen);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(!isDesignMenuOpen);
@@ -269,6 +281,12 @@ const Navbar = () => {
               </li>
               <li className={styles.navHeads}>
                 <a
+                  onMouseOver={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(!isDevMenuOpen);
+                    setIsBpmMenu(false);
+                  }}
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
@@ -288,126 +306,64 @@ const Navbar = () => {
                     }}
                   >
                     <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
-                      <div className="md:flex justify-left gap-8">
-                        <ul>
+                      <ul>
+                        <li className="lg:mt-2 mt-1.5 ">
                           <Link
-                            onClick={() => {
-                              setIsEcommMenu(false);
-                              setIsDesignMenu(false);
-                              setIsDevMenu(false);
-                              setIsBpmMenu(false);
-                            }}
-                            className={`${styles.MenuItemText}`}
                             to={"/cms"}
-                          >
-                            <li>CMS</li>
-                          </Link>
-                          <Link
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
+                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                          >
+                            CMS
+                          </Link>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <Link
                             to={"/crm"}
-                            className={`${styles.MenuItemText}`}
-                          >
-                            <li>CRM</li>
-                          </Link>
-                          <Link
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            to={"/custom-development"}
-                            className={`${styles.MenuItemText}`}
+                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            <li>Custom Development</li>
+                            CRM
                           </Link>
-                          {/* <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              WordPress
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Drupal
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Joomla
-                            </NavLink>
-                          </li> */}
-                        </ul>
-                        {/* <ul>
-                          {/* <li>CRM</li> */}
-                        {/* <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Salesforce
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              HubSpot
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Odoo
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Zoho
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              ERP
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              ERPNext
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Microsoft Dynamics
-                            </NavLink>
-                          </li>
-                          <li className="lg:mt-2 mt-1.5 ">
-                            <NavLink
-                              className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                            >
-                              Oracle NetSuite
-                            </NavLink>
-                          </li> }
-                        </ul> */}
-                      </div>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <Link
+                            to={"/custom-development"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                          >
+                            Custom Development
+                          </Link>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <Link
+                            to={"/staff-off-services"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                          >
+                            Staff Off Services
+                          </Link>
+                        </li>
+                      </ul>
                     </div>
                     <div className="bg-[#1b8dff]  p-2">
                       <span className="block text-white text-center">
@@ -419,6 +375,12 @@ const Navbar = () => {
               </li>
               <li className={styles.navHeads}>
                 <a
+                  onMouseOver={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(!isBpmMenuOpen);
+                  }}
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
@@ -522,6 +484,12 @@ const Navbar = () => {
               <li className={styles.navHeads}>
                 <Link
                   to={"/about"}
+                  onMouseOver={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);
@@ -535,6 +503,12 @@ const Navbar = () => {
               <li className={styles.navHeads}>
                 <Link
                   to={"/contact"}
+                  onMouseOver={() => {
+                    setIsEcommMenu(false);
+                    setIsDesignMenu(false);
+                    setIsDevMenu(false);
+                    setIsBpmMenu(false);
+                  }}
                   onClick={() => {
                     setIsEcommMenu(false);
                     setIsDesignMenu(false);

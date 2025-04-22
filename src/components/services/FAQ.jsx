@@ -59,11 +59,20 @@ const FAQ = ({ apiRes }) => {
                     openIndex === index ? `block` : `hidden`
                   }`}
                   style={{
+    //                 border-top: 1px solid rgb(229, 231, 235);
+    // right: -28px;
+    // width: 34px;
+    // top: -0.899px;
+    // padding: 54.889px 0px 38px;
+    // background-color: white;
+    // height: 100%;
+    // z-index: 99999;
+    // border-bottom: 1px solid rgb(229, 231, 235);
                     borderTop: "1px solid #e5e7eb",
-                    right: -27,
-                    width: 30,
-                    top: -1,
-                    padding: "37.6px 0px 38px 0",
+                    right: -28,
+                    width: 34,
+                    top: -0.899,
+                    padding: "54.889px 0 38px 0",
                     backgroundColor: "white",
                     height: "100%",
                     zIndex: 99999,

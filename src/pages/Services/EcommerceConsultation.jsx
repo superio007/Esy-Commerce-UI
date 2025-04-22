@@ -34,6 +34,7 @@ const EcommerceConsultation = () => {
   const apiResponse = error
     ? EcommerceConsultationPageData.data || []
     : data || [];
+  console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
@@ -46,8 +47,10 @@ const EcommerceConsultation = () => {
           />
           <Steps apiRes={apiResponse.how_it_work} />
           <WhyUs apiRes={apiResponse.why_us} />
-          <BrandSlider CustomerSlider={apiResponse.customer_slider} />
-          <CaseStudiesSection bgColor={"#ffffff"} />
+          <div className="mt-5 md:mt-10">
+            <BrandSlider CustomerSlider={apiResponse.customer_slider} />
+          </div>
+          {/* <CaseStudiesSection bgColor={"#ffffff"} /> */}
           <FAQ apiRes={apiResponse.faq} />
           <CTA apiRes={apiResponse.cta} />
         </>

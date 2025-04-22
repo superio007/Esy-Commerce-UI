@@ -12,7 +12,7 @@ const Breadcrumbs = () => {
       <nav className="relative py-2 px-10 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
         <ol className="list-reset flex flex-wrap text-gray-500">
           <li>
-            <Link to="/" className="text-[#fff] hover:text-blue-600">
+            <Link to="/" className="text-[#fff] ">
               Home
             </Link>
           </li>
