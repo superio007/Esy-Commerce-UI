@@ -44,12 +44,12 @@ const Steps = ({ apiRes }) => {
               ))}
             </div>
             <div className="w-full md:w-1/2">
-              <DotLottieReact src={Check} loop autoplay />
-              {/* <img
+              {/* <DotLottieReact src={Check} loop autoplay /> */}
+              <img
                 className="w-full h-full object-cover object-center rounded"
                 alt={apiRes.sideimage.alternativeText || "hero"}
                 src={apiRes.sideimage.url || "https://dummyimage.com/720x600"}
-              /> */}
+              />
             </div>
           </div>
         </div>
