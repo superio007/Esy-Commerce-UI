@@ -105,7 +105,7 @@ const Navbar = () => {
               id="desk-menu"
               className="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse"
             >
-              <li className={styles.navHeads}>
+              <li className={styles.navHeadsOp}>
                 <a
                   onMouseOver={() => {
                     setIsEcommMenu(!isEcommMenuOpen);
@@ -185,7 +185,7 @@ const Navbar = () => {
                   </div>
                 )}
               </li>
-              <li className={styles.navHeads}>
+              <li className={styles.navHeadsOp}>
                 <a
                   onMouseOver={() => {
                     setIsEcommMenu(false);
@@ -279,7 +279,7 @@ const Navbar = () => {
                   </div>
                 )}
               </li>
-              <li className={styles.navHeads}>
+              <li className={styles.navHeadsOp}>
                 <a
                   onMouseOver={() => {
                     setIsEcommMenu(false);
@@ -373,7 +373,7 @@ const Navbar = () => {
                   </div>
                 )}
               </li>
-              <li className={styles.navHeads}>
+              <li className={styles.navHeadsOp}>
                 <a
                   onMouseOver={() => {
                     setIsEcommMenu(false);

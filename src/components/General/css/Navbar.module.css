@@ -1,11 +1,11 @@
-.navHeads {
+.navHeads,.navHeadsOp {
   position: relative;
   text-decoration: none;
   padding: 14px;
   /* Ensures space for the border */
 }
 
-.navHeads a {
+.navHeads a,.navHeadsOp a{
   color: white;
 }
 

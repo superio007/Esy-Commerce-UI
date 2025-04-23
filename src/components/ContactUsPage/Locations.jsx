@@ -10,7 +10,7 @@ const Locations = ({ heading, Locations }) => {
   return (
     <>
       <div className={styles.LocationSection}>
-        <div className="xl:p-16 xl:px-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className=" xl:px-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
           <div className="px-6 md:px-0">
             <h2 className={`${styles.LocationH2} p-8 text-center`}>
               {heading || "Our Offices"}

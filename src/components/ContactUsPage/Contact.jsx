@@ -80,7 +80,7 @@ const Conatct = ({ sectionPoints }) => {
   return (
     <>
       <div className={styles.ConatctPage}>
-        <div className="xl:py-16 xl:px-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div className="xl:px-10 gap-2 3xl:mx-auto 3xl:max-w-screen-xl">
           <div className="px-6 md:px-0 flex md:flex-row items-center flex-col-reverse ">
             <div className="w-full md:w-1/2 lg:w-3/5">
               <div className="flex flex-wrap ">
