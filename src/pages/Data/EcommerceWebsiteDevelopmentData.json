@@ -277,12 +277,12 @@
       ]
     },
     "how_it_work": {
-      "id": 87,
+      "id": 91,
       "documentId": "e7fo33gpxsmlv8j3t61amkwj",
       "Heading": "How It's Work",
       "createdAt": "2025-04-02T18:42:59.226Z",
-      "updatedAt": "2025-04-22T19:56:16.700Z",
-      "publishedAt": "2025-04-22T19:56:16.744Z",
+      "updatedAt": "2025-04-23T05:22:16.789Z",
+      "publishedAt": "2025-04-23T05:22:16.827Z",
       "sideimage": {
         "id": 49,
         "documentId": "mc2rruomcnbufrfc27q09uei",
@@ -417,15 +417,6 @@
           "createdAt": "2025-04-02T18:44:08.868Z",
           "updatedAt": "2025-04-02T18:44:14.930Z",
           "publishedAt": "2025-04-02T18:44:15.009Z"
-        },
-        {
-          "id": 78,
-          "documentId": "j0l3w6qd67qjqnab30hft0ka",
-          "Heading": "Deployment & Continuous Improvement",
-          "subHeading": "Go live and optimize as business grows.",
-          "createdAt": "2025-04-03T12:06:02.723Z",
-          "updatedAt": "2025-04-03T12:06:02.723Z",
-          "publishedAt": "2025-04-03T12:06:02.753Z"
         }
       ]
     },

@@ -6,22 +6,22 @@
     "updatedAt": "2025-04-04T10:59:43.474Z",
     "publishedAt": "2025-04-04T10:59:43.538Z",
     "service_hero_section": {
-      "id": 35,
+      "id": 37,
       "documentId": "c2smdn0kjhy1nkhu4vu7kcvn",
       "Heading": "Ecommerce Enablement",
-      "SubHeading": "Empower your online business with our comprehensive Ecommerce Enablement services, designed to streamline store setup, enhance customer experience, and drive operational efficiency. Whether you're launching a new store or optimizing an existing one, our end-to-end solutions focus on smooth platform integration, automating workflows, and providing ongoing support to ensure consistent growth and success. Let us help you create a robust ecommerce ecosystem that aligns with your business goals.",
+      "SubHeading": "Simplify your online business with our Ecommerce Enablement services. We offer seamless setup, workflow automation, and ongoing support to help you achieve your goals. Let us strengthen your ecommerce ecosystem.",
       "createdAt": "2025-04-02T17:58:56.830Z",
-      "updatedAt": "2025-04-22T19:14:23.280Z",
-      "publishedAt": "2025-04-22T19:14:23.305Z"
+      "updatedAt": "2025-04-23T05:52:07.987Z",
+      "publishedAt": "2025-04-23T05:52:08.011Z"
     },
     "service_over_view": {
-      "id": 8,
+      "id": 68,
       "documentId": "zy1imrj9zw0bhxqsjtkzz6oo",
       "Heading": "Overview of the Service",
       "subHeading": "Our operational support ensures that your eCommerce business runs smoothly by optimizing inventory, logistics, and customer service.",
       "createdAt": "2025-04-02T18:25:11.305Z",
-      "updatedAt": "2025-04-02T18:31:36.223Z",
-      "publishedAt": "2025-04-02T18:31:36.519Z",
+      "updatedAt": "2025-04-23T05:47:25.773Z",
+      "publishedAt": "2025-04-23T05:47:25.806Z",
       "pointsHeading": "Key problems we solve",
       "Name": "Enablement",
       "overview_points": [
@@ -51,127 +51,191 @@
         }
       ],
       "SideImage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 54,
+        "documentId": "ryf8qqlxadjzbiq8ljhf3um8",
+        "name": "6174398-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387227/large_6174398_Photoroom_743bb620be.png",
+            "hash": "large_6174398_Photoroom_743bb620be",
+            "mime": "image/png",
+            "name": "large_6174398-Photoroom.png",
+            "path": null,
+            "size": 235.78,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 235776,
+            "provider_metadata": {
+              "public_id": "large_6174398_Photoroom_743bb620be",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387227/small_6174398_Photoroom_743bb620be.png",
+            "hash": "small_6174398_Photoroom_743bb620be",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_6174398-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 77.56,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 77555,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_6174398_Photoroom_743bb620be",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387227/medium_6174398_Photoroom_743bb620be.png",
+            "hash": "medium_6174398_Photoroom_743bb620be",
+            "mime": "image/png",
+            "name": "medium_6174398-Photoroom.png",
+            "path": null,
+            "size": 147.07,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 147075,
+            "provider_metadata": {
+              "public_id": "medium_6174398_Photoroom_743bb620be",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387227/thumbnail_6174398_Photoroom_743bb620be.png",
+            "hash": "thumbnail_6174398_Photoroom_743bb620be",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_6174398-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 13.78,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 13781,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_6174398_Photoroom_743bb620be",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "6174398_Photoroom_743bb620be",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 85.04,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387227/6174398_Photoroom_743bb620be.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "6174398_Photoroom_743bb620be",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T05:47:08.322Z",
+        "updatedAt": "2025-04-23T05:47:08.322Z",
+        "publishedAt": "2025-04-23T05:47:08.322Z"
       }
     },
     "key_benift": {
-      "id": 11,
+      "id": 62,
       "documentId": "rxdhf5cmo4u90s6h10cp8c24",
       "Heading": "Key Benifits",
       "createdAt": "2025-04-02T18:00:54.118Z",
-      "updatedAt": "2025-04-02T18:23:21.202Z",
-      "publishedAt": "2025-04-02T18:23:21.399Z",
+      "updatedAt": "2025-04-23T05:49:53.519Z",
+      "publishedAt": "2025-04-23T05:49:53.558Z",
       "Name": "EcommerceEnablement",
       "SideImage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 55,
+        "documentId": "acuz6s4fpydmljkguk43rh17",
+        "name": "6960524-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387370/large_6960524_Photoroom_437ee2e9c9.png",
+            "hash": "large_6960524_Photoroom_437ee2e9c9",
+            "mime": "image/png",
+            "name": "large_6960524-Photoroom.png",
+            "path": null,
+            "size": 124.33,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 124330,
+            "provider_metadata": {
+              "public_id": "large_6960524_Photoroom_437ee2e9c9",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387370/small_6960524_Photoroom_437ee2e9c9.png",
+            "hash": "small_6960524_Photoroom_437ee2e9c9",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_6960524-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 48.68,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 48678,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_6960524_Photoroom_437ee2e9c9",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387370/medium_6960524_Photoroom_437ee2e9c9.png",
+            "hash": "medium_6960524_Photoroom_437ee2e9c9",
+            "mime": "image/png",
+            "name": "medium_6960524-Photoroom.png",
+            "path": null,
+            "size": 83.57,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 83567,
+            "provider_metadata": {
+              "public_id": "medium_6960524_Photoroom_437ee2e9c9",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387370/thumbnail_6960524_Photoroom_437ee2e9c9.png",
+            "hash": "thumbnail_6960524_Photoroom_437ee2e9c9",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_6960524-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 11.83,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 11829,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_6960524_Photoroom_437ee2e9c9",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "6960524_Photoroom_437ee2e9c9",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 36.38,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745387370/6960524_Photoroom_437ee2e9c9.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "6960524_Photoroom_437ee2e9c9",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T05:49:31.546Z",
+        "updatedAt": "2025-04-23T05:49:31.546Z",
+        "publishedAt": "2025-04-23T05:49:31.546Z"
       },
       "key_benifts_points": [
         {
@@ -202,15 +266,6 @@
           "publishedAt": "2025-04-22T19:02:56.956Z"
         },
         {
-          "id": 33,
-          "documentId": "c4xhjxrbvhclicx3cndd17nk",
-          "Heading": "Inventory Optimization",
-          "subHeading": "Prevent stockouts and overstock issues.",
-          "createdAt": "2025-04-02T18:14:46.086Z",
-          "updatedAt": "2025-04-02T18:14:53.447Z",
-          "publishedAt": "2025-04-02T18:14:53.551Z"
-        },
-        {
           "id": 36,
           "documentId": "o1z2sdwdoijij4adi6ma22i2",
           "Heading": "Streamlined Supply Chain",
@@ -222,68 +277,100 @@
       ]
     },
     "how_it_work": {
-      "id": 72,
+      "id": 88,
       "documentId": "fv16cakbhmnpt1qek48ari6u",
       "Heading": "How It's Work",
       "createdAt": "2025-04-02T18:17:22.007Z",
-      "updatedAt": "2025-04-22T18:36:20.506Z",
-      "publishedAt": "2025-04-22T18:36:20.538Z",
+      "updatedAt": "2025-04-23T05:19:09.687Z",
+      "publishedAt": "2025-04-23T05:19:09.720Z",
       "sideimage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 49,
+        "documentId": "mc2rruomcnbufrfc27q09uei",
+        "name": "6567338-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/large_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "large_6567338_Photoroom_93d8dee9ad",
+            "mime": "image/png",
+            "name": "large_6567338-Photoroom.png",
+            "path": null,
+            "size": 205.27,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 205273,
+            "provider_metadata": {
+              "public_id": "large_6567338_Photoroom_93d8dee9ad",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/small_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "small_6567338_Photoroom_93d8dee9ad",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_6567338-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 82.33,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 82328,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_6567338_Photoroom_93d8dee9ad",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/medium_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "medium_6567338_Photoroom_93d8dee9ad",
+            "mime": "image/png",
+            "name": "medium_6567338-Photoroom.png",
+            "path": null,
+            "size": 139.26,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 139260,
+            "provider_metadata": {
+              "public_id": "medium_6567338_Photoroom_93d8dee9ad",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/thumbnail_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "thumbnail_6567338_Photoroom_93d8dee9ad",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_6567338-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 19.27,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 19270,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_6567338_Photoroom_93d8dee9ad",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "6567338_Photoroom_93d8dee9ad",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 56.08,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/6567338_Photoroom_93d8dee9ad.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "6567338_Photoroom_93d8dee9ad",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-22T19:34:57.155Z",
+        "updatedAt": "2025-04-22T19:34:57.155Z",
+        "publishedAt": "2025-04-22T19:34:57.155Z"
       },
       "steps": [
         {

@@ -6,22 +6,22 @@
     "updatedAt": "2025-04-04T10:58:34.167Z",
     "publishedAt": "2025-04-04T10:58:34.229Z",
     "service_hero_section": {
-      "id": 36,
+      "id": 39,
       "documentId": "x75yrymgw9ru374fvoidzjzs",
       "Heading": "Ecommerce Consultation",
-      "SubHeading": "Our Ecommerce Consultation services are designed to help businesses maximize their online sales potential. Whether you're a startup or an established brand looking to expand your digital presence, we provide expert guidance tailored to your unique needs. Our team will work with you to develop a strategy that optimizes your ecommerce platform for increased sales, customer engagement, and operational efficiency.",
+      "SubHeading": "Our Ecommerce Consultation services help businesses maximize online sales, whether you're a startup or an established brand. We provide tailored expert guidance to optimize your ecommerce platform for increased sales, customer engagement, and operational efficiency",
       "createdAt": "2025-04-02T16:06:26.078Z",
-      "updatedAt": "2025-04-22T19:25:29.993Z",
-      "publishedAt": "2025-04-22T19:25:30.027Z"
+      "updatedAt": "2025-04-23T05:56:12.426Z",
+      "publishedAt": "2025-04-23T05:56:12.448Z"
     },
     "service_over_view": {
-      "id": 9,
+      "id": 67,
       "documentId": "yw9hw3h9n3ry437tzgod6uqh",
       "Heading": "Overview of the Service",
       "subHeading": "Our eCommerce solutions are designed to help businesses scale efficiently in the competitive online marketplace. Whether you need strategic consultation, operational enablement, or technical development, we provide end-to-end support to ensure your online store runs smoothly and profitably.",
       "createdAt": "2025-04-02T16:06:04.599Z",
-      "updatedAt": "2025-04-02T18:32:17.374Z",
-      "publishedAt": "2025-04-02T18:32:17.616Z",
+      "updatedAt": "2025-04-23T05:37:37.861Z",
+      "publishedAt": "2025-04-23T05:37:37.897Z",
       "pointsHeading": "Key problems we solve",
       "Name": "Consulatation",
       "overview_points": [
@@ -51,127 +51,191 @@
         }
       ],
       "SideImage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 52,
+        "documentId": "syh3hmy61lo35facp48ftoxd",
+        "name": "5895736-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386653/large_5895736_Photoroom_4534ad60f8.png",
+            "hash": "large_5895736_Photoroom_4534ad60f8",
+            "mime": "image/png",
+            "name": "large_5895736-Photoroom.png",
+            "path": null,
+            "size": 232.65,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 232651,
+            "provider_metadata": {
+              "public_id": "large_5895736_Photoroom_4534ad60f8",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386653/small_5895736_Photoroom_4534ad60f8.png",
+            "hash": "small_5895736_Photoroom_4534ad60f8",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_5895736-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 81.15,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 81145,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_5895736_Photoroom_4534ad60f8",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386653/medium_5895736_Photoroom_4534ad60f8.png",
+            "hash": "medium_5895736_Photoroom_4534ad60f8",
+            "mime": "image/png",
+            "name": "medium_5895736-Photoroom.png",
+            "path": null,
+            "size": 149.92,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 149915,
+            "provider_metadata": {
+              "public_id": "medium_5895736_Photoroom_4534ad60f8",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386653/thumbnail_5895736_Photoroom_4534ad60f8.png",
+            "hash": "thumbnail_5895736_Photoroom_4534ad60f8",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_5895736-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 16.62,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 16619,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_5895736_Photoroom_4534ad60f8",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "5895736_Photoroom_4534ad60f8",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 82.31,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386653/5895736_Photoroom_4534ad60f8.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "5895736_Photoroom_4534ad60f8",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T05:37:34.012Z",
+        "updatedAt": "2025-04-23T05:37:34.012Z",
+        "publishedAt": "2025-04-23T05:37:34.013Z"
       }
     },
     "key_benift": {
-      "id": 6,
+      "id": 60,
       "documentId": "wrpgr47cs19s4afdsi0vmtgt",
       "Heading": "Key Benifits",
       "createdAt": "2025-04-02T15:59:28.903Z",
-      "updatedAt": "2025-04-02T18:05:13.879Z",
-      "publishedAt": "2025-04-02T18:05:14.037Z",
+      "updatedAt": "2025-04-23T05:40:29.159Z",
+      "publishedAt": "2025-04-23T05:40:29.194Z",
       "Name": "EcommerceConsultation",
       "SideImage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 53,
+        "documentId": "bp0d8b9w0egta7yqauiy2ha0",
+        "name": "4936930-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386782/large_4936930_Photoroom_3478c4caf3.png",
+            "hash": "large_4936930_Photoroom_3478c4caf3",
+            "mime": "image/png",
+            "name": "large_4936930-Photoroom.png",
+            "path": null,
+            "size": 167.9,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 167895,
+            "provider_metadata": {
+              "public_id": "large_4936930_Photoroom_3478c4caf3",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386782/small_4936930_Photoroom_3478c4caf3.png",
+            "hash": "small_4936930_Photoroom_3478c4caf3",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_4936930-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 60.05,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 60049,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_4936930_Photoroom_3478c4caf3",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386782/medium_4936930_Photoroom_3478c4caf3.png",
+            "hash": "medium_4936930_Photoroom_3478c4caf3",
+            "mime": "image/png",
+            "name": "medium_4936930-Photoroom.png",
+            "path": null,
+            "size": 107.99,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 107994,
+            "provider_metadata": {
+              "public_id": "medium_4936930_Photoroom_3478c4caf3",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386782/thumbnail_4936930_Photoroom_3478c4caf3.png",
+            "hash": "thumbnail_4936930_Photoroom_3478c4caf3",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_4936930-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 12.71,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 12708,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_4936930_Photoroom_3478c4caf3",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "4936930_Photoroom_3478c4caf3",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 56.8,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745386782/4936930_Photoroom_3478c4caf3.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "4936930_Photoroom_3478c4caf3",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T05:39:43.551Z",
+        "updatedAt": "2025-04-23T05:39:43.551Z",
+        "publishedAt": "2025-04-23T05:39:43.552Z"
       },
       "key_benifts_points": [
         {
@@ -202,24 +266,6 @@
           "publishedAt": "2025-04-02T16:03:02.888Z"
         },
         {
-          "id": 13,
-          "documentId": "fm5zqbf5cnpluzrgipmbg9py",
-          "Heading": "Marketing ROI Enhancement",
-          "subHeading": "Data-backed strategies to maximize ad spend.",
-          "createdAt": "2025-04-02T16:02:42.643Z",
-          "updatedAt": "2025-04-02T16:03:19.692Z",
-          "publishedAt": "2025-04-02T16:03:19.789Z"
-        },
-        {
-          "id": 14,
-          "documentId": "nmzhzkfz6n19q72d5dgopgai",
-          "Heading": "Personalized Growth Plan",
-          "subHeading": "Custom strategies tailored to your business.",
-          "createdAt": "2025-04-02T16:02:11.305Z",
-          "updatedAt": "2025-04-02T16:03:35.649Z",
-          "publishedAt": "2025-04-02T16:03:35.717Z"
-        },
-        {
           "id": 16,
           "documentId": "wc5el196y1pljzj081361zr3",
           "Heading": "SEO & Visibility",
@@ -231,68 +277,100 @@
       ]
     },
     "how_it_work": {
-      "id": 73,
+      "id": 90,
       "documentId": "txp9hf9z9wcxsqkmvjreeeya",
       "Heading": "How It's Work",
       "createdAt": "2025-04-02T15:57:43.120Z",
-      "updatedAt": "2025-04-22T18:36:30.082Z",
-      "publishedAt": "2025-04-22T18:36:30.116Z",
+      "updatedAt": "2025-04-23T05:19:45.651Z",
+      "publishedAt": "2025-04-23T05:19:45.680Z",
       "sideimage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 49,
+        "documentId": "mc2rruomcnbufrfc27q09uei",
+        "name": "6567338-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/large_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "large_6567338_Photoroom_93d8dee9ad",
+            "mime": "image/png",
+            "name": "large_6567338-Photoroom.png",
+            "path": null,
+            "size": 205.27,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 205273,
+            "provider_metadata": {
+              "public_id": "large_6567338_Photoroom_93d8dee9ad",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/small_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "small_6567338_Photoroom_93d8dee9ad",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_6567338-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 82.33,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 82328,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_6567338_Photoroom_93d8dee9ad",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/medium_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "medium_6567338_Photoroom_93d8dee9ad",
+            "mime": "image/png",
+            "name": "medium_6567338-Photoroom.png",
+            "path": null,
+            "size": 139.26,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 139260,
+            "provider_metadata": {
+              "public_id": "medium_6567338_Photoroom_93d8dee9ad",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/thumbnail_6567338_Photoroom_93d8dee9ad.png",
+            "hash": "thumbnail_6567338_Photoroom_93d8dee9ad",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_6567338-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 19.27,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 19270,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_6567338_Photoroom_93d8dee9ad",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "6567338_Photoroom_93d8dee9ad",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 56.08,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745350496/6567338_Photoroom_93d8dee9ad.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "6567338_Photoroom_93d8dee9ad",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-22T19:34:57.155Z",
+        "updatedAt": "2025-04-22T19:34:57.155Z",
+        "publishedAt": "2025-04-22T19:34:57.155Z"
       },
       "steps": [
         {
