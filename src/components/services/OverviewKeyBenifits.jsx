@@ -1,4 +1,6 @@
 import styles from "./css/OverviewKeyBenifits.module.scss";
+import Check from "../../assets/CodeOfConduct/Check.lottie";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
   return (
     <>
@@ -54,6 +56,7 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
                 className={`flex md:px-5 ${styles.overViewSubSection} md:pb-0 md:flex-row flex-col-reverse items-center`}
               >
                 <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0 md:justify-start">
+                  {/* <DotLottieReact src={Check} loop autoplay /> */}
                   <img
                     className="object-cover object-center rounded w-full max-w-md"
                     alt={keyBenifits.SideImage.alternativeText || "hero"}

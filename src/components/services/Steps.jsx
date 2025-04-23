@@ -1,4 +1,7 @@
 import styles from "./css/steps.module.scss";
+
+import Check from "../../assets/CodeOfConduct/Check.lottie";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const Steps = ({ apiRes }) => {
   let count = 1;
   return (
@@ -11,7 +14,7 @@ const Steps = ({ apiRes }) => {
             className={`flex flex-col text-start md:text-center w-full ${styles.stepsSubSection}`}
           >
             <h2 className={`title-font ${styles.stepsH2}`}>
-              {apiRes.Heading || "How It Work"}
+              {apiRes.Heading || "How It Works"}
             </h2>
           </div>
           <div className="flex md:flex-row flex-col">
@@ -41,11 +44,12 @@ const Steps = ({ apiRes }) => {
               ))}
             </div>
             <div className="w-full md:w-1/2">
-              <img
+              <DotLottieReact src={Check} loop autoplay />
+              {/* <img
                 className="w-full h-full object-cover object-center rounded"
                 alt={apiRes.sideimage.alternativeText || "hero"}
                 src={apiRes.sideimage.url || "https://dummyimage.com/720x600"}
-              />
+              /> */}
             </div>
           </div>
         </div>

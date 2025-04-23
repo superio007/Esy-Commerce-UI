@@ -6,6 +6,8 @@ import Translation from "../assets/Services/Translation.png";
 import Transcription from "../assets/Services/Transcription.png";
 import Transliteration from "../assets/Services/Transliteration.png";
 import DataLabel from "../assets/Services/DataLabel.png";
+import Check from "../assets/CodeOfConduct/Check.lottie";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const BPM = () => {
   return (
     <>
@@ -51,6 +53,7 @@ const BPM = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
+                    {/* <DotLottieReact src={Check} loop autoplay /> */}
                     <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"

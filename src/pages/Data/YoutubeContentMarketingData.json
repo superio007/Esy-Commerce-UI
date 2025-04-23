@@ -6,22 +6,22 @@
     "updatedAt": "2025-04-04T11:00:13.869Z",
     "publishedAt": "2025-04-04T11:00:13.925Z",
     "service_hero_section": {
-      "id": 17,
+      "id": 41,
       "documentId": "a3sbqb0ejho2mf45h1u8gpam",
       "Heading": "Youtube Content Marketing",
-      "SubHeading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sint veritatis nam suscipit beatae modi provident accusamus, consequatur expedita quod hic blanditiis autem aliquid? Aliquam, dicta laboriosam! Ducimus, sed.",
+      "SubHeading": "We provide YouTube Content Marketing services to boost brand authority, engagement, and traffic through effective video campaigns.",
       "createdAt": "2025-04-03T09:35:43.308Z",
-      "updatedAt": "2025-04-03T09:37:05.660Z",
-      "publishedAt": "2025-04-03T09:37:05.723Z"
+      "updatedAt": "2025-04-23T11:18:03.660Z",
+      "publishedAt": "2025-04-23T11:18:03.682Z"
     },
     "service_over_view": {
-      "id": 64,
+      "id": 70,
       "documentId": "b4284le9n7bt6thja5cw1rcm",
       "Heading": "Overview of the Service",
       "subHeading": "We help brands create and optimize YouTube content to drive engagement, increase subscribers, and generate leads.",
       "createdAt": "2025-04-03T12:51:24.301Z",
-      "updatedAt": "2025-04-03T13:20:12.348Z",
-      "publishedAt": "2025-04-03T13:20:12.423Z",
+      "updatedAt": "2025-04-23T11:29:39.453Z",
+      "publishedAt": "2025-04-23T11:29:39.495Z",
       "pointsHeading": "Key problems we solve",
       "Name": "YoutubeContentMarketing",
       "overview_points": [
@@ -51,127 +51,159 @@
         }
       ],
       "SideImage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 57,
+        "documentId": "ocexf1evf73zv0ssy9ggdz6i",
+        "name": "video-play-people-cartoon-vector-illustration-social-media-flat-icon_123447-4038-Photoroom.png",
+        "alternativeText": "YT Overview",
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 626,
+        "height": 501,
         "formats": {
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745407771/small_video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f.png",
+            "hash": "small_video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_video-play-people-cartoon-vector-illustration-social-media-flat-icon_123447-4038-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 129.74,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 400,
+            "sizeInBytes": 129735,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745407771/thumbnail_video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f.png",
+            "hash": "thumbnail_video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_video-play-people-cartoon-vector-illustration-social-media-flat-icon_123447-4038-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 27.38,
+            "width": 195,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 27377,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 51.36,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745407771/video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "video_play_people_cartoon_vector_illustration_social_media_flat_icon_123447_4038_Photoroom_76a2581c5f",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T11:29:31.909Z",
+        "updatedAt": "2025-04-23T11:29:31.909Z",
+        "publishedAt": "2025-04-23T11:29:31.910Z"
       }
     },
     "key_benift": {
-      "id": 41,
+      "id": 64,
       "documentId": "na7um1gaf88s4dklflq16bgw",
       "Heading": "Key Benifits",
       "createdAt": "2025-04-03T09:41:21.934Z",
-      "updatedAt": "2025-04-03T10:05:58.523Z",
-      "publishedAt": "2025-04-03T10:05:58.598Z",
+      "updatedAt": "2025-04-23T11:39:20.970Z",
+      "publishedAt": "2025-04-23T11:39:21.002Z",
       "Name": "KeyBenifitsYoutube",
       "SideImage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 58,
+        "documentId": "g96q778oiojmtv4815t711oc",
+        "name": "NA_October_08-Photoroom.png",
+        "alternativeText": "YT Key benifits",
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 731,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408356/large_NA_October_08_Photoroom_ec99e4b9cb.png",
+            "hash": "large_NA_October_08_Photoroom_ec99e4b9cb",
+            "mime": "image/png",
+            "name": "large_NA_October_08-Photoroom.png",
+            "path": null,
+            "size": 187.02,
+            "width": 1000,
+            "height": 571,
+            "sizeInBytes": 187019,
+            "provider_metadata": {
+              "public_id": "large_NA_October_08_Photoroom_ec99e4b9cb",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408356/small_NA_October_08_Photoroom_ec99e4b9cb.png",
+            "hash": "small_NA_October_08_Photoroom_ec99e4b9cb",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_NA_October_08-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 74.32,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 286,
+            "sizeInBytes": 74315,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_NA_October_08_Photoroom_ec99e4b9cb",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408356/medium_NA_October_08_Photoroom_ec99e4b9cb.png",
+            "hash": "medium_NA_October_08_Photoroom_ec99e4b9cb",
+            "mime": "image/png",
+            "name": "medium_NA_October_08-Photoroom.png",
+            "path": null,
+            "size": 126.09,
+            "width": 750,
+            "height": 428,
+            "sizeInBytes": 126092,
+            "provider_metadata": {
+              "public_id": "medium_NA_October_08_Photoroom_ec99e4b9cb",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408356/thumbnail_NA_October_08_Photoroom_ec99e4b9cb.png",
+            "hash": "thumbnail_NA_October_08_Photoroom_ec99e4b9cb",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_NA_October_08-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
-            "height": 156,
-            "sizeInBytes": 3526,
+            "size": 29.24,
+            "width": 245,
+            "height": 140,
+            "sizeInBytes": 29242,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_NA_October_08_Photoroom_ec99e4b9cb",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "NA_October_08_Photoroom_ec99e4b9cb",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 50.96,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408355/NA_October_08_Photoroom_ec99e4b9cb.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "NA_October_08_Photoroom_ec99e4b9cb",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T11:39:16.714Z",
+        "updatedAt": "2025-04-23T11:39:16.714Z",
+        "publishedAt": "2025-04-23T11:39:16.714Z"
       },
       "key_benifts_points": [
         {
@@ -202,24 +234,6 @@
           "publishedAt": "2025-04-03T10:04:19.198Z"
         },
         {
-          "id": 67,
-          "documentId": "l88k7hexsidipyjucu3rwj8o",
-          "Heading": "Content Consistency",
-          "subHeading": "A structured posting schedule for audience retention.",
-          "createdAt": "2025-04-03T10:04:38.227Z",
-          "updatedAt": "2025-04-03T10:04:48.782Z",
-          "publishedAt": "2025-04-03T10:04:48.815Z"
-        },
-        {
-          "id": 71,
-          "documentId": "vdxpfmyjuirau5mdzxnjl20w",
-          "Heading": "SEO for YouTube",
-          "subHeading": "Better rankings with keyword-optimized content.",
-          "createdAt": "2025-04-03T10:05:06.012Z",
-          "updatedAt": "2025-04-03T10:05:14.061Z",
-          "publishedAt": "2025-04-03T10:05:14.099Z"
-        },
-        {
           "id": 75,
           "documentId": "tn2jr680f40173ytfvvhlcsi",
           "Heading": "Improved Brand Visibility",
@@ -231,68 +245,100 @@
       ]
     },
     "how_it_work": {
-      "id": 70,
+      "id": 107,
       "documentId": "vfgcrll6o06bfgu584luhwee",
-      "Heading": "How It Work",
+      "Heading": "How It Works",
       "createdAt": "2025-04-03T11:00:15.184Z",
-      "updatedAt": "2025-04-03T12:48:18.766Z",
-      "publishedAt": "2025-04-03T12:48:18.834Z",
+      "updatedAt": "2025-04-23T11:44:32.059Z",
+      "publishedAt": "2025-04-23T11:44:32.089Z",
       "sideimage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 59,
+        "documentId": "tf41vfup9nviym7owoac0iez",
+        "name": "21453-Photoroom.png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1036,
+        "height": 875,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408666/large_21453_Photoroom_c6eb7156e6.png",
+            "hash": "large_21453_Photoroom_c6eb7156e6",
+            "mime": "image/png",
+            "name": "large_21453-Photoroom.png",
+            "path": null,
+            "size": 187.78,
+            "width": 1000,
+            "height": 845,
+            "sizeInBytes": 187782,
+            "provider_metadata": {
+              "public_id": "large_21453_Photoroom_c6eb7156e6",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408666/small_21453_Photoroom_c6eb7156e6.png",
+            "hash": "small_21453_Photoroom_c6eb7156e6",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_21453-Photoroom.png",
             "path": null,
-            "size": 10.6,
+            "size": 71.25,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 422,
+            "sizeInBytes": 71246,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_21453_Photoroom_c6eb7156e6",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408666/medium_21453_Photoroom_c6eb7156e6.png",
+            "hash": "medium_21453_Photoroom_c6eb7156e6",
+            "mime": "image/png",
+            "name": "medium_21453-Photoroom.png",
+            "path": null,
+            "size": 126.37,
+            "width": 750,
+            "height": 633,
+            "sizeInBytes": 126369,
+            "provider_metadata": {
+              "public_id": "medium_21453_Photoroom_c6eb7156e6",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408666/thumbnail_21453_Photoroom_c6eb7156e6.png",
+            "hash": "thumbnail_21453_Photoroom_c6eb7156e6",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_21453-Photoroom.png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 21.36,
+            "width": 185,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 21361,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_21453_Photoroom_c6eb7156e6",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "21453_Photoroom_c6eb7156e6",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 35.52,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745408666/21453_Photoroom_c6eb7156e6.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "21453_Photoroom_c6eb7156e6",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-23T11:44:27.178Z",
+        "updatedAt": "2025-04-23T11:44:27.178Z",
+        "publishedAt": "2025-04-23T11:44:27.178Z"
       },
       "steps": [
         {
@@ -352,13 +398,13 @@
       "publishedAt": "2025-04-02T15:52:44.811Z",
       "why_us_points": [
         {
-          "id": 13,
+          "id": 16,
           "documentId": "ho43113tzhve2oy50huwsipw",
           "Heading": "7+ Years of Expertise",
           "subHeading": "Proven experience delivering high-quality solutions across industries.",
           "createdAt": "2025-04-02T15:53:07.346Z",
-          "updatedAt": "2025-04-17T11:36:00.472Z",
-          "publishedAt": "2025-04-17T11:36:00.495Z",
+          "updatedAt": "2025-04-22T21:41:24.444Z",
+          "publishedAt": "2025-04-22T21:41:28.309Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -369,38 +415,38 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 39,
-            "documentId": "rh92my112kmagfrgukwqceak",
-            "name": "quality.png",
-            "alternativeText": "quality.png",
+            "id": 42,
+            "documentId": "c3ez0cyvbxxvgototfqyhb7h",
+            "name": "output-onlinepngtools (18).png",
+            "alternativeText": "7+ Years of Expertise",
             "caption": null,
             "width": 64,
             "height": 64,
             "formats": null,
-            "hash": "quality_4a458566a2",
+            "hash": "output_onlinepngtools_18_753720d95c",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.02,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889756/quality_4a458566a2.png",
+            "size": 0.43,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745338260/output_onlinepngtools_18_753720d95c.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "quality_4a458566a2",
+              "public_id": "output_onlinepngtools_18_753720d95c",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-17T11:35:57.294Z",
-            "updatedAt": "2025-04-17T11:35:57.294Z",
-            "publishedAt": "2025-04-17T11:35:57.294Z"
+            "createdAt": "2025-04-22T21:40:45.413Z",
+            "updatedAt": "2025-04-22T21:40:45.413Z",
+            "publishedAt": "2025-04-22T21:40:45.415Z"
           }
         },
         {
-          "id": 14,
+          "id": 18,
           "documentId": "qjaneznxknxyubfnbqemf2zq",
           "Heading": "Global Clientele",
           "subHeading": "Extensive experience working with businesses in the USA and beyond.",
           "createdAt": "2025-04-02T15:53:40.153Z",
-          "updatedAt": "2025-04-17T11:36:20.542Z",
-          "publishedAt": "2025-04-17T11:36:20.567Z",
+          "updatedAt": "2025-04-22T21:43:04.440Z",
+          "publishedAt": "2025-04-22T21:43:08.390Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -411,38 +457,38 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 40,
-            "documentId": "n8zlj8dgrg5yj2y4bqg0u862",
-            "name": "international.png",
-            "alternativeText": "international.png",
+            "id": 44,
+            "documentId": "ltif25kka0zto29fsw2y0rp9",
+            "name": "output-onlinepngtools (17).png",
+            "alternativeText": "Global Clientele",
             "caption": null,
             "width": 64,
             "height": 64,
             "formats": null,
-            "hash": "international_e4228b3296",
+            "hash": "output_onlinepngtools_17_cd60e923dc",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.37,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889777/international_e4228b3296.png",
+            "size": 0.54,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745338387/output_onlinepngtools_17_cd60e923dc.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "international_e4228b3296",
+              "public_id": "output_onlinepngtools_17_cd60e923dc",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-17T11:36:17.773Z",
-            "updatedAt": "2025-04-17T11:36:17.773Z",
-            "publishedAt": "2025-04-17T11:36:17.773Z"
+            "createdAt": "2025-04-22T21:42:52.948Z",
+            "updatedAt": "2025-04-22T21:42:52.948Z",
+            "publishedAt": "2025-04-22T21:42:52.949Z"
           }
         },
         {
-          "id": 12,
+          "id": 17,
           "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
           "Heading": "End-to-End Services",
           "subHeading": "From strategy to execution, we provide complete business solutions.",
           "createdAt": "2025-04-02T15:53:57.816Z",
-          "updatedAt": "2025-04-17T11:35:37.462Z",
-          "publishedAt": "2025-04-17T11:35:37.480Z",
+          "updatedAt": "2025-04-22T21:42:18.700Z",
+          "publishedAt": "2025-04-22T21:42:22.562Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -453,38 +499,38 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 38,
-            "documentId": "aezlcij39hb1de7zdpvlq434",
-            "name": "destination.png",
-            "alternativeText": "destination.png",
+            "id": 43,
+            "documentId": "q5cqgxh2qt6uimk0updchqra",
+            "name": "output-onlinepngtools (16).png",
+            "alternativeText": "End-to-End Services",
             "caption": null,
             "width": 64,
             "height": 64,
             "formats": null,
-            "hash": "destination_787e32b206",
+            "hash": "output_onlinepngtools_16_1261d57b8e",
             "ext": ".png",
             "mime": "image/png",
-            "size": 0.9,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889731/destination_787e32b206.png",
+            "size": 0.4,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745338341/output_onlinepngtools_16_1261d57b8e.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "destination_787e32b206",
+              "public_id": "output_onlinepngtools_16_1261d57b8e",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-17T11:35:31.820Z",
-            "updatedAt": "2025-04-17T11:35:31.820Z",
-            "publishedAt": "2025-04-17T11:35:31.820Z"
+            "createdAt": "2025-04-22T21:42:06.520Z",
+            "updatedAt": "2025-04-22T21:42:06.520Z",
+            "publishedAt": "2025-04-22T21:42:06.520Z"
           }
         },
         {
-          "id": 15,
+          "id": 19,
           "documentId": "ruzivl9hm0kb2audxcklgou2",
           "Heading": "Tailored Strategies",
           "subHeading": "Customized solutions designed to meet your unique business needs.",
           "createdAt": "2025-04-02T15:53:23.816Z",
-          "updatedAt": "2025-04-17T11:36:42.731Z",
-          "publishedAt": "2025-04-17T11:36:42.744Z",
+          "updatedAt": "2025-04-22T21:44:06.493Z",
+          "publishedAt": "2025-04-22T21:44:10.427Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -495,28 +541,28 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 41,
-            "documentId": "ev4ckjw5gr7t38rvcif5baki",
-            "name": "idea.png",
-            "alternativeText": "idea.png",
+            "id": 45,
+            "documentId": "mvyrxht330i1phrv5z457kih",
+            "name": "output-onlinepngtools (15).png",
+            "alternativeText": "Tailored Strategies",
             "caption": null,
             "width": 64,
             "height": 64,
             "formats": null,
-            "hash": "idea_5797686f0d",
+            "hash": "output_onlinepngtools_15_475e4c1d2a",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.06,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744889796/idea_5797686f0d.png",
+            "size": 0.47,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745338450/output_onlinepngtools_15_475e4c1d2a.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "idea_5797686f0d",
+              "public_id": "output_onlinepngtools_15_475e4c1d2a",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-17T11:36:36.903Z",
-            "updatedAt": "2025-04-17T11:36:36.903Z",
-            "publishedAt": "2025-04-17T11:36:36.903Z"
+            "createdAt": "2025-04-22T21:43:55.120Z",
+            "updatedAt": "2025-04-22T21:43:55.120Z",
+            "publishedAt": "2025-04-22T21:43:55.121Z"
           }
         }
       ]
