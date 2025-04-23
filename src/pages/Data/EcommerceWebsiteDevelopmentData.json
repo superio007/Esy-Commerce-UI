@@ -15,13 +15,13 @@
       "publishedAt": "2025-04-22T16:36:36.354Z"
     },
     "service_over_view": {
-      "id": 66,
+      "id": 69,
       "documentId": "et4fm5kvc5rrugcntlusm95d",
       "Heading": "Overview of the Service",
       "subHeading": "We build high-performing, secure, and scalable eCommerce websites tailored to your business needs.",
       "createdAt": "2025-04-02T18:39:05.078Z",
-      "updatedAt": "2025-04-22T19:54:44.548Z",
-      "publishedAt": "2025-04-22T19:54:44.583Z",
+      "updatedAt": "2025-04-23T06:12:12.744Z",
+      "publishedAt": "2025-04-23T06:12:12.777Z",
       "pointsHeading": "Key problems we solve",
       "Name": "EcommerceWebsiteDevelopment",
       "overview_points": [
@@ -51,93 +51,93 @@
         }
       ],
       "SideImage": {
-        "id": 51,
-        "documentId": "vjhzo2mae92gqwcxmlt1svtg",
-        "name": "5464026-Photoroom.png",
+        "id": 56,
+        "documentId": "z13xr5n4y9ihnmezqb6uiwmm",
+        "name": "6666301-Photoroom.png",
         "alternativeText": null,
         "caption": null,
         "width": 1280,
-        "height": 853,
+        "height": 1280,
         "formats": {
           "large": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745351680/large_5464026_Photoroom_797e9cf4cc.png",
-            "hash": "large_5464026_Photoroom_797e9cf4cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745388724/large_6666301_Photoroom_0abf22fa85.png",
+            "hash": "large_6666301_Photoroom_0abf22fa85",
             "mime": "image/png",
-            "name": "large_5464026-Photoroom.png",
+            "name": "large_6666301-Photoroom.png",
             "path": null,
-            "size": 220.4,
+            "size": 228.28,
             "width": 1000,
-            "height": 666,
-            "sizeInBytes": 220404,
+            "height": 1000,
+            "sizeInBytes": 228278,
             "provider_metadata": {
-              "public_id": "large_5464026_Photoroom_797e9cf4cc",
+              "public_id": "large_6666301_Photoroom_0abf22fa85",
               "resource_type": "image"
             }
           },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745351680/small_5464026_Photoroom_797e9cf4cc.png",
-            "hash": "small_5464026_Photoroom_797e9cf4cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745388724/small_6666301_Photoroom_0abf22fa85.png",
+            "hash": "small_6666301_Photoroom_0abf22fa85",
             "mime": "image/png",
-            "name": "small_5464026-Photoroom.png",
+            "name": "small_6666301-Photoroom.png",
             "path": null,
-            "size": 78.11,
+            "size": 84.64,
             "width": 500,
-            "height": 333,
-            "sizeInBytes": 78112,
+            "height": 500,
+            "sizeInBytes": 84644,
             "provider_metadata": {
-              "public_id": "small_5464026_Photoroom_797e9cf4cc",
+              "public_id": "small_6666301_Photoroom_0abf22fa85",
               "resource_type": "image"
             }
           },
           "medium": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745351680/medium_5464026_Photoroom_797e9cf4cc.png",
-            "hash": "medium_5464026_Photoroom_797e9cf4cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745388724/medium_6666301_Photoroom_0abf22fa85.png",
+            "hash": "medium_6666301_Photoroom_0abf22fa85",
             "mime": "image/png",
-            "name": "medium_5464026-Photoroom.png",
+            "name": "medium_6666301-Photoroom.png",
             "path": null,
-            "size": 142.62,
+            "size": 149.68,
             "width": 750,
-            "height": 500,
-            "sizeInBytes": 142621,
+            "height": 750,
+            "sizeInBytes": 149681,
             "provider_metadata": {
-              "public_id": "medium_5464026_Photoroom_797e9cf4cc",
+              "public_id": "medium_6666301_Photoroom_0abf22fa85",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745351679/thumbnail_5464026_Photoroom_797e9cf4cc.png",
-            "hash": "thumbnail_5464026_Photoroom_797e9cf4cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745388724/thumbnail_6666301_Photoroom_0abf22fa85.png",
+            "hash": "thumbnail_6666301_Photoroom_0abf22fa85",
             "mime": "image/png",
-            "name": "thumbnail_5464026-Photoroom.png",
+            "name": "thumbnail_6666301-Photoroom.png",
             "path": null,
-            "size": 28.61,
-            "width": 234,
+            "size": 19.05,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 28614,
+            "sizeInBytes": 19050,
             "provider_metadata": {
-              "public_id": "thumbnail_5464026_Photoroom_797e9cf4cc",
+              "public_id": "thumbnail_6666301_Photoroom_0abf22fa85",
               "resource_type": "image"
             }
           }
         },
-        "hash": "5464026_Photoroom_797e9cf4cc",
+        "hash": "6666301_Photoroom_0abf22fa85",
         "ext": ".png",
         "mime": "image/png",
-        "size": 83.25,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745351679/5464026_Photoroom_797e9cf4cc.png",
+        "size": 64.1,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745388724/6666301_Photoroom_0abf22fa85.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "5464026_Photoroom_797e9cf4cc",
+          "public_id": "6666301_Photoroom_0abf22fa85",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-22T19:54:41.101Z",
-        "updatedAt": "2025-04-22T19:54:41.101Z",
-        "publishedAt": "2025-04-22T19:54:41.102Z"
+        "createdAt": "2025-04-23T06:12:05.171Z",
+        "updatedAt": "2025-04-23T06:12:05.171Z",
+        "publishedAt": "2025-04-23T06:12:05.171Z"
       }
     },
     "key_benift": {
