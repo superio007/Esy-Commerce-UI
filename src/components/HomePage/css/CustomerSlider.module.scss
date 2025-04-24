@@ -1,4 +1,5 @@
-.brand-slider-container {
+@use "../../../MainVariables" as *;
+.brandslidercontainer {
   text-align: center;
   padding: 20px 0;
 }
@@ -34,7 +35,7 @@
   font-weight: bold;
 }
 
-.brand-slider {
+.brandslider {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
@@ -43,7 +44,7 @@
   padding: 20px 0;
 }
 
-.slider-track {
+.slidertrack {
   display: flex;
   gap: 40px;
   animation: scroll 20s linear infinite;
@@ -77,7 +78,7 @@
   }
 }
 
-/* .slider-track:hover {
+/* .slidertrack:hover {
   animation-play-state: paused;
 } */
 
@@ -96,7 +97,7 @@
     margin-bottom: 0;
   }
 
-  .slider-track {
+  .slidertrack {
     animation: scroll 30s linear infinite;
   }
 

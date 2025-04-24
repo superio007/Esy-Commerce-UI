@@ -3,8 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 import styles from "./css/AboutTeam.module.scss";
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import { FaLinkedin } from "react-icons/fa";
 const TeamSection = ({ heading, TeamMembers, subHeading }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -74,7 +75,8 @@ const TeamSection = ({ heading, TeamMembers, subHeading }) => {
               spaceBetween={30}
               slidesPerView={1}
               centeredSlides={true}
-              modules={[Pagination]}
+              navigation
+              modules={[Pagination, Navigation]}
             >
               {teamMembers.map((member, index) => (
                 <SwiperSlide key={index}>

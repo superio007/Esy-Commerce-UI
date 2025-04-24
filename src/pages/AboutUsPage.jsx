@@ -10,10 +10,12 @@ import TeamSection from "../components/AboutPage/TeamMembers";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import AboutPageData from "../Data/AboutData.json";
-
+import ClientSlider from "../components/AboutPage/ClientSlider";
+import ClientSlider2 from "../components/AboutPage/ClientSlider2";
+import styles from "../css/AboutUs.module.scss";
 const fetchAboutContent = async () => {
   const { data } = await axios.get(
-    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/about-page?populate[about_hero_section][populate]=*&populate[about_why_us][populate]=*&populate[about_us_core_value][populate]=*&populate[about_team_section][populate]=*&populate[certifications][populate]=*&populate[about_cta][populate]=*&populate[team_members][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/about-page?populate[certifications][populate]=*&populate[about_hero_section][populate]=*&populate[about_why_us][populate]=*&populate[about_us_core_value][populate]=*&populate[about_team_section][populate]=*&populate[about_cta][populate]=*&populate[team_members][populate]=*&populate[customer_slider][populate]=*&populate[about_us_core_values_points][populate]=*"
   );
   return data.data;
 };
@@ -31,7 +33,7 @@ const About = () => {
   });
   const apiResponse = error ? AboutPageData.data || [] : data || [];
 
-  // console.log("API Response:", apiResponse);
+  console.log("API Response:", apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
@@ -40,10 +42,18 @@ const About = () => {
         heading={apiResponse.about_why_us}
         points={apiResponse.about_hero_section.about_why_us_points}
       />
-      <ParallaxProvider>
-        <ClientParallax />
-      </ParallaxProvider>
-      <CoreValues coreValues={apiResponse.about_us_core_value} />
+      <div className={styles.AboutSliders}>
+        <ParallaxProvider>
+          <ClientSlider Slider={apiResponse.customer_slider} />
+        </ParallaxProvider>
+        <ParallaxProvider>
+          <ClientSlider2 Slider={apiResponse.customer_slider} />
+        </ParallaxProvider>
+      </div>
+      <CoreValues
+        coreValues={apiResponse.about_us_core_values_points}
+        CoreHeading={apiResponse.about_us_core_value}
+      />
       <TeamSection
         TeamMembers={apiResponse.team_members}
         heading={apiResponse.about_team_section.Heading}

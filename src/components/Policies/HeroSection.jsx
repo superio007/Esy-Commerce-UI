@@ -8,7 +8,7 @@ const HeroSection = ({ heading, subHeading, lottie }) => {
         <div className={styles.HeroSection}>
           <section
             id=""
-            className={`xl:px-16 py-[60px] 3xl:mx-auto 3xl:max-w-screen-xl`}
+            className={`xl:px-16 3xl:mx-auto 3xl:max-w-screen-xl`}
           >
             <div className="px-6 md:px-0">
               <div className="flex md:flex-row flex-col items-center">

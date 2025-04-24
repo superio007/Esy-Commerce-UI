@@ -1,10 +1,15 @@
 import styles from "../css/Design.module.scss";
 import { Link } from "react-router-dom";
 import React from "react";
-import Youtube from "../assets/Services/YoutubeContentMarketing.png";
-import LinkedIn from "../assets/Services/LinkedinContentMarketing.png";
+// import Youtube from "../assets/Services/YoutubeContentMarketing.png";
+// import LinkedIn from "../assets/Services/LinkedinContentMarketing.png";
+// import Identity from "../assets/Services/IdentityBrandingCommunication.png";
+// import CustomWebsite from "../assets/Services/custom-website-development.png";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import Youtube from "../assets/Services/YouTube.lottie";
+import LinkedIn from "../assets/Services/LinkedInContMkt.lottie";
 import Identity from "../assets/Services/IdentityBrandingCommunication.png";
-import CustomWebsite from "../assets/Services/custom-website-development.png";
+import CustomWebsite from "../assets/Services/WebDevelopment.lottie";
 const Design = () => {
   return (
     <>
@@ -52,11 +57,7 @@ const Design = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
-                      className="w-100 object-cover object-center rounded"
-                      alt="hero"
-                      src={Youtube}
-                    />
+                    <DotLottieReact src={Youtube} loop autoplay />
                   </div>
                 </div>
               </section>
@@ -64,11 +65,12 @@ const Design = () => {
               <section className={styles.DivSpace}>
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={LinkedIn}
-                    />
+                    /> */}
+                    <DotLottieReact src={LinkedIn} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  ">
                     <h1 className={styles.DesignH2Middle}>
@@ -130,11 +132,12 @@ const Design = () => {
               <section className={styles.DivSpace}>
                 <div className="flex px-5 md:pt-16 pt-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={CustomWebsite}
-                    />
+                    /> */}
+                    <DotLottieReact src={CustomWebsite} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  ">
                     <h1 className={styles.DesignH2Middle}>

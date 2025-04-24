@@ -1,9 +1,13 @@
 import styles from "../css/Ecommerce.module.scss";
 import { Link } from "react-router-dom";
 import React from "react";
-import ECommConsultation from "../assets/Services/Ecomm-Consultation.png";
-import ECommEnablement from "../assets/Services/EcommerceEnablement.png";
-import ECommWebsiteDevelopment from "../assets/Services/EcommerceWebDev.png";
+// import ECommConsultation from "../assets/Services/Ecomm-Consultation.png";
+// import ECommEnablement from "../assets/Services/EcommerceEnablement.png";
+// import ECommWebsiteDevelopment from "../assets/Services/EcommerceWebDev.png";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import ECommWebsiteDevelopment from "../assets/Services/WebDevelopment.lottie";
+import ECommEnablement from "../assets/Services/EcomEnablement.lottie";
+import ECommConsultation from "../assets/Services/EcomConsultation.lottie";
 const Ecommerce = () => {
   return (
     <>
@@ -53,11 +57,12 @@ const Ecommerce = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
+                    <DotLottieReact src={ECommConsultation} loop autoplay />
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={ECommConsultation}
-                    />
+                    /> */}
                   </div>
                 </div>
               </section>
@@ -65,11 +70,12 @@ const Ecommerce = () => {
               <section className="text-gray-600 body-font">
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={ECommEnablement}
-                    />
+                    /> */}
+                    <DotLottieReact src={ECommEnablement} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
                     <h1 className={styles.ECommH2Middle}>
@@ -121,10 +127,15 @@ const Ecommerce = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={ECommWebsiteDevelopment}
+                    /> */}
+                    <DotLottieReact
+                      src={ECommWebsiteDevelopment}
+                      loop
+                      autoplay
                     />
                   </div>
                 </div>

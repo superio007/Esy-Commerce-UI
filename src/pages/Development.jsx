@@ -1,10 +1,15 @@
 import styles from "../css/Development.module.scss";
 import { Link } from "react-router-dom";
 import React from "react";
-import CMS from "../assets/Services/CMS.png";
+// import CMS from "../assets/Services/CMS.png";
+// import CRM from "../assets/Services/CRM.png";
+// import CustomDevelopment from "../assets/Services/custom-website-development.png";
+// import StaffOffServices from "../assets/Services/StaffOffServices.png";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import CMS from "../assets/Services/CMSoption.lottie";
 import CRM from "../assets/Services/CRM.png";
-import CustomDevelopment from "../assets/Services/custom-website-development.png";
-import StaffOffServices from "../assets/Services/StaffOffServices.png";
+import CustomDevelopment from "../assets/Services/WebDevelopment.lottie";
+import StaffOffServices from "../assets/Services/StaffOffService.lottie";
 const Development = () => {
   return (
     <>
@@ -50,11 +55,12 @@ const Development = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
+                    <DotLottieReact src={CMS} loop autoplay />
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={CMS}
-                    />
+                    /> */}
                   </div>
                 </div>
               </section>
@@ -112,11 +118,12 @@ const Development = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
+                    <DotLottieReact src={CustomDevelopment} loop autoplay />
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={CustomDevelopment}
-                    />
+                    /> */}
                   </div>
                 </div>
               </section>
@@ -124,11 +131,12 @@ const Development = () => {
               <section className="text-gray-600 body-font">
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    <DotLottieReact src={StaffOffServices} loop autoplay />
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={StaffOffServices}
-                    />
+                    /> */}
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
                     <h1 className={styles.DevelopmentH2Middle}>
