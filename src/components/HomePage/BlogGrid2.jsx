@@ -5,7 +5,7 @@ import Thumbnail from "../../assets/homePage/thumbnail.jpg"; // Example thumbnai
 import VideoThumb from "../../assets/homePage/VideoThumbNail.jpg"; // Example video thumbnail image
 import VideoThumb2 from "../../assets/homePage/VideoThumbNail2.jpg"; // Example video thumbnail image
 import VideoThumb3 from "../../assets/homePage/VideoThumbNail3.jpg"; // Example video thumbnail image
-const BlogGrid = () => {
+const BlogGrid2 = () => {
   return (
     <>
       <section className="bg-[#007fff] relative">
@@ -54,4 +54,4 @@ const BlogGrid = () => {
   );
 };
 
-export default BlogGrid;
+export default BlogGrid2;
