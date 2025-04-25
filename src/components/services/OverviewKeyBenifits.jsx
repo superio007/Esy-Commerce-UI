@@ -33,8 +33,8 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
                   </h3>
                   <ul className={`${styles.overview} list-disc list-inside`}>
                     {overview.overview_points.map((point, index) => (
-                      <p>
-                        <li key={index}>{point.Point}</li>
+                      <p key={index}>
+                        <li>{point.Point}</li>
                       </p>
                     ))}
                   </ul>

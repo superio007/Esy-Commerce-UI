@@ -28,12 +28,15 @@
     bottom: -2px; /* Adjusts position without affecting layout */
     width: 0;
     height: 2px;
-    background-color:#007fff; /* Adjust the color as needed */
+    // background-color:#007fff; /* Adjust the color as needed */
     transition: width 0.3s ease-in-out;
 }
 .Footer .navHeads:hover::after {
     width: 100%;
 }
+.hoverNavTag :hover{
+        color:#007fff !important;
+    }
 /* .Footer .Menu-item-text{
     &:hover{
         color: #2e96ff !important;

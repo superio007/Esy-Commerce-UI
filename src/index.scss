@@ -13,7 +13,9 @@ h6 {
 
 p {
     color: $Sub-Heading-Color !important;
-    
+    font-size: $font-size-body !important;
+    font-weight: $font-weight-regular !important;
+    line-height: $line-height-body !important;
 }
 
 body {

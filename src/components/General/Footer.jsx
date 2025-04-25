@@ -18,24 +18,45 @@ const Footer = () => {
           >
             <div className="flex md:flex-row flex-col md:justify-between md:items-center px-6 md:p-2">
               <div className="flex flex-col md:flex-row md:gap-6 gap-3">
-                <Link to={"/about"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/about"}
+                  onClick={handleClick}
+                >
                   <p>About</p>
                 </Link>
-                <Link to={"/services"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/services"}
+                  onClick={handleClick}
+                >
                   <p>Services</p>
                 </Link>
-                <Link to={"/blogs"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/blogs"}
+                  onClick={handleClick}
+                >
                   <p>Blog</p>
                 </Link>
-                <Link to={"/faq"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/faq"}
+                  onClick={handleClick}
+                >
                   <p>FAQ</p>
                 </Link>
-                <Link to={"/contact"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/contact"}
+                  onClick={handleClick}
+                >
                   <p>Contact</p>
                 </Link>
               </div>
               <div className="flex gap-3 mt-8 md:mt-0">
                 <Link
+                  className={styles.hoverNavTag}
                   to={
                     "https://www.linkedin.com/company/esycommerce?originalSubdomain=in"
                   }
@@ -44,6 +65,7 @@ const Footer = () => {
                   <FaLinkedinIn className="text-[#00234b] hover:text-[#007fff] text-lg" />
                 </Link>
                 <Link
+                  className={styles.hoverNavTag}
                   to={
                     "https://www.youtube.com/channel/UCnrZjfj9nMDt76ibDXYHqQQ"
                   }
@@ -52,12 +74,17 @@ const Footer = () => {
                   <FaYoutube className="text-[#00234b] hover:text-[#007fff] text-lg" />
                 </Link>
                 <Link
+                  className={styles.hoverNavTag}
                   to={"https://www.instagram.com/esycommerce/"}
                   target="_blank"
                 >
                   <FaInstagram className="text-[#00234b] hover:text-[#007fff] text-lg" />
                 </Link>
-                <Link to={"https://x.com/EsyCommerce"} target="_blank">
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"https://x.com/EsyCommerce"}
+                  target="_blank"
+                >
                   <FaXTwitter className="text-[#00234b] hover:text-[#007fff] text-lg" />
                 </Link>
               </div>
@@ -90,42 +117,66 @@ const Footer = () => {
                 Our Services
               </h2>
               <ul style={{ width: "max-content" }}>
-                <Link to={"/ecommerce"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/ecommerce"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Ecommerce</p>
                   </li>
                 </Link>
-                <Link to={"/design"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/design"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Design</p>
                   </li>
                 </Link>
-                <Link to={"/development"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/development"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Development</p>
                   </li>
                 </Link>
-                <Link to={"/bpm"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/bpm"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>BPM</p>
                   </li>
                 </Link>
-                <Link to={"/about"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/about"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>About Us</p>
                   </li>
                 </Link>
-                <Link to={"/contact"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/contact"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
@@ -139,42 +190,66 @@ const Footer = () => {
                 Legal Compliance
               </h2>
               <ul style={{ width: "max-content" }}>
-                <Link to={"/privacy-policy"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/privacy-policy"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Privacy Policy</p>
                   </li>
                 </Link>
-                <Link to={"/ethics-policy"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/ethics-policy"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Ethics Policy</p>
                   </li>
                 </Link>
-                <Link to={"/data-security-policy"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/data-security-policy"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Data Security Policy</p>
                   </li>
                 </Link>
-                <Link to={"/code-of-conduct"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/code-of-conduct"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Code of Conduct</p>
                   </li>
                 </Link>
-                <Link to={"/information-security"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/information-security"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >
                     <p>Information Security</p>
                   </li>
                 </Link>
-                <Link to={"/sitemap"} onClick={handleClick}>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/sitemap"}
+                  onClick={handleClick}
+                >
                   <li
                     className={`${styles.navHeads} mb-3 leading-normal flex gap-6 items-center justify-between`}
                   >

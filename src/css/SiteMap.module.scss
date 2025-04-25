@@ -1,0 +1,10 @@
+@use "../mainVariables" as *;
+.SiteMapHead {
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.SiteMapHeading {
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-hero;
+    color: $color-primary-hero !important;
+}

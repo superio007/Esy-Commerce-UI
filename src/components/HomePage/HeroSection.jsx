@@ -9,7 +9,7 @@ const HeroSection = ({ heading, subHeading }) => {
       const points = heading.map((point) => point.Title);
       setPoints(points);
     }
-  });
+  },[]);
   return (
     <div className="bg-[#007fff]">
       <section className="body-font xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">

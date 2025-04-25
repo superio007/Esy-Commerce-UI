@@ -135,42 +135,42 @@ const Navbar = () => {
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
-                            to={"/Ecommerce-Consultation"}
+                            to={"/ecommerce-consultation"}
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Consultation (Performance)
                           </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
-                            to={"/Ecommerce-Enablement"}
+                            to={"/ecommerce-enablement"}
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Enablement (Operations)
                           </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
-                            to={"/Ecommerce-Website-Development"}
+                            to={"/ecommerce-website-development"}
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Website Development (TechDev)
                           </Link>
@@ -222,7 +222,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             YouTube Content Marketing
                           </Link>
@@ -236,7 +236,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             LinkedIn Content Marketing
                           </Link>
@@ -250,7 +250,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Identity, Branding & Communication
                           </Link>
@@ -264,7 +264,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Custom Website Development
                           </Link>
@@ -316,7 +316,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             CMS
                           </Link>
@@ -330,7 +330,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             CRM
                           </Link>
@@ -344,7 +344,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Custom Development
                           </Link>
@@ -358,7 +358,7 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Staff Off Services
                           </Link>
@@ -410,7 +410,7 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/content-migration"}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Content Migration
                           </Link>
@@ -424,7 +424,7 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/translation"}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Translation
                           </Link>
@@ -438,7 +438,7 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/transcription"}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transcription
                           </Link>
@@ -452,7 +452,7 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/transliteration"}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transliteration
                           </Link>
@@ -466,7 +466,7 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/data-labeling-annotation"}
-                            className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Data Labeling & Annotation
                           </Link>
@@ -574,7 +574,7 @@ const Navbar = () => {
           <ul style={{ overflowY: "scroll" }} className="space-y-4">
             <li className={`${styles.navHeadsMobile}`}>
               <div
-                className="flex justify-between items-center text-gray-900 hover:text-blue-700"
+                className="flex justify-between items-center  "
                 onClick={() => {
                   setMIsEcommMenu(!isMEcommMenuOpen);
                   setMIsDesignMenu(false);
@@ -594,7 +594,7 @@ const Navbar = () => {
                       <Link
                         to={"/ecommerce-consultation"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Ecommerce Consultation (Performance)
                       </Link>
@@ -603,7 +603,7 @@ const Navbar = () => {
                       <Link
                         to={"/ecommerce-enablement"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Ecommerce Enablement (Operations)
                       </Link>
@@ -612,7 +612,7 @@ const Navbar = () => {
                       <Link
                         to={"/ecommerce-website-development"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Ecommerce Website Development (TechDev)
                       </Link>
@@ -629,7 +629,7 @@ const Navbar = () => {
                   setMIsDevMenu(false);
                   setMIsBpmMenu(false);
                 }}
-                className="flex justify-between items-center text-gray-900 hover:text-blue-700"
+                className="flex justify-between items-center  "
               >
                 Design
                 {isMDesignMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -643,7 +643,7 @@ const Navbar = () => {
                       <Link
                         to={"/youtube-content-marketing"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         YouTube Content Marketing
                       </Link>
@@ -652,7 +652,7 @@ const Navbar = () => {
                       <Link
                         to={"/linkedin-content-marketing"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         LinkedIn Content Marketing
                       </Link>
@@ -661,7 +661,7 @@ const Navbar = () => {
                       <Link
                         to={"/identity-branding-communication"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Identity, Branding & Communication
                       </Link>
@@ -670,7 +670,7 @@ const Navbar = () => {
                       <Link
                         to={"//custom-website-development"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Custom Website Development
                       </Link>
@@ -687,7 +687,7 @@ const Navbar = () => {
                   setMIsDevMenu(!isMDevMenuOpen);
                   setMIsBpmMenu(false);
                 }}
-                className="flex justify-between items-center text-gray-900 hover:text-blue-700"
+                className="flex justify-between items-center  "
               >
                 Development
                 {isMDevMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -696,106 +696,43 @@ const Navbar = () => {
             {isMDevMenuOpen && (
               <li>
                 <div className="bg-white p-4">
-                  <ul>
-                    <Link
-                      to={"/cms"}
-                      onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    >
-                      <li className="mb-4">CMS</li>
-                    </Link>
-                    {/* <div className="pl-4">
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          WordPress
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Drupal
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Joomla
-                        </Link>
-                      </li>
-                    </div> */}
-                    <Link
-                      to={"/crm"}
-                      onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    >
-                      <li className="mb-4">CRM</li>
-                    </Link>
-                    <Link
-                      to={"/custom-development"}
-                      onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    >
-                      <li className="mb-4">Custom Development</li>
-                    </Link>
-                    {/* <div className="pl-4">
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Salesforce
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          HubSpot
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Odoo
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Zoho
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          ERP
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          ERPNext
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Microsoft Dynamics
-                        </Link>
-                      </li>
-                      <li className="mb-6 ">
-                        <Link
-                          className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        >
-                          Oracle NetSuite
-                        </Link>
-                      </li>
-                    </div> */}
+                  <ul className="flex flex-col">
+                    <li className="mb-4">
+                      <Link
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        to={"/cms"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                      >
+                        CMS
+                      </Link>
+                    </li>
+                    <li className="mb-4">
+                      <Link
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        to={"/crm"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                      >
+                        CRM
+                      </Link>
+                    </li>
+                    <li className="mb-4">
+                      <Link
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        to={"/custom-development"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                      >
+                        Custom Development
+                      </Link>
+                    </li>
+                    <li className="mb-4">
+                      <Link
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        to={"/staff-off-services"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                      >
+                        Staff Off Services
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </li>
@@ -808,7 +745,7 @@ const Navbar = () => {
                   setMIsDevMenu(false);
                   setMIsBpmMenu(!isMBpmMenuOpen);
                 }}
-                className="text-gray-900 flex justify-between items-center hover:text-blue-700"
+                className=" flex justify-between items-center "
               >
                 BPM
                 {isMBpmMenuOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -822,7 +759,7 @@ const Navbar = () => {
                       <Link
                         to={"/content-migration"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Content Migration
                       </Link>
@@ -831,7 +768,7 @@ const Navbar = () => {
                       <Link
                         to={"/translation"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Translation
                       </Link>
@@ -840,7 +777,7 @@ const Navbar = () => {
                       <Link
                         to={"/transcription"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Transcription
                       </Link>
@@ -849,7 +786,7 @@ const Navbar = () => {
                       <Link
                         to={"/transliteration"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Transliteration
                       </Link>
@@ -858,7 +795,7 @@ const Navbar = () => {
                       <Link
                         to={"/data-labeling-annotation"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        className={`${styles.MenuItemText} text-gray-900 rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
                         Data Labeling & Annotation
                       </Link>
@@ -877,7 +814,7 @@ const Navbar = () => {
                   setMIsBpmMenu(false);
                   setIsMenuOpen(!isMenuOpen);
                 }}
-                className="text-gray-900 hover:text-blue-700"
+                className=" "
               >
                 About Us
               </NavLink>

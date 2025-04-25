@@ -34,6 +34,9 @@
 .MenuItemText {
   font-size: 16px;
   color: #1b3139 !important;
+  &:hover{
+    color: #007fff !important;
+  }
 }
 
 .mobileMenuNav {
