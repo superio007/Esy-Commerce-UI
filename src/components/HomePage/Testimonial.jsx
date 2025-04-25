@@ -16,7 +16,9 @@ const Testimonial = ({ apiRes }) => {
       apiRes.home_testamonials_points?.map((item) => ({
         name: item.ClientName,
         role: item.ClientPosition,
-        image: "https://dummyimage.com/302x302",
+        image:
+          item.clientImage.formats.thumbnail.url ||
+          "https://dummyimage.com/302x302",
         text: item.review,
       })) || [];
     setTestimonials(data);
@@ -81,7 +83,7 @@ const Testimonial = ({ apiRes }) => {
                           >
                             <img
                               alt="testimonial"
-                              style={{ width: "125px", height: "auto" }}
+                              style={{ width: "125px", height: "125px" }}
                               className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                               src={testimonial.image}
                             />

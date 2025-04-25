@@ -15,7 +15,7 @@ import HomePageData from "../Data/HomeData.json";
 
 const fetchHomeContent = async () => {
   const { data } = await axios.get(
-    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/home-page?populate[home_herosection][populate]=*&populate[customer_slider][populate]=*&populate[home_bullet_section][populate]=*&populate[home_service_section][populate]=*&populate[home_headless_cms_section][populate]=*&populate[home_testamonial_section][populate]=*&populate[certifications][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/home-page?populate[certifications][populate]=*&populate[customer_slider][populate]=*&populate[home_herosection][populate]=*&populate[home_bullet_section][populate]=*&populate[home_service_section][populate]=*&populate[home_headless_cms_section][populate][home_headless_cms_section_points][populate]=*&populate[home_testamonial_section][populate][home_testamonials_points][populate]=*"
   );
   return data.data;
 };
@@ -39,7 +39,7 @@ const HomePage = () => {
       <div className={styles.HomePage}>
         {/* Hero Section */}
         <HeroSection
-          heading={apiResponse.home_herosection.Heading}
+          heading={apiResponse.home_herosection.home_herosection_headings}
           subHeading={apiResponse.home_herosection.subHeading}
         />
         {/* Brand Slider */}
@@ -52,7 +52,13 @@ const HomePage = () => {
         <CMS apiRes={apiResponse.home_service_section} />
         {/* Headless Cms section */}
         {/* <Headless apiRes={apiResponse.home_headless_cms_section} /> */}
-        <Headless2 apiRes={apiResponse.home_headless_cms_section} />
+        <Headless2
+          bullets={
+            apiResponse.home_headless_cms_section
+              .home_headless_cms_section_points
+          }
+          apiRes={apiResponse.home_headless_cms_section}
+        />
         {/* Testimonial */}
         <Testimonial apiRes={apiResponse.home_testamonial_section} />
         {/* Blog Grid */}

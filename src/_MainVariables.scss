@@ -10,8 +10,8 @@ $Body-Color:#FAFAFA;
 // Font Sizes (Responsive with clamp & rem)
 $font-size-hero: clamp(2.25rem, 4vw, 3.75rem); // 28px → 40px
 $font-size-subhero: clamp(1em, 3vw, 1.125rem); // 16px → 18px
-$font-size-h2: clamp(1.336rem, 4vw, 1.49rem); // 24px → 32px
-$font-size-h3: clamp(0.793rem, 2.8vw, 1rem); // 20px → 24px
+$font-size-h2: clamp(1.336rem, 4vw, 1.5rem); // 24px → 32px
+$font-size-h3: clamp(0.793rem, 2.8vw, 1.15rem); // 20px → 24px
 $font-size-body: clamp(0.875rem, 2vw, 1rem); // 14px → 16px
 $font-size-small: clamp(0.65rem, 1.5vw, 0.775rem); // 12px → 14px
 $font-size-button: clamp(0.875rem, 2.5vw, 1.125rem); // 14px → 18px

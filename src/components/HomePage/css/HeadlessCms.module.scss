@@ -23,6 +23,10 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
+  margin-bottom: calc($Sub-Section-Vertical-Height/2);
+}
+.LandBullets{
+  margin-bottom: calc($Sub-Section-Vertical-Height/2);
 }
 .SecH3up{
   font-size: $font-size-h3;
@@ -39,8 +43,38 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
+  margin-bottom: calc($Sub-Section-Vertical-Height/2);
 }
 
+.BuletSection {
+  padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.BulletPoints{
+  margin-top: $Section-Horizontal-Height;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.LandBulletsHeading{
+  font-size: $font-size-h2;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-h2;
+}
+.LandBulletsSubheading{
+  font-size: $font-size-body;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-body;
+}
+.fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
 
 @media screen and (max-width: 1500px) {
   .BrandLogo {
@@ -56,7 +90,7 @@
     margin-bottom: 0;
   }
 
-  .SecSubSection {
+  .LandBullets {
     margin-bottom: $Sub-Section-Vertical-Height ;
   }
 
@@ -96,27 +130,3 @@
     transform: translateX(0);
   }
 }
-
-
-
-/* @media screen and (max-width: 331px) {
-  .LandHeadingSectionHeading {
-    font-size: 1.8rem !important;
-    line-height: 2.5rem !important;
-  }
-
-  .LandHeadingSectionSubheading {
-    font-size: 0.75rem !important;
-    line-height: 1.2rem !important;
-  }
-
-  .LandHeadlessCMSHeading {
-    font-size: 1rem !important;
-    line-height: 1.25rem !important;
-  }
-
-  .LandHeadlessCMSSubheading {
-    font-size: 0.75rem !important;
-    line-height: 1.2rem !important;
-  }
-} */

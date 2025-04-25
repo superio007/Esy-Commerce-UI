@@ -1,7 +1,15 @@
 import EnqueryForm from "../General/Enquery";
 import styles from "./css/HeroSection.module.scss";
 import Typewriter from "typewriter-effect";
+import { useEffect, useState } from "react";
 const HeroSection = ({ heading, subHeading }) => {
+  const [Points, setPoints] = useState([]);
+  useEffect(() => {
+    if (heading) {
+      const points = heading.map((point) => point.Title);
+      setPoints(points);
+    }
+  });
   return (
     <div className="bg-[#007fff]">
       <section className="body-font xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
@@ -10,8 +18,8 @@ const HeroSection = ({ heading, subHeading }) => {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-8 md:mb-0 ">
               <Typewriter
                 options={{
-                  strings: [
-                    `Helping Brands Scale Before They Sold O`,
+                  strings: Points || [
+                    `Helping Brands Scale Before They "Sold Out"`,
                     `Performance-First Ecommerce Consulting`,
                     `Seamless Ecommerce Operations Support`,
                     `Tech-Enabled Custom Development`,

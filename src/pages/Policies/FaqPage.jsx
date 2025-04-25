@@ -23,7 +23,7 @@ const FaqPage = () => {
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? FaqPageData.data || [] : data || [];
-  console.log(apiResponse);
+  // console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

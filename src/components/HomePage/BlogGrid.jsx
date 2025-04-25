@@ -21,11 +21,12 @@ const BlogGrid = () => {
           </section>
           <div
             style={{ scrollbarWidth: "none" }}
-            className="relative xl:px-12 p-6 flex justify-center 3xl:mx-auto 3xl:max-w-screen-xl overflow-x-auto"
+            className="relative xl:px-12 p-6 md:flex md:justify-center 3xl:mx-auto 3xl:max-w-screen-xl overflow-x-auto"
           >
             <div
               id="overFlow"
               style={{
+                minWidth: "1024px",
                 width: "1024px", // Adjust this value to match or exceed your full grid width
                 display: "grid",
               }}

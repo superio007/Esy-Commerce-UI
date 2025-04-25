@@ -34,7 +34,7 @@ const EcommerceConsultation = () => {
   const apiResponse = error
     ? EcommerceConsultationPageData.data || []
     : data || [];
-  console.log(apiResponse);
+  // console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

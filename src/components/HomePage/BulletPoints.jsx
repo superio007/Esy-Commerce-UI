@@ -40,12 +40,12 @@ const BulletPoints = ({ apiRes }) => {
           <div className="flex md:flex-row flex-col items-center">
             <div id="LeftSide">
               <img
-                className="object-cover object-center rounded"
+                className="md:w-[690px] md:h-[560px] h-full w-full"
                 alt={apiRes.sideimage.alternativeText || "hero"}
                 src={apiRes.sideimage.url}
               />
             </div>
-            <div className="mt-4 xl:mt-0 sm:mt-6 lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-start text-left">
+            <div className="mt-4 xl:mt-0 sm:mt-6 lg:flex-grow md:w-1/2  flex flex-col items-start text-left">
               <div id="right-text">
                 <h2 className={`${styles.LandBulletsHeading}`}>
                   {apiRes.Heading ||

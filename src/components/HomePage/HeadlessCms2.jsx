@@ -20,10 +20,13 @@ import NodeLogo from "../../../src/assets/homePage/node.png";
 import AngularLogo from "../../../src/assets/homePage/angular.png";
 import Ruby from "../../../src/assets/homePage/Ruby.png";
 
-const Headless = ({ apiRes }) => {
+const Headless = ({ apiRes, bullets }) => {
+  console.log("Bullets", bullets);
   const [isTopVisible, setIsTopVisible] = useState(false);
   const [isBottomVisible, setIsBottomVisible] = useState(false);
   const [isFullVisible, setIsFullVisible] = useState(false);
+  const [bulletPoints, setbulletPoints] = useState([]);
+  const [bulletPoints2, setbulletPoints2] = useState([]);
 
   const { ref: LogoInView, entry } = useInView({
     threshold: [0, 1], // 0 when starts appearing, 1 when fully visible
@@ -53,7 +56,17 @@ const Headless = ({ apiRes }) => {
     // ✅ Check if bottom is visible
     setIsBottomVisible(bottom <= window.innerHeight && bottom >= 0);
   }, [entry]);
-
+  useEffect(() => {
+    const data =
+      bullets[0].headless_section_sub_points?.map((item) => item.Title) || [];
+    setbulletPoints(data);
+  }, [apiRes]);
+  useEffect(() => {
+    const data2 =
+      bullets[1].headless_section_sub_points?.map((item) => item.Title) || [];
+    setbulletPoints2(data2);
+  }, [apiRes]);
+  // console.log("bulletPoints", bulletPoints);
   const arrowRef = useRef(null);
 
   useEffect(() => {
@@ -112,6 +125,30 @@ const Headless = ({ apiRes }) => {
                   Heirloom echo park mlkshk tote bag selvage hot chicken
                   authentic tumeric truffaut hexagon try-hard chambray.`}
                   </p>
+                </div>
+                <div className={`${styles.LandBullets} grid md:grid-cols-2 w-full gap-2`}>
+                  {bulletPoints.map((point, index) => (
+                    <div
+                      key={index}
+                      className={`col-span-1 transition-opacity duration-700 transform`}
+                    >
+                      <div className="bg-white rounded flex p-4 h-full items-center">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="3"
+                          className="text-[#007fff] w-6 h-6 flex-shrink-0 mr-4"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                          <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <p className={styles.LandBulletsSubheading}>{point}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
               <div className="right-div relative md:w-[fit-content]">
@@ -273,6 +310,30 @@ const Headless = ({ apiRes }) => {
                   Heirloom echo park mlkshk tote bag selvage hot chicken
                   authentic tumeric truffaut hexagon try-hard chambray.`}
                   </p>
+                </div>
+                <div className="grid md:grid-cols-2 w-full gap-2">
+                  {bulletPoints2.map((point, index) => (
+                    <div
+                      key={index}
+                      className={`col-span-1 transition-opacity duration-700 transform`}
+                    >
+                      <div className="bg-white rounded flex p-4 h-full items-center">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="3"
+                          className="text-[#007fff] w-6 h-6 flex-shrink-0 mr-4"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                          <path d="M22 4L12 14.01l-3-3"></path>
+                        </svg>
+                        <p className={styles.LandBulletsSubheading}>{point}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

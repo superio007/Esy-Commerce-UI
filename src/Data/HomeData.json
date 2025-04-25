@@ -5,15 +5,340 @@
     "createdAt": "2025-04-04T05:44:54.456Z",
     "updatedAt": "2025-04-04T05:58:55.467Z",
     "publishedAt": "2025-04-04T05:58:55.543Z",
-    "home_herosection": {
-      "id": 2,
-      "documentId": "zicqq6w55enkom8iumtu3hqg",
-      "Heading": "Before they sold out readymade gluten",
-      "subHeading": "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.",
-      "createdAt": "2025-04-04T05:53:05.712Z",
-      "updatedAt": "2025-04-04T05:53:05.712Z",
-      "publishedAt": "2025-04-04T05:53:05.746Z"
-    },
+    "certifications": [
+      {
+        "id": 12,
+        "documentId": "x3uo0eqk56zil7ahbi8xrwvq",
+        "Heading": "Data Security Gauranteed",
+        "subHeading": "ISO / IEC 27001:2013 certified",
+        "createdAt": "2025-04-04T05:43:25.520Z",
+        "updatedAt": "2025-04-04T05:43:25.520Z",
+        "publishedAt": "2025-04-04T05:43:25.729Z",
+        "CertificateImage": {
+          "id": 11,
+          "documentId": "derv603k0zhv9ufgawxj8pui",
+          "name": "ISO27001.png",
+          "alternativeText": "ISO27001",
+          "caption": null,
+          "width": 590,
+          "height": 242,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/small_ISO_27001_afffd72b44.png",
+              "hash": "small_ISO_27001_afffd72b44",
+              "mime": "image/png",
+              "name": "small_ISO27001.png",
+              "path": null,
+              "size": 63.29,
+              "width": 500,
+              "height": 205,
+              "sizeInBytes": 63288,
+              "provider_metadata": {
+                "public_id": "small_ISO_27001_afffd72b44",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_27001_afffd72b44.png",
+              "hash": "thumbnail_ISO_27001_afffd72b44",
+              "mime": "image/png",
+              "name": "thumbnail_ISO27001.png",
+              "path": null,
+              "size": 19.88,
+              "width": 245,
+              "height": 100,
+              "sizeInBytes": 19882,
+              "provider_metadata": {
+                "public_id": "thumbnail_ISO_27001_afffd72b44",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "ISO_27001_afffd72b44",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 17.52,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_27001_afffd72b44.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "ISO_27001_afffd72b44",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-04T05:40:49.765Z",
+          "updatedAt": "2025-04-04T05:40:49.765Z",
+          "publishedAt": "2025-04-04T05:40:49.766Z"
+        }
+      },
+      {
+        "id": 8,
+        "documentId": "sj3eqd5ljj5gvg5081x04fdo",
+        "Heading": "Defined processes",
+        "subHeading": "CMMI level 3 certified",
+        "createdAt": "2025-04-04T05:42:27.125Z",
+        "updatedAt": "2025-04-04T05:42:27.125Z",
+        "publishedAt": "2025-04-04T05:42:27.321Z",
+        "CertificateImage": {
+          "id": 12,
+          "documentId": "knkbbph1u8bfcjsbznmw1adg",
+          "name": "CMMI3.png",
+          "alternativeText": "CMMI3",
+          "caption": null,
+          "width": 400,
+          "height": 316,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/thumbnail_CMMI_3_5840bbe7a4.png",
+              "hash": "thumbnail_CMMI_3_5840bbe7a4",
+              "mime": "image/png",
+              "name": "thumbnail_CMMI3.png",
+              "path": null,
+              "size": 20.56,
+              "width": 197,
+              "height": 156,
+              "sizeInBytes": 20564,
+              "provider_metadata": {
+                "public_id": "thumbnail_CMMI_3_5840bbe7a4",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "CMMI_3_5840bbe7a4",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 17.88,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/CMMI_3_5840bbe7a4.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "CMMI_3_5840bbe7a4",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-04T05:40:49.974Z",
+          "updatedAt": "2025-04-04T05:40:49.974Z",
+          "publishedAt": "2025-04-04T05:40:49.976Z"
+        }
+      },
+      {
+        "id": 4,
+        "documentId": "z3hwzij5pm1yor0keksi5fj5",
+        "Heading": "global accreditations",
+        "subHeading": "IAS & IAF Certified",
+        "createdAt": "2025-04-04T05:41:26.904Z",
+        "updatedAt": "2025-04-04T05:41:26.904Z",
+        "publishedAt": "2025-04-04T05:41:26.938Z",
+        "CertificateImage": {
+          "id": 15,
+          "documentId": "pfetwtf098hu17wb1niw5fmj",
+          "name": "IAF.png",
+          "alternativeText": "IAF",
+          "caption": null,
+          "width": 482,
+          "height": 264,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_IAF_d637e06a16.png",
+              "hash": "thumbnail_IAF_d637e06a16",
+              "mime": "image/png",
+              "name": "thumbnail_IAF.png",
+              "path": null,
+              "size": 44.46,
+              "width": 245,
+              "height": 134,
+              "sizeInBytes": 44457,
+              "provider_metadata": {
+                "public_id": "thumbnail_IAF_d637e06a16",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "IAF_d637e06a16",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 32.47,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/IAF_d637e06a16.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "IAF_d637e06a16",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-04T05:40:50.835Z",
+          "updatedAt": "2025-04-04T05:40:50.835Z",
+          "publishedAt": "2025-04-04T05:40:50.835Z"
+        }
+      },
+      {
+        "id": 2,
+        "documentId": "qt9h7poccp4pb47vjsfryaxf",
+        "Heading": "MICROSOFT GOLD PARTNER",
+        "subHeading": "DATA ANALYTICS COMPETENCY",
+        "createdAt": "2025-04-04T05:41:08.122Z",
+        "updatedAt": "2025-04-04T05:41:08.122Z",
+        "publishedAt": "2025-04-04T05:41:08.178Z",
+        "CertificateImage": {
+          "id": 16,
+          "documentId": "u9ymqacioq8d3ic505efcy9m",
+          "name": "microsoftGoldPartner.png",
+          "alternativeText": "microsoftGoldPartner",
+          "caption": null,
+          "width": 566,
+          "height": 256,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/small_microsoft_Gold_Partner_e8d4e480ed.png",
+              "hash": "small_microsoft_Gold_Partner_e8d4e480ed",
+              "mime": "image/png",
+              "name": "small_microsoftGoldPartner.png",
+              "path": null,
+              "size": 66.11,
+              "width": 500,
+              "height": 226,
+              "sizeInBytes": 66114,
+              "provider_metadata": {
+                "public_id": "small_microsoft_Gold_Partner_e8d4e480ed",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_microsoft_Gold_Partner_e8d4e480ed.png",
+              "hash": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
+              "mime": "image/png",
+              "name": "thumbnail_microsoftGoldPartner.png",
+              "path": null,
+              "size": 20.94,
+              "width": 245,
+              "height": 111,
+              "sizeInBytes": 20937,
+              "provider_metadata": {
+                "public_id": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "microsoft_Gold_Partner_e8d4e480ed",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 24.93,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/microsoft_Gold_Partner_e8d4e480ed.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "microsoft_Gold_Partner_e8d4e480ed",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-04T05:40:51.003Z",
+          "updatedAt": "2025-04-04T05:40:51.003Z",
+          "publishedAt": "2025-04-04T05:40:51.003Z"
+        }
+      },
+      {
+        "id": 6,
+        "documentId": "z330673zx1jo03y2mr1ho540",
+        "Heading": "Proven Track Record",
+        "subHeading": "13+ years in business",
+        "createdAt": "2025-04-04T05:42:00.705Z",
+        "updatedAt": "2025-04-04T05:42:00.705Z",
+        "publishedAt": "2025-04-04T05:42:00.741Z",
+        "CertificateImage": {
+          "id": 14,
+          "documentId": "zz8go3fyub14qc4y5xmgqaal",
+          "name": "Aniversary.png",
+          "alternativeText": "Aniversary",
+          "caption": null,
+          "width": 398,
+          "height": 348,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_Aniversary_b5e84d318d.png",
+              "hash": "thumbnail_Aniversary_b5e84d318d",
+              "mime": "image/png",
+              "name": "thumbnail_Aniversary.png",
+              "path": null,
+              "size": 20.32,
+              "width": 178,
+              "height": 156,
+              "sizeInBytes": 20319,
+              "provider_metadata": {
+                "public_id": "thumbnail_Aniversary_b5e84d318d",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Aniversary_b5e84d318d",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 16.92,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/Aniversary_b5e84d318d.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Aniversary_b5e84d318d",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-04T05:40:50.716Z",
+          "updatedAt": "2025-04-04T05:41:55.224Z",
+          "publishedAt": "2025-04-04T05:40:50.717Z"
+        }
+      },
+      {
+        "id": 10,
+        "documentId": "ampqvno9ioe6jqmkv19zil7s",
+        "Heading": "Qulity Assured",
+        "subHeading": "ISO 9001:2015 certified",
+        "createdAt": "2025-04-04T05:42:54.910Z",
+        "updatedAt": "2025-04-04T05:42:54.910Z",
+        "publishedAt": "2025-04-04T05:42:54.943Z",
+        "CertificateImage": {
+          "id": 13,
+          "documentId": "wt9ruqqvzgekc5ztotvhi049",
+          "name": "ISO.png",
+          "alternativeText": "ISO",
+          "caption": null,
+          "width": 410,
+          "height": 280,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_2acef8fe94.png",
+              "hash": "thumbnail_ISO_2acef8fe94",
+              "mime": "image/png",
+              "name": "thumbnail_ISO.png",
+              "path": null,
+              "size": 23.17,
+              "width": 228,
+              "height": 156,
+              "sizeInBytes": 23172,
+              "provider_metadata": {
+                "public_id": "thumbnail_ISO_2acef8fe94",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "ISO_2acef8fe94",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 11.84,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_2acef8fe94.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "ISO_2acef8fe94",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-04T05:40:50.055Z",
+          "updatedAt": "2025-04-04T05:40:50.055Z",
+          "publishedAt": "2025-04-04T05:40:50.056Z"
+        }
+      }
+    ],
     "customer_slider": {
       "id": 2,
       "documentId": "iecn1nn50bxns5xjknuhpeca",
@@ -579,119 +904,201 @@
         }
       ]
     },
+    "home_herosection": {
+      "id": 3,
+      "documentId": "zicqq6w55enkom8iumtu3hqg",
+      "subHeading": "From startup hustle to enterprise scale, we power your ecommerce journey with performance-focused consultation, robust operations enablement, full-stack development, and precise data services.",
+      "createdAt": "2025-04-04T05:53:05.712Z",
+      "updatedAt": "2025-04-25T08:41:43.316Z",
+      "publishedAt": "2025-04-25T08:41:43.337Z",
+      "home_herosection_headings": [
+        {
+          "id": 2,
+          "documentId": "kbdjbiigo4alpkceaa06h5fr",
+          "Title": "Helping Brands Scale Before They \"Sold Out\"",
+          "createdAt": "2025-04-25T09:56:28.259Z",
+          "updatedAt": "2025-04-25T09:56:28.259Z",
+          "publishedAt": "2025-04-25T09:56:28.276Z"
+        },
+        {
+          "id": 5,
+          "documentId": "ewlz3pb4jqgpa1g2l0a5lirl",
+          "Title": "Global-Standard Staff-Off & Data Services",
+          "createdAt": "2025-04-25T09:56:53.369Z",
+          "updatedAt": "2025-04-25T09:56:56.884Z",
+          "publishedAt": "2025-04-25T09:56:56.903Z"
+        },
+        {
+          "id": 8,
+          "documentId": "ypmnhfcvf9zs8irk4isyg9lr",
+          "Title": "Tech-Enabled Custom Development",
+          "createdAt": "2025-04-25T09:57:05.499Z",
+          "updatedAt": "2025-04-25T09:57:09.076Z",
+          "publishedAt": "2025-04-25T09:57:09.092Z"
+        },
+        {
+          "id": 11,
+          "documentId": "rnva2b1ymmxsapputavqzvua",
+          "Title": "Seamless Ecommerce Operations Support",
+          "createdAt": "2025-04-25T09:57:17.799Z",
+          "updatedAt": "2025-04-25T09:57:21.792Z",
+          "publishedAt": "2025-04-25T09:57:21.808Z"
+        },
+        {
+          "id": 14,
+          "documentId": "qdn899la24hr7armo3vathvm",
+          "Title": "Performance-First Ecommerce Consulting",
+          "createdAt": "2025-04-25T09:57:30.986Z",
+          "updatedAt": "2025-04-25T09:57:35.194Z",
+          "publishedAt": "2025-04-25T09:57:35.211Z"
+        }
+      ]
+    },
     "home_bullet_section": {
-      "id": 2,
+      "id": 7,
       "documentId": "vavx6o9f1d31x2wpll4gwbh7",
-      "Heading": "Before they sold out readymade gluten",
-      "subHeading": "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.",
+      "Heading": "Unlock the Power of Ecommerce Growth",
+      "subHeading": "For over a decade, we've helped brands scale by integrating consultation, operations, tech development, and data expertise into one growth engine. Our flexible and transparent solutions are tailored to your business needs.",
       "createdAt": "2025-04-04T05:49:28.905Z",
-      "updatedAt": "2025-04-04T05:49:28.905Z",
-      "publishedAt": "2025-04-04T05:49:28.952Z",
+      "updatedAt": "2025-04-25T10:39:33.770Z",
+      "publishedAt": "2025-04-25T10:39:33.793Z",
       "sideimage": {
-        "id": 5,
-        "documentId": "amx4qqhfwpptts4ce4xrw1a6",
-        "name": "720x600.png",
-        "alternativeText": "sample",
+        "id": 90,
+        "documentId": "mh2mpcr1cbp74v101au87u0j",
+        "name": "6174398-Photoroom (1).png",
+        "alternativeText": null,
         "caption": null,
-        "width": 720,
-        "height": 600,
+        "width": 1280,
+        "height": 1280,
         "formats": {
+          "large": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745576566/large_6174398_Photoroom_1_b14aa785ad.png",
+            "hash": "large_6174398_Photoroom_1_b14aa785ad",
+            "mime": "image/png",
+            "name": "large_6174398-Photoroom (1).png",
+            "path": null,
+            "size": 235.78,
+            "width": 1000,
+            "height": 1000,
+            "sizeInBytes": 235776,
+            "provider_metadata": {
+              "public_id": "large_6174398_Photoroom_1_b14aa785ad",
+              "resource_type": "image"
+            }
+          },
           "small": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/small_720x600_5dfb8782cc.png",
-            "hash": "small_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745576559/small_6174398_Photoroom_1_b14aa785ad.png",
+            "hash": "small_6174398_Photoroom_1_b14aa785ad",
             "mime": "image/png",
-            "name": "small_720x600.png",
+            "name": "small_6174398-Photoroom (1).png",
             "path": null,
-            "size": 10.6,
+            "size": 77.56,
             "width": 500,
-            "height": 417,
-            "sizeInBytes": 10602,
+            "height": 500,
+            "sizeInBytes": 77555,
             "provider_metadata": {
-              "public_id": "small_720x600_5dfb8782cc",
+              "public_id": "small_6174398_Photoroom_1_b14aa785ad",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "ext": ".png",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745576559/medium_6174398_Photoroom_1_b14aa785ad.png",
+            "hash": "medium_6174398_Photoroom_1_b14aa785ad",
+            "mime": "image/png",
+            "name": "medium_6174398-Photoroom (1).png",
+            "path": null,
+            "size": 147.07,
+            "width": 750,
+            "height": 750,
+            "sizeInBytes": 147075,
+            "provider_metadata": {
+              "public_id": "medium_6174398_Photoroom_1_b14aa785ad",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".png",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589658/thumbnail_720x600_5dfb8782cc.png",
-            "hash": "thumbnail_720x600_5dfb8782cc",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745576559/thumbnail_6174398_Photoroom_1_b14aa785ad.png",
+            "hash": "thumbnail_6174398_Photoroom_1_b14aa785ad",
             "mime": "image/png",
-            "name": "thumbnail_720x600.png",
+            "name": "thumbnail_6174398-Photoroom (1).png",
             "path": null,
-            "size": 3.53,
-            "width": 187,
+            "size": 13.78,
+            "width": 156,
             "height": 156,
-            "sizeInBytes": 3526,
+            "sizeInBytes": 13781,
             "provider_metadata": {
-              "public_id": "thumbnail_720x600_5dfb8782cc",
+              "public_id": "thumbnail_6174398_Photoroom_1_b14aa785ad",
               "resource_type": "image"
             }
           }
         },
-        "hash": "720x600_5dfb8782cc",
+        "hash": "6174398_Photoroom_1_b14aa785ad",
         "ext": ".png",
         "mime": "image/png",
-        "size": 2.28,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743589657/720x600_5dfb8782cc.png",
+        "size": 85.04,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745576559/6174398_Photoroom_1_b14aa785ad.png",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "720x600_5dfb8782cc",
+          "public_id": "6174398_Photoroom_1_b14aa785ad",
           "resource_type": "image"
         },
-        "createdAt": "2025-04-02T15:57:39.092Z",
-        "updatedAt": "2025-04-02T18:17:17.477Z",
-        "publishedAt": "2025-04-02T15:57:39.093Z"
+        "createdAt": "2025-04-25T10:22:47.458Z",
+        "updatedAt": "2025-04-25T10:22:47.458Z",
+        "publishedAt": "2025-04-25T10:22:47.459Z"
       },
       "home_bullet_section_points": [
         {
-          "id": 2,
+          "id": 19,
           "documentId": "aqyqigvrbujsjod6ndymumnh",
-          "Heading": "The Catcher In The Rye",
+          "Heading": "11+ Years of Ecommerce Expertise",
           "createdAt": "2025-04-04T05:49:53.876Z",
-          "updatedAt": "2025-04-04T05:49:53.876Z",
-          "publishedAt": "2025-04-04T05:49:53.912Z"
+          "updatedAt": "2025-04-25T10:08:25.724Z",
+          "publishedAt": "2025-04-25T10:08:25.738Z"
         },
         {
-          "id": 5,
+          "id": 24,
           "documentId": "gtnrkknjzwamnhb9c7x181ye",
-          "Heading": "Typewriter Polaroid Cray",
+          "Heading": "Branding, Identity & Communication",
           "createdAt": "2025-04-04T05:49:58.770Z",
-          "updatedAt": "2025-04-04T05:50:01.892Z",
-          "publishedAt": "2025-04-04T05:50:02.027Z"
+          "updatedAt": "2025-04-25T10:12:22.874Z",
+          "publishedAt": "2025-04-25T10:12:22.885Z"
         },
         {
-          "id": 8,
+          "id": 22,
           "documentId": "qsj0twhwtwa4fc0gb6dx124w",
-          "Heading": "Kinfolk Chips Snackwave",
+          "Heading": "Operations Enablement & Staff-Off Services",
           "createdAt": "2025-04-04T05:50:07.983Z",
-          "updatedAt": "2025-04-04T05:50:11.554Z",
-          "publishedAt": "2025-04-04T05:50:11.596Z"
+          "updatedAt": "2025-04-25T10:11:07.162Z",
+          "publishedAt": "2025-04-25T10:11:07.180Z"
         },
         {
-          "id": 11,
+          "id": 23,
           "documentId": "js2uh8njqd1digrcd2xcv4qt",
-          "Heading": "Pack Truffaut Blue",
+          "Heading": "CMS, CRM & Custom Tech Solutions",
           "createdAt": "2025-04-04T05:50:20.119Z",
-          "updatedAt": "2025-04-04T05:50:23.003Z",
-          "publishedAt": "2025-04-04T05:50:23.060Z"
+          "updatedAt": "2025-04-25T10:12:11.500Z",
+          "publishedAt": "2025-04-25T10:12:11.512Z"
         },
         {
-          "id": 14,
+          "id": 21,
           "documentId": "u10d78b0d2pbz9hahs91lhtw",
-          "Heading": "Coloring Book Ethical",
+          "Heading": "Ecommerce Website & Custom Development",
           "createdAt": "2025-04-04T05:50:33.181Z",
-          "updatedAt": "2025-04-04T05:50:35.904Z",
-          "publishedAt": "2025-04-04T05:50:35.937Z"
+          "updatedAt": "2025-04-25T10:10:57.390Z",
+          "publishedAt": "2025-04-25T10:10:57.406Z"
         },
         {
-          "id": 18,
+          "id": 20,
           "documentId": "gg8ebsjw5vnd1kna57wicmkr",
-          "Heading": "Authentic Cliche Forage",
+          "Heading": "Performance-First Consultation",
           "createdAt": "2025-04-04T05:50:46.285Z",
-          "updatedAt": "2025-04-04T05:50:56.754Z",
-          "publishedAt": "2025-04-04T05:50:56.814Z"
+          "updatedAt": "2025-04-25T10:10:44.488Z",
+          "publishedAt": "2025-04-25T10:10:44.501Z"
         }
       ]
     },
@@ -704,40 +1111,40 @@
       "publishedAt": "2025-04-04T05:53:19.412Z",
       "home_service_section_points": [
         {
-          "id": 2,
+          "id": 13,
           "documentId": "a4yyppai6w889sx96ndcidsr",
           "Heading": "Customer-first always",
-          "subHeading": "That’s why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.",
+          "subHeading": "Our tailored ecommerce and web solutions are built around your customers' needs, not trends.",
           "createdAt": "2025-04-04T05:53:39.415Z",
-          "updatedAt": "2025-04-04T05:53:39.415Z",
-          "publishedAt": "2025-04-04T05:53:39.455Z"
+          "updatedAt": "2025-04-23T06:27:13.317Z",
+          "publishedAt": "2025-04-23T06:27:13.328Z"
         },
         {
-          "id": 5,
+          "id": 14,
           "documentId": "b33ozwj757bgcyu3ssjqp938",
-          "Heading": "No spam or gimmicks",
-          "subHeading": "No gimmicks, spam, \"gamification\", or annoying push notifications. High-quality apps that you use at your pace, the way you like.",
+          "Heading": "Transparency over gimmicks",
+          "subHeading": "No dark UX patterns, no spammy messages—just clean, conversion-focused design and functionality.",
           "createdAt": "2025-04-04T05:53:52.332Z",
-          "updatedAt": "2025-04-04T05:53:56.129Z",
-          "publishedAt": "2025-04-04T05:53:56.164Z"
+          "updatedAt": "2025-04-23T06:27:37.392Z",
+          "publishedAt": "2025-04-23T06:27:37.402Z"
         },
         {
-          "id": 8,
+          "id": 15,
           "documentId": "aul2lswtduaq7f8rgw96fnvh",
-          "Heading": "The Zerodha universe",
-          "subHeading": "Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.",
+          "Heading": "Scalable Ecosystem",
+          "subHeading": "From custom platforms to integrated SaaS, we build scalable solutions that grow with your business.",
           "createdAt": "2025-04-04T05:54:09.540Z",
-          "updatedAt": "2025-04-04T05:54:13.382Z",
-          "publishedAt": "2025-04-04T05:54:13.431Z"
+          "updatedAt": "2025-04-23T06:28:01.315Z",
+          "publishedAt": "2025-04-23T06:28:01.330Z"
         },
         {
-          "id": 12,
+          "id": 16,
           "documentId": "bl79my3hxk6li1nhbf3pglyj",
-          "Heading": "Do better with money",
-          "subHeading": "With initiatives like Nudge and Kill Switch, we don’t just facilitate transactions but actively help you do better with your money.",
+          "Heading": "Enabling smarter business",
+          "subHeading": "Whether it's automation, analytics, or growth marketing, our tools help you operate smarter every day.",
           "createdAt": "2025-04-04T05:54:26.311Z",
-          "updatedAt": "2025-04-04T05:54:38.175Z",
-          "publishedAt": "2025-04-04T05:54:38.224Z"
+          "updatedAt": "2025-04-23T06:28:21.372Z",
+          "publishedAt": "2025-04-23T06:28:21.382Z"
         }
       ]
     },
@@ -751,22 +1158,108 @@
       "publishedAt": "2025-04-04T05:51:34.254Z",
       "home_headless_cms_section_points": [
         {
-          "id": 3,
+          "id": 7,
           "documentId": "l7tneuhaaat4tg7skvv1e270",
-          "Heading": "Before they sold out readymade gluten",
-          "subHeading": "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.",
+          "Heading": "Crafting Beautiful, Blazing-Fast Frontends",
+          "subHeading": "From seamless interactions to responsive layouts, we engineer frontend experiences that feel intuitive, look sharp, and load in a blink — powered by modern technologies like React, Next.js, and Tailwind CSS.",
           "createdAt": "2025-04-04T05:51:47.227Z",
-          "updatedAt": "2025-04-04T05:51:50.303Z",
-          "publishedAt": "2025-04-04T05:51:50.341Z"
+          "updatedAt": "2025-04-25T10:50:40.105Z",
+          "publishedAt": "2025-04-25T10:50:40.116Z",
+          "home_headless_cms_section": {
+            "id": 2,
+            "documentId": "i6cz52zr614rxtd1bcxtewpt",
+            "Heading": "Discover the Power of Custom Development",
+            "subHeading": "Want a high-performing, user-friendly website? With our web development team, create a website that loads faster and looks unique.",
+            "createdAt": "2025-04-04T05:51:34.222Z",
+            "updatedAt": "2025-04-04T05:51:34.222Z",
+            "publishedAt": "2025-04-04T05:51:34.254Z"
+          },
+          "headless_section_sub_points": [
+            {
+              "id": 2,
+              "documentId": "tx54idrh60m11uafaftvesem",
+              "createdAt": "2025-04-25T11:25:25.423Z",
+              "updatedAt": "2025-04-25T11:25:25.423Z",
+              "publishedAt": "2025-04-25T11:25:25.438Z",
+              "Title": "Interactive & Animated Experiences"
+            },
+            {
+              "id": 6,
+              "documentId": "ek8lxr99n7ekt2zld103czs0",
+              "createdAt": "2025-04-25T11:25:38.992Z",
+              "updatedAt": "2025-04-25T11:26:03.897Z",
+              "publishedAt": "2025-04-25T11:26:03.923Z",
+              "Title": "Design Systems & Tailwind Magic"
+            },
+            {
+              "id": 9,
+              "documentId": "uvszuc567mjvs7njh8bhc3dq",
+              "createdAt": "2025-04-25T11:26:24.832Z",
+              "updatedAt": "2025-04-25T11:26:43.942Z",
+              "publishedAt": "2025-04-25T11:26:43.959Z",
+              "Title": "Fast Load, Smooth Flow"
+            },
+            {
+              "id": 11,
+              "documentId": "qfyg26f9fk5kbgonm8wsz72i",
+              "createdAt": "2025-04-25T11:27:12.989Z",
+              "updatedAt": "2025-04-25T11:27:12.989Z",
+              "publishedAt": "2025-04-25T11:27:13.006Z",
+              "Title": "Component-Based Architecture"
+            }
+          ]
         },
         {
-          "id": 6,
+          "id": 8,
           "documentId": "m3646u7y22774ehaacj4uzep",
-          "Heading": "Before they sold out readymade gluten",
-          "subHeading": "Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.",
+          "Heading": "Powerful Backends That Scale With You",
+          "subHeading": "We build fast, flexible, and secure backend systems using modern technologies like Node.js and headless CMS platforms. From APIs to integrations, our backend solutions are built to scale — and ready for anything.",
           "createdAt": "2025-04-04T05:52:07.726Z",
-          "updatedAt": "2025-04-04T05:52:15.335Z",
-          "publishedAt": "2025-04-04T05:52:15.381Z"
+          "updatedAt": "2025-04-25T10:52:09.065Z",
+          "publishedAt": "2025-04-25T10:52:09.078Z",
+          "home_headless_cms_section": {
+            "id": 2,
+            "documentId": "i6cz52zr614rxtd1bcxtewpt",
+            "Heading": "Discover the Power of Custom Development",
+            "subHeading": "Want a high-performing, user-friendly website? With our web development team, create a website that loads faster and looks unique.",
+            "createdAt": "2025-04-04T05:51:34.222Z",
+            "updatedAt": "2025-04-04T05:51:34.222Z",
+            "publishedAt": "2025-04-04T05:51:34.254Z"
+          },
+          "headless_section_sub_points": [
+            {
+              "id": 13,
+              "documentId": "svi065blza1q8uipgkea76gs",
+              "createdAt": "2025-04-25T11:28:49.981Z",
+              "updatedAt": "2025-04-25T11:28:49.981Z",
+              "publishedAt": "2025-04-25T11:28:49.999Z",
+              "Title": "API-First Architecture"
+            },
+            {
+              "id": 16,
+              "documentId": "dz4oyrr2s3sseyet13v918tf",
+              "createdAt": "2025-04-25T11:28:57.747Z",
+              "updatedAt": "2025-04-25T11:29:01.264Z",
+              "publishedAt": "2025-04-25T11:29:01.282Z",
+              "Title": "Headless CMS Experts"
+            },
+            {
+              "id": 19,
+              "documentId": "aai5eflja80nau1e47c4y3aq",
+              "createdAt": "2025-04-25T11:29:11.716Z",
+              "updatedAt": "2025-04-25T11:29:15.214Z",
+              "publishedAt": "2025-04-25T11:29:15.232Z",
+              "Title": "Built for Speed & Performance"
+            },
+            {
+              "id": 22,
+              "documentId": "h13xwp3d80xacdkb9bwp3oy6",
+              "createdAt": "2025-04-25T11:29:26.585Z",
+              "updatedAt": "2025-04-25T11:29:30.334Z",
+              "publishedAt": "2025-04-25T11:29:30.354Z",
+              "Title": "Modular & Maintainable Code"
+            }
+          ]
         }
       ]
     },
@@ -779,371 +1272,328 @@
       "publishedAt": "2025-04-04T05:55:10.728Z",
       "home_testamonials_points": [
         {
-          "id": 2,
+          "id": 12,
           "documentId": "rxbmn922qo3e19r4ds45kz4b",
           "ClientName": "HOLDEN CAULFIELD",
           "ClientPosition": "Senior Product Designer",
-          "review": "Edison bulb retro cloud bread echo park...",
+          "review": "A game-changer for our business. The team truly understands the needs of eCommerce and delivered exactly what we needed!",
           "createdAt": "2025-04-04T05:57:23.436Z",
-          "updatedAt": "2025-04-04T05:57:23.436Z",
-          "publishedAt": "2025-04-04T05:57:23.737Z"
+          "updatedAt": "2025-04-25T12:08:47.277Z",
+          "publishedAt": "2025-04-25T12:08:47.299Z",
+          "clientImage": {
+            "id": 91,
+            "documentId": "r3d9s2wqqqdwgrn94d9nd7rf",
+            "name": "portrait-white-man-isolated.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 4950,
+            "height": 3852,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582918/large_portrait_white_man_isolated_a53843e574.jpg",
+                "hash": "large_portrait_white_man_isolated_a53843e574",
+                "mime": "image/jpeg",
+                "name": "large_portrait-white-man-isolated.jpg",
+                "path": null,
+                "size": 62.88,
+                "width": 1000,
+                "height": 778,
+                "sizeInBytes": 62876,
+                "provider_metadata": {
+                  "public_id": "large_portrait_white_man_isolated_a53843e574",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582918/small_portrait_white_man_isolated_a53843e574.jpg",
+                "hash": "small_portrait_white_man_isolated_a53843e574",
+                "mime": "image/jpeg",
+                "name": "small_portrait-white-man-isolated.jpg",
+                "path": null,
+                "size": 19.15,
+                "width": 500,
+                "height": 389,
+                "sizeInBytes": 19147,
+                "provider_metadata": {
+                  "public_id": "small_portrait_white_man_isolated_a53843e574",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582918/medium_portrait_white_man_isolated_a53843e574.jpg",
+                "hash": "medium_portrait_white_man_isolated_a53843e574",
+                "mime": "image/jpeg",
+                "name": "medium_portrait-white-man-isolated.jpg",
+                "path": null,
+                "size": 37.73,
+                "width": 750,
+                "height": 584,
+                "sizeInBytes": 37732,
+                "provider_metadata": {
+                  "public_id": "medium_portrait_white_man_isolated_a53843e574",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582918/thumbnail_portrait_white_man_isolated_a53843e574.jpg",
+                "hash": "thumbnail_portrait_white_man_isolated_a53843e574",
+                "mime": "image/jpeg",
+                "name": "thumbnail_portrait-white-man-isolated.jpg",
+                "path": null,
+                "size": 4.96,
+                "width": 200,
+                "height": 156,
+                "sizeInBytes": 4960,
+                "provider_metadata": {
+                  "public_id": "thumbnail_portrait_white_man_isolated_a53843e574",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "portrait_white_man_isolated_a53843e574",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 1261.93,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582920/portrait_white_man_isolated_a53843e574.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "portrait_white_man_isolated_a53843e574",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-25T12:08:41.696Z",
+            "updatedAt": "2025-04-25T12:08:41.696Z",
+            "publishedAt": "2025-04-25T12:08:41.697Z"
+          },
+          "home_testamonial_section": {
+            "id": 2,
+            "documentId": "xmi13guo735rvcoo6mmrpko5",
+            "Heading": "What our clients say!",
+            "createdAt": "2025-04-04T05:55:10.686Z",
+            "updatedAt": "2025-04-04T05:55:10.686Z",
+            "publishedAt": "2025-04-04T05:55:10.728Z"
+          }
         },
         {
-          "id": 5,
+          "id": 13,
           "documentId": "d9njukbhpyryhcqk95o32q9r",
           "ClientName": "ALPER KAMU",
           "ClientPosition": "UI Developer",
-          "review": "Edison bulb retro cloud bread echo park...",
+          "review": "The integration process was seamless, and the performance improvements were noticeable almost immediately. Highly recommend!",
           "createdAt": "2025-04-04T05:57:41.933Z",
-          "updatedAt": "2025-04-04T05:57:49.382Z",
-          "publishedAt": "2025-04-04T05:57:49.456Z"
+          "updatedAt": "2025-04-25T12:12:17.402Z",
+          "publishedAt": "2025-04-25T12:12:17.425Z",
+          "clientImage": {
+            "id": 92,
+            "documentId": "fcoqjfpsqmmpounrvoe1frt8",
+            "name": "beautiful-redhead-woman-wearing-fruit-earrings.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 4589,
+            "height": 6426,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582964/large_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab.jpg",
+                "hash": "large_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                "mime": "image/jpeg",
+                "name": "large_beautiful-redhead-woman-wearing-fruit-earrings.jpg",
+                "path": null,
+                "size": 66.86,
+                "width": 714,
+                "height": 1000,
+                "sizeInBytes": 66855,
+                "provider_metadata": {
+                  "public_id": "large_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582960/small_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab.jpg",
+                "hash": "small_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                "mime": "image/jpeg",
+                "name": "small_beautiful-redhead-woman-wearing-fruit-earrings.jpg",
+                "path": null,
+                "size": 21.06,
+                "width": 357,
+                "height": 500,
+                "sizeInBytes": 21059,
+                "provider_metadata": {
+                  "public_id": "small_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582960/medium_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab.jpg",
+                "hash": "medium_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                "mime": "image/jpeg",
+                "name": "medium_beautiful-redhead-woman-wearing-fruit-earrings.jpg",
+                "path": null,
+                "size": 40.83,
+                "width": 536,
+                "height": 750,
+                "sizeInBytes": 40829,
+                "provider_metadata": {
+                  "public_id": "medium_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745582959/thumbnail_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab.jpg",
+                "hash": "thumbnail_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                "mime": "image/jpeg",
+                "name": "thumbnail_beautiful-redhead-woman-wearing-fruit-earrings.jpg",
+                "path": null,
+                "size": 3.79,
+                "width": 111,
+                "height": 156,
+                "sizeInBytes": 3790,
+                "provider_metadata": {
+                  "public_id": "thumbnail_beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 2498.21,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745583108/beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "beautiful_redhead_woman_wearing_fruit_earrings_7e38bd52ab",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-25T12:11:49.468Z",
+            "updatedAt": "2025-04-25T12:11:49.468Z",
+            "publishedAt": "2025-04-25T12:11:49.468Z"
+          },
+          "home_testamonial_section": {
+            "id": 2,
+            "documentId": "xmi13guo735rvcoo6mmrpko5",
+            "Heading": "What our clients say!",
+            "createdAt": "2025-04-04T05:55:10.686Z",
+            "updatedAt": "2025-04-04T05:55:10.686Z",
+            "publishedAt": "2025-04-04T05:55:10.728Z"
+          }
         },
         {
-          "id": 8,
+          "id": 14,
           "documentId": "il5q6is782rfbdrorl12mffs",
           "ClientName": "HENRY LETHAM",
           "ClientPosition": "CTO",
-          "review": "Edison bulb retro cloud bread echo park...",
+          "review": "Our platform is now more scalable and secure, thanks to their expertise. We’ve seen major improvements in speed and performance!",
           "createdAt": "2025-04-04T05:58:24.300Z",
-          "updatedAt": "2025-04-04T05:58:28.264Z",
-          "publishedAt": "2025-04-04T05:58:28.337Z"
+          "updatedAt": "2025-04-25T12:14:14.538Z",
+          "publishedAt": "2025-04-25T12:14:14.559Z",
+          "clientImage": {
+            "id": 93,
+            "documentId": "t5ydqvkln3yjzl3a8s3c157t",
+            "name": "indian-man-smiling-mockup-psd-cheerful-expression-closeup-portra.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 2801,
+            "height": 2001,
+            "formats": {
+              "large": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745583214/large_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6.jpg",
+                "hash": "large_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                "mime": "image/jpeg",
+                "name": "large_indian-man-smiling-mockup-psd-cheerful-expression-closeup-portra.jpg",
+                "path": null,
+                "size": 64.34,
+                "width": 1000,
+                "height": 714,
+                "sizeInBytes": 64336,
+                "provider_metadata": {
+                  "public_id": "large_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                  "resource_type": "image"
+                }
+              },
+              "small": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745583214/small_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6.jpg",
+                "hash": "small_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                "mime": "image/jpeg",
+                "name": "small_indian-man-smiling-mockup-psd-cheerful-expression-closeup-portra.jpg",
+                "path": null,
+                "size": 17.05,
+                "width": 500,
+                "height": 357,
+                "sizeInBytes": 17053,
+                "provider_metadata": {
+                  "public_id": "small_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                  "resource_type": "image"
+                }
+              },
+              "medium": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745583215/medium_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6.jpg",
+                "hash": "medium_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                "mime": "image/jpeg",
+                "name": "medium_indian-man-smiling-mockup-psd-cheerful-expression-closeup-portra.jpg",
+                "path": null,
+                "size": 35.48,
+                "width": 750,
+                "height": 536,
+                "sizeInBytes": 35480,
+                "provider_metadata": {
+                  "public_id": "medium_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745583214/thumbnail_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6.jpg",
+                "hash": "thumbnail_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                "mime": "image/jpeg",
+                "name": "thumbnail_indian-man-smiling-mockup-psd-cheerful-expression-closeup-portra.jpg",
+                "path": null,
+                "size": 4.78,
+                "width": 218,
+                "height": 156,
+                "sizeInBytes": 4781,
+                "provider_metadata": {
+                  "public_id": "thumbnail_indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "size": 444.07,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745583249/indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6.jpg",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "indian_man_smiling_mockup_psd_cheerful_expression_closeup_portra_584082aae6",
+              "resource_type": "image"
+            },
+            "createdAt": "2025-04-25T12:14:10.049Z",
+            "updatedAt": "2025-04-25T12:14:10.049Z",
+            "publishedAt": "2025-04-25T12:14:10.050Z"
+          },
+          "home_testamonial_section": {
+            "id": 2,
+            "documentId": "xmi13guo735rvcoo6mmrpko5",
+            "Heading": "What our clients say!",
+            "createdAt": "2025-04-04T05:55:10.686Z",
+            "updatedAt": "2025-04-04T05:55:10.686Z",
+            "publishedAt": "2025-04-04T05:55:10.728Z"
+          }
         }
       ]
-    },
-    "certifications": [
-      {
-        "id": 12,
-        "documentId": "x3uo0eqk56zil7ahbi8xrwvq",
-        "Heading": "Data Security Gauranteed",
-        "subHeading": "ISO / IEC 27001:2013 certified",
-        "createdAt": "2025-04-04T05:43:25.520Z",
-        "updatedAt": "2025-04-04T05:43:25.520Z",
-        "publishedAt": "2025-04-04T05:43:25.729Z",
-        "CertificateImage": {
-          "id": 11,
-          "documentId": "derv603k0zhv9ufgawxj8pui",
-          "name": "ISO27001.png",
-          "alternativeText": "ISO27001",
-          "caption": null,
-          "width": 590,
-          "height": 242,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/small_ISO_27001_afffd72b44.png",
-              "hash": "small_ISO_27001_afffd72b44",
-              "mime": "image/png",
-              "name": "small_ISO27001.png",
-              "path": null,
-              "size": 63.29,
-              "width": 500,
-              "height": 205,
-              "sizeInBytes": 63288,
-              "provider_metadata": {
-                "public_id": "small_ISO_27001_afffd72b44",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_27001_afffd72b44.png",
-              "hash": "thumbnail_ISO_27001_afffd72b44",
-              "mime": "image/png",
-              "name": "thumbnail_ISO27001.png",
-              "path": null,
-              "size": 19.88,
-              "width": 245,
-              "height": 100,
-              "sizeInBytes": 19882,
-              "provider_metadata": {
-                "public_id": "thumbnail_ISO_27001_afffd72b44",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "ISO_27001_afffd72b44",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 17.52,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_27001_afffd72b44.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "ISO_27001_afffd72b44",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:49.765Z",
-          "updatedAt": "2025-04-04T05:40:49.765Z",
-          "publishedAt": "2025-04-04T05:40:49.766Z"
-        }
-      },
-      {
-        "id": 8,
-        "documentId": "sj3eqd5ljj5gvg5081x04fdo",
-        "Heading": "Defined processes",
-        "subHeading": "CMMI level 3 certified",
-        "createdAt": "2025-04-04T05:42:27.125Z",
-        "updatedAt": "2025-04-04T05:42:27.125Z",
-        "publishedAt": "2025-04-04T05:42:27.321Z",
-        "CertificateImage": {
-          "id": 12,
-          "documentId": "knkbbph1u8bfcjsbznmw1adg",
-          "name": "CMMI3.png",
-          "alternativeText": "CMMI3",
-          "caption": null,
-          "width": 400,
-          "height": 316,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/thumbnail_CMMI_3_5840bbe7a4.png",
-              "hash": "thumbnail_CMMI_3_5840bbe7a4",
-              "mime": "image/png",
-              "name": "thumbnail_CMMI3.png",
-              "path": null,
-              "size": 20.56,
-              "width": 197,
-              "height": 156,
-              "sizeInBytes": 20564,
-              "provider_metadata": {
-                "public_id": "thumbnail_CMMI_3_5840bbe7a4",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "CMMI_3_5840bbe7a4",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 17.88,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745249/CMMI_3_5840bbe7a4.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "CMMI_3_5840bbe7a4",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:49.974Z",
-          "updatedAt": "2025-04-04T05:40:49.974Z",
-          "publishedAt": "2025-04-04T05:40:49.976Z"
-        }
-      },
-      {
-        "id": 4,
-        "documentId": "z3hwzij5pm1yor0keksi5fj5",
-        "Heading": "global accreditations",
-        "subHeading": "IAS & IAF Certified",
-        "createdAt": "2025-04-04T05:41:26.904Z",
-        "updatedAt": "2025-04-04T05:41:26.904Z",
-        "publishedAt": "2025-04-04T05:41:26.938Z",
-        "CertificateImage": {
-          "id": 15,
-          "documentId": "pfetwtf098hu17wb1niw5fmj",
-          "name": "IAF.png",
-          "alternativeText": "IAF",
-          "caption": null,
-          "width": 482,
-          "height": 264,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_IAF_d637e06a16.png",
-              "hash": "thumbnail_IAF_d637e06a16",
-              "mime": "image/png",
-              "name": "thumbnail_IAF.png",
-              "path": null,
-              "size": 44.46,
-              "width": 245,
-              "height": 134,
-              "sizeInBytes": 44457,
-              "provider_metadata": {
-                "public_id": "thumbnail_IAF_d637e06a16",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "IAF_d637e06a16",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 32.47,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/IAF_d637e06a16.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "IAF_d637e06a16",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:50.835Z",
-          "updatedAt": "2025-04-04T05:40:50.835Z",
-          "publishedAt": "2025-04-04T05:40:50.835Z"
-        }
-      },
-      {
-        "id": 2,
-        "documentId": "qt9h7poccp4pb47vjsfryaxf",
-        "Heading": "MICROSOFT GOLD PARTNER",
-        "subHeading": "DATA ANALYTICS COMPETENCY",
-        "createdAt": "2025-04-04T05:41:08.122Z",
-        "updatedAt": "2025-04-04T05:41:08.122Z",
-        "publishedAt": "2025-04-04T05:41:08.178Z",
-        "CertificateImage": {
-          "id": 16,
-          "documentId": "u9ymqacioq8d3ic505efcy9m",
-          "name": "microsoftGoldPartner.png",
-          "alternativeText": "microsoftGoldPartner",
-          "caption": null,
-          "width": 566,
-          "height": 256,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/small_microsoft_Gold_Partner_e8d4e480ed.png",
-              "hash": "small_microsoft_Gold_Partner_e8d4e480ed",
-              "mime": "image/png",
-              "name": "small_microsoftGoldPartner.png",
-              "path": null,
-              "size": 66.11,
-              "width": 500,
-              "height": 226,
-              "sizeInBytes": 66114,
-              "provider_metadata": {
-                "public_id": "small_microsoft_Gold_Partner_e8d4e480ed",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_microsoft_Gold_Partner_e8d4e480ed.png",
-              "hash": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
-              "mime": "image/png",
-              "name": "thumbnail_microsoftGoldPartner.png",
-              "path": null,
-              "size": 20.94,
-              "width": 245,
-              "height": 111,
-              "sizeInBytes": 20937,
-              "provider_metadata": {
-                "public_id": "thumbnail_microsoft_Gold_Partner_e8d4e480ed",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "microsoft_Gold_Partner_e8d4e480ed",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 24.93,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/microsoft_Gold_Partner_e8d4e480ed.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "microsoft_Gold_Partner_e8d4e480ed",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:51.003Z",
-          "updatedAt": "2025-04-04T05:40:51.003Z",
-          "publishedAt": "2025-04-04T05:40:51.003Z"
-        }
-      },
-      {
-        "id": 6,
-        "documentId": "z330673zx1jo03y2mr1ho540",
-        "Heading": "Proven Track Record",
-        "subHeading": "13+ years in business",
-        "createdAt": "2025-04-04T05:42:00.705Z",
-        "updatedAt": "2025-04-04T05:42:00.705Z",
-        "publishedAt": "2025-04-04T05:42:00.741Z",
-        "CertificateImage": {
-          "id": 14,
-          "documentId": "zz8go3fyub14qc4y5xmgqaal",
-          "name": "Aniversary.png",
-          "alternativeText": "Aniversary",
-          "caption": null,
-          "width": 398,
-          "height": 348,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/thumbnail_Aniversary_b5e84d318d.png",
-              "hash": "thumbnail_Aniversary_b5e84d318d",
-              "mime": "image/png",
-              "name": "thumbnail_Aniversary.png",
-              "path": null,
-              "size": 20.32,
-              "width": 178,
-              "height": 156,
-              "sizeInBytes": 20319,
-              "provider_metadata": {
-                "public_id": "thumbnail_Aniversary_b5e84d318d",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Aniversary_b5e84d318d",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 16.92,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745250/Aniversary_b5e84d318d.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Aniversary_b5e84d318d",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:50.716Z",
-          "updatedAt": "2025-04-04T05:41:55.224Z",
-          "publishedAt": "2025-04-04T05:40:50.717Z"
-        }
-      },
-      {
-        "id": 10,
-        "documentId": "ampqvno9ioe6jqmkv19zil7s",
-        "Heading": "Qulity Assured",
-        "subHeading": "ISO 9001:2015 certified",
-        "createdAt": "2025-04-04T05:42:54.910Z",
-        "updatedAt": "2025-04-04T05:42:54.910Z",
-        "publishedAt": "2025-04-04T05:42:54.943Z",
-        "CertificateImage": {
-          "id": 13,
-          "documentId": "wt9ruqqvzgekc5ztotvhi049",
-          "name": "ISO.png",
-          "alternativeText": "ISO",
-          "caption": null,
-          "width": 410,
-          "height": 280,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/thumbnail_ISO_2acef8fe94.png",
-              "hash": "thumbnail_ISO_2acef8fe94",
-              "mime": "image/png",
-              "name": "thumbnail_ISO.png",
-              "path": null,
-              "size": 23.17,
-              "width": 228,
-              "height": 156,
-              "sizeInBytes": 23172,
-              "provider_metadata": {
-                "public_id": "thumbnail_ISO_2acef8fe94",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "ISO_2acef8fe94",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 11.84,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745248/ISO_2acef8fe94.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "ISO_2acef8fe94",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:40:50.055Z",
-          "updatedAt": "2025-04-04T05:40:50.055Z",
-          "publishedAt": "2025-04-04T05:40:50.056Z"
-        }
-      }
-    ]
+    }
   },
   "meta": {}
 }
