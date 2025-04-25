@@ -1,4 +1,4 @@
-@use "../mainVariables" as *;
+@use "../../src/MainVariables" as *;
 .SiteMapHead {
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
