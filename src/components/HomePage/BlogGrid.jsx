@@ -13,22 +13,20 @@ const BlogGrid = () => {
           <div className="absolute inset-0 w-full h-full -z-10"></div>
           <section
             id="HeadingSection"
-            className="relative xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl"
+            className="relative xl:px-12  3xl:mx-auto 3xl:max-w-screen-xl"
           >
-            <h2
-              className={`${styles.LandBlogHeading} text-center`}
-            >
+            <h2 className={`${styles.LandBlogHeading} text-center`}>
               Our Blogs
             </h2>
           </section>
           <div
             style={{ scrollbarWidth: "none" }}
-            className="relative xl:px-12 p-6 3xl:mx-auto 3xl:max-w-screen-xl overflow-x-auto"
+            className="relative xl:px-12 p-6 flex justify-center 3xl:mx-auto 3xl:max-w-screen-xl overflow-x-auto"
           >
             <div
               id="overFlow"
               style={{
-                minWidth: "1024px", // Adjust this value to match or exceed your full grid width
+                width: "1024px", // Adjust this value to match or exceed your full grid width
                 display: "grid",
               }}
               className="grid grid-cols-5 grid-rows-7 gap-4"

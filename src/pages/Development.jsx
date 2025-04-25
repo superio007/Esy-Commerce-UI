@@ -8,7 +8,7 @@ import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import CMS from "../assets/Services/CMSoption.lottie";
 import CRM from "../assets/Services/CRM.png";
-import CustomDevelopment from "../assets/Services/WebDevelopment.lottie";
+import CustomDevelopment from "../assets/Services/CustomeDevelopment.lottie";
 import StaffOffServices from "../assets/Services/StaffOffService.lottie";
 const Development = () => {
   return (

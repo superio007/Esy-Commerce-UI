@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../css/DataPolicy.module.scss";
-import Lottie from "../../assets/DataSecurity/Employees.lottie";
+import Lottie from "../../assets/DataSecurity/DataSecurityPolicy.lottie";
 import HeroSection from "../../components/Policies/HeroSection";
 import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";

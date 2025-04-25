@@ -1,10 +1,15 @@
 import styles from "../css/BPM.module.scss";
 import { Link } from "react-router-dom";
 import React from "react";
-import Content from "../assets/Services/Content-migration.png";
-import Translation from "../assets/Services/Translation.png";
-import Transcription from "../assets/Services/Transcription.png";
-import Transliteration from "../assets/Services/Transliteration.png";
+// import Content from "../assets/Services/Content-migration.png";
+// import Translation from "../assets/Services/Translation.png";
+// import Transcription from "../assets/Services/Transcription.png";
+// import Transliteration from "../assets/Services/Transliteration.png";
+// import DataLabel from "../assets/Services/DataLabel.png";
+import Content from "../assets/Services/ContentMigration.lottie";
+import Translation from "../assets/Services/Translation.lottie";
+import Transcription from "../assets/Services/Transcription.lottie";
+import Transliteration from "../assets/Services/Translitration.lottie";
 import DataLabel from "../assets/Services/DataLabel.png";
 import Check from "../assets/CodeOfConduct/Check.lottie";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
@@ -53,12 +58,12 @@ const BPM = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    {/* <DotLottieReact src={Check} loop autoplay /> */}
-                    <img
+                    <DotLottieReact src={Content} loop autoplay />
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={Content}
-                    />
+                    /> */}
                   </div>
                 </div>
               </section>
@@ -66,11 +71,12 @@ const BPM = () => {
               <section className="text-gray-600 body-font">
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={Translation}
-                    />
+                    /> */}
+                    <DotLottieReact src={Translation} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left ">
                     <h1 className={styles.BPMH2Middle}>Translation</h1>
@@ -116,11 +122,12 @@ const BPM = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
+                    <DotLottieReact src={Transcription} loop autoplay />
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={Transcription}
-                    />
+                    /> */}
                   </div>
                 </div>
               </section>
@@ -128,11 +135,12 @@ const BPM = () => {
               <section className="text-gray-600 body-font">
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={Transliteration}
-                    />
+                    /> */}
+                    <DotLottieReact src={Transliteration} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left ">
                     <h1 className={styles.BPMH2Middle}>Transliteration</h1>
@@ -182,6 +190,7 @@ const BPM = () => {
                       alt="hero"
                       src={DataLabel}
                     />
+                    {/* <DotLottieReact src={DataLabel} loop autoplay /> */}
                   </div>
                 </div>
               </section>

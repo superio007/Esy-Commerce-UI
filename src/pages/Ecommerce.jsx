@@ -5,9 +5,9 @@ import React from "react";
 // import ECommEnablement from "../assets/Services/EcommerceEnablement.png";
 // import ECommWebsiteDevelopment from "../assets/Services/EcommerceWebDev.png";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import ECommWebsiteDevelopment from "../assets/Services/WebDevelopment.lottie";
+import ECommWebsiteDevelopment from "../assets/Services/EcomWebDev.lottie";
 import ECommEnablement from "../assets/Services/EcomEnablement.lottie";
-import ECommConsultation from "../assets/Services/EcomConsultation.lottie";
+import ECommConsultation from "../assets/Services/EcommerceConsultation.lottie";
 const Ecommerce = () => {
   return (
     <>

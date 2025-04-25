@@ -8,8 +8,8 @@ import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Youtube from "../assets/Services/YouTube.lottie";
 import LinkedIn from "../assets/Services/LinkedInContMkt.lottie";
-import Identity from "../assets/Services/IdentityBrandingCommunication.png";
-import CustomWebsite from "../assets/Services/WebDevelopment.lottie";
+import Identity from "../assets/Services/BrandingIdentityCommunication.lottie";
+import CustomWebsite from "../assets/Services/CustomeWebDevelopment.lottie";
 const Design = () => {
   return (
     <>
@@ -120,11 +120,12 @@ const Design = () => {
                     </div>
                   </div>
                   <div className="w-full md:w-1/2 flex justify-center">
-                    <img
+                    <DotLottieReact src={Identity} loop autoplay />
+                    {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"
                       src={Identity}
-                    />
+                    /> */}
                   </div>
                 </div>
               </section>
