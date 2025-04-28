@@ -115,7 +115,10 @@ function App() {
         <Route path="/transcription" element={<Transcription />} />
         <Route path="/translation" element={<Translation />} />
         <Route path="/transliteration" element={<Transliteration />} />
-        <Route path="/data-labeling-annotation" element={<DataLabelingAnnotation />} />
+        <Route
+          path="/data-labeling-annotation"
+          element={<DataLabelingAnnotation />}
+        />
         <Route path="/staff-off-services" element={<StaffOffServices />} />
       </Route>
     )
