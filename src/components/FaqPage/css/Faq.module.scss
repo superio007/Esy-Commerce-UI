@@ -4,7 +4,7 @@
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .FaqContainer{
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom:calc($Sub-Section-Vertical-Height/3);
 }
 .FaqH2 {
     font-size: $font-size-h2;

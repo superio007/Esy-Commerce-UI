@@ -3,11 +3,12 @@
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .whyUsSubSection{
-    padding-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .whyUsH2{
     font-size: $font-size-h2;
     line-height: $line-height-h2;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
     font-weight: $font-weight-medium;
 }
 .WhyUsH3{

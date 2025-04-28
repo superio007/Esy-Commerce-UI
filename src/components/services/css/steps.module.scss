@@ -3,7 +3,7 @@
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .stepsSubSection{
-    padding-bottom: $Sub-Section-Vertical-Height;
+    padding-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .stepsH2{
     font-size: $font-size-h2;

@@ -22,7 +22,7 @@ nav .fromDiv {
 
 @media screen and (max-width: 769px) {
     .StickyH2{
-        margin-bottom: $Sub-Section-Vertical-Height;
+        margin-bottom: calc($Sub-Section-Vertical-Height/3);
     }
 }
 

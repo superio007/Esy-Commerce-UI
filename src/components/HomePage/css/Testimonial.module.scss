@@ -3,7 +3,7 @@
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .subSection{
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .testimonialH2 {
     line-height: $line-height-h2;

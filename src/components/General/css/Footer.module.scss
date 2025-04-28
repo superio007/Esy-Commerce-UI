@@ -12,14 +12,14 @@
     padding: $Section-Vertical-Height $Section-Horizontal-Height; 
 }
 .FirstFooterContainer{
-    padding-bottom: $Sub-Section-Vertical-Height;
+    padding-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .SecondFooterContainer {
-    padding-top: $Sub-Section-Vertical-Height;
-    padding-bottom: $Sub-Section-Vertical-Height;
+    padding-top: calc($Sub-Section-Vertical-Height/3);
+    padding-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .ThirdFooterContainer{
-    padding-top: $Sub-Section-Vertical-Height;
+    padding-top: calc($Sub-Section-Vertical-Height/3);
 }
 .Footer .navHeads::after {
     content: "";

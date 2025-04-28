@@ -9,17 +9,17 @@
     line-height: $line-height-hero;
     font-weight: $font-weight-bold;
     color: $color-primary-hero !important;
-    margin-bottom: calc($Sub-Section-Vertical-Height/2);
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .CareerPageSubHeading{
     font-size: $font-size-subhero !important;
     line-height: $line-height-subhero !important;
     font-weight: $font-weight-regular !important;
     color: $color-primary-hero !important;
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .subSection{
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .CaarearH3{
     font-size: $font-size-h3;

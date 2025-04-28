@@ -3,7 +3,7 @@
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .overViewSubSection{
-    padding-top: $Sub-Section-Vertical-Height;
+    padding-top: calc($Sub-Section-Vertical-Height/3);
 }
 .overview li {
     list-style-type: disc !important;
@@ -19,6 +19,7 @@
     font-size: $font-size-h2;
     line-height: $line-height-h2;
     font-weight: $font-weight-medium;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .overviewH3{
     font-size: $font-size-h3;

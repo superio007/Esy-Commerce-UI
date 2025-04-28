@@ -6,12 +6,13 @@
     font-size: $font-size-h2;
     line-height: $line-height-h2;
     font-weight: $font-weight-medium;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .coresub{
     font-size: $font-size-body;
     line-height: $line-height-body;
     font-weight: $font-weight-regular;
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom:calc($Sub-Section-Vertical-Height);
 }
 .coreH3{
     font-size: $font-size-h3;

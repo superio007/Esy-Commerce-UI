@@ -17,16 +17,16 @@
   font-weight: $font-weight-medium
 }
 .subsection{
-  margin-bottom: $Sub-Section-Vertical-Height;
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .SecSubSection{
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
-  margin-bottom: calc($Sub-Section-Vertical-Height/2);
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .LandBullets{
-  margin-bottom: calc($Sub-Section-Vertical-Height/2);
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .SecH3up{
   font-size: $font-size-h3;
@@ -43,7 +43,7 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
-  margin-bottom: calc($Sub-Section-Vertical-Height/2);
+  margin-bottom: calc(calc($Sub-Section-Vertical-Height/3)/2);
 }
 
 .BuletSection {
@@ -91,11 +91,11 @@
   }
 
   .LandBullets {
-    margin-bottom: $Sub-Section-Vertical-Height ;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3) ;
   }
 
   .SecH3up {
-    margin-top: $Sub-Section-Vertical-Height ;
+    margin-top: calc($Sub-Section-Vertical-Height/3) ;
   }
 }
 

@@ -12,7 +12,7 @@
 }
 
 .DivSpace {
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
 .DesignH2 {
@@ -25,12 +25,12 @@
     font-size: $font-size-h2;
     line-height: $line-height-h2;
     font-weight: $font-weight-bold;
-    margin-top: $Sub-Section-Vertical-Height;
+    margin-top: calc($Sub-Section-Vertical-Height/3);
 }
 
 .Designp {
     font-size: $font-size-body;
     line-height: $line-height-body;
     font-weight: $font-weight-regular;
-    margin-bottom: $Sub-Section-Vertical-Height;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
