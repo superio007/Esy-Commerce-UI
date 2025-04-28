@@ -8,6 +8,11 @@
 .HeroSection{
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
+.HeroSection li {
+  // list-style-type: disc !important;
+  // list-style-position: inside !important;
+  color: $color-primary-hero !important
+}
 .LandHeroHeading{
   font-size: $font-size-hero;
   line-height: $line-height-hero;
@@ -21,6 +26,7 @@
     font-weight: $font-weight-regular !important;
     line-height: $line-height-subhero !important;
     color: $color-primary-hero !important;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 :global(.Typewriter) {
   margin-bottom: calc($Sub-Section-Vertical-Height/3);

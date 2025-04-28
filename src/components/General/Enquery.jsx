@@ -16,6 +16,7 @@ const postEnqueryForm = async (formattedData) => {
   return data;
 };
 const ProposalForm = () => {
+  const [selectedService, setSelectedService] = useState("");
   const [pageLoc, setPageLoc] = useState("");
   let Location = useLocation().pathname;
   useEffect(() => {
@@ -31,6 +32,7 @@ const ProposalForm = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
   const [isThanks, setIsThanks] = useState(false);
   const onSubmit = (data) => {
     const formattedData = {
@@ -39,11 +41,15 @@ const ProposalForm = () => {
         Email: data.email,
         Message: data.message,
         PageInfo: pageLoc,
+        ServiceInfo: data.service,
       },
     };
-    postEnqueryForm(formattedData);
+    console.log(formattedData);
+    // postEnqueryForm(formattedData);
     // console.log(data);
     reset(); // Reset the form fields after submission
+
+    setSelectedService("");
     setIsThanks(true);
   };
 
@@ -51,7 +57,8 @@ const ProposalForm = () => {
     <>
       <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto rounded-lg shadow-lg">
         <h2 className={`${styles.FormHeading}  uppercase text-center`}>
-          <span className="text-[#007fff]">Shape Your</span> Future Growth
+          Build Your Success Story -{" "}
+          <span className="text-[#007fff]">Together</span>
         </h2>
         <p className={`text-center mb-5 ${styles.FormSubHeading}`}>
           How our expertise can meet your needs
@@ -67,10 +74,9 @@ const ProposalForm = () => {
           {errors.fullName && (
             <span className="text-red-500">Full Name is required</span>
           )}
-
           <input
             type="email"
-            placeholder="Email*"
+            placeholder="Work Email*"
             {...register("email", { required: true })}
             className="w-full rounded-md p-2 mb-3 outline-none text-black"
           />
@@ -78,13 +84,32 @@ const ProposalForm = () => {
             <span className="text-red-500">Email is required</span>
           )}
 
+          <select
+            className={`w-full rounded-md p-2 mb-3 outline-none ${
+              selectedService ? "text-black" : "text-[#6e7582]"
+            }`}
+            {...register("service", { required: true })}
+            value={selectedService}
+            onChange={(e) => setSelectedService(e.target.value)}
+          >
+            <option value="" disabled hidden>
+              Service Interest*
+            </option>
+            <option value="Ecommerce">Ecommerce</option>
+            <option value="Design">Design</option>
+            <option value="BPM">BPM</option>
+            <option value="Development">Development</option>
+            <option value="Other">Other</option>
+          </select>
+          {errors.service && (
+            <span className="text-red-500">Service selection is required</span>
+          )}
           <textarea
-            placeholder="Type message here..."
+            placeholder="Tell us about your project goals..."
             rows={4}
             {...register("message")}
             className="w-full rounded-md p-2 mb-3 outline-none text-black resize-none"
           ></textarea>
-
           <div className="flex flex-col xl:flex-row">
             <button
               type="submit"

@@ -1,6 +1,7 @@
 import EnqueryForm from "../General/Enquery";
 import styles from "./css/HeroSection.module.scss";
 import Typewriter from "typewriter-effect";
+import { IoCheckmarkOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
 const HeroSection = ({ heading, subHeading }) => {
   const [Points, setPoints] = useState([]);
@@ -17,7 +18,7 @@ const HeroSection = ({ heading, subHeading }) => {
           <div className="px-6 flex md:px-5 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-8 md:mb-0 ">
               <h1 className={styles.LandHeroHeading}>
-                Helping Brands Scale Before They "Sold Out"
+                Build, Scale & Transform
               </h1>
               {/* <Typewriter
                 options={{
@@ -32,10 +33,32 @@ const HeroSection = ({ heading, subHeading }) => {
                   loop: true,
                 }}
               /> */}
+              {/* <p className={`${styles.LandHerosubheading}`}>
+                Your Brand's Digital Future Starts Here.
+              </p> */}
               <p className={`${styles.LandHerosubheading}`}>
-                {subHeading ||
-                  `From startup hustle to enterprise scale, we power your ecommerce journey with performance-focused consultation, robust operations enablement, full-stack development, and precise data services.`}
+                {/* {subHeading ||
+                  `From startup hustle to enterprise scale, we power your ecommerce journey with performance-focused consultation, robust operations enablement, full-stack development, and precise data services.`} */}
+                faster & smarter with zero guesswork
               </p>
+              <ul>
+                <li className="flex gap-2 items-center">
+                  <IoCheckmarkOutline className="text-white text-2xl"/>
+                  Ecommerce Enablement
+                </li>
+                <li className="flex gap-2 items-center">
+                  <IoCheckmarkOutline className="text-white text-2xl"/>
+                  Website & App Design{" "}
+                </li>
+                <li className="flex gap-2 items-center">
+                  <IoCheckmarkOutline className="text-white text-2xl"/>
+                  Full-Stack AI Development
+                </li>
+                <li className="flex gap-2 items-center">
+                  <IoCheckmarkOutline className="text-white text-2xl"/>
+                  Business Process Management
+                </li>
+              </ul>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
               <EnqueryForm />
