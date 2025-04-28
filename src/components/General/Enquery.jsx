@@ -56,13 +56,13 @@ const ProposalForm = () => {
   return (
     <>
       <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto rounded-lg shadow-lg">
-        <h2 className={`${styles.FormHeading}  uppercase text-center`}>
-          Build Your Success Story -{" "}
+        <h2 className={`${styles.FormHeading} mb-5  uppercase text-center`}>
+          Let’s Build Your Success Story -{" "}
           <span className="text-[#007fff]">Together</span>
         </h2>
-        <p className={`text-center mb-5 ${styles.FormSubHeading}`}>
+        {/* <p className={`text-center mb-5 ${styles.FormSubHeading}`}>
           How our expertise can meet your needs
-        </p>
+        </p> */}
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
           <input

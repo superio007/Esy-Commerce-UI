@@ -39,24 +39,27 @@ const HeroSection = ({ heading, subHeading }) => {
               <p className={`${styles.LandHerosubheading}`}>
                 {/* {subHeading ||
                   `From startup hustle to enterprise scale, we power your ecommerce journey with performance-focused consultation, robust operations enablement, full-stack development, and precise data services.`} */}
-                faster & smarter with zero guesswork
+                <span style={{ fontStyle: "italic" }}>
+                  your next digital leap with a boost from our expert solutions{" "}
+                  - faster & smarter with zero guesswork
+                </span>
               </p>
               <ul>
                 <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl"/>
-                  Ecommerce Enablement
+                  <IoCheckmarkOutline className="text-white text-2xl" />
+                  Business Process Management
                 </li>
                 <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl"/>
-                  Website & App Design{" "}
-                </li>
-                <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl"/>
+                  <IoCheckmarkOutline className="text-white text-2xl" />
                   Full-Stack AI Development
                 </li>
                 <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl"/>
-                  Business Process Management
+                  <IoCheckmarkOutline className="text-white text-2xl" />
+                  Ecommerce Enablement
+                </li>
+                <li className="flex gap-2 items-center">
+                  <IoCheckmarkOutline className="text-white text-2xl" />
+                  Website & App Design{" "}
                 </li>
               </ul>
             </div>
