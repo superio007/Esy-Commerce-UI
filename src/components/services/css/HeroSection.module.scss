@@ -11,8 +11,8 @@
 }
 
 .HeroSubHeading {
-    font-size: $font-size-subhero;
-    line-height: $line-height-subhero;
-    font-weight: $font-weight-regular;
+    font-size: $font-size-subhero !important;
+    line-height: $line-height-subhero !important;
+    font-weight: $font-weight-regular !important;
     color: $color-primary-hero !important;
 }

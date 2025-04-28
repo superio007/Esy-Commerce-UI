@@ -10,9 +10,9 @@
     margin-bottom: calc($Sub-Section-Vertical-Height/2);
 }
 .HeroSubHeading{
-    font-size: $font-size-subhero;
-    font-weight: $font-weight-regular;
-    line-height: $line-height-subhero;
+    font-size: $font-size-subhero !important;
+    font-weight: $font-weight-regular !important;
+    line-height: $line-height-subhero !important;
     color: $color-primary-hero !important;
 }
 .CareerImage canvas {
