@@ -4,8 +4,8 @@
     font-size: $font-size-h2;
     line-height: $line-height-h2;
     font-weight: $font-weight-medium;
-    margin-bottom: calc($Sub-Section-Vertical-Height/3) ;
+    margin-bottom: $Sub-Section-Vertical-Height ;
 }
 .ctaSection{
-    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+    padding: $Section-Vertical-Height $Section-Horizontal-Height 0 $Section-Horizontal-Height;
 }

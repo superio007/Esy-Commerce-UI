@@ -179,7 +179,7 @@
   }
 
   .spinner {
-    height: 333px !important;
+    height: 355px !important;
     width: 350px !important;
   }
 
@@ -233,6 +233,69 @@
 
 /* For Samsung Fold */
 @media screen and (max-width: 390px) {
+  .spinner .img {
+    width: 35px;
+  }
+
+  .spinner {
+    height: 264px !important;
+    width: 270px !important;
+  }
+
+  .second-outer-container {
+    width: 170px !important;
+    height: 170px !important;
+  }
+
+  .second-inner-container {
+    display: none
+  }
+
+  .spinner div {
+    width: 40px;
+    height: 40px;
+  }
+
+  .outer-rotation-container .element-one {
+    transform: translate(120px, 44px) rotate(-162deg);
+  }
+
+  .outer-rotation-container .element-two {
+    transform: translate(-133px, -20px) rotate(182deg);
+  }
+
+  .outer-rotation-container .element-three {
+    transform: translate(-37px, 125px) rotate(-75deg);
+  }
+
+  .outer-rotation-container .element-four {
+    transform: translate(43px, -125px) rotate(197deg);
+  }
+
+  .second-outer-container .element-one {
+    transform: translate(-21px, 47px) rotate(-194deg);
+  }
+
+  .second-outer-container .element-two {
+    transform: translate(32px, 143px) rotate(164deg);
+  }
+
+  .second-outer-container .element-three {
+    transform: translate(116px, -4px) rotate(256deg);
+  }
+
+  .second-outer-container .element-four {
+    transform: translate(134px, 95px) rotate(-194deg);
+  }
+
+  /* Center logo (fixed position, no rotation) */
+  #centerLogo {
+    height: 50px;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 487px) {
   .spinner .img {
     width: 35px;
   }

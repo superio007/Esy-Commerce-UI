@@ -567,7 +567,7 @@ const Navbar = () => {
         {/* Mobile Menu (Toggled) */}
 
         <div
-          className={`xl:hidden transform transition-transform duration-300 ease-in-out fixed mt-3 right-0 w-full md:max-w-[400px] sm:max-w-[100vw] h-[90%] z-50 ${
+          className={`xl:hidden transform transition-transform duration-300 ease-in-out fixed mt-3 right-0 w-full md:max-w-[400px] sm:max-w-[100vw] h-[94%] z-50 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           } p-4 bg-white flex flex-col justify-between`}
         >

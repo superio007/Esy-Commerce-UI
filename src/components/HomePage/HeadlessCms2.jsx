@@ -109,14 +109,12 @@ const Headless = ({ apiRes, bullets }) => {
             style={{ position: "relative" }}
             className="xl:px-12 3xl:mx-auto 3xl:max-w-screen-xl"
           >
-            <div className="outer-div  grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 items-center gap-6 relative">
+            <div className="outer-div  grid grid-rows-1 lg:grid-cols-2 md:grid-cols-1 items-center md:gap-6 gap-10 relative">
               <div className="left-div">
                 <div className="flex flex-col items-start text-left md:mb-0">
                   <h3 className={styles.LandHeadlessh3}>
                     {apiRes.home_headless_cms_section_points[0].Heading ||
-                      ` Before they sold out
-                  <br className="hidden lg:inline-block" />
-                  readymade gluten`}
+                      `Crafting Beautiful, Blazing-Fast Frontends`}
                   </h3>
                   <p className={styles.SecSubSection}>
                     {apiRes.home_headless_cms_section_points[0].subHeading ||
@@ -126,7 +124,9 @@ const Headless = ({ apiRes, bullets }) => {
                   authentic tumeric truffaut hexagon try-hard chambray.`}
                   </p>
                 </div>
-                <div className={`${styles.LandBullets} grid md:grid-cols-2 w-full gap-2`}>
+                <div
+                  className={`${styles.LandBullets} grid md:grid-cols-2 w-full gap-2`}
+                >
                   {bulletPoints.map((point, index) => (
                     <div
                       key={index}
@@ -152,7 +152,7 @@ const Headless = ({ apiRes, bullets }) => {
                 </div>
               </div>
               <div className="right-div relative md:w-[fit-content]">
-                <div className="transform rotate-270 md:rotate-340 grid grid-cols-4 grid-rows-5  gap-4 relative z-10">
+                <div className="transform rotate-270 lg:rotate-340 grid grid-cols-4 grid-rows-5  gap-4 relative z-10">
                   <div className="col-start-2  flex md:justify-end transform md:rotate-110 rotate-90">
                     <img
                       id="top-two"
@@ -223,10 +223,10 @@ const Headless = ({ apiRes, bullets }) => {
             </div>
             <div
               ref={EndInView}
-              className="outer-div grid p-2 grid-rows-1 lg:grid-cols-2 items-center md:grid-cols-1 gap-6 relative"
+              className="outer-div grid p-2 grid-rows-1 lg:grid-cols-2 items-center md:grid-cols-1 md:gap-6 gap-10 relative"
             >
               <div className="left-div relative ">
-                <div className="transform rotate-90 md:rotate-136 grid grid-cols-4 grid-rows-5  gap-4 relative z-10">
+                <div className="transform rotate-90 lg:rotate-136 grid grid-cols-4 grid-rows-5  gap-4 relative z-10">
                   <div className="col-start-2  flex md:justify-end transform md:rotate-224 rotate-90">
                     <img
                       id="bottom-two"

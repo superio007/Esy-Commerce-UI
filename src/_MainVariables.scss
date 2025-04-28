@@ -40,7 +40,7 @@
 // // Section Horizontal Paddings
 // $Section-Horizontal-Height: clamp(1.5rem, 4vw, 2.5rem);
 // Font 
-$Font-Family : ("Inter", sans-serif);
+$Font-Family : ("Lexend", sans-serif);
 
 // Colors
 $color-primary-hero: #fff;
@@ -51,10 +51,10 @@ $Sub-Heading-Color: #a0a3aa;
 $Body-Color: #FAFAFA;
 
 // Font Sizes (Responsive with clamp & rem)
-$font-size-hero: clamp(2.5rem, 5vw, 4rem); // 40px → 64px
-$font-size-subhero: clamp(1em, 3vw, 1.125rem); // 16px → 18px
-$font-size-h2: clamp(1.4rem, 5vw, 2.25rem); // 28px → 36px
-$font-size-h3: clamp(1.125rem, 2.8vw, 1.5rem); // 20px → 24px
+$font-size-hero: clamp(2.25rem, 5vw, 3.75rem); // 40px → 64px
+$font-size-subhero: 1.75rem; // 16px → 18px
+$font-size-h2: clamp(1.75rem, 4vw, 2.125rem); // 28px → 36px
+$font-size-h3: clamp(1.3125rem, 2.8vw, 1.175rem); // 20px → 24px
 $font-size-body: 1.125rem; // 16px → 18px
 $font-size-small: clamp(0.875rem, 2vw, 1rem); // 14px → 16px
 $font-size-button: clamp(1rem, 3vw, 1.25rem); // 16px → 20px

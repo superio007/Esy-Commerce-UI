@@ -8,6 +8,14 @@
 .HeroSection{
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
+.LandHeroHeading{
+  font-size: $font-size-hero;
+  line-height: $line-height-hero;
+  font-weight: $font-weight-bold;
+  text-transform: capitalize;
+  color: $color-primary-hero !important;
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
+}
 .LandHerosubheading{
     font-size: $font-size-subhero !important;
     font-weight: $font-weight-regular !important;
@@ -15,7 +23,7 @@
     color: $color-primary-hero !important;
 }
 :global(.Typewriter) {
-  margin-bottom: 16px;
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
 :global(.Typewriter__wrapper),
@@ -27,26 +35,10 @@
   color: $color-primary-hero !important;
 }
 
-// @media screen and (min-width: 1280px) {
-
-//   :global(.Typewriter__wrapper),
-//   :global(.Typewriter__cursor) {
-//     font-size: 3.75rem;
-//     line-height: calc(2.5 / 2.25);
-//     font-weight: 500 !important;
-//     margin-bottom: 16px;
-//     text-transform: capitalize;
-//   }
-// }
 
 /* Landing Page Hero Section Css */
 @media screen and (max-width: 331px) {
 
-//   :global(.Typewriter__wrapper),
-//   :global(.Typewriter__cursor) {
-//     font-size: 1.8rem !important;
-//     line-height: 2.5rem !important;
-//   }
 
   .LandHerosubheading {
     font-size: 0.75rem !important;

@@ -37,7 +37,7 @@ const BulletPoints = ({ apiRes }) => {
     <div className={styles.BuletSection}>
       <div className={`xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}>
         <div className="px-6 md:px-0">
-          <div className="flex md:flex-row flex-col items-center">
+          <div className="flex md:flex-row flex-col-reverse items-center">
             <div id="LeftSide">
               <img
                 className="md:w-[690px] md:h-[560px] h-full w-full"
@@ -72,7 +72,7 @@ const BulletPoints = ({ apiRes }) => {
                         : "opacity-0"
                     }`}
                   >
-                    <div className="bg-white rounded flex p-4 h-full items-center">
+                    <div className="bg-white rounded flex  p-4 h-full items-center">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -85,7 +85,11 @@ const BulletPoints = ({ apiRes }) => {
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
                       </svg>
-                      <p className={styles.LandBulletsSubheading}>{point}</p>
+                      <p
+                        className={`flex-wrap flex ${styles.LandBulletsSubheading}`}
+                      >
+                        {point}
+                      </p>
                     </div>
                   </div>
                 ))}
