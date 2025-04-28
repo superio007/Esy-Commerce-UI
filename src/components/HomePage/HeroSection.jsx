@@ -34,7 +34,7 @@ const HeroSection = ({ heading, subHeading }) => {
                   `From startup hustle to enterprise scale, we power your ecommerce journey with performance-focused consultation, robust operations enablement, full-stack development, and precise data services.`}
               </p>
             </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
               <EnqueryForm />
             </div>
           </div>
