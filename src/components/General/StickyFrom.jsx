@@ -70,7 +70,7 @@ const StickyFrom = () => {
         <div className="px-6 md:px-0 grid grid-cols-1 xl:grid-cols-12  w-full gap-4">
           {/* Left Section - Contact Us (4 Columns) */}
           <div className="xl:col-span-4 w-full text-center xl:text-left">
-            <h2 className={styles.StickyH2}>Book Your Free Consultation</h2>
+            <h3 className={styles.StickyH3}>Book Your Free Consultation</h3>
           </div>
 
           {/* Right Section - Inputs and Button (8 Columns) */}
@@ -172,7 +172,7 @@ const StickyFrom = () => {
         <div className="px-6 md:px-0 grid grid-cols-1 xl:grid-cols-12 xl:items-center w-full gap-4">
           {/* Left Section - Contact Us (4 Columns) */}
           <div className="xl:col-span-4 w-full text-left">
-            <h2 className={styles.StickyH2}>Book Your Free Consultation</h2>
+            <h3 className={styles.StickyH3}>Book Your Free Consultation</h3>
           </div>
 
           {/* Right Section - Inputs and Button (8 Columns) */}

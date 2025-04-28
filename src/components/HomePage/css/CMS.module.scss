@@ -8,6 +8,7 @@
   line-height: $line-height-h2;
   font-weight: $font-weight-medium;
   text-transform: capitalize;
+  margin-bottom: calc($Sub-Section-Vertical-Height/2);
 }
 .LandCMSSubheading{
   font-size: $font-size-h3;
@@ -18,4 +19,11 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
+  margin-top: -10px;
+}
+
+@media screen and (max-width:769px) {
+  .LandCMSPara{
+    margin-top: -2px;
+  }
 }

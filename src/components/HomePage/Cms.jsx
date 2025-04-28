@@ -21,21 +21,17 @@ const CMS = ({ apiRes }) => {
               <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 {/* Left Content */}
                 <div>
-                  <h2
-                    className={`${styles.LandCMSHeading} md:mb-3`}
-                  >
+                  <h2 className={`${styles.LandCMSHeading} md:mb-3`}>
                     Services We Offer
                   </h2>
 
                   <div className="">
                     {contentArray.map((item, index) => (
                       <div className="" key={index}>
-                        <h3
-                          className={`${styles.LandCMSSubheading}`}
-                        >
+                        <h3 className={`${styles.LandCMSSubheading}`}>
                           {item.title}
                         </h3>
-                        <p className={`${styles.LandCMSPara}`}>
+                        <p className={`${styles.LandCMSPara}`} >
                           {item.description}
                         </p>
                       </div>

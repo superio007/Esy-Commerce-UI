@@ -93,7 +93,7 @@
 
 .spinner .img {
   background-color: #fff;
-  width: 50px;
+  width: 35px;
   height: auto;
   transform: rotate(0deg) !important;
   /* Removed rotation effect */
@@ -175,13 +175,13 @@
 
 @media screen and (max-width: 769px) {
   .spinner {
-    height: 400px !important;
-    width: 400px !important;
+    height: 350px !important;
+    width: 350px !important;
   }
 
   .second-outer-container {
-    width: 250px !important;
-    height: 250px !important;
+    width: 225px !important;
+    height: 225px !important;
   }
 
   .second-inner-container {
@@ -189,35 +189,35 @@
   }
 
   .outer-rotation-container .element-one {
-    transform: translate(185px, 44px) rotate(-216deg);
+    transform: translate(150px, 44px) rotate(-157deg);
   }
 
   .outer-rotation-container .element-two {
-    transform: translate(-199px, -45px) rotate(132deg);
+    transform: translate(-172px, -45px) rotate(196deg);
   }
 
   .outer-rotation-container .element-three {
-    transform: translate(-44px, 179px) rotate(-142deg);
+    transform: translate(-46px, 152px) rotate(-153deg);
   }
 
   .outer-rotation-container .element-four {
-    transform: translate(27px, -186px) rotate(126deg);
+    transform: translate(36px, -179px) rotate(200deg);
   }
 
   .second-outer-container .element-one {
-    transform: translate(-23px, 129px) rotate(-133deg);
+    transform: translate(-31px, 86px) rotate(-147deg);
   }
 
   .second-outer-container .element-two {
-    transform: translate(124px, 205px) rotate(226deg);
+    transform: translate(118px, 168px) rotate(211deg);
   }
 
   .second-outer-container .element-three {
-    transform: translate(61px, -25px) rotate(315deg);
+    transform: translate(63px, -29px) rotate(300deg);
   }
 
   .second-outer-container .element-four {
-    transform: translate(209px, 72px) rotate(-132deg);
+    transform: translate(182px, 30px) rotate(-149deg);
   }
 
   /* Center logo (fixed position, no rotation) */
@@ -229,14 +229,18 @@
 
 /* For Samsung Fold */
 @media screen and (max-width: 390px) {
+  .spinner .img {
+    width: 35px;
+  }
+
   .spinner {
-    height: 300px !important;
-    width: 300px !important;
+    height: 270px !important;
+    width: 270px !important;
   }
 
   .second-outer-container {
-    width: 200px !important;
-    height: 200px !important;
+    width: 170px !important;
+    height: 170px !important;
   }
 
   .second-inner-container {
@@ -249,40 +253,40 @@
   }
 
   .outer-rotation-container .element-one {
-    transform: translate(140px, 44px) rotate(-162deg);
+    transform: translate(120px, 44px) rotate(-162deg);
   }
 
   .outer-rotation-container .element-two {
-    transform: translate(-146px, -20px) rotate(197deg);
+    transform: translate(-133px, -20px) rotate(182deg);
   }
 
   .outer-rotation-container .element-three {
-    transform: translate(-37px, 142px) rotate(-75deg);
+    transform: translate(-37px, 125px) rotate(-75deg);
   }
 
   .outer-rotation-container .element-four {
-    transform: translate(43px, -136px) rotate(197deg);
+    transform: translate(43px, -125px) rotate(197deg);
   }
 
   .second-outer-container .element-one {
-    transform: translate(-14px, 49px) rotate(-194deg);
+    transform: translate(-21px, 47px) rotate(-194deg);
   }
 
   .second-outer-container .element-two {
-    transform: translate(32px, 164px) rotate(164deg);
+    transform: translate(32px, 143px) rotate(164deg);
   }
 
   .second-outer-container .element-three {
-    transform: translate(128px, -4px) rotate(256deg);
+    transform: translate(116px, -4px) rotate(256deg);
   }
 
   .second-outer-container .element-four {
-    transform: translate(166px, 125px) rotate(-194deg);
+    transform: translate(134px, 95px) rotate(-194deg);
   }
 
   /* Center logo (fixed position, no rotation) */
   #centerLogo {
-    height: 60px;
+    height: 50px;
     position: absolute;
   }
 }
