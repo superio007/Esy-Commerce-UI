@@ -175,10 +175,11 @@
 
 @media screen and (max-width: 769px) {
   .spinner .img {
-      width: 35px;
-    }
+    width: 35px;
+  }
+
   .spinner {
-    height: 350px !important;
+    height: 317px !important;
     width: 350px !important;
   }
 

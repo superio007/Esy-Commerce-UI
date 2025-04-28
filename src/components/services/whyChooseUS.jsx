@@ -43,7 +43,7 @@ const WhyUs = ({ apiRes }) => {
                   <div className="flex flex-row gap-6 md:gap-0 items-start md:items-start md:flex-col">
                     <div>
                       <img
-                        className="mt-2"
+                        className="mt-2 w-[150px] md:w-auto"
                         src={point.Icon.url}
                         alt={point.Icon.alternativeText}
                       />

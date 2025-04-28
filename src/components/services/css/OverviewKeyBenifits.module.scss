@@ -46,4 +46,8 @@
     .keyBeniFitsItem {
         width: 100%;
     }
+    .overviewH3{
+        margin-top: calc($Sub-Section-Vertical-Height/3);
+        margin-bottom: calc($Sub-Section-Vertical-Height/3);
+    }
 }
