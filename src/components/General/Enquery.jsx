@@ -61,7 +61,7 @@ const ProposalForm = () => {
         <h2 className={`${styles.FormHeading} mb-5  uppercase text-center`}>
           Let’s Build Your Success Story -{" "}
           <span className="text-[#007fff]">Together</span>
-        </h2>
+        </h2> 
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
           <input
