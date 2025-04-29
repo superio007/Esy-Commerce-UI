@@ -16,7 +16,6 @@
   top: -13px;
   align-items: center;
   gap: 8px;
-  /* background-color: #fff; */
   padding: 0 10px;
   left: 84px;
 }
@@ -37,22 +36,23 @@
 
 .Certification-slider-container .brand-slider {
   overflow: hidden;
-  white-space: nowrap;
   position: relative;
   width: 100%;
-  /* background-color: #fff; */
   padding: 20px 0;
 }
 
 .Certification-slider-container .slider-track {
   display: flex;
   gap: 40px;
-  animation: scroll 20s linear infinite;
   width: max-content;
+  /* Animation is handled by Framer Motion now */
 }
 
 .Certification-slider-container .slide {
   display: grid;
+  justify-items: center;
+  text-align: center;
+  min-width: 200px;
 }
 
 .Certification-slider-container .slide img {
@@ -60,37 +60,23 @@
   max-width: 400px;
   object-fit: contain;
   filter: grayscale(100%);
-  transition: transform 0.3s ease-in-out;
+  transition: filter 0.3s ease-in-out;
 }
 
 .Certification-slider-container .slide img:hover {
   filter: grayscale(0%);
 }
 
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-/* .Certification-slider-container .slider-track:hover {
-  animation-play-state: paused;
-} */
-
+/* 🔧 Responsive Tweaks */
 @media (max-width: 768px) {
   .Certification-slider-container .slide img {
+    height: 50px;
+    max-width: 120px;
     filter: grayscale(0%) !important;
+    /* Better mobile performance */
   }
 
-  .Certification-slider-container .brand-heading {
-    flex-direction: row;
-    justify-content: center;
-  }
-
+  .Certification-slider-container .brand-heading,
   .Certification-slider-container .heading-content {
     flex-direction: row;
     justify-content: center;
@@ -99,26 +85,9 @@
   .Certification-slider-container .stars {
     margin-bottom: 0;
   }
-
-  .Certification-slider-container .slider-track {
-    animation: scroll 30s linear;
-  }
-
-  .Certification-slider-container .slide img {
-    height: 50px;
-    max-width: 120px;
-  }
 }
 
-@media (max-width:404px) {
-  .Certification-slider-container .slide img {
-    filter: grayscale(0%) !important;
-  }
-
-  .Certification-slider-container .slider-track {
-    animation: scroll 30s linear;
-  }
-
+@media (max-width: 404px) {
   .Certification-slider-container .heading-text {
     margin-top: -18px;
   }
