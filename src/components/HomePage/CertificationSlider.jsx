@@ -4,7 +4,7 @@ const Certification = ({ BackColor, CertificationSlider }) => {
   const [brands, setBrands] = useState([]);
   useEffect(() => {
     const data =
-      CertificationSlider?.map((item) => ({
+      CertificationSlider.map((item) => ({
         src: item.CertificateImage.url,
         alt: item.CertificateImage.alternativeText,
         title: item.Heading,

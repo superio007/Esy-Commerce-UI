@@ -5,7 +5,7 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
   const [brands, setBrands] = useState([]);
   useEffect(() => {
     const data =
-      CustomerSlider?.Images?.map((item) => ({
+      CustomerSlider.Images.map((item) => ({
         src: item.url,
         alt: item.alternativeText,
       })) || [];
