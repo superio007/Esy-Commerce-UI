@@ -10,7 +10,7 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
         alt: item.alternativeText,
       })) || [];
     setBrands(data);
-  }, []);
+  }, [CustomerSlider]);
   const location = useLocation();
   // Adjust the path to match your contact page route
   const isContactPage = location.pathname === "/contact";
