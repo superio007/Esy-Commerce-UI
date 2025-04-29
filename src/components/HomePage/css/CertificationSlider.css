@@ -101,7 +101,7 @@
   }
 
   .Certification-slider-container .slider-track {
-    animation: scroll 30s linear infinite;
+    animation: scroll 30s linear ;
   }
 
   .Certification-slider-container .slide img {
