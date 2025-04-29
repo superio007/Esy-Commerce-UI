@@ -1,7 +1,7 @@
 @use "../../../MainVariables" as *;
 
 .BuletSection {
-  padding: $Section-Vertical-Height $Section-Horizontal-Height;
+  padding: 0 $Section-Horizontal-Height $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .BulletPoints{
   margin-top: $Section-Horizontal-Height;
