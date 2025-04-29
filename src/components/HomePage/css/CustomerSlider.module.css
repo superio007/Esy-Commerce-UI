@@ -1,8 +1,8 @@
-
 .brandslidercontainer {
   text-align: center;
   padding: 20px 0;
 }
+
 .brand-couter-container {
   position: relative;
   border-top: 1px solid #e3d9fb;
@@ -61,7 +61,7 @@
   height: 60px;
   max-width: 150px;
   object-fit: contain;
-  /* filter: grayscale(100%); */
+  filter: grayscale(100%);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -73,6 +73,7 @@
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
@@ -83,6 +84,10 @@
 } */
 
 @media (max-width: 768px) {
+  .slide img {
+    filter: grayscale(0%) !important;
+  }
+
   .brand-heading {
     flex-direction: row;
     justify-content: center;
@@ -98,7 +103,7 @@
   }
 
   .slidertrack {
-    /* animation: scroll 30s linear infinite; */
+    animation: scroll 30s linear infinite;
   }
 
   .slide img {
@@ -106,8 +111,13 @@
     max-width: 120px;
   }
 }
-@media (max-width:404px){
-  .heading-text{
+
+@media (max-width:404px) {
+  .slide img {
+    filter: grayscale(0%) !important;
+  }
+
+  .heading-text {
     margin-top: -18px;
   }
 }
