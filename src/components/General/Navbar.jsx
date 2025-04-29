@@ -177,11 +177,11 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#1b8dff]  p-2">
+                    {/* <div className="bg-[#1b8dff]  p-2">
                       <span className="block text-white text-center">
                         Have a Query?
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 )}
               </li>
@@ -271,11 +271,11 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#1b8dff]  p-2">
+                    {/* <div className="bg-[#1b8dff]  p-2">
                       <span className="block text-white text-center">
                         Have a Query?
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 )}
               </li>
@@ -365,11 +365,11 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#1b8dff]  p-2">
+                    {/* <div className="bg-[#1b8dff]  p-2">
                       <span className="block text-white text-center">
                         Have a Query?
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 )}
               </li>
@@ -473,11 +473,11 @@ const Navbar = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#1b8dff] p-2">
+                    {/* <div className="bg-[#1b8dff] p-2">
                       <span className="block text-white text-center">
                         Have a Query?
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 )}
               </li>
