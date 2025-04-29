@@ -101,7 +101,7 @@
   }
 
   .Certification-slider-container .slider-track {
-    animation: scroll 30s linear ;
+    animation: scroll 30s linear;
   }
 
   .Certification-slider-container .slide img {
@@ -113,6 +113,10 @@
 @media (max-width:404px) {
   .Certification-slider-container .slide img {
     filter: grayscale(0%) !important;
+  }
+
+  .Certification-slider-container .slider-track {
+    animation: scroll 30s linear;
   }
 
   .Certification-slider-container .heading-text {

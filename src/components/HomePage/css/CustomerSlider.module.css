@@ -117,6 +117,10 @@
     filter: grayscale(0%) !important;
   }
 
+  .slidertrack {
+    animation: scroll 30s linear;
+  }
+
   .heading-text {
     margin-top: -18px;
   }
