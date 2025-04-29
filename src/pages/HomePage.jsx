@@ -32,7 +32,6 @@ const HomePage = () => {
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? HomePageData.data || [] : data || [];
-  console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

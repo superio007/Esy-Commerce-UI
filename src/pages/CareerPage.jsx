@@ -64,7 +64,6 @@ const careerPage = () => {
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? CarrearPageData.data || [] : data || [];
-  // console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   function trimText(text) {
     if (text.length <= 80) {

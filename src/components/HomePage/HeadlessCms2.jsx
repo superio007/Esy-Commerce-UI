@@ -21,7 +21,6 @@ import AngularLogo from "../../../src/assets/homePage/angular.png";
 import Ruby from "../../../src/assets/homePage/Ruby.png";
 
 const Headless = ({ apiRes, bullets }) => {
-  console.log("Bullets", bullets);
   const [isTopVisible, setIsTopVisible] = useState(false);
   const [isBottomVisible, setIsBottomVisible] = useState(false);
   const [isFullVisible, setIsFullVisible] = useState(false);
@@ -66,7 +65,6 @@ const Headless = ({ apiRes, bullets }) => {
       bullets[1].headless_section_sub_points?.map((item) => item.Title) || [];
     setbulletPoints2(data2);
   }, [apiRes]);
-  // console.log("bulletPoints", bulletPoints);
   const arrowRef = useRef(null);
 
   useEffect(() => {

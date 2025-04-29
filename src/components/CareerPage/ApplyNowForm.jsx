@@ -141,7 +141,6 @@ const ApplyNowForm = () => {
       });
 
       const result = await response.json();
-      console.log(result);
       setFileUrl(result.secure_url); // ✅ Store the file URL
       data.resume = result.secure_url;
     } catch (error) {

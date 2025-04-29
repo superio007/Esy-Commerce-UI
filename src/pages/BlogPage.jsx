@@ -37,7 +37,6 @@ const Blogs = () => {
     category: item.blog_categories || [],
   }));
   if (isLoading) return <p>Loading...</p>;
-  // console.log(ApiData);
 
   return (
     <>

@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 const BlogCards = ({ study }) => {
-  // console.log(study);
   const [hover, setHover] = useState(false);
   function truncateText(text, limit = 30) {
     if (text.length > limit) {

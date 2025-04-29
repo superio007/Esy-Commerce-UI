@@ -32,8 +32,6 @@ const About = () => {
     refetchInterval: false,
   });
   const apiResponse = error ? AboutPageData.data || [] : data || [];
-
-  console.log("API Response:", apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>

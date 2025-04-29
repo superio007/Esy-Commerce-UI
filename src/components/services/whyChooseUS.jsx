@@ -9,7 +9,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const WhyUs = ({ apiRes }) => {
-  // console.log(apiRes, "apiRes in why us component");
   return (
     <>
       <div className="bg-white">
