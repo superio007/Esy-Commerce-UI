@@ -98,7 +98,7 @@
   }
 
   .slidertrack {
-    animation: scroll 30s linear infinite;
+    /* animation: scroll 30s linear infinite; */
   }
 
   .slide img {
