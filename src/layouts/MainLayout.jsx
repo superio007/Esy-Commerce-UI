@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../components/General/Footer";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Breadcrumbs from "../components/General/Breadcrumbs";
+import ScrollProgress from "../components/General/ScrollBar";
 import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha,
@@ -46,6 +47,7 @@ const MainLayout = () => {
     <GoogleReCaptchaProvider reCaptchaKey={import.meta.env.VITE_SITE_KEY}>
       <RecaptchaToken /> {/* Placed at top level */}
       <Navbar />
+      <ScrollProgress />
       <Breadcrumbs />
       <ParallaxProvider>
         <Outlet />
