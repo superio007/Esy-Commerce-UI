@@ -62,9 +62,6 @@ const ProposalForm = () => {
           Let’s Build Your Success Story -{" "}
           <span className="text-[#007fff]">Together</span>
         </h2>
-        {/* <p className={`text-center mb-5 ${styles.FormSubHeading}`}>
-          How our expertise can meet your needs
-        </p> */}
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
           <input
