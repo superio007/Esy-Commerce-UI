@@ -26,7 +26,7 @@ const ScrollCircle = () => {
   };
 
   const radius = 24;
-  const stroke = 4;
+  const stroke = 2;
   const normalizedRadius = radius - stroke * 0.5;
   const circumference = normalizedRadius * 2 * Math.PI;
   const strokeDashoffset = circumference - (scroll / 100) * circumference;
@@ -69,7 +69,7 @@ const ScrollCircle = () => {
           style={{ transition: "stroke-dashoffset 0.35s" }}
         />
       </svg>
-      <FaArrowUp className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#007fff]" />
+      <FaArrowUp className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#9eccff]" />
     </div>
   );
 };
