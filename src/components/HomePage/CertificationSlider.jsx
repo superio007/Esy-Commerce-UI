@@ -11,7 +11,7 @@ const Certification = ({ BackColor, CertificationSlider }) => {
         text: item.subHeading,
       })) || [];
     setBrands(data);
-  }, [CertificationSlider]);
+  }, []);
   return (
     <>
       <div className="" style={{ backgroundColor: BackColor }}>
