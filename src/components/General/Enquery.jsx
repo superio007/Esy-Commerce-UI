@@ -16,6 +16,7 @@ const postEnqueryForm = async (formattedData) => {
   return data;
 };
 const ProposalForm = () => {
+  const [showDropdown, setShowDropdown] = useState(false);
   const [selectedService, setSelectedService] = useState("");
   const [pageLoc, setPageLoc] = useState("");
   let Location = useLocation().pathname;
@@ -29,6 +30,7 @@ const ProposalForm = () => {
   const {
     register,
     reset,
+    setValue,
     handleSubmit,
     formState: { errors },
   } = useForm();
@@ -67,6 +69,7 @@ const ProposalForm = () => {
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
           <input
             type="text"
+            onClick={() => setShowDropdown(false)}
             placeholder="Full Name*"
             {...register("fullName", { required: true })}
             className="w-full rounded-md p-2 mb-3 outline-none text-black"
@@ -76,6 +79,7 @@ const ProposalForm = () => {
           )}
           <input
             type="email"
+            onClick={() => setShowDropdown(false)}
             placeholder="Work Email*"
             {...register("email", { required: true })}
             className="w-full rounded-md p-2 mb-3 outline-none text-black"
@@ -83,30 +87,81 @@ const ProposalForm = () => {
           {errors.email && (
             <span className="text-red-500">Email is required</span>
           )}
-
-          <select
-            className={`w-full rounded-md p-2 mb-3 outline-none ${
-              selectedService ? "text-black" : "text-[#6e7582]"
-            }`}
-            {...register("service", { required: true })}
-            value={selectedService}
-            onChange={(e) => setSelectedService(e.target.value)}
-          >
-            <option value="" disabled hidden>
-              Service Interest*
-            </option>
-            <option value="Ecommerce">Ecommerce</option>
-            <option value="Design">Design</option>
-            <option value="BPM">BPM</option>
-            <option value="Development">Development</option>
-            <option value="Other">Other</option>
-          </select>
+          <div className="relative mb-3">
+            <input
+              type="text"
+              placeholder="Service Interest*"
+              {...register("service", { required: true })}
+              onClick={() => setShowDropdown(!showDropdown)}
+              value={selectedService}
+              className={`w-full rounded-md p-2 ${
+                showDropdown ? "mb-1" : ""
+              } outline-none text-black`}
+            />
+            {showDropdown && (
+              <>
+                <div className="absolute border-1 border-[#6b7280] flex flex-col gap-1 rounded-md top-full p-2 left-0 w-full bg-white">
+                  <span
+                    className="text-[#6e7582] text-md hover:cursor-pointer"
+                    onClick={() => {
+                      setSelectedService("Ecommerce");
+                      setShowDropdown(false);
+                      setValue("service", "Ecommerce");
+                    }}
+                  >
+                    Ecommerce
+                  </span>
+                  <span
+                    className="text-[#6e7582] text-md hover:cursor-pointer"
+                    onClick={() => {
+                      setSelectedService("Design");
+                      setShowDropdown(false);
+                      setValue("service", "Design");
+                    }}
+                  >
+                    Design
+                  </span>
+                  <span
+                    className="text-[#6e7582] text-md hover:cursor-pointer"
+                    onClick={() => {
+                      setSelectedService("Development");
+                      setShowDropdown(false);
+                      setValue("service", "Development");
+                    }}
+                  >
+                    Development
+                  </span>
+                  <span
+                    className="text-[#6e7582] text-md hover:cursor-pointer"
+                    onClick={() => {
+                      setSelectedService("BPM");
+                      setShowDropdown(false);
+                      setValue("service", "BPM");
+                    }}
+                  >
+                    BPM
+                  </span>
+                  <span
+                    className="text-[#6e7582] text-md hover:cursor-pointer"
+                    onClick={() => {
+                      setSelectedService("Other");
+                      setShowDropdown(false);
+                      setValue("service", "Other");
+                    }}
+                  >
+                    Other
+                  </span>
+                </div>
+              </>
+            )}
+          </div>
           {errors.service && (
-            <span className="text-red-500">Service selection is required</span>
+            <span className="text-red-500">Service Interest is required</span>
           )}
           <textarea
             placeholder="Tell us about your project goals..."
             rows={4}
+            onClick={() => setShowDropdown(false)}
             {...register("message")}
             className="w-full rounded-md p-2 mb-3 outline-none text-black resize-none"
           ></textarea>
