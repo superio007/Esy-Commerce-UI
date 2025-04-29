@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from "react";
-import styles from "./css/CustomerSlider.module.scss"; // Import CSS
+import styles from "./css/CustomerSlider.module.css"; // Import CSS
 import { useLocation } from "react-router-dom";
 const landingBrandslider = ({ CustomerSlider }) => {
   const [brands, setBrands] = useState([]);
