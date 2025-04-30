@@ -5,6 +5,7 @@ import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import { sendMail } from "../../utils/SendFile";
 const postContactForm = async (formattedData) => {
   const { data } = await axios.post(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/contact-from-entries",
@@ -17,31 +18,7 @@ const postContactForm = async (formattedData) => {
   );
   return data;
 };
-const usePostContactForm = () => {
-  return useMutation({
-    mutationFn: postContactForm, // ✅ Correct way to use mutation function
-    onSuccess: () => {
-      Swal.fire({
-        icon: "success",
-        title: "Form Submitted Successfully!",
-        text: "Your contact form has been sent.",
-        confirmButtonText: "OK",
-      });
-    },
-    onError: (error) => {
-      Swal.fire({
-        icon: "error",
-        title: "Submission Failed",
-        text:
-          error.response?.data?.message ||
-          "Something went wrong. Please try again.",
-        confirmButtonText: "OK",
-      });
-    },
-  });
-};
 const Conatct = ({ sectionPoints }) => {
-  const { mutate } = usePostContactForm();
   const {
     register,
     handleSubmit,
@@ -55,17 +32,16 @@ const Conatct = ({ sectionPoints }) => {
   const FullnameValue = watch("name", "");
   const PhoneValue = watch("Phone", "");
   const EmailValue = watch("Email", "");
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
     setLoading(true);
-    emailjs
-      .send(
-        import.meta.env.VITE_SERVICEID, // Replace with your EmailJS Service ID
-        import.meta.env.VITE_CONTACTTEMPLATEID, // Replace with your EmailJS Template ID
-        data,
-        import.meta.env.VITE_PUBLICID // Replace with your EmailJS Public Key
-      )
-      .then(() => console.log("Email sent successfully"))
-      .catch((error) => alert("Error sending email: " + error.text));
+    const sendemailData = {
+      data: {
+        FullName: data.name,
+        Phone: data.Phone,
+        Email: data.Email,
+        FormTemplate: "contact",
+      },
+    };
     const formattedData = {
       data: {
         FullName: data.name,
@@ -73,10 +49,32 @@ const Conatct = ({ sectionPoints }) => {
         Email: data.Email,
       },
     };
-    mutate(formattedData);
-    setLoading(false);
-    reset();
+
+    try {
+      await postContactForm(formattedData);
+      await sendMail(sendemailData);
+
+      Swal.fire({
+        icon: "success",
+        title: "Message Sent!",
+        text: "Thank you for contacting us. We'll get back to you soon.",
+        confirmButtonColor: "#007fff",
+      });
+
+      reset();
+    } catch (error) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong while sending your message.",
+        confirmButtonColor: "#d33",
+      });
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
   };
+
   return (
     <>
       <div className={styles.ConatctPage}>

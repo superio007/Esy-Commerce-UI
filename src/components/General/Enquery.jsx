@@ -3,6 +3,7 @@ import { set, useForm } from "react-hook-form";
 import { useLocation } from "react-router-dom";
 import styles from "./css/EnqueryFrom.module.scss";
 import axios from "axios";
+import { sendMail } from "../../utils/SendFile";
 const postEnqueryForm = async (formattedData) => {
   const { data } = await axios.post(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/enquery-form-entries",
@@ -15,6 +16,7 @@ const postEnqueryForm = async (formattedData) => {
   );
   return data;
 };
+
 const ProposalForm = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedService, setSelectedService] = useState("");
@@ -47,7 +49,11 @@ const ProposalForm = () => {
       },
     };
     console.log(formattedData);
-    // postEnqueryForm(formattedData);
+    postEnqueryForm(formattedData);
+    // Add FormTemplate
+    formattedData.data.FormTemplate = "enquery";
+    sendMail(formattedData);
+    console.log(formattedData);
     // console.log(data);
     reset(); // Reset the form fields after submission
 

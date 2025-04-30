@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import styles from "./css/StickyFrom.module.scss";
 import { encryptData, decryptData } from "../../utils/cryptoUtils";
 import axios from "axios";
+import { sendMail } from "../../utils/SendFile";
 const postStickyForm = async (formattedData) => {
   const { data } = await axios.post(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/sticky-form-entries",
@@ -44,7 +45,6 @@ const StickyFrom = () => {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    console.log("Form Submitted:", data);
     localStorage.setItem("user-token", JSON.stringify(encryptData(data)));
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 2000));
@@ -56,7 +56,10 @@ const StickyFrom = () => {
         PageInfo: pageLoc,
       },
     };
+    console.log(formattedData);
     postStickyForm(formattedData);
+    formattedData.data.FormTemplate = "sticky";
+    sendMail(formattedData);
     setLoading(false);
     reset();
   };

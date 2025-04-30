@@ -43,7 +43,7 @@ const ScrollCircle = () => {
         width: "56px",
         height: "56px",
         cursor: "pointer",
-        zIndex: 1000,
+        zIndex: 99999,
       }}
     >
       <svg height="56" width="56">

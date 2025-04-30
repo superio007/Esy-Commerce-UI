@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Select from "react-select";
 import styles from "./css/PartnerForm.module.css";
 import axios from "axios";
-import emailjs from "@emailjs/browser";
+import { sendMail } from "../../utils/SendFile";
 const postPartnerForm = async (formattedData) => {
   const { data } = await axios.post(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/partner-form-entries",
@@ -101,21 +101,12 @@ const PartnerForm = () => {
       setFileUrl(result.secure_url); // ✅ Store the file URL
       //   console.log("Uploaded File URL:", result.secure_url);
       data.Protfolio = result.secure_url;
-      console.log(data);
+      // console.log(data);
       //   alert("Protfolio uploaded successfully!");
     } catch (error) {
       console.error("Upload Error:", error);
       alert("Failed to upload Protfolio");
     }
-    emailjs
-      .send(
-        import.meta.env.VITE_SERVICEID, // Replace with your EmailJS Service ID
-        import.meta.env.VITE_CONTACTTEMPLATEID, // Replace with your EmailJS Template ID
-        data,
-        import.meta.env.VITE_PUBLICID // Replace with your EmailJS Public Key
-      )
-      .then(() => console.log(""))
-      .catch((error) => alert("Error sending email: " + error.text));
     const formatedData = {
       data: {
         FirstName: data.FirstName,
@@ -138,6 +129,9 @@ const PartnerForm = () => {
       },
     };
     postPartnerForm(formatedData);
+    formatedData.data.FormTemplate = "partnerform";
+    sendMail(formatedData);
+    console.log(formatedData);
     setLoading(false);
     reset();
     reset({ SecondaryServices: [] });

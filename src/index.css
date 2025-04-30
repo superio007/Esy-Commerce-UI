@@ -6,17 +6,20 @@
 @theme {
   --breakpoint-3xl: 1600px;
 }
+
 @media screen and (max-width: 769px) {
   .no-scroll {
     overflow: hidden;
     height: 100vh;
   }
 }
+
 .grecaptcha-badge {
   width: 70px !important;
   overflow: hidden !important;
   transition: all 0.3s ease !important;
   left: 1px !important;
+  z-index: 99999 !important;
 }
 
 .grecaptcha-badge:hover {
