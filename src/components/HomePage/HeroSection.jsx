@@ -1,6 +1,5 @@
 import EnqueryForm from "../General/Enquery";
 import styles from "./css/HeroSection.module.scss";
-import Typewriter from "typewriter-effect";
 import { IoCheckmarkOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
 const HeroSection = ({ heading, subHeading }) => {

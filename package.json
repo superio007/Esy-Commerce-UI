@@ -24,6 +24,7 @@
     "flowbite": "^3.1.2",
     "framer-motion": "^12.4.7",
     "gsap": "^3.12.7",
+    "imagekitio-react": "^4.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-flow-renderer": "^10.3.17",
