@@ -44,7 +44,7 @@ const LandingBrandSlider = ({ CustomerSlider }) => {
         x: ["0%", "-50%"],
         transition: {
           repeat: Infinity,
-          duration: 50,
+          duration: 60,
           ease: "linear",
         },
       });

@@ -42,7 +42,7 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
         x: ["-50%", "0%"], // 🔁 Opposite direction
         transition: {
           repeat: Infinity,
-          duration: 50,
+          duration: 60,
           ease: "linear",
         },
       });

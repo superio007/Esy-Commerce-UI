@@ -17,6 +17,7 @@ const ClientParallax = ({ Slider }) => {
       <div className="md:block hidden">
         <Parallax translateX={["0%", "-50%"]}>
           <div className="flex justify-evenly gap-10  relative">
+            
             {[...brands, ...brands].map((brand, index) => (
               <div className={styles.slide} key={index}>
                 <img src={brand.src} alt={brand.alt} />
