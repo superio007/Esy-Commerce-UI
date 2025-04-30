@@ -56,9 +56,9 @@
 }
 
 .slide img {
-    height: 60px;
-    max-width: 150px;
-    object-fit: contain;
+    height: 30px;
+    /* max-width: 150px; */
+    /* object-fit: contain; */
     filter: grayscale(100%);
     transition: filter 0.3s ease-in-out;
 }
@@ -70,8 +70,8 @@
 /* 🔧 MOBILE STYLES */
 @media (max-width: 768px) {
     .slide img {
-        height: 50px;
-        max-width: 120px;
+        /* height: 50px; */
+        /* max-width: 120px; */
         filter: grayscale(0%) !important;
         /* performance on mobile */
     }
