@@ -72,7 +72,7 @@
   .slide img {
     /* height: 50px; */
     /* max-width: 120px; */
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
     /* disable grayscale on mobile */
   }
 

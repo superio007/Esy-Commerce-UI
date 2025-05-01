@@ -25,7 +25,11 @@ const BulletPoints = ({ apiRes }) => {
         }
       });
 
-      setVisibleIndexes(newVisibleIndexes); // Reset on exit
+      setVisibleIndexes((prev) => {
+        const combined = [...new Set([...prev, ...newVisibleIndexes])];
+        return combined;
+      });
+
     };
 
     window.addEventListener("scroll", handleScroll);
