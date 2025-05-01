@@ -39,6 +39,7 @@ const HomePage = () => {
       <div className={styles.HomePage}>
         {/* Hero Section */}
         <HeroSection
+          title={apiResponse.home_herosection.title}
           heading={apiResponse.home_herosection.home_herosection_headings}
           subHeading={apiResponse.home_herosection.subHeading}
         />

@@ -2,7 +2,7 @@ import EnqueryForm from "../General/Enquery";
 import styles from "./css/HeroSection.module.scss";
 import { IoCheckmarkOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
-const HeroSection = ({ heading, subHeading }) => {
+const HeroSection = ({ heading, subHeading, title }) => {
   const [Points, setPoints] = useState([]);
   useEffect(() => {
     if (heading) {
@@ -17,49 +17,22 @@ const HeroSection = ({ heading, subHeading }) => {
           <div className="px-6 flex md:px-5 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-8 md:mb-0 ">
               <h1 className={styles.LandHeroHeading}>
-                Build, Scale & Transform
+                {title || "Build, Scale & Transform"}
               </h1>
-              {/* <Typewriter
-                options={{
-                  strings: Points || [
-                    `Helping Brands Scale Before They "Sold Out"`,
-                    `Performance-First Ecommerce Consulting`,
-                    `Seamless Ecommerce Operations Support`,
-                    `Tech-Enabled Custom Development`,
-                    `Global-Standard Staff-Off & Data Services`,
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              /> */}
-              {/* <p className={`${styles.LandHerosubheading}`}>
-                Your Brand's Digital Future Starts Here.
-              </p> */}
               <p className={`${styles.LandHerosubheading}`}>
-                {/* {subHeading ||
-                  `From startup hustle to enterprise scale, we power your ecommerce journey with performance-focused consultation, robust operations enablement, full-stack development, and precise data services.`} */}
                 <span style={{ fontStyle: "italic" }}>
-                  your next digital leap with a boost from our expert solutions{" "}
-                  - faster & smarter with zero guesswork
+                  {subHeading ||
+                    `your next digital leap with a boost from our expert solutions{" "}
+                  - faster & smarter with zero guesswork`}
                 </span>
               </p>
               <ul>
-                <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl" />
-                  Business Process Management
-                </li>
-                <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl" />
-                  Full-Stack AI Development
-                </li>
-                <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl" />
-                  Ecommerce Enablement
-                </li>
-                <li className="flex gap-2 items-center">
-                  <IoCheckmarkOutline className="text-white text-2xl" />
-                  Website & App Design{" "}
-                </li>
+                {Points.map((point, index) => (
+                  <li key={index} className="flex gap-2 items-center">
+                    <IoCheckmarkOutline className="text-white text-2xl" />
+                    {point}
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
