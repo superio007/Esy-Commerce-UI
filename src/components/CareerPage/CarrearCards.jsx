@@ -343,7 +343,7 @@ const CarrearCards = () => {
               {/* Button */}
               <div className="w-full mt-auto">
                 <NavLink
-                  to={`/jobs/${volunteer.title}`}
+                  to={`/career/${volunteer.title}`}
                   className="block w-full"
                 >
                   <button className="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
@@ -357,7 +357,7 @@ const CarrearCards = () => {
       </Swiper>
       <div className="flex justify-between items-center py-3">
         <div>
-          <NavLink to={"/jobs"}>
+          <NavLink to={"/career"}>
             <span className="text-[#007fff] border-b border-[#007fff] hover:border-none">
               View All
             </span>

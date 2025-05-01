@@ -35,7 +35,7 @@ const SiteMap = () => {
                 <Link to={"/about"} onClick={handleClick}>
                   <p>About</p>
                 </Link>
-                <Link to={"/jobs"} onClick={handleClick}>
+                <Link to={"/career"} onClick={handleClick}>
                   <p>Career</p>
                 </Link>
                 <Link to={"/blogs"} onClick={handleClick}>

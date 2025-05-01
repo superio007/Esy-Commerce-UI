@@ -131,7 +131,11 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
+                    <div
+                      className={`${
+                        isContactPage ? `bg-[#007fffc7]` : `bg-white`
+                      } px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4`}
+                    >
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
@@ -142,7 +146,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            } rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Consultation (Performance)
                           </Link>
@@ -156,7 +164,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Enablement (Operations)
                           </Link>
@@ -170,7 +182,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Ecommerce Website Development (TechDev)
                           </Link>
@@ -211,7 +227,11 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
+                    <div
+                      className={`${
+                        isContactPage ? `bg-[#007fffc7]` : `bg-white`
+                      } px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4`}
+                    >
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
@@ -222,7 +242,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             YouTube Content Marketing
                           </Link>
@@ -236,7 +260,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             LinkedIn Content Marketing
                           </Link>
@@ -250,7 +278,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Identity, Branding & Communication
                           </Link>
@@ -264,7 +296,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Custom Website Development
                           </Link>
@@ -305,7 +341,11 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
+                    <div
+                      className={`${
+                        isContactPage ? `bg-[#007fffc7]` : `bg-white`
+                      } px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4`}
+                    >
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
@@ -316,7 +356,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             CMS
                           </Link>
@@ -330,7 +374,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             CRM
                           </Link>
@@ -344,7 +392,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Custom Development
                           </Link>
@@ -358,7 +410,11 @@ const Navbar = () => {
                               setIsDevMenu(false);
                               setIsBpmMenu(false);
                             }}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Staff Off Services
                           </Link>
@@ -399,7 +455,11 @@ const Navbar = () => {
                       left: "-25px",
                     }}
                   >
-                    <div className="bg-white px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4">
+                    <div
+                      className={`${
+                        isContactPage ? `bg-[#007fffc7]` : `bg-white`
+                      } px-10 3xl:mx-auto 3xl:max-w-screen-xl py-4`}
+                    >
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
@@ -410,7 +470,11 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/content-migration"}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Content Migration
                           </Link>
@@ -424,7 +488,11 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/translation"}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Translation
                           </Link>
@@ -438,7 +506,11 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/transcription"}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transcription
                           </Link>
@@ -452,7 +524,11 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/transliteration"}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transliteration
                           </Link>
@@ -466,7 +542,11 @@ const Navbar = () => {
                               setIsBpmMenu(false);
                             }}
                             to={"/data-labeling-annotation"}
-                            className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Data Labeling & Annotation
                           </Link>

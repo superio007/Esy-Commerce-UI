@@ -1,5 +1,6 @@
 import styles from "./css/OverviewKeyBenifits.module.scss";
 import Check from "../../assets/CodeOfConduct/Check.lottie";
+import { IoCheckmarkOutline } from "react-icons/io5";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
   return (
@@ -34,7 +35,10 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
                   <ul className={`${styles.overview} list-disc list-inside`}>
                     {overview.overview_points.map((point, index) => (
                       <p key={index}>
-                        <li>{point.Point}</li>
+                        <li className="flex gap-2 items-center">
+                          <IoCheckmarkOutline className="text-[#007fff] text-2xl" />
+                          {point.Point}
+                        </li>
                       </p>
                     ))}
                   </ul>

@@ -1,11 +1,13 @@
-.navHeads,.navHeadsOp {
+.navHeads,
+.navHeadsOp {
   position: relative;
   text-decoration: none;
   padding: 14px;
   /* Ensures space for the border */
 }
 
-.navHeads a,.navHeadsOp a{
+.navHeads a,
+.navHeadsOp a {
   color: white;
 }
 
@@ -34,8 +36,15 @@
 .MenuItemText {
   font-size: 16px;
   color: #1b3139 !important;
-  &:hover{
+  &:hover {
     color: #007fff !important;
+  }
+}
+.MenuItemContact {
+  font-size: 16px;
+  color: #ffffff !important;
+  &:hover {
+    color: #1b3139 !important;
   }
 }
 

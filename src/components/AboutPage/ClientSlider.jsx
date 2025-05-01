@@ -3,16 +3,16 @@ import { useState, useEffect } from "react";
 import styles from "../HomePage/css/CustomerSlider.module.css";
 import CustomerSlider from "../HomePage/CustomerSlider";
 
-const ClientParallax = ({ Slider }) => {
+const ClientParallax = ({ Slider, ClientSlider }) => {
   const [brands, setBrands] = useState([]);
   useEffect(() => {
     const data =
-      Slider?.Images?.map((item) => ({
+      ClientSlider?.Images?.map((item) => ({
         src: item.url,
         alt: item.alternativeText,
       })) || [];
     setBrands(data);
-  }, [Slider]);
+  }, [ClientSlider]);
   return (
     <div className="md:pb-6 xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl overflow-hidden">
       <div className="md:block hidden">

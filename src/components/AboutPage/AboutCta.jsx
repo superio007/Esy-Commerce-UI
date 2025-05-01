@@ -13,7 +13,7 @@ const AboutCta = ({ heading }) => {
                 {heading ||
                   "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today"}
               </h2>
-              <button>
+              {/* <button>
                 <NavLink to="/contact">
                   <span
                     href=""
@@ -22,7 +22,7 @@ const AboutCta = ({ heading }) => {
                     Chat With Us
                   </span>
                 </NavLink>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

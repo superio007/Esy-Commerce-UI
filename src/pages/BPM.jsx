@@ -38,7 +38,7 @@ const BPM = () => {
       <div className="bg-[#007fff]">
         <div className={styles.BPM}>
           <section
-            className={`xl:px-16 p-3 py-[80px] 3xl:mx-auto 3xl:max-w-screen-xl`}
+            className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}
           >
             <div className="px-6 md:px-0">
               <h1

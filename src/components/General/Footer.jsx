@@ -1,7 +1,12 @@
 import WebsitLogo from "../../../src/assets/General/Logo.png";
 import styles from "./css/Footer.module.scss";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn, FaYoutube, FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedinIn,
+  FaYoutube,
+  FaInstagram,
+  FaFacebookF,
+} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import FooterBrands from "../../../src/assets/General/footerBrands.png";
 import { useEffect, useState } from "react";
@@ -48,6 +53,13 @@ const Footer = () => {
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
+                  to={"/career"}
+                  onClick={handleClick}
+                >
+                  <p>Career</p>
+                </Link>
+                <Link
+                  className={styles.hoverNavTag}
                   to={"/contact"}
                   onClick={handleClick}
                 >
@@ -86,6 +98,14 @@ const Footer = () => {
                   target="_blank"
                 >
                   <FaXTwitter className="text-[#00234b] hover:text-[#007fff] text-lg" />
+                </Link>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"https://x.com/EsyCommerce"}
+                  target="_blank"
+                >
+                  <FaFacebookF className="text-[#00234b] hover:text-[#007fff]
+                  text-lg" />
                 </Link>
               </div>
             </div>

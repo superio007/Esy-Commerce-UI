@@ -56,9 +56,9 @@ function App() {
         <Route path="/land" element={<LandPage />} />
         <Route path="/try" element={<Try />} />
         <Route path="/case-studies" element={<CaseStudy />} />
-        <Route path="/jobs" element={<CareerPage />} />
-        <Route path="/jobs/:title" element={<SinglePosting />} />
-        <Route path="/jobs/:title/apply-to" element={<ApplyNowPage />} />
+        <Route path="/career" element={<CareerPage />} />
+        <Route path="/career/:title" element={<SinglePosting />} />
+        <Route path="/career/:title/apply-to" element={<ApplyNowPage />} />
         <Route path="/apply" element={<DirectApply />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactPage />} />

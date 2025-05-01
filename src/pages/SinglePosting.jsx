@@ -1,5 +1,5 @@
 import { useParams, NavLink } from "react-router-dom";
-// import Jobs from "../assets/CareerPage/jobs.json";
+// import Jobs from "../assets/CareerPage/career.json";
 import styles from "../components/CareerPage/css/SinglePosting.module.scss";
 import { FiDownload } from "react-icons/fi";
 import AnimatedBtn from "../components/General/AnimatedBtn";
@@ -279,7 +279,9 @@ const SinglePosting = () => {
                         </div>
                         <div className="flex justify-center ">
                           <NavLink
-                            to={`/jobs/${title.split(" ").join("-")}/apply-to`}
+                            to={`/career/${title
+                              .split(" ")
+                              .join("-")}/apply-to`}
                           >
                             <span className="bg-[#007fff] text-white px-14 py-5 overflow-hidden shadow-lg hover:bg-white hover:text-[#007fff] hover:border-2 hover:border-[#007fff] rounded-4xl">
                               Apply Now
@@ -340,7 +342,7 @@ const SinglePosting = () => {
                       </div>
                       <div className="py-3 flex justify-center md:justify-start">
                         <NavLink
-                          to={`/jobs/${title.split(" ").join("-")}/apply-to`}
+                          to={`/career/${title.split(" ").join("-")}/apply-to`}
                         >
                           <span className="bg-[#007fff] text-white px-14 py-4 rounded-4xl">
                             Apply Now
