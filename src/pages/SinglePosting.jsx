@@ -268,13 +268,13 @@ const SinglePosting = () => {
                       </div>
                       <div className="py-4 flex flex-col  gap-8">
                         <div className="flex md:justify-start justify-center gap-4">
-                          <button
+                          {/* <button
                             onClick={() => openPdfInNewTab("MyCustomPDF")}
                           >
                             <span className="flex gap-2 bg-[#ffffff00]  hover:text-[#007fff] border-[#007fff] cursor-pointer border-1 text-[#007fff] w-[35px] h-[35px] p-2 items-center justify-center rounded-full overflow-hidden shadow-lg">
                               <FiDownload className="text-[20px]" />
                             </span>
-                          </button>
+                          </button> */}
                           <AnimatedBtn />
                         </div>
                         <div className="flex justify-center ">
