@@ -42,7 +42,7 @@ const WhyUs = ({ apiRes }) => {
                   <div className="flex flex-row gap-6 md:gap-0 items-start md:items-start md:flex-col">
                     <div>
                       <img
-                        className="mt-2 w-[150px] md:w-auto"
+                        className="mt-2 max-w-[80px] w-auto"
                         src={point.Icon.url}
                         alt={point.Icon.alternativeText}
                       />
@@ -54,8 +54,8 @@ const WhyUs = ({ apiRes }) => {
                       <p className={`leading-relaxed ${styles.whyUsP}`}>
                         {point.subHeading}
                       </p>
-                      <Link
-                        to={"/contact"}
+                      <a
+                        href="#PhoneNumber"
                         className="text-[#007fff] inline-flex items-center"
                       >
                         Learn More
@@ -70,7 +70,7 @@ const WhyUs = ({ apiRes }) => {
                         >
                           <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
