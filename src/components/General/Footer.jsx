@@ -70,7 +70,7 @@ const Footer = () => {
                   <p>Contact</p>
                 </Link>
               </div>
-              <div className="flex items-baseline gap-3 mt-8 md:mt-0">
+              <div className="flex items-baseline gap-3 my-3 md:mt-0">
                 <Link
                   className={styles.hoverNavTag}
                   to={
@@ -78,7 +78,7 @@ const Footer = () => {
                   }
                   target="_blank"
                 >
-                  <FiLinkedin className="text-[#00234b] hover:text-[#007fff] text-xl" />
+                  <FiLinkedin className="text-[#a0a3aa] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
@@ -87,21 +87,21 @@ const Footer = () => {
                   }
                   target="_blank"
                 >
-                  <FiYoutube className="text-[#00234b] hover:text-[#007fff] text-xl" />
+                  <FiYoutube className="text-[#a0a3aa] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
                   to={"https://www.instagram.com/esycommerce/"}
                   target="_blank"
                 >
-                  <FaInstagram className="text-[#00234b] hover:text-[#007fff] text-xl" />
+                  <FaInstagram className="text-[#a0a3aa] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
                   to={"https://x.com/EsyCommerce"}
                   target="_blank"
                 >
-                  <FaXTwitter className="text-[#00234b] hover:text-[#007fff] text-xl" />
+                  <FaXTwitter className="text-[#a0a3aa] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
@@ -109,7 +109,7 @@ const Footer = () => {
                   target="_blank"
                 >
                   <FiFacebook
-                    className="text-[#00234b] hover:text-[#007fff]
+                    className="text-[#a0a3aa] hover:text-[#007fff]
                   text-xl"
                   />
                 </Link>

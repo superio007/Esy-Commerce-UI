@@ -41,7 +41,7 @@ const BulletPoints = ({ apiRes }) => {
       <div className={`xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl`}>
         <div className="px-6 md:px-0">
           <div className="flex md:flex-row flex-col-reverse items-center">
-            <div className="w-1/2" id="LeftSide">
+            <div className="md:w-1/2" id="LeftSide">
               <img
                 className="h-full w-full"
                 alt={apiRes.sideimage.alternativeText || "hero"}

@@ -19,11 +19,14 @@
   font-size: $font-size-body;
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
-  margin-top: -10px;
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
 @media screen and (max-width:769px) {
-  .LandCMSPara{
-    margin-top: -2px;
+  .LandCMSHeading {
+    margin-bottom: calc($Sub-Section-Vertical-Height/2);
+  }
+    .LandCMSSubheading{
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
   }
 }
