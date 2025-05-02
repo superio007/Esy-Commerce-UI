@@ -1,10 +1,10 @@
 {
   "data": {
-    "id": 8,
+    "id": 10,
     "documentId": "f5886c9g6jgt7zi0erui8zhk",
     "createdAt": "2025-04-24T11:45:54.354Z",
-    "updatedAt": "2025-04-24T12:57:49.401Z",
-    "publishedAt": "2025-04-24T12:57:57.753Z",
+    "updatedAt": "2025-05-01T19:50:35.173Z",
+    "publishedAt": "2025-05-01T19:50:35.197Z",
     "service_hero_section": {
       "id": 55,
       "documentId": "ivcvc5bi4fr7br4vtasb9exy",
@@ -498,13 +498,13 @@
           }
         },
         {
-          "id": 22,
+          "id": 24,
           "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
           "Heading": "End-to-End Services",
           "subHeading": "From strategy to execution, we provide complete business solutions.",
           "createdAt": "2025-04-02T15:53:57.816Z",
-          "updatedAt": "2025-04-28T05:51:38.012Z",
-          "publishedAt": "2025-04-28T05:51:38.031Z",
+          "updatedAt": "2025-04-29T09:29:32.976Z",
+          "publishedAt": "2025-04-29T09:29:32.998Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -515,28 +515,28 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 96,
-            "documentId": "ax560b6p9hthzyc6jpi60zww",
-            "name": "locations.png",
+            "id": 101,
+            "documentId": "cdvb15a0fq2qm8fjq2cu18p9",
+            "name": "adventure.png",
             "alternativeText": "End-to-End Services",
             "caption": null,
             "width": 64,
             "height": 64,
             "formats": null,
-            "hash": "locations_34cbb37b82",
+            "hash": "adventure_bf62d4ca83",
             "ext": ".png",
             "mime": "image/png",
-            "size": 0.93,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745819494/locations_34cbb37b82.png",
+            "size": 0.92,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745918968/adventure_bf62d4ca83.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "locations_34cbb37b82",
+              "public_id": "adventure_bf62d4ca83",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-28T05:51:34.520Z",
-            "updatedAt": "2025-04-28T05:51:34.520Z",
-            "publishedAt": "2025-04-28T05:51:34.521Z"
+            "createdAt": "2025-04-29T09:29:29.122Z",
+            "updatedAt": "2025-04-29T09:29:29.122Z",
+            "publishedAt": "2025-04-29T09:29:29.122Z"
           }
         },
         {
@@ -640,575 +640,409 @@
       ]
     },
     "cta": {
-      "id": 2,
+      "id": 3,
       "documentId": "qnllhsu06im3yhnc8gak65r9",
-      "Heading": "Join 100+ Successful Tech Companies — Start Your Custom Software Journey Today",
+      "Heading": "Join 100+ Tech Companies — Start Your Custom Software Journey Today",
       "createdAt": "2025-04-02T15:50:02.028Z",
-      "updatedAt": "2025-04-02T15:50:02.028Z",
-      "publishedAt": "2025-04-02T15:50:02.114Z"
+      "updatedAt": "2025-04-28T12:38:26.832Z",
+      "publishedAt": "2025-04-28T12:38:26.864Z"
     },
     "customer_slider": {
-      "id": 2,
-      "documentId": "iecn1nn50bxns5xjknuhpeca",
-      "createdAt": "2025-04-04T05:47:34.028Z",
-      "updatedAt": "2025-04-04T05:47:34.028Z",
-      "publishedAt": "2025-04-04T05:47:34.071Z",
+      "id": 51,
+      "documentId": "smcdt8mhj01ozki45ixl6hsi",
+      "createdAt": "2025-05-01T19:38:46.431Z",
+      "updatedAt": "2025-05-01T19:38:46.431Z",
+      "publishedAt": "2025-05-01T19:38:46.477Z",
+      "title": "Staff Off Services",
       "Images": [
         {
-          "id": 17,
-          "documentId": "pmmu4oljogkwe39i3tgvdd55",
-          "name": "Archana_Rao.png",
-          "alternativeText": "Archana_Rao",
+          "id": 192,
+          "documentId": "s0knvkn3caos0kc9jiexmy4a",
+          "name": "Titan.png",
+          "alternativeText": null,
           "caption": null,
-          "width": 500,
-          "height": 202,
+          "width": 334,
+          "height": 143,
           "formats": {
             "thumbnail": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745637/thumbnail_Archana_Rao_7a812aaade.png",
-              "hash": "thumbnail_Archana_Rao_7a812aaade",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/thumbnail_Titan_740c93e20d.png",
+              "hash": "thumbnail_Titan_740c93e20d",
               "mime": "image/png",
-              "name": "thumbnail_Archana_Rao.png",
+              "name": "thumbnail_Titan.png",
               "path": null,
-              "size": 8,
+              "size": 31.7,
               "width": 245,
-              "height": 99,
-              "sizeInBytes": 7998,
+              "height": 105,
+              "sizeInBytes": 31700,
               "provider_metadata": {
-                "public_id": "thumbnail_Archana_Rao_7a812aaade",
+                "public_id": "thumbnail_Titan_740c93e20d",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "Archana_Rao_7a812aaade",
+          "hash": "Titan_740c93e20d",
           "ext": ".png",
           "mime": "image/png",
-          "size": 5.86,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745638/Archana_Rao_7a812aaade.png",
+          "size": 15.91,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/Titan_740c93e20d.png",
           "previewUrl": null,
           "provider": "cloudinary",
           "provider_metadata": {
-            "public_id": "Archana_Rao_7a812aaade",
+            "public_id": "Titan_740c93e20d",
             "resource_type": "image"
           },
-          "createdAt": "2025-04-04T05:47:18.661Z",
-          "updatedAt": "2025-04-04T05:47:18.661Z",
-          "publishedAt": "2025-04-04T05:47:18.662Z"
+          "createdAt": "2025-04-30T14:20:41.845Z",
+          "updatedAt": "2025-04-30T14:20:41.845Z",
+          "publishedAt": "2025-04-30T14:20:41.845Z"
         },
         {
-          "id": 18,
-          "documentId": "hy8qo75vaxbywpl4zj8mox0t",
-          "name": "C2P.png",
-          "alternativeText": "C2P",
+          "id": 191,
+          "documentId": "nyw7vjh70vx1nr2eghyac0lg",
+          "name": "Tasa.png",
+          "alternativeText": null,
           "caption": null,
-          "width": 500,
-          "height": 202,
+          "width": 110,
+          "height": 56,
+          "formats": null,
+          "hash": "Tasa_8d774e1ce2",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 2.04,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/Tasa_8d774e1ce2.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Tasa_8d774e1ce2",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:40.865Z",
+          "updatedAt": "2025-04-30T14:20:40.865Z",
+          "publishedAt": "2025-04-30T14:20:40.865Z"
+        },
+        {
+          "id": 190,
+          "documentId": "e9ah8ucp3bozutr0a65ie9bt",
+          "name": "SWYFT_.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1746,
+          "height": 359,
           "formats": {
-            "thumbnail": {
+            "large": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745638/thumbnail_C2_P_5c66e7bf30.png",
-              "hash": "thumbnail_C2_P_5c66e7bf30",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/large_SWYFT_b2ef558bd3.png",
+              "hash": "large_SWYFT_b2ef558bd3",
               "mime": "image/png",
-              "name": "thumbnail_C2P.png",
+              "name": "large_SWYFT_.png",
               "path": null,
-              "size": 4.35,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 4350,
+              "size": 55.14,
+              "width": 1000,
+              "height": 206,
+              "sizeInBytes": 55136,
               "provider_metadata": {
-                "public_id": "thumbnail_C2_P_5c66e7bf30",
+                "public_id": "large_SWYFT_b2ef558bd3",
                 "resource_type": "image"
               }
-            }
-          },
-          "hash": "C2_P_5c66e7bf30",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 2.87,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745638/C2_P_5c66e7bf30.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "C2_P_5c66e7bf30",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:18.737Z",
-          "updatedAt": "2025-04-04T05:47:18.737Z",
-          "publishedAt": "2025-04-04T05:47:18.737Z"
-        },
-        {
-          "id": 19,
-          "documentId": "xcq1d1wrusqua20w0pib5lv8",
-          "name": "Johi.png",
-          "alternativeText": "Johi",
-          "caption": null,
-          "width": 550,
-          "height": 222,
-          "formats": {
+            },
             "small": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745638/small_Johi_f0965131aa.png",
-              "hash": "small_Johi_f0965131aa",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/small_SWYFT_b2ef558bd3.png",
+              "hash": "small_SWYFT_b2ef558bd3",
               "mime": "image/png",
-              "name": "small_Johi.png",
+              "name": "small_SWYFT_.png",
               "path": null,
-              "size": 10.67,
+              "size": 20,
               "width": 500,
-              "height": 202,
-              "sizeInBytes": 10673,
+              "height": 103,
+              "sizeInBytes": 20001,
               "provider_metadata": {
-                "public_id": "small_Johi_f0965131aa",
+                "public_id": "small_SWYFT_b2ef558bd3",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/medium_SWYFT_b2ef558bd3.png",
+              "hash": "medium_SWYFT_b2ef558bd3",
+              "mime": "image/png",
+              "name": "medium_SWYFT_.png",
+              "path": null,
+              "size": 35.48,
+              "width": 750,
+              "height": 154,
+              "sizeInBytes": 35477,
+              "provider_metadata": {
+                "public_id": "medium_SWYFT_b2ef558bd3",
                 "resource_type": "image"
               }
             },
             "thumbnail": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745638/thumbnail_Johi_f0965131aa.png",
-              "hash": "thumbnail_Johi_f0965131aa",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/thumbnail_SWYFT_b2ef558bd3.png",
+              "hash": "thumbnail_SWYFT_b2ef558bd3",
               "mime": "image/png",
-              "name": "thumbnail_Johi.png",
+              "name": "thumbnail_SWYFT_.png",
               "path": null,
-              "size": 4.52,
+              "size": 8.96,
               "width": 245,
-              "height": 99,
-              "sizeInBytes": 4516,
+              "height": 50,
+              "sizeInBytes": 8958,
               "provider_metadata": {
-                "public_id": "thumbnail_Johi_f0965131aa",
+                "public_id": "thumbnail_SWYFT_b2ef558bd3",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "Johi_f0965131aa",
+          "hash": "SWYFT_b2ef558bd3",
           "ext": ".png",
           "mime": "image/png",
-          "size": 2.88,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745637/Johi_f0965131aa.png",
+          "size": 21.63,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/SWYFT_b2ef558bd3.png",
           "previewUrl": null,
           "provider": "cloudinary",
           "provider_metadata": {
-            "public_id": "Johi_f0965131aa",
+            "public_id": "SWYFT_b2ef558bd3",
             "resource_type": "image"
           },
-          "createdAt": "2025-04-04T05:47:18.822Z",
-          "updatedAt": "2025-04-04T05:47:18.822Z",
-          "publishedAt": "2025-04-04T05:47:18.822Z"
+          "createdAt": "2025-04-30T14:20:40.761Z",
+          "updatedAt": "2025-04-30T14:20:40.761Z",
+          "publishedAt": "2025-04-30T14:20:40.761Z"
         },
         {
-          "id": 20,
-          "documentId": "o6hvazyb0na5yn820q3dv145",
-          "name": "Clensta.png",
-          "alternativeText": "Clensta",
+          "id": 189,
+          "documentId": "ur6gkgyz051nfsq4ehwcyjjy",
+          "name": "SUGAR_Cosmetics_Logo.png",
+          "alternativeText": null,
           "caption": null,
-          "width": 500,
-          "height": 202,
+          "width": 280,
+          "height": 80,
           "formats": {
             "thumbnail": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/thumbnail_Clensta_7c459af65b.png",
-              "hash": "thumbnail_Clensta_7c459af65b",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/thumbnail_SUGAR_Cosmetics_Logo_bbe91e51a2.png",
+              "hash": "thumbnail_SUGAR_Cosmetics_Logo_bbe91e51a2",
               "mime": "image/png",
-              "name": "thumbnail_Clensta.png",
+              "name": "thumbnail_SUGAR_Cosmetics_Logo.png",
               "path": null,
-              "size": 8.3,
+              "size": 5.62,
               "width": 245,
-              "height": 99,
-              "sizeInBytes": 8295,
+              "height": 70,
+              "sizeInBytes": 5622,
               "provider_metadata": {
-                "public_id": "thumbnail_Clensta_7c459af65b",
+                "public_id": "thumbnail_SUGAR_Cosmetics_Logo_bbe91e51a2",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "Clensta_7c459af65b",
+          "hash": "SUGAR_Cosmetics_Logo_bbe91e51a2",
           "ext": ".png",
           "mime": "image/png",
-          "size": 5.9,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/Clensta_7c459af65b.png",
+          "size": 2.67,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/SUGAR_Cosmetics_Logo_bbe91e51a2.png",
           "previewUrl": null,
           "provider": "cloudinary",
           "provider_metadata": {
-            "public_id": "Clensta_7c459af65b",
+            "public_id": "SUGAR_Cosmetics_Logo_bbe91e51a2",
             "resource_type": "image"
           },
-          "createdAt": "2025-04-04T05:47:19.697Z",
-          "updatedAt": "2025-04-04T05:47:19.697Z",
-          "publishedAt": "2025-04-04T05:47:19.697Z"
+          "createdAt": "2025-04-30T14:20:40.005Z",
+          "updatedAt": "2025-04-30T14:20:40.005Z",
+          "publishedAt": "2025-04-30T14:20:40.006Z"
         },
         {
-          "id": 21,
-          "documentId": "xnis7ippbkfulaguqbpavuyp",
-          "name": "The_Good_Leaf.png",
-          "alternativeText": "The_Good_Leaf",
+          "id": 188,
+          "documentId": "lcr5o8s3ngdt51z1lyjtgj9l",
+          "name": "Spherehot.png",
+          "alternativeText": null,
           "caption": null,
-          "width": 550,
-          "height": 222,
+          "width": 190,
+          "height": 38,
+          "formats": null,
+          "hash": "Spherehot_1a29320f58",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 5.59,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/Spherehot_1a29320f58.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Spherehot_1a29320f58",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:39.710Z",
+          "updatedAt": "2025-04-30T14:20:39.710Z",
+          "publishedAt": "2025-04-30T14:20:39.710Z"
+        },
+        {
+          "id": 187,
+          "documentId": "lti6rln6pdu55nqub4or9p5w",
+          "name": "sleepmax.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 165,
+          "height": 35,
+          "formats": null,
+          "hash": "sleepmax_b1da7e680b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.59,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/sleepmax_b1da7e680b.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "sleepmax_b1da7e680b",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:39.477Z",
+          "updatedAt": "2025-04-30T14:20:39.477Z",
+          "publishedAt": "2025-04-30T14:20:39.477Z"
+        },
+        {
+          "id": 186,
+          "documentId": "al91o2yt8okxvgqy66oiprzx",
+          "name": "Sleep Ninja big.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 163,
+          "height": 36,
+          "formats": null,
+          "hash": "Sleep_Ninja_big_ff8e389b42",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.69,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Sleep_Ninja_big_ff8e389b42.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Sleep_Ninja_big_ff8e389b42",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:39.036Z",
+          "updatedAt": "2025-04-30T14:20:39.036Z",
+          "publishedAt": "2025-04-30T14:20:39.036Z"
+        },
+        {
+          "id": 185,
+          "documentId": "tde5o7kvshq5ffqmln5ynm3n",
+          "name": "Singhi Advisors.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 375,
+          "height": 55,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/thumbnail_Singhi_Advisors_acc8c0773a.png",
+              "hash": "thumbnail_Singhi_Advisors_acc8c0773a",
+              "mime": "image/png",
+              "name": "thumbnail_Singhi Advisors.png",
+              "path": null,
+              "size": 12.15,
+              "width": 245,
+              "height": 36,
+              "sizeInBytes": 12146,
+              "provider_metadata": {
+                "public_id": "thumbnail_Singhi_Advisors_acc8c0773a",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Singhi_Advisors_acc8c0773a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 4.16,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Singhi_Advisors_acc8c0773a.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Singhi_Advisors_acc8c0773a",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:38.870Z",
+          "updatedAt": "2025-04-30T14:20:38.870Z",
+          "publishedAt": "2025-04-30T14:20:38.870Z"
+        },
+        {
+          "id": 184,
+          "documentId": "deh7lxfkqu55kljwsnqan0f2",
+          "name": "shipraexports.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 142,
+          "height": 42,
+          "formats": null,
+          "hash": "shipraexports_bbf74d0c40",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1.33,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/shipraexports_bbf74d0c40.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "shipraexports_bbf74d0c40",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:38.599Z",
+          "updatedAt": "2025-04-30T14:20:38.599Z",
+          "publishedAt": "2025-04-30T14:20:38.599Z"
+        },
+        {
+          "id": 183,
+          "documentId": "luc41agn2bojrqwws55lned5",
+          "name": "saamana-logo-web.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 654,
+          "height": 132,
           "formats": {
             "small": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/small_The_Good_Leaf_42a4ad1daa.png",
-              "hash": "small_The_Good_Leaf_42a4ad1daa",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022837/small_saamana_logo_web_fda73d9a2e.png",
+              "hash": "small_saamana_logo_web_fda73d9a2e",
               "mime": "image/png",
-              "name": "small_The_Good_Leaf.png",
+              "name": "small_saamana-logo-web.png",
               "path": null,
-              "size": 18.72,
+              "size": 13.31,
               "width": 500,
-              "height": 202,
-              "sizeInBytes": 18720,
+              "height": 101,
+              "sizeInBytes": 13308,
               "provider_metadata": {
-                "public_id": "small_The_Good_Leaf_42a4ad1daa",
+                "public_id": "small_saamana_logo_web_fda73d9a2e",
                 "resource_type": "image"
               }
             },
             "thumbnail": {
               "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/thumbnail_The_Good_Leaf_42a4ad1daa.png",
-              "hash": "thumbnail_The_Good_Leaf_42a4ad1daa",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022837/thumbnail_saamana_logo_web_fda73d9a2e.png",
+              "hash": "thumbnail_saamana_logo_web_fda73d9a2e",
               "mime": "image/png",
-              "name": "thumbnail_The_Good_Leaf.png",
+              "name": "thumbnail_saamana-logo-web.png",
               "path": null,
-              "size": 6.36,
+              "size": 6.03,
               "width": 245,
-              "height": 99,
-              "sizeInBytes": 6361,
+              "height": 49,
+              "sizeInBytes": 6027,
               "provider_metadata": {
-                "public_id": "thumbnail_The_Good_Leaf_42a4ad1daa",
+                "public_id": "thumbnail_saamana_logo_web_fda73d9a2e",
                 "resource_type": "image"
               }
             }
           },
-          "hash": "The_Good_Leaf_42a4ad1daa",
+          "hash": "saamana_logo_web_fda73d9a2e",
           "ext": ".png",
           "mime": "image/png",
-          "size": 4.04,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/The_Good_Leaf_42a4ad1daa.png",
+          "size": 2.92,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022837/saamana_logo_web_fda73d9a2e.png",
           "previewUrl": null,
           "provider": "cloudinary",
           "provider_metadata": {
-            "public_id": "The_Good_Leaf_42a4ad1daa",
+            "public_id": "saamana_logo_web_fda73d9a2e",
             "resource_type": "image"
           },
-          "createdAt": "2025-04-04T05:47:19.848Z",
-          "updatedAt": "2025-04-04T05:47:19.848Z",
-          "publishedAt": "2025-04-04T05:47:19.849Z"
-        },
-        {
-          "id": 22,
-          "documentId": "uf24pbw3j2f9f9h5okt4yyl4",
-          "name": "Realxwell.png",
-          "alternativeText": "Realxwell",
-          "caption": null,
-          "width": 500,
-          "height": 202,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/thumbnail_Realxwell_98b521e2f8.png",
-              "hash": "thumbnail_Realxwell_98b521e2f8",
-              "mime": "image/png",
-              "name": "thumbnail_Realxwell.png",
-              "path": null,
-              "size": 9.63,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 9628,
-              "provider_metadata": {
-                "public_id": "thumbnail_Realxwell_98b521e2f8",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Realxwell_98b521e2f8",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 8.97,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/Realxwell_98b521e2f8.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Realxwell_98b521e2f8",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:20.590Z",
-          "updatedAt": "2025-04-04T05:47:20.590Z",
-          "publishedAt": "2025-04-04T05:47:20.590Z"
-        },
-        {
-          "id": 23,
-          "documentId": "d5eo571b2tkr4kjnl8yvcnsx",
-          "name": "Vahdam.png",
-          "alternativeText": "Vahdam",
-          "caption": null,
-          "width": 549,
-          "height": 222,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/small_Vahdam_f267a5e0b1.png",
-              "hash": "small_Vahdam_f267a5e0b1",
-              "mime": "image/png",
-              "name": "small_Vahdam.png",
-              "path": null,
-              "size": 24.45,
-              "width": 500,
-              "height": 202,
-              "sizeInBytes": 24445,
-              "provider_metadata": {
-                "public_id": "small_Vahdam_f267a5e0b1",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/thumbnail_Vahdam_f267a5e0b1.png",
-              "hash": "thumbnail_Vahdam_f267a5e0b1",
-              "mime": "image/png",
-              "name": "thumbnail_Vahdam.png",
-              "path": null,
-              "size": 8.04,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 8036,
-              "provider_metadata": {
-                "public_id": "thumbnail_Vahdam_f267a5e0b1",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Vahdam_f267a5e0b1",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 5.76,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745639/Vahdam_f267a5e0b1.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Vahdam_f267a5e0b1",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:20.713Z",
-          "updatedAt": "2025-04-04T05:47:20.713Z",
-          "publishedAt": "2025-04-04T05:47:20.714Z"
-        },
-        {
-          "id": 24,
-          "documentId": "vik1fe0skdg8t1jb75eq00c0",
-          "name": "Sleepy_Owl.png",
-          "alternativeText": "Sleepy_Owl",
-          "caption": null,
-          "width": 500,
-          "height": 202,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/thumbnail_Sleepy_Owl_7013eae8fb.png",
-              "hash": "thumbnail_Sleepy_Owl_7013eae8fb",
-              "mime": "image/png",
-              "name": "thumbnail_Sleepy_Owl.png",
-              "path": null,
-              "size": 8.54,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 8543,
-              "provider_metadata": {
-                "public_id": "thumbnail_Sleepy_Owl_7013eae8fb",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Sleepy_Owl_7013eae8fb",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 6.94,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/Sleepy_Owl_7013eae8fb.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Sleepy_Owl_7013eae8fb",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:21.262Z",
-          "updatedAt": "2025-04-04T05:47:21.262Z",
-          "publishedAt": "2025-04-04T05:47:21.262Z"
-        },
-        {
-          "id": 25,
-          "documentId": "m706gopmrbuwsr7bgbyszq8v",
-          "name": "Stylist_Wardrobe.png",
-          "alternativeText": "Stylist_Wardrobe",
-          "caption": null,
-          "width": 500,
-          "height": 202,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745641/thumbnail_Stylist_Wardrobe_2402df2fb6.png",
-              "hash": "thumbnail_Stylist_Wardrobe_2402df2fb6",
-              "mime": "image/png",
-              "name": "thumbnail_Stylist_Wardrobe.png",
-              "path": null,
-              "size": 9.34,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 9340,
-              "provider_metadata": {
-                "public_id": "thumbnail_Stylist_Wardrobe_2402df2fb6",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Stylist_Wardrobe_2402df2fb6",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 7.69,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/Stylist_Wardrobe_2402df2fb6.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Stylist_Wardrobe_2402df2fb6",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:21.374Z",
-          "updatedAt": "2025-04-04T05:47:21.374Z",
-          "publishedAt": "2025-04-04T05:47:21.375Z"
-        },
-        {
-          "id": 26,
-          "documentId": "bxj05vln518qo6l0arwc33wf",
-          "name": "Jolly_Design.png",
-          "alternativeText": "Jolly_Design",
-          "caption": null,
-          "width": 549,
-          "height": 222,
-          "formats": {
-            "small": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745641/small_Jolly_Design_44f21b8520.png",
-              "hash": "small_Jolly_Design_44f21b8520",
-              "mime": "image/png",
-              "name": "small_Jolly_Design.png",
-              "path": null,
-              "size": 35.43,
-              "width": 500,
-              "height": 202,
-              "sizeInBytes": 35430,
-              "provider_metadata": {
-                "public_id": "small_Jolly_Design_44f21b8520",
-                "resource_type": "image"
-              }
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/thumbnail_Jolly_Design_44f21b8520.png",
-              "hash": "thumbnail_Jolly_Design_44f21b8520",
-              "mime": "image/png",
-              "name": "thumbnail_Jolly_Design.png",
-              "path": null,
-              "size": 11.3,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 11303,
-              "provider_metadata": {
-                "public_id": "thumbnail_Jolly_Design_44f21b8520",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Jolly_Design_44f21b8520",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 8.45,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/Jolly_Design_44f21b8520.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Jolly_Design_44f21b8520",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:21.451Z",
-          "updatedAt": "2025-04-04T05:47:21.451Z",
-          "publishedAt": "2025-04-04T05:47:21.451Z"
-        },
-        {
-          "id": 27,
-          "documentId": "ejntt9qfai2i2gf1sdgm31ck",
-          "name": "Rovectin.png",
-          "alternativeText": "Rovectin",
-          "caption": null,
-          "width": 500,
-          "height": 202,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745640/thumbnail_Rovectin_7ab57d3913.png",
-              "hash": "thumbnail_Rovectin_7ab57d3913",
-              "mime": "image/png",
-              "name": "thumbnail_Rovectin.png",
-              "path": null,
-              "size": 7.77,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 7765,
-              "provider_metadata": {
-                "public_id": "thumbnail_Rovectin_7ab57d3913",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Rovectin_7ab57d3913",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 5.69,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745641/Rovectin_7ab57d3913.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Rovectin_7ab57d3913",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:21.505Z",
-          "updatedAt": "2025-04-04T05:47:21.505Z",
-          "publishedAt": "2025-04-04T05:47:21.505Z"
-        },
-        {
-          "id": 28,
-          "documentId": "z0xrkdky1raaeuxxss7p3gbe",
-          "name": "Vibrant_Living.png",
-          "alternativeText": "Vibrant_Living",
-          "caption": null,
-          "width": 500,
-          "height": 202,
-          "formats": {
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745641/thumbnail_Vibrant_Living_cffd9d8de6.png",
-              "hash": "thumbnail_Vibrant_Living_cffd9d8de6",
-              "mime": "image/png",
-              "name": "thumbnail_Vibrant_Living.png",
-              "path": null,
-              "size": 12.33,
-              "width": 245,
-              "height": 99,
-              "sizeInBytes": 12325,
-              "provider_metadata": {
-                "public_id": "thumbnail_Vibrant_Living_cffd9d8de6",
-                "resource_type": "image"
-              }
-            }
-          },
-          "hash": "Vibrant_Living_cffd9d8de6",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 8.35,
-          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743745641/Vibrant_Living_cffd9d8de6.png",
-          "previewUrl": null,
-          "provider": "cloudinary",
-          "provider_metadata": {
-            "public_id": "Vibrant_Living_cffd9d8de6",
-            "resource_type": "image"
-          },
-          "createdAt": "2025-04-04T05:47:21.873Z",
-          "updatedAt": "2025-04-04T05:47:21.873Z",
-          "publishedAt": "2025-04-04T05:47:21.874Z"
+          "createdAt": "2025-04-30T14:20:38.215Z",
+          "updatedAt": "2025-04-30T14:20:38.215Z",
+          "publishedAt": "2025-04-30T14:20:38.215Z"
         }
       ]
     }

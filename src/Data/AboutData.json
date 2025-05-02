@@ -1559,7 +1559,7 @@
             "resource_type": "image"
           },
           "createdAt": "2025-04-30T14:20:42.657Z",
-          "updatedAt": "2025-04-30T14:20:42.657Z",
+          "updatedAt": "2025-05-01T19:30:24.982Z",
           "publishedAt": "2025-04-30T14:20:42.657Z"
         },
         {
@@ -2362,11 +2362,11 @@
       ]
     },
     "ClientSlider_Rev": {
-      "id": 19,
+      "id": 64,
       "documentId": "t36cd5dkmhk9j4v5su0zdfl0",
       "createdAt": "2025-05-01T19:15:58.003Z",
-      "updatedAt": "2025-05-01T19:24:58.928Z",
-      "publishedAt": "2025-05-01T19:24:58.976Z",
+      "updatedAt": "2025-05-02T11:45:12.421Z",
+      "publishedAt": "2025-05-02T11:45:12.613Z",
       "title": "AboutClientSliderRev",
       "Images": [
         {
@@ -2611,6 +2611,168 @@
           "createdAt": "2025-04-30T14:20:39.477Z",
           "updatedAt": "2025-04-30T14:20:39.477Z",
           "publishedAt": "2025-04-30T14:20:39.477Z"
+        },
+        {
+          "id": 194,
+          "documentId": "epmpsnx5jrrl2w30a5t6qo2p",
+          "name": "Arasan.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 95,
+          "height": 49,
+          "formats": null,
+          "hash": "Arasan_e2be5f6479",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 2.46,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Arasan_e2be5f6479.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Arasan_e2be5f6479",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:42.316Z",
+          "updatedAt": "2025-04-30T14:20:42.316Z",
+          "publishedAt": "2025-04-30T14:20:42.316Z"
+        },
+        {
+          "id": 193,
+          "documentId": "ui96roetq6t6wwob7gc2y0cn",
+          "name": "Venturini.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 808,
+          "height": 191,
+          "formats": {
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/small_Venturini_ab3c2d7afb.png",
+              "hash": "small_Venturini_ab3c2d7afb",
+              "mime": "image/png",
+              "name": "small_Venturini.png",
+              "path": null,
+              "size": 41.51,
+              "width": 500,
+              "height": 118,
+              "sizeInBytes": 41506,
+              "provider_metadata": {
+                "public_id": "small_Venturini_ab3c2d7afb",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/medium_Venturini_ab3c2d7afb.png",
+              "hash": "medium_Venturini_ab3c2d7afb",
+              "mime": "image/png",
+              "name": "medium_Venturini.png",
+              "path": null,
+              "size": 81.31,
+              "width": 750,
+              "height": 177,
+              "sizeInBytes": 81305,
+              "provider_metadata": {
+                "public_id": "medium_Venturini_ab3c2d7afb",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/thumbnail_Venturini_ab3c2d7afb.png",
+              "hash": "thumbnail_Venturini_ab3c2d7afb",
+              "mime": "image/png",
+              "name": "thumbnail_Venturini.png",
+              "path": null,
+              "size": 13.31,
+              "width": 245,
+              "height": 58,
+              "sizeInBytes": 13313,
+              "provider_metadata": {
+                "public_id": "thumbnail_Venturini_ab3c2d7afb",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Venturini_ab3c2d7afb",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 24.79,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/Venturini_ab3c2d7afb.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Venturini_ab3c2d7afb",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:41.897Z",
+          "updatedAt": "2025-04-30T14:20:41.897Z",
+          "publishedAt": "2025-04-30T14:20:41.897Z"
+        },
+        {
+          "id": 186,
+          "documentId": "al91o2yt8okxvgqy66oiprzx",
+          "name": "Sleep Ninja big.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 163,
+          "height": 36,
+          "formats": null,
+          "hash": "Sleep_Ninja_big_ff8e389b42",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.69,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Sleep_Ninja_big_ff8e389b42.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Sleep_Ninja_big_ff8e389b42",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:39.036Z",
+          "updatedAt": "2025-04-30T14:20:39.036Z",
+          "publishedAt": "2025-04-30T14:20:39.036Z"
+        },
+        {
+          "id": 185,
+          "documentId": "tde5o7kvshq5ffqmln5ynm3n",
+          "name": "Singhi Advisors.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 375,
+          "height": 55,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/thumbnail_Singhi_Advisors_acc8c0773a.png",
+              "hash": "thumbnail_Singhi_Advisors_acc8c0773a",
+              "mime": "image/png",
+              "name": "thumbnail_Singhi Advisors.png",
+              "path": null,
+              "size": 12.15,
+              "width": 245,
+              "height": 36,
+              "sizeInBytes": 12146,
+              "provider_metadata": {
+                "public_id": "thumbnail_Singhi_Advisors_acc8c0773a",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Singhi_Advisors_acc8c0773a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 4.16,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Singhi_Advisors_acc8c0773a.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Singhi_Advisors_acc8c0773a",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:38.870Z",
+          "updatedAt": "2025-04-30T14:20:38.870Z",
+          "publishedAt": "2025-04-30T14:20:38.870Z"
         }
       ]
     }

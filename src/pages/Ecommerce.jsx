@@ -71,11 +71,7 @@ const Ecommerce = () => {
                     <div className="flex md:justify-center">
                       <Link to={"/ecommerce-consultation"}>
                         <button class="center-hover-btn">
-                          <span>
-                            <button class="center-hover-btn">
-                              <span>Know More</span>
-                            </button>
-                          </span>
+                          <span>Know More</span>
                         </button>
                       </Link>
                     </div>
