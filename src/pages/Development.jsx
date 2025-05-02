@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import CMS from "../assets/Services/CMSoption.lottie";
-import CRM from "../assets/Services/CRM.png";
+import CRM from "../assets/Services/CRM.lottie";
 import CustomDevelopment from "../assets/Services/CustomeDevelopment.lottie";
 import StaffOffServices from "../assets/Services/StaffOffService.lottie";
 import axios from "axios";
@@ -35,9 +35,7 @@ const Development = () => {
     <>
       <div className="bg-[#007fff]">
         <div className={styles.Development}>
-          <section
-            className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}
-          >
+          <section className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}>
             <div className="px-6 md:px-0">
               <h1
                 className={`${styles.DevelopmentHeading} text-center text-white capitalize`}
@@ -69,11 +67,10 @@ const Development = () => {
                       without touching code.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/cms"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
-                      >
-                        Know More
+                      <Link to={"/cms"}>
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -91,11 +88,12 @@ const Development = () => {
               <section className={styles.DivSpace}>
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
-                    <img
+                    <DotLottieReact src={CRM} loop autoplay />
+                    {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
                       src={CRM}
-                    />
+                    /> */}
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left ">
                     <h2 className={styles.DevelopmentH2Middle}>
@@ -111,11 +109,10 @@ const Development = () => {
                       through the cracks.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/crm"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
-                      >
-                        Know More
+                      <Link to={"/crm"}>
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -139,11 +136,10 @@ const Development = () => {
                       build it.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/custom-development"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
-                      >
-                        Know More
+                      <Link to={"/custom-development"}>
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -186,11 +182,10 @@ const Development = () => {
                       tailored to your business processes and goals.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/staff-off-services"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
-                      >
-                        Know More
+                      <Link to={"/staff-off-services"}>
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>

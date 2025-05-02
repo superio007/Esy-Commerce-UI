@@ -124,12 +124,9 @@ const Navbar = () => {
                 </a>
                 {isEcommMenuOpen && (
                   <div
-                    style={{
-                      position: "absolute",
-                      width: "max-content",
-                      top: "3.28rem",
-                      left: "-25px",
-                    }}
+                    className={`absolute w-max ${
+                      isContactPage ? "top-[4.5rem]" : "top-[3.28rem]"
+                    } left-[-25px]`}
                   >
                     <div
                       className={`${
@@ -220,12 +217,9 @@ const Navbar = () => {
                 </a>
                 {isDesignMenuOpen && (
                   <div
-                    style={{
-                      position: "absolute",
-                      width: "max-content",
-                      top: "3.28rem",
-                      left: "-25px",
-                    }}
+                    className={`absolute w-max ${
+                      isContactPage ? "top-[4.5rem]" : "top-[3.28rem]"
+                    } left-[-25px]`}
                   >
                     <div
                       className={`${
@@ -334,12 +328,9 @@ const Navbar = () => {
                 </a>
                 {isDevMenuOpen && (
                   <div
-                    style={{
-                      position: "absolute",
-                      width: "max-content",
-                      top: "3.28rem",
-                      left: "-25px",
-                    }}
+                    className={`absolute w-max ${
+                      isContactPage ? "top-[4.5rem]" : "top-[3.28rem]"
+                    } left-[-25px]`}
                   >
                     <div
                       className={`${
@@ -448,12 +439,9 @@ const Navbar = () => {
                 </a>
                 {isBpmMenuOpen && (
                   <div
-                    style={{
-                      position: "absolute",
-                      width: "max-content",
-                      top: "3.28rem",
-                      left: "-25px",
-                    }}
+                    className={`absolute w-max ${
+                      isContactPage ? "top-[4.5rem]" : "top-[3.28rem]"
+                    } left-[-25px]`}
                   >
                     <div
                       className={`${

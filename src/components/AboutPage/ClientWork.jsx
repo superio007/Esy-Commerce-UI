@@ -1,4 +1,5 @@
 import styles from "./css/ClientWorkSection.module.scss";
+import { Link } from "react-router-dom";
 export default function ClientWorkSection({ points, heading }) {
   function highlightLastWord(text) {
     const words = text.trim().split(" ");
@@ -14,7 +15,12 @@ export default function ClientWorkSection({ points, heading }) {
           <div className="px-6 md:px-0 flex flex-col md:flex-row items-start md:items-center justify-between ">
             <div className="md:w-1/2">
               {points.map((point, index) => (
-                <p key={index} className={`${styles.pointP} ${index === 0 ? "mt-0" : "mt-4"}`}>
+                <p
+                  key={index}
+                  className={`${styles.pointP} ${
+                    index === 0 ? "mt-0" : "mt-4"
+                  }`}
+                >
                   {point.Point}
                 </p>
               ))}
@@ -30,10 +36,13 @@ export default function ClientWorkSection({ points, heading }) {
                   )}`,
                 }}
               />
-              <button className="mt-6 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg  space-x-2 hover:bg-blue-700 transition">
-                <span>Contact us</span>
-                <span className="ml-2">→</span>
-              </button>
+              <Link to={"/contact"}>
+                <button className="mt-6 px-6 py-3 font-medium rounded-lg center-hover-btn transition">
+                  <span>
+                    Contact us <span className="ml-2">→</span>
+                  </span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

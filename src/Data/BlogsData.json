@@ -1,210 +1,187 @@
 {
   "data": [
     {
-      "id": 4,
+      "id": 21,
       "documentId": "zlg0mrbfluhv8fas08ccmxtp",
-      "Blogstructure": "![mvp-thumbnail-red-3-2-1024x576.jpg](https://res.cloudinary.com/dvnmujzxe/image/upload/v1743072988/mvp_thumbnail_red_3_2_1024x576_2b8f0e1149.jpg)\n\n### Can India REALLY compete in the AI wars?\n\nLast year in June, venture capitalist Rajan Anandan asked OpenAI’s CEO Sam Altman a loaded question: Can India build an artificial intelligence tool like ChatGPT? Altman’s responded that he finds it a little hopeless! Satyam’s former CEO, CP Gurnani, wasn’t about to take this lying down. He tweeted that he accepts the challenge. \n\n![image.png](https://res.cloudinary.com/dvnmujzxe/image/upload/v1743073317/image_386a375efd.png)\n\n Altman tried to explain, by  saying that he was talking about India’s funding capacity, and not the potential of Indian AI enthusiasts. But if you think about it critically, you might realize that Sam was kind of right. Before we dive into the numbers, let’s rewind and understand how we exactly is we got here. How did AI Involve into this tech juggernaut? \n\n**Importance of Research**\n\nThe current AI hype, powered by these Large Language Models or LLMs,  started with a research paper. It came from the University of Toronto, authored by Geoffrey Hinton- the “Godfather of modern AI” – along with Ilya Sutskever of Open AI fame and Alex Krizhevsky (that’s where the name AlexNet comes from). They took an old AI algorithm and sort of supercharged it using just two NVIDIA GPUs. \n\nBut here’s the key word: RESEARCH. How many Universities do you know  in India known for their cutting edge, competition winning or patent awarded, commercially implementable research in Artificial Intelligence? \n\n**India’s Resource Constraints**\n\nIndia does not have the resources; because India ALWAYS exports it’s best resources.\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mlNBw7HfvG0?si=w3I-ANy4moEs4DqB\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "Blogstructure": "<p><span data-contrast=\"auto\">The world of artificial intelligence is exploding right in front of our eyes. Companies like OpenAI, Mistral and Inflection are kind of becoming known names.&nbsp;</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span><span data-contrast=\"auto\">But beneath the surface of this revolution, there’s a complex web. A web of relationships, acquisitions, and power moves that are reshaping the AI industry.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><strong>Let’s zoom in into the timeline.&nbsp;</strong><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">It’s the July of 2024, and the AI landscape looks somewhat like a big web diagram. Tech giants like Microsoft and Google are racing to dominate this up-and-coming field and you will see a repetitive patter emerging.&nbsp;People are moving. And not just any people, these are founders and key players. And they’re not moving to small more exciting startups with a lot of potential. They’re moving up the chain, they’re moving to the boring big sluggish tech giants.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">Let’s rewind a little bit over here and come back to 2010</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">Three researchers (‎Mustafa Suleyman, ‎Demis Hassabis, ‎Shane Legg) founded a company called DeepMind. Fast forward to 2014, and Google all of a sudden acquires them. This pattern of tech giants absorbing AI talent isn’t relatively new as you can see, but it is accelerating.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">Now, let’s come back to 2023.</span></p><p><span data-contrast=\"auto\">Last year Mustafa Suleyman, one of Google DeepMind’s original co-founders, had left Google and co-founded a company called Inflection AI.&nbsp;In a sudden move, Mustafa leaves Inflection AI along with his entire core team to join Microsoft and becomes the CEO of Microsoft’s Consumer AI division. This isn’t just a single job change. It’s a seismic shift in how companies do business especially when they see blood in the water.&nbsp;Blood in the form of artificial intelligence.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">But here’s where it gets really murky.&nbsp;</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">Another Inflection co-founder, Reid Hoffman comes into the picture. Now he’s not just any tech entrepreneur. He sits on the board of Microsoft.&nbsp;&nbsp;</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\"> </span><span data-contrast=\"auto\">And while he sits on the board of Microsoft he’s also investing in AI startups that use Open AI’s technology – a company that Microsoft themselves are heavily invested in to the tune of $10 billion. Do you see the conflicts rising?</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"none\">Fortune Magazine covered this in December 2023 that Hoffman is one of those high-flying VCs who have served on the board of major tech companies while also backing AI startups through their own investment firms.&nbsp;And you see this web of conflicts really stretches far beyond just one or two players.&nbsp;look at&nbsp;</span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://fortune.com/2023/12/16/silicon-valley-big-tech-ai-boardrooms-conflicts-microsoft-hoffman-meta-andreessen-alphabet-kleiner-perkins/\"><span data-contrast=\"none\">Marc Andreessen</span></a><span data-contrast=\"none\">&nbsp;over here. A general partner at Andreessen Horowitz. One of the most influential venture capital firms in Silicon Valley. Andreessen sits on Meta’s board.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span><span data-contrast=\"none\">But here’s where it gets a little murky. His firm has poured hundreds over millions of dollars into OpenAI, Mistral AI, and Character AI and All of these companies are direct competitors to Meta’s own AI efforts.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"none\">But it doesn’t stop there.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"none\">Kleiner Perkins, another heavyweight in the VC world, has invested in Together AI. A generative AI cloud platform company. Sounds innocent enough right? Not when you see that Kleiner Perkins’ chair, John Doerr, sits on the board of Alphabet – Google’s parent company.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"none\">And guess what? Google Cloud is a direct competitor to Together AI.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"none\">This isn’t just about a few isolated cases. It’s sort of a pattern if you zoom out and its repeating itself across the entire AI industry. Venture capitalists, board members, and executives are play multiple roles, often with competing interests.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span><span data-contrast=\"none\">And just as we were researching about this growing pattern of acquihire in the industry, Amazon just happened to make another power move. It snatched up a massive chunk of Adept, a red-hot AI startup that was seen as a serious competitor to OpenAI. We’re not talking about a couple of engineers here . Amazon snagged a&nbsp;</span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.theverge.com/2024/7/1/24190060/amazon-adept-ai-acquisition-playbook-microsoft-inflection\"><span data-contrast=\"none\">whopping 66% of Adept’s entire team</span></a><span data-contrast=\"none\">!</span>&nbsp;<span data-contrast=\"none\">Now, Adept wasn’t exactly some basement operation. These guys were the real deal. Just last year they raised 350 million from some of the biggest names in Silicon Valley. Bringing their total raise to a cool 400 mil&nbsp;</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"none\">Now the question we need to ask is how can these individuals make unbiased decision when they have stakes in competing companies and more importantly what does this mean for Innovation Fair competition and the overall future of AI?</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><strong>Open AI internal drama</strong><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:0,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:279}\">&nbsp;</span></p><p><span data-contrast=\"auto\">OpenAI, once a non-profit research lab, is now at the center of its own drama. Recently, Open AI’s research scientist and Co-founder, John Schulman left Open AI and Joined Antrophic, an AI startup that’s famously backed by Amazon.&nbsp; Also, a few months back Co-founder Ilya Sutskever the same guy who wrote the Revolutionary paper that sort of got the whole generative AI thing going along with a key safety team member Jan Leike left open AI. Whistleblowers alleged that the culture of recklessness and secrecy sort of mars the entire origination.&nbsp;</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p><span data-contrast=\"auto\">And remember Elon Musk? He too co-founded OpenAI but left in 2018, citing conflicts of interest with his work at Tesla.</span><span data-ccp-props=\"{&quot;335559738&quot;:240,&quot;335559739&quot;:240}\">&nbsp;</span></p><p style=\"text-align:center;\">&nbsp;</p>",
       "Title": "Why India will NEVER create ChatGPT OpenAI o1 Preview | India vs Silicon Valley in AI Development",
-      "createdAt": "2025-03-27T11:44:38.268Z",
-      "updatedAt": "2025-03-27T11:44:38.268Z",
-      "publishedAt": "2025-03-27T11:44:38.814Z",
-      "Shortdescription": "Can India REALLY compete in the AI wars?  Last year in June, venture capitalist Rajan Anandan asked OpenAI’s CEO Sam Altman a loaded question: Can India build an artificial intelligence tool like ChatGPT? Altman’s responded that he finds it a little hopeless! Satyam’s former CEO, CP Gurnani, wasn’t about to take this lying down. He tweeted that he accepts the challenge.",
+      "createdAt": "2025-03-27T17:14:38.268Z",
+      "updatedAt": "2025-04-16T12:50:31.039Z",
+      "publishedAt": "2025-04-16T12:50:31.061Z",
+      "Shortdescription": "Can India REALLY compete in the AI wars?  Last year in June, venture capitalist Rajan Anandan asked OpenAI’s CEO Sam Altman a loaded question: Can India build an artificial intelligence tool like ChatGPT? Altman’s responded that he finds it a little hopel",
+      "ytLink": null,
       "blog_categories": [
         {
           "id": 2,
           "documentId": "bknu9kezxphc3po3vozxn9dd",
           "CatagoryName": "Artificial Intelligence",
-          "createdAt": "2025-03-27T10:49:24.919Z",
-          "updatedAt": "2025-03-27T10:49:24.919Z",
-          "publishedAt": "2025-03-27T10:49:25.454Z"
+          "createdAt": "2025-03-27T16:19:24.919Z",
+          "updatedAt": "2025-03-27T16:19:24.919Z",
+          "publishedAt": "2025-03-27T16:19:25.454Z"
         },
         {
           "id": 4,
           "documentId": "d5yo82q9akfz0xgfoq1i94zf",
           "CatagoryName": "Machine Learning",
-          "createdAt": "2025-03-27T10:49:45.521Z",
-          "updatedAt": "2025-03-27T10:49:45.521Z",
-          "publishedAt": "2025-03-27T10:49:45.748Z"
+          "createdAt": "2025-03-27T16:19:45.521Z",
+          "updatedAt": "2025-03-27T16:19:45.521Z",
+          "publishedAt": "2025-03-27T16:19:45.748Z"
         }
       ],
       "blog_tags": [
         {
-          "id": 2,
-          "documentId": "s7bp3bvug91qmaaev9ki3830",
-          "Tags": "AI and Society",
-          "createdAt": "2025-03-27T10:50:32.218Z",
-          "updatedAt": "2025-03-27T10:50:32.218Z",
-          "publishedAt": "2025-03-27T10:50:32.478Z"
-        },
-        {
-          "id": 4,
-          "documentId": "yhlttn7fzljm2jlzpvzmp04i",
-          "Tags": "AI Evolution",
-          "createdAt": "2025-03-27T10:50:45.178Z",
-          "updatedAt": "2025-03-27T10:50:45.178Z",
-          "publishedAt": "2025-03-27T10:50:45.746Z"
-        },
-        {
           "id": 10,
           "documentId": "qgywubwd9awl75iqvpe8xkoh",
           "Tags": "artificial intelligence",
-          "createdAt": "2025-03-27T10:51:17.218Z",
-          "updatedAt": "2025-03-27T10:51:17.218Z",
-          "publishedAt": "2025-03-27T10:51:17.569Z"
+          "createdAt": "2025-03-27T16:21:17.218Z",
+          "updatedAt": "2025-03-27T16:21:17.218Z",
+          "publishedAt": "2025-03-27T16:21:17.569Z"
         },
         {
           "id": 22,
           "documentId": "h53w9iueymr7epqkrchblm1t",
           "Tags": "Sam Altman",
-          "createdAt": "2025-03-27T10:52:24.033Z",
-          "updatedAt": "2025-03-27T10:52:24.033Z",
-          "publishedAt": "2025-03-27T10:52:24.178Z"
+          "createdAt": "2025-03-27T16:22:24.033Z",
+          "updatedAt": "2025-03-27T16:22:24.033Z",
+          "publishedAt": "2025-03-27T16:22:24.178Z"
         },
         {
           "id": 20,
           "documentId": "to28pdvkyn1yo4568h8mx9yf",
           "Tags": "Open AI o1 Preview",
-          "createdAt": "2025-03-27T10:52:14.367Z",
-          "updatedAt": "2025-03-27T10:52:14.367Z",
-          "publishedAt": "2025-03-27T10:52:14.616Z"
+          "createdAt": "2025-03-27T16:22:14.367Z",
+          "updatedAt": "2025-03-27T16:22:14.367Z",
+          "publishedAt": "2025-03-27T16:22:14.616Z"
         },
         {
           "id": 6,
           "documentId": "s35fcda4h5mnls7fbunqdrud",
           "Tags": "AI jobs",
-          "createdAt": "2025-03-27T10:50:55.578Z",
-          "updatedAt": "2025-03-27T10:50:55.578Z",
-          "publishedAt": "2025-03-27T10:50:55.975Z"
-        },
-        {
-          "id": 16,
-          "documentId": "rrp793z8rmlrdr934ei9twg9",
-          "Tags": "machine learning",
-          "createdAt": "2025-03-27T10:51:50.867Z",
-          "updatedAt": "2025-03-27T10:51:50.867Z",
-          "publishedAt": "2025-03-27T10:51:52.392Z"
+          "createdAt": "2025-03-27T16:20:55.578Z",
+          "updatedAt": "2025-03-27T16:20:55.578Z",
+          "publishedAt": "2025-03-27T16:20:55.975Z"
         },
         {
           "id": 12,
           "documentId": "g80gfdll3w4bb12v2yivsyj2",
           "Tags": "CP Gurnani",
-          "createdAt": "2025-03-27T10:51:27.280Z",
-          "updatedAt": "2025-03-27T10:51:27.280Z",
-          "publishedAt": "2025-03-27T10:51:27.799Z"
+          "createdAt": "2025-03-27T16:21:27.280Z",
+          "updatedAt": "2025-03-27T16:21:27.280Z",
+          "publishedAt": "2025-03-27T16:21:27.799Z"
         },
         {
           "id": 14,
           "documentId": "m0fvuu5aqoofn3ttmxfx2h9b",
           "Tags": "LLM",
-          "createdAt": "2025-03-27T10:51:38.003Z",
-          "updatedAt": "2025-03-27T10:51:38.003Z",
-          "publishedAt": "2025-03-27T10:51:41.045Z"
+          "createdAt": "2025-03-27T16:21:38.003Z",
+          "updatedAt": "2025-03-27T16:21:38.003Z",
+          "publishedAt": "2025-03-27T16:21:41.045Z"
         },
         {
           "id": 8,
           "documentId": "s0pmnx686tm7vguhx1iualx9",
           "Tags": "AI News",
-          "createdAt": "2025-03-27T10:51:07.671Z",
-          "updatedAt": "2025-03-27T10:51:07.671Z",
-          "publishedAt": "2025-03-27T10:51:07.958Z"
+          "createdAt": "2025-03-27T16:21:07.671Z",
+          "updatedAt": "2025-03-27T16:21:07.671Z",
+          "publishedAt": "2025-03-27T16:21:07.958Z"
         },
         {
           "id": 18,
           "documentId": "xhlplm1mg704uf3j8czhkb4l",
           "Tags": "Open AI",
-          "createdAt": "2025-03-27T10:52:03.770Z",
-          "updatedAt": "2025-03-27T10:52:03.770Z",
-          "publishedAt": "2025-03-27T10:52:04.451Z"
+          "createdAt": "2025-03-27T16:22:03.770Z",
+          "updatedAt": "2025-03-27T16:22:03.770Z",
+          "publishedAt": "2025-03-27T16:22:04.451Z"
         }
       ],
       "CoverImage": {
-        "id": 1,
-        "documentId": "f7y83aur6hf8z8j439gf65wx",
-        "name": "mvp-thumbnail-red-3-2-1024x576.jpg",
-        "alternativeText": "mvp-thumbnail-red-3-2-1024x576.jpg",
+        "id": 36,
+        "documentId": "qz3qun4c2cxdfx9vt37cet88",
+        "name": "VideoThumbNail.jpg",
+        "alternativeText": "VideoThumbNail.jpg",
         "caption": null,
-        "width": 1024,
-        "height": 576,
+        "width": 1280,
+        "height": 720,
         "formats": {
           "large": {
             "ext": ".jpg",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743072988/large_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149.jpg",
-            "hash": "large_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744807826/large_Video_Thumb_Nail_5ab8ba8d5e.jpg",
+            "hash": "large_Video_Thumb_Nail_5ab8ba8d5e",
             "mime": "image/jpeg",
-            "name": "large_mvp-thumbnail-red-3-2-1024x576.jpg",
+            "name": "large_VideoThumbNail.jpg",
             "path": null,
-            "size": 85.91,
+            "size": 84.12,
             "width": 1000,
             "height": 563,
-            "sizeInBytes": 85911,
+            "sizeInBytes": 84119,
             "provider_metadata": {
-              "public_id": "large_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+              "public_id": "large_Video_Thumb_Nail_5ab8ba8d5e",
               "resource_type": "image"
             }
           },
           "small": {
             "ext": ".jpg",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743072988/small_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149.jpg",
-            "hash": "small_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744807826/small_Video_Thumb_Nail_5ab8ba8d5e.jpg",
+            "hash": "small_Video_Thumb_Nail_5ab8ba8d5e",
             "mime": "image/jpeg",
-            "name": "small_mvp-thumbnail-red-3-2-1024x576.jpg",
+            "name": "small_VideoThumbNail.jpg",
             "path": null,
-            "size": 31.32,
+            "size": 29.85,
             "width": 500,
             "height": 281,
-            "sizeInBytes": 31320,
+            "sizeInBytes": 29848,
             "provider_metadata": {
-              "public_id": "small_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+              "public_id": "small_Video_Thumb_Nail_5ab8ba8d5e",
               "resource_type": "image"
             }
           },
           "medium": {
             "ext": ".jpg",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743072988/medium_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149.jpg",
-            "hash": "medium_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744807826/medium_Video_Thumb_Nail_5ab8ba8d5e.jpg",
+            "hash": "medium_Video_Thumb_Nail_5ab8ba8d5e",
             "mime": "image/jpeg",
-            "name": "medium_mvp-thumbnail-red-3-2-1024x576.jpg",
+            "name": "medium_VideoThumbNail.jpg",
             "path": null,
-            "size": 56.55,
+            "size": 54.35,
             "width": 750,
             "height": 422,
-            "sizeInBytes": 56548,
+            "sizeInBytes": 54349,
             "provider_metadata": {
-              "public_id": "medium_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+              "public_id": "medium_Video_Thumb_Nail_5ab8ba8d5e",
               "resource_type": "image"
             }
           },
           "thumbnail": {
             "ext": ".jpg",
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743072987/thumbnail_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149.jpg",
-            "hash": "thumbnail_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744807826/thumbnail_Video_Thumb_Nail_5ab8ba8d5e.jpg",
+            "hash": "thumbnail_Video_Thumb_Nail_5ab8ba8d5e",
             "mime": "image/jpeg",
-            "name": "thumbnail_mvp-thumbnail-red-3-2-1024x576.jpg",
+            "name": "thumbnail_VideoThumbNail.jpg",
             "path": null,
-            "size": 11.06,
+            "size": 10,
             "width": 245,
             "height": 138,
-            "sizeInBytes": 11061,
+            "sizeInBytes": 10003,
             "provider_metadata": {
-              "public_id": "thumbnail_mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+              "public_id": "thumbnail_Video_Thumb_Nail_5ab8ba8d5e",
               "resource_type": "image"
             }
           }
         },
-        "hash": "mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+        "hash": "Video_Thumb_Nail_5ab8ba8d5e",
         "ext": ".jpg",
         "mime": "image/jpeg",
-        "size": 89.71,
-        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1743072988/mvp_thumbnail_red_3_2_1024x576_2b8f0e1149.jpg",
+        "size": 122.18,
+        "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1744807826/Video_Thumb_Nail_5ab8ba8d5e.jpg",
         "previewUrl": null,
         "provider": "cloudinary",
         "provider_metadata": {
-          "public_id": "mvp_thumbnail_red_3_2_1024x576_2b8f0e1149",
+          "public_id": "Video_Thumb_Nail_5ab8ba8d5e",
           "resource_type": "image"
         },
-        "createdAt": "2025-03-27T10:56:29.132Z",
-        "updatedAt": "2025-03-27T10:56:29.132Z",
-        "publishedAt": "2025-03-27T10:56:29.133Z"
+        "createdAt": "2025-04-16T12:50:26.866Z",
+        "updatedAt": "2025-04-16T12:50:26.866Z",
+        "publishedAt": "2025-04-16T12:50:26.867Z"
       }
     }
   ],

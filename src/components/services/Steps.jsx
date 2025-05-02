@@ -53,9 +53,9 @@ const Steps = ({ apiRes }) => {
             </div>
           </div>
           <div className={`${styles.stepsButton} flex justify-center`}>
-            <button className="bg-[#007fff] text-white py-4 px-12 rounded-xl">
-              <a href="#PhoneNumber">Let's Talk</a>
-            </button>
+            <a href="#PhoneNumber" class="center-hover-btn">
+              <span>Let's Talk</span>
+            </a>
           </div>
         </div>
       </div>

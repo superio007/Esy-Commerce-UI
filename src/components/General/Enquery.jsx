@@ -172,9 +172,9 @@ const ProposalForm = () => {
           <div className="flex flex-col xl:flex-row">
             <button
               type="submit"
-              className="bg-[#007fff] text-white py-2 px-5 rounded-md uppercase font-bold hover:bg-[#006ae0] transition duration-300"
+              className=" rounded-md uppercase font-bold center-hover-btn transition duration-300"
             >
-              Get Your Free Proposal
+              <span>Get Your Free Proposal</span>
             </button>
           </div>
         </form>

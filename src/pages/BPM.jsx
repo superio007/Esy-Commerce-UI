@@ -74,9 +74,11 @@ const BPM = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/content-migration"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -118,9 +120,11 @@ const BPM = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/translation"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -146,9 +150,11 @@ const BPM = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/transcription"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -189,9 +195,11 @@ const BPM = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/transliteration"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -217,9 +225,11 @@ const BPM = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/data-labeling-annotation"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>

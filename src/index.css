@@ -25,3 +25,41 @@
 .grecaptcha-badge:hover {
   width: 256px !important;
 }
+
+.center-hover-btn {
+  position: relative;
+  overflow: hidden;
+  padding: 14px 32px;
+  background-color: #007fff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.center-hover-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #0066FF;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.center-hover-btn span {
+  position: relative;
+  z-index: 2;
+  /* Ensure text stays above the spreading bg */
+}
+
+.center-hover-btn:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}

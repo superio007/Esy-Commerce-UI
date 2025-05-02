@@ -341,8 +341,8 @@ const careerPage = () => {
                         )}`}
                         className="block w-full"
                       >
-                        <button className="w-full px-6 py-3 bg-[#007fff] hover:cursor-pointer text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
-                          View details
+                        <button className="w-full px-6 py-3 center-hover-btn">
+                          <span>View details</span>
                         </button>
                       </NavLink>
                     </div>
@@ -531,8 +531,8 @@ const careerPage = () => {
                           )}`}
                           className="block w-full"
                         >
-                          <button className="w-full px-6 py-3 bg-[#007fff] hover:cursor-pointer text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300">
-                            View details
+                          <button className="w-full px-6 py-3 center-hover-btn">
+                            <span>View details</span>
                           </button>
                         </NavLink>
                       </div>

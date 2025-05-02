@@ -30,7 +30,11 @@ const BlogCards = ({ study }) => {
             hover ? "opacity-100" : "opacity-0"
           }`}
         >
-          <h3 className="text-lg font-bold">{study.title}</h3>
+          <h3 className="text-lg font-bold">
+            <Link to={`/blogs/${study.title.split(" ").join("-")}`}>
+              {study.title}
+            </Link>
+          </h3>
           <div className="relative w-full">
             <div className="flex flex-wrap gap-2 mt-2">
               {study.tags.map((tag, index) => (

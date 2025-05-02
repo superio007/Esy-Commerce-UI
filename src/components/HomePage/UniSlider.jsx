@@ -1,9 +1,9 @@
 import { React, useEffect, useState } from "react";
-import styles from "./css/CustomerSliderRev.module.css";
+import styles from "./css/CustomerSlider.module.css";
 import { useLocation } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
 
-const CustomerSliderRev = ({ CustomerSlider }) => {
+const LandingBrandSlider = ({ CustomerSlider }) => {
   const [brands, setBrands] = useState([]);
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const controls = useAnimation();
@@ -19,6 +19,7 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
     setBrands(data);
   }, [CustomerSlider]);
 
+  // Load detection for all images
   useEffect(() => {
     let loaded = 0;
     const total = brands.length;
@@ -36,13 +37,14 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
     });
   }, [brands]);
 
+  // Start animation when images are ready
   useEffect(() => {
     if (imagesLoaded) {
       controls.start({
-        x: ["-50%", "0%"], // 🔁 Opposite direction
+        x: ["0%", "-50%"],
         transition: {
           repeat: Infinity,
-          duration: 15,
+          duration: 60,
           ease: "linear",
         },
       });
@@ -57,7 +59,7 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
             <motion.div
               className={styles.slidertrack}
               animate={controls}
-              initial={{ x: "-50%" }}
+              initial={{ x: "0%" }}
             >
               {[...brands, ...brands].map((brand, index) => (
                 <div className={styles.slide} key={index}>
@@ -72,4 +74,4 @@ const CustomerSliderRev = ({ CustomerSlider }) => {
   );
 };
 
-export default CustomerSliderRev;
+export default LandingBrandSlider;

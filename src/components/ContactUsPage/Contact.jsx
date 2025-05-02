@@ -310,7 +310,7 @@ const Conatct = ({ sectionPoints }) => {
                           : "text-green-600"
                       } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                     >
-                      Enter Your Email
+                      Enter Your Work Email
                     </label>
                   </div>
                   {errors.Email && (
@@ -368,7 +368,7 @@ const Conatct = ({ sectionPoints }) => {
                 <div className="flex justify-start">
                   <button
                     type="submit"
-                    className="mt-4 bg-[#007fff] hover:bg-[#0066ff] hover:cursor-pointer  text-white px-16 py-4 rounded-lg"
+                    className="mt-4 center-hover-btn px-16 py-4 rounded-lg"
                     disabled={loading}
                   >
                     {loading ? (
@@ -391,7 +391,7 @@ const Conatct = ({ sectionPoints }) => {
                         </svg>
                       </>
                     ) : (
-                      "Submit"
+                      <span>Submit</span>
                     )}
                   </button>
                 </div>

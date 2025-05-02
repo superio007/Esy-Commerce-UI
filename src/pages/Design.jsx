@@ -72,9 +72,11 @@ const Design = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/youtube-content-marketing"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -111,9 +113,11 @@ const Design = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/linkedin-content-marketing"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -139,9 +143,11 @@ const Design = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/identity-branding-communication"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>
@@ -183,9 +189,11 @@ const Design = () => {
                     <div className="flex md:justify-center">
                       <Link
                         to={"/custom-website-development"}
-                        className="inline-flex text-white bg-[#007fff] border-0 py-2 px-6 focus:outline-none hover:cursor-pointer rounded text-lg"
+                        
                       >
-                        Know More
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
                       </Link>
                     </div>
                   </div>

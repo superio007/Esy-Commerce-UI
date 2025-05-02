@@ -26,16 +26,20 @@ const Blogs = () => {
 
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? BlogsPageData.data || [] : data || [];
+  // console.log("apiRes", apiResponse);
+  const ApiData = apiResponse.map((item, index) => {
+    // console.log("item", item);
+    return {
+      id: index + 1,
+      title: item.Title,
+      description: item.Shortdescription,
+      image: item.CoverImage?.url || "./default-image.webp",
+      imageAlt: item.CoverImage?.alternativeText || "Blog Image",
+      tags: item.blog_tags || [],
+      category: item.blog_categories || [],
+    };
+  });
 
-  const ApiData = apiResponse.map((item, index) => ({
-    id: index + 1,
-    title: item.Title,
-    description: item.Shortdescription,
-    image: item.CoverImage?.url || "./default-image.webp",
-    imageAlt: item.CoverImage?.alternativeText || "Blog Image",
-    tags: item.blog_tags || [],
-    category: item.blog_categories || [],
-  }));
   if (isLoading) return <p>Loading...</p>;
 
   return (

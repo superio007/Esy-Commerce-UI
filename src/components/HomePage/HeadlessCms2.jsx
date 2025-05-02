@@ -12,7 +12,7 @@ import Svelte from "../../../src/assets/homePage/Svelte.png";
 import Express from "../../../src/assets/homePage/Express.png";
 import Ember from "../../../src/assets/homePage/ember.svg";
 import ReactLogo from "../../../src/assets/homePage/react.svg";
-import VueLogo from "../../../src/assets/homePage/vue.png";
+import VueLogo from "../../../src/assets/homePage/vue.svg";
 import NextLogo from "../../../src/assets/homePage/next.png";
 import NuxtLogo from "../../../src/assets/homePage/nuxt.png";
 import StrapiLogo from "../../../src/assets/homePage/Strapi.jpg";
@@ -225,7 +225,7 @@ const Headless = ({ apiRes, bullets }) => {
             >
               <div className="left-div relative ">
                 <div className="transform rotate-90 lg:rotate-136 grid grid-cols-4 grid-rows-5  gap-4 relative z-10">
-                  <div className="col-start-2  flex md:justify-end transform md:rotate-224 rotate-90">
+                  <div className="col-start-2 w-full h-max flex md:justify-end transform md:rotate-224 rotate-90">
                     <img
                       id="bottom-two"
                       src={Svelte}
@@ -233,7 +233,7 @@ const Headless = ({ apiRes, bullets }) => {
                       alt=""
                     />
                   </div>
-                  <div className="col-start-3  flex md:justify-start justify-center transform md:rotate-224 rotate-90">
+                  <div className="col-start-3 w-full h-max flex md:justify-start justify-center transform md:rotate-224 rotate-90">
                     <img
                       id="bottom-three"
                       src={Ember}
@@ -242,7 +242,7 @@ const Headless = ({ apiRes, bullets }) => {
                     />
                   </div>
                   <div className=" "></div>
-                  <div className="col-start-4 flex transform md:rotate-224 rotate-270 justify-end ">
+                  <div className="col-start-4 w-full h-max flex transform md:rotate-224 rotate-270 justify-end ">
                     <img
                       id="bottom-five"
                       src={AngularLogo}
@@ -250,23 +250,23 @@ const Headless = ({ apiRes, bullets }) => {
                       alt=""
                     />
                   </div>
-                  <div className="col-start-4  row-start-3 flex justify-evenly transform md:rotate-224 rotate-270">
+                  <div className="col-start-4 w-full h-max row-start-3 flex md:justify-start justify-evenly transform md:rotate-224 rotate-270">
                     <img
                       id="bottom-six"
-                      src={VueLogo}
-                      className={styles.BrandLogo}
-                      alt=""
-                    />
-                  </div>
-                  <div className="col-start-4 row-start-4 flex md:justify-start transform md:rotate-224 rotate-270">
-                    <img
-                      id="bottom-seven"
                       src={NuxtLogo}
                       className={styles.BrandLogo}
                       alt=""
                     />
                   </div>
-                  <div className="col-start-3 row-start-5 justify-center md:justify-start flex  transform md:rotate-224 rotate-270">
+                  <div className="col-start-4 row-start-4 w-full h-max flex md:justify-start transform md:rotate-224 rotate-270">
+                    <img
+                      id="bottom-seven"
+                      src={VueLogo}
+                      className={styles.BrandLogo}
+                      alt=""
+                    />
+                  </div>
+                  <div className="col-start-3 row-start-5 w-full h-max justify-center md:justify-start flex  transform md:rotate-224 rotate-270">
                     <img
                       id="bottom-four"
                       src={ReactLogo}
@@ -274,7 +274,7 @@ const Headless = ({ apiRes, bullets }) => {
                       alt=""
                     />
                   </div>
-                  <div className="col-start-2 row-start-5 justify-end flex md:justify-start transform md:rotate-224 rotate-90">
+                  <div className="col-start-2 row-start-5 justify-end w-full h-max flex md:justify-start transform md:rotate-224 rotate-90">
                     <img
                       id="bottom-one"
                       src={Solid}
@@ -282,7 +282,7 @@ const Headless = ({ apiRes, bullets }) => {
                       alt=""
                     />
                   </div>
-                  <div className="col-start-4 hidden transform md:rotate-224 rotate-90 md:flex md:justify-end">
+                  <div className="col-start-4 hidden transform md:rotate-224 w-full h-max rotate-90 md:flex md:justify-end">
                     <img
                       id="bottom-eight"
                       src={Ruby}

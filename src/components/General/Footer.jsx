@@ -56,7 +56,7 @@ const Footer = () => {
                   to={"/career"}
                   onClick={handleClick}
                 >
-                  <p>Career</p>
+                  <p>Careers</p>
                 </Link>
                 <Link
                   className={styles.hoverNavTag}

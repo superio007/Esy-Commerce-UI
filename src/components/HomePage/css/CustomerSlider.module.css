@@ -67,6 +67,7 @@
   cursor: pointer;
 }
 
+
 /* 🔧 MOBILE OPTIMIZATION */
 @media (max-width: 768px) {
   .slide img {
