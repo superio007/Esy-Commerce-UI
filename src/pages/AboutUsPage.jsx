@@ -10,6 +10,8 @@ import TeamSection from "../components/AboutPage/TeamMembers";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import AboutPageData from "../Data/AboutData.json";
+import CustomerSliderRev from "../components/HomePage/CustomerSliderRev";
+import CustomerSlider from "../components/HomePage/CustomerSlider";
 import ClientSlider from "../components/AboutPage/ClientSlider";
 import ClientSlider2 from "../components/AboutPage/ClientSlider2";
 import styles from "../css/AboutUs.module.scss";
@@ -41,18 +43,8 @@ const About = () => {
         points={apiResponse.about_hero_section.about_why_us_points}
       />
       <div className={styles.AboutSliders}>
-        <ParallaxProvider>
-          <ClientSlider
-            ClientSlider={apiResponse.ClientSlider}
-            Slider={apiResponse.customer_slider}
-          />
-        </ParallaxProvider>
-        <ParallaxProvider>
-          <ClientSlider2
-            ClientSlider_Rev={apiResponse.ClientSlider_Rev}
-            Slider={apiResponse.customer_slider_rev}
-          />
-        </ParallaxProvider>
+        <CustomerSlider CustomerSlider={apiResponse.customer_slider} />
+        <CustomerSliderRev CustomerSlider={apiResponse.customer_slider_rev} />
       </div>
       <CoreValues
         coreValues={apiResponse.about_us_core_values_points}

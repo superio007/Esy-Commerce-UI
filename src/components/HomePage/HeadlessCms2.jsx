@@ -19,7 +19,10 @@ import StrapiLogo from "../../../src/assets/homePage/Strapi.jpg";
 import NodeLogo from "../../../src/assets/homePage/node.png";
 import AngularLogo from "../../../src/assets/homePage/angular.png";
 import Ruby from "../../../src/assets/homePage/Ruby.png";
-
+import Doto from "../../../src/assets/homePage/DatoCMS.png";
+import Prismic from "../../../src/assets/homePage/Prismic.png";
+import storyBlock from "../../../src/assets/homePage/storyblok-seeklogo.png";
+import Cockpit from "../../../src/assets/homePage/cockpit-cms.png";
 const Headless = ({ apiRes, bullets }) => {
   const [isTopVisible, setIsTopVisible] = useState(false);
   const [isBottomVisible, setIsBottomVisible] = useState(false);
@@ -151,27 +154,27 @@ const Headless = ({ apiRes, bullets }) => {
               </div>
               <div className="right-div relative md:w-[fit-content]">
                 <div className="transform rotate-270 lg:rotate-340 grid grid-cols-4 grid-rows-5  gap-4 relative z-10">
-                  <div className="col-start-2  flex md:justify-end transform md:rotate-110 rotate-90">
+                  <div className="col-start-2 w-full h-max flex md:justify-evenly transform md:rotate-19 rotate-90">
                     <img
                       id="top-two"
+                      src={Sanity}
+                      className={styles.BrandLogo}
+                      alt=""
+                    />
+                  </div>
+                  <div className="col-start-3 w-full h-max flex justify-center md:justify-evenly  transform md:rotate-19 rotate-90">
+                    <img
+                      id="top-three"
                       src={StrapiLogo}
                       className={styles.BrandLogo}
                       alt=""
                     />
                   </div>
-                  <div className="col-start-3  flex justify-center md:justify-evenly  transform md:rotate-19 rotate-90">
-                    <img
-                      id="top-three"
-                      src={NodeLogo}
-                      className={styles.BrandLogo}
-                      alt=""
-                    />
-                  </div>
                   <div className=" "></div>
-                  <div className="col-start-4 flex  transform md:rotate-21 rotate-90">
+                  <div className="col-start-4 flex w-full h-max md:justify-evenly transform md:rotate-21 rotate-90">
                     <img
                       id="top-five"
-                      src={Sanity}
+                      src={Contentstack}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -187,15 +190,15 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-4 row-start-4 flex justify-end  transform md:rotate-21 rotate-90">
                     <img
                       id="top-seven"
-                      src={Contentstack}
+                      src={storyBlock}
                       className={styles.BrandLogo}
                       alt=""
                     />
                   </div>
-                  <div className="col-start-3 row-start-5 md:justify-end justify-center flex  transform md:rotate-21 rotate-90">
+                  <div className="col-start-3 row-start-5 md:justify-evenly justify-center flex  transform md:rotate-21 rotate-90">
                     <img
                       id="top-four"
-                      src={Express}
+                      src={Prismic}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -203,7 +206,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-2 row-start-5 justify-end flex transform md:rotate-21 rotate-90">
                     <img
                       id="top-one"
-                      src={NextLogo}
+                      src={Doto}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -211,7 +214,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-4 hidden transform md:rotate-21 rotate-90 md:flex">
                     <img
                       id="top-eight"
-                      src={Ruby}
+                      src={Cockpit}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -285,7 +288,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-4 hidden transform md:rotate-224 w-full h-max rotate-90 md:flex md:justify-end">
                     <img
                       id="bottom-eight"
-                      src={Ruby}
+                      src={NodeLogo}
                       className={styles.BrandLogo}
                       alt=""
                     />

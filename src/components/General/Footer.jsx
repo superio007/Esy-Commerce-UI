@@ -1,12 +1,16 @@
 import WebsitLogo from "../../../src/assets/General/Logo.png";
 import styles from "./css/Footer.module.scss";
 import { Link } from "react-router-dom";
+import { TbBrandFacebook } from "react-icons/tb";
 import {
-  FaLinkedinIn,
-  FaYoutube,
-  FaInstagram,
-  FaFacebookF,
-} from "react-icons/fa";
+  SlSocialYoutube,
+  SlSocialLinkedin,
+  
+  SlSocialFacebook,
+} from "react-icons/sl";
+import { FiYoutube,FiFacebook , FiLinkedin } from "react-icons/fi";
+import { CiLinkedin } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import FooterBrands from "../../../src/assets/General/footerBrands.png";
 import { useEffect, useState } from "react";
@@ -66,7 +70,7 @@ const Footer = () => {
                   <p>Contact</p>
                 </Link>
               </div>
-              <div className="flex gap-3 mt-8 md:mt-0">
+              <div className="flex items-baseline gap-3 mt-8 md:mt-0">
                 <Link
                   className={styles.hoverNavTag}
                   to={
@@ -74,7 +78,7 @@ const Footer = () => {
                   }
                   target="_blank"
                 >
-                  <FaLinkedinIn className="text-[#00234b] hover:text-[#007fff] text-lg" />
+                  <FiLinkedin className="text-[#00234b] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
@@ -83,30 +87,30 @@ const Footer = () => {
                   }
                   target="_blank"
                 >
-                  <FaYoutube className="text-[#00234b] hover:text-[#007fff] text-lg" />
+                  <FiYoutube className="text-[#00234b] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
                   to={"https://www.instagram.com/esycommerce/"}
                   target="_blank"
                 >
-                  <FaInstagram className="text-[#00234b] hover:text-[#007fff] text-lg" />
+                  <FaInstagram className="text-[#00234b] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
                   to={"https://x.com/EsyCommerce"}
                   target="_blank"
                 >
-                  <FaXTwitter className="text-[#00234b] hover:text-[#007fff] text-lg" />
+                  <FaXTwitter className="text-[#00234b] hover:text-[#007fff] text-xl" />
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
                   to={"https://www.facebook.com/esycommerce"}
                   target="_blank"
                 >
-                  <FaFacebookF
+                  <FiFacebook
                     className="text-[#00234b] hover:text-[#007fff]
-                  text-lg"
+                  text-xl"
                   />
                 </Link>
               </div>

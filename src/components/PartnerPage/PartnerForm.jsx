@@ -478,7 +478,7 @@ const PartnerForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Choose
+                    Select Your Company Type
                   </option>
                   <option value="Freelancer">Freelancer</option>
                   <option value="Sole Proprietorship">
@@ -646,7 +646,7 @@ const PartnerForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Choose
+                    Select Your Primary Services
                   </option>
                   <option value="Web Development">Web Development</option>
                   <option value="UI/UX Design">UI/UX Design</option>
@@ -752,7 +752,7 @@ const PartnerForm = () => {
                       options={options}
                       isMulti
                       styles={customStyles}
-                      placeholder="Choose"
+                      placeholder="Select Your Secondary Services"
                     />
                   )}
                 />
