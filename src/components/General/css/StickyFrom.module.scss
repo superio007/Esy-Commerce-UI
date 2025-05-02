@@ -27,11 +27,11 @@ nav .fromDiv {
 }
 
 @media screen and (max-width: 1280px) {
-    .fromDiv {
+
+    /* .fromDiv{
         display: none;
         padding: 0;
-    }
-
+    } */
     nav .fromDiv {
         display: block;
     }
@@ -42,5 +42,11 @@ nav .fromDiv {
     z-index: 9999;
     bottom: 0;
     width: 100%;
-    /* padding: 1.5rem 0; */
+    padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 769px) {
+    .NonFromDiv {
+        padding: 1.5rem;
+    }
 }

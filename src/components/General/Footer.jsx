@@ -101,11 +101,13 @@ const Footer = () => {
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
-                  to={"https://x.com/EsyCommerce"}
+                  to={"https://www.facebook.com/esycommerce"}
                   target="_blank"
                 >
-                  <FaFacebookF className="text-[#00234b] hover:text-[#007fff]
-                  text-lg" />
+                  <FaFacebookF
+                    className="text-[#00234b] hover:text-[#007fff]
+                  text-lg"
+                  />
                 </Link>
               </div>
             </div>

@@ -19,7 +19,7 @@
     margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .subSection{
-    margin-bottom: calc($Sub-Section-Vertical-Height/3);
+    margin-bottom: $Sub-Section-Vertical-Height
 }
 .CaarearH3{
     font-size: $font-size-h3;
@@ -30,6 +30,7 @@
     font-size: $font-size-h2;
     line-height: $line-height-h2;
     font-weight: $font-weight-medium;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .CaarearP{
     font-size: $font-size-body;
@@ -38,7 +39,7 @@
 }
 .careerCard {
     width: 300px;
-    height: 500px;
+    // height: 500px;
 }
 
 .CareerPageSection .swiper-wrapper {

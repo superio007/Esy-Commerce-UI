@@ -19,6 +19,7 @@
   font-size: $font-size-h2;
   line-height: $line-height-h2;
   font-weight: $font-weight-medium;
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 .postingH3{
   font-size: $font-size-h3;
@@ -30,4 +31,8 @@
   line-height: $line-height-body;
   font-weight: $font-weight-regular;
   // color: $Body-Color !important;
+}
+
+.PostingSection{
+  margin-bottom: calc($Sub-Section-Vertical-Height/2)
 }

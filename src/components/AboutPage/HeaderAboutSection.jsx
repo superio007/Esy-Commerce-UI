@@ -20,16 +20,16 @@ const HeaderSection = ({ apiRes }) => {
               Perferendis nam eius obcaecati!`}
                 </p>
                 <div className="py-4 flex justify-start  items-center gap-6">
-                  <NavLink>
+                  <a href="#PhoneNumber">
                     <span className="bg-white text-[#007fff] py-3 px-10 rounded-lg">
-                      Call Me
+                      Let's Talk
                     </span>
-                  </NavLink>
-                  <NavLink>
+                  </a>
+                  {/* <NavLink>
                     <span className="block bg-white rounded-full p-2">
                       <MdPlayArrow className="text-[#007fff] text-2xl" />
                     </span>
-                  </NavLink>
+                  </NavLink> */}
                 </div>
               </div>
               <div className="md:w-1/2 flex justify-center">

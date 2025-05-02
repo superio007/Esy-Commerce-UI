@@ -1,7 +1,7 @@
 @use "../../../MainVariables" as *;
 
 .LocationSection {
-    padding: $Section-Vertical-Height $Section-Horizontal-Height
+    padding: calc($Section-Vertical-Height/3) $Section-Horizontal-Height $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .LocationH2{
     font-size: $font-size-h2;

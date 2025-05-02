@@ -70,7 +70,7 @@ const StickyFrom = () => {
         className={`3xl:mx-auto xl:px-10
         3xl:max-w-screen-xl  xl:items-center ${styles.StickyfromDiv}`}
       >
-        <div className="px-6 md:px-0 grid grid-cols-1 xl:grid-cols-12  w-full gap-4">
+        <div className="md:px-0 grid grid-cols-1 xl:grid-cols-12  w-full gap-4">
           {/* Left Section - Contact Us (4 Columns) */}
           <div className="xl:col-span-4 w-full text-center xl:text-left">
             <h3 className={styles.StickyH3}>Book Your Free Consultation</h3>
@@ -172,7 +172,7 @@ const StickyFrom = () => {
         className={`3xl:mx-auto xl:px-10
         3xl:max-w-screen-xl  ${styles.StickyfromDiv} `}
       >
-        <div className="px-6 md:px-0 grid grid-cols-1 xl:grid-cols-12 xl:items-center w-full gap-4">
+        <div className=" md:px-0 grid grid-cols-1 xl:grid-cols-12 xl:items-center w-full gap-4">
           {/* Left Section - Contact Us (4 Columns) */}
           <div className="xl:col-span-4 w-full text-left">
             <h3 className={styles.StickyH3}>Book Your Free Consultation</h3>

@@ -114,9 +114,9 @@ const careerPage = () => {
             >
               <div className="px-6 md:px-0">
                 <div
-                  className={`flex flex-col md:flex-row justify-between md:items-center ${styles.subSection}`}
+                  className={`flex flex-col md:flex-row gap-4 justify-between md:items-center ${styles.subSection}`}
                 >
-                  <div>
+                  <div className="md:w-4/5">
                     <h2 className={styles.CaarearH2}>
                       {apiResponse.ctaHeading || "What are the benefits?"}
                     </h2>
@@ -128,11 +128,11 @@ const careerPage = () => {
                       keep them coming back.`}
                     </p>
                   </div>
-                  <div className="mt-4 md:mt-0">
+                  <div className="md:w-1/5 mt-4 flex justify-end md:mt-0">
                     <a
                       style={{ display: "inline-block" }}
                       href="#Carreer-Section"
-                      className="h-max py-4 px-8 bg-[#007fff] text-white rounded-xl"
+                      className="px-6 py-3 bg-[#007fff] text-white font-medium rounded-xl hover:bg-blue-700 transition"
                     >
                       Join the team
                     </a>

@@ -2,6 +2,7 @@ import { useParams, NavLink } from "react-router-dom";
 // import Jobs from "../assets/CareerPage/career.json";
 import styles from "../components/CareerPage/css/SinglePosting.module.scss";
 import { FiDownload } from "react-icons/fi";
+import { IoCheckmarkOutline } from "react-icons/io5";
 import AnimatedBtn from "../components/General/AnimatedBtn";
 import openPdfInNewTab from "../components/CareerPage/GeneratePdf";
 // import ReactPDF from "@react-pdf/renderer";
@@ -198,7 +199,9 @@ const SinglePosting = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-24"
                   >
                     <div>
-                      <div className="flex  flex-row flex-wrap gap-4">
+                      <div
+                        className={`${styles.PostingSection} flex  flex-row flex-wrap gap-4`}
+                      >
                         {job.position_languages_tags.map((tech, index) => (
                           <div
                             className="bg-[#c7c7c7] rounded-xl gap-2.5 text-[12px] text-white text-wrap py-0.5 px-2"
@@ -208,21 +211,24 @@ const SinglePosting = () => {
                           </div>
                         ))}
                       </div>
-                      <div className="py-4 md:px-0 px-2">
+                      <div className={`${styles.PostingSection} md:px-0 px-2`}>
                         <h2 className={styles.postingH2}>Job Description: </h2>
                         <p className={`${styles.postingP}`}>
                           {job.JobDescription}
                         </p>
                       </div>
-                      <div className="py-4 md:px-0 px-2">
+                      <div className={`${styles.PostingSection} md:px-0 px-2`}>
                         <h2 className={styles.postingH2}>Job Requirements:</h2>
                         <ul>
                           {job.job_requirements.map((sentence, index) => (
                             <li
-                              style={{ listStyleType: "disc" }}
-                              className="pb-2"
+                              style={{ listStylePosition: "inside" }}
+                              className="flex gap-2"
                               key={index}
                             >
+                              <div>
+                                <IoCheckmarkOutline className="text-[#007fff] text-2xl" />
+                              </div>
                               <p className={`${styles.postingP}`}>
                                 {sentence.Heading.trim()}
                               </p>
@@ -230,7 +236,7 @@ const SinglePosting = () => {
                           ))}
                         </ul>
                       </div>
-                      <div className="py-4 md:px-0 px-2">
+                      <div className={`${styles.PostingSection} md:px-0 px-2`}>
                         <h2 className={styles.postingH2}>
                           Job Role & Responsibilities:
                         </h2>
@@ -238,10 +244,13 @@ const SinglePosting = () => {
                           {job.job_role_responsibilities.map(
                             (sentence, index) => (
                               <li
-                                style={{ listStyleType: "disc" }}
-                                className="pb-2"
+                                style={{ listStylePosition: "inside" }}
+                                className="flex gap-2"
                                 key={index}
                               >
+                                <div>
+                                  <IoCheckmarkOutline className="text-[#007fff] text-2xl" />
+                                </div>
                                 <p className={`${styles.postingP}`}>
                                   {sentence.Heading.trim()}
                                 </p>
@@ -250,15 +259,18 @@ const SinglePosting = () => {
                           )}
                         </ul>
                       </div>
-                      <div className="py-4 md:px-0 px-2">
+                      <div className={`${styles.PostingSection} md:px-0 px-2`}>
                         <h2 className={styles.postingH2}>Prefered Skills:</h2>
                         <ul>
                           {job.prefered_skills.map((sentence, index) => (
                             <li
-                              style={{ listStyleType: "disc" }}
-                              className="pb-2"
+                              style={{ listStylePosition: "inside" }}
+                              className="flex gap-2"
                               key={index}
                             >
+                              <div>
+                                <IoCheckmarkOutline className="text-[#007fff] text-2xl" />
+                              </div>
                               <p className={`${styles.postingP}`}>
                                 {sentence.Heading.trim()}
                               </p>
@@ -294,13 +306,13 @@ const SinglePosting = () => {
                       <div className=" p-6 bg-white rounded-xl">
                         <h2 className={styles.postingH2}>Company Overview</h2>
 
-                        <div className="flex flex-col gap-2 pb-2 ">
+                        <div className="flex flex-col gap-2  ">
                           <h3 className={styles.postingH3}>Company:</h3>
                           <p className={`${styles.postingP}`}>
                             {JobsDesc.CompanyName}
                           </p>
                         </div>
-                        <div className="flex flex-col  gap-2 pb-2 ">
+                        <div className="flex flex-col  gap-2  ">
                           <h3 className={styles.postingH3}>Description:</h3>
                           <p className={`${styles.postingP}`}>
                             {JobsDesc.CompanyDescription}
@@ -309,31 +321,31 @@ const SinglePosting = () => {
                       </div>
                       <div className=" p-6 bg-white rounded-xl">
                         <h2 className={styles.postingH2}>Contact Details</h2>
-                        <div className="flex gap-2 pb-2 md:items-center flex-col md:flex-row">
+                        <div className="flex gap-2  md:items-center flex-col md:flex-row">
                           <h3 className={styles.postingH3}>Email:</h3>
                           <p className={`${styles.postingP} text-wrap`}>
                             {JobsDesc.CompanyEmail}
                           </p>
                         </div>
-                        <div className="flex gap-2 pb-2 md:items-center flex-col md:flex-row">
+                        <div className="flex gap-2  md:items-center flex-col md:flex-row">
                           <h3 className={styles.postingH3}>Phone:</h3>
                           <p className={`${styles.postingP} text-wrap`}>
                             {JobsDesc.CompanyPhone}
                           </p>
                         </div>
-                        <div className="flex gap-2 pb-2 md:items-center flex-col md:flex-row">
+                        <div className="flex gap-2  md:items-center flex-col md:flex-row">
                           <h3 className={styles.postingH3}>Address:</h3>
                           <p className={`${styles.postingP} text-wrap`}>
                             {JobsDesc.CompanyAddress}
                           </p>
                         </div>
-                        <div className="flex gap-2 pb-2 md:items-center flex-col md:flex-row">
+                        <div className="flex gap-2  md:items-center flex-col md:flex-row">
                           <h3 className={styles.postingH3}>Website:</h3>
                           <p className={`${styles.postingP} text-wrap`}>
                             {JobsDesc.CompanyWebsite}
                           </p>
                         </div>
-                        <div className="flex gap-2 pb-2 md:items-center flex-col md:flex-row">
+                        <div className="flex gap-2  md:items-center flex-col md:flex-row">
                           <h3 className={styles.postingH3}>Youtube:</h3>
                           <p className={`${styles.postingP} text-wrap`}>
                             {JobsDesc.CompanyYoutube}

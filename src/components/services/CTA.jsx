@@ -15,9 +15,9 @@ const CTA = ({ apiRes }) => {
                 `Join 100+ Successful Tech Companies — Start Your Custom Software
               Journey Today`}
             </h2>
-            <button className="bg-[#007fff] text-white py-4 px-12 rounded-xl">
+            {/* <button className="bg-[#007fff] text-white py-4 px-12 rounded-xl">
               <Link to="/contact">Chat With Us</Link>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

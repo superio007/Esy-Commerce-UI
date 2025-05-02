@@ -20,7 +20,13 @@
     line-height: $line-height-body;
     font-weight: $font-weight-regular;
 }
+.stepsButton{
+    margin-top:calc($Sub-Section-Vertical-Height/3);
+}
 @media screen and (max-width:769px) {
+    .stepsButton {
+            margin-top: calc($Sub-Section-Vertical-Height);
+        }
     .stepsH2 {
         margin-bottom: calc($Sub-Section-Vertical-Height/3);
     }

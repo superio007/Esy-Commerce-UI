@@ -162,7 +162,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-3  flex justify-center md:justify-evenly  transform md:rotate-19 rotate-90">
                     <img
                       id="top-three"
-                      src={NextLogo}
+                      src={NodeLogo}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -203,7 +203,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-2 row-start-5 justify-end flex transform md:rotate-21 rotate-90">
                     <img
                       id="top-one"
-                      src={NodeLogo}
+                      src={NextLogo}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -236,7 +236,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-3  flex md:justify-start justify-center transform md:rotate-224 rotate-90">
                     <img
                       id="bottom-three"
-                      src={ReactLogo}
+                      src={Ember}
                       className={styles.BrandLogo}
                       alt=""
                     />
@@ -269,7 +269,7 @@ const Headless = ({ apiRes, bullets }) => {
                   <div className="col-start-3 row-start-5 justify-center md:justify-start flex  transform md:rotate-224 rotate-270">
                     <img
                       id="bottom-four"
-                      src={Ember}
+                      src={ReactLogo}
                       className={styles.BrandLogo}
                       alt=""
                     />

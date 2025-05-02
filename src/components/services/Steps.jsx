@@ -46,11 +46,16 @@ const Steps = ({ apiRes }) => {
             <div className="w-full md:w-1/2">
               {/* <DotLottieReact src={Check} loop autoplay /> */}
               <img
-                className="w-full h-full object-cover object-center rounded"
+                className="w-full h-full object-contain object-center rounded"
                 alt={apiRes.sideimage.alternativeText || "hero"}
                 src={apiRes.sideimage.url || "https://dummyimage.com/720x600"}
               />
             </div>
+          </div>
+          <div className={`${styles.stepsButton} flex justify-center`}>
+            <button className="bg-[#007fff] text-white py-4 px-12 rounded-xl">
+              <a href="#PhoneNumber">Let's Talk</a>
+            </button>
           </div>
         </div>
       </div>
