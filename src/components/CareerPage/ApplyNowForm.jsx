@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import ImageKit from "imagekit-javascript";
 import axios from "axios";
 import { sendMail } from "../../utils/SendFile";
+import { useParams } from "react-router-dom";
 const postJobForm = async (formattedData) => {
   const { data } = await axios.post(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/carrear-forms-entires",
@@ -26,6 +27,37 @@ const ApplyNowForm = () => {
     reset,
     formState: { errors },
   } = useForm();
+ const jobTitle = useParams();
+ const title = jobTitle.title ? jobTitle.title.split("-").join(" ") : null;
+
+  const jobPositions = [
+    {
+      name: "Software Engineer",
+    },
+    {
+      name: "Front End Developer",
+    },
+    {
+      name: "Back End Developer",
+    },
+    {
+      name: "Full Stack Developer",
+    },
+    {
+      name: "Data Engineer",
+    },
+    {
+      name: "Other",
+    },
+  ];
+  useEffect(() => {
+    const match = jobPositions.find((job) => job.name === title);
+    if (match) {
+      setValue("Position", title);
+    }
+  }, [title]);
+
+  // console.log(title);
   // ImageKit variables
   const publicKey = import.meta.env.VITE_IMAGEKIT_PUBLIC_KEY;
   const urlEndpoint = import.meta.env.VITE_IMAGEKIT_URL_ENDPOINT;
@@ -861,17 +893,13 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Choose
+                    Select Your Position
                   </option>
-                  <option value="Front_End_Developer">
-                    Front End Developer
-                  </option>
-                  <option value="Back_End_Developer">Back End Developer</option>
-                  <option value="Full_Stack_Developer">
-                    Full Stack Developer
-                  </option>
-                  <option value="Data_Engineer">Data Engineer</option>
-                  <option value="Other">Other</option>
+                  {jobPositions.map((position, index) => (
+                    <option key={index} value={position.name}>
+                      {position.name}
+                    </option>
+                  ))}
                 </select>
                 <label
                   htmlFor="Position"
@@ -991,7 +1019,7 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Choose
+                    Select Your Job Type
                   </option>
                   <option value="Full_Time">Full Time</option>
                   <option value="Contract">Contract</option>
@@ -1247,7 +1275,7 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    Select Where You Find This Job
                   </option>
                   <option value="AasaanJobs">AasaanJobs</option>
                   <option value="Careesma">Careesma</option>
@@ -1355,7 +1383,7 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    Select Reason For Leaving
                   </option>
                   <option value="Better_Growth_Opportunities">
                     Better Growth Opportunities
@@ -1452,7 +1480,7 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    Do You Own A Computer System For (WFH/Hybrid)
                   </option>
                   <option value="No">No</option>
                   <option value="Yes">Yes</option>
@@ -1495,7 +1523,7 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    Do You Have Internet
                   </option>
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
@@ -1541,7 +1569,7 @@ const ApplyNowForm = () => {
                     appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    Are You On Notice Period?
                   </option>
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
@@ -1627,7 +1655,7 @@ const ApplyNowForm = () => {
                         appearance-none focus:outline-none focus:ring-0 peer`}
                 >
                   <option value="" hidden>
-                    Chosse
+                    How Soon Can You Join?
                   </option>
                   <option value="Immediate">Immediate Joiner</option>
                   <option value="15-30">Need 15-30 days notice period</option>

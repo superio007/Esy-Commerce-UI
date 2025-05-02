@@ -108,7 +108,7 @@ const StickyFrom = () => {
             {/* Email Input */}
             <div className="relative flex-grow w-full">
               <input
-                placeholder="Enter Email"
+                placeholder="Enter Work Email"
                 type="email"
                 id="email"
                 {...register("email", {
@@ -210,7 +210,7 @@ const StickyFrom = () => {
             {/* Email Input */}
             <div className="relative flex-grow w-full">
               <input
-                placeholder="Enter Email"
+                placeholder="Enter Work Email"
                 type="email"
                 id="email"
                 {...register("email", {
