@@ -369,7 +369,7 @@
           "resource_type": "image"
         },
         "createdAt": "2025-05-02T14:07:21.192Z",
-        "updatedAt": "2025-05-02T14:07:21.192Z",
+        "updatedAt": "2025-05-02T14:41:45.200Z",
         "publishedAt": "2025-05-02T14:07:21.193Z"
       },
       "steps": [
@@ -430,13 +430,13 @@
       "publishedAt": "2025-04-02T15:52:44.811Z",
       "why_us_points": [
         {
-          "id": 20,
+          "id": 25,
           "documentId": "ho43113tzhve2oy50huwsipw",
           "Heading": "7+ Years of Expertise",
           "subHeading": "Proven experience delivering high-quality solutions across industries.",
           "createdAt": "2025-04-02T15:53:07.346Z",
-          "updatedAt": "2025-04-28T05:50:23.977Z",
-          "publishedAt": "2025-04-28T05:50:24.004Z",
+          "updatedAt": "2025-05-02T14:29:49.500Z",
+          "publishedAt": "2025-05-02T14:29:49.521Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -447,38 +447,71 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 94,
-            "documentId": "e8jm1vgqf9qzozyk8sv8gytr",
+            "id": 206,
+            "documentId": "mt86xmfow250pr119v7j6ij4",
             "name": "quality-assurance.png",
             "alternativeText": "7+ Years of Expertise",
             "caption": null,
-            "width": 64,
-            "height": 64,
-            "formats": null,
-            "hash": "quality_assurance_b6ea710bb3",
+            "width": 512,
+            "height": 512,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196185/small_quality_assurance_90c7594f9b.png",
+                "hash": "small_quality_assurance_90c7594f9b",
+                "mime": "image/png",
+                "name": "small_quality-assurance.png",
+                "path": null,
+                "size": 51.49,
+                "width": 500,
+                "height": 500,
+                "sizeInBytes": 51488,
+                "provider_metadata": {
+                  "public_id": "small_quality_assurance_90c7594f9b",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196185/thumbnail_quality_assurance_90c7594f9b.png",
+                "hash": "thumbnail_quality_assurance_90c7594f9b",
+                "mime": "image/png",
+                "name": "thumbnail_quality-assurance.png",
+                "path": null,
+                "size": 12.35,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 12351,
+                "provider_metadata": {
+                  "public_id": "thumbnail_quality_assurance_90c7594f9b",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "quality_assurance_90c7594f9b",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.11,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745819417/quality_assurance_b6ea710bb3.png",
+            "size": 9.02,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196185/quality_assurance_90c7594f9b.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "quality_assurance_b6ea710bb3",
+              "public_id": "quality_assurance_90c7594f9b",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-28T05:50:18.005Z",
-            "updatedAt": "2025-04-28T05:50:18.005Z",
-            "publishedAt": "2025-04-28T05:50:18.006Z"
+            "createdAt": "2025-05-02T14:29:46.123Z",
+            "updatedAt": "2025-05-02T14:29:46.123Z",
+            "publishedAt": "2025-05-02T14:29:46.124Z"
           }
         },
         {
-          "id": 21,
+          "id": 26,
           "documentId": "qjaneznxknxyubfnbqemf2zq",
           "Heading": "Global Clientele",
           "subHeading": "Extensive experience working with businesses in the USA and beyond.",
           "createdAt": "2025-04-02T15:53:40.153Z",
-          "updatedAt": "2025-04-28T05:51:05.601Z",
-          "publishedAt": "2025-04-28T05:51:05.624Z",
+          "updatedAt": "2025-05-02T14:30:53.266Z",
+          "publishedAt": "2025-05-02T14:30:53.285Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -489,38 +522,71 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 95,
-            "documentId": "t6uoudlnbf7h9l39nkwpllbh",
+            "id": 207,
+            "documentId": "dvnhz5irdemgeugel9z82xdk",
             "name": "global-partnership.png",
             "alternativeText": "Global Clientele",
             "caption": null,
-            "width": 64,
-            "height": 64,
-            "formats": null,
-            "hash": "global_partnership_f01c03d5bf",
+            "width": 512,
+            "height": 512,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196245/small_global_partnership_cc9f9bb311.png",
+                "hash": "small_global_partnership_cc9f9bb311",
+                "mime": "image/png",
+                "name": "small_global-partnership.png",
+                "path": null,
+                "size": 67.85,
+                "width": 500,
+                "height": 500,
+                "sizeInBytes": 67854,
+                "provider_metadata": {
+                  "public_id": "small_global_partnership_cc9f9bb311",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196245/thumbnail_global_partnership_cc9f9bb311.png",
+                "hash": "thumbnail_global_partnership_cc9f9bb311",
+                "mime": "image/png",
+                "name": "thumbnail_global-partnership.png",
+                "path": null,
+                "size": 16.14,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 16135,
+                "provider_metadata": {
+                  "public_id": "thumbnail_global_partnership_cc9f9bb311",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "global_partnership_cc9f9bb311",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.37,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745819457/global_partnership_f01c03d5bf.png",
+            "size": 12.23,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196245/global_partnership_cc9f9bb311.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "global_partnership_f01c03d5bf",
+              "public_id": "global_partnership_cc9f9bb311",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-28T05:50:57.472Z",
-            "updatedAt": "2025-04-28T05:50:57.472Z",
-            "publishedAt": "2025-04-28T05:50:57.472Z"
+            "createdAt": "2025-05-02T14:30:46.074Z",
+            "updatedAt": "2025-05-02T14:30:46.074Z",
+            "publishedAt": "2025-05-02T14:30:46.074Z"
           }
         },
         {
-          "id": 24,
+          "id": 27,
           "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
           "Heading": "End-to-End Services",
           "subHeading": "From strategy to execution, we provide complete business solutions.",
           "createdAt": "2025-04-02T15:53:57.816Z",
-          "updatedAt": "2025-04-29T09:29:32.976Z",
-          "publishedAt": "2025-04-29T09:29:32.998Z",
+          "updatedAt": "2025-05-02T14:37:30.679Z",
+          "publishedAt": "2025-05-02T14:37:30.698Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -531,38 +597,71 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 101,
-            "documentId": "cdvb15a0fq2qm8fjq2cu18p9",
-            "name": "adventure.png",
+            "id": 208,
+            "documentId": "bon610s8855htqn1y35dvpza",
+            "name": "journey.png",
             "alternativeText": "End-to-End Services",
             "caption": null,
-            "width": 64,
-            "height": 64,
-            "formats": null,
-            "hash": "adventure_bf62d4ca83",
+            "width": 512,
+            "height": 512,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196646/small_journey_521e4dd561.png",
+                "hash": "small_journey_521e4dd561",
+                "mime": "image/png",
+                "name": "small_journey.png",
+                "path": null,
+                "size": 27.86,
+                "width": 500,
+                "height": 500,
+                "sizeInBytes": 27859,
+                "provider_metadata": {
+                  "public_id": "small_journey_521e4dd561",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196646/thumbnail_journey_521e4dd561.png",
+                "hash": "thumbnail_journey_521e4dd561",
+                "mime": "image/png",
+                "name": "thumbnail_journey.png",
+                "path": null,
+                "size": 7.03,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 7031,
+                "provider_metadata": {
+                  "public_id": "thumbnail_journey_521e4dd561",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "journey_521e4dd561",
             "ext": ".png",
             "mime": "image/png",
-            "size": 0.92,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745918968/adventure_bf62d4ca83.png",
+            "size": 5.08,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196646/journey_521e4dd561.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "adventure_bf62d4ca83",
+              "public_id": "journey_521e4dd561",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-29T09:29:29.122Z",
-            "updatedAt": "2025-04-29T09:29:29.122Z",
-            "publishedAt": "2025-04-29T09:29:29.122Z"
+            "createdAt": "2025-05-02T14:37:27.428Z",
+            "updatedAt": "2025-05-02T14:37:27.428Z",
+            "publishedAt": "2025-05-02T14:37:27.428Z"
           }
         },
         {
-          "id": 23,
+          "id": 28,
           "documentId": "ruzivl9hm0kb2audxcklgou2",
           "Heading": "Tailored Strategies",
           "subHeading": "Customized solutions designed to meet your unique business needs.",
           "createdAt": "2025-04-02T15:53:23.816Z",
-          "updatedAt": "2025-04-28T05:52:08.506Z",
-          "publishedAt": "2025-04-28T05:52:08.522Z",
+          "updatedAt": "2025-05-02T14:38:51.045Z",
+          "publishedAt": "2025-05-02T14:38:51.065Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -573,28 +672,61 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 97,
-            "documentId": "wo070q7h0pcrjm6xbdavjjjz",
-            "name": "creativity.png",
+            "id": 209,
+            "documentId": "i0eq6tn9ulmn0qo5hs38vb2n",
+            "name": "creativity (1).png",
             "alternativeText": "Tailored Strategies",
             "caption": null,
-            "width": 64,
-            "height": 64,
-            "formats": null,
-            "hash": "creativity_8032e31777",
+            "width": 512,
+            "height": 512,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196727/small_creativity_1_36aa17509a.png",
+                "hash": "small_creativity_1_36aa17509a",
+                "mime": "image/png",
+                "name": "small_creativity (1).png",
+                "path": null,
+                "size": 48.39,
+                "width": 500,
+                "height": 500,
+                "sizeInBytes": 48390,
+                "provider_metadata": {
+                  "public_id": "small_creativity_1_36aa17509a",
+                  "resource_type": "image"
+                }
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196727/thumbnail_creativity_1_36aa17509a.png",
+                "hash": "thumbnail_creativity_1_36aa17509a",
+                "mime": "image/png",
+                "name": "thumbnail_creativity (1).png",
+                "path": null,
+                "size": 12.03,
+                "width": 156,
+                "height": 156,
+                "sizeInBytes": 12028,
+                "provider_metadata": {
+                  "public_id": "thumbnail_creativity_1_36aa17509a",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "creativity_1_36aa17509a",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.16,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1745819520/creativity_8032e31777.png",
+            "size": 9.19,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196727/creativity_1_36aa17509a.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "creativity_8032e31777",
+              "public_id": "creativity_1_36aa17509a",
               "resource_type": "image"
             },
-            "createdAt": "2025-04-28T05:52:01.003Z",
-            "updatedAt": "2025-04-28T05:52:01.003Z",
-            "publishedAt": "2025-04-28T05:52:01.004Z"
+            "createdAt": "2025-05-02T14:38:47.732Z",
+            "updatedAt": "2025-05-02T14:38:47.732Z",
+            "publishedAt": "2025-05-02T14:38:47.732Z"
           }
         }
       ]
