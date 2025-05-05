@@ -1,10 +1,10 @@
 {
   "data": {
-    "id": 5,
+    "id": 7,
     "documentId": "xz8uub0sffk9r9knvbvc6pnd",
     "createdAt": "2025-05-01T14:29:29.824Z",
-    "updatedAt": "2025-05-01T19:32:59.661Z",
-    "publishedAt": "2025-05-01T19:32:59.682Z",
+    "updatedAt": "2025-05-05T16:46:12.838Z",
+    "publishedAt": "2025-05-05T16:46:12.859Z",
     "services_pages_points": [
       {
         "id": 24,
@@ -17,33 +17,13 @@
         "SideImage": null
       },
       {
-        "id": 26,
-        "documentId": "u1fs3k081nginfmqm0os3yzs",
-        "title": "Translation",
-        "description": "Break language barriers and go global. Our professional translation services ensure your content resonates with local audiences while preserving the original message, tone, and intent. We work with expert linguists and native speakers across various industries and languages to maintain cultural and contextual accuracy.",
-        "createdAt": "2025-05-01T14:27:48.352Z",
-        "updatedAt": "2025-05-01T14:27:48.352Z",
-        "publishedAt": "2025-05-01T14:27:48.365Z",
-        "SideImage": null
-      },
-      {
-        "id": 28,
-        "documentId": "ojdb23cdfw5wzynf7fsqnstz",
-        "title": "Transcription",
-        "description": "Convert audio and video into accurate, well-formatted text with our professional transcription services. Whether it's meetings, interviews, podcasts, or webinars, we deliver clean, timestamped transcripts that are ready to publish, subtitle, or archive—supporting your accessibility and content strategies.",
-        "createdAt": "2025-05-01T14:28:01.336Z",
-        "updatedAt": "2025-05-01T14:28:01.336Z",
-        "publishedAt": "2025-05-01T14:28:01.368Z",
-        "SideImage": null
-      },
-      {
-        "id": 30,
-        "documentId": "n9ebshgzsb5itg8bxwgr2bjr",
-        "title": "Transliteration",
-        "description": "Preserve the sound and spirit of your content in a new script. Our transliteration services are ideal for brand names, product catalogs, and culturally sensitive content—ensuring pronunciation, phonetics, and meaning are correctly conveyed across languages and writing systems.",
-        "createdAt": "2025-05-01T14:28:17.147Z",
-        "updatedAt": "2025-05-01T14:28:17.147Z",
-        "publishedAt": "2025-05-01T14:28:17.163Z",
+        "id": 44,
+        "documentId": "nsgtp368ha2xzufhee0a6ylx",
+        "title": "Linguistic Services",
+        "description": "Professional translation, transcription & transliteration services for global brands. ",
+        "createdAt": "2025-05-05T16:18:56.669Z",
+        "updatedAt": "2025-05-05T16:18:56.669Z",
+        "publishedAt": "2025-05-05T16:18:56.691Z",
         "SideImage": null
       },
       {

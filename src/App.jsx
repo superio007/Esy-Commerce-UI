@@ -43,6 +43,8 @@ import Transcription from "./pages/Services/Transcription.jsx";
 import StaffOffServices from "./pages/Services/StaffOffService.jsx";
 import OurPartner from "./pages/OurPartners.jsx";
 import OurClients from "./pages/OurClients.jsx";
+import AiImplentation from "./pages/Services/AiImplementation.jsx";
+import LinguisticService  from "./pages/Services/LinguisticServices.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -124,6 +126,8 @@ function App() {
         <Route path="/staff-off-services" element={<StaffOffServices />} />
         <Route path="/our-clients" element={<OurClients />} />
         <Route path="/our-partners" element={<OurPartner />} />
+        <Route path="/linguistic-services" element={<LinguisticService />} />
+        <Route path="/ai-implementation" element={<AiImplentation />} />
       </Route>
     )
   );

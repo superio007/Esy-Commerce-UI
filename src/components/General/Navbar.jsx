@@ -167,7 +167,7 @@ const Navbar = () => {
                                 : styles.MenuItemText
                             }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            Ecommerce Enablement (Operations)
+                            Ecommerce Enablement Service
                           </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
@@ -340,7 +340,7 @@ const Navbar = () => {
                       <ul>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
-                            to={"/cms"}
+                            to={"/ai-implementation"}
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
@@ -353,12 +353,12 @@ const Navbar = () => {
                                 : styles.MenuItemText
                             }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            CMS
+                            AI Implementation
                           </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
                           <Link
-                            to={"/crm"}
+                            to={"/cms-development"}
                             onClick={() => {
                               setIsEcommMenu(false);
                               setIsDesignMenu(false);
@@ -371,7 +371,25 @@ const Navbar = () => {
                                 : styles.MenuItemText
                             }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            CRM
+                            CMS Development
+                          </Link>
+                        </li>
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <Link
+                            to={"/crm-customization"}
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                          >
+                            CRM Customization
                           </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
@@ -407,7 +425,7 @@ const Navbar = () => {
                                 : styles.MenuItemText
                             }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
-                            Staff Off Services
+                            Staff Augmentation
                           </Link>
                         </li>
                       </ul>
@@ -467,7 +485,7 @@ const Navbar = () => {
                             Content Migration
                           </Link>
                         </li>
-                        <li className="lg:mt-2 mt-1.5 ">
+                        {/* <li className="lg:mt-2 mt-1.5 ">
                           <Link
                             onClick={() => {
                               setIsEcommMenu(false);
@@ -519,6 +537,24 @@ const Navbar = () => {
                             }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                           >
                             Transliteration
+                          </Link>
+                        </li> */}
+                        <li className="lg:mt-2 mt-1.5 ">
+                          <Link
+                            onClick={() => {
+                              setIsEcommMenu(false);
+                              setIsDesignMenu(false);
+                              setIsDevMenu(false);
+                              setIsBpmMenu(false);
+                            }}
+                            to={"/linguistic-services"}
+                            className={`${
+                              isContactPage
+                                ? styles.MenuItemContact
+                                : styles.MenuItemText
+                            }  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                          >
+                            Linguistic Services
                           </Link>
                         </li>
                         <li className="lg:mt-2 mt-1.5 ">
@@ -673,7 +709,7 @@ const Navbar = () => {
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
                       >
-                        Ecommerce Enablement (Operations)
+                        Ecommerce Enablement Service
                       </Link>
                     </li>
                     <li className="mb-6 ">
@@ -768,19 +804,28 @@ const Navbar = () => {
                     <li className="mb-4">
                       <Link
                         className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        to={"/cms"}
+                        to={"/ai-implementation"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                       >
-                        CMS
+                        AI Implementation
                       </Link>
                     </li>
                     <li className="mb-4">
                       <Link
                         className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
-                        to={"/crm"}
+                        to={"/cms-development"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                       >
-                        CRM
+                        CMS Development
+                      </Link>
+                    </li>
+                    <li className="mb-4">
+                      <Link
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                        to={"/crm-customization"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                      >
+                        CRM Customization
                       </Link>
                     </li>
                     <li className="mb-4">
@@ -798,7 +843,7 @@ const Navbar = () => {
                         to={"/staff-off-services"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                       >
-                        Staff Off Services
+                        Staff Augmentation
                       </Link>
                     </li>
                   </ul>
@@ -834,6 +879,15 @@ const Navbar = () => {
                     </li>
                     <li className="mb-6 ">
                       <Link
+                        to={"/linguistic-services"}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
+                        className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
+                      >
+                        Linguistic Services
+                      </Link>
+                    </li>
+                    {/* <li className="mb-6 ">
+                      <Link
                         to={"/translation"}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className={`${styles.MenuItemText}  rounded py-1 break-inside-avoid lg:-mx-1.5 lg:px-1.5`}
@@ -858,7 +912,7 @@ const Navbar = () => {
                       >
                         Transliteration
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="mb-6 ">
                       <Link
                         to={"/data-labeling-annotation"}

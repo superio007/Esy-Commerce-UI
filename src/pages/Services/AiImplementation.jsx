@@ -1,4 +1,4 @@
-import styles from "../../css/EcommerceConsultation.module.css";
+import styles from "../../css/AiImplentation.module.css";
 import HeroSection from "../../components/services/HeroSection";
 import CTA from "../../components/services/CTA";
 import OverviewKeyBenifits from "../../components/services/OverviewKeyBenifits";
@@ -9,20 +9,20 @@ import CaseStudiesSection from "../../components/services/CaseStudies";
 import FAQ from "../../components/services/FAQ";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
-import EcommerceConsultationPageData from "../Data/EcommerceConsultationData.json";
+// import AiImplentation from "../Data/EcommerceConsultationData.json";
 
 const fetchEcommerceConsultationContent = async () => {
   const { data } = await axios.get(
-    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/ecommerce-consultation?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate][why_us_points][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/ai-implementation?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate][why_us_points][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
   );
   return data.data;
 };
 
-const EcommerceConsultation = () => {
+const AiImplentation = () => {
   const { data, isLoading, error } = useQuery({
-    queryKey: ["EcommerceConsultationpage-content"],
+    queryKey: ["AiImplentation-content"],
     queryFn: fetchEcommerceConsultationContent,
-    // initialData: EcommerceConsultationPageData.data,
+    // initialData: AiImplentation.data,
     // initialDataUpdatedAt: 0, // 👈 Forces background API call
     // staleTime: 1000 * 60 * 60, // 1 hour
     // refetchOnWindowFocus: false,
@@ -31,11 +31,9 @@ const EcommerceConsultation = () => {
   });
 
   // Use API data if available; fallback to static data on error
-
   const apiResponse = error
-    ? EcommerceConsultationPageData.data || []
+    ? AiImplentation.data || []
     : data || [];
-  console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
@@ -65,4 +63,4 @@ const EcommerceConsultation = () => {
     </>
   );
 };
-export default EcommerceConsultation;
+export default AiImplentation;

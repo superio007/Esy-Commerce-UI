@@ -66,7 +66,7 @@ const SiteMap = () => {
                       <p>--Ecommerce Consultation (Performance)</p>
                     </Link>
                     <Link to={"/ecommerce-enablement"} onClick={handleClick}>
-                      <p>--Ecommerce Enablement (Operations)</p>
+                      <p>--Ecommerce Enablement Service </p>
                     </Link>
                     <Link
                       to={"/ecommerce-website-development"}
@@ -110,16 +110,16 @@ const SiteMap = () => {
                       <p className="font-bold">Development</p>
                     </Link>
                     <Link to={"/cms"} onClick={handleClick}>
-                      <p className="font-medium">CMS</p>
+                      <p className="font-medium">CMS Development</p>
                     </Link>
                     <Link to={"/crm"} onClick={handleClick}>
-                      <p className="font-medium">CRM</p>
+                      <p className="font-medium">CRM Customization</p>
                     </Link>
                     <Link to={"/custom-development"} onClick={handleClick}>
                       <p className="font-medium">Custom Development</p>
                     </Link>
                     <Link to={"/staff-off-services"} onClick={handleClick}>
-                      <p className="font-medium">Staff Off Services</p>
+                      <p className="font-medium">Staff Augmentation</p>
                     </Link>
                     {/* BPM */}
                     <Link to={"/bpm"} onClick={handleClick}>

@@ -1,53 +1,71 @@
 {
   "data": {
-    "id": 5,
+    "id": 6,
     "documentId": "tzbvu4w0c42roduowrwspe90",
     "createdAt": "2025-04-02T16:06:57.353Z",
-    "updatedAt": "2025-05-01T19:42:01.759Z",
-    "publishedAt": "2025-05-01T19:42:01.784Z",
+    "updatedAt": "2025-05-05T15:39:41.284Z",
+    "publishedAt": "2025-05-05T15:39:41.304Z",
     "service_hero_section": {
-      "id": 39,
+      "id": 59,
       "documentId": "x75yrymgw9ru374fvoidzjzs",
-      "Heading": "Ecommerce Consultation",
+      "Heading": "Unlock Your Ecommerce Potential",
       "SubHeading": "Our Ecommerce Consultation services help businesses maximize online sales, whether you're a startup or an established brand. We provide tailored expert guidance to optimize your ecommerce platform for increased sales, customer engagement, and operational efficiency",
       "createdAt": "2025-04-02T16:06:26.078Z",
-      "updatedAt": "2025-04-23T05:56:12.426Z",
-      "publishedAt": "2025-04-23T05:56:12.448Z"
+      "updatedAt": "2025-05-05T09:52:20.619Z",
+      "publishedAt": "2025-05-05T09:52:20.655Z",
+      "FormHeading": null,
+      "FormCTA": "Book My Free Consultation"
     },
     "service_over_view": {
-      "id": 67,
+      "id": 88,
       "documentId": "yw9hw3h9n3ry437tzgod6uqh",
-      "Heading": "Overview of the Service",
-      "subHeading": "Our eCommerce solutions are designed to help businesses scale efficiently in the competitive online marketplace. Whether you need strategic consultation, operational enablement, or technical development, we provide end-to-end support to ensure your online store runs smoothly and profitably.",
+      "Heading": "What We Offer",
+      "subHeading": "We help ecommerce brands identify performance gaps, optimize campaigns, and accelerate growth with practical, data-driven consultation. Our team works closely with your marketing team to refine strategy, maximize ROI, and boost channel performance—across marketplaces and D2C. ",
       "createdAt": "2025-04-02T16:06:04.599Z",
-      "updatedAt": "2025-04-23T05:37:37.861Z",
-      "publishedAt": "2025-04-23T05:37:37.897Z",
+      "updatedAt": "2025-05-05T09:52:57.288Z",
+      "publishedAt": "2025-05-05T09:52:57.349Z",
       "pointsHeading": "Key problems we solve",
       "Name": "Consulatation",
       "overview_points": [
         {
-          "id": 6,
+          "id": 148,
           "documentId": "vs9fynjbedushlil9g9z97i7",
-          "Point": "Poor website performance leading to lost sales",
+          "Point": "High customer acquisition cost (CAC) with no clear path to profitability ",
           "createdAt": "2025-04-02T16:04:51.402Z",
-          "updatedAt": "2025-04-02T16:04:51.402Z",
-          "publishedAt": "2025-04-02T16:04:51.477Z"
+          "updatedAt": "2025-05-05T09:53:05.696Z",
+          "publishedAt": "2025-05-05T09:53:05.710Z"
         },
         {
-          "id": 4,
+          "id": 149,
           "documentId": "daio7bsxr3tpq7wrhs1opswn",
-          "Point": "Inefficient operations and fulfillment processes.",
+          "Point": "Inefficient ad spend across Meta, Google, and marketplace platforms ",
           "createdAt": "2025-04-02T16:04:39.831Z",
-          "updatedAt": "2025-04-02T16:04:39.831Z",
-          "publishedAt": "2025-04-02T16:04:39.899Z"
+          "updatedAt": "2025-05-05T09:53:21.912Z",
+          "publishedAt": "2025-05-05T09:53:21.932Z"
         },
         {
-          "id": 2,
+          "id": 150,
           "documentId": "kq04fu9cv8hao9muq2z8d5jh",
-          "Point": "Lack of data-driven decision-making for growth.",
+          "Point": "Poor conversion rates despite decent traffic",
           "createdAt": "2025-04-02T16:04:32.938Z",
-          "updatedAt": "2025-04-02T16:04:32.938Z",
-          "publishedAt": "2025-04-02T16:04:33.139Z"
+          "updatedAt": "2025-05-05T09:53:36.986Z",
+          "publishedAt": "2025-05-05T09:53:36.998Z"
+        },
+        {
+          "id": 152,
+          "documentId": "akpnv3yob38k6w6anjis3m4e",
+          "Point": "Underutilized or poorly structured product catalogs ",
+          "createdAt": "2025-05-05T10:05:57.047Z",
+          "updatedAt": "2025-05-05T10:05:57.047Z",
+          "publishedAt": "2025-05-05T10:05:57.062Z"
+        },
+        {
+          "id": 156,
+          "documentId": "kgdx9qxszm7nvym4f5h0dsoz",
+          "Point": "Inconsistent reporting or lack of actionable KPIs",
+          "createdAt": "2025-05-05T10:06:15.085Z",
+          "updatedAt": "2025-05-05T10:20:57.499Z",
+          "publishedAt": "2025-05-05T10:20:57.519Z"
         }
       ],
       "SideImage": {
@@ -141,12 +159,12 @@
       }
     },
     "key_benift": {
-      "id": 60,
+      "id": 87,
       "documentId": "wrpgr47cs19s4afdsi0vmtgt",
-      "Heading": "Key Benifits",
+      "Heading": "What You Gain",
       "createdAt": "2025-04-02T15:59:28.903Z",
-      "updatedAt": "2025-04-23T05:40:29.159Z",
-      "publishedAt": "2025-04-23T05:40:29.194Z",
+      "updatedAt": "2025-05-05T09:54:22.608Z",
+      "publishedAt": "2025-05-05T09:54:22.652Z",
       "Name": "EcommerceConsultation",
       "SideImage": {
         "id": 53,
@@ -239,50 +257,59 @@
       },
       "key_benifts_points": [
         {
-          "id": 2,
+          "id": 291,
           "documentId": "lamra59383bn1mpiuktnlkml",
-          "Heading": "Website Speed Optimization",
-          "subHeading": "Reduce load times and improve user experience.",
+          "Heading": "Lower CAC ",
+          "subHeading": "and higher ROAS across paid channels",
           "createdAt": "2025-04-02T16:00:53.214Z",
-          "updatedAt": "2025-04-02T16:00:53.214Z",
-          "publishedAt": "2025-04-02T16:00:53.309Z"
+          "updatedAt": "2025-05-05T09:55:49.107Z",
+          "publishedAt": "2025-05-05T09:55:49.120Z"
         },
         {
-          "id": 4,
+          "id": 297,
           "documentId": "mvf6k6x4v3j0eb5d33upmoye",
-          "Heading": "Competitive Benchmarking",
-          "subHeading": "Insights to outperform industry rivals.",
+          "Heading": "Streamlined performance ",
+          "subHeading": "tracking across marketplaces and your website ",
           "createdAt": "2025-04-02T16:01:59.087Z",
-          "updatedAt": "2025-04-02T16:01:59.087Z",
-          "publishedAt": "2025-04-02T16:01:59.152Z"
+          "updatedAt": "2025-05-05T10:00:20.935Z",
+          "publishedAt": "2025-05-05T10:00:20.948Z"
         },
         {
-          "id": 12,
+          "id": 298,
           "documentId": "fkirokj569xeguxjjldtvn2x",
-          "Heading": "Conversion Rate Boosting",
-          "subHeading": "Streamlined checkout and UX improvements.",
+          "Heading": "Clear, actionable insights ",
+          "subHeading": "tailored to your category and region",
           "createdAt": "2025-04-02T16:03:02.824Z",
-          "updatedAt": "2025-04-02T16:03:02.824Z",
-          "publishedAt": "2025-04-02T16:03:02.888Z"
+          "updatedAt": "2025-05-05T10:00:44.134Z",
+          "publishedAt": "2025-05-05T10:00:44.151Z"
         },
         {
-          "id": 16,
+          "id": 299,
           "documentId": "wc5el196y1pljzj081361zr3",
-          "Heading": "SEO & Visibility",
-          "subHeading": "Improve rankings and organic traffic.",
+          "Heading": "Strategy alignment ",
+          "subHeading": "between paid, organic, and operational workflows",
           "createdAt": "2025-04-02T16:02:28.424Z",
-          "updatedAt": "2025-04-02T16:03:54.147Z",
-          "publishedAt": "2025-04-02T16:03:54.231Z"
+          "updatedAt": "2025-05-05T10:01:07.755Z",
+          "publishedAt": "2025-05-05T10:01:07.768Z"
+        },
+        {
+          "id": 302,
+          "documentId": "vde7tmj5e4jeut6dtjo0a4aa",
+          "Heading": "Ongoing support from  ",
+          "subHeading": "consultants who speak your language (and KPIs)",
+          "createdAt": "2025-05-05T10:05:08.107Z",
+          "updatedAt": "2025-05-05T10:05:17.482Z",
+          "publishedAt": "2025-05-05T10:05:17.506Z"
         }
       ]
     },
     "how_it_work": {
-      "id": 151,
+      "id": 154,
       "documentId": "txp9hf9z9wcxsqkmvjreeeya",
-      "Heading": "How It Works",
+      "Heading": "Our Process",
       "createdAt": "2025-04-02T15:57:43.120Z",
-      "updatedAt": "2025-05-02T14:41:49.671Z",
-      "publishedAt": "2025-05-02T14:41:49.710Z",
+      "updatedAt": "2025-05-05T10:01:44.142Z",
+      "publishedAt": "2025-05-05T10:01:44.180Z",
       "sideimage": {
         "id": 205,
         "documentId": "u2lci7ba29whj0t8z5377i7b",
@@ -374,49 +401,49 @@
       },
       "steps": [
         {
-          "id": 10,
+          "id": 253,
           "documentId": "ybjzxuh49wzc0h7uf7bhffx9",
-          "Heading": "Initial Audit",
-          "subHeading": "We analyze your website speed, UX/UI, checkout flow, and performance metrics.",
+          "Heading": " ",
+          "subHeading": "Initial audit of your ad accounts, product performance, and analytics ",
           "createdAt": "2025-04-02T15:56:24.314Z",
-          "updatedAt": "2025-04-02T15:56:24.314Z",
-          "publishedAt": "2025-04-02T15:56:24.345Z"
+          "updatedAt": "2025-05-05T10:26:16.871Z",
+          "publishedAt": "2025-05-05T10:26:16.891Z"
         },
         {
-          "id": 8,
+          "id": 254,
           "documentId": "bt6w1lmah11pc6wtin85ylb1",
-          "Heading": "Strategy Development",
-          "subHeading": "We provide a detailed action plan to improve conversion rates and overall performance.",
+          "Heading": " ",
+          "subHeading": "Deep-dive call to understand your business model and goals",
           "createdAt": "2025-04-02T15:56:02.854Z",
-          "updatedAt": "2025-04-02T15:56:02.854Z",
-          "publishedAt": "2025-04-02T15:56:02.890Z"
+          "updatedAt": "2025-05-05T10:26:42.674Z",
+          "publishedAt": "2025-05-05T10:26:42.688Z"
         },
         {
-          "id": 6,
+          "id": 255,
           "documentId": "f32yn0cusgmv3ao3xn0ef2e6",
-          "Heading": "Implementation & Testing",
-          "subHeading": "We apply the necessary fixes and enhancements while testing their impact.",
+          "Heading": " ",
+          "subHeading": "Tailored consultation report with strategic and tactical recommendations",
           "createdAt": "2025-04-02T15:55:51.812Z",
-          "updatedAt": "2025-04-02T15:55:51.812Z",
-          "publishedAt": "2025-04-02T15:55:51.855Z"
+          "updatedAt": "2025-05-05T10:27:09.886Z",
+          "publishedAt": "2025-05-05T10:27:09.898Z"
         },
         {
-          "id": 4,
+          "id": 256,
           "documentId": "b3t2ydkqxdve400lkceomx4d",
-          "Heading": "Performance Optimization",
-          "subHeading": "We fine-tune strategies based on real-time data.",
+          "Heading": " ",
+          "subHeading": "30-day support to help you implement key suggestions ",
           "createdAt": "2025-04-02T15:55:42.091Z",
-          "updatedAt": "2025-04-02T15:55:42.091Z",
-          "publishedAt": "2025-04-02T15:55:42.149Z"
+          "updatedAt": "2025-05-05T10:27:29.426Z",
+          "publishedAt": "2025-05-05T10:27:29.436Z"
         },
         {
-          "id": 2,
+          "id": 257,
           "documentId": "g8fxepu9gploq8g7gqh9rh0e",
-          "Heading": "Reporting & Recommendations",
-          "subHeading": "We provide insights and ongoing strategies for continuous improvement.",
+          "Heading": " ",
+          "subHeading": "Optional retainer to continue scaling with us",
           "createdAt": "2025-04-02T15:55:31.615Z",
-          "updatedAt": "2025-04-02T15:55:31.615Z",
-          "publishedAt": "2025-04-02T15:55:31.662Z"
+          "updatedAt": "2025-05-05T10:27:48.907Z",
+          "publishedAt": "2025-05-05T10:27:48.919Z"
         }
       ]
     },
@@ -430,13 +457,13 @@
       "publishedAt": "2025-04-02T15:52:44.811Z",
       "why_us_points": [
         {
-          "id": 25,
+          "id": 29,
           "documentId": "ho43113tzhve2oy50huwsipw",
           "Heading": "7+ Years of Expertise",
-          "subHeading": "Proven experience delivering high-quality solutions across industries.",
+          "subHeading": "Trusted by global brands to deliver robust ecommerce operations and digital execution. ",
           "createdAt": "2025-04-02T15:53:07.346Z",
-          "updatedAt": "2025-05-02T14:29:49.500Z",
-          "publishedAt": "2025-05-02T14:29:49.521Z",
+          "updatedAt": "2025-05-05T07:34:49.014Z",
+          "publishedAt": "2025-05-05T07:34:49.035Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -505,13 +532,13 @@
           }
         },
         {
-          "id": 26,
+          "id": 30,
           "documentId": "qjaneznxknxyubfnbqemf2zq",
           "Heading": "Global Clientele",
-          "subHeading": "Extensive experience working with businesses in the USA and beyond.",
+          "subHeading": "Successfully partnered with clients across the US, UK, EU, and APAC in retail, distribution, and manufacturing.",
           "createdAt": "2025-04-02T15:53:40.153Z",
-          "updatedAt": "2025-05-02T14:30:53.266Z",
-          "publishedAt": "2025-05-02T14:30:53.285Z",
+          "updatedAt": "2025-05-05T07:35:29.546Z",
+          "publishedAt": "2025-05-05T07:35:29.570Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -580,13 +607,13 @@
           }
         },
         {
-          "id": 27,
+          "id": 33,
           "documentId": "d1ug3ctxnmifbn6wke7tr9u8",
           "Heading": "End-to-End Services",
-          "subHeading": "From strategy to execution, we provide complete business solutions.",
+          "subHeading": "Strategy, setup, execution, and optimization — one partner for your entire ecommerce ecosystem. ",
           "createdAt": "2025-04-02T15:53:57.816Z",
-          "updatedAt": "2025-05-02T14:37:30.679Z",
-          "publishedAt": "2025-05-02T14:37:30.698Z",
+          "updatedAt": "2025-05-05T10:40:56.382Z",
+          "publishedAt": "2025-05-05T10:40:56.471Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -597,71 +624,71 @@
             "publishedAt": "2025-04-02T15:52:44.811Z"
           },
           "Icon": {
-            "id": 208,
-            "documentId": "bon610s8855htqn1y35dvpza",
-            "name": "journey.png",
-            "alternativeText": "End-to-End Services",
+            "id": 231,
+            "documentId": "yxoz9ulo4wd3pmpclkznul49",
+            "name": "journey (1).png",
+            "alternativeText": null,
             "caption": null,
             "width": 512,
             "height": 512,
             "formats": {
               "small": {
                 "ext": ".png",
-                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196646/small_journey_521e4dd561.png",
-                "hash": "small_journey_521e4dd561",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746441605/small_journey_1_43a5019b6b.png",
+                "hash": "small_journey_1_43a5019b6b",
                 "mime": "image/png",
-                "name": "small_journey.png",
+                "name": "small_journey (1).png",
                 "path": null,
-                "size": 27.86,
+                "size": 33.34,
                 "width": 500,
                 "height": 500,
-                "sizeInBytes": 27859,
+                "sizeInBytes": 33337,
                 "provider_metadata": {
-                  "public_id": "small_journey_521e4dd561",
+                  "public_id": "small_journey_1_43a5019b6b",
                   "resource_type": "image"
                 }
               },
               "thumbnail": {
                 "ext": ".png",
-                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196646/thumbnail_journey_521e4dd561.png",
-                "hash": "thumbnail_journey_521e4dd561",
+                "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746441605/thumbnail_journey_1_43a5019b6b.png",
+                "hash": "thumbnail_journey_1_43a5019b6b",
                 "mime": "image/png",
-                "name": "thumbnail_journey.png",
+                "name": "thumbnail_journey (1).png",
                 "path": null,
-                "size": 7.03,
+                "size": 7.76,
                 "width": 156,
                 "height": 156,
-                "sizeInBytes": 7031,
+                "sizeInBytes": 7758,
                 "provider_metadata": {
-                  "public_id": "thumbnail_journey_521e4dd561",
+                  "public_id": "thumbnail_journey_1_43a5019b6b",
                   "resource_type": "image"
                 }
               }
             },
-            "hash": "journey_521e4dd561",
+            "hash": "journey_1_43a5019b6b",
             "ext": ".png",
             "mime": "image/png",
-            "size": 5.08,
-            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746196646/journey_521e4dd561.png",
+            "size": 5.64,
+            "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746441605/journey_1_43a5019b6b.png",
             "previewUrl": null,
             "provider": "cloudinary",
             "provider_metadata": {
-              "public_id": "journey_521e4dd561",
+              "public_id": "journey_1_43a5019b6b",
               "resource_type": "image"
             },
-            "createdAt": "2025-05-02T14:37:27.428Z",
-            "updatedAt": "2025-05-02T14:37:27.428Z",
-            "publishedAt": "2025-05-02T14:37:27.428Z"
+            "createdAt": "2025-05-05T10:40:05.732Z",
+            "updatedAt": "2025-05-05T10:40:05.732Z",
+            "publishedAt": "2025-05-05T10:40:05.733Z"
           }
         },
         {
-          "id": 28,
+          "id": 32,
           "documentId": "ruzivl9hm0kb2audxcklgou2",
           "Heading": "Tailored Strategies",
-          "subHeading": "Customized solutions designed to meet your unique business needs.",
+          "subHeading": "Custom playbooks for every client, aligned with your market, platform, and team goals. ",
           "createdAt": "2025-04-02T15:53:23.816Z",
-          "updatedAt": "2025-05-02T14:38:51.045Z",
-          "publishedAt": "2025-05-02T14:38:51.065Z",
+          "updatedAt": "2025-05-05T07:41:17.837Z",
+          "publishedAt": "2025-05-05T07:41:17.853Z",
           "why_us": {
             "id": 2,
             "documentId": "hfolj82j7cdr7k5rckomyuso",
@@ -731,62 +758,7 @@
         }
       ]
     },
-    "faq": {
-      "id": 2,
-      "documentId": "o6q55bnm3js6t4q8p6begehl",
-      "Heading": "Frequently Asked Questions",
-      "subHeading": "Answered all frequently asked questions. Still confused? Feel free to contact us.",
-      "createdAt": "2025-04-02T15:52:21.248Z",
-      "updatedAt": "2025-04-02T15:52:21.248Z",
-      "publishedAt": "2025-04-02T15:52:21.414Z",
-      "faq_qnas": [
-        {
-          "id": 2,
-          "documentId": "eeuwls9wl5t4vtfpauog8rq3",
-          "Question": "What are some random questions to ask?",
-          "Answer": "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question.",
-          "createdAt": "2025-04-02T15:50:28.626Z",
-          "updatedAt": "2025-04-02T15:50:28.626Z",
-          "publishedAt": "2025-04-02T15:50:28.859Z"
-        },
-        {
-          "id": 4,
-          "documentId": "fmd3wmwe0vbnibv069m1p8la",
-          "Question": "Do you include common questions?",
-          "Answer": "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator.",
-          "createdAt": "2025-04-02T15:50:44.139Z",
-          "updatedAt": "2025-04-02T15:50:44.139Z",
-          "publishedAt": "2025-04-02T15:50:44.189Z"
-        },
-        {
-          "id": 6,
-          "documentId": "tmt7zj71xgvfk5f3sost9etn",
-          "Question": "Can I use this for 21 questions?",
-          "Answer": "Yes! There are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated.",
-          "createdAt": "2025-04-02T15:51:04.273Z",
-          "updatedAt": "2025-04-02T15:51:04.273Z",
-          "publishedAt": "2025-04-02T15:51:04.354Z"
-        },
-        {
-          "id": 8,
-          "documentId": "ba50fc8k8hm1w4tk6ytbmg8h",
-          "Question": "Are these questions for girls or for boys?",
-          "Answer": "The questions in this generator are gender neutral and can be used to ask either male or females (or any other gender the person identifies with).",
-          "createdAt": "2025-04-02T15:51:21.815Z",
-          "updatedAt": "2025-04-02T15:51:21.815Z",
-          "publishedAt": "2025-04-02T15:51:21.868Z"
-        },
-        {
-          "id": 10,
-          "documentId": "zr0sg7xxv4l89tti8wzjalcj",
-          "Question": "What do you wish you had more talent doing?",
-          "Answer": "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires.",
-          "createdAt": "2025-04-02T15:51:36.163Z",
-          "updatedAt": "2025-04-02T15:51:36.163Z",
-          "publishedAt": "2025-04-02T15:51:36.224Z"
-        }
-      ]
-    },
+    "faq": null,
     "cta": {
       "id": 3,
       "documentId": "qnllhsu06im3yhnc8gak65r9",

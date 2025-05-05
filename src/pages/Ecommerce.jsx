@@ -86,7 +86,7 @@ const Ecommerce = () => {
                   </div>
                 </div>
               </section>
-              {/* Ecommerce Enablement (Operations) */}
+              {/* Ecommerce Enablement Service  */}
               <section className="text-gray-600 body-font">
                 <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
@@ -100,7 +100,7 @@ const Ecommerce = () => {
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
                     <h1 className={styles.ECommH2Middle}>
                       {apiResponse.services_pages_points[1].title ||
-                        "Ecommerce Enablement (Operations)"}
+                        "Ecommerce Enablement Service "}
                     </h1>
                     <p className={styles.ECommp}>
                       {apiResponse.services_pages_points[1].description ||

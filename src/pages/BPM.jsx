@@ -22,12 +22,12 @@ const BPM = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["BPMpage-content"],
     queryFn: fetchBPMContent,
-    initialData: BPMPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: BPMPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? BPMPageData.data || [] : data || [];
@@ -122,85 +122,16 @@ const BPM = () => {
                   </div>
                 </div>
               </section>
-              {/* Transcription */}
-              <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex flex-col items-start md:text-left mb-16 md:mb-0 ">
-                    <h2 className={styles.BPMH2}>
-                      {apiResponse.services_pages_points[2].title ||
-                        "Transcription"}
-                    </h2>
-                    <p className={styles.BPMp}>
-                      {apiResponse.services_pages_points[2].description ||
-                        `Convert audio and video into accurate, well-formatted text
-                      with our professional transcription services. Whether it's
-                      meetings, interviews, podcasts, or webinars, we deliver
-                      clean, timestamped transcripts that are ready to publish,
-                      subtitle, or archive—supporting your accessibility and
-                      content strategies.`}
-                    </p>
-                    <div className="flex md:justify-center">
-                      <Link to={"/transcription"}>
-                        <button class="center-hover-btn">
-                          <span>Know More</span>
-                        </button>
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/2 flex justify-center">
-                    <DotLottieReact src={Transcription} loop autoplay />
-                    {/* <img
-                      className="w-100 object-cover object-center rounded"
-                      alt="hero"
-                      src={Transcription}
-                    /> */}
-                  </div>
-                </div>
-              </section>
-              {/* Transliteration */}
-              <section className="text-gray-600 body-font">
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex justify-start">
-                    {/* <img
-                      className="object-cover object-center rounded w-full max-w-md"
-                      alt="hero"
-                      src={Transliteration}
-                    /> */}
-                    <DotLottieReact src={Transliteration} loop autoplay />
-                  </div>
-                  <div className="w-full md:w-1/2 flex flex-col items-start md:text-left ">
-                    <h2 className={styles.BPMH2Middle}>
-                      {apiResponse.services_pages_points[3].title ||
-                        "Transliteration"}
-                    </h2>
-                    <p className={styles.BPMp}>
-                      {apiResponse.services_pages_points[3].description ||
-                        `Preserve the sound and spirit of your content in a new
-                      script. Our transliteration services are ideal for brand
-                      names, product catalogs, and culturally sensitive
-                      content—ensuring pronunciation, phonetics, and meaning are
-                      correctly conveyed across languages and writing systems.`}
-                    </p>
-                    <div className="flex md:justify-center">
-                      <Link to={"/transliteration"}>
-                        <button class="center-hover-btn">
-                          <span>Know More</span>
-                        </button>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </section>
               {/* Data Labeling & Annotation */}
               <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left mb-16 md:mb-0 ">
                     <h2 className={styles.BPMH2}>
-                      {apiResponse.services_pages_points[4].title ||
+                      {apiResponse.services_pages_points[2].title ||
                         "Data Labeling & Annotation"}
                     </h2>
                     <p className={styles.BPMp}>
-                      {apiResponse.services_pages_points[4].description ||
+                      {apiResponse.services_pages_points[2].description ||
                         `Turn raw data into machine learning gold. We provide
                       high-quality data labeling and annotation services for
                       images, video, text, and audio—fueling AI models with
