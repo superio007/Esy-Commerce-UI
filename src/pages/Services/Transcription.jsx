@@ -21,12 +21,12 @@ const Transcription = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Transcriptionpage-content"],
     queryFn: fetchTranscriptionContent,
-    initialData: TranscriptionPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: TranscriptionPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error

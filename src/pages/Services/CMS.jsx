@@ -21,12 +21,12 @@ const CMS = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["CMSpage-content"],
     queryFn: fetchCMSContent,
-    initialData: CMSPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: CMSPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error

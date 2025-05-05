@@ -21,12 +21,12 @@ const StaffOffServices = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["StaffOffServicespage-content"],
     queryFn: fetchStaffOffServicesContent,
-    initialData: StaffOffServicesPageData.data,
-    initialDataUpdatedAt: 0, // Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: StaffOffServicesPageData.data,
+    // initialDataUpdatedAt: 0, // Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error
