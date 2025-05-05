@@ -41,6 +41,8 @@ import DataLabelingAnnotation from "./pages/Services/DataLabelingAnnotation.jsx"
 import Translation from "./pages/Services/Translation.jsx";
 import Transcription from "./pages/Services/Transcription.jsx";
 import StaffOffServices from "./pages/Services/StaffOffService.jsx";
+import OurPartner from "./pages/OurPartners.jsx";
+import OurClients from "./pages/OurClients.jsx";
 import {
   Route,
   createBrowserRouter,
@@ -120,6 +122,8 @@ function App() {
           element={<DataLabelingAnnotation />}
         />
         <Route path="/staff-off-services" element={<StaffOffServices />} />
+        <Route path="/our-clients" element={<OurClients />} />
+        <Route path="/our-partners" element={<OurPartner />} />
       </Route>
     )
   );

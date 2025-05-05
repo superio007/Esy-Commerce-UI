@@ -97,10 +97,10 @@ const Design = () => {
                     <DotLottieReact src={LinkedIn} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  ">
-                    <h1 className={styles.DesignH2Middle}>
+                    <h2 className={styles.DesignH2Middle}>
                       {apiResponse.services_pages_points[1].title ||
                         "LinkedIn Content Marketing"}
-                    </h1>
+                    </h2>
                     <p className={styles.Designp}>
                       {apiResponse.services_pages_points[1].description ||
                         `Position your brand as an industry thought leader with
@@ -173,10 +173,10 @@ const Design = () => {
                     <DotLottieReact src={CustomWebsite} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  ">
-                    <h1 className={styles.DesignH2Middle}>
+                    <h2 className={styles.DesignH2Middle}>
                       {apiResponse.services_pages_points[3].title ||
                         "Custom Website Development"}
-                    </h1>
+                    </h2>
                     <p className={styles.Designp}>
                       {apiResponse.services_pages_points[3].description ||
                         `We specialize in building bespoke websites tailored to

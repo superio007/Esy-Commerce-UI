@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./css/BlogGrid.module.scss"; // Ensure CSS file is included
+import { Link } from "react-router-dom";
 import Logo from "../../assets/homePage/LogoWhite.png";
 import Thumbnail from "../../assets/homePage/thumbnail.jpg"; // Example thumbnail image
 import VideoThumb from "../../assets/homePage/VideoThumbNail.jpg"; // Example video thumbnail image
@@ -33,29 +34,43 @@ const BlogGrid = () => {
               className="grid grid-cols-5 grid-rows-7 gap-4"
             >
               <div className={`${styles.blogGrid} row-span-4`}>
-                <img
-                  src={Thumbnail}
-                  className=" blogThumbnail rounded-2xl"
-                  alt=""
-                />
+                <Link to={"/blogs/AI-is-NOT-taking-away-your-jobs!"}>
+                  <img
+                    src={Thumbnail}
+                    className=" blogThumbnail rounded-2xl"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div
                 className={`${styles.blogGrid} col-span-2 row-span-3 col-start-1 row-start-5`}
               >
-                <img
-                  src={VideoThumb3}
-                  className="rounded-2xl blogThumbnail flex w-full h-full"
-                  alt=""
-                />
+                <Link
+                  to={
+                    "/blogs/AI-is-Going-Nuclear:-Why-Tech-Giants-Are-Turning-to-Nuclear-Power"
+                  }
+                >
+                  <img
+                    src={VideoThumb3}
+                    className="rounded-2xl blogThumbnail flex w-full h-full"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div
                 className={`${styles.blogGrid} col-span-3 row-span-4 col-start-2 row-start-1`}
               >
-                <img
-                  src={VideoThumb}
-                  className="rounded-2xl blogThumbnail w-full object-cover"
-                  alt=""
-                />
+                <Link
+                  to={
+                    "/blogs/Why-India-will-NEVER-create-ChatGPT-OpenAI-o1-Preview-%7C-India-vs-Silicon-Valley-in-AI-Development"
+                  }
+                >
+                  <img
+                    src={VideoThumb}
+                    className="rounded-2xl blogThumbnail w-full object-cover"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div
                 className={`${styles.blogGrid} row-span-3 col-start-5 row-start-1`}
@@ -65,20 +80,24 @@ const BlogGrid = () => {
               <div
                 className={`${styles.blogGrid} col-span-2 row-span-3 col-start-3 row-start-5`}
               >
-                <img
-                  src={VideoThumb2}
-                  className="rounded-2xl blogThumbnail w-full h-full"
-                  alt=""
-                />
+                <Link to={"/blogs/The-REAL-Winner-of-AI"}>
+                  <img
+                    src={VideoThumb2}
+                    className="rounded-2xl blogThumbnail w-full h-full"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div
                 className={`${styles.blogGrid} row-span-4 col-start-5 row-start-4`}
               >
-                <img
-                  src={Thumbnail}
-                  className=" blogThumbnail rounded-2xl"
-                  alt=""
-                />
+                <Link to={"/blogs/AI-is-NOT-taking-away-your-jobs!"}>
+                  <img
+                    src={Thumbnail}
+                    className=" blogThumbnail rounded-2xl"
+                    alt=""
+                  />
+                </Link>
               </div>
             </div>
           </div>

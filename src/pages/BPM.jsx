@@ -37,9 +37,7 @@ const BPM = () => {
     <>
       <div className="bg-[#007fff]">
         <div className={styles.BPM}>
-          <section
-            className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}
-          >
+          <section className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}>
             <div className="px-6 md:px-0">
               <h1
                 className={`${styles.BPMHeading} text-center text-white capitalize`}
@@ -72,10 +70,7 @@ const BPM = () => {
                       zero downtime and 100% content fidelity.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/content-migration"}
-                        
-                      >
+                      <Link to={"/content-migration"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>
@@ -104,10 +99,10 @@ const BPM = () => {
                     <DotLottieReact src={Translation} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left ">
-                    <h1 className={styles.BPMH2Middle}>
+                    <h2 className={styles.BPMH2Middle}>
                       {apiResponse.services_pages_points[1].title ||
                         "Translation"}
-                    </h1>
+                    </h2>
                     <p className={styles.BPMp}>
                       {apiResponse.services_pages_points[1].description ||
                         `Break language barriers and go global. Our professional
@@ -118,10 +113,7 @@ const BPM = () => {
                       maintain cultural and contextual accuracy.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/translation"}
-                        
-                      >
+                      <Link to={"/translation"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>
@@ -148,10 +140,7 @@ const BPM = () => {
                       content strategies.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/transcription"}
-                        
-                      >
+                      <Link to={"/transcription"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>
@@ -180,10 +169,10 @@ const BPM = () => {
                     <DotLottieReact src={Transliteration} loop autoplay />
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left ">
-                    <h1 className={styles.BPMH2Middle}>
+                    <h2 className={styles.BPMH2Middle}>
                       {apiResponse.services_pages_points[3].title ||
                         "Transliteration"}
-                    </h1>
+                    </h2>
                     <p className={styles.BPMp}>
                       {apiResponse.services_pages_points[3].description ||
                         `Preserve the sound and spirit of your content in a new
@@ -193,10 +182,7 @@ const BPM = () => {
                       correctly conveyed across languages and writing systems.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/transliteration"}
-                        
-                      >
+                      <Link to={"/transliteration"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>
@@ -223,10 +209,7 @@ const BPM = () => {
                       human-in-the-loop solutions deliver at scale.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link
-                        to={"/data-labeling-annotation"}
-                        
-                      >
+                      <Link to={"/data-labeling-annotation"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>

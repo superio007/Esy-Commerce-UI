@@ -5,10 +5,9 @@ import { TbBrandFacebook } from "react-icons/tb";
 import {
   SlSocialYoutube,
   SlSocialLinkedin,
-  
   SlSocialFacebook,
 } from "react-icons/sl";
-import { FiYoutube,FiFacebook , FiLinkedin } from "react-icons/fi";
+import { FiYoutube, FiFacebook, FiLinkedin } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
@@ -29,17 +28,17 @@ const Footer = () => {
               <div className="flex flex-col md:flex-row md:gap-6 gap-3">
                 <Link
                   className={styles.hoverNavTag}
-                  to={"/about"}
-                  onClick={handleClick}
-                >
-                  <p>About</p>
-                </Link>
-                <Link
-                  className={styles.hoverNavTag}
                   to={"/services"}
                   onClick={handleClick}
                 >
-                  <p>Services</p>
+                  <p>Our Services</p>
+                </Link>
+                <Link
+                  className={styles.hoverNavTag}
+                  to={"/our-clients"}
+                  onClick={handleClick}
+                >
+                  <p>Our Clients</p>
                 </Link>
                 <Link
                   className={styles.hoverNavTag}
@@ -127,9 +126,9 @@ const Footer = () => {
                 alt="Website Logo"
               />
               <p className="p-1 mb-6 leading-normal text-[16px] ">
-                Your one stop service <br /> provider for all HITL data <br />{" "}
-                labeling and content <br /> management services <br /> required
-                for successful AI & <br /> Machine Learning projects.
+                Your one stop service provider for all HITL data labeling and
+                content management services required for successful AI & Machine
+                Learning projects.
               </p>
               <img
                 style={{ maxWidth: "86%", width: "400px" }}

@@ -165,10 +165,10 @@ const Development = () => {
                     /> */}
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
-                    <h1 className={styles.DevelopmentH2Middle}>
+                    <h2 className={styles.DevelopmentH2Middle}>
                       {apiResponse.services_pages_points[3].title ||
                         "Staff Off Services (Remote Talent Solutions)"}
-                    </h1>
+                    </h2>
                     <p className={styles.Developmentp}>
                       {apiResponse.services_pages_points[3].description ||
                         `Access skilled remote professionals across a wide range of

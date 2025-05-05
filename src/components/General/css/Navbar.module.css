@@ -36,15 +36,20 @@
 .MenuItemText {
   font-size: 16px;
   color: #1b3139 !important;
+
   &:hover {
     color: #007fff !important;
   }
 }
+
 .MenuItemContact {
   font-size: 16px;
   color: #ffffff !important;
+
   &:hover {
-    color: #1b3139 !important;
+    border-bottom: 1.5px solid white;
+    transition: ease-in-out 0.3s;
+    border-radius: 0;
   }
 }
 

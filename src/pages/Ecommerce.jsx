@@ -148,7 +148,7 @@ const Ecommerce = () => {
                       </Link>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/2 flex justify-center">
+                  <div className="w-full mt-3 md:mt-0 md:w-1/2 flex justify-center">
                     {/* <img
                       className="w-100 object-cover object-center rounded"
                       alt="hero"

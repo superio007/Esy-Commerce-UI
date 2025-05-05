@@ -50,11 +50,11 @@ const About = () => {
         coreValues={apiResponse.about_us_core_values_points}
         CoreHeading={apiResponse.about_us_core_value}
       />
-      <TeamSection
+      {/* <TeamSection
         TeamMembers={apiResponse.team_members}
         heading={apiResponse.about_team_section.Heading}
         subHeading={apiResponse.about_team_section.subHeading}
-      />
+      /> */}
       <CertificateSlider
         BackColor={"#fafafa"}
         CertificationSlider={apiResponse.certifications}

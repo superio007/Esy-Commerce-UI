@@ -1,0 +1,500 @@
+{
+  "data": {
+    "id": 3,
+    "documentId": "bddmtlve43r8my265yd1bsww",
+    "createdAt": "2025-05-05T06:12:00.582Z",
+    "updatedAt": "2025-05-05T06:12:33.838Z",
+    "publishedAt": "2025-05-05T06:12:33.854Z",
+    "services_pages_points": [
+      {
+        "id": 34,
+        "documentId": "hwdnjpg03zv8d8ke4u68z70h",
+        "title": "Ecommerce Services",
+        "description": "We provide end-to-end ecommerce services tailored to your brand — from strategy and store setup to operations and performance marketing. Our solutions help you scale faster, streamline operations, and boost customer experience across all major platforms.",
+        "createdAt": "2025-05-05T06:05:41.105Z",
+        "updatedAt": "2025-05-05T06:05:41.105Z",
+        "publishedAt": "2025-05-05T06:05:41.136Z",
+        "SideImage": null
+      },
+      {
+        "id": 36,
+        "documentId": "msrveoiiv8b0d2hoi4a6k6bf",
+        "title": "Design",
+        "description": "Our UI/UX experts craft visually stunning, conversion-focused designs that reflect your brand and improve user journeys. From wireframes to final mockups, we ensure every pixel serves a purpose and every screen delivers impact.",
+        "createdAt": "2025-05-05T06:05:57.703Z",
+        "updatedAt": "2025-05-05T06:05:57.703Z",
+        "publishedAt": "2025-05-05T06:05:57.763Z",
+        "SideImage": null
+      },
+      {
+        "id": 38,
+        "documentId": "ujvb1820l1nny8w3e44xw61s",
+        "title": "Development",
+        "description": "We build ecommerce websites and custom tools that are fast, secure, and tailored to your business. Whether it's Shopify, WooCommerce, headless commerce, or custom APIs, we deliver tech that works for your growth.",
+        "createdAt": "2025-05-05T06:06:08.486Z",
+        "updatedAt": "2025-05-05T06:06:08.486Z",
+        "publishedAt": "2025-05-05T06:06:08.505Z",
+        "SideImage": null
+      },
+      {
+        "id": 40,
+        "documentId": "h53pfdatw7n4ceb91pgqfir8",
+        "title": "BPM",
+        "description": "Our BPM services cover product uploads, order processing, customer support, and other backend operations, allowing you to focus on strategy while we handle the daily grind. Reliable, efficient, and always aligned with your KPIs.",
+        "createdAt": "2025-05-05T06:06:18.540Z",
+        "updatedAt": "2025-05-05T06:06:18.540Z",
+        "publishedAt": "2025-05-05T06:06:18.561Z",
+        "SideImage": null
+      }
+    ],
+    "customer_slider": {
+      "id": 66,
+      "documentId": "myggn2vfmjqk4ddjbjaqfwdf",
+      "createdAt": "2025-05-05T06:07:16.209Z",
+      "updatedAt": "2025-05-05T06:07:16.209Z",
+      "publishedAt": "2025-05-05T06:07:16.283Z",
+      "title": "Service Page",
+      "Images": [
+        {
+          "id": 198,
+          "documentId": "srgono9rvt6dlajpryqp5ovc",
+          "name": "Saguna.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 313,
+          "height": 124,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/thumbnail_Saguna_ce3291136b.png",
+              "hash": "thumbnail_Saguna_ce3291136b",
+              "mime": "image/png",
+              "name": "thumbnail_Saguna.png",
+              "path": null,
+              "size": 16.46,
+              "width": 245,
+              "height": 97,
+              "sizeInBytes": 16457,
+              "provider_metadata": {
+                "public_id": "thumbnail_Saguna_ce3291136b",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Saguna_ce3291136b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 6.23,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/Saguna_ce3291136b.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Saguna_ce3291136b",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:42.899Z",
+          "updatedAt": "2025-04-30T14:20:42.899Z",
+          "publishedAt": "2025-04-30T14:20:42.899Z"
+        },
+        {
+          "id": 197,
+          "documentId": "onrncx7vnll22r548hcaex4g",
+          "name": "Rang mart.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 415,
+          "height": 70,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/thumbnail_Rang_mart_6b2416a840.png",
+              "hash": "thumbnail_Rang_mart_6b2416a840",
+              "mime": "image/png",
+              "name": "thumbnail_Rang mart.png",
+              "path": null,
+              "size": 12.37,
+              "width": 245,
+              "height": 41,
+              "sizeInBytes": 12374,
+              "provider_metadata": {
+                "public_id": "thumbnail_Rang_mart_6b2416a840",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Rang_mart_6b2416a840",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 7.32,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022837/Rang_mart_6b2416a840.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Rang_mart_6b2416a840",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:42.885Z",
+          "updatedAt": "2025-04-30T14:20:42.885Z",
+          "publishedAt": "2025-04-30T14:20:42.885Z"
+        },
+        {
+          "id": 195,
+          "documentId": "ktxr0a6pvm1s91d86lju9zpt",
+          "name": "villagemd.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 297,
+          "height": 73,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022842/thumbnail_villagemd_53c96852ec.png",
+              "hash": "thumbnail_villagemd_53c96852ec",
+              "mime": "image/png",
+              "name": "thumbnail_villagemd.png",
+              "path": null,
+              "size": 13.65,
+              "width": 245,
+              "height": 60,
+              "sizeInBytes": 13649,
+              "provider_metadata": {
+                "public_id": "thumbnail_villagemd_53c96852ec",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "villagemd_53c96852ec",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 4.01,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022842/villagemd_53c96852ec.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "villagemd_53c96852ec",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:42.657Z",
+          "updatedAt": "2025-05-01T19:30:24.982Z",
+          "publishedAt": "2025-04-30T14:20:42.657Z"
+        },
+        {
+          "id": 194,
+          "documentId": "epmpsnx5jrrl2w30a5t6qo2p",
+          "name": "Arasan.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 95,
+          "height": 49,
+          "formats": null,
+          "hash": "Arasan_e2be5f6479",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 2.46,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Arasan_e2be5f6479.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Arasan_e2be5f6479",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:42.316Z",
+          "updatedAt": "2025-04-30T14:20:42.316Z",
+          "publishedAt": "2025-04-30T14:20:42.316Z"
+        },
+        {
+          "id": 190,
+          "documentId": "e9ah8ucp3bozutr0a65ie9bt",
+          "name": "SWYFT_.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 1746,
+          "height": 359,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/large_SWYFT_b2ef558bd3.png",
+              "hash": "large_SWYFT_b2ef558bd3",
+              "mime": "image/png",
+              "name": "large_SWYFT_.png",
+              "path": null,
+              "size": 55.14,
+              "width": 1000,
+              "height": 206,
+              "sizeInBytes": 55136,
+              "provider_metadata": {
+                "public_id": "large_SWYFT_b2ef558bd3",
+                "resource_type": "image"
+              }
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/small_SWYFT_b2ef558bd3.png",
+              "hash": "small_SWYFT_b2ef558bd3",
+              "mime": "image/png",
+              "name": "small_SWYFT_.png",
+              "path": null,
+              "size": 20,
+              "width": 500,
+              "height": 103,
+              "sizeInBytes": 20001,
+              "provider_metadata": {
+                "public_id": "small_SWYFT_b2ef558bd3",
+                "resource_type": "image"
+              }
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/medium_SWYFT_b2ef558bd3.png",
+              "hash": "medium_SWYFT_b2ef558bd3",
+              "mime": "image/png",
+              "name": "medium_SWYFT_.png",
+              "path": null,
+              "size": 35.48,
+              "width": 750,
+              "height": 154,
+              "sizeInBytes": 35477,
+              "provider_metadata": {
+                "public_id": "medium_SWYFT_b2ef558bd3",
+                "resource_type": "image"
+              }
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/thumbnail_SWYFT_b2ef558bd3.png",
+              "hash": "thumbnail_SWYFT_b2ef558bd3",
+              "mime": "image/png",
+              "name": "thumbnail_SWYFT_.png",
+              "path": null,
+              "size": 8.96,
+              "width": 245,
+              "height": 50,
+              "sizeInBytes": 8958,
+              "provider_metadata": {
+                "public_id": "thumbnail_SWYFT_b2ef558bd3",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "SWYFT_b2ef558bd3",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 21.63,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022840/SWYFT_b2ef558bd3.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "SWYFT_b2ef558bd3",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:40.761Z",
+          "updatedAt": "2025-04-30T14:20:40.761Z",
+          "publishedAt": "2025-04-30T14:20:40.761Z"
+        },
+        {
+          "id": 192,
+          "documentId": "s0knvkn3caos0kc9jiexmy4a",
+          "name": "Titan.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 334,
+          "height": 143,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/thumbnail_Titan_740c93e20d.png",
+              "hash": "thumbnail_Titan_740c93e20d",
+              "mime": "image/png",
+              "name": "thumbnail_Titan.png",
+              "path": null,
+              "size": 31.7,
+              "width": 245,
+              "height": 105,
+              "sizeInBytes": 31700,
+              "provider_metadata": {
+                "public_id": "thumbnail_Titan_740c93e20d",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Titan_740c93e20d",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 15.91,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022841/Titan_740c93e20d.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Titan_740c93e20d",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:41.845Z",
+          "updatedAt": "2025-04-30T14:20:41.845Z",
+          "publishedAt": "2025-04-30T14:20:41.845Z"
+        },
+        {
+          "id": 187,
+          "documentId": "lti6rln6pdu55nqub4or9p5w",
+          "name": "sleepmax.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 165,
+          "height": 35,
+          "formats": null,
+          "hash": "sleepmax_b1da7e680b",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3.59,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022839/sleepmax_b1da7e680b.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "sleepmax_b1da7e680b",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:39.477Z",
+          "updatedAt": "2025-04-30T14:20:39.477Z",
+          "publishedAt": "2025-04-30T14:20:39.477Z"
+        },
+        {
+          "id": 181,
+          "documentId": "ri0uncpe597k941dnweydfj7",
+          "name": "Riders.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 133,
+          "height": 21,
+          "formats": null,
+          "hash": "Riders_fbc6cf2e09",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 0.85,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022837/Riders_fbc6cf2e09.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Riders_fbc6cf2e09",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:37.808Z",
+          "updatedAt": "2025-04-30T14:20:37.808Z",
+          "publishedAt": "2025-04-30T14:20:37.809Z"
+        },
+        {
+          "id": 179,
+          "documentId": "y48myc8gg0h38bavkijesrfm",
+          "name": "OODC.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 125,
+          "height": 136,
+          "formats": null,
+          "hash": "OODC_eec4081013",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1.49,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022836/OODC_eec4081013.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "OODC_eec4081013",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:37.409Z",
+          "updatedAt": "2025-04-30T14:20:37.409Z",
+          "publishedAt": "2025-04-30T14:20:37.409Z"
+        },
+        {
+          "id": 185,
+          "documentId": "tde5o7kvshq5ffqmln5ynm3n",
+          "name": "Singhi Advisors.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 375,
+          "height": 55,
+          "formats": {
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/thumbnail_Singhi_Advisors_acc8c0773a.png",
+              "hash": "thumbnail_Singhi_Advisors_acc8c0773a",
+              "mime": "image/png",
+              "name": "thumbnail_Singhi Advisors.png",
+              "path": null,
+              "size": 12.15,
+              "width": 245,
+              "height": 36,
+              "sizeInBytes": 12146,
+              "provider_metadata": {
+                "public_id": "thumbnail_Singhi_Advisors_acc8c0773a",
+                "resource_type": "image"
+              }
+            }
+          },
+          "hash": "Singhi_Advisors_acc8c0773a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 4.16,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022838/Singhi_Advisors_acc8c0773a.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Singhi_Advisors_acc8c0773a",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:38.870Z",
+          "updatedAt": "2025-04-30T14:20:38.870Z",
+          "publishedAt": "2025-04-30T14:20:38.870Z"
+        },
+        {
+          "id": 178,
+          "documentId": "dtxggw09v9h3zv69uis2q4bf",
+          "name": "newbeautycentre.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 145,
+          "height": 145,
+          "formats": null,
+          "hash": "newbeautycentre_0229a3bbf4",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 9.39,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022836/newbeautycentre_0229a3bbf4.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "newbeautycentre_0229a3bbf4",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:37.043Z",
+          "updatedAt": "2025-04-30T14:20:37.043Z",
+          "publishedAt": "2025-04-30T14:20:37.044Z"
+        },
+        {
+          "id": 176,
+          "documentId": "n8651pnhwm4uu5tq2lab4b01",
+          "name": "ModalAI big.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 141,
+          "height": 31,
+          "formats": null,
+          "hash": "Modal_AI_big_0e69bffb8a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1.58,
+          "url": "https://res.cloudinary.com/dvnmujzxe/image/upload/v1746022836/Modal_AI_big_0e69bffb8a.png",
+          "previewUrl": null,
+          "provider": "cloudinary",
+          "provider_metadata": {
+            "public_id": "Modal_AI_big_0e69bffb8a",
+            "resource_type": "image"
+          },
+          "createdAt": "2025-04-30T14:20:36.764Z",
+          "updatedAt": "2025-04-30T14:20:36.764Z",
+          "publishedAt": "2025-04-30T14:20:36.765Z"
+        }
+      ]
+    }
+  },
+  "meta": {}
+}
