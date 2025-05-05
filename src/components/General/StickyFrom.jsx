@@ -85,7 +85,7 @@ const StickyFrom = () => {
             <div className="relative flex-grow w-full">
               <input
                 type="text"
-                placeholder="Enter Phone Number"
+                placeholder="Phone Number"
                 id="PhoneNumber"
                 {...register("PhoneNumber", {
                   required: "Phone number is required",
@@ -108,7 +108,7 @@ const StickyFrom = () => {
             {/* Email Input */}
             <div className="relative flex-grow w-full">
               <input
-                placeholder="Enter Work Email"
+                placeholder="Work Email"
                 type="email"
                 id="email"
                 {...register("email", {
@@ -187,7 +187,7 @@ const StickyFrom = () => {
             <div className="relative flex-grow w-full">
               <input
                 type="text"
-                placeholder="Enter Phone Number"
+                placeholder="Phone Number"
                 id="PhoneNumber"
                 {...register("PhoneNumber", {
                   required: "Phone number is required",
@@ -210,7 +210,7 @@ const StickyFrom = () => {
             {/* Email Input */}
             <div className="relative flex-grow w-full">
               <input
-                placeholder="Enter Work Email"
+                placeholder="Work Email"
                 type="email"
                 id="email"
                 {...register("email", {
