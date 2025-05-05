@@ -1,0 +1,13 @@
+@use "../MainVariables" as *;
+.Blogs h1{
+    color: white !important;
+}
+.markDown p{
+    padding: 15px 0;
+}
+.blogH2{
+    font-weight: $font-weight-medium;
+    line-height: $line-height-h2;
+    font-size: $font-size-h2;
+    margin: $Sub-Section-Vertical-Height 0 0 0;
+}

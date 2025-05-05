@@ -1,4 +1,4 @@
-import styles from "../css/Blogs.module.css";
+import styles from "../css/Blogs.module.scss";
 import { useState, useEffect } from "react";
 import BlogsSection from "../components/BlogsPage/blogsSection";
 import axios from "axios";

@@ -37,7 +37,7 @@ const BlogCards = ({ study }) => {
           </h3>
           <div className="relative w-full">
             <div className="flex flex-wrap gap-2 mt-2">
-              {study.tags.map((tag, index) => (
+              {study.tags.slice(0, 9).map((tag, index) => (
                 <span
                   key={index}
                   className="text-[10px] bg-gray-200 p-2 rounded-md min-w-fit px-4 snap-start"
@@ -62,7 +62,7 @@ const BlogCards = ({ study }) => {
         <div className="p-4">
           <h3 className="text-lg font-bold">{study.title}</h3>
           <div className="flex flex-wrap gap-2 mt-2">
-            {study.tags.map((tag, index) => (
+            {study.tags.slice(0, 9).map((tag, index) => (
               <span
                 key={index}
                 className="text-[10px] bg-gray-200 p-2 rounded-md min-w-fit px-4 snap-start"
