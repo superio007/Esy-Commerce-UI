@@ -21,24 +21,29 @@ const EcommerceEnablement = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["EcommerceEnablementpage-content"],
     queryFn: fetchEcommerceEnablementContent,
-    initialData: EcommerceEnablementPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: EcommerceEnablementPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error
   const apiResponse = error
     ? EcommerceEnablementPageData.data || []
     : data || [];
+  // console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
       {apiResponse ? (
         <>
-          <HeroSection apiRes={apiResponse.service_hero_section} />
+          <HeroSection
+            apiRes={apiResponse.service_hero_section}
+            Cta={apiResponse.service_hero_section.FormCTA}
+            headline={apiResponse.service_hero_section.FormHeading}
+          />
           <OverviewKeyBenifits
             overview={apiResponse.service_over_view}
             keyBenifits={apiResponse.key_benift}

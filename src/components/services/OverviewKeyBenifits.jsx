@@ -94,7 +94,7 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
                         <path d="M22 4L12 14.01l-3-3"></path>
                       </svg>
                       <span className="title-font mr-2 w-100 text-start">
-                        {key.Heading}: {key.subHeading}
+                        {key.Heading}{key.subHeading}
                       </span>
                     </p>
                   ))}

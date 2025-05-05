@@ -17,7 +17,7 @@ const postEnqueryForm = async (formattedData) => {
   return data;
 };
 
-const ProposalForm = () => {
+const ProposalForm = ({ headline, Cta }) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedService, setSelectedService] = useState("");
   const [pageLoc, setPageLoc] = useState("");
@@ -65,8 +65,7 @@ const ProposalForm = () => {
     <>
       <div className="bg-white flex flex-col items-center justify-center py-10 px-5 max-w-md mx-auto rounded-lg shadow-lg">
         <h2 className={`${styles.FormHeading} mb-5  uppercase text-center`}>
-          Let’s Build Your Success Story -{" "}
-          <span className="text-[#007fff]">Together</span>
+          {headline || `Let’s Build Your Success Story Together`}
         </h2>
 
         <form onSubmit={handleSubmit(onSubmit)} className="w-full">
@@ -174,7 +173,7 @@ const ProposalForm = () => {
               type="submit"
               className=" rounded-md uppercase font-bold center-hover-btn transition duration-300"
             >
-              <span>Get Your Free Proposal</span>
+              <span>{Cta || `Get Your Free Proposal`}</span>
             </button>
           </div>
         </form>

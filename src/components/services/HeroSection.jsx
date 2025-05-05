@@ -1,6 +1,6 @@
 import styles from "./css/HeroSection.module.scss";
 import Enquery from "../General/Enquery";
-const HeroSection = ({ apiRes }) => {
+const HeroSection = ({ apiRes, headline, Cta }) => {
   return (
     <>
       <div className="bg-[#007fff]">
@@ -21,7 +21,7 @@ const HeroSection = ({ apiRes }) => {
               </p>
             </section>
             <section className="w-full md:w-1/2">
-              <Enquery />
+              <Enquery Cta={Cta} headline={headline} />
             </section>
           </div>
         </div>

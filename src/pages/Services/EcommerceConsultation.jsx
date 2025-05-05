@@ -22,12 +22,12 @@ const EcommerceConsultation = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["EcommerceConsultationpage-content"],
     queryFn: fetchEcommerceConsultationContent,
-    initialData: EcommerceConsultationPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: EcommerceConsultationPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
 
   // Use API data if available; fallback to static data on error
@@ -39,7 +39,11 @@ const EcommerceConsultation = () => {
     <>
       {apiResponse ? (
         <>
-          <HeroSection apiRes={apiResponse.service_hero_section} />
+          <HeroSection
+            apiRes={apiResponse.service_hero_section}
+            Cta={apiResponse.service_hero_section.FormCTA}
+            headline={apiResponse.service_hero_section.FormHeading}
+          />
           <OverviewKeyBenifits
             overview={apiResponse.service_over_view}
             keyBenifits={apiResponse.key_benift}

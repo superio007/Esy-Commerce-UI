@@ -9,12 +9,13 @@ const FAQ = ({ apiRes }) => {
   useEffect(() => {
     setOpenIndex(0);
     setFaqsList(
-      apiRes.faq_qnas.map((faq) => ({ q: faq.Question, a: faq.Answer }))
+      apiRes.faqnas.map((faq) => ({ q: faq.Question, a: faq.Answer }))
     );
-    if (apiRes.faq_qnas.length > 0) {
-      setSelectedAnswer(apiRes.faq_qnas[0].Answer);
+    if (apiRes.faqnas.length > 0) {
+      setSelectedAnswer(apiRes.faqnas[0].Answer);
     }
   }, [apiRes]);
+  console.log(apiRes);
   const toggleFAQ = (index) => {
     setOpenIndex(index);
     setSelectedAnswer(faqsList[index].a);

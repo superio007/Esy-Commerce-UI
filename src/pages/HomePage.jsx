@@ -42,6 +42,8 @@ const HomePage = () => {
           title={apiResponse.home_herosection.title}
           heading={apiResponse.home_herosection.home_herosection_headings}
           subHeading={apiResponse.home_herosection.subHeading}
+          headline={apiResponse.home_herosection.FormHeading}
+          Cta={apiResponse.home_herosection.FormCTA}
         />
         {/* Brand Slider */}
         <div className="md:py-6">
