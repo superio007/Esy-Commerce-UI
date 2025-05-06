@@ -3,7 +3,6 @@
 .Client {
     padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
-
 .ClientHeading {
     font-size: $font-size-hero;
     font-weight: $font-weight-bold;
@@ -16,7 +15,7 @@
 }
 
 .ClientLogos {
-    height: 30px;
+    // height: 30px;
     filter: grayscale(100%);
 
     &:hover {

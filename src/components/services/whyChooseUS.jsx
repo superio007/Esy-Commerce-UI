@@ -39,7 +39,7 @@ const WhyUs = ({ apiRes }) => {
                   key={index}
                   className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-b-2 md:border-b-0 md:border-l-2 border-gray-200 border-opacity-60"
                 >
-                  <div className="flex flex-row gap-6 md:gap-0 items-start md:items-start md:flex-col">
+                  <div className="flex gap-6 md:gap-0 items-start flex-col">
                     <div>
                       <img
                         className="mt-2 max-w-[80px] w-auto"
