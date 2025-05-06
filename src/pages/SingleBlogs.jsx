@@ -8,6 +8,8 @@ import { useQuery } from "@tanstack/react-query";
 import BlogsPageData from "../Data/BlogsData.json";
 import styles from "../css/Blogs.module.scss";
 import BlogsSection from "../components/BlogsPage/blogsSection";
+import { FaRegClock } from "react-icons/fa";
+import { formatDate } from "../utils/dateConvert";
 
 const fetchBlogsContent = async () => {
   const { data } = await axios.get(
@@ -38,6 +40,7 @@ const SingleBlogs = () => {
 
   const BlogsData = useMemo(() => {
     const apiResponse = error ? BlogsPageData.data || [] : data || [];
+    // console.log(apiResponse);
     return apiResponse.map((item, index) => ({
       id: index + 1,
       title: item.Title,
@@ -48,6 +51,7 @@ const SingleBlogs = () => {
       tags: item.blog_tags || [],
       category: item.blog_categories || [],
       ytlink: item.ytLink,
+      PublicDate: item.publishedAt,
     }));
   }, [data, error]);
 
@@ -84,16 +88,24 @@ const SingleBlogs = () => {
 
   if (isLoading) return <p>Loading...</p>;
   if (!blogData) return <p>No data available</p>;
-
+  console.log(blogData);
   return (
     <>
       <div className="bg-[#007fff]">
         <section
           className={`${styles.Blogs} xl:px-16 p-3 py-[80px] 3xl:mx-auto 3xl:max-w-screen-xl`}
         >
-          <h1 className="text-[45px] font-bold text-center text-white capitalize">
+          <h1 className={`text-center ${styles.blogHeading}`}>
             {blogData.title}
           </h1>
+          <div className="flex justify-center">
+            <p className={styles.blogp}>
+              <span className="flex items-center gap-2">
+                <FaRegClock className="text-white text-xl" />
+                {formatDate(blogData.PublicDate)}
+              </span>
+            </p>
+          </div>
         </section>
       </div>
 

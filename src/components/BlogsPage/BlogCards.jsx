@@ -1,7 +1,9 @@
 import { React, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { formatDate } from "../../utils/dateConvert";
 const BlogCards = ({ study }) => {
   const [hover, setHover] = useState(false);
+  const navigate = useNavigate();
   function truncateText(text, limit = 30) {
     if (text.length > limit) {
       return text.substring(0, limit) + "...";
@@ -24,8 +26,14 @@ const BlogCards = ({ study }) => {
           }`}
         />
 
+        {/* Date  */}
+        <div className="absolute top-0 left-0 bg-[#007fff] text-white px-2 py-1">
+          {formatDate(study.PublicDate)}
+        </div>
+
         {/* Hover Content */}
         <div
+          onClick={() => navigate(`/blogs/${study.title.split(" ").join("-")}`)}
           className={`absolute inset-0 bg-white flex flex-col justify-between items-center p-4 transition-opacity ${
             hover ? "opacity-100" : "opacity-0"
           }`}

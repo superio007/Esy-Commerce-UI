@@ -5,6 +5,25 @@
 .markDown p{
     padding: 15px 0;
 }
+.blogHeading{
+    font-size: $font-size-hero;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-hero;
+    color: $color-primary-hero !important;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
+}
+.blogHeadingSub{
+    font-size: $font-size-subhero !important;
+    line-height: $line-height-subhero !important;
+    font-weight: $font-weight-regular !important;
+    color: $color-primary-hero !important;
+}
+.blogp{
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    font-weight: $font-weight-regular;
+    color: $color-primary-hero !important;
+}
 .blogH2{
     font-weight: $font-weight-medium;
     line-height: $line-height-h2;
