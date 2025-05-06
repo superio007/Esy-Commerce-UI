@@ -10,9 +10,10 @@ import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import DevelopmentPageData from "../Data/DevelopmentData.json";
 import CustomerSlider from "../components/HomePage/CustomerSlider";
+import HeroSection from "../components/services/HeroSection";
 const fetchDevelopmentContent = async () => {
   const { data } = await axios.get(
-    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/development-page?populate[services_pages_points][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/development-page?populate[services_pages_points][populate]=*&populate[customer_slider][populate]=*&populate[service_page_hero_section][populate]=*"
   );
   return data.data;
 };
@@ -20,12 +21,12 @@ const Development = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Developmentpage-content"],
     queryFn: fetchDevelopmentContent,
-    initialData: DevelopmentPageData.data,
-    initialDataUpdatedAt: 0, // 👈 Forces background API call
-    staleTime: 1000 * 60 * 60, // 1 hour
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: DevelopmentPageData.data,
+    // initialDataUpdatedAt: 0, // 👈 Forces background API call
+    // staleTime: 1000 * 60 * 60, // 1 hour
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? DevelopmentPageData.data || [] : data || [];
@@ -33,19 +34,13 @@ const Development = () => {
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
-      <div className="bg-[#007fff]">
-        <div className={styles.Development}>
-          <section className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}>
-            <div className="px-6 md:px-0">
-              <h1
-                className={`${styles.DevelopmentHeading} text-center text-white capitalize`}
-              >
-                Development
-              </h1>
-            </div>
-          </section>
-        </div>
-      </div>
+      <HeroSection
+              title={apiResponse.service_page_hero_section.Title}
+              heading={apiResponse.service_page_hero_section.service_page_headings}
+              subHeading={apiResponse.service_page_hero_section.subHeading}
+              headline={apiResponse.service_page_hero_section.FormHeading}
+              Cta={apiResponse.service_page_hero_section.FormCTA}
+            />
       <div className="bg-white">
         <div className={styles.Development}>
           <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">

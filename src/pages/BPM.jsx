@@ -12,9 +12,10 @@ import CustomerSlider from "../components/HomePage/CustomerSlider";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import BPMPageData from "../Data/BPMData.json";
+import HeroSection from "../components/services/HeroSection";
 const fetchBPMContent = async () => {
   const { data } = await axios.get(
-    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/bpm-page?populate[services_pages_points][populate]=*&populate[customer_slider][populate]=*"
+    "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/bpm-page?populate[services_pages_points][populate]=*&populate[customer_slider][populate]=*&populate[service_page_hero_section][populate]=*"
   );
   return data.data;
 };
@@ -35,19 +36,13 @@ const BPM = () => {
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
-      <div className="bg-[#007fff]">
-        <div className={styles.BPM}>
-          <section className={`xl:px-16 p-3 3xl:mx-auto 3xl:max-w-screen-xl`}>
-            <div className="px-6 md:px-0">
-              <h1
-                className={`${styles.BPMHeading} text-center text-white capitalize`}
-              >
-                BPM
-              </h1>
-            </div>
-          </section>
-        </div>
-      </div>
+      <HeroSection
+        title={apiResponse.service_page_hero_section.Title}
+        heading={apiResponse.service_page_hero_section.service_page_headings}
+        subHeading={apiResponse.service_page_hero_section.subHeading}
+        headline={apiResponse.service_page_hero_section.FormHeading}
+        Cta={apiResponse.service_page_hero_section.FormCTA}
+      />
       <div className="bg-white">
         <div className={styles.BPM}>
           <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
