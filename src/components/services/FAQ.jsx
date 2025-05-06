@@ -15,7 +15,6 @@ const FAQ = ({ apiRes }) => {
       setSelectedAnswer(apiRes.faqnas[0].Answer);
     }
   }, [apiRes]);
-  console.log(apiRes);
   const toggleFAQ = (index) => {
     setOpenIndex(index);
     setSelectedAnswer(faqsList[index].a);

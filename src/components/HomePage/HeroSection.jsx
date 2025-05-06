@@ -2,7 +2,7 @@ import EnqueryForm from "../General/Enquery";
 import styles from "./css/HeroSection.module.scss";
 import { IoCheckmarkOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
-const HeroSection = ({ heading, subHeading, title, headline }) => {
+const HeroSection = ({ heading, subHeading, title, headline, Cta }) => {
   const [Points, setPoints] = useState([]);
   useEffect(() => {
     if (heading) {
@@ -36,7 +36,7 @@ const HeroSection = ({ heading, subHeading, title, headline }) => {
               </ul>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
-              <EnqueryForm headline={headline} />
+              <EnqueryForm Cta={Cta} headline={headline} />
             </div>
           </div>
         </div>

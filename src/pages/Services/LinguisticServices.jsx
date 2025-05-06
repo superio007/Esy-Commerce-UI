@@ -38,9 +38,14 @@ const LinguisticService = () => {
       {apiResponse ? (
         <>
           <HeroSection
-            apiRes={apiResponse.service_hero_section}
-            Cta={apiResponse.service_hero_section.FormCTA}
+            title={apiResponse.service_hero_section.Title}
+            heading={
+              apiResponse.service_hero_section.service_hero_section_headings
+            }
+            subHeading={apiResponse.service_hero_section.SubHeading}
             headline={apiResponse.service_hero_section.FormHeading}
+            Cta={apiResponse.service_hero_section.FormCTA}
+            apiRes={apiResponse.service_hero_section}
           />
           <OverviewKeyBenifits
             overview={apiResponse.service_over_view}

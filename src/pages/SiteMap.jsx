@@ -109,10 +109,10 @@ const SiteMap = () => {
                     <Link to={"/development"} onClick={handleClick}>
                       <p className="font-bold">Development</p>
                     </Link>
-                    <Link to={"/cms"} onClick={handleClick}>
+                    <Link to={"/cms-development"} onClick={handleClick}>
                       <p className="font-medium">CMS Development</p>
                     </Link>
-                    <Link to={"/crm"} onClick={handleClick}>
+                    <Link to={"/crm-customization"} onClick={handleClick}>
                       <p className="font-medium">CRM Customization</p>
                     </Link>
                     <Link to={"/custom-development"} onClick={handleClick}>

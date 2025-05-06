@@ -55,7 +55,8 @@ const Development = () => {
                 <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  md:mb-0 ">
                     <h2 className={styles.DevelopmentH2}>
-                      {apiResponse.services_pages_points[0].title || "CMS Development"}
+                      {apiResponse.services_pages_points[0].title ||
+                        "CMS Development"}
                     </h2>
                     <p className={styles.Developmentp}>
                       {apiResponse.services_pages_points[0].description ||
@@ -67,7 +68,7 @@ const Development = () => {
                       without touching code.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link to={"/cms"}>
+                      <Link to={"/cms-development"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>
@@ -97,7 +98,8 @@ const Development = () => {
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left ">
                     <h2 className={styles.DevelopmentH2Middle}>
-                      {apiResponse.services_pages_points[1].title || "CRM Customization"}
+                      {apiResponse.services_pages_points[1].title ||
+                        "CRM Customization"}
                     </h2>
                     <p className={styles.Developmentp}>
                       {apiResponse.services_pages_points[1].description ||
@@ -109,7 +111,7 @@ const Development = () => {
                       through the cracks.`}
                     </p>
                     <div className="flex md:justify-center">
-                      <Link to={"/crm"}>
+                      <Link to={"/crm-customization"}>
                         <button class="center-hover-btn">
                           <span>Know More</span>
                         </button>

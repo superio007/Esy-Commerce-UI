@@ -1,18 +1,25 @@
 @use "../../../MainVariables" as *;
-.HeroSection{
-    padding: $Section-Vertical-Height $Section-Horizontal-Height
+.HeroSection {
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
-.HeroHeading {
+
+.HeroSection li {
+    color: $color-primary-hero !important
+}
+
+.LandHeroHeading {
     font-size: $font-size-hero;
     line-height: $line-height-hero;
     font-weight: $font-weight-bold;
+    text-transform: capitalize;
     color: $color-primary-hero !important;
     margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
-.HeroSubHeading {
+.LandHerosubheading {
     font-size: $font-size-subhero !important;
-    line-height: $line-height-subhero !important;
     font-weight: $font-weight-regular !important;
+    line-height: $line-height-subhero !important;
     color: $color-primary-hero !important;
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }

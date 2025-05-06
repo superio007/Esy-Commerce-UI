@@ -1,30 +1,47 @@
 import styles from "./css/HeroSection.module.scss";
+import { useState, useEffect } from "react";
+import { IoCheckmarkOutline } from "react-icons/io5";
 import Enquery from "../General/Enquery";
-const HeroSection = ({ apiRes, headline, Cta }) => {
+const HeroSection = ({ heading, subHeading, title, headline, Cta }) => {
+  const [Points, setPoints] = useState([]);
+  useEffect(() => {
+    if (heading) {
+      const points = heading.map((point) => point.Title);
+      setPoints(points);
+    }
+  }, []);
   return (
     <>
       <div className="bg-[#007fff]">
-        <div className={` ${styles.HeroSection} `}>
-          <div className="px-6 md:px-0 flex md:flex-row flex-col items-center xl:px-16 3xl:mx-auto 3xl:max-w-screen-xl">
-            <section
-              className={`w-full mb-8 md:mb-0 md:w-1/2 ${styles.EcommerceConsultation}`}
-            >
-              <h1 className={`${styles.HeroHeading}  text-start capitalize`}>
-                {apiRes.Heading || "Ecommerce Consultation"}
-              </h1>
-              <p className={`${styles.HeroSubHeading} mt-4 md:mt-0 text-start`}>
-                {apiRes.SubHeading ||
-                  `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero
-                sint veritatis nam suscipit beatae modi provident accusamus,
-                consequatur expedita quod hic blanditiis autem aliquid? Aliquam,
-                dicta laboriosam! Ducimus, sed.`}
-              </p>
-            </section>
-            <section className="w-full md:w-1/2">
-              <Enquery Cta={Cta} headline={headline} />
-            </section>
+        <section className="body-font xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
+          <div className={`${styles.HeroSection} `}>
+            <div className="px-6 flex md:px-5 md:flex-row flex-col items-center">
+              <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left mb-8 md:mb-0 ">
+                <h1 className={styles.LandHeroHeading}>
+                  {title || "Build, Scale & Transform"}
+                </h1>
+                <p className={`${styles.LandHerosubheading}`}>
+                  <span style={{ fontStyle: "italic" }}>
+                    {subHeading ||
+                      `your next digital leap with a boost from our expert solutions{" "}
+                        - faster & smarter with zero guesswork`}
+                  </span>
+                </p>
+                <ul>
+                  {Points.map((point, index) => (
+                    <li key={index} className="flex gap-2 items-center">
+                      <IoCheckmarkOutline className="text-white text-2xl" />
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+                <Enquery Cta={Cta} headline={headline} />
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

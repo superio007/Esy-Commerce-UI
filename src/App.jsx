@@ -112,8 +112,8 @@ function App() {
           path="/linkedin-content-marketing"
           element={<LinkedinContentMarketing />}
         />
-        <Route path="/cms" element={<CMS />} />
-        <Route path="/crm" element={<CRM />} />
+        <Route path="/cms-development" element={<CMS />} />
+        <Route path="/crm-customization" element={<CRM />} />
         <Route path="/custom-development" element={<CustomDevlopment />} />
         <Route path="/content-migration" element={<ContentMigration />} />
         <Route path="/transcription" element={<Transcription />} />
