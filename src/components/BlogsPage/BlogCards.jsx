@@ -21,7 +21,7 @@ const BlogCards = ({ study }) => {
         <img
           src={study.image}
           alt={study.imageAlt}
-          className={`w-full h-56 transition-opacity ${
+          className={`w-full h-56 object-fill transition-opacity ${
             hover ? "opacity-30" : "opacity-100"
           }`}
         />

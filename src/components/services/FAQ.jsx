@@ -35,9 +35,9 @@ const FAQ = ({ apiRes }) => {
           contact us.`}
           </p>
         </div>
-        <div className="hidden md:flex  flex-col md:flex-row gap-6">
+        {/* <div className="hidden md:flex  flex-col md:flex-row gap-6">
           {/* FAQ List */}
-          <div className="w-full md:w-1/2 space-y-4">
+        {/* <div className="w-full md:w-1/2 space-y-4">
             {faqsList.map((faq, index) => (
               <div
                 key={index}
@@ -63,7 +63,7 @@ const FAQ = ({ apiRes }) => {
                     right: -28,
                     width: 34,
                     top: -0.899,
-                    padding: "54.889px 0 38px 0",
+                    padding: "54px 0 38px 0",
                     backgroundColor: "white",
                     height: "100%",
                     zIndex: 99999,
@@ -72,16 +72,16 @@ const FAQ = ({ apiRes }) => {
                 ></div>
               </div>
             ))}
-          </div>
+          </div> */}
 
-          {/* Dynamic Answer Block */}
-          <div className="w-full md:w-1/2 bg-white rounded-md p-6 border border-gray-200">
+        {/* Dynamic Answer Block */}
+        {/* <div className="w-full md:w-1/2 bg-white rounded-md p-6 border border-gray-200">
             <p className={styles.faqP}>{selectedAnswer}</p>
           </div>
-        </div>
-        <div className="md:hidden space-y-4">
+        </div>  */}
+        <div className=" space-y-4">
           {faqsList.map((faq, index) => (
-            <div key={index} className="flex md:flex-row flex-col">
+            <div key={index} className="flex flex-col">
               <div
                 className="bg-white w-full flex rounded-md justify-between p-4 md:p-6 cursor-pointer"
                 onClick={() => toggleFAQ(index)}

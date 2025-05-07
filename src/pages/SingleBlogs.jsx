@@ -88,7 +88,7 @@ const SingleBlogs = () => {
 
   if (isLoading) return <p>Loading...</p>;
   if (!blogData) return <p>No data available</p>;
-  console.log(blogData);
+  // console.log(blogData);
   return (
     <>
       <div className="bg-[#007fff]">

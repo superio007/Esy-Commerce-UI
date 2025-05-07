@@ -29,7 +29,7 @@ const Ecommerce = () => {
   });
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? EcommercePageData.data || [] : data || [];
-  console.log(apiResponse);
+  // console.log(apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
