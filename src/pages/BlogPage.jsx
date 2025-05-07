@@ -37,7 +37,7 @@ const Blogs = () => {
       imageAlt: item.CoverImage?.alternativeText || "Blog Image",
       tags: item.blog_tags || [],
       category: item.blog_categories || [],
-      PublicDate: item.publishedAt,
+      PublicDate: item.createdAt,
     };
   });
 

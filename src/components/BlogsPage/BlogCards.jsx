@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { formatDate } from "../../utils/dateConvert";
+import { slugify } from "../../utils/modifyUrl";
 const BlogCards = ({ study }) => {
   const [hover, setHover] = useState(false);
   const navigate = useNavigate();
@@ -33,13 +34,13 @@ const BlogCards = ({ study }) => {
 
         {/* Hover Content */}
         <div
-          onClick={() => navigate(`/blogs/${study.title.split(" ").join("-")}`)}
+          onClick={() => navigate(`/blogs/${slugify(study.title)}`)}
           className={`absolute inset-0 bg-white flex flex-col justify-between items-center p-4 transition-opacity ${
             hover ? "opacity-100" : "opacity-0"
           }`}
         >
           <h3 className="text-lg font-bold">
-            <Link to={`/blogs/${study.title.split(" ").join("-")}`}>
+            <Link to={`/blogs/${slugify(study.title)}`}>
               {study.title}
             </Link>
           </h3>
@@ -60,7 +61,7 @@ const BlogCards = ({ study }) => {
             {truncateText(study.description, 100)}
           </p>
           <button className="bg-[#007fff] rounded-full text-white p-2 w-full">
-            <Link to={`/blogs/${study.title.split(" ").join("-")}`}>
+            <Link to={`/blogs/${slugify(study.title)}`}>
               View Article
             </Link>
           </button>

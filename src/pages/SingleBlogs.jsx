@@ -10,7 +10,8 @@ import styles from "../css/Blogs.module.scss";
 import BlogsSection from "../components/BlogsPage/blogsSection";
 import { FaRegClock } from "react-icons/fa";
 import { formatDate } from "../utils/dateConvert";
-
+import { slugify } from "../utils/modifyUrl";
+import { use } from "react";
 const fetchBlogsContent = async () => {
   const { data } = await axios.get(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/blogs?populate=*"
@@ -20,8 +21,8 @@ const fetchBlogsContent = async () => {
 
 const SingleBlogs = () => {
   const { title } = useParams();
-  const formattedTitle = title.replace(/-/g, " ");
-
+  const formattedTitle = title;
+  console.log(formattedTitle);
   const [allData, setAllData] = useState([]);
   const [recentData, setRecentData] = useState([]);
   const [blogData, setBlogData] = useState(null);
@@ -30,12 +31,12 @@ const SingleBlogs = () => {
   const { data, isLoading, error } = useQuery({
     queryKey: ["Blogspage-content"],
     queryFn: fetchBlogsContent,
-    initialData: BlogsPageData.data,
-    initialDataUpdatedAt: 0,
-    staleTime: 1000 * 60 * 60,
-    refetchOnWindowFocus: false,
-    refetchOnReconnect: false,
-    refetchInterval: false,
+    // initialData: BlogsPageData.data,
+    // initialDataUpdatedAt: 0,
+    // staleTime: 1000 * 60 * 60,
+    // refetchOnWindowFocus: false,
+    // refetchOnReconnect: false,
+    // refetchInterval: false,
   });
 
   const BlogsData = useMemo(() => {
@@ -51,7 +52,7 @@ const SingleBlogs = () => {
       tags: item.blog_tags || [],
       category: item.blog_categories || [],
       ytlink: item.ytLink,
-      PublicDate: item.publishedAt,
+      PublicDate: item.createdAt,
     }));
   }, [data, error]);
 
@@ -59,10 +60,14 @@ const SingleBlogs = () => {
   useEffect(() => {
     setAllData(BlogsData);
   }, [BlogsData]);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [blogData]);
   // Find current blog
   useEffect(() => {
-    const foundBlog = BlogsData.find((blog) => blog.title === formattedTitle);
+    const foundBlog = BlogsData.find(
+      (blog) => slugify(blog.title) === formattedTitle
+    );
     setBlogData(foundBlog || null);
   }, [formattedTitle, BlogsData]);
 
