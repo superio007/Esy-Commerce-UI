@@ -1,7 +1,7 @@
 @use "../MainVariables" as *;
 
 .Design {
-    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+    padding: $Section-Vertical-Height $Section-Horizontal-Height calc($Section-Vertical-Height/3) $Section-Horizontal-Height;
 }
 
 .DesignHeading {

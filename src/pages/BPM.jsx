@@ -122,8 +122,8 @@ const BPM = () => {
               </section>
               {/* Data Labeling & Annotation */}
               <section className={styles.DivSpace}>
-                <div className="container mx-auto flex  md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex flex-col items-start md:text-left mb-16 md:mb-0 ">
+                <div className="container mx-auto flex  md:flex-row flex-col-reverse items-center">
+                  <div className="w-full md:w-1/2 flex flex-col items-start md:text-left ">
                     <h2 className={styles.BPMH2}>
                       {apiResponse.services_pages_points[2].title ||
                         "Data Labeling & Annotation"}

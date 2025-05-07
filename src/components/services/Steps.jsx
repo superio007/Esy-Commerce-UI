@@ -52,7 +52,7 @@ const Steps = ({ apiRes }) => {
               />
             </div>
           </div>
-          <div className={`${styles.stepsButton} flex justify-center`}>
+          <div className={`${styles.stepsButton} flex justify-start md:justify-center`}>
             <a href="#PhoneNumber" class="center-hover-btn">
               <span>Let's Talk</span>
             </a>

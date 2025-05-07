@@ -121,7 +121,7 @@ const Ecommerce = () => {
                 </div>
               </section>
               {/* Ecommerce Website Development (TechDev) */}
-              <section className={styles.DivSpace}>
+              <section>
                 <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left  md:mb-0 ">
                     <h2 className={styles.ECommH2}>

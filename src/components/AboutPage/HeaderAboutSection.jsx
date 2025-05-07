@@ -2,11 +2,32 @@ import styles from "./css/HeaderAboutSection.module.scss";
 import { MdPlayArrow } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import { IoCheckmarkOutline } from "react-icons/io5";
-import { useEffect, useState } from "react";
-
+import { BiSolidRightArrow } from "react-icons/bi";
+import { useEffect, useState, useRef } from "react";
 const HeaderSection = ({ apiRes }) => {
   console.log(apiRes);
   const [Points, setPoints] = useState([]);
+  const videoRef = useRef(null);
+  const [isVideoStarted, setIsVideoStarted] = useState(false);
+  const [videoKey, setVideoKey] = useState(0); // to force video reload
+
+  const handlePlayVideo = () => {
+    setIsVideoStarted(true);
+    // force re-render by changing key to trigger fresh load
+    setVideoKey((prev) => prev + 1);
+    setTimeout(() => {
+      if (videoRef.current) {
+        videoRef.current.controls = true;
+        videoRef.current.play();
+      }
+    }, 100); // small delay ensures poster is replaced properly
+  };
+
+  const handleVideoEnd = () => {
+    setIsVideoStarted(false);
+    setVideoKey((prev) => prev + 1); // force reload video + poster
+  };
+
   useEffect(() => {
     if (apiRes.about_hero_section_headings) {
       const points = apiRes.about_hero_section_headings.map(
@@ -51,11 +72,34 @@ const HeaderSection = ({ apiRes }) => {
                 </div>
               </div>
               <div className="md:w-1/2 flex justify-center">
-                <img
-                  src={apiRes.sideimage.url}
-                  alt={apiRes.sideimage.alternativeText || "Thumbnail"}
-                  className="max-w-full h-auto rounded-lg shadow-lg"
-                />
+                <div
+                  style={{
+                    position: "relative",
+                    maxWidth: "600px",
+                    margin: "0 auto",
+                  }}
+                >
+                  <video
+                    key={videoKey} // force video reset on each interaction
+                    ref={videoRef}
+                    src={apiRes.IntroVideo.url}
+                    className="max-w-full h-auto rounded-lg shadow-lg"
+                    poster={apiRes.sideimage.url}
+                    onEnded={handleVideoEnd}
+                    onPause={handleVideoEnd}
+                  ></video>
+
+                  {!isVideoStarted && (
+                    <div
+                      onClick={handlePlayVideo}
+                      className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[100px] h-[100px] rounded-full bg-white hover:bg-transparent hover:border-white hover:border-2 hover:cursor-pointer z-10"
+                    >
+                      <span>
+                        <BiSolidRightArrow className="text-[#007fff] text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                      </span>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           </div>

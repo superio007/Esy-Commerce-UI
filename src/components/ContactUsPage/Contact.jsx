@@ -269,7 +269,7 @@ const Conatct = ({ sectionPoints }) => {
                           : FullnameValue.length <= 0
                           ? "text-gray-500"
                           : "text-green-600"
-                      } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
+                      } duration-300 transform -translate-y-4 scale-75 top-2 z-8 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                     >
                       Enter Your Full Name
                     </label>
@@ -308,7 +308,7 @@ const Conatct = ({ sectionPoints }) => {
                           : EmailValue.length <= 0
                           ? "text-gray-500"
                           : "text-green-600"
-                      } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
+                      } duration-300 transform -translate-y-4 scale-75 top-2 z-8 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                     >
                       Enter Your Work Email
                     </label>
@@ -353,7 +353,7 @@ const Conatct = ({ sectionPoints }) => {
                           : PhoneValue.length < 10
                           ? "text-yellow-500"
                           : "text-green-600"
-                      } duration-300 transform -translate-y-4 scale-75 top-2 z-10 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
+                      } duration-300 transform -translate-y-4 scale-75 top-2 z-8 bg-[#fafafa] px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1`}
                     >
                       Enter Your Phone
                     </label>

@@ -149,7 +149,7 @@ const Design = () => {
                 </div>
               </section>
               {/* Custom Website Development */}
-              <section className={styles.DivSpace}>
+              <section>
                 <div className="flex md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
                     {/* <img

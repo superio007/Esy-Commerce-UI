@@ -1,6 +1,6 @@
 @use "../MainVariables" as *;
 .Development{
-    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+    padding: $Section-Vertical-Height $Section-Horizontal-Height calc($Section-Vertical-Height/3) $Section-Horizontal-Height;
 }
 .DevelopmentHeading{
     font-size: $font-size-hero;
