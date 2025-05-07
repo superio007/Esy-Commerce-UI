@@ -9,7 +9,7 @@
     color : $color-primary-hero !important;
 }
 .DivSpace{
-    margin-bottom: calc($Sub-Section-Vertical-Height/3);
+    margin-bottom: calc($Sub-Section-Vertical-Height);
 }
 .DevelopmentH2{
     font-size: $font-size-h2;
@@ -28,4 +28,10 @@
     line-height: $line-height-body;
     font-weight: $font-weight-regular;
     margin-bottom: calc($Sub-Section-Vertical-Height/3);
+}
+@media screen and (max-width:769px) {
+    .DivSpace{
+        margin-bottom: $Sub-Section-Vertical-Height;
+    }
+    
 }

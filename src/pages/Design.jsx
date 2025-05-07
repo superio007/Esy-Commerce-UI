@@ -47,7 +47,7 @@ const Design = () => {
             <div className="px-6 md:px-0">
               {/* YouTube Content Marketing */}
               <section className={styles.DivSpace}>
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left mb-16 md:mb-0  ">
                     <h2 className={styles.DesignH2}>
                       {apiResponse.services_pages_points[0].title ||
@@ -77,7 +77,7 @@ const Design = () => {
               </section>
               {/* LinkedIn Content Marketing */}
               <section className={styles.DivSpace}>
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
+                <div className="flex md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
                     {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
@@ -112,7 +112,7 @@ const Design = () => {
               </section>
               {/* Identity, Branding & Communication */}
               <section className={styles.DivSpace}>
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left mb-16 md:mb-0  ">
                     <h2 className={styles.DesignH2}>
                       {apiResponse.services_pages_points[2].title ||
@@ -147,7 +147,7 @@ const Design = () => {
               </section>
               {/* Custom Website Development */}
               <section className={styles.DivSpace}>
-                <div className="flex px-5 md:pt-16 pt-8 md:flex-row flex-col items-center">
+                <div className="flex md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
                     {/* <img
                       className="object-cover object-center rounded w-full max-w-md"

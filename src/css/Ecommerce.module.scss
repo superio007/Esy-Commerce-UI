@@ -12,7 +12,7 @@
 }
 
 .DivSpace {
-    margin-bottom: calc($Sub-Section-Vertical-Height/3);
+    margin-bottom: calc($Sub-Section-Vertical-Height);
 }
 
 .ECommH2 {
@@ -26,7 +26,7 @@
     font-size: $font-size-h2;
     line-height: $line-height-h2;
     font-weight: $font-weight-bold;
-    margin-top: calc($Sub-Section-Vertical-Height/3);
+    margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
 .ECommp {
@@ -34,4 +34,11 @@
     line-height: $line-height-body;
     font-weight: $font-weight-regular;
     margin-bottom: calc($Sub-Section-Vertical-Height/3);
+}
+
+@media screen and (max-width:769px) {
+    .DivSpace {
+        margin-bottom: $Sub-Section-Vertical-Height;
+    }
+
 }

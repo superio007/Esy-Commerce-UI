@@ -48,8 +48,8 @@ const BPM = () => {
           <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
             <div className="px-6 md:px-0">
               {/* Content Migration */}
-              <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+              <section className={styles.DivSpace}>
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left mb-16 md:mb-0 ">
                     <h2 className={styles.BPMH2}>
                       {apiResponse.services_pages_points[0].title ||
@@ -82,9 +82,9 @@ const BPM = () => {
                   </div>
                 </div>
               </section>
-              {/* Translation */}
-              <section className="text-gray-600 body-font">
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
+              {/* Linguastic Services */}
+              <section className={styles.DivSpace}>
+                <div className="flex md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
                     {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
@@ -118,8 +118,8 @@ const BPM = () => {
                 </div>
               </section>
               {/* Data Labeling & Annotation */}
-              <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+              <section className={styles.DivSpace}>
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col items-start md:text-left mb-16 md:mb-0 ">
                     <h2 className={styles.BPMH2}>
                       {apiResponse.services_pages_points[2].title ||

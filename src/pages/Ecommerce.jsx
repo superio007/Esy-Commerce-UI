@@ -34,19 +34,19 @@ const Ecommerce = () => {
   return (
     <>
       <HeroSection
-              title={apiResponse.service_page_hero_section.Title}
-              heading={apiResponse.service_page_hero_section.service_page_headings}
-              subHeading={apiResponse.service_page_hero_section.subHeading}
-              headline={apiResponse.service_page_hero_section.FormHeading}
-              Cta={apiResponse.service_page_hero_section.FormCTA}
-            />
+        title={apiResponse.service_page_hero_section.Title}
+        heading={apiResponse.service_page_hero_section.service_page_headings}
+        subHeading={apiResponse.service_page_hero_section.subHeading}
+        headline={apiResponse.service_page_hero_section.FormHeading}
+        Cta={apiResponse.service_page_hero_section.FormCTA}
+      />
       <div className="bg-white">
         <div className={styles.EComm}>
           <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
             <div className="px-6 md:px-0">
               {/* Ecommerce Consultation (Performance) */}
-              <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+              <section className={styles.DivSpace}>
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left  md:mb-0 ">
                     <h2 className={styles.ECommH2}>
                       {apiResponse.services_pages_points[0].title ||
@@ -71,7 +71,7 @@ const Ecommerce = () => {
                       </Link>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/2 flex justify-center">
+                  <div className="w-full mt-3 md:mt-0 md:w-1/2 flex justify-center">
                     <DotLottieReact src={ECommConsultation} loop autoplay />
                     {/* <img
                       className="w-100 object-cover object-center rounded"
@@ -82,9 +82,9 @@ const Ecommerce = () => {
                 </div>
               </section>
               {/* Ecommerce Enablement Service  */}
-              <section className="text-gray-600 body-font">
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex justify-start">
+              <section className={styles.DivSpace}>
+                <div className="flex md:flex-row flex-col items-center">
+                  <div className="w-full mt-3 md:mt-0 md:w-1/2 flex justify-center">
                     {/* <img
                       className="object-cover object-center rounded w-full max-w-md"
                       alt="hero"
@@ -118,8 +118,8 @@ const Ecommerce = () => {
                 </div>
               </section>
               {/* Ecommerce Website Development (TechDev) */}
-              <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+              <section className={styles.DivSpace}>
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left  md:mb-0 ">
                     <h2 className={styles.ECommH2}>
                       {apiResponse.services_pages_points[2].title ||

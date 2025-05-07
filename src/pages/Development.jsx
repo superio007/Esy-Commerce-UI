@@ -6,6 +6,7 @@ import CMS from "../assets/Services/CMSoption.lottie";
 import CRM from "../assets/Services/CRM.lottie";
 import CustomDevelopment from "../assets/Services/CustomeDevelopment.lottie";
 import StaffOffServices from "../assets/Services/StaffOffService.lottie";
+import AiImplementation from "../assets/Services/AiImplementation.lottie";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import DevelopmentPageData from "../Data/DevelopmentData.json";
@@ -35,26 +36,56 @@ const Development = () => {
   return (
     <>
       <HeroSection
-              title={apiResponse.service_page_hero_section.Title}
-              heading={apiResponse.service_page_hero_section.service_page_headings}
-              subHeading={apiResponse.service_page_hero_section.subHeading}
-              headline={apiResponse.service_page_hero_section.FormHeading}
-              Cta={apiResponse.service_page_hero_section.FormCTA}
-            />
+        title={apiResponse.service_page_hero_section.Title}
+        heading={apiResponse.service_page_hero_section.service_page_headings}
+        subHeading={apiResponse.service_page_hero_section.subHeading}
+        headline={apiResponse.service_page_hero_section.FormHeading}
+        Cta={apiResponse.service_page_hero_section.FormCTA}
+      />
       <div className="bg-white">
         <div className={styles.Development}>
           <div className="xl:px-10 3xl:mx-auto 3xl:max-w-screen-xl">
             <div className="px-6 md:px-0">
-              {/* CMS */}
+              {/* AI Implementation*/}
               <section className={styles.DivSpace}>
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-                  <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  md:mb-0 ">
-                    <h2 className={styles.DevelopmentH2}>
+                <div className="flex   md:flex-row flex-col items-center">
+                  <div className="w-full md:w-1/2 flex justify-start">
+                    <DotLottieReact src={AiImplementation} loop autoplay />
+                    {/* <img
+                      className="object-cover object-center rounded w-full max-w-md"
+                      alt="hero"
+                      src={StaffOffServices}
+                    /> */}
+                  </div>
+                  <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
+                    <h2 className={styles.DevelopmentH2Middle}>
                       {apiResponse.services_pages_points[0].title ||
-                        "CMS Development"}
+                        "AI Implementation"}
                     </h2>
                     <p className={styles.Developmentp}>
                       {apiResponse.services_pages_points[0].description ||
+                        ` Practical, business-aligned AI solutions that automate workflows, uncover insights, and scale with you—designed to deliver real results, not just promise potential.`}
+                    </p>
+                    <div className="flex md:justify-center">
+                      <Link to={"/staff-off-services"}>
+                        <button class="center-hover-btn">
+                          <span>Know More</span>
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/* CMS */}
+              <section className={styles.DivSpace}>
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
+                  <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  md:mb-0 ">
+                    <h2 className={styles.DevelopmentH2}>
+                      {apiResponse.services_pages_points[1].title ||
+                        "CMS Development"}
+                    </h2>
+                    <p className={styles.Developmentp}>
+                      {apiResponse.services_pages_points[1].description ||
                         `Empower your team to manage website content with ease. We
                       design and develop flexible, scalable CMS solutions using
                       platforms like WordPress, Strapi, and headless
@@ -82,7 +113,7 @@ const Development = () => {
               </section>
               {/* CRM */}
               <section className={styles.DivSpace}>
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
+                <div className="flex   md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
                     <DotLottieReact src={CRM} loop autoplay />
                     {/* <img
@@ -93,11 +124,11 @@ const Development = () => {
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left ">
                     <h2 className={styles.DevelopmentH2Middle}>
-                      {apiResponse.services_pages_points[1].title ||
+                      {apiResponse.services_pages_points[2].title ||
                         "CRM Customization"}
                     </h2>
                     <p className={styles.Developmentp}>
-                      {apiResponse.services_pages_points[1].description ||
+                      {apiResponse.services_pages_points[2].description ||
                         `We help businesses implement and optimize CRM systems that
                       centralize customer data, automate workflows, and improve
                       sales and support processes. From HubSpot to Zoho to
@@ -116,15 +147,15 @@ const Development = () => {
                 </div>
               </section>
               {/* Custom Development */}
-              <section>
-                <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+              <section className={styles.DivSpace}>
+                <div className="container mx-auto flex  md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex flex-col md:items-start text-left  md:mb-0 ">
                     <h2 className={styles.DevelopmentH2}>
-                      {apiResponse.services_pages_points[2].title ||
+                      {apiResponse.services_pages_points[3].title ||
                         "Custom Development"}
                     </h2>
                     <p className={styles.Developmentp}>
-                      {apiResponse.services_pages_points[2].description ||
+                      {apiResponse.services_pages_points[3].description ||
                         `Have a unique idea or business challenge that
                       off-the-shelf tools can’t solve? Our custom development
                       services bring your vision to life with tailored digital
@@ -151,8 +182,8 @@ const Development = () => {
                 </div>
               </section>
               {/* Staff Off Services (Remote Talent Solutions)*/}
-              <section className="text-gray-600 body-font">
-                <div className="flex px-5 md:py-16 py-8 md:flex-row flex-col items-center">
+              <section>
+                <div className="flex md:flex-row flex-col items-center">
                   <div className="w-full md:w-1/2 flex justify-start">
                     <DotLottieReact src={StaffOffServices} loop autoplay />
                     {/* <img
@@ -163,11 +194,11 @@ const Development = () => {
                   </div>
                   <div className="w-full md:w-1/2 flex flex-col items-start text-left ">
                     <h2 className={styles.DevelopmentH2Middle}>
-                      {apiResponse.services_pages_points[3].title ||
+                      {apiResponse.services_pages_points[4].title ||
                         "Staff Off Services (Remote Talent Solutions)"}
                     </h2>
                     <p className={styles.Developmentp}>
-                      {apiResponse.services_pages_points[3].description ||
+                      {apiResponse.services_pages_points[4].description ||
                         `Access skilled remote professionals across a wide range of
                       business functions without the overhead of in-house
                       hiring. Our offshore talent seamlessly integrates with
