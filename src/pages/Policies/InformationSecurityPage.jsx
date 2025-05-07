@@ -4,6 +4,7 @@ import Lottie from "../../assets/InformationSecurityPage/InformationSecurity.lot
 import styles from "../../css/InformationSecurity.module.scss";
 import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
+import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import InformationSecurityPageData from "../Data/InformationSecurityData.json";
 const fetchInformationSecurityPageDataContent = async () => {
@@ -23,6 +24,9 @@ const InformationSecurityPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const apiResponse = error
     ? InformationSecurityPageData.data || []
     : data || [];

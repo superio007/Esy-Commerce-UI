@@ -5,6 +5,7 @@ import HeroSection from "../../components/Policies/HeroSection";
 import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { useEffect } from "react";
 import DataSecurityPageData from "../Data/DataSecurityData.json";
 const fetchDataSecurityPageDataContent = async () => {
   const { data } = await axios.get(
@@ -23,6 +24,9 @@ const DataSecurityPolicyPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const apiResponse = error ? DataSecurityPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;
   return (

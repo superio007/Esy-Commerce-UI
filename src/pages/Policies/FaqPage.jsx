@@ -4,6 +4,7 @@ import Faq from "../../components/FaqPage/Faq";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import FaqPageData from "../Data/FaqData.json";
+import { useEffect } from "react";
 const fetchFaqContent = async () => {
   const { data } = await axios.get(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/faq-page?populate=*"
@@ -21,6 +22,9 @@ const FaqPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? FaqPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;

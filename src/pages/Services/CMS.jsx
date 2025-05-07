@@ -10,6 +10,7 @@ import FAQ from "../../components/services/FAQ";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import CMSPageData from "../Data/CMSData.json";
+import { useEffect } from "react";
 
 const fetchCMSContent = async () => {
   const { data } = await axios.get(
@@ -28,6 +29,9 @@ const CMS = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
 
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? CMSPageData.data || [] : data || [];

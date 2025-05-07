@@ -5,6 +5,7 @@ import Lottie from "../../assets/CodeOfConduct/Employees.lottie";
 import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { useEffect } from "react";
 import CodeofConductPageData from "../Data/CodeofConductData.json";
 const fetchCodeofConductPageDataContent = async () => {
   const { data } = await axios.get(
@@ -23,6 +24,9 @@ const CodeofConductPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const apiResponse = error ? CodeofConductPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;
   return (

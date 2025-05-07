@@ -4,6 +4,7 @@ import Lottie from "../../assets/PrivacyPolicy/Privacy.lottie";
 import styles from "../../css/PrivacyPolicyPage.module.scss";
 import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
+import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import PrivacyPageData from "../Data/PrivacyData.json";
 const fetchPrivacyPageDataContent = async () => {
@@ -23,6 +24,9 @@ const PrivacyPolicyPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const apiResponse = error ? PrivacyPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;
   return (

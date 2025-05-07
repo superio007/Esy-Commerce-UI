@@ -10,7 +10,7 @@ import FAQ from "../../components/services/FAQ";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import StaffOffServicesPageData from "../Data/StaffOffServicesData.json";
-
+import { useEffect } from "react";
 const fetchStaffOffServicesContent = async () => {
   const { data } = await axios.get(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/staff-off-service?populate[service_hero_section][populate]=*&populate[service_over_view][populate]=*&populate[key_benift][populate]=*&populate[how_it_work][populate]=*&populate[why_us][populate][why_us_points][populate]=*&populate[faq][populate]=*&populate[cta][populate]=*&populate[customer_slider][populate]=*"
@@ -28,7 +28,9 @@ const StaffOffServices = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? StaffOffServicesPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;

@@ -9,6 +9,7 @@ import CaseStudiesSection from "../../components/services/CaseStudies";
 import FAQ from "../../components/services/FAQ";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { useEffect } from "react";
 import EcommerceWebsiteDevelopmentPageData from "../Data/EcommerceWebsiteDevelopmentData.json";
 const fetchEcommerceWebsiteDevelopmentContent = async () => {
   const { data } = await axios.get(
@@ -27,7 +28,9 @@ const EcommerceWebsiteDevelopment = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
-
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error
     ? EcommerceWebsiteDevelopmentPageData.data || []

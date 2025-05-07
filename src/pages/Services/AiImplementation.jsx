@@ -9,6 +9,7 @@ import CaseStudiesSection from "../../components/services/CaseStudies";
 import FAQ from "../../components/services/FAQ";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { useEffect } from "react";
 // import AiImplentation from "../Data/EcommerceConsultationData.json";
 
 const fetchEcommerceConsultationContent = async () => {
@@ -29,6 +30,9 @@ const AiImplentation = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
 
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? AiImplentation.data || [] : data || [];

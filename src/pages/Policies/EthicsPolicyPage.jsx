@@ -4,6 +4,7 @@ import HeroSection from "../../components/Policies/HeroSection";
 import Lottie from "../../assets/EthicsPage/Employees.lottie";
 import ReactMarkdown from "../../components/Policies/ReactMarkDown";
 import axios from "axios";
+import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import EthicsPageData from "../Data/EthicsData.json";
 const fetchEthicsPageDataContent = async () => {
@@ -23,6 +24,9 @@ const EthicsPolicyPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const apiResponse = error ? EthicsPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;
   return (
