@@ -1,6 +1,6 @@
 import styles from "../css/BPM.module.scss";
 import { Link } from "react-router-dom";
-import React from "react";
+import React,{ useEffect} from "react";
 import Content from "../assets/Services/ContentMigration.lottie";
 import Translation from "../assets/Services/Translation.lottie";
 import Transcription from "../assets/Services/Transcription.lottie";
@@ -30,6 +30,9 @@ const BPM = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? BPMPageData.data || [] : data || [];
   // console.log(apiResponse);

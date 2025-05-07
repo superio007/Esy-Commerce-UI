@@ -1,6 +1,6 @@
 import styles from "../css/Design.module.scss";
 import { Link } from "react-router-dom";
-import React from "react";
+import React, { useEffect } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Youtube from "../assets/Services/YouTube.lottie";
 import LinkedIn from "../assets/Services/LinkedInContMkt.lottie";
@@ -28,6 +28,9 @@ const Design = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? DesignPageData.data || [] : data || [];
   // console.log(apiResponse);

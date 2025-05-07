@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import styles from "../css/OurPartners.module.scss";
 import HeroSection from "../components/services/HeroSection";
 import axios from "axios";
@@ -22,6 +22,9 @@ const OurPartners = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? OurPartnersData.data || [] : data || [];
   // console.log(apiResponse);

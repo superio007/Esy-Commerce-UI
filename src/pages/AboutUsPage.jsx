@@ -33,6 +33,9 @@ const About = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const apiResponse = error ? AboutPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;
   return (

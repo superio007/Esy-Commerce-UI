@@ -1,6 +1,10 @@
 import styles from "../components/PartnerPage/css/PartnerForm.module.css";
 import PartnerForm from "../components/PartnerPage/PartnerForm";
+import React,{useEffect} from "react";
 const Partner = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   return (
     <>
       <div className="bg-[#007fff]">

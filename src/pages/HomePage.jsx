@@ -9,6 +9,7 @@ import Testimonial from "../components/HomePage/Testimonial";
 // import Headless from "../components/HomePage/HeadlessCms";
 import Headless2 from "../components/HomePage/HeadlessCms2";
 import CMS from "../components/HomePage/Cms";
+import { useEffect } from "react";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import HomePageData from "../Data/HomeData.json";
@@ -30,6 +31,9 @@ const HomePage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? HomePageData.data || [] : data || [];
   // console.log(apiResponse);

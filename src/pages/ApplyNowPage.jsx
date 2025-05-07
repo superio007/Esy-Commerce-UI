@@ -27,6 +27,9 @@ const ApplyNowPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? CarrearPageData.data || [] : data || [];
   useEffect(() => {

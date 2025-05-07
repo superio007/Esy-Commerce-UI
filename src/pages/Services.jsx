@@ -1,6 +1,6 @@
 import styles from "../css/Services.module.scss";
 import { Link } from "react-router-dom";
-import React from "react";
+import React,{ useEffect} from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import ecommerce from "../assets/Services/Ecommerce.lottie";
 import design from "../assets/Services/Design.lottie";
@@ -27,6 +27,9 @@ const Services = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? ServicesPageData.data || [] : data || [];
   // console.log(apiResponse);

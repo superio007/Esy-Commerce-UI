@@ -1,6 +1,6 @@
 import styles from "../css/Ecommerce.module.scss";
 import { Link } from "react-router-dom";
-import React from "react";
+import React,{ useEffect} from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import ECommWebsiteDevelopment from "../assets/Services/EcomWebDev.lottie";
 import ECommEnablement from "../assets/Services/EcomEnablement.lottie";
@@ -27,6 +27,9 @@ const Ecommerce = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? EcommercePageData.data || [] : data || [];
   // console.log(apiResponse);

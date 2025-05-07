@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../css/ContactPage.module.scss";
 import Map from "../components/ContactUsPage/Map";
 import CustomerSlider from "../components/HomePage/UniSlider";
@@ -25,6 +25,9 @@ const ContactPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? ContactPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;

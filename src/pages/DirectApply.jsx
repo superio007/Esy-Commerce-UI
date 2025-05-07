@@ -1,7 +1,11 @@
 import ApplyNowForm from "../components/CareerPage/ApplyNowForm";
 let title = "Work With Us";
+import { useEffect } from "react";
 import styles from "../components/CareerPage/css/SinglePosting.module.scss";
 const DirectApply = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   return (
     <>
       <div

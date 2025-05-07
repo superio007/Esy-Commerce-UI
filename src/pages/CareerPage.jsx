@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import CarrearPageData from "../Data/CarrearPageData.json";
 import axios from "axios";
+import {useEffect, useState} from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   FaLaptop,
@@ -62,6 +63,9 @@ const careerPage = () => {
     refetchOnReconnect: false,
     refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? CarrearPageData.data || [] : data || [];
   if (isLoading) return <p>Loading...</p>;

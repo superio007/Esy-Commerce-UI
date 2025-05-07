@@ -4,6 +4,7 @@ import HeroSection from "../components/services/HeroSection";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import OurClientsData from "../Data/OrClientsData.json";
+import { useEffect } from "react";
 
 const fetchOurClientsPage = async () => {
   const { data } = await axios.get(
@@ -22,6 +23,9 @@ const OurClients = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? OurClientsData.data || [] : data || [];
   // console.log(apiResponse);

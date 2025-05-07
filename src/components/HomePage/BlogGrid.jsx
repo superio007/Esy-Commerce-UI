@@ -34,7 +34,7 @@ const BlogGrid = () => {
               className="grid grid-cols-5 grid-rows-7 gap-4"
             >
               <div className={`${styles.blogGrid} row-span-4`}>
-                <Link to={"/blogs/AI-is-NOT-taking-away-your-jobs!"}>
+                <Link to={"/blogs/ai-is-not-taking-away-your-jobs"}>
                   <img
                     src={Thumbnail}
                     className=" blogThumbnail rounded-2xl"
@@ -47,7 +47,7 @@ const BlogGrid = () => {
               >
                 <Link
                   to={
-                    "/blogs/AI-is-Going-Nuclear:-Why-Tech-Giants-Are-Turning-to-Nuclear-Power"
+                    "/blogs/ai-is-going-nuclear-why-tech-giants-are-turning-to-nuclear-power"
                   }
                 >
                   <img
@@ -62,7 +62,7 @@ const BlogGrid = () => {
               >
                 <Link
                   to={
-                    "/blogs/Why-India-will-NEVER-create-ChatGPT-OpenAI-o1-Preview-%7C-India-vs-Silicon-Valley-in-AI-Development"
+                    "/blogs/why-india-will-never-create-chatgpt-openai-o1-preview-india-vs-silicon-valley-in-ai-development"
                   }
                 >
                   <img
@@ -80,7 +80,7 @@ const BlogGrid = () => {
               <div
                 className={`${styles.blogGrid} col-span-2 row-span-3 col-start-3 row-start-5`}
               >
-                <Link to={"/blogs/The-REAL-Winner-of-AI"}>
+                <Link to={"/blogs/the-real-winner-of-ai"}>
                   <img
                     src={VideoThumb2}
                     className="rounded-2xl blogThumbnail w-full h-full"
@@ -91,7 +91,7 @@ const BlogGrid = () => {
               <div
                 className={`${styles.blogGrid} row-span-4 col-start-5 row-start-4`}
               >
-                <Link to={"/blogs/AI-is-NOT-taking-away-your-jobs!"}>
+                <Link to={"/blogs/ai-is-not-taking-away-your-jobs"}>
                   <img
                     src={Thumbnail}
                     className=" blogThumbnail rounded-2xl"

@@ -37,7 +37,9 @@ const SingleBlogs = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   const BlogsData = useMemo(() => {
     const apiResponse = error ? BlogsPageData.data || [] : data || [];
     // console.log(apiResponse);

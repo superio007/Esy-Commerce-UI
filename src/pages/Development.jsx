@@ -1,6 +1,6 @@
 import styles from "../css/Development.module.scss";
 import { Link } from "react-router-dom";
-import React from "react";
+import React,{ useEffect} from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import CMS from "../assets/Services/CMSoption.lottie";
 import CRM from "../assets/Services/CRM.lottie";
@@ -29,6 +29,9 @@ const Development = () => {
     // refetchOnReconnect: false,
     // refetchInterval: false,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [data]);
   // Use API data if available; fallback to static data on error
   const apiResponse = error ? DevelopmentPageData.data || [] : data || [];
   // console.log(apiResponse);
