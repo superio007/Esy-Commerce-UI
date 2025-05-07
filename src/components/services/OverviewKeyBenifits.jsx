@@ -32,12 +32,16 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
                   >
                     {overview.pointsHeading || "Key problems we solve"}:
                   </h3>
-                  <ul className={`${styles.overview} list-disc list-inside`}>
+                  <ul className={`list-disc list-inside`}>
                     {overview.overview_points.map((point, index) => (
                       <p key={index}>
-                        <li className="flex gap-2 items-center">
-                          <IoCheckmarkOutline className="text-[#007fff] text-2xl" />
-                          {point.Point}
+                        <li
+                          className={`${styles.overview} flex gap-2 items-center`}
+                        >
+                          <span>
+                            <IoCheckmarkOutline className="text-[#007fff] text-3xl md:text-2xl" />
+                          </span>
+                          <span>{point.Point}</span>
                         </li>
                       </p>
                     ))}
@@ -94,7 +98,8 @@ const OverviewKeyBenifits = ({ keyBenifits, overview }) => {
                         <path d="M22 4L12 14.01l-3-3"></path>
                       </svg>
                       <span className="title-font mr-2 w-100 text-start">
-                        {key.Heading}{key.subHeading}
+                        {key.Heading}
+                        {key.subHeading}
                       </span>
                     </p>
                   ))}
