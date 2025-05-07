@@ -22,7 +22,6 @@ const fetchBlogsContent = async () => {
 const SingleBlogs = () => {
   const { title } = useParams();
   const formattedTitle = title;
-  console.log(formattedTitle);
   const [allData, setAllData] = useState([]);
   const [recentData, setRecentData] = useState([]);
   const [blogData, setBlogData] = useState(null);
