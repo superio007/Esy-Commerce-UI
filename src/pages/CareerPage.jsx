@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import CarrearPageData from "../Data/CarrearPageData.json";
 import axios from "axios";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   FaLaptop,
@@ -143,7 +143,7 @@ const careerPage = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                   {benefits.map((benefit, index) => (
                     <div
                       key={index}
@@ -159,6 +159,40 @@ const careerPage = () => {
                       </div>
                     </div>
                   ))}
+                </div>
+                <div className="md:hidden">
+                  <Swiper
+                    modules={[Navigation, Pagination]}
+                    spaceBetween={10} // Increased gap between slides
+                    slidesPerView={1}
+                    breakpoints={{
+                      300: { slidesPerView: 1 },
+                      640: { slidesPerView: 2 },
+                      768: { slidesPerView: 2 }, // Prevent extra spacing at 1600px+
+                    }}
+                    style={{
+                      paddingBottom: "10px",
+                    }}
+                  >
+                    {benefits.map((benefit, index) => (
+                      <SwiperSlide key={index}>
+                        <div
+                          className={`${styles.benifitsCard} flex items-center justify-evenly py-11 px-7 bg-white shadow-md rounded-lg gap-10 border-gray-200`}
+                        >
+                          {benefit.icon}
+                          <div>
+                            <h3 className={styles.CaarearH3}>
+                              {benefit.title}
+                            </h3>
+                            <p className={styles.CaarearP}>
+                              We create functional and <br /> intuitive
+                              interfaces for all.
+                            </p>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
                 </div>
               </div>
             </section>

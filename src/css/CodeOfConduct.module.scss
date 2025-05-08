@@ -1,25 +1,30 @@
 @use "../MainVariables" as *;
-.CodeOfConduct{
-    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+.CodeOfConduct {
+  padding: $Section-Vertical-Height $Section-Horizontal-Height;
 }
 .CodeOfConduct li {
-    list-style-type: disc;
-    color: $Sub-Heading-Color !important;
+  list-style-position: inside;
+  list-style-type: disc;
+  color: $Sub-Heading-Color !important;
 }
-.CodeOfConduct h2{
-    font-size: $font-size-h2;
-    line-height: $line-height-h2;
-    font-weight: $font-weight-medium;
+.CodeOfConduct h2 {
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+  font-weight: $font-weight-medium;
+  margin-top: calc($Sub-Section-Vertical-Height/3);
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
 .CodeOfConduct h3 {
-    font-size: $font-size-h2;
-    line-height: $line-height-h2;
-    font-weight: $font-weight-medium;
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+  font-weight: $font-weight-medium;
+  margin-top: calc($Sub-Section-Vertical-Height/3);
+  margin-bottom: calc($Sub-Section-Vertical-Height/3);
 }
 
 .CodeOfConduct p {
-    font-size: $font-size-body;
-    line-height: $line-height-body;
-    font-weight: $font-weight-regular;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  font-weight: $font-weight-regular;
 }
