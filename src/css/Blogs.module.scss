@@ -2,6 +2,12 @@
 .Blogs h1{
     color: white !important;
 }
+.Blogs{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height;
+}
+.Blogs2{
+    padding: $Section-Vertical-Height $Section-Horizontal-Height 0 $Section-Horizontal-Height;
+}
 .markDown p{
     padding: 15px 0;
 }

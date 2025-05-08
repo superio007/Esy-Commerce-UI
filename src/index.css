@@ -63,16 +63,29 @@
 .center-hover-btn:hover::before {
   transform: translate(-50%, -50%) scale(1);
 }
+
 .responsive-video {
   width: 560px;
   height: 315px;
 }
 
+#blogs .swiper-wrapper {
+  padding: 17px 12px;
+  height: 466px;
+}
+
 @media screen and (max-width: 769px) {
+
+  #blogs .swiper-wrapper {
+    padding: 0;
+    height: auto;
+  }
+
   .responsive-video {
     width: auto !important;
     height: auto !important;
   }
+
   .center-hover-btn:active {
     transform: translate(-50%, -50%) scale(1);
   }

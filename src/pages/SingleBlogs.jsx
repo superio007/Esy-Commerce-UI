@@ -7,7 +7,7 @@ import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import BlogsPageData from "../Data/BlogsData.json";
 import styles from "../css/Blogs.module.scss";
-import BlogsSection from "../components/BlogsPage/blogsSection";
+import BlogsSection from "../components/BlogsPage/BlogSec";
 import { FaRegClock } from "react-icons/fa";
 import { formatDate } from "../utils/dateConvert";
 import { slugify } from "../utils/modifyUrl";
@@ -99,7 +99,7 @@ const SingleBlogs = () => {
     <>
       <div className="bg-[#007fff]">
         <section
-          className={`${styles.Blogs} xl:px-16 p-3 py-[80px] 3xl:mx-auto 3xl:max-w-screen-xl`}
+          className={`${styles.Blogs} xl:px-16 3xl:mx-auto 3xl:max-w-screen-xl`}
         >
           <h1 className={`text-center ${styles.blogHeading}`}>
             {blogData.title}
@@ -116,10 +116,12 @@ const SingleBlogs = () => {
       </div>
 
       <div className={`${styles.BlogsContent} bg-white`}>
-        <div className="xl:px-16 p-3 py-[80px] 3xl:mx-auto 3xl:max-w-screen-xl">
+        <div
+          className={`${styles.Blogs2} xl:px-16 3xl:mx-auto 3xl:max-w-screen-xl`}
+        >
           <div
             className={`${styles.markDown} text-lg leading-7`}
-            style={{ maxWidth: "70%", margin: "0 auto" }}
+            style={{ maxWidth: "80%", margin: "0 auto" }}
           >
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}
