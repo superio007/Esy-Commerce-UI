@@ -6,7 +6,6 @@ import CertificateSlider from "../components/HomePage/CertificationSlider";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ClientWorkSection from "../components/AboutPage/ClientWork";
 import ClientParallax from "../components/AboutPage/ClientParallax";
-import TeamSection from "../components/AboutPage/TeamMembers";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import AboutPageData from "../Data/AboutData.json";
@@ -15,7 +14,7 @@ import CustomerSlider from "../components/HomePage/CustomerSlider";
 import ClientSlider from "../components/AboutPage/ClientSlider";
 import ClientSlider2 from "../components/AboutPage/ClientSlider2";
 import styles from "../css/AboutUs.module.scss";
-import BlogGrid2 from "../components/HomePage/BlogGrid2";
+import TeamSection from "../components/AboutPage/TeamSection";
 const fetchAboutContent = async () => {
   const { data } = await axios.get(
     "http://uw0gkswco04wsogkccggkk0s.82.25.90.229.sslip.io/api/about-page?populate[certifications][populate]=*&populate[about_hero_section][populate]=*&populate[about_why_us][populate]=*&populate[about_us_core_value][populate]=*&populate[about_team_section][populate]=*&populate[about_cta][populate]=*&populate[team_members][populate]=*&populate[about_us_core_values_points][populate]=*&populate[customer_slider][populate]=*&populate[customer_slider_rev][populate]=*&populate[ClientSlider][populate]=*&populate[ClientSlider_Rev][populate]=*"
@@ -38,6 +37,7 @@ const About = () => {
     window.scrollTo(0, 0);
   }, [data]);
   const apiResponse = error ? AboutPageData.data || [] : data || [];
+  // console.log("apiRes", apiResponse);
   if (isLoading) return <p>Loading...</p>;
   return (
     <>
@@ -54,12 +54,7 @@ const About = () => {
         coreValues={apiResponse.about_us_core_values_points}
         CoreHeading={apiResponse.about_us_core_value}
       />
-      {/* <TeamSection
-        TeamMembers={apiResponse.team_members}
-        heading={apiResponse.about_team_section.Heading}
-        subHeading={apiResponse.about_team_section.subHeading}
-      /> */}
-      <BlogGrid2 />
+      <TeamSection apiRes={apiResponse.team_members} />
       <CertificateSlider
         BackColor={"#fafafa"}
         CertificationSlider={apiResponse.certifications}

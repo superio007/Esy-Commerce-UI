@@ -4,7 +4,6 @@ import BulletPoints from "../components/HomePage/BulletPoints";
 import CustomerSlider from "../components/HomePage/UniSlider";
 import Certification from "../components/HomePage/CertificationSlider";
 import BlogGrid from "../components/HomePage/BlogGrid";
-import BlogGrid2 from "../components/HomePage/BlogGrid2";
 import Testimonial from "../components/HomePage/Testimonial";
 // import Headless from "../components/HomePage/HeadlessCms";
 import Headless2 from "../components/HomePage/HeadlessCms2";
@@ -70,7 +69,6 @@ const HomePage = () => {
         <Testimonial apiRes={apiResponse.home_testamonial_section} />
         {/* Blog Grid */}
         <BlogGrid />
-        {/* <BlogGrid2 /> */}
         {/* Awards & Certification */}
         <Certification
           BackColor={"#fff"}

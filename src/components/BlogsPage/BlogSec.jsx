@@ -1,7 +1,5 @@
-import BlogCards from "./BlogCards2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { formatDate } from "../../utils/dateConvert";
 import { slugify } from "../../utils/modifyUrl";

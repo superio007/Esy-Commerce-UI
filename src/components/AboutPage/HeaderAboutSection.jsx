@@ -5,7 +5,7 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 import { BiSolidRightArrow } from "react-icons/bi";
 import { useEffect, useState, useRef } from "react";
 const HeaderSection = ({ apiRes }) => {
-  console.log(apiRes);
+  // console.log(apiRes);
   const [Points, setPoints] = useState([]);
   const videoRef = useRef(null);
   const [isVideoStarted, setIsVideoStarted] = useState(false);
