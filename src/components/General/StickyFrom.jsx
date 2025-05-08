@@ -65,7 +65,7 @@ const StickyFrom = () => {
     postStickyForm(formattedData);
 
     formattedData.data.FormTemplate = "sticky";
-    // sendMail(formattedData);
+    sendMail(formattedData);
 
     setLoading(false);
     reset();
