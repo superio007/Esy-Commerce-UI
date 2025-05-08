@@ -45,10 +45,14 @@ const StickyFrom = () => {
 
   const onSubmit = async (data) => {
     setLoading(true);
+
+    const userTokenBefore = localStorage.getItem("user-token");
+
     localStorage.setItem("user-token", JSON.stringify(encryptData(data)));
-    // Simulate API call
+
     await new Promise((resolve) => setTimeout(resolve, 2000));
     setIsUserToken(true);
+
     const formattedData = {
       data: {
         Phone: data.PhoneNumber,
@@ -56,12 +60,19 @@ const StickyFrom = () => {
         PageInfo: pageLoc,
       },
     };
+
     console.log(formattedData);
     postStickyForm(formattedData);
+
     formattedData.data.FormTemplate = "sticky";
-    sendMail(formattedData);
+    // sendMail(formattedData);
+
     setLoading(false);
     reset();
+
+    if (!userTokenBefore) {
+      window.location.reload();
+    }
   };
 
   return !isUserToken ? (
