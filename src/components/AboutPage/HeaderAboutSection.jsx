@@ -83,7 +83,7 @@ const HeaderSection = ({ apiRes }) => {
                     key={videoKey} // force video reset on each interaction
                     ref={videoRef}
                     src={apiRes.IntroVideo.url}
-                    className="max-w-full h-auto rounded-lg shadow-lg"
+                    className="w-auto h-auto rounded-lg shadow-lg"
                     poster={apiRes.sideimage.url}
                     onEnded={handleVideoEnd}
                     onPause={handleVideoEnd}
